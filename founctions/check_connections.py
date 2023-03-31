@@ -33,7 +33,7 @@ def check_malicious_connections(malicious_keywords):
 
 
 def main():
-    # 6.1
+    # 境外IP链接扫描
     foreign_ip_connections = check_foreign_ip_connections()
     if foreign_ip_connections:
         print("Foreign IP connections:")
@@ -42,7 +42,7 @@ def main():
     else:
         print("No foreign IP connections found.")
 
-    # 6.2
+    # 恶意特征链接扫描
     malicious_keywords = ["malicious", "evil"]  # 根据需要添加更多关键词
     malicious_connections = check_malicious_connections(malicious_keywords)
     if malicious_connections:

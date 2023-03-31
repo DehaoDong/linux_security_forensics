@@ -2,6 +2,7 @@ import os
 import re
 import datetime
 
+
 # 登陆日志分析
 def analyze_login_logs(log_file='/var/log/auth.log'):
     login_attempts = []
@@ -20,10 +21,12 @@ def analyze_login_logs(log_file='/var/log/auth.log'):
 
     return login_attempts
 
+
 def main():
     print("Login attempts:")
     for timestamp, result, user in analyze_login_logs():
         print(f"{timestamp}: {result} password for {user}")
+
 
 if __name__ == "__main__":
     main()

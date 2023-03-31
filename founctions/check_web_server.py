@@ -35,6 +35,7 @@ web_server_directories = {
     'lighttpd': '/var/www'
 }
 
+
 def main():
     for server_name, web_directory in web_server_directories.items():
         if '*' in web_directory:

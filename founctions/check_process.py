@@ -68,13 +68,13 @@ def main():
         print("No high resource usage processes found.")
 
     # 隐藏进程安全扫描
-    # hidden_processes = check_hidden_processes()
-    # if hidden_processes:
-    #     print("\nHidden processes:")
-    #     for process in hidden_processes:
-    #         print(f"{process.info['pid']} {process.info['name']}")
-    # else:
-    #     print("\nNo hidden processes found.")
+    hidden_processes = check_hidden_processes()
+    if hidden_processes:
+        print("\nHidden processes:")
+        for process in hidden_processes:
+            print(f"{process.info['pid']} {process.info['name']}")
+    else:
+        print("\nNo hidden processes found.")
 
     # 反弹shell类进程扫描
     reverse_shell_processes = check_reverse_shell_processes()

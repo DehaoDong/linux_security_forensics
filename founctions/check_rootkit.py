@@ -13,6 +13,7 @@ malicious_extensions = [
     '.sh'
 ]
 
+
 def scan_directory_for_malware(directory):
     for root, _, files in os.walk(directory):
         for file in files:
@@ -25,6 +26,7 @@ def scan_directory_for_malware(directory):
             if file_extension in malicious_extensions:
                 print(f"File with malicious extension found: {file_path}")
 
+
 def main():
     # 您可以根据需要更改要扫描的目录
     directories_to_scan = ['/tmp', '/usr/local']
@@ -32,6 +34,7 @@ def main():
     for directory in directories_to_scan:
         print(f"\nScanning directory '{directory}' for malware:")
         scan_directory_for_malware(directory)
+
 
 if __name__ == "__main__":
     main()
