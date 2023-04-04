@@ -28,7 +28,7 @@ def scan_directory_for_malware(directory):
 
 
 def main():
-    # 您可以根据需要更改要扫描的目录
+    # 扫描的目录
     directories_to_scan = ['/tmp', '/usr/local']
 
     for directory in directories_to_scan:

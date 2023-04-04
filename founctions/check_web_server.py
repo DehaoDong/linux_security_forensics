@@ -9,6 +9,20 @@ webshell_signatures = [
     r'(passthru\(|shell_exec\(|exec\(|system\(|popen\()'
 ]
 
+
+# 提取web服务器的web目录
+web_server_directories = {
+    'nginx': '/usr/local/nginx/html',
+    'tomcat': '/usr/local/tomcat/webapps',
+    'jetty': '/opt/jetty/webapps',
+    'apache': '/var/www/html',
+    'resin': '/usr/local/resin/webapps',
+    'jboss': '/usr/local/jboss/server/default/deploy',
+    'weblogic': '/usr/local/weblogic/user_projects/domains/*/autodeploy',
+    'lighttpd': '/var/www'
+}
+
+
 def scan_web_directory_for_webshells(directory):
     for root, _, files in os.walk(directory):
         for file in files:
@@ -22,18 +36,6 @@ def scan_web_directory_for_webshells(directory):
                         if re.search(signature, content, re.IGNORECASE):
                             print(f"Possible WebShell found: {file_path}")
                             break
-
-# 提取web服务器的web目录
-web_server_directories = {
-    'nginx': '/usr/local/nginx/html',
-    'tomcat': '/usr/local/tomcat/webapps',
-    'jetty': '/opt/jetty/webapps',
-    'apache': '/var/www/html',
-    'resin': '/usr/local/resin/webapps',
-    'jboss': '/usr/local/jboss/server/default/deploy',
-    'weblogic': '/usr/local/weblogic/user_projects/domains/*/autodeploy',
-    'lighttpd': '/var/www'
-}
 
 
 def main():
@@ -51,3 +53,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    

@@ -19,7 +19,7 @@ def check_environment_variable_backdoors():
 # Cron后门检测
 def check_cron_backdoors():
     cron_paths = ['/etc/crontab', '/etc/cron.d', '/etc/cron.daily', '/etc/cron.hourly', '/etc/cron.monthly', '/etc/cron.weekly']
-    malicious_keywords = ["malicious", "evil"]  # 根据需要添加更多关键词
+    malicious_keywords = ["malicious", "evil"]  # unfinished!!!!
     found_backdoors = []
 
     for path in cron_paths:
@@ -43,7 +43,7 @@ def check_alias_backdoors():
     found_backdoors = []
 
     for line in os.popen('alias'):
-        if 'malicious' in line or 'evil' in line:  # 根据需要添加更多关键词
+        if 'malicious' in line or 'evil' in line:  # unfinished!!!
             found_backdoors.append(line.strip())
 
     return found_backdoors
@@ -52,7 +52,7 @@ def check_alias_backdoors():
 # SSH 后门检测
 def check_ssh_backdoors():
     ssh_config_files = ['/etc/ssh/sshd_config', '/etc/ssh/ssh_config']
-    malicious_keywords = ["malicious", "evil"]  # 根据需要添加更多关键词
+    malicious_keywords = ["malicious", "evil"]  # unfinished!!!!
     found_backdoors = []
 
     for config_file in ssh_config_files:
@@ -68,7 +68,7 @@ def check_ssh_backdoors():
 # 系统配置文件后门检测
 def check_system_config_backdoors():
     config_files = ['/etc/inetd.conf', '/etc/xinetd.conf']
-    malicious_keywords = ["malicious", "evil"]  # 根据需要添加更多关键词
+    malicious_keywords = ["malicious", "evil"]  # unfinished!!!!
     found_backdoors = []
 
     for config_file in config_files:
@@ -81,7 +81,7 @@ def check_system_config_backdoors():
     return found_backdoors
 
 
-# setUID后门检测
+# 解决setUID后门检测中遍历到目录的问题
 def resolve_symlink(filepath):
     while os.path.islink(filepath):
         try:
@@ -91,6 +91,7 @@ def resolve_symlink(filepath):
     return filepath
 
 
+# setUID后门检测
 def check_setuid_backdoors():
     suspicious_files = []
     setuid_files = []
@@ -114,7 +115,7 @@ def check_setuid_backdoors():
 # 系统启动项后门检测
 def check_startup_backdoors():
     startup_paths = ['/etc/rc.d', '/etc/rc.local', '/etc/init.d', '/etc/systemd/system']
-    malicious_keywords = ["malicious", "evil"]  # 根据需要添加更多关键词
+    malicious_keywords = ["malicious", "evil"]  # unfinished!!!!
     found_backdoors = []
 
     for path in startup_paths:

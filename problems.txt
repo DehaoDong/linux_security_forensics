@@ -1,0 +1,4 @@
+1. Conditions for determining if a system has been hijacked
+2. features of backdoors
+3. necessity of checking hidden files under user directories
+4. ssh forwarding net connection on my lighter laptop

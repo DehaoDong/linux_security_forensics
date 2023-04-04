@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2953411a-e452-4043-ba4a-8822ef2caa32" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/founctions/print_and_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/webshell_features" beforeDir="false" afterPath="$PROJECT_DIR$/database/webshell_features" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/anti_system_hijacking.py" beforeDir="false" afterPath="$PROJECT_DIR$/founctions/anti_system_hijacking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_backdoors.py" beforeDir="false" afterPath="$PROJECT_DIR$/founctions/check_backdoors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_connections.py" beforeDir="false" afterPath="$PROJECT_DIR$/founctions/check_connections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/founctions/check_login_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/founctions/check_process.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/founctions/check_rootkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/founctions/check_rootkit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_users_operation_history.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/founctions/check_web_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_webshell.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/server_directories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security_forensics.py" beforeDir="false" afterPath="$PROJECT_DIR$/security_forensics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +37,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Nisu5ogqc5oXvvLIW6X61HwIe1" />
   <component name="ProjectLevelVcsManager">
@@ -55,6 +73,8 @@
       <updated>1680158457497</updated>
       <workItem from="1680158460050" duration="10000" />
       <workItem from="1680266405703" duration="1489000" />
+      <workItem from="1680582457846" duration="701000" />
+      <workItem from="1680601408999" duration="5989000" />
     </task>
     <servers />
   </component>

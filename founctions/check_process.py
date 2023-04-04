@@ -86,7 +86,7 @@ def main():
         print("\nNo reverse shell processes found.")
 
     # 恶意进程信息安全扫描
-    malicious_keywords = ["malware", "ransomware", "keylogger"]  # 根据需要添加更多关键词
+    malicious_keywords = ["malware", "ransomware", "keylogger"]  # unfinished!!!!
     malicious_processes = check_malicious_processes(malicious_keywords)
     if malicious_processes:
         print("\nMalicious processes:")

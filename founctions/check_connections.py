@@ -17,7 +17,7 @@ def check_foreign_ip_connections(country_code="CN"):
     return foreign_ip_connections
 
 
-# 恶意特征链接扫描
+# 恶意特征（常见恶意主机名）链接扫描
 def check_malicious_connections(malicious_keywords):
     malicious_connections = []
     for conn in psutil.net_connections(kind='inet'):
@@ -43,7 +43,7 @@ def main():
         print("No foreign IP connections found.")
 
     # 恶意特征链接扫描
-    malicious_keywords = ["malicious", "evil"]  # 根据需要添加更多关键词
+    malicious_keywords = ["malicious", "evil"]  # unfinished!!!!
     malicious_connections = check_malicious_connections(malicious_keywords)
     if malicious_connections:
         print("\nMalicious connections:")

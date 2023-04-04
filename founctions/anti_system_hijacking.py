@@ -2,6 +2,7 @@ import os
 import subprocess
 
 
+# 获取所有网络接口
 def get_network_interfaces():
     output = subprocess.check_output(["ip", "link", "show"]).decode("utf-8")
     interfaces = []
@@ -12,6 +13,7 @@ def get_network_interfaces():
     return interfaces
 
 
+# 断网隔离主机
 def disable_network_interfaces(interfaces):
     for interface in interfaces:
         print(f"Disabling {interface}...")
