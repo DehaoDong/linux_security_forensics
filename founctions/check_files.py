@@ -99,8 +99,8 @@ def main():
     #     print(f"\n用户目录：{user_directory}")
     #     check_user_directories(user_directory)
 
-    print("\nChecking hidden files...")
-    check_hidden_files('/home')
+    # print("\nChecking hidden files...")
+    # check_hidden_files('/home')
 
 
 if __name__ == "__main__":

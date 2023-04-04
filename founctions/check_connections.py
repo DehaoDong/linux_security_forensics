@@ -3,6 +3,7 @@ import psutil
 
 
 # 境外IP链接扫描
+# !!!!!
 def check_foreign_ip_connections(country_code="CN"):
     foreign_ip_connections = []
     for conn in psutil.net_connections(kind='inet'):
