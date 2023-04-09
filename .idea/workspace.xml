@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2953411a-e452-4043-ba4a-8822ef2caa32" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/founctions/check_app_packages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/founctions/check_deleted_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/founctions/check_startups.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/founctions/check_connections.py" beforeDir="false" afterPath="$PROJECT_DIR$/founctions/check_connections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/founctions/check_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/founctions/check_files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/problems.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,8 @@
       <workItem from="1680158460050" duration="10000" />
       <workItem from="1680266405703" duration="1489000" />
       <workItem from="1680582457846" duration="701000" />
-      <workItem from="1680601408999" duration="10297000" />
+      <workItem from="1680601408999" duration="10601000" />
+      <workItem from="1681039372815" duration="2256000" />
     </task>
     <servers />
   </component>
