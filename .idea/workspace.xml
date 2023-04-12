@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2953411a-e452-4043-ba4a-8822ef2caa32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/GeoLite2-Country.mmdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/check_connections.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_connections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/check_users_history.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_users_history_operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/check_web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_webshells.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/problems.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security_forensics.py" beforeDir="false" afterPath="$PROJECT_DIR$/security_forensics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ree/MyWork/linux_security_forensics/data",
+    "last_opened_file_path": "/home/ree/Downloads/GScan-master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,6 +77,7 @@
       <workItem from="1681039372815" duration="2916000" />
       <workItem from="1681270261809" duration="3584000" />
       <workItem from="1681274613046" duration="3015000" />
+      <workItem from="1681299355720" duration="6064000" />
     </task>
     <servers />
   </component>

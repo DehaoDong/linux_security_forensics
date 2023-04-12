@@ -1,7 +1,6 @@
 import os
 import socket
 import subprocess
-
 import geoip2
 from geoip2.database import Reader
 
