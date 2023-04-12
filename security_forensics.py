@@ -1,11 +1,11 @@
 import argparse
 import sys
 
-import founctions
+import modules
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='A program to check for system security vulnerabilities.')
-    parser.add_argument('--all', action='store_true', help='Run all checks.')
+    parser = argparse.ArgumentParser(description='LINUX SECURITY FORENSICS')
+    parser.add_argument('a', '--all', action='store_true', help='Run all checks.')
     parser.add_argument('--sysinfo', action='store_true', help='Check system information.')
     parser.add_argument('--alias', action='store_true', help='Check for suspicious aliases.')
     parser.add_argument('--backdoor', action='store_true', help='Check for backdoors.')

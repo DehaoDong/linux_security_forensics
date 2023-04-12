@@ -9,9 +9,9 @@
 
 
 libc 对抗动态库劫持 python静态编译
-files dpkg -V for checking files/app packages
-deleted files detection / process status #ls -l /proc/7273/exe
+files dpkg -V for checking files/app packages                       done
+deleted files detection / process status #ls -l /proc/7273/exe      done
 original area of connections
-detection of startups
+detection of startups                                               done
 HIDS
 内网穿透 IOX

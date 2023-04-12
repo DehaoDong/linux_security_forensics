@@ -1,11 +1,11 @@
-模块：
-1. 系统劫持对抗
-2. alias检测
-3. 后门检测
-4. 网络链接检测
-5. 文件检测
-6. 登录日志检测
-7. rootkit&恶意软件检测
-8. 用户历史操作检测
-9. 常见网络服务器的webshell检测
-10. 主机信息获取
+主要模块(main modules)：
+1. alias检测(alias check)
+2. 后门检测(backdoors check)
+3. 进程检测(processes check)
+4. 网络连接检测(network connections check)
+5. 登录日志检测(login logs check)
+6. 用户历史操作检测(user operation history check)
+7. 网络服务器检测(web severs check)
+8. 文件检测(files check)
+9. 启动项检测(startups check)
+10. app包检测(app packages check)

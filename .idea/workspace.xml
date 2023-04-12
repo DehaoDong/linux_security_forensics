@@ -5,10 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2953411a-e452-4043-ba4a-8822ef2caa32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/founctions/check_app_packages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/founctions/check_deleted_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/founctions/check_startups.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/backdoor_features" beforeDir="false" afterPath="$PROJECT_DIR$/data/backdoor_features" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/file_hash" beforeDir="false" afterPath="$PROJECT_DIR$/data/file_hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/malicious_connection_features" beforeDir="false" afterPath="$PROJECT_DIR$/data/malicious_connection_features" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/malicious_process_features" beforeDir="false" afterPath="$PROJECT_DIR$/data/malicious_process_features" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/malware_features" beforeDir="false" afterPath="$PROJECT_DIR$/data/malware_features" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/rootkit_features" beforeDir="false" afterPath="$PROJECT_DIR$/data/rootkit_features" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/server_directories" beforeDir="false" afterPath="$PROJECT_DIR$/data/server_directories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/webshell_features" beforeDir="false" afterPath="$PROJECT_DIR$/data/webshell_features" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/anti_system_hijacking.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/disable_network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_alias.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_alias.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_app_packages.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_app_packages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_backdoors.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_backdoors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_connections.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_connections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_deleted_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_source_deleted_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_login_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_login_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_rootkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_rootkit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_startups.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_startups.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_users_history.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_users_history.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/check_web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_web_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/get_host_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/get_host_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founctions/print_and_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/print_and_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/problems.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security_forensics.py" beforeDir="false" afterPath="$PROJECT_DIR$/security_forensics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +86,8 @@
       <workItem from="1680266405703" duration="1489000" />
       <workItem from="1680582457846" duration="701000" />
       <workItem from="1680601408999" duration="10601000" />
-      <workItem from="1681039372815" duration="2256000" />
+      <workItem from="1681039372815" duration="2916000" />
+      <workItem from="1681270261809" duration="2851000" />
     </task>
     <servers />
   </component>
