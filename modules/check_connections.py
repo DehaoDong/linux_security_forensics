@@ -1,58 +1,94 @@
+import os
 import socket
-import psutil
+import subprocess
+
+import geoip2
+from geoip2.database import Reader
 
 
-# 境外IP链接扫描
-# !!!!!
-def check_foreign_ip_connections(country_code="CN"):
-    foreign_ip_connections = []
-    for conn in psutil.net_connections(kind='inet'):
-        if conn.raddr:
-            try:
-                hostname = socket.gethostbyaddr(conn.raddr[0])[0]
-                if not hostname.endswith(f".{country_code}"):
-                    foreign_ip_connections.append((conn, hostname))
-            except socket.herror:
-                pass
+def get_foreign_connections(local_country_code='CN'):
+    db_path = "../data/GeoLite2-Country.mmdb"
+    geoip_reader = Reader(db_path)
 
-    return foreign_ip_connections
+    foreign_connections = []
+
+    # Get network connections using 'ss' command
+    output = subprocess.check_output(['ss', '-ntu']).decode('utf-8')
+    lines = output.strip().split('\n')
+
+    for line in lines[1:]:
+        parts = line.split()
+        remote_address = parts[4].split(':')[0]
+        remote_port = parts[4].split(':')[1]
+
+        try:
+            ip = socket.gethostbyname(remote_address)
+            response = geoip_reader.country(ip)
+
+            if response.country.iso_code != local_country_code:
+                foreign_connections.append((ip, remote_port, response.country.name))
+        except (socket.gaierror, KeyError, geoip2.errors.AddressNotFoundError):
+            pass
+
+    geoip_reader.close()
+
+    return foreign_connections
 
 
-# 恶意特征（常见恶意主机名）链接扫描
-def check_malicious_connections(malicious_keywords):
+def load_malicious_ips(file_path):
+    with open(file_path, "r") as f:
+        malicious_ips = [line.strip().split()[0] for line in f.readlines() if line.strip() and len(line.strip().split()) > 0]
+    return set(malicious_ips)
+
+
+
+def get_active_connections():
+    active_connections = []
+
+    output = subprocess.check_output(['ss', '-ntu']).decode('utf-8')
+    lines = output.strip().split('\n')
+
+    for line in lines[1:]:
+        parts = line.split()
+        remote_address = parts[4].split(':')[0]
+        remote_port = parts[4].split(':')[1]
+
+        active_connections.append((remote_address, remote_port))
+
+    return active_connections
+
+
+def detect_malicious_connections(connections, malicious_ips):
     malicious_connections = []
-    for conn in psutil.net_connections(kind='inet'):
-        if conn.raddr:
-            try:
-                hostname = socket.gethostbyaddr(conn.raddr[0])[0]
-                if any(keyword in hostname for keyword in malicious_keywords):
-                    malicious_connections.append((conn, hostname))
-            except socket.herror:
-                pass
+
+    for conn in connections:
+        ip = conn[0]
+        if ip in malicious_ips:
+            malicious_connections.append(conn)
 
     return malicious_connections
 
 
-def main():
-    # 境外IP链接扫描
-    foreign_ip_connections = check_foreign_ip_connections()
-    if foreign_ip_connections:
-        print("Foreign IP connections:")
-        for conn, hostname in foreign_ip_connections:
-            print(f"{conn.laddr[0]}:{conn.laddr[1]} -> {conn.raddr[0]}:{conn.raddr[1]} ({hostname})")
-    else:
-        print("No foreign IP connections found.")
-
-    # 恶意特征链接扫描
-    malicious_keywords = ["malicious", "evil"]  # unfinished!!!!
-    malicious_connections = check_malicious_connections(malicious_keywords)
-    if malicious_connections:
-        print("\nMalicious connections:")
-        for conn, hostname in malicious_connections:
-            print(f"{conn.laddr[0]}:{conn.laddr[1]} -> {conn.raddr[0]}:{conn.raddr[1]} ({hostname})")
-    else:
-        print("\nNo malicious connections found.")
-
-
 if __name__ == "__main__":
-    main()
+    local_country_code = 'CN'  # Change this to the local country code, e.g., 'US' for the United States
+
+    foreign_ips = get_foreign_connections(local_country_code)
+
+    if foreign_ips:
+        print("Foreign connections:")
+        for ip, port, country in foreign_ips:
+            print(f"IP: {ip}, Port: {port}, Country: {country}")
+    else:
+        print("No foreign connections detected.")
+
+    malicious_ips = load_malicious_ips("../data/ip_reputation_generic.txt")
+    active_connections = get_active_connections()
+
+    malicious_connections = detect_malicious_connections(active_connections, malicious_ips)
+
+    if malicious_connections:
+        print("Malicious connections detected:")
+        for ip, port in malicious_connections:
+            print(f"IP: {ip}, Port: {port}")
+    else:
+        print("No malicious connections detected.")
