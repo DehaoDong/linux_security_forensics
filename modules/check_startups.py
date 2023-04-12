@@ -33,7 +33,7 @@ def check_startup_items():
     return found_issues
 
 
-if __name__ == "__main__":
+def main():
     issues = check_startup_items()
 
     if issues:
@@ -42,3 +42,7 @@ if __name__ == "__main__":
             print(f"File: {issue[0]}, Line: {issue[1]}, Content: {issue[2]}")
     else:
         print("No issues found in startup items.")
+
+
+if __name__ == "__main__":
+    main()

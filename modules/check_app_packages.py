@@ -22,6 +22,9 @@ def verify_packages(packages):
             print(f"No issues found in {package}.")
 
 
-if __name__ == "__main__":
+def main():
     installed_packages = get_installed_packages()
     verify_packages(installed_packages)
+
+if __name__ == "__main__":
+    main()

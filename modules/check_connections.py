@@ -67,8 +67,7 @@ def detect_malicious_connections(connections, malicious_ips):
 
     return malicious_connections
 
-
-if __name__ == "__main__":
+def main():
     local_country_code = 'CN'  # Change this to the local country code, e.g., 'US' for the United States
 
     foreign_ips = get_foreign_connections(local_country_code)
@@ -91,3 +90,7 @@ if __name__ == "__main__":
             print(f"IP: {ip}, Port: {port}")
     else:
         print("No malicious connections detected.")
+
+
+if __name__ == "__main__":
+    main()

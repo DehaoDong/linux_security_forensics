@@ -2,7 +2,7 @@ import os
 import socket
 import datetime
 import shutil
-from pathlib import Path
+
 
 def traverse_bin_dirs(bin_dirs):
     files = []
@@ -14,12 +14,14 @@ def traverse_bin_dirs(bin_dirs):
                     files.append(file_path)
     return files
 
+
 def create_results_directory(base_path, hostname):
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     directory_name = f"{timestamp}_{hostname}"
     results_dir = os.path.join(base_path, directory_name)
     os.makedirs(results_dir, exist_ok=True)
     return results_dir
+
 
 def save_file_contents(src_file, dest_file):
     try:
@@ -28,14 +30,17 @@ def save_file_contents(src_file, dest_file):
     except Exception as e:
         print(f"Error copying file {src_file}: {e}")
 
+
 def save_results(files, results_dir):
     for file in files:
         file_name = os.path.basename(file)
         dest_file = os.path.join(results_dir, file_name)
         save_file_contents(file, dest_file)
 
+
 def compress_results(results_dir, compressed_file):
     shutil.make_archive(compressed_file, "gztar", results_dir)
+
 
 if __name__ == "__main__":
     bin_dirs = ["/bin"]

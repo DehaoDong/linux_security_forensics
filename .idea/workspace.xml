@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2953411a-e452-4043-ba4a-8822ef2caa32" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/check_app_packages.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_app_packages.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/check_connections.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_connections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/check_users_history.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_users_history_operations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/check_web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_webshells.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/problems.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/check_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/check_source_deleted_process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/check_startups.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_startups.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/security_forensics.py" beforeDir="false" afterPath="$PROJECT_DIR$/security_forensics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
     </list>
@@ -39,21 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ree/Downloads/GScan-master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ree/Downloads/GScan-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
@@ -78,6 +80,7 @@
       <workItem from="1681270261809" duration="3584000" />
       <workItem from="1681274613046" duration="3015000" />
       <workItem from="1681299355720" duration="6064000" />
+      <workItem from="1681307751877" duration="3427000" />
     </task>
     <servers />
   </component>

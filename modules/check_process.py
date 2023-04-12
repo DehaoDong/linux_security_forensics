@@ -1,4 +1,5 @@
 import os
+import subprocess
 import psutil
 import re
 
@@ -14,17 +15,33 @@ def check_high_resource_usage_processes(cpu_threshold=90, memory_threshold=90):
 
 
 # 隐藏进程安全扫描
-def check_hidden_processes():
-    hidden_processes = []
-    for process in psutil.process_iter(['pid', 'name']):
-        try:
-            cmdline = process.cmdline()
-            if not cmdline:
-                hidden_processes.append(process)
-        except psutil.AccessDenied:
-            pass
+def get_ps_processes():
+    output = subprocess.check_output(["ps", "-eo", "pid"]).decode("utf-8")
+    lines = output.strip().split('\n')
+    pids = [int(line) for line in lines[1:]]
+    return set(pids)
 
-    return hidden_processes
+
+def get_proc_processes():
+    pids = set()
+    for entry in os.scandir('/proc'):
+        if entry.is_dir() and entry.name.isdigit():
+            pids.add(int(entry.name))
+    return pids
+
+
+def detect_hidden_processes():
+    ps_processes = get_ps_processes()
+    proc_processes = get_proc_processes()
+
+    hidden_processes = proc_processes - ps_processes
+
+    if hidden_processes:
+        print("Hidden processes detected:")
+        for pid in hidden_processes:
+            print(f"PID: {pid}")
+    else:
+        print("No hidden processes detected.")
 
 
 # 反弹shell类进程扫描
@@ -57,6 +74,26 @@ def check_malicious_processes(malicious_keywords):
     return malicious_processes
 
 
+def get_running_processes():
+    output = subprocess.check_output(["ps", "-eo", "pid,comm"]).decode("utf-8")
+    lines = output.strip().split('\n')
+    processes = []
+    for line in lines[1:]:
+        pid, comm = line.split(maxsplit=1)
+        processes.append((int(pid), comm))
+    return processes
+
+
+def is_source_deleted(pid):
+    try:
+        exe_path = os.readlink(f'/proc/{pid}/exe')
+        if ' (deleted)' in exe_path:
+            return True
+    except FileNotFoundError:
+        pass
+    return False
+
+
 def main():
     # CPU和内存使用异常进程排查
     high_resource_usage_processes = check_high_resource_usage_processes()
@@ -68,13 +105,8 @@ def main():
         print("No high resource usage processes found.")
 
     # 隐藏进程安全扫描
-    hidden_processes = check_hidden_processes()
-    if hidden_processes:
-        print("\nHidden processes:")
-        for process in hidden_processes:
-            print(f"{process.info['pid']} {process.info['name']}")
-    else:
-        print("\nNo hidden processes found.")
+    print("\nHidden processes:")
+    detect_hidden_processes()
 
     # 反弹shell类进程扫描
     reverse_shell_processes = check_reverse_shell_processes()
@@ -94,6 +126,13 @@ def main():
             print(f"{process.info['pid']} {process.info['name']} Cmdline: {' '.join(process.info['cmdline'])}")
     else:
         print("\nNo malicious processes found.")
+
+    # 扫描源文件已被删除的进程
+    print("\nSource deleted processes:")
+    running_processes = get_running_processes()
+    for pid, comm in running_processes:
+        if is_source_deleted(pid):
+            print(f"Process {comm} (PID: {pid}) has its source deleted.")
 
 
 if __name__ == "__main__":

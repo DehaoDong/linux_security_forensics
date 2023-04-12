@@ -1,9 +1,7 @@
 import argparse
 import sys
-
 from modules import check_alias, check_process, check_connections, check_login_log, check_users_history_operations, \
-    check_webshells, check_files, check_startups, check_app_packages
-from modules import check_backdoors
+    check_webshells, check_files, check_startups, check_app_packages, check_backdoors
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='LINUX SECURITY FORENSICS', add_help=False)
@@ -17,7 +15,8 @@ if __name__ == "__main__":
                         default='./results/',
                         dest='output_dir',
                         help='指定取证结果存储目录（默认为\'./results\'）   '
-                             + 'Specify the directory for storing forensics result(default is \'./result\').')
+                             + 'Specify the directory for storing forensics result(default is \'./result\').'
+                        )
     parser.add_argument('-a', '--all', action='store_true', help='运行所有检查   Run all checks.')
     parser.add_argument('--alias', action='store_true', help='检查Alias   Check aliases.')
     parser.add_argument('--backdoor', action='store_true', help='检查后门   Check for backdoors.')
@@ -33,7 +32,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     output_dir = args.output_dir
-    print(f"输出目录为：(output directory):{output_dir}")
+    print(f"输出目录(output directory)：{output_dir}")
 
     if len(sys.argv) == 1:
         parser.print_help()
@@ -41,10 +40,6 @@ if __name__ == "__main__":
 
     if args.all:
         print('Running all checks...\n')
-        # get_system_info()
-        # check_aliases()
-        # check_backdoors()
-        # check_webshells()
     else:
         if args.alias:
             print("\nChecking aliases...\n")
