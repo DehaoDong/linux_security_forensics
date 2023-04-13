@@ -1,16 +1,14 @@
 import argparse
+import os
 import sys
 
 from modules import check_alias, check_process, check_connections, check_login_log, check_users_history_operations, \
     check_webshells, check_files, check_startups, check_app_packages, check_backdoors, output_result, get_host_info, log
 
-# 取证结果路径
-result_path = './results/default_result'
-# 日志路径
-log_path = './log/default_log.txt'
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='LINUX SECURITY FORENSICS', add_help=False)
+    # running options
+    parser = argparse.ArgumentParser(description='LINUX SECURITY FORENSICS\n', add_help=False)
     parser.add_argument(
         '-h', '--help',
         action='help',
@@ -43,43 +41,43 @@ if __name__ == "__main__":
     # get host information
     host_info = get_host_info.get_host_info()
 
-    # creat new result
-    result_path = output_result.create_result_directory(args.output_dir, host_info['hostname'])
-    print(f"取证结果存放目录(directory for storing forensics result)：{result_path}/")
-
     # creat new log
     log_path = log.creat_new_log()
+    os.environ['log_path'] = log_path
+
+    # creat new result
+    result_dir = output_result.create_result_directory(args.output_dir, host_info['Node Name']) + '/'
+    os.environ['result_dir'] = result_dir
+    log.print_and_log(f"取证结果存放目录(directory for storing forensics result)：{result_dir}\n")
+
+    # print host information
+    log.print_and_log("系统信息(System information):")
+    output_result.write_content("host_info.txt", "系统信息(System information):")
+    for key, value in host_info.items():
+        log.print_and_log(f"{key}: {value}")
+        output_result.write_content("host_info.txt", f"{key}: {value}")
+    print("")
 
     if args.all:
-        print('执行所有检查(Running all checks)...\n')
+        log.print_and_log('执行所有检查(Running all checks)...\n')
     else:
         if args.alias:
-            print("\nChecking aliases...\n")
             check_alias.main()
         if args.backdoor:
-            print('Checking for backdoors...\n')
             check_backdoors.main()
         if args.process:
-            print('Checking processes...\n')
             check_process.main()
         if args.connection:
-            print('Checking net connections...\n')
             check_connections.main()
         if args.login:
-            print('Checking user login logs...\n')
             check_login_log.main()
         if args.operation:
-            print('Checking user history operations...\n')
             check_users_history_operations.main()
         if args.webshell:
-            print('Checking for webshells...\n')
             check_webshells.main()
         if args.file:
-            print('Checking files...\n')
             check_files.main()
         if args.startup:
-            print('Checking startups...\n')
             check_startups.main()
         if args.package:
-            print('Checking app packages...\n')
             check_app_packages.main()

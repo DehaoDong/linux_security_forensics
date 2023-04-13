@@ -1,7 +1,5 @@
 import os
-import re
 import glob
-import pwd
 
 
 # 各种环境变量后门检测

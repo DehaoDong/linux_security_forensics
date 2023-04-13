@@ -4,7 +4,7 @@
 3. 进程检测(processes check)
 4. 网络连接检测(network connections check)
 5. 登录日志检测(login logs check)
-6. 用户历史操作检测(user operation history check)
+6. 用户历史操作检测(user history operations check)
 7. 网络服务器检测(web severs check)
 8. 文件检测(files check)
 9. 启动项检测(startups check)

@@ -4,10 +4,11 @@ import time
 
 
 def print_and_log(message):
-    print(message)
-    logging.basicConfig(filename='../log/log.txt', level=logging.INFO, format='%(asctime)s - %(message)s')
+    log_path = os.environ.get('log_path')
 
-    # print and log the input string
+    print(message)
+
+    logging.basicConfig(filename=log_path, level=logging.INFO, format='%(asctime)s\n%(message)s\n')
     logging.info(message)
 
 
@@ -18,5 +19,5 @@ def creat_new_log():
     # 创建日志文件
     log_filename = f"{current_time}_log.txt"
     log_file_path = os.path.join('./log', log_filename)
-    open(log_file_path, "w")
+    open(log_file_path, "wb")
     return log_file_path

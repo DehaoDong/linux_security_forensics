@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2953411a-e452-4043-ba4a-8822ef2caa32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/output_result.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/print_and_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2023-04-13_00-59-16_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/reverse_shell_processes_features" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2023-04-13_01-00-20_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2023-04-13_01-04-56_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2023-04-13_01-05_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/check_alias.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_alias.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/check_backdoors.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_backdoors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/check_connections.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_connections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/check_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/get_host_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/get_host_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/output_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/output_result.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/security_forensics.py" beforeDir="false" afterPath="$PROJECT_DIR$/security_forensics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,21 +87,16 @@
       <workItem from="1681274613046" duration="3015000" />
       <workItem from="1681299355720" duration="6064000" />
       <workItem from="1681307751877" duration="8438000" />
+      <workItem from="1681357811405" duration="8256000" />
+      <workItem from="1681388696834" duration="9852000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/log.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/linux_security_forensics$check_alias.coverage" NAME="check_alias Coverage Results" MODIFIED="1681366538356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/linux_security_forensics$security_forensics.coverage" NAME="security_forensics Coverage Results" MODIFIED="1681363274381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
