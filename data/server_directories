@@ -1,8 +1,8 @@
-'nginx': '/usr/local/nginx/html',
-'tomcat': '/usr/local/tomcat/webapps',
-'jetty': '/opt/jetty/webapps',
-'apache': '/var/www/html',
-'resin': '/usr/local/resin/webapps',
-'jboss': '/usr/local/jboss/server/default/deploy',
-'weblogic': '/usr/local/weblogic/user_projects/domains/*/autodeploy',
-'lighttpd': '/var/www'
+nginx,/usr/local/nginx/html
+tomcat,/usr/local/tomcat/webapps
+jetty,/opt/jetty/webapps
+apache,/var/www/html
+resin,/usr/local/resin/webapps
+jboss,/usr/local/jboss/server/default/deploy
+weblogic,/usr/local/weblogic/user_projects/domains/*/autodeploy
+lighttpd,/var/www

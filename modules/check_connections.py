@@ -99,6 +99,7 @@ def detect_malicious_connections():
 
 
 def main():
+    log.print_and_log("Checking connections...")
     # 获取所有连接详情
     connections = get_network_connections()
     for conn in connections:

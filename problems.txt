@@ -15,3 +15,8 @@ original area of connections                                        done
 detection of startups                                               done
 HIDS
 内网穿透 IOX
+
+
+
+
+done: alias, connection, proc

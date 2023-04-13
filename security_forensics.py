@@ -3,8 +3,8 @@ import os
 import sys
 
 from modules import check_alias, check_process, check_connections, check_login_log, check_users_history_operations, \
-    check_webshells, check_files, check_startups, check_app_packages, check_backdoors, output_result, get_host_info, log
-
+    check_webshells, check_files, check_startups, check_app_packages, check_backdoors, output_result, get_host_info, \
+    log, get_users_info, back_up_important_system_files
 
 if __name__ == "__main__":
     # running options
@@ -21,13 +21,15 @@ if __name__ == "__main__":
                         help='指定取证结果存储目录(Specify directory for storing forensics result) <default is \'./results\'>'
                         )
     parser.add_argument('-a', '--all', action='store_true', help='运行所有检查(Run all checks)')
+    parser.add_argument('--user', action='store_true', help='备份用户信息(Back up users\' information)')
+    parser.add_argument('--systemfile', action='store_true', help='备份重要系统文件(Back up important system files)')
     parser.add_argument('--alias', action='store_true', help='检查Alias(Check aliases)')
     parser.add_argument('--backdoor', action='store_true', help='检查后门(Check for backdoors)')
     parser.add_argument('--process', action='store_true', help='检查进程(Check processes)')
     parser.add_argument('--connection', action='store_true', help='检查网络连接(Check net connections)')
     parser.add_argument('--login', action='store_true', help='检查用户登录日志(Check user login logs)')
     parser.add_argument('--operation', action='store_true', help='检查用户历史操作(Check user history operations)')
-    parser.add_argument('--webshell', action='store_true', help='检查webshell(Check for webshells)')
+    parser.add_argument('--webserver', action='store_true', help='检查webshell(Check for webshells)')
     parser.add_argument('--file', action='store_true', help='检查异常文件(Check files)')
     parser.add_argument('--startup', action='store_true', help='检查系统启动项(Check startups)')
     parser.add_argument('--package', action='store_true', help='检查应用程序包(Check app packages)')
@@ -36,6 +38,7 @@ if __name__ == "__main__":
 
     if len(sys.argv) == 1:
         parser.print_help()
+        print("\n*请使用root模式运行(Please run in root mode)\n")
         sys.exit()
 
     # get host information
@@ -63,21 +66,37 @@ if __name__ == "__main__":
     else:
         if args.alias:
             check_alias.main()
+            print("")
+        if args.user:
+            get_users_info.main()
+            print()
+        if args.systemfile:
+            back_up_important_system_files.main()
+            print()
         if args.backdoor:
             check_backdoors.main()
+            print("")
         if args.process:
             check_process.main()
+            print("")
         if args.connection:
             check_connections.main()
+            print("")
         if args.login:
             check_login_log.main()
+            print("")
         if args.operation:
             check_users_history_operations.main()
-        if args.webshell:
+            print("")
+        if args.webserver:
             check_webshells.main()
+            print("")
         if args.file:
             check_files.main()
+            print("")
         if args.startup:
             check_startups.main()
+            print("")
         if args.package:
             check_app_packages.main()
+            print("")
