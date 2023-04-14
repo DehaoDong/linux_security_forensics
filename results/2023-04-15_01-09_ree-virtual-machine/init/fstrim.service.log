@@ -1,0 +1,16 @@
+3月 22 19:50:24 ree-virtual-machine systemd[1]: Starting Discard unused blocks on filesystems from /etc/fstab...
+3月 22 19:50:24 ree-virtual-machine systemd[1]: fstrim.service: Deactivated successfully.
+3月 22 19:50:24 ree-virtual-machine systemd[1]: Finished Discard unused blocks on filesystems from /etc/fstab.
+-- Boot 9e3eeb915f5e4d0aab1fa06627dc238a --
+3月 27 12:09:07 ree-virtual-machine systemd[1]: Starting Discard unused blocks on filesystems from /etc/fstab...
+3月 27 12:09:08 ree-virtual-machine systemd[1]: fstrim.service: Deactivated successfully.
+3月 27 12:09:08 ree-virtual-machine systemd[1]: Finished Discard unused blocks on filesystems from /etc/fstab.
+-- Boot 436dee14f55b451a880859c1f76478af --
+4月 03 22:11:20 ree-virtual-machine systemd[1]: Starting Discard unused blocks on filesystems from /etc/fstab...
+4月 03 22:11:21 ree-virtual-machine systemd[1]: fstrim.service: Deactivated successfully.
+4月 03 22:11:21 ree-virtual-machine systemd[1]: Finished Discard unused blocks on filesystems from /etc/fstab.
+-- Boot 125b443d38b7450fbc1c404530e9dc9e --
+4月 12 11:47:15 ree-virtual-machine systemd[1]: Starting Discard unused blocks on filesystems from /etc/fstab...
+4月 12 11:47:15 ree-virtual-machine systemd[1]: fstrim.service: Deactivated successfully.
+4月 12 11:47:15 ree-virtual-machine systemd[1]: Finished Discard unused blocks on filesystems from /etc/fstab.
+

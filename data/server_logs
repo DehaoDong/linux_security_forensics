@@ -1,0 +1,9 @@
+nginx,/var/log/nginx/
+tomcat,/usr/local/tomcat/logs/
+jetty,/opt/jetty/logs/
+apache,/var/log/apache2/
+apache,/var/log/httpd/
+resin,/usr/local/resin/log/
+jboss,/usr/local/jboss/server/default/log/
+weblogic,/usr/local/weblogic/user_projects/domains/*/logs/
+lighttpd,/var/log/lighttpd/

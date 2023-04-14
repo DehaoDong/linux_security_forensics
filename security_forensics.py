@@ -3,8 +3,8 @@ import os
 import sys
 
 from modules import check_alias, check_process, check_connections, check_login_log, check_users_history_operations, \
-    check_webshells, check_files, check_startups, check_app_packages, check_backdoors, output_result, get_host_info, \
-    log, get_users_info, back_up_important_system_files
+    check_webservers, check_files, check_startups, check_app_packages, check_backdoors, output_result, get_host_info, \
+    log, get_users_info, back_up_important_system_files, check_ssh
 
 if __name__ == "__main__":
     # running options
@@ -25,11 +25,12 @@ if __name__ == "__main__":
     parser.add_argument('--systemfile', action='store_true', help='备份重要系统文件(Back up important system files)')
     parser.add_argument('--alias', action='store_true', help='检查Alias(Check aliases)')
     parser.add_argument('--backdoor', action='store_true', help='检查后门(Check for backdoors)')
+    parser.add_argument('--ssh', action='store_true', help='检查SSH(Check ssh)')
     parser.add_argument('--process', action='store_true', help='检查进程(Check processes)')
     parser.add_argument('--connection', action='store_true', help='检查网络连接(Check net connections)')
     parser.add_argument('--login', action='store_true', help='检查用户登录日志(Check user login logs)')
     parser.add_argument('--operation', action='store_true', help='检查用户历史操作(Check user history operations)')
-    parser.add_argument('--webserver', action='store_true', help='检查webshell(Check for webshells)')
+    parser.add_argument('--server', action='store_true', help='检查web服务器(Check web servers)')
     parser.add_argument('--file', action='store_true', help='检查异常文件(Check files)')
     parser.add_argument('--startup', action='store_true', help='检查系统启动项(Check startups)')
     parser.add_argument('--package', action='store_true', help='检查应用程序包(Check app packages)')
@@ -76,22 +77,25 @@ if __name__ == "__main__":
         if args.backdoor:
             check_backdoors.main()
             print("")
+        if args.ssh:
+            check_ssh.main()
+            print()
         if args.process:
             check_process.main()
             print("")
         if args.connection:
             check_connections.main()
             print("")
-        if args.login:
+        if args.login: #un
             check_login_log.main()
             print("")
-        if args.operation:
+        if args.operation:#un
             check_users_history_operations.main()
             print("")
-        if args.webserver:
-            check_webshells.main()
+        if args.server:
+            check_webservers.main()
             print("")
-        if args.file:
+        if args.file:#
             check_files.main()
             print("")
         if args.startup:

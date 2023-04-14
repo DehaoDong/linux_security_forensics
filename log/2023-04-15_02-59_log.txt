@@ -1,0 +1,40 @@
+2023-04-15 02:59:48,796
+取证结果存放目录(directory for storing forensics result)：./results/2023-04-15_02-59_ree-virtual-machine/
+
+
+2023-04-15 02:59:48,796
+系统信息(System information):
+
+2023-04-15 02:59:48,796
+Operating System: Linux
+
+2023-04-15 02:59:48,796
+Node Name: ree-virtual-machine
+
+2023-04-15 02:59:48,796
+Release: 5.19.0-38-generic
+
+2023-04-15 02:59:48,796
+Version: #39~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 17 21:16:15 UTC 2
+
+2023-04-15 02:59:48,797
+Machine: x86_64
+
+2023-04-15 02:59:48,797
+Processor: x86_64
+
+2023-04-15 02:59:48,797
+IP Address: 192.168.101.20
+
+2023-04-15 02:59:48,797
+CPU Cores: 4
+
+2023-04-15 02:59:48,797
+Total Memory: 15.59 GB
+
+2023-04-15 02:59:48,797
+Total Disk Space: 48.42 GB
+
+2023-04-15 02:59:48,797
+No suspicious SSH logins found.
+

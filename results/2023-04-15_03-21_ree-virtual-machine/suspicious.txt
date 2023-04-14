@@ -1,0 +1,6 @@
+临时文件 /tmp/.ICE-unix/1796 可被执行！
+临时文件 /tmp/.ICE-unix/1139 可被执行！
+临时文件 /tmp/.X11-unix/X1024 可被执行！
+临时文件 /tmp/.X11-unix/X1025 可被执行！
+临时文件 /tmp/.X11-unix/X0 可被执行！
+临时文件 /tmp/.X11-unix/X1 可被执行！

@@ -49,7 +49,7 @@ def main():
         output_result.write_content("users_info.txt", '')
 
     if not login_records:
-        print("No login records found.")
+        log.print_and_log("No login records found.")
 
 
 if __name__ == "__main__":

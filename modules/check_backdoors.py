@@ -1,167 +1,208 @@
 import os
 import glob
+import subprocess
+import re
+
+from modules import log,output_result
 
 
-# 各种环境变量后门检测
+def check_conf(tag, file_path, mode='only'):
+    try:
+        if not os.path.exists(file_path) or os.path.isdir(file_path):
+            return ""
+
+        with open(file_path) as f:
+            for line in f:
+                if len(line) < 3 or line[0] == '#':
+                    continue
+                if mode == 'only' and f'export {tag}' in line:
+                    return line
+        return ""
+    except:
+        return ""
+
+
+def check_tag(tag, mode='only'):
+    suspicious = False
+    files = [
+        '/root/.bashrc', '/root/.tcshrc', '/root/.bash_profile', '/root/.cshrc', '/root/.tcshrc',
+        '/etc/bashrc', '/etc/profile', '/etc/profile.d/', '/etc/csh.login', '/etc/csh.cshrc'
+    ]
+    home_files = ['/.bashrc', '/.bash_profile', '/.tcshrc', '/.cshrc', '/.tcshrc']
+
+    for dir in os.listdir('/home/'):
+        for home_file in home_files:
+            file = os.path.join(f'/home/{dir}{home_file}')
+            info = check_conf(tag, file, mode)
+            if info:
+                suspicious = True
+
+    for file in files:
+        if os.path.isdir(file):
+            for f in glob.glob(os.path.join(file, '*')):
+                info = check_conf(tag, f, mode)
+                if info:
+                    suspicious = True
+        else:
+            info = check_conf(tag, file, mode)
+            if info:
+                suspicious = True
+
+    return suspicious
+
+
 def check_environment_variable_backdoors():
     backdoor_variables = ['LD_PRELOAD', 'LD_AOUT_PRELOAD', 'LD_ELF_PRELOAD', 'LD_LIBRARY_PATH', 'PROMPT_COMMAND']
     found_backdoors = []
 
     for var in backdoor_variables:
+        # 检查运行中的环境变量
         if var in os.environ:
             found_backdoors.append((var, os.environ[var]))
+        # 检查配置文件中的环境变量
+        if (var not in os.environ or (var, os.environ[var]) not in found_backdoors) and check_tag(var):
+            found_backdoors.append(var)
+
+    return found_backdoors
 
     return found_backdoors
 
 
-# Cron后门检测
-def check_cron_backdoors():
-    cron_paths = ['/etc/crontab', '/etc/cron.d', '/etc/cron.daily', '/etc/cron.hourly', '/etc/cron.monthly', '/etc/cron.weekly']
-    malicious_keywords = ["malicious", "evil"]  # unfinished!!!!
-    found_backdoors = []
-
-    for path in cron_paths:
-        if os.path.isfile(path):
-            with open(path) as f:
-                for line_number, line in enumerate(f, start=1):
-                    if any(keyword in line for keyword in malicious_keywords):
-                        found_backdoors.append((path, line_number, line.strip()))
-        elif os.path.isdir(path):
-            for cron_file in glob.glob(os.path.join(path, '*')):
-                with open(cron_file) as f:
-                    for line_number, line in enumerate(f, start=1):
-                        if any(keyword in line for keyword in malicious_keywords):
-                            found_backdoors.append((cron_file, line_number, line.strip()))
-
-    return found_backdoors
+# Check for ld.so.preload backdoor
+def check_ld_so_preload_backdoors():
+    ld_so_preload_path = '/etc/ld.so.preload'
+    sopreload_backdoors = []
+    if os.path.exists(ld_so_preload_path):
+        with open(ld_so_preload_path) as f:
+            content = f.read().strip()
+            if content:
+                sopreload_backdoors.append(('ld.so.preload', content))
+    return sopreload_backdoors
 
 
-# Alias后门
-def check_alias_backdoors():
-    found_backdoors = []
+def is_malicious_cron(file_path):
+    # 这是一个包含已知恶意字符串的示例列表，您可以根据需要扩展此列表
+    malicious_strings = ['rm -rf', 'wget', 'curl', 'nc']
 
-    for line in os.popen('alias'):
-        if 'malicious' in line or 'evil' in line:  # unfinished!!!
-            found_backdoors.append(line.strip())
-
-    return found_backdoors
-
-
-# SSH 后门检测
-def check_ssh_backdoors():
-    ssh_config_files = ['/etc/ssh/sshd_config', '/etc/ssh/ssh_config']
-    malicious_keywords = ["malicious", "evil"]  # unfinished!!!!
-    found_backdoors = []
-
-    for config_file in ssh_config_files:
-        if os.path.isfile(config_file):
-            with open(config_file) as f:
-                for line_number, line in enumerate(f, start=1):
-                    if any(keyword in line for keyword in malicious_keywords):
-                        found_backdoors.append((config_file, line_number, line.strip()))
-
-    return found_backdoors
+    with open(file_path) as f:
+        content = f.read()
+        for malicious_string in malicious_strings:
+            if malicious_string in content:
+                return True
+    return False
 
 
-# 系统配置文件后门检测
-def check_system_config_backdoors():
-    config_files = ['/etc/inetd.conf', '/etc/xinetd.conf']
-    malicious_keywords = ["malicious", "evil"]  # unfinished!!!!
-    found_backdoors = []
-
-    for config_file in config_files:
-        if os.path.isfile(config_file):
-            with open(config_file) as f:
-                for line_number, line in enumerate(f, start=1):
-                    if any(keyword in line for keyword in malicious_keywords):
-                        found_backdoors.append((config_file, line_number, line.strip()))
-
-    return found_backdoors
-
-
-# 解决setUID后门检测中遍历到目录的问题
-def resolve_symlink(filepath):
-    while os.path.islink(filepath):
-        try:
-            filepath = os.readlink(filepath)
-        except FileNotFoundError:
-            break
-    return filepath
-
-
-# setUID后门检测
-def check_setuid_backdoors():
+def check_cron():
     suspicious_files = []
-    setuid_files = []
-
-    for root, dirs, files in os.walk('/', followlinks=False):
-        for file in files:
-            filepath = os.path.join(root, file)
-            filepath = resolve_symlink(filepath)
-            try:
-                file_stat = os.stat(filepath)
-                if file_stat.st_mode & os.path.stat.S_ISUID:
-                    setuid_files.append(filepath)
-                    if file_stat.st_uid != 0:
-                        suspicious_files.append(filepath)
-            except FileNotFoundError:
-                pass
-
-    return suspicious_files, setuid_files
+    cron_dirs = [
+        '/etc/cron.d', '/etc/cron.hourly', '/etc/cron.daily',
+        '/etc/cron.weekly', '/etc/cron.monthly'
+    ]
+    for cron_dir in cron_dirs:
+        if os.path.isdir(cron_dir):
+            for file in glob.glob(os.path.join(cron_dir, '*')):
+                if is_malicious_cron(file):
+                    suspicious_files.append(file)
+    return suspicious_files
 
 
-# 系统启动项后门检测
-def check_startup_backdoors():
-    startup_paths = ['/etc/rc.d', '/etc/rc.local', '/etc/init.d', '/etc/systemd/system']
-    malicious_keywords = ["malicious", "evil"]  # unfinished!!!!
-    found_backdoors = []
+def check_ssh():
+    suspicious_sshd = []
+    output = subprocess.check_output(['ps', 'aux'])
+    for line in output.splitlines():
+        if b'sshd' in line:
+            if not b'root' in line and not b'22' in line:
+                suspicious_sshd.append(line)
+    return suspicious_sshd
 
-    for path in startup_paths:
-        if os.path.isfile(path):
-            with open(path) as f:
-                for line_number, line in enumerate(f, start=1):
-                    if any(keyword in line for keyword in malicious_keywords):
-                        found_backdoors.append((path, line_number, line.strip()))
-        elif os.path.isdir(path):
-            for startup_file in glob.glob(os.path.join(path, '*')):
-                if os.path.isfile(startup_file):
-                    with open(startup_file) as f:
-                        for line_number, line in enumerate(f, start=1):
-                            if any(keyword in line for keyword in malicious_keywords):
-                                found_backdoors.append((startup_file, line_number, line.strip()))
 
-    return found_backdoors
+def check_ssh_wrapper():
+    sshd_path = '/usr/sbin/sshd'
+    if os.path.exists(sshd_path) and os.path.isfile(sshd_path):
+        return not os.access(sshd_path, os.X_OK)
+    return False
+
+
+def check_inetd():
+    suspicious_inetd = []
+    inetd_conf = '/etc/inetd.conf'
+    if os.path.exists(inetd_conf):
+        with open(inetd_conf) as f:
+            for line in f:
+                if line and line[0] != '#' and re.search(r'\b(?:echo|discard|chargen|daytime|time)\b', line):
+                    suspicious_inetd.append(line)
+    return suspicious_inetd
+
+
+def check_xinetd():
+    suspicious_xinetd = []
+    xinetd_conf_dir = '/etc/xinetd.d'
+    if os.path.exists(xinetd_conf_dir) and os.path.isdir(xinetd_conf_dir):
+        for file in glob.glob(os.path.join(xinetd_conf_dir, '*')):
+            with open(file) as f:
+                for line in f:
+                    if line and line[0] != '#' and 'disable' in line and 'no' in line:
+                        suspicious_xinetd.append(file)
+                        break
+    return suspicious_xinetd
+
+
+def check_setuid():
+    suspicious_setuid_files = []
+    output = subprocess.check_output(['find', '/', '-perm', '-4000', '-type', 'f', '2>/dev/null'])
+    for line in output.splitlines():
+        if b'/usr/bin/passwd' not in line and b'/usr/bin/chsh' not in line:
+            suspicious_setuid_files.append(line)
+    return suspicious_setuid_files
 
 
 def main():
-    # 各种后门检测示例
-    print("Environment variable backdoors:")
-    for var, value in check_environment_variable_backdoors():
-        print(f"{var}: {value}")
-    print("\nCron backdoors:")
-    for path, line_number, line in check_cron_backdoors():
-        print(f"{path} (line {line_number}): {line}")
+    environment_variable_backdoors = check_environment_variable_backdoors()
+    if environment_variable_backdoors:
+        log.print_and_log("Found environment variable backdoors:")
+        for backdoor in environment_variable_backdoors:
+            log.print_and_log(backdoor)
+    else:
+        log.print_and_log("No environment variable backdoors found")
 
-    print("\nAlias backdoors:")
-    for alias in check_alias_backdoors():
-        print(alias)
+    sopreload_backdoors = check_ld_so_preload_backdoors()
+    if sopreload_backdoors:
+        log.print_and_log("Found ld.so.preload backdoors:")
+        for backdoor in sopreload_backdoors:
+            log.print_and_log(backdoor)
+    else:
+        log.print_and_log("No ld.so.preload backdoors found")
 
-    print("\nSSH backdoors:")
-    for config_file, line_number, line in check_ssh_backdoors():
-        print(f"{config_file} (line {line_number}): {line}")
+    cron_backdoors = check_cron()
+    if cron_backdoors:
+        log.print_and_log("Found cron backdoors:")
+        for backdoor in cron_backdoors:
+            log.print_and_log(backdoor)
+    else:
+        log.print_and_log("No cron backdoors found")
 
-    print("\nSystem config backdoors:")
-    for config_file, line_number, line in check_system_config_backdoors():
-        print(f"{config_file} (line {line_number}): {line}")
+    ssh_backdoors = check_ssh()
+    if ssh_backdoors:
+        log.print_and_log("Found SSH backdoors:")
+        for backdoor in ssh_backdoors:
+            log.print_and_log(backdoor)
+    else:
+        log.print_and_log("No SSH backdoors found")
 
-    print("\nSetUID backdoors:")
-    suspicious_files, setuid_files = check_setuid_backdoors()
-    print(f"Suspicious SetUID files: {', '.join(suspicious_files)}")
-    print(f"Total SetUID files: {len(setuid_files)}")
+    sshwrapper_backdoor = check_ssh_wrapper()
+    if sshwrapper_backdoor:
+        log.print_and_log("Found SSH wrapper backdoor:")
+        log.print_and_log(sshwrapper_backdoor)
+    else:
+        log.print_and_log("No SSH wrapper backdoor found")
 
-    print("\nStartup backdoors:")
-    for startup_file, line_number, line in check_startup_backdoors():
-        print(f"{startup_file} (line {line_number}): {line}")
+    inetd_backdoors = check_inetd()
+    if inetd_backdoors:
+        log.print_and_log("Found inetd backdoors:")
+        for backdoor in inetd_backdoors:
+            log.print_and_log(backdoor)
+    else:
+        log.print_and_log("No inetd backdoors found")
 
 
 if __name__ == "__main__":

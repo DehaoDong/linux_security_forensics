@@ -1,0 +1,988 @@
+2月 20 18:38:52 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[900]: No valid path found for iw
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[1005]: WARNING: systemd-networkd is not running, output will be incomplete.
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[900]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[900]: Traceback (most recent call last):
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[900]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[900]:     self.handle_state(iface_name,
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[900]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[900]:     raise UnknownState(operational_state)
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[900]: UnknownState: n/a
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[900]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[900]: Traceback (most recent call last):
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[900]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[900]:     self.handle_state(iface_name,
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[900]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[900]:     raise UnknownState(operational_state)
+2月 20 18:38:52 ree-virtual-machine networkd-dispatcher[900]: UnknownState: n/a
+2月 20 18:38:52 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+2月 20 18:52:48 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+2月 20 18:52:48 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+2月 20 18:52:48 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 59a08585a9874716bda9035a442e266a --
+2月 20 18:52:55 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[870]: No valid path found for iw
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[986]: WARNING: systemd-networkd is not running, output will be incomplete.
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[870]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[870]: Traceback (most recent call last):
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[870]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[870]:     self.handle_state(iface_name,
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[870]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[870]:     raise UnknownState(operational_state)
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[870]: UnknownState: n/a
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[870]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[870]: Traceback (most recent call last):
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[870]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[870]:     self.handle_state(iface_name,
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[870]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[870]:     raise UnknownState(operational_state)
+2月 20 18:52:56 ree-virtual-machine networkd-dispatcher[870]: UnknownState: n/a
+2月 20 18:52:56 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+-- Boot 4e50f35765d14836ba11bf87868d3690 --
+2月 21 18:32:15 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[881]: No valid path found for iw
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[1013]: WARNING: systemd-networkd is not running, output will be incomplete.
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[881]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[881]: Traceback (most recent call last):
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[881]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[881]:     self.handle_state(iface_name,
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[881]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[881]:     raise UnknownState(operational_state)
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[881]: UnknownState: n/a
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[881]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[881]: Traceback (most recent call last):
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[881]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[881]:     self.handle_state(iface_name,
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[881]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[881]:     raise UnknownState(operational_state)
+2月 21 18:32:16 ree-virtual-machine networkd-dispatcher[881]: UnknownState: n/a
+2月 21 18:32:16 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+2月 21 18:41:05 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+2月 21 18:41:05 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+2月 21 18:41:05 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 378ef5fc52a64e67810e6fa7a9ee31e6 --
+2月 21 18:42:26 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[849]: No valid path found for iw
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[999]: WARNING: systemd-networkd is not running, output will be incomplete.
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[849]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[849]: Traceback (most recent call last):
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[849]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[849]:     self.handle_state(iface_name,
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[849]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[849]:     raise UnknownState(operational_state)
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[849]: UnknownState: n/a
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[849]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[849]: Traceback (most recent call last):
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[849]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[849]:     self.handle_state(iface_name,
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[849]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[849]:     raise UnknownState(operational_state)
+2月 21 18:42:27 ree-virtual-machine networkd-dispatcher[849]: UnknownState: n/a
+2月 21 18:42:27 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+2月 21 19:01:35 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+2月 21 19:01:35 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+2月 21 19:01:35 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 48d666794bf9483ca7ebe0e999848072 --
+2月 21 19:01:44 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[886]: No valid path found for iw
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[1002]: WARNING: systemd-networkd is not running, output will be incomplete.
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[886]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[886]: Traceback (most recent call last):
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[886]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[886]:     self.handle_state(iface_name,
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[886]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[886]:     raise UnknownState(operational_state)
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[886]: UnknownState: n/a
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[886]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[886]: Traceback (most recent call last):
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[886]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[886]:     self.handle_state(iface_name,
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[886]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[886]:     raise UnknownState(operational_state)
+2月 21 19:01:45 ree-virtual-machine networkd-dispatcher[886]: UnknownState: n/a
+2月 21 19:01:45 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+2月 21 19:02:28 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+2月 21 19:02:28 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+2月 21 19:02:28 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot a0299816d1d24b8ab70b7c10b1502239 --
+2月 21 19:02:36 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[883]: No valid path found for iw
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[1009]: WARNING: systemd-networkd is not running, output will be incomplete.
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[883]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[883]: Traceback (most recent call last):
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[883]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[883]:     self.handle_state(iface_name,
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[883]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[883]:     raise UnknownState(operational_state)
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[883]: UnknownState: n/a
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[883]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[883]: Traceback (most recent call last):
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[883]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[883]:     self.handle_state(iface_name,
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[883]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[883]:     raise UnknownState(operational_state)
+2月 21 19:02:37 ree-virtual-machine networkd-dispatcher[883]: UnknownState: n/a
+2月 21 19:02:37 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+2月 21 19:17:46 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+2月 21 19:17:46 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+2月 21 19:17:46 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 7319c95352634624b166e30456e7d6e8 --
+2月 21 19:17:55 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[868]: No valid path found for iw
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[1009]: WARNING: systemd-networkd is not running, output will be incomplete.
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[868]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[868]: Traceback (most recent call last):
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[868]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[868]:     self.handle_state(iface_name,
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[868]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[868]:     raise UnknownState(operational_state)
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[868]: UnknownState: n/a
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[868]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[868]: Traceback (most recent call last):
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[868]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[868]:     self.handle_state(iface_name,
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[868]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[868]:     raise UnknownState(operational_state)
+2月 21 19:17:56 ree-virtual-machine networkd-dispatcher[868]: UnknownState: n/a
+2月 21 19:17:56 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+2月 21 19:23:02 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+2月 21 19:23:02 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+2月 21 19:23:02 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot e6c010b640444a48974c34b34cbf889b --
+2月 21 19:23:10 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[811]: No valid path found for iw
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[929]: WARNING: systemd-networkd is not running, output will be incomplete.
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[811]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[811]: Traceback (most recent call last):
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[811]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[811]:     self.handle_state(iface_name,
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[811]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[811]:     raise UnknownState(operational_state)
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[811]: UnknownState: n/a
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[811]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[811]: Traceback (most recent call last):
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[811]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[811]:     self.handle_state(iface_name,
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[811]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[811]:     raise UnknownState(operational_state)
+2月 21 19:23:11 ree-virtual-machine networkd-dispatcher[811]: UnknownState: n/a
+2月 21 19:23:11 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+2月 21 19:50:53 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+2月 21 19:50:53 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+2月 21 19:50:53 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 9ce45ab8fa0345b987fea497f44c5051 --
+3月 10 20:00:44 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[802]: No valid path found for iw
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[961]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[802]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[802]: Traceback (most recent call last):
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[802]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[802]:     self.handle_state(iface_name,
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[802]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[802]:     raise UnknownState(operational_state)
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[802]: UnknownState: n/a
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[802]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[802]: Traceback (most recent call last):
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[802]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[802]:     self.handle_state(iface_name,
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[802]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[802]:     raise UnknownState(operational_state)
+3月 10 20:00:45 ree-virtual-machine networkd-dispatcher[802]: UnknownState: n/a
+3月 10 20:00:45 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 10 20:30:58 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 10 20:30:58 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 10 20:30:58 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 78840721b8c14d03929c91da9cf2989f --
+3月 15 11:06:35 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[856]: No valid path found for iw
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[953]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[856]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[856]: Traceback (most recent call last):
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[856]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[856]:     self.handle_state(iface_name,
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[856]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[856]:     raise UnknownState(operational_state)
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[856]: UnknownState: n/a
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[856]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[856]: Traceback (most recent call last):
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[856]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[856]:     self.handle_state(iface_name,
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[856]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[856]:     raise UnknownState(operational_state)
+3月 15 11:06:35 ree-virtual-machine networkd-dispatcher[856]: UnknownState: n/a
+3月 15 11:06:35 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 15 11:27:13 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 15 11:27:13 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 15 11:27:13 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot ca9b2e5e215f4f3fbeb8e0a2983e83e6 --
+3月 22 19:19:57 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[785]: No valid path found for iw
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[963]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[785]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[785]: Traceback (most recent call last):
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[785]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[785]:     self.handle_state(iface_name,
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[785]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[785]:     raise UnknownState(operational_state)
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[785]: UnknownState: n/a
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[785]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[785]: Traceback (most recent call last):
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[785]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[785]:     self.handle_state(iface_name,
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[785]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[785]:     raise UnknownState(operational_state)
+3月 22 19:20:01 ree-virtual-machine networkd-dispatcher[785]: UnknownState: n/a
+3月 22 19:20:01 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 22 19:56:18 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 22 19:56:18 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 22 19:56:18 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot ee7967cec9534f4aa0162aa833ebf2b7 --
+3月 22 19:56:29 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[912]: No valid path found for iw
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[1015]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[912]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[912]: Traceback (most recent call last):
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[912]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[912]:     self.handle_state(iface_name,
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[912]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[912]:     raise UnknownState(operational_state)
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[912]: UnknownState: n/a
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[912]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[912]: Traceback (most recent call last):
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[912]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[912]:     self.handle_state(iface_name,
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[912]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[912]:     raise UnknownState(operational_state)
+3月 22 19:56:29 ree-virtual-machine networkd-dispatcher[912]: UnknownState: n/a
+3月 22 19:56:29 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+-- Boot 9e3eeb915f5e4d0aab1fa06627dc238a --
+3月 25 22:03:00 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[841]: No valid path found for iw
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[986]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[841]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[841]: Traceback (most recent call last):
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[841]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[841]:     self.handle_state(iface_name,
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[841]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[841]:     raise UnknownState(operational_state)
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[841]: UnknownState: n/a
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[841]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[841]: Traceback (most recent call last):
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[841]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[841]:     self.handle_state(iface_name,
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[841]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[841]:     raise UnknownState(operational_state)
+3月 25 22:03:00 ree-virtual-machine networkd-dispatcher[841]: UnknownState: n/a
+3月 25 22:03:00 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+-- Boot cce731051b6244c4a03f32893ae3c956 --
+3月 28 10:31:04 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[847]: No valid path found for iw
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[960]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[847]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[847]: Traceback (most recent call last):
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[847]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[847]:     self.handle_state(iface_name,
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[847]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[847]:     raise UnknownState(operational_state)
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[847]: UnknownState: n/a
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[847]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[847]: Traceback (most recent call last):
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[847]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[847]:     self.handle_state(iface_name,
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[847]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[847]:     raise UnknownState(operational_state)
+3月 28 10:31:04 ree-virtual-machine networkd-dispatcher[847]: UnknownState: n/a
+3月 28 10:31:04 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+-- Boot 2a886fae77824755a4d8c5453e54eec8 --
+3月 29 11:43:32 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[790]: No valid path found for iw
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[964]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[790]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[790]: Traceback (most recent call last):
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[790]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[790]:     self.handle_state(iface_name,
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[790]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[790]:     raise UnknownState(operational_state)
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[790]: UnknownState: n/a
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[790]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[790]: Traceback (most recent call last):
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[790]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[790]:     self.handle_state(iface_name,
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[790]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[790]:     raise UnknownState(operational_state)
+3月 29 11:43:32 ree-virtual-machine networkd-dispatcher[790]: UnknownState: n/a
+3月 29 11:43:32 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 29 12:42:33 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 29 12:42:34 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 29 12:42:34 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot bb0991777ac541be83385906c043308d --
+3月 29 12:42:42 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[855]: No valid path found for iw
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[996]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[855]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[855]: Traceback (most recent call last):
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[855]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[855]:     self.handle_state(iface_name,
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[855]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[855]:     raise UnknownState(operational_state)
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[855]: UnknownState: n/a
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[855]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[855]: Traceback (most recent call last):
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[855]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[855]:     self.handle_state(iface_name,
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[855]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[855]:     raise UnknownState(operational_state)
+3月 29 12:42:42 ree-virtual-machine networkd-dispatcher[855]: UnknownState: n/a
+3月 29 12:42:42 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 29 12:50:43 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 29 12:50:43 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 29 12:50:43 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot d7712a95bc0b49358ac3d7c9a0282431 --
+3月 29 13:18:47 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[906]: No valid path found for iw
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[1008]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[906]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[906]: Traceback (most recent call last):
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[906]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[906]:     self.handle_state(iface_name,
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[906]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[906]:     raise UnknownState(operational_state)
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[906]: UnknownState: n/a
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[906]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[906]: Traceback (most recent call last):
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[906]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[906]:     self.handle_state(iface_name,
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[906]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[906]:     raise UnknownState(operational_state)
+3月 29 13:18:47 ree-virtual-machine networkd-dispatcher[906]: UnknownState: n/a
+3月 29 13:18:47 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 29 13:23:16 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 29 13:23:16 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 29 13:23:16 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 19b4dd46eb7b4597999d4311a7fcd580 --
+3月 29 13:24:44 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[740]: No valid path found for iw
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[909]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[740]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[740]: Traceback (most recent call last):
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[740]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[740]:     self.handle_state(iface_name,
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[740]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[740]:     raise UnknownState(operational_state)
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[740]: UnknownState: n/a
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[740]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[740]: Traceback (most recent call last):
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[740]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[740]:     self.handle_state(iface_name,
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[740]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[740]:     raise UnknownState(operational_state)
+3月 29 13:24:44 ree-virtual-machine networkd-dispatcher[740]: UnknownState: n/a
+3月 29 13:24:44 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+-- Boot 9d814a28020a4d1b8dc1b211140df378 --
+3月 30 14:04:52 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[849]: No valid path found for iw
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[958]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[849]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[849]: Traceback (most recent call last):
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[849]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[849]:     self.handle_state(iface_name,
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[849]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[849]:     raise UnknownState(operational_state)
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[849]: UnknownState: n/a
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[849]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[849]: Traceback (most recent call last):
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[849]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[849]:     self.handle_state(iface_name,
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[849]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[849]:     raise UnknownState(operational_state)
+3月 30 14:04:52 ree-virtual-machine networkd-dispatcher[849]: UnknownState: n/a
+3月 30 14:04:52 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 30 14:58:38 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 30 14:58:39 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 30 14:58:39 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 84aa09a898d145c7a959de6db29053d7 --
+3月 30 15:02:21 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[854]: No valid path found for iw
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[982]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[854]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[854]: Traceback (most recent call last):
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[854]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[854]:     self.handle_state(iface_name,
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[854]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[854]:     raise UnknownState(operational_state)
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[854]: UnknownState: n/a
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[854]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[854]: Traceback (most recent call last):
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[854]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[854]:     self.handle_state(iface_name,
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[854]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[854]:     raise UnknownState(operational_state)
+3月 30 15:02:21 ree-virtual-machine networkd-dispatcher[854]: UnknownState: n/a
+3月 30 15:02:21 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 30 15:02:52 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 30 15:02:52 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 30 15:02:52 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot aa4829cf4bad48fb9f7b1a4eb947f5c0 --
+3月 30 15:03:27 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[917]: No valid path found for iw
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[1023]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[917]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[917]: Traceback (most recent call last):
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[917]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[917]:     self.handle_state(iface_name,
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[917]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[917]:     raise UnknownState(operational_state)
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[917]: UnknownState: n/a
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[917]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[917]: Traceback (most recent call last):
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[917]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[917]:     self.handle_state(iface_name,
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[917]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[917]:     raise UnknownState(operational_state)
+3月 30 15:03:27 ree-virtual-machine networkd-dispatcher[917]: UnknownState: n/a
+3月 30 15:03:27 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 30 15:03:35 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 30 15:03:35 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 30 15:03:35 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 00a7e42d2b624b439bea376a3bc361f1 --
+3月 30 15:14:14 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[833]: No valid path found for iw
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[952]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[833]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[833]: Traceback (most recent call last):
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[833]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[833]:     self.handle_state(iface_name,
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[833]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[833]:     raise UnknownState(operational_state)
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[833]: UnknownState: n/a
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[833]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[833]: Traceback (most recent call last):
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[833]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[833]:     self.handle_state(iface_name,
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[833]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[833]:     raise UnknownState(operational_state)
+3月 30 15:14:14 ree-virtual-machine networkd-dispatcher[833]: UnknownState: n/a
+3月 30 15:14:14 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 30 15:15:05 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 30 15:15:05 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 30 15:15:05 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 1516c1af27714148858b849306510739 --
+3月 30 15:23:25 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[816]: No valid path found for iw
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[938]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[816]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[816]: Traceback (most recent call last):
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[816]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[816]:     self.handle_state(iface_name,
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[816]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[816]:     raise UnknownState(operational_state)
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[816]: UnknownState: n/a
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[816]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[816]: Traceback (most recent call last):
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[816]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[816]:     self.handle_state(iface_name,
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[816]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[816]:     raise UnknownState(operational_state)
+3月 30 15:23:25 ree-virtual-machine networkd-dispatcher[816]: UnknownState: n/a
+3月 30 15:23:25 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 30 15:38:16 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 30 15:38:16 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 30 15:38:16 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 9069828abd4b41e5829b4880b07ecdde --
+3月 30 15:38:53 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[835]: No valid path found for iw
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[949]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[835]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[835]: Traceback (most recent call last):
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[835]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[835]:     self.handle_state(iface_name,
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[835]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[835]:     raise UnknownState(operational_state)
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[835]: UnknownState: n/a
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[835]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[835]: Traceback (most recent call last):
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[835]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[835]:     self.handle_state(iface_name,
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[835]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[835]:     raise UnknownState(operational_state)
+3月 30 15:38:53 ree-virtual-machine networkd-dispatcher[835]: UnknownState: n/a
+3月 30 15:38:53 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+-- Boot 76e16ebfbeab47788bc4dd8853d9fe7e --
+3月 30 17:34:19 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[872]: No valid path found for iw
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[1041]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[872]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[872]: Traceback (most recent call last):
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[872]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[872]:     self.handle_state(iface_name,
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[872]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[872]:     raise UnknownState(operational_state)
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[872]: UnknownState: n/a
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[872]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[872]: Traceback (most recent call last):
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[872]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[872]:     self.handle_state(iface_name,
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[872]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[872]:     raise UnknownState(operational_state)
+3月 30 17:34:19 ree-virtual-machine networkd-dispatcher[872]: UnknownState: n/a
+3月 30 17:34:19 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 30 20:32:24 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 30 20:32:24 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 30 20:32:24 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot e249c720d58849269d73a22f14ee6fb9 --
+3月 30 20:32:33 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[887]: No valid path found for iw
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[1013]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[887]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[887]: Traceback (most recent call last):
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[887]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[887]:     self.handle_state(iface_name,
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[887]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[887]:     raise UnknownState(operational_state)
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[887]: UnknownState: n/a
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[887]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[887]: Traceback (most recent call last):
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[887]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[887]:     self.handle_state(iface_name,
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[887]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[887]:     raise UnknownState(operational_state)
+3月 30 20:32:33 ree-virtual-machine networkd-dispatcher[887]: UnknownState: n/a
+3月 30 20:32:33 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+-- Boot 9ccccf2adff74839b8fba49d83281f8b --
+3月 30 22:53:44 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[851]: No valid path found for iw
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[957]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[851]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[851]: Traceback (most recent call last):
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[851]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[851]:     self.handle_state(iface_name,
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[851]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[851]:     raise UnknownState(operational_state)
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[851]: UnknownState: n/a
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[851]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[851]: Traceback (most recent call last):
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[851]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[851]:     self.handle_state(iface_name,
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[851]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[851]:     raise UnknownState(operational_state)
+3月 30 22:53:44 ree-virtual-machine networkd-dispatcher[851]: UnknownState: n/a
+3月 30 22:53:44 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 30 23:30:42 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 30 23:30:42 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 30 23:30:42 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 308f7b0f7a274f0bb6200973f34667b6 --
+3月 31 00:22:28 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[854]: No valid path found for iw
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[965]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[854]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[854]: Traceback (most recent call last):
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[854]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[854]:     self.handle_state(iface_name,
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[854]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[854]:     raise UnknownState(operational_state)
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[854]: UnknownState: n/a
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[854]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[854]: Traceback (most recent call last):
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[854]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[854]:     self.handle_state(iface_name,
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[854]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[854]:     raise UnknownState(operational_state)
+3月 31 00:22:28 ree-virtual-machine networkd-dispatcher[854]: UnknownState: n/a
+3月 31 00:22:28 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 31 00:27:29 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 31 00:27:29 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 31 00:27:29 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot d85c7c53e5114994bc2f0f623b3af509 --
+3月 31 19:12:16 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[844]: No valid path found for iw
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[968]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[844]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[844]: Traceback (most recent call last):
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[844]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[844]:     self.handle_state(iface_name,
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[844]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[844]:     raise UnknownState(operational_state)
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[844]: UnknownState: n/a
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[844]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[844]: Traceback (most recent call last):
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[844]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[844]:     self.handle_state(iface_name,
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[844]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[844]:     raise UnknownState(operational_state)
+3月 31 19:12:16 ree-virtual-machine networkd-dispatcher[844]: UnknownState: n/a
+3月 31 19:12:17 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 31 19:35:33 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 31 19:35:33 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 31 19:35:33 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 09785a07d95540b1ad518945fbcc300d --
+3月 31 19:43:50 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[853]: No valid path found for iw
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[955]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[853]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[853]: Traceback (most recent call last):
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[853]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[853]:     self.handle_state(iface_name,
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[853]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[853]:     raise UnknownState(operational_state)
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[853]: UnknownState: n/a
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[853]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[853]: Traceback (most recent call last):
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[853]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[853]:     self.handle_state(iface_name,
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[853]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[853]:     raise UnknownState(operational_state)
+3月 31 19:43:50 ree-virtual-machine networkd-dispatcher[853]: UnknownState: n/a
+3月 31 19:43:50 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+3月 31 19:44:59 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+3月 31 19:44:59 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+3月 31 19:44:59 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 436dee14f55b451a880859c1f76478af --
+3月 31 21:10:03 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[865]: No valid path found for iw
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[967]: WARNING: systemd-networkd is not running, output will be incomplete.
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[865]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[865]: Traceback (most recent call last):
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[865]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[865]:     self.handle_state(iface_name,
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[865]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[865]:     raise UnknownState(operational_state)
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[865]: UnknownState: n/a
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[865]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[865]: Traceback (most recent call last):
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[865]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[865]:     self.handle_state(iface_name,
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[865]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[865]:     raise UnknownState(operational_state)
+3月 31 21:10:03 ree-virtual-machine networkd-dispatcher[865]: UnknownState: n/a
+3月 31 21:10:03 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 03 22:12:10 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+4月 03 22:12:10 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+4月 03 22:12:10 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot e2fd3a66bd3b4bd68261cb94d3fee451 --
+4月 04 12:20:46 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[810]: No valid path found for iw
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[973]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[810]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[810]: Traceback (most recent call last):
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[810]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[810]:     self.handle_state(iface_name,
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[810]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[810]:     raise UnknownState(operational_state)
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[810]: UnknownState: n/a
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[810]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[810]: Traceback (most recent call last):
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[810]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[810]:     self.handle_state(iface_name,
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[810]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[810]:     raise UnknownState(operational_state)
+4月 04 12:20:47 ree-virtual-machine networkd-dispatcher[810]: UnknownState: n/a
+4月 04 12:20:47 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 04 17:35:37 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+4月 04 17:35:37 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+4月 04 17:35:37 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 25dbee67bff049baa23eecea014b8763 --
+4月 04 17:35:54 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[880]: No valid path found for iw
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[997]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[880]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[880]: Traceback (most recent call last):
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[880]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[880]:     self.handle_state(iface_name,
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[880]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[880]:     raise UnknownState(operational_state)
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[880]: UnknownState: n/a
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[880]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[880]: Traceback (most recent call last):
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[880]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[880]:     self.handle_state(iface_name,
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[880]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[880]:     raise UnknownState(operational_state)
+4月 04 17:35:54 ree-virtual-machine networkd-dispatcher[880]: UnknownState: n/a
+4月 04 17:35:54 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 04 20:54:00 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+4月 04 20:54:00 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+4月 04 20:54:00 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 0d532a9de8ef4df1a92a1cc3f8ce562d --
+4月 09 19:14:33 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[801]: No valid path found for iw
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[980]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[801]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[801]: Traceback (most recent call last):
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[801]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[801]:     self.handle_state(iface_name,
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[801]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[801]:     raise UnknownState(operational_state)
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[801]: UnknownState: n/a
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[801]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[801]: Traceback (most recent call last):
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[801]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[801]:     self.handle_state(iface_name,
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[801]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[801]:     raise UnknownState(operational_state)
+4月 09 19:14:33 ree-virtual-machine networkd-dispatcher[801]: UnknownState: n/a
+4月 09 19:14:33 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 09 19:17:43 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+4月 09 19:17:43 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+4月 09 19:17:43 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 66c095c2b40d4348bbbaa9bd9371fd5b --
+4月 09 19:21:17 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[828]: No valid path found for iw
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[952]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[828]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[828]: Traceback (most recent call last):
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[828]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[828]:     self.handle_state(iface_name,
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[828]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[828]:     raise UnknownState(operational_state)
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[828]: UnknownState: n/a
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[828]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[828]: Traceback (most recent call last):
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[828]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[828]:     self.handle_state(iface_name,
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[828]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[828]:     raise UnknownState(operational_state)
+4月 09 19:21:20 ree-virtual-machine networkd-dispatcher[828]: UnknownState: n/a
+4月 09 19:21:20 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 09 21:44:17 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+4月 09 21:44:17 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+4月 09 21:44:17 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 125b443d38b7450fbc1c404530e9dc9e --
+4月 12 11:21:57 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[918]: No valid path found for iw
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[1040]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[918]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[918]: Traceback (most recent call last):
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[918]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[918]:     self.handle_state(iface_name,
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[918]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[918]:     raise UnknownState(operational_state)
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[918]: UnknownState: n/a
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[918]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[918]: Traceback (most recent call last):
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[918]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[918]:     self.handle_state(iface_name,
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[918]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[918]:     raise UnknownState(operational_state)
+4月 12 11:21:57 ree-virtual-machine networkd-dispatcher[918]: UnknownState: n/a
+4月 12 11:21:57 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 12 12:31:43 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+4月 12 12:31:43 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+4月 12 12:31:43 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot e043495edc834fd3b8de378cf5b742ab --
+4月 12 12:32:37 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[832]: No valid path found for iw
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[962]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[832]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[832]: Traceback (most recent call last):
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[832]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[832]:     self.handle_state(iface_name,
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[832]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[832]:     raise UnknownState(operational_state)
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[832]: UnknownState: n/a
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[832]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[832]: Traceback (most recent call last):
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[832]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[832]:     self.handle_state(iface_name,
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[832]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[832]:     raise UnknownState(operational_state)
+4月 12 12:32:38 ree-virtual-machine networkd-dispatcher[832]: UnknownState: n/a
+4月 12 12:32:38 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 12 13:58:16 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+4月 12 13:58:16 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+4月 12 13:58:16 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 9296bd89129642f58a1e422116180a89 --
+4月 12 19:33:18 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[921]: No valid path found for iw
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[1032]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[921]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[921]: Traceback (most recent call last):
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[921]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[921]:     self.handle_state(iface_name,
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[921]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[921]:     raise UnknownState(operational_state)
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[921]: UnknownState: n/a
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[921]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[921]: Traceback (most recent call last):
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[921]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[921]:     self.handle_state(iface_name,
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[921]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[921]:     raise UnknownState(operational_state)
+4月 12 19:33:19 ree-virtual-machine networkd-dispatcher[921]: UnknownState: n/a
+4月 12 19:33:19 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 12 21:30:57 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+4月 12 21:30:57 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+4月 12 21:30:57 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot e44af90cbb3e49179059ad1de25c45d0 --
+4月 12 21:31:07 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[848]: No valid path found for iw
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[1004]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[848]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[848]: Traceback (most recent call last):
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[848]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[848]:     self.handle_state(iface_name,
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[848]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[848]:     raise UnknownState(operational_state)
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[848]: UnknownState: n/a
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[848]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[848]: Traceback (most recent call last):
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[848]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[848]:     self.handle_state(iface_name,
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[848]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[848]:     raise UnknownState(operational_state)
+4月 12 21:31:07 ree-virtual-machine networkd-dispatcher[848]: UnknownState: n/a
+4月 12 21:31:07 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 12 21:48:57 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+4月 12 21:48:57 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+4月 12 21:48:57 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 670c3aae65b84f6c8708951f52467260 --
+4月 12 21:49:13 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[896]: No valid path found for iw
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[1013]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[896]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[896]: Traceback (most recent call last):
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[896]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[896]:     self.handle_state(iface_name,
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[896]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[896]:     raise UnknownState(operational_state)
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[896]: UnknownState: n/a
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[896]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[896]: Traceback (most recent call last):
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[896]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[896]:     self.handle_state(iface_name,
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[896]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[896]:     raise UnknownState(operational_state)
+4月 12 21:49:13 ree-virtual-machine networkd-dispatcher[896]: UnknownState: n/a
+4月 12 21:49:13 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 12 21:53:20 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+4月 12 21:53:20 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+4月 12 21:53:20 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 73255c0c6dec4ce4bca99ec2ceb12507 --
+4月 12 21:53:28 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[816]: No valid path found for iw
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[965]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[816]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[816]: Traceback (most recent call last):
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[816]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[816]:     self.handle_state(iface_name,
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[816]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[816]:     raise UnknownState(operational_state)
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[816]: UnknownState: n/a
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[816]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[816]: Traceback (most recent call last):
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[816]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[816]:     self.handle_state(iface_name,
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[816]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[816]:     raise UnknownState(operational_state)
+4月 12 21:53:29 ree-virtual-machine networkd-dispatcher[816]: UnknownState: n/a
+4月 12 21:53:29 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 13 01:12:51 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+4月 13 01:12:51 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+4月 13 01:12:51 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot ab354c8c35ec46309c3d583c22d4722e --
+4月 13 11:49:15 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[923]: No valid path found for iw
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[1034]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[923]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[923]: Traceback (most recent call last):
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[923]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[923]:     self.handle_state(iface_name,
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[923]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[923]:     raise UnknownState(operational_state)
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[923]: UnknownState: n/a
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[923]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[923]: Traceback (most recent call last):
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[923]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[923]:     self.handle_state(iface_name,
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[923]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[923]:     raise UnknownState(operational_state)
+4月 13 11:49:16 ree-virtual-machine networkd-dispatcher[923]: UnknownState: n/a
+4月 13 11:49:16 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 13 20:22:12 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+4月 13 20:22:12 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+4月 13 20:22:12 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 1223bb12cf164754a34338b3879bc416 --
+4月 13 20:22:51 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[925]: No valid path found for iw
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[1020]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[925]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[925]: Traceback (most recent call last):
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[925]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[925]:     self.handle_state(iface_name,
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[925]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[925]:     raise UnknownState(operational_state)
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[925]: UnknownState: n/a
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[925]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[925]: Traceback (most recent call last):
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[925]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[925]:     self.handle_state(iface_name,
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[925]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[925]:     raise UnknownState(operational_state)
+4月 13 20:22:52 ree-virtual-machine networkd-dispatcher[925]: UnknownState: n/a
+4月 13 20:22:52 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 13 23:11:10 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+4月 13 23:11:10 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+4月 13 23:11:10 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot eedc866258b546db86377bdd16f52c6c --
+4月 13 23:33:00 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[917]: No valid path found for iw
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[1012]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[917]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[917]: Traceback (most recent call last):
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[917]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[917]:     self.handle_state(iface_name,
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[917]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[917]:     raise UnknownState(operational_state)
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[917]: UnknownState: n/a
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[917]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[917]: Traceback (most recent call last):
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[917]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[917]:     self.handle_state(iface_name,
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[917]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[917]:     raise UnknownState(operational_state)
+4月 13 23:33:00 ree-virtual-machine networkd-dispatcher[917]: UnknownState: n/a
+4月 13 23:33:00 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 14 01:45:07 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+4月 14 01:45:07 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+4月 14 01:45:07 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 6336d5d01d9d47a1a84a86d400678bbe --
+4月 14 18:40:04 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[923]: No valid path found for iw
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[1032]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[923]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[923]: Traceback (most recent call last):
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[923]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[923]:     self.handle_state(iface_name,
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[923]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[923]:     raise UnknownState(operational_state)
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[923]: UnknownState: n/a
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[923]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[923]: Traceback (most recent call last):
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[923]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[923]:     self.handle_state(iface_name,
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[923]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[923]:     raise UnknownState(operational_state)
+4月 14 18:40:04 ree-virtual-machine networkd-dispatcher[923]: UnknownState: n/a
+4月 14 18:40:04 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 14 19:24:32 ree-virtual-machine systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+4月 14 19:24:32 ree-virtual-machine systemd[1]: networkd-dispatcher.service: Deactivated successfully.
+4月 14 19:24:32 ree-virtual-machine systemd[1]: Stopped Dispatcher daemon for systemd-networkd.
+-- Boot 00425514c17e404db4cc5611a8f55ed9 --
+4月 14 21:28:23 ree-virtual-machine systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[911]: No valid path found for iw
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[1012]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[911]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[911]: Traceback (most recent call last):
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[911]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[911]:     self.handle_state(iface_name,
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[911]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[911]:     raise UnknownState(operational_state)
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[911]: UnknownState: n/a
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[911]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='ens33', type='ether', operational='n/a', administrative='unmanaged'): n/a
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[911]: Traceback (most recent call last):
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[911]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[911]:     self.handle_state(iface_name,
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[911]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[911]:     raise UnknownState(operational_state)
+4月 14 21:28:23 ree-virtual-machine networkd-dispatcher[911]: UnknownState: n/a
+4月 14 21:28:23 ree-virtual-machine systemd[1]: Started Dispatcher daemon for systemd-networkd.
+

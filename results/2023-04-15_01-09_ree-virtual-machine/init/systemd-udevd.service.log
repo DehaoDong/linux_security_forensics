@@ -1,0 +1,563 @@
+2月 20 18:38:47 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+2月 20 18:38:47 ree-virtual-machine systemd-udevd[464]: Using default interface naming scheme 'v249'.
+2月 20 18:38:47 ree-virtual-machine mtp-probe[574]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+2月 20 18:38:47 ree-virtual-machine mtp-probe[574]: bus: 2, device: 2 was not an MTP device
+2月 20 18:38:47 ree-virtual-machine systemd-udevd[449]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+2月 20 18:38:47 ree-virtual-machine systemd-udevd[468]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+2月 20 18:38:47 ree-virtual-machine systemd-udevd[447]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+2月 20 18:38:47 ree-virtual-machine systemd-udevd[449]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+2月 20 18:38:47 ree-virtual-machine systemd-udevd[447]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+2月 20 18:38:47 ree-virtual-machine systemd-udevd[450]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+2月 20 18:38:47 ree-virtual-machine systemd-udevd[459]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+2月 20 18:38:48 ree-virtual-machine systemd-udevd[447]: controlC0: Process '/usr/sbin/alsactl -E HOME=/run/alsa -E XDG_RUNTIME_DIR=/run/alsa/runtime restore 0' failed with exit code 2.
+2月 20 18:51:04 ree-virtual-machine systemd[1]: Stopping Rule-based Manager for Device Events and Files...
+2月 20 18:51:04 ree-virtual-machine systemd[1]: systemd-udevd.service: Deactivated successfully.
+2月 20 18:51:04 ree-virtual-machine systemd[1]: Stopped Rule-based Manager for Device Events and Files.
+2月 20 18:51:04 ree-virtual-machine systemd[1]: systemd-udevd.service: Consumed 2.348s CPU time.
+2月 20 18:51:04 ree-virtual-machine systemd[1]: Starting Rule-based Manager for Device Events and Files...
+2月 20 18:51:04 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+-- Boot 59a08585a9874716bda9035a442e266a --
+2月 20 18:52:55 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+2月 20 18:52:55 ree-virtual-machine systemd-udevd[469]: Using default interface naming scheme 'v249'.
+2月 20 18:52:55 ree-virtual-machine mtp-probe[579]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+2月 20 18:52:55 ree-virtual-machine mtp-probe[579]: bus: 2, device: 2 was not an MTP device
+2月 20 18:52:55 ree-virtual-machine systemd-udevd[459]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+2月 20 18:52:55 ree-virtual-machine systemd-udevd[452]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+2月 20 18:52:55 ree-virtual-machine systemd-udevd[459]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+2月 20 18:52:55 ree-virtual-machine systemd-udevd[468]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+2月 20 18:52:55 ree-virtual-machine systemd-udevd[456]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+2月 20 18:52:55 ree-virtual-machine systemd-udevd[461]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+2月 20 18:52:55 ree-virtual-machine systemd-udevd[446]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+-- Boot 4e50f35765d14836ba11bf87868d3690 --
+2月 21 18:32:14 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+2月 21 18:32:15 ree-virtual-machine systemd-udevd[477]: Using default interface naming scheme 'v249'.
+2月 21 18:32:15 ree-virtual-machine mtp-probe[590]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+2月 21 18:32:15 ree-virtual-machine mtp-probe[590]: bus: 2, device: 2 was not an MTP device
+2月 21 18:32:15 ree-virtual-machine systemd-udevd[456]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+2月 21 18:32:15 ree-virtual-machine systemd-udevd[471]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+2月 21 18:32:15 ree-virtual-machine systemd-udevd[477]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+2月 21 18:32:15 ree-virtual-machine systemd-udevd[473]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+2月 21 18:32:15 ree-virtual-machine systemd-udevd[456]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+2月 21 18:32:15 ree-virtual-machine systemd-udevd[464]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+2月 21 18:32:15 ree-virtual-machine systemd-udevd[465]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+-- Boot 378ef5fc52a64e67810e6fa7a9ee31e6 --
+2月 21 18:42:26 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+2月 21 18:42:26 ree-virtual-machine systemd-udevd[464]: Using default interface naming scheme 'v249'.
+2月 21 18:42:26 ree-virtual-machine systemd-udevd[454]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+2月 21 18:42:26 ree-virtual-machine mtp-probe[624]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+2月 21 18:42:26 ree-virtual-machine mtp-probe[624]: bus: 2, device: 2 was not an MTP device
+2月 21 18:42:26 ree-virtual-machine systemd-udevd[454]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+2月 21 18:42:26 ree-virtual-machine systemd-udevd[456]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+2月 21 18:42:26 ree-virtual-machine systemd-udevd[475]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+2月 21 18:42:26 ree-virtual-machine systemd-udevd[453]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+2月 21 18:42:26 ree-virtual-machine systemd-udevd[461]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+2月 21 18:42:26 ree-virtual-machine systemd-udevd[465]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 48d666794bf9483ca7ebe0e999848072 --
+2月 21 19:01:44 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+2月 21 19:01:44 ree-virtual-machine systemd-udevd[482]: Using default interface naming scheme 'v249'.
+2月 21 19:01:44 ree-virtual-machine mtp-probe[642]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+2月 21 19:01:44 ree-virtual-machine mtp-probe[642]: bus: 2, device: 2 was not an MTP device
+2月 21 19:01:44 ree-virtual-machine systemd-udevd[451]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+2月 21 19:01:44 ree-virtual-machine systemd-udevd[471]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+2月 21 19:01:44 ree-virtual-machine systemd-udevd[451]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+2月 21 19:01:44 ree-virtual-machine systemd-udevd[464]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+2月 21 19:01:44 ree-virtual-machine systemd-udevd[456]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+2月 21 19:01:44 ree-virtual-machine systemd-udevd[481]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+2月 21 19:01:44 ree-virtual-machine systemd-udevd[460]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot a0299816d1d24b8ab70b7c10b1502239 --
+2月 21 19:02:36 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+2月 21 19:02:36 ree-virtual-machine mtp-probe[601]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+2月 21 19:02:36 ree-virtual-machine mtp-probe[601]: bus: 2, device: 2 was not an MTP device
+2月 21 19:02:36 ree-virtual-machine systemd-udevd[464]: Using default interface naming scheme 'v249'.
+2月 21 19:02:36 ree-virtual-machine systemd-udevd[462]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+2月 21 19:02:36 ree-virtual-machine systemd-udevd[473]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+2月 21 19:02:36 ree-virtual-machine systemd-udevd[462]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+2月 21 19:02:36 ree-virtual-machine systemd-udevd[471]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+2月 21 19:02:36 ree-virtual-machine systemd-udevd[472]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+2月 21 19:02:36 ree-virtual-machine systemd-udevd[454]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+2月 21 19:02:36 ree-virtual-machine systemd-udevd[461]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 7319c95352634624b166e30456e7d6e8 --
+2月 21 19:17:55 ree-virtual-machine systemd-udevd[461]: Using default interface naming scheme 'v249'.
+2月 21 19:17:55 ree-virtual-machine mtp-probe[642]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+2月 21 19:17:55 ree-virtual-machine mtp-probe[642]: bus: 2, device: 2 was not an MTP device
+2月 21 19:17:55 ree-virtual-machine systemd-udevd[454]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+2月 21 19:17:55 ree-virtual-machine systemd-udevd[456]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+2月 21 19:17:55 ree-virtual-machine systemd-udevd[454]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+2月 21 19:17:55 ree-virtual-machine systemd-udevd[454]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+2月 21 19:17:55 ree-virtual-machine systemd-udevd[453]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+2月 21 19:17:55 ree-virtual-machine systemd-udevd[465]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+2月 21 19:17:55 ree-virtual-machine systemd-udevd[455]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot e6c010b640444a48974c34b34cbf889b --
+2月 21 19:23:10 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+2月 21 19:23:10 ree-virtual-machine mtp-probe[571]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+2月 21 19:23:10 ree-virtual-machine systemd-udevd[460]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+2月 21 19:23:10 ree-virtual-machine systemd-udevd[468]: Using default interface naming scheme 'v249'.
+2月 21 19:23:10 ree-virtual-machine mtp-probe[571]: bus: 2, device: 2 was not an MTP device
+2月 21 19:23:10 ree-virtual-machine systemd-udevd[460]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+2月 21 19:23:10 ree-virtual-machine systemd-udevd[454]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+2月 21 19:23:10 ree-virtual-machine systemd-udevd[463]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+2月 21 19:23:10 ree-virtual-machine systemd-udevd[474]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+2月 21 19:23:10 ree-virtual-machine systemd-udevd[473]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+2月 21 19:23:10 ree-virtual-machine systemd-udevd[462]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 9ce45ab8fa0345b987fea497f44c5051 --
+3月 10 20:00:43 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 10 20:00:44 ree-virtual-machine systemd-udevd[466]: Using default interface naming scheme 'v249'.
+3月 10 20:00:44 ree-virtual-machine systemd-udevd[469]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 10 20:00:44 ree-virtual-machine mtp-probe[501]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 10 20:00:44 ree-virtual-machine mtp-probe[501]: bus: 2, device: 2 was not an MTP device
+3月 10 20:00:44 ree-virtual-machine systemd-udevd[455]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 10 20:00:44 ree-virtual-machine systemd-udevd[449]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 10 20:00:44 ree-virtual-machine systemd-udevd[469]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 10 20:00:44 ree-virtual-machine systemd-udevd[467]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 10 20:00:44 ree-virtual-machine systemd-udevd[451]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+3月 10 20:00:44 ree-virtual-machine systemd-udevd[458]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+-- Boot 78840721b8c14d03929c91da9cf2989f --
+3月 15 11:06:33 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 15 11:06:34 ree-virtual-machine systemd-udevd[464]: Using default interface naming scheme 'v249'.
+3月 15 11:06:34 ree-virtual-machine mtp-probe[503]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 15 11:06:34 ree-virtual-machine mtp-probe[503]: bus: 2, device: 2 was not an MTP device
+3月 15 11:06:34 ree-virtual-machine systemd-udevd[476]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 15 11:06:34 ree-virtual-machine systemd-udevd[465]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 15 11:06:34 ree-virtual-machine systemd-udevd[457]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 15 11:06:34 ree-virtual-machine systemd-udevd[476]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 15 11:06:34 ree-virtual-machine systemd-udevd[464]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 15 11:06:34 ree-virtual-machine systemd-udevd[473]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 15 11:06:34 ree-virtual-machine systemd-udevd[463]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot ca9b2e5e215f4f3fbeb8e0a2983e83e6 --
+3月 22 19:19:55 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 22 19:19:56 ree-virtual-machine systemd-udevd[455]: Using default interface naming scheme 'v249'.
+3月 22 19:19:56 ree-virtual-machine mtp-probe[503]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 22 19:19:56 ree-virtual-machine mtp-probe[503]: bus: 2, device: 2 was not an MTP device
+3月 22 19:19:56 ree-virtual-machine systemd-udevd[479]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 22 19:19:56 ree-virtual-machine systemd-udevd[465]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 22 19:19:56 ree-virtual-machine systemd-udevd[463]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 22 19:19:56 ree-virtual-machine systemd-udevd[479]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 22 19:19:56 ree-virtual-machine systemd-udevd[472]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 22 19:19:56 ree-virtual-machine systemd-udevd[453]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+3月 22 19:19:56 ree-virtual-machine systemd-udevd[460]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 22 19:50:02 ree-virtual-machine systemd[1]: Stopping Rule-based Manager for Device Events and Files...
+3月 22 19:50:02 ree-virtual-machine systemd[1]: systemd-udevd.service: Deactivated successfully.
+3月 22 19:50:02 ree-virtual-machine systemd[1]: Stopped Rule-based Manager for Device Events and Files.
+3月 22 19:50:02 ree-virtual-machine systemd[1]: systemd-udevd.service: Consumed 2.793s CPU time.
+3月 22 19:50:02 ree-virtual-machine systemd[1]: Starting Rule-based Manager for Device Events and Files...
+3月 22 19:50:02 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+-- Boot ee7967cec9534f4aa0162aa833ebf2b7 --
+3月 22 19:56:26 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 22 19:56:26 ree-virtual-machine systemd-udevd[453]: Using default interface naming scheme 'v249'.
+3月 22 19:56:26 ree-virtual-machine systemd-udevd[470]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 22 19:56:26 ree-virtual-machine mtp-probe[622]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 22 19:56:26 ree-virtual-machine mtp-probe[622]: bus: 2, device: 2 was not an MTP device
+3月 22 19:56:26 ree-virtual-machine systemd-udevd[453]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 22 19:56:26 ree-virtual-machine systemd-udevd[470]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 22 19:56:26 ree-virtual-machine systemd-udevd[464]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 22 19:56:26 ree-virtual-machine systemd-udevd[461]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 22 19:56:26 ree-virtual-machine systemd-udevd[485]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 22 19:56:26 ree-virtual-machine systemd-udevd[463]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 9e3eeb915f5e4d0aab1fa06627dc238a --
+3月 25 22:02:58 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 25 22:02:59 ree-virtual-machine systemd-udevd[473]: Using default interface naming scheme 'v249'.
+3月 25 22:02:59 ree-virtual-machine systemd-udevd[470]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 25 22:02:59 ree-virtual-machine mtp-probe[508]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 25 22:02:59 ree-virtual-machine mtp-probe[508]: bus: 2, device: 2 was not an MTP device
+3月 25 22:02:59 ree-virtual-machine systemd-udevd[479]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 25 22:02:59 ree-virtual-machine systemd-udevd[480]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 25 22:02:59 ree-virtual-machine systemd-udevd[470]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 25 22:02:59 ree-virtual-machine systemd-udevd[460]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 25 22:02:59 ree-virtual-machine systemd-udevd[465]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 25 22:02:59 ree-virtual-machine systemd-udevd[467]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot cce731051b6244c4a03f32893ae3c956 --
+3月 28 10:31:02 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 28 10:31:02 ree-virtual-machine systemd-udevd[461]: Using default interface naming scheme 'v249'.
+3月 28 10:31:03 ree-virtual-machine mtp-probe[504]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 28 10:31:03 ree-virtual-machine mtp-probe[504]: bus: 2, device: 2 was not an MTP device
+3月 28 10:31:03 ree-virtual-machine systemd-udevd[476]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 28 10:31:03 ree-virtual-machine systemd-udevd[480]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 28 10:31:03 ree-virtual-machine systemd-udevd[479]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 28 10:31:03 ree-virtual-machine systemd-udevd[476]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 28 10:31:03 ree-virtual-machine systemd-udevd[493]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 28 10:31:03 ree-virtual-machine systemd-udevd[472]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+3月 28 10:31:03 ree-virtual-machine systemd-udevd[480]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+-- Boot 2a886fae77824755a4d8c5453e54eec8 --
+3月 29 11:43:29 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 29 11:43:30 ree-virtual-machine systemd-udevd[473]: Using default interface naming scheme 'v249'.
+3月 29 11:43:30 ree-virtual-machine mtp-probe[507]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 29 11:43:30 ree-virtual-machine mtp-probe[507]: bus: 2, device: 2 was not an MTP device
+3月 29 11:43:30 ree-virtual-machine systemd-udevd[467]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 29 11:43:30 ree-virtual-machine systemd-udevd[485]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 29 11:43:30 ree-virtual-machine systemd-udevd[483]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 29 11:43:30 ree-virtual-machine systemd-udevd[467]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 29 11:43:30 ree-virtual-machine systemd-udevd[471]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 29 11:43:30 ree-virtual-machine systemd-udevd[461]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 29 11:43:30 ree-virtual-machine systemd-udevd[470]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot bb0991777ac541be83385906c043308d --
+3月 29 12:42:41 ree-virtual-machine systemd-udevd[450]: Using default interface naming scheme 'v249'.
+3月 29 12:42:41 ree-virtual-machine systemd-udevd[446]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 29 12:42:41 ree-virtual-machine mtp-probe[628]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 29 12:42:41 ree-virtual-machine mtp-probe[628]: bus: 2, device: 2 was not an MTP device
+3月 29 12:42:41 ree-virtual-machine systemd-udevd[446]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 29 12:42:41 ree-virtual-machine systemd-udevd[465]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 29 12:42:41 ree-virtual-machine systemd-udevd[443]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 29 12:42:41 ree-virtual-machine systemd-udevd[445]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 29 12:42:41 ree-virtual-machine systemd-udevd[442]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+3月 29 12:42:41 ree-virtual-machine systemd-udevd[446]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+-- Boot d7712a95bc0b49358ac3d7c9a0282431 --
+3月 29 13:18:45 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 29 13:18:46 ree-virtual-machine systemd-udevd[475]: Using default interface naming scheme 'v249'.
+3月 29 13:18:46 ree-virtual-machine mtp-probe[554]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 29 13:18:46 ree-virtual-machine mtp-probe[554]: bus: 2, device: 2 was not an MTP device
+3月 29 13:18:46 ree-virtual-machine systemd-udevd[479]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 29 13:18:46 ree-virtual-machine systemd-udevd[468]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 29 13:18:46 ree-virtual-machine systemd-udevd[479]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 29 13:18:46 ree-virtual-machine systemd-udevd[478]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 29 13:18:46 ree-virtual-machine systemd-udevd[466]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 29 13:18:46 ree-virtual-machine systemd-udevd[463]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 29 13:18:46 ree-virtual-machine systemd-udevd[462]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 19b4dd46eb7b4597999d4311a7fcd580 --
+3月 29 13:24:42 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 29 13:24:43 ree-virtual-machine systemd-udevd[466]: Using default interface naming scheme 'v249'.
+3月 29 13:24:43 ree-virtual-machine systemd-udevd[460]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 29 13:24:43 ree-virtual-machine mtp-probe[504]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 29 13:24:43 ree-virtual-machine mtp-probe[504]: bus: 2, device: 2 was not an MTP device
+3月 29 13:24:43 ree-virtual-machine systemd-udevd[466]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 29 13:24:43 ree-virtual-machine systemd-udevd[453]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 29 13:24:43 ree-virtual-machine systemd-udevd[460]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 29 13:24:43 ree-virtual-machine systemd-udevd[481]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 29 13:24:43 ree-virtual-machine systemd-udevd[454]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+3月 29 13:24:43 ree-virtual-machine systemd-udevd[462]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+-- Boot 9d814a28020a4d1b8dc1b211140df378 --
+3月 30 14:04:51 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 30 14:04:51 ree-virtual-machine systemd-udevd[467]: Using default interface naming scheme 'v249'.
+3月 30 14:04:51 ree-virtual-machine systemd-udevd[481]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 30 14:04:51 ree-virtual-machine mtp-probe[516]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 30 14:04:51 ree-virtual-machine mtp-probe[516]: bus: 2, device: 2 was not an MTP device
+3月 30 14:04:51 ree-virtual-machine systemd-udevd[474]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 30 14:04:51 ree-virtual-machine systemd-udevd[481]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 30 14:04:51 ree-virtual-machine systemd-udevd[475]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 30 14:04:51 ree-virtual-machine systemd-udevd[489]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 30 14:04:52 ree-virtual-machine systemd-udevd[469]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+3月 30 14:04:52 ree-virtual-machine systemd-udevd[484]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+-- Boot 84aa09a898d145c7a959de6db29053d7 --
+3月 30 15:02:19 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 30 15:02:20 ree-virtual-machine mtp-probe[503]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 30 15:02:20 ree-virtual-machine mtp-probe[503]: bus: 2, device: 2 was not an MTP device
+3月 30 15:02:20 ree-virtual-machine systemd-udevd[460]: Using default interface naming scheme 'v249'.
+3月 30 15:02:20 ree-virtual-machine systemd-udevd[466]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 30 15:02:20 ree-virtual-machine systemd-udevd[478]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 30 15:02:20 ree-virtual-machine systemd-udevd[461]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 30 15:02:20 ree-virtual-machine systemd-udevd[472]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 30 15:02:20 ree-virtual-machine systemd-udevd[466]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 30 15:02:20 ree-virtual-machine systemd-udevd[464]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 30 15:02:20 ree-virtual-machine systemd-udevd[457]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot aa4829cf4bad48fb9f7b1a4eb947f5c0 --
+3月 30 15:03:25 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 30 15:03:26 ree-virtual-machine systemd-udevd[463]: Using default interface naming scheme 'v249'.
+3月 30 15:03:26 ree-virtual-machine mtp-probe[584]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 30 15:03:26 ree-virtual-machine mtp-probe[584]: bus: 2, device: 2 was not an MTP device
+3月 30 15:03:26 ree-virtual-machine systemd-udevd[464]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 30 15:03:26 ree-virtual-machine systemd-udevd[464]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 30 15:03:26 ree-virtual-machine systemd-udevd[467]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 30 15:03:26 ree-virtual-machine systemd-udevd[476]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 30 15:03:26 ree-virtual-machine systemd-udevd[460]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 30 15:03:26 ree-virtual-machine systemd-udevd[458]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 30 15:03:26 ree-virtual-machine systemd-udevd[474]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 00a7e42d2b624b439bea376a3bc361f1 --
+3月 30 15:14:12 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 30 15:14:13 ree-virtual-machine mtp-probe[504]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 30 15:14:13 ree-virtual-machine mtp-probe[504]: bus: 2, device: 2 was not an MTP device
+3月 30 15:14:13 ree-virtual-machine systemd-udevd[460]: Using default interface naming scheme 'v249'.
+3月 30 15:14:13 ree-virtual-machine systemd-udevd[475]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 30 15:14:13 ree-virtual-machine systemd-udevd[470]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 30 15:14:13 ree-virtual-machine systemd-udevd[472]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 30 15:14:13 ree-virtual-machine systemd-udevd[475]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 30 15:14:13 ree-virtual-machine systemd-udevd[474]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 30 15:14:13 ree-virtual-machine systemd-udevd[463]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 30 15:14:13 ree-virtual-machine systemd-udevd[455]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 1516c1af27714148858b849306510739 --
+3月 30 15:23:23 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 30 15:23:24 ree-virtual-machine systemd-udevd[488]: Using default interface naming scheme 'v249'.
+3月 30 15:23:24 ree-virtual-machine mtp-probe[519]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 30 15:23:24 ree-virtual-machine mtp-probe[519]: bus: 2, device: 2 was not an MTP device
+3月 30 15:23:24 ree-virtual-machine systemd-udevd[490]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 30 15:23:24 ree-virtual-machine systemd-udevd[497]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 30 15:23:24 ree-virtual-machine systemd-udevd[490]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 30 15:23:24 ree-virtual-machine systemd-udevd[470]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 30 15:23:24 ree-virtual-machine systemd-udevd[485]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+3月 30 15:23:24 ree-virtual-machine systemd-udevd[471]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 30 15:23:24 ree-virtual-machine systemd-udevd[461]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+-- Boot 9069828abd4b41e5829b4880b07ecdde --
+3月 30 15:38:51 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 30 15:38:52 ree-virtual-machine systemd-udevd[456]: Using default interface naming scheme 'v249'.
+3月 30 15:38:52 ree-virtual-machine mtp-probe[505]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 30 15:38:52 ree-virtual-machine mtp-probe[505]: bus: 2, device: 2 was not an MTP device
+3月 30 15:38:52 ree-virtual-machine systemd-udevd[471]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 30 15:38:52 ree-virtual-machine systemd-udevd[482]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 30 15:38:52 ree-virtual-machine systemd-udevd[477]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 30 15:38:52 ree-virtual-machine systemd-udevd[471]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 30 15:38:52 ree-virtual-machine systemd-udevd[473]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 30 15:38:52 ree-virtual-machine systemd-udevd[463]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 30 15:38:52 ree-virtual-machine systemd-udevd[461]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 76e16ebfbeab47788bc4dd8853d9fe7e --
+3月 30 17:34:17 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 30 17:34:18 ree-virtual-machine systemd-udevd[462]: Using default interface naming scheme 'v249'.
+3月 30 17:34:18 ree-virtual-machine mtp-probe[566]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 30 17:34:18 ree-virtual-machine mtp-probe[566]: bus: 2, device: 2 was not an MTP device
+3月 30 17:34:18 ree-virtual-machine systemd-udevd[468]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 30 17:34:18 ree-virtual-machine systemd-udevd[470]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 30 17:34:18 ree-virtual-machine systemd-udevd[478]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 30 17:34:18 ree-virtual-machine systemd-udevd[468]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 30 17:34:18 ree-virtual-machine systemd-udevd[470]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 30 17:34:18 ree-virtual-machine systemd-udevd[475]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 30 17:34:18 ree-virtual-machine systemd-udevd[462]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot e249c720d58849269d73a22f14ee6fb9 --
+3月 30 20:32:32 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 30 20:32:32 ree-virtual-machine systemd-udevd[480]: Using default interface naming scheme 'v249'.
+3月 30 20:32:32 ree-virtual-machine mtp-probe[573]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 30 20:32:32 ree-virtual-machine mtp-probe[573]: bus: 2, device: 2 was not an MTP device
+3月 30 20:32:32 ree-virtual-machine systemd-udevd[459]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 30 20:32:32 ree-virtual-machine systemd-udevd[463]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 30 20:32:32 ree-virtual-machine systemd-udevd[465]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 30 20:32:32 ree-virtual-machine systemd-udevd[459]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 30 20:32:32 ree-virtual-machine systemd-udevd[467]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 30 20:32:32 ree-virtual-machine systemd-udevd[464]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 30 20:32:32 ree-virtual-machine systemd-udevd[469]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 9ccccf2adff74839b8fba49d83281f8b --
+3月 30 22:53:41 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 30 22:53:42 ree-virtual-machine systemd-udevd[463]: Using default interface naming scheme 'v249'.
+3月 30 22:53:42 ree-virtual-machine mtp-probe[509]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 30 22:53:42 ree-virtual-machine mtp-probe[509]: bus: 2, device: 2 was not an MTP device
+3月 30 22:53:42 ree-virtual-machine systemd-udevd[485]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 30 22:53:42 ree-virtual-machine systemd-udevd[475]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 30 22:53:42 ree-virtual-machine systemd-udevd[461]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 30 22:53:42 ree-virtual-machine systemd-udevd[487]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 30 22:53:42 ree-virtual-machine systemd-udevd[465]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 30 22:53:42 ree-virtual-machine systemd-udevd[475]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 30 22:53:42 ree-virtual-machine systemd-udevd[467]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 308f7b0f7a274f0bb6200973f34667b6 --
+3月 31 00:22:25 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 31 00:22:26 ree-virtual-machine systemd-udevd[455]: Using default interface naming scheme 'v249'.
+3月 31 00:22:26 ree-virtual-machine systemd-udevd[480]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 31 00:22:26 ree-virtual-machine mtp-probe[504]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 31 00:22:26 ree-virtual-machine mtp-probe[504]: bus: 2, device: 2 was not an MTP device
+3月 31 00:22:26 ree-virtual-machine systemd-udevd[473]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 31 00:22:26 ree-virtual-machine systemd-udevd[480]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 31 00:22:26 ree-virtual-machine systemd-udevd[476]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 31 00:22:26 ree-virtual-machine systemd-udevd[474]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 31 00:22:26 ree-virtual-machine systemd-udevd[455]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 31 00:22:26 ree-virtual-machine systemd-udevd[475]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot d85c7c53e5114994bc2f0f623b3af509 --
+3月 31 19:12:13 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 31 19:12:14 ree-virtual-machine systemd-udevd[481]: Using default interface naming scheme 'v249'.
+3月 31 19:12:14 ree-virtual-machine mtp-probe[510]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 31 19:12:14 ree-virtual-machine mtp-probe[510]: bus: 2, device: 2 was not an MTP device
+3月 31 19:12:14 ree-virtual-machine systemd-udevd[483]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 31 19:12:14 ree-virtual-machine systemd-udevd[466]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 31 19:12:14 ree-virtual-machine systemd-udevd[483]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 31 19:12:14 ree-virtual-machine systemd-udevd[487]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 31 19:12:14 ree-virtual-machine systemd-udevd[481]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 31 19:12:14 ree-virtual-machine systemd-udevd[463]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 31 19:12:14 ree-virtual-machine systemd-udevd[457]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 09785a07d95540b1ad518945fbcc300d --
+3月 31 19:43:48 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 31 19:43:49 ree-virtual-machine systemd-udevd[463]: Using default interface naming scheme 'v249'.
+3月 31 19:43:49 ree-virtual-machine mtp-probe[507]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 31 19:43:49 ree-virtual-machine mtp-probe[507]: bus: 2, device: 2 was not an MTP device
+3月 31 19:43:49 ree-virtual-machine systemd-udevd[500]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 31 19:43:49 ree-virtual-machine systemd-udevd[462]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 31 19:43:49 ree-virtual-machine systemd-udevd[464]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 31 19:43:49 ree-virtual-machine systemd-udevd[500]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 31 19:43:49 ree-virtual-machine systemd-udevd[456]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+3月 31 19:43:49 ree-virtual-machine systemd-udevd[477]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 31 19:43:49 ree-virtual-machine systemd-udevd[455]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+-- Boot 436dee14f55b451a880859c1f76478af --
+3月 31 21:10:01 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+3月 31 21:10:02 ree-virtual-machine systemd-udevd[472]: Using default interface naming scheme 'v249'.
+3月 31 21:10:02 ree-virtual-machine mtp-probe[509]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+3月 31 21:10:02 ree-virtual-machine mtp-probe[509]: bus: 2, device: 2 was not an MTP device
+3月 31 21:10:02 ree-virtual-machine systemd-udevd[460]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+3月 31 21:10:02 ree-virtual-machine systemd-udevd[463]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+3月 31 21:10:02 ree-virtual-machine systemd-udevd[457]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+3月 31 21:10:02 ree-virtual-machine systemd-udevd[474]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+3月 31 21:10:02 ree-virtual-machine systemd-udevd[460]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+3月 31 21:10:02 ree-virtual-machine systemd-udevd[458]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+3月 31 21:10:02 ree-virtual-machine systemd-udevd[464]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot e2fd3a66bd3b4bd68261cb94d3fee451 --
+4月 04 12:20:41 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+4月 04 12:20:42 ree-virtual-machine systemd-udevd[457]: Using default interface naming scheme 'v249'.
+4月 04 12:20:42 ree-virtual-machine mtp-probe[506]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+4月 04 12:20:42 ree-virtual-machine mtp-probe[506]: bus: 2, device: 2 was not an MTP device
+4月 04 12:20:42 ree-virtual-machine systemd-udevd[468]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+4月 04 12:20:42 ree-virtual-machine systemd-udevd[474]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+4月 04 12:20:42 ree-virtual-machine systemd-udevd[459]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+4月 04 12:20:42 ree-virtual-machine systemd-udevd[455]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+4月 04 12:20:42 ree-virtual-machine systemd-udevd[471]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+4月 04 12:20:42 ree-virtual-machine systemd-udevd[480]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+4月 04 12:20:43 ree-virtual-machine systemd-udevd[469]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+-- Boot 25dbee67bff049baa23eecea014b8763 --
+4月 04 17:35:51 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+4月 04 17:35:52 ree-virtual-machine systemd-udevd[466]: Using default interface naming scheme 'v249'.
+4月 04 17:35:52 ree-virtual-machine systemd-udevd[482]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+4月 04 17:35:52 ree-virtual-machine mtp-probe[603]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+4月 04 17:35:52 ree-virtual-machine mtp-probe[603]: bus: 2, device: 2 was not an MTP device
+4月 04 17:35:52 ree-virtual-machine systemd-udevd[482]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+4月 04 17:35:52 ree-virtual-machine systemd-udevd[459]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+4月 04 17:35:52 ree-virtual-machine systemd-udevd[480]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+4月 04 17:35:52 ree-virtual-machine systemd-udevd[469]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+4月 04 17:35:52 ree-virtual-machine systemd-udevd[482]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+4月 04 17:35:52 ree-virtual-machine systemd-udevd[466]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 0d532a9de8ef4df1a92a1cc3f8ce562d --
+4月 09 19:14:31 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+4月 09 19:14:32 ree-virtual-machine systemd-udevd[485]: Using default interface naming scheme 'v249'.
+4月 09 19:14:32 ree-virtual-machine mtp-probe[507]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+4月 09 19:14:32 ree-virtual-machine mtp-probe[507]: bus: 2, device: 2 was not an MTP device
+4月 09 19:14:32 ree-virtual-machine systemd-udevd[472]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+4月 09 19:14:32 ree-virtual-machine systemd-udevd[472]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+4月 09 19:14:32 ree-virtual-machine systemd-udevd[482]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+4月 09 19:14:32 ree-virtual-machine systemd-udevd[470]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+4月 09 19:14:32 ree-virtual-machine systemd-udevd[484]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+4月 09 19:14:32 ree-virtual-machine systemd-udevd[469]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+4月 09 19:14:32 ree-virtual-machine systemd-udevd[461]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 66c095c2b40d4348bbbaa9bd9371fd5b --
+4月 09 19:21:15 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+4月 09 19:21:16 ree-virtual-machine systemd-udevd[481]: Using default interface naming scheme 'v249'.
+4月 09 19:21:16 ree-virtual-machine mtp-probe[506]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+4月 09 19:21:16 ree-virtual-machine mtp-probe[506]: bus: 2, device: 2 was not an MTP device
+4月 09 19:21:16 ree-virtual-machine systemd-udevd[476]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+4月 09 19:21:16 ree-virtual-machine systemd-udevd[473]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+4月 09 19:21:16 ree-virtual-machine systemd-udevd[476]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+4月 09 19:21:16 ree-virtual-machine systemd-udevd[477]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+4月 09 19:21:16 ree-virtual-machine systemd-udevd[471]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+4月 09 19:21:16 ree-virtual-machine systemd-udevd[482]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+4月 09 19:21:16 ree-virtual-machine systemd-udevd[460]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 125b443d38b7450fbc1c404530e9dc9e --
+4月 12 11:21:55 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+4月 12 11:21:56 ree-virtual-machine systemd-udevd[483]: Using default interface naming scheme 'v249'.
+4月 12 11:21:56 ree-virtual-machine mtp-probe[555]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+4月 12 11:21:56 ree-virtual-machine mtp-probe[555]: bus: 2, device: 2 was not an MTP device
+4月 12 11:21:56 ree-virtual-machine systemd-udevd[480]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+4月 12 11:21:56 ree-virtual-machine systemd-udevd[481]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+4月 12 11:21:56 ree-virtual-machine systemd-udevd[475]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+4月 12 11:21:56 ree-virtual-machine systemd-udevd[480]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+4月 12 11:21:56 ree-virtual-machine systemd-udevd[481]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+4月 12 11:21:56 ree-virtual-machine systemd-udevd[483]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+4月 12 11:21:56 ree-virtual-machine systemd-udevd[460]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+-- Boot e043495edc834fd3b8de378cf5b742ab --
+4月 12 12:32:34 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+4月 12 12:32:35 ree-virtual-machine systemd-udevd[463]: Using default interface naming scheme 'v249'.
+4月 12 12:32:35 ree-virtual-machine mtp-probe[510]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+4月 12 12:32:35 ree-virtual-machine mtp-probe[510]: bus: 2, device: 2 was not an MTP device
+4月 12 12:32:35 ree-virtual-machine systemd-udevd[458]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+4月 12 12:32:35 ree-virtual-machine systemd-udevd[458]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+4月 12 12:32:35 ree-virtual-machine systemd-udevd[461]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+4月 12 12:32:35 ree-virtual-machine systemd-udevd[481]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+4月 12 12:32:35 ree-virtual-machine systemd-udevd[464]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+4月 12 12:32:35 ree-virtual-machine systemd-udevd[468]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+4月 12 12:32:35 ree-virtual-machine systemd-udevd[459]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 9296bd89129642f58a1e422116180a89 --
+4月 12 19:33:15 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+4月 12 19:33:16 ree-virtual-machine systemd-udevd[486]: Using default interface naming scheme 'v249'.
+4月 12 19:33:16 ree-virtual-machine mtp-probe[541]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+4月 12 19:33:16 ree-virtual-machine mtp-probe[541]: bus: 2, device: 2 was not an MTP device
+4月 12 19:33:16 ree-virtual-machine systemd-udevd[483]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+4月 12 19:33:16 ree-virtual-machine systemd-udevd[468]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+4月 12 19:33:16 ree-virtual-machine systemd-udevd[464]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+4月 12 19:33:16 ree-virtual-machine systemd-udevd[483]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+4月 12 19:33:16 ree-virtual-machine systemd-udevd[461]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+4月 12 19:33:16 ree-virtual-machine systemd-udevd[482]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+4月 12 19:33:16 ree-virtual-machine systemd-udevd[470]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+-- Boot e44af90cbb3e49179059ad1de25c45d0 --
+4月 12 21:31:06 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+4月 12 21:31:06 ree-virtual-machine systemd-udevd[469]: Using default interface naming scheme 'v249'.
+4月 12 21:31:06 ree-virtual-machine mtp-probe[619]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+4月 12 21:31:06 ree-virtual-machine mtp-probe[619]: bus: 2, device: 2 was not an MTP device
+4月 12 21:31:06 ree-virtual-machine systemd-udevd[461]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+4月 12 21:31:06 ree-virtual-machine systemd-udevd[477]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+4月 12 21:31:06 ree-virtual-machine systemd-udevd[477]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+4月 12 21:31:06 ree-virtual-machine systemd-udevd[461]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+4月 12 21:31:06 ree-virtual-machine systemd-udevd[469]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+4月 12 21:31:06 ree-virtual-machine systemd-udevd[479]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+4月 12 21:31:06 ree-virtual-machine systemd-udevd[467]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 670c3aae65b84f6c8708951f52467260 --
+4月 12 21:49:10 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+4月 12 21:49:12 ree-virtual-machine systemd-udevd[481]: Using default interface naming scheme 'v249'.
+4月 12 21:49:12 ree-virtual-machine mtp-probe[551]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+4月 12 21:49:12 ree-virtual-machine mtp-probe[551]: bus: 2, device: 2 was not an MTP device
+4月 12 21:49:12 ree-virtual-machine systemd-udevd[462]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+4月 12 21:49:12 ree-virtual-machine systemd-udevd[473]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+4月 12 21:49:12 ree-virtual-machine systemd-udevd[473]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+4月 12 21:49:12 ree-virtual-machine systemd-udevd[477]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+4月 12 21:49:12 ree-virtual-machine systemd-udevd[461]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+4月 12 21:49:12 ree-virtual-machine systemd-udevd[481]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+4月 12 21:49:12 ree-virtual-machine systemd-udevd[464]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 73255c0c6dec4ce4bca99ec2ceb12507 --
+4月 12 21:53:28 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+4月 12 21:53:28 ree-virtual-machine systemd-udevd[477]: Using default interface naming scheme 'v249'.
+4月 12 21:53:28 ree-virtual-machine mtp-probe[583]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+4月 12 21:53:28 ree-virtual-machine mtp-probe[583]: bus: 2, device: 2 was not an MTP device
+4月 12 21:53:28 ree-virtual-machine systemd-udevd[479]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+4月 12 21:53:28 ree-virtual-machine systemd-udevd[474]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+4月 12 21:53:28 ree-virtual-machine systemd-udevd[479]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+4月 12 21:53:28 ree-virtual-machine systemd-udevd[477]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+4月 12 21:53:28 ree-virtual-machine systemd-udevd[476]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+4月 12 21:53:28 ree-virtual-machine systemd-udevd[475]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+4月 12 21:53:28 ree-virtual-machine systemd-udevd[459]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot ab354c8c35ec46309c3d583c22d4722e --
+4月 13 11:49:13 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+4月 13 11:49:14 ree-virtual-machine systemd-udevd[459]: Using default interface naming scheme 'v249'.
+4月 13 11:49:14 ree-virtual-machine systemd-udevd[473]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+4月 13 11:49:14 ree-virtual-machine mtp-probe[605]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+4月 13 11:49:14 ree-virtual-machine mtp-probe[605]: bus: 2, device: 2 was not an MTP device
+4月 13 11:49:14 ree-virtual-machine systemd-udevd[469]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+4月 13 11:49:14 ree-virtual-machine systemd-udevd[464]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+4月 13 11:49:14 ree-virtual-machine systemd-udevd[473]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+4月 13 11:49:14 ree-virtual-machine systemd-udevd[467]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+4月 13 11:49:14 ree-virtual-machine systemd-udevd[484]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+4月 13 11:49:14 ree-virtual-machine systemd-udevd[466]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 1223bb12cf164754a34338b3879bc416 --
+4月 13 20:22:48 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+4月 13 20:22:49 ree-virtual-machine systemd-udevd[474]: Using default interface naming scheme 'v249'.
+4月 13 20:22:49 ree-virtual-machine systemd-udevd[477]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+4月 13 20:22:49 ree-virtual-machine mtp-probe[602]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+4月 13 20:22:49 ree-virtual-machine mtp-probe[602]: bus: 2, device: 2 was not an MTP device
+4月 13 20:22:49 ree-virtual-machine systemd-udevd[468]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+4月 13 20:22:49 ree-virtual-machine systemd-udevd[477]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+4月 13 20:22:49 ree-virtual-machine systemd-udevd[462]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+4月 13 20:22:49 ree-virtual-machine systemd-udevd[474]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+4月 13 20:22:49 ree-virtual-machine systemd-udevd[469]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+4月 13 20:22:50 ree-virtual-machine systemd-udevd[481]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot eedc866258b546db86377bdd16f52c6c --
+4月 13 23:32:57 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+4月 13 23:32:58 ree-virtual-machine systemd-udevd[484]: Using default interface naming scheme 'v249'.
+4月 13 23:32:58 ree-virtual-machine mtp-probe[583]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+4月 13 23:32:58 ree-virtual-machine mtp-probe[583]: bus: 2, device: 2 was not an MTP device
+4月 13 23:32:58 ree-virtual-machine systemd-udevd[485]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+4月 13 23:32:58 ree-virtual-machine systemd-udevd[475]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+4月 13 23:32:58 ree-virtual-machine systemd-udevd[485]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+4月 13 23:32:58 ree-virtual-machine systemd-udevd[482]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+4月 13 23:32:58 ree-virtual-machine systemd-udevd[486]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+4月 13 23:32:58 ree-virtual-machine systemd-udevd[478]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+4月 13 23:32:58 ree-virtual-machine systemd-udevd[459]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 6336d5d01d9d47a1a84a86d400678bbe --
+4月 14 18:40:02 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+4月 14 18:40:03 ree-virtual-machine systemd-udevd[476]: Using default interface naming scheme 'v249'.
+4月 14 18:40:03 ree-virtual-machine mtp-probe[611]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+4月 14 18:40:03 ree-virtual-machine mtp-probe[611]: bus: 2, device: 2 was not an MTP device
+4月 14 18:40:03 ree-virtual-machine systemd-udevd[461]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+4月 14 18:40:03 ree-virtual-machine systemd-udevd[465]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+4月 14 18:40:03 ree-virtual-machine systemd-udevd[461]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+4月 14 18:40:03 ree-virtual-machine systemd-udevd[483]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+4月 14 18:40:03 ree-virtual-machine systemd-udevd[473]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+4月 14 18:40:03 ree-virtual-machine systemd-udevd[463]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+4月 14 18:40:03 ree-virtual-machine systemd-udevd[458]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+-- Boot 00425514c17e404db4cc5611a8f55ed9 --
+4月 14 21:28:22 ree-virtual-machine systemd[1]: Started Rule-based Manager for Device Events and Files.
+4月 14 21:28:22 ree-virtual-machine systemd-udevd[459]: Using default interface naming scheme 'v249'.
+4月 14 21:28:22 ree-virtual-machine mtp-probe[646]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+4月 14 21:28:22 ree-virtual-machine mtp-probe[646]: bus: 2, device: 2 was not an MTP device
+4月 14 21:28:22 ree-virtual-machine systemd-udevd[480]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+4月 14 21:28:22 ree-virtual-machine systemd-udevd[476]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+4月 14 21:28:22 ree-virtual-machine systemd-udevd[470]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+4月 14 21:28:22 ree-virtual-machine systemd-udevd[477]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+4月 14 21:28:22 ree-virtual-machine systemd-udevd[463]: fd0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/fd0' failed with exit code 1.
+4月 14 21:28:22 ree-virtual-machine systemd-udevd[478]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+4月 14 21:28:22 ree-virtual-machine systemd-udevd[459]: sr1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr1' failed with exit code 1.
+

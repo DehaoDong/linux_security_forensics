@@ -1,47 +1,118 @@
-import os
 import glob
+import os
+import subprocess
+from modules import log, output_result
 
 
-def check_startup_items():
-    # 系统启动项路径
-    startup_paths = [
-        '/etc/rc.d',
-        '/etc/rc.local',
-        '/etc/init.d',
-        '/etc/systemd/system'
-    ]
+def get_init_system():
+    try:
+        output = subprocess.check_output(['ps', '-p', '1', '-o', 'comm='], text=True)
+    except subprocess.CalledProcessError:
+        log.print_and_log("Error: Unable to determine init system")
+        return None
 
-    # 可疑关键词（可根据需要添加更多关键词）
-    suspicious_keywords = ['malicious', 'evil', 'harmful']
+    output = output.strip()
+    if output == 'init':
+        return 'SysV'
+    elif output == 'systemd':
+        return 'Systemd'
+    elif output == 'upstart':
+        return 'Upstart'
+    else:
+        log.print_and_log(f"Unknown init system: {output}")
+        return None
 
-    found_issues = []
 
-    for path in startup_paths:
-        if os.path.isfile(path):
-            with open(path) as f:
-                for line_number, line in enumerate(f, start=1):
-                    if any(keyword in line for keyword in suspicious_keywords):
-                        found_issues.append((path, line_number, line.strip()))
-        elif os.path.isdir(path):
-            for startup_file in glob.glob(os.path.join(path, '*')):
-                if os.path.isfile(startup_file):
-                    with open(startup_file) as f:
-                        for line_number, line in enumerate(f, start=1):
-                            if any(keyword in line for keyword in suspicious_keywords):
-                                found_issues.append((startup_file, line_number, line.strip()))
+def systemd_services():
+    output = subprocess.check_output(['systemctl', 'list-unit-files', '--type=service'], text=True)
+    services = []
+    for line in output.splitlines():
+        if line:
+            service_name = line.strip().split()[0]
+            services.append(service_name)
+    return services
 
-    return found_issues
+
+def backup_systemd_logs(services):
+    for service in services:
+        log.print_and_log(f"Backing up {service}.log")
+        journalctl_output = subprocess.check_output(['journalctl', '-u', service], text=True, errors='ignore')
+        output_result.write_content(f"init/{service}.log", journalctl_output)
+
+
+def check_systemd_service_files(services):
+    for service in services:
+        service_file = f"/etc/systemd/system/{service}.conf"
+
+        log.print_and_log(f"Backing up service file for {service}:")
+
+        output_result.write_content(f"init/{service}.conf", service_file)
+
+
+def sysv_services():
+    init_scripts = glob.glob('/etc/init.d/*')
+    services = [os.path.basename(script) for script in init_scripts]
+    return services
+
+
+def backup_sysv_logs(services):
+    for service in services:
+        log.print_and_log(f"Backing up {service}.log")
+        log_path = f"/var/log/{service}.log"
+        if os.path.exists(log_path):
+            output_result.write_content(f"init/{service}.log", log_path)
+
+
+def check_sysv_service_files(services):
+    for service in services:
+        service_file = f"/etc/init.d/{service}.conf"
+
+        log.print_and_log(f"Backing up service file for {service}:")
+
+        output_result.write_content(f"init/{service}.conf", service_file)
+
+
+def upstart_services():
+    conf_files = glob.glob('/etc/init/*.conf')
+    services = [os.path.splitext(os.path.basename(conf))[0] for conf in conf_files]
+    return services
+
+
+def backup_upstart_logs(services):
+    for service in services:
+        log.print_and_log(f"Backing up {service}.log")
+        log_path = f"/var/log/upstart/{service}.log"
+        if os.path.exists(log_path):
+            output_result.write_content(f"init/{service}.log", log_path)
+
+
+def check_upstart_service_files(services):
+    for service in services:
+        service_file = f"/etc/init/{service}.conf"
+
+        log.print_and_log(f"Backing up service file for {service}")
+
+        output_result.write_content(f"init/{service}.conf", service_file)
 
 
 def main():
-    issues = check_startup_items()
+    init_system = get_init_system()
+    log.print_and_log(f"Init system: {init_system}")
 
-    if issues:
-        print("Found potential issues in startup items:")
-        for issue in issues:
-            print(f"File: {issue[0]}, Line: {issue[1]}, Content: {issue[2]}")
+    if init_system == 'Systemd':
+        services = systemd_services()
+        backup_systemd_logs(services)
+        # check_systemd_service_files(services)
+    elif init_system == 'SysV':
+        services = sysv_services()
+        backup_sysv_logs(services)
+        # check_sysv_service_files(services)
+    elif init_system == 'Upstart':
+        services = upstart_services()
+        backup_upstart_logs(services)
+        # check_upstart_service_files(services)
     else:
-        print("No issues found in startup items.")
+        log.print_and_log("Unsupported init system")
 
 
 if __name__ == "__main__":

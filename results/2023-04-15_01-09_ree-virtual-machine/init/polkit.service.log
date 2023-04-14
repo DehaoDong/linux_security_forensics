@@ -1,0 +1,508 @@
+2月 20 18:38:52 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+2月 20 18:38:52 ree-virtual-machine polkitd[901]: started daemon version 0.105 using authority implementation `local' version `0.105'
+2月 20 18:38:52 ree-virtual-machine systemd[1]: Started Authorization Manager.
+2月 20 18:38:54 ree-virtual-machine polkitd(authority=local)[901]: Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 20 18:40:17 ree-virtual-machine polkitd(authority=local)[901]: Registered Authentication Agent for unix-session:2 (system bus name :1.86 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 20 18:40:19 ree-virtual-machine polkitd(authority=local)[901]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.33, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2月 20 18:47:23 ree-virtual-machine polkitd(authority=local)[901]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action com.ubuntu.softwareproperties.applychanges for system-bus-name::1.136 [/usr/bin/python3 /usr/bin/software-properties-gtk --open-tab 2] (owned by unix-user:ree)
+2月 20 18:48:47 ree-virtual-machine polkitd(authority=local)[901]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.131 [/usr/bin/python3 /usr/bin/update-manager] (owned by unix-user:ree)
+2月 20 18:52:48 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+2月 20 18:52:48 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+2月 20 18:52:48 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+2月 20 18:52:48 ree-virtual-machine systemd[1]: polkit.service: Consumed 3.252s CPU time.
+-- Boot 59a08585a9874716bda9035a442e266a --
+2月 20 18:52:55 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+2月 20 18:52:56 ree-virtual-machine polkitd[871]: started daemon version 0.105 using authority implementation `local' version `0.105'
+2月 20 18:52:56 ree-virtual-machine systemd[1]: Started Authorization Manager.
+2月 20 18:52:57 ree-virtual-machine polkitd(authority=local)[871]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 20 18:54:23 ree-virtual-machine polkitd(authority=local)[871]: Registered Authentication Agent for unix-session:2 (system bus name :1.86 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 20 18:54:24 ree-virtual-machine polkitd(authority=local)[871]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Boot 4e50f35765d14836ba11bf87868d3690 --
+2月 21 18:32:15 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+2月 21 18:32:15 ree-virtual-machine polkitd[883]: started daemon version 0.105 using authority implementation `local' version `0.105'
+2月 21 18:32:16 ree-virtual-machine systemd[1]: Started Authorization Manager.
+2月 21 18:32:18 ree-virtual-machine polkitd(authority=local)[883]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 21 18:32:34 ree-virtual-machine polkitd(authority=local)[883]: Registered Authentication Agent for unix-session:2 (system bus name :1.85 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 21 18:32:37 ree-virtual-machine polkitd(authority=local)[883]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2月 21 18:36:43 ree-virtual-machine polkitd(authority=local)[883]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.137 [/usr/bin/python3 /usr/bin/gnome-language-selector] (owned by unix-user:ree)
+2月 21 18:41:05 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+2月 21 18:41:05 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+2月 21 18:41:05 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+2月 21 18:41:05 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.379s CPU time.
+-- Boot 378ef5fc52a64e67810e6fa7a9ee31e6 --
+2月 21 18:42:26 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+2月 21 18:42:26 ree-virtual-machine polkitd[850]: started daemon version 0.105 using authority implementation `local' version `0.105'
+2月 21 18:42:26 ree-virtual-machine systemd[1]: Started Authorization Manager.
+2月 21 18:42:28 ree-virtual-machine polkitd(authority=local)[850]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 21 18:42:34 ree-virtual-machine polkitd(authority=local)[850]: Registered Authentication Agent for unix-session:2 (system bus name :1.86 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 21 18:42:36 ree-virtual-machine polkitd(authority=local)[850]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2月 21 18:49:48 ree-virtual-machine polkitd(authority=local)[850]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action com.ubuntu.languageselector.setsystemdefaultlanguage for system-bus-name::1.138 [/usr/bin/python3 /usr/bin/gnome-language-selector] (owned by unix-user:ree)
+2月 21 19:01:35 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+2月 21 19:01:35 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+2月 21 19:01:35 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+2月 21 19:01:35 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.201s CPU time.
+-- Boot 48d666794bf9483ca7ebe0e999848072 --
+2月 21 19:01:44 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+2月 21 19:01:45 ree-virtual-machine polkitd[887]: started daemon version 0.105 using authority implementation `local' version `0.105'
+2月 21 19:01:45 ree-virtual-machine systemd[1]: Started Authorization Manager.
+2月 21 19:01:46 ree-virtual-machine polkitd(authority=local)[887]: Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+2月 21 19:01:53 ree-virtual-machine polkitd(authority=local)[887]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+2月 21 19:01:54 ree-virtual-machine polkitd(authority=local)[887]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+2月 21 19:02:18 ree-virtual-machine polkitd(authority=local)[887]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action com.ubuntu.languageselector.setsystemdefaultlanguage for system-bus-name::1.110 [/usr/bin/python3 /usr/bin/gnome-language-selector] (owned by unix-user:ree)
+2月 21 19:02:28 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+2月 21 19:02:28 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+2月 21 19:02:28 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+2月 21 19:02:28 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.137s CPU time.
+-- Boot a0299816d1d24b8ab70b7c10b1502239 --
+2月 21 19:02:36 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+2月 21 19:02:36 ree-virtual-machine polkitd[893]: started daemon version 0.105 using authority implementation `local' version `0.105'
+2月 21 19:02:36 ree-virtual-machine systemd[1]: Started Authorization Manager.
+2月 21 19:02:38 ree-virtual-machine polkitd(authority=local)[893]: Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 21 19:02:46 ree-virtual-machine polkitd(authority=local)[893]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 21 19:02:47 ree-virtual-machine polkitd(authority=local)[893]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2月 21 19:17:46 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+2月 21 19:17:46 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+2月 21 19:17:46 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+-- Boot 7319c95352634624b166e30456e7d6e8 --
+2月 21 19:17:55 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+2月 21 19:17:56 ree-virtual-machine polkitd[870]: started daemon version 0.105 using authority implementation `local' version `0.105'
+2月 21 19:17:56 ree-virtual-machine systemd[1]: Started Authorization Manager.
+2月 21 19:17:57 ree-virtual-machine polkitd(authority=local)[870]: Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 21 19:18:41 ree-virtual-machine polkitd(authority=local)[870]: Registered Authentication Agent for unix-session:2 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 21 19:18:42 ree-virtual-machine polkitd(authority=local)[870]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2月 21 19:23:02 ree-virtual-machine polkitd(authority=local)[870]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.84, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2月 21 19:23:03 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+2月 21 19:23:03 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+2月 21 19:23:03 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+2月 21 19:23:03 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.062s CPU time.
+-- Boot e6c010b640444a48974c34b34cbf889b --
+2月 21 19:23:10 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+2月 21 19:23:10 ree-virtual-machine polkitd[812]: started daemon version 0.105 using authority implementation `local' version `0.105'
+2月 21 19:23:11 ree-virtual-machine systemd[1]: Started Authorization Manager.
+2月 21 19:23:12 ree-virtual-machine polkitd(authority=local)[812]: Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 21 19:23:30 ree-virtual-machine polkitd(authority=local)[812]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 21 19:23:31 ree-virtual-machine polkitd(authority=local)[812]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2月 21 19:28:39 ree-virtual-machine polkitd(authority=local)[812]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.82, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2月 21 19:28:40 ree-virtual-machine polkitd(authority=local)[812]: Registered Authentication Agent for unix-session:c2 (system bus name :1.145 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+2月 21 19:28:46 ree-virtual-machine polkitd(authority=local)[812]: Registered Authentication Agent for unix-session:5 (system bus name :1.169 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+2月 21 19:28:48 ree-virtual-machine polkitd(authority=local)[812]: Unregistered Authentication Agent for unix-session:c2 (system bus name :1.145, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+2月 21 19:50:53 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+2月 21 19:50:53 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+2月 21 19:50:53 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+2月 21 19:50:53 ree-virtual-machine systemd[1]: polkit.service: Consumed 2.011s CPU time.
+-- Boot 9ce45ab8fa0345b987fea497f44c5051 --
+3月 10 20:00:44 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 10 20:00:44 ree-virtual-machine polkitd[805]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 10 20:00:44 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 10 20:00:47 ree-virtual-machine polkitd(authority=local)[805]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 10 20:01:00 ree-virtual-machine polkitd(authority=local)[805]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 10 20:01:03 ree-virtual-machine polkitd(authority=local)[805]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 10 20:03:45 ree-virtual-machine polkitd(authority=local)[805]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.83, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 10 20:03:47 ree-virtual-machine polkitd(authority=local)[805]: Registered Authentication Agent for unix-session:c2 (system bus name :1.133 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 10 20:03:55 ree-virtual-machine polkitd(authority=local)[805]: Registered Authentication Agent for unix-session:5 (system bus name :1.158 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 10 20:03:57 ree-virtual-machine polkitd(authority=local)[805]: Unregistered Authentication Agent for unix-session:c2 (system bus name :1.133, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 10 20:30:58 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 10 20:30:58 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 10 20:30:58 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+3月 10 20:30:58 ree-virtual-machine systemd[1]: polkit.service: Consumed 2.477s CPU time.
+-- Boot 78840721b8c14d03929c91da9cf2989f --
+3月 15 11:06:35 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 15 11:06:35 ree-virtual-machine polkitd[861]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 15 11:06:35 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 15 11:06:38 ree-virtual-machine polkitd(authority=local)[861]: Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 15 11:09:31 ree-virtual-machine polkitd(authority=local)[861]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 15 11:09:34 ree-virtual-machine polkitd(authority=local)[861]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 15 11:23:49 ree-virtual-machine polkitd(authority=local)[861]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:5558:103255 [/home/ree/snap/pycharm-2022.3.3/jbr/bin/java -classpath /home/ree/snap/pycharm-2022.3.3/lib/util.jar:/home/ree/snap/pycharm-2022.3.3/lib/app.jar:/home/ree/snap/pycharm-2022.3.3/lib/3rd-party-rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/platform-statistics-devkit.jar:/home/ree/snap/pycharm-2022.3.3/lib/jps-model.jar:/home/ree/snap/pycharm-2022.3.3/lib/stats.jar:/home/ree/snap/pycharm-2022.3.3/lib/protobuf.jar:/home/ree/snap/pycharm-2022.3.3/lib/external-system-rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/forms_rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/intellij-test-discovery.jar:/home/ree/snap/pycharm-2022.3.3/lib/groovy.jar:/home/ree/snap/pycharm-2022.3.3/lib/3rd-party-native.jar:/home/ree/snap/pycharm-2022.3.3/lib/annotations-java5.jar:/home/ree/snap/pycharm-2022.3.3/lib/async-profiler-windows.jar:/home/ree/snap/pycharm-2022.3.3/lib/async-profiler.jar:/home/ree/snap/pycharm-2022.3.3/lib/byte-buddy-agent.jar:/home/ree/snap/pycharm-2022.3.3/lib/error-prone-annotations.jar:/home/ree/snap/pycharm-2022.3.3/lib/externalProcess-rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/intellij-coverage-agent-1.0.682.jar:/home/ree/snap/pycharm-2022.3.3/lib/jetbrains-annotations.jar:/home/ree/snap/pycharm-2022.3.3/lib/jsch-agent.jar:/home/ree/snap/pycharm-2022.3.3/lib/junit4.jar:/home/ree/snap/pycharm-2022.3.3/lib/platform-objectSerializer-annotations.jar:/home/ree/snap/pycharm-2022.3.3/lib/rd.jar:/home/ree/snap/pycharm-2022.3.3/lib/util_rt.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=512m -XX:+UseG1GC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -XX:+IgnoreUnrecognizedVMOptions -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend -ea -Dsun.io.useCanonCaches=false -Dsun.java2d.metal=true -Djbr.catch.SIGABRT=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/ree/java_error_in_pycharm_%p.log -XX:HeapDumpPath=/home/ree/java_error_in_pycharm_.hprof -Djb.vmOptionsFile=/home/ree/snap/pycharm-2022.3.3/bin/pycharm64.vmoptions -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader -Didea.vendor.name=JetBrains -Didea.paths.selector=PyCharm2022.3 -Djna.boot.library.path=/home/ree/snap/pycharm-2022.3.3/lib/jna/amd64 -Dpty4j.preferred.native.folder=/home/ree/snap/pycharm-2022.3.3/lib/pty4j -Djna.nosys=true -Djna.noclasspath=true -Didea.platform.prefix=Python -Dsplash=true --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.ref=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.text=ALL-UNNAMED --add-opens=java.base/java.time=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.fs=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED --add-opens=java.base/sun.security.util=ALL-UNNAMED --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED --add-opens=java.desktop/java.awt=ALL-UNNAMED --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.event=ALL-UNNAMED --add-opens=java.desktop/java.awt.image=ALL-UNNAMED --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.font=ALL-UNNAMED --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED --add-opens=java.desktop/sun.awt=ALL-UNNAMED --add-opens=java.desktop/sun.font=ALL-UNNAMED --add-opens=java.desktop/sun.java2d=ALL-UNNAMED --add-opens=java.desktop/sun.swing=ALL-UNNAMED --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED com.intellij.idea.Main] (owned by unix-user:ree)
+3月 15 11:27:13 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 15 11:27:13 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 15 11:27:13 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+3月 15 11:27:13 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.065s CPU time.
+-- Boot ca9b2e5e215f4f3fbeb8e0a2983e83e6 --
+3月 22 19:19:57 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 22 19:20:00 ree-virtual-machine polkitd[792]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 22 19:20:00 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 22 19:20:04 ree-virtual-machine polkitd(authority=local)[792]: Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 22 19:20:55 ree-virtual-machine polkitd(authority=local)[792]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 22 19:20:57 ree-virtual-machine polkitd(authority=local)[792]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 22 19:56:18 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 22 19:56:18 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 22 19:56:18 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+3月 22 19:56:18 ree-virtual-machine systemd[1]: polkit.service: Consumed 2.009s CPU time.
+-- Boot ee7967cec9534f4aa0162aa833ebf2b7 --
+3月 22 19:56:29 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 22 19:56:29 ree-virtual-machine polkitd[918]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 22 19:56:29 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 22 19:56:30 ree-virtual-machine polkitd(authority=local)[918]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 22 19:56:48 ree-virtual-machine polkitd(authority=local)[918]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 22 19:56:49 ree-virtual-machine polkitd(authority=local)[918]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+-- Boot 9e3eeb915f5e4d0aab1fa06627dc238a --
+3月 25 22:03:00 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 25 22:03:00 ree-virtual-machine polkitd[847]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 25 22:03:00 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 25 22:03:03 ree-virtual-machine polkitd(authority=local)[847]: Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 25 22:03:11 ree-virtual-machine polkitd(authority=local)[847]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 25 22:03:13 ree-virtual-machine polkitd(authority=local)[847]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+-- Boot cce731051b6244c4a03f32893ae3c956 --
+3月 28 10:31:04 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 28 10:31:04 ree-virtual-machine polkitd[849]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 28 10:31:04 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 28 10:31:07 ree-virtual-machine polkitd(authority=local)[849]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 28 10:37:48 ree-virtual-machine polkitd(authority=local)[849]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 28 10:37:51 ree-virtual-machine polkitd(authority=local)[849]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 28 21:58:13 ree-virtual-machine polkitd(authority=local)[849]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:3833:107691 [/home/ree/snap/pycharm-2022.3.3/jbr/bin/java -classpath /home/ree/snap/pycharm-2022.3.3/lib/util.jar:/home/ree/snap/pycharm-2022.3.3/lib/app.jar:/home/ree/snap/pycharm-2022.3.3/lib/3rd-party-rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/platform-statistics-devkit.jar:/home/ree/snap/pycharm-2022.3.3/lib/jps-model.jar:/home/ree/snap/pycharm-2022.3.3/lib/stats.jar:/home/ree/snap/pycharm-2022.3.3/lib/protobuf.jar:/home/ree/snap/pycharm-2022.3.3/lib/external-system-rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/forms_rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/intellij-test-discovery.jar:/home/ree/snap/pycharm-2022.3.3/lib/groovy.jar:/home/ree/snap/pycharm-2022.3.3/lib/3rd-party-native.jar:/home/ree/snap/pycharm-2022.3.3/lib/annotations-java5.jar:/home/ree/snap/pycharm-2022.3.3/lib/async-profiler-windows.jar:/home/ree/snap/pycharm-2022.3.3/lib/async-profiler.jar:/home/ree/snap/pycharm-2022.3.3/lib/byte-buddy-agent.jar:/home/ree/snap/pycharm-2022.3.3/lib/error-prone-annotations.jar:/home/ree/snap/pycharm-2022.3.3/lib/externalProcess-rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/intellij-coverage-agent-1.0.682.jar:/home/ree/snap/pycharm-2022.3.3/lib/jetbrains-annotations.jar:/home/ree/snap/pycharm-2022.3.3/lib/jsch-agent.jar:/home/ree/snap/pycharm-2022.3.3/lib/junit4.jar:/home/ree/snap/pycharm-2022.3.3/lib/platform-objectSerializer-annotations.jar:/home/ree/snap/pycharm-2022.3.3/lib/rd.jar:/home/ree/snap/pycharm-2022.3.3/lib/util_rt.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=512m -XX:+UseG1GC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -XX:+IgnoreUnrecognizedVMOptions -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend -ea -Dsun.io.useCanonCaches=false -Dsun.java2d.metal=true -Djbr.catch.SIGABRT=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -Dsun.tools.attach.tmp.only=true -Xmx1995m -XX:ErrorFile=/home/ree/java_error_in_pycharm_%p.log -XX:HeapDumpPath=/home/ree/java_error_in_pycharm_.hprof -Djb.vmOptionsFile=/home/ree/.config/JetBrains/PyCharm2022.3/pycharm64.vmoptions -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader -Didea.vendor.name=JetBrains -Didea.paths.selector=PyCharm2022.3 -Djna.boot.library.path=/home/ree/snap/pycharm-2022.3.3/lib/jna/amd64 -Dpty4j.preferred.native.folder=/home/ree/snap/pycharm-2022.3.3/lib/pty4j -Djna.nosys=true -Djna.noclasspath=true -Didea.platform.prefix=Python -Dsplash=true --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.ref=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.text=ALL-UNNAMED --add-opens=java.base/java.time=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.fs=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED --add-opens=java.base/sun.security.util=ALL-UNNAMED --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED --add-opens=java.desktop/java.awt=ALL-UNNAMED --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.event=ALL-UNNAMED --add-opens=java.desktop/java.awt.image=ALL-UNNAMED --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.font=ALL-UNNAMED --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED --add-opens=java.desktop/sun.awt=ALL-UNNAMED --add-opens=java.desktop/sun.font=ALL-UNNAMED --add-opens=java.desktop/sun.java2d=ALL-UNNAMED --add-opens=java.desktop/sun.swing=ALL-UNNAMED --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED com.intellij.idea.Main] (owned by unix-user:ree)
+3月 28 21:58:17 ree-virtual-machine polkitd(authority=local)[849]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:3833:107691 [/home/ree/snap/pycharm-2022.3.3/jbr/bin/java -classpath /home/ree/snap/pycharm-2022.3.3/lib/util.jar:/home/ree/snap/pycharm-2022.3.3/lib/app.jar:/home/ree/snap/pycharm-2022.3.3/lib/3rd-party-rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/platform-statistics-devkit.jar:/home/ree/snap/pycharm-2022.3.3/lib/jps-model.jar:/home/ree/snap/pycharm-2022.3.3/lib/stats.jar:/home/ree/snap/pycharm-2022.3.3/lib/protobuf.jar:/home/ree/snap/pycharm-2022.3.3/lib/external-system-rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/forms_rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/intellij-test-discovery.jar:/home/ree/snap/pycharm-2022.3.3/lib/groovy.jar:/home/ree/snap/pycharm-2022.3.3/lib/3rd-party-native.jar:/home/ree/snap/pycharm-2022.3.3/lib/annotations-java5.jar:/home/ree/snap/pycharm-2022.3.3/lib/async-profiler-windows.jar:/home/ree/snap/pycharm-2022.3.3/lib/async-profiler.jar:/home/ree/snap/pycharm-2022.3.3/lib/byte-buddy-agent.jar:/home/ree/snap/pycharm-2022.3.3/lib/error-prone-annotations.jar:/home/ree/snap/pycharm-2022.3.3/lib/externalProcess-rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/intellij-coverage-agent-1.0.682.jar:/home/ree/snap/pycharm-2022.3.3/lib/jetbrains-annotations.jar:/home/ree/snap/pycharm-2022.3.3/lib/jsch-agent.jar:/home/ree/snap/pycharm-2022.3.3/lib/junit4.jar:/home/ree/snap/pycharm-2022.3.3/lib/platform-objectSerializer-annotations.jar:/home/ree/snap/pycharm-2022.3.3/lib/rd.jar:/home/ree/snap/pycharm-2022.3.3/lib/util_rt.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=512m -XX:+UseG1GC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -XX:+IgnoreUnrecognizedVMOptions -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend -ea -Dsun.io.useCanonCaches=false -Dsun.java2d.metal=true -Djbr.catch.SIGABRT=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -Dsun.tools.attach.tmp.only=true -Xmx1995m -XX:ErrorFile=/home/ree/java_error_in_pycharm_%p.log -XX:HeapDumpPath=/home/ree/java_error_in_pycharm_.hprof -Djb.vmOptionsFile=/home/ree/.config/JetBrains/PyCharm2022.3/pycharm64.vmoptions -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader -Didea.vendor.name=JetBrains -Didea.paths.selector=PyCharm2022.3 -Djna.boot.library.path=/home/ree/snap/pycharm-2022.3.3/lib/jna/amd64 -Dpty4j.preferred.native.folder=/home/ree/snap/pycharm-2022.3.3/lib/pty4j -Djna.nosys=true -Djna.noclasspath=true -Didea.platform.prefix=Python -Dsplash=true --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.ref=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.text=ALL-UNNAMED --add-opens=java.base/java.time=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.fs=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED --add-opens=java.base/sun.security.util=ALL-UNNAMED --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED --add-opens=java.desktop/java.awt=ALL-UNNAMED --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.event=ALL-UNNAMED --add-opens=java.desktop/java.awt.image=ALL-UNNAMED --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.font=ALL-UNNAMED --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED --add-opens=java.desktop/sun.awt=ALL-UNNAMED --add-opens=java.desktop/sun.font=ALL-UNNAMED --add-opens=java.desktop/sun.java2d=ALL-UNNAMED --add-opens=java.desktop/sun.swing=ALL-UNNAMED --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED com.intellij.idea.Main] (owned by unix-user:ree)
+3月 28 22:04:54 ree-virtual-machine polkitd(authority=local)[849]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:3833:107691 [/home/ree/snap/pycharm-2022.3.3/jbr/bin/java -classpath /home/ree/snap/pycharm-2022.3.3/lib/util.jar:/home/ree/snap/pycharm-2022.3.3/lib/app.jar:/home/ree/snap/pycharm-2022.3.3/lib/3rd-party-rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/platform-statistics-devkit.jar:/home/ree/snap/pycharm-2022.3.3/lib/jps-model.jar:/home/ree/snap/pycharm-2022.3.3/lib/stats.jar:/home/ree/snap/pycharm-2022.3.3/lib/protobuf.jar:/home/ree/snap/pycharm-2022.3.3/lib/external-system-rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/forms_rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/intellij-test-discovery.jar:/home/ree/snap/pycharm-2022.3.3/lib/groovy.jar:/home/ree/snap/pycharm-2022.3.3/lib/3rd-party-native.jar:/home/ree/snap/pycharm-2022.3.3/lib/annotations-java5.jar:/home/ree/snap/pycharm-2022.3.3/lib/async-profiler-windows.jar:/home/ree/snap/pycharm-2022.3.3/lib/async-profiler.jar:/home/ree/snap/pycharm-2022.3.3/lib/byte-buddy-agent.jar:/home/ree/snap/pycharm-2022.3.3/lib/error-prone-annotations.jar:/home/ree/snap/pycharm-2022.3.3/lib/externalProcess-rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/intellij-coverage-agent-1.0.682.jar:/home/ree/snap/pycharm-2022.3.3/lib/jetbrains-annotations.jar:/home/ree/snap/pycharm-2022.3.3/lib/jsch-agent.jar:/home/ree/snap/pycharm-2022.3.3/lib/junit4.jar:/home/ree/snap/pycharm-2022.3.3/lib/platform-objectSerializer-annotations.jar:/home/ree/snap/pycharm-2022.3.3/lib/rd.jar:/home/ree/snap/pycharm-2022.3.3/lib/util_rt.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=512m -XX:+UseG1GC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -XX:+IgnoreUnrecognizedVMOptions -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend -ea -Dsun.io.useCanonCaches=false -Dsun.java2d.metal=true -Djbr.catch.SIGABRT=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -Dsun.tools.attach.tmp.only=true -Xmx1995m -XX:ErrorFile=/home/ree/java_error_in_pycharm_%p.log -XX:HeapDumpPath=/home/ree/java_error_in_pycharm_.hprof -Djb.vmOptionsFile=/home/ree/.config/JetBrains/PyCharm2022.3/pycharm64.vmoptions -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader -Didea.vendor.name=JetBrains -Didea.paths.selector=PyCharm2022.3 -Djna.boot.library.path=/home/ree/snap/pycharm-2022.3.3/lib/jna/amd64 -Dpty4j.preferred.native.folder=/home/ree/snap/pycharm-2022.3.3/lib/pty4j -Djna.nosys=true -Djna.noclasspath=true -Didea.platform.prefix=Python -Dsplash=true --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.ref=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.text=ALL-UNNAMED --add-opens=java.base/java.time=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.fs=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED --add-opens=java.base/sun.security.util=ALL-UNNAMED --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED --add-opens=java.desktop/java.awt=ALL-UNNAMED --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.event=ALL-UNNAMED --add-opens=java.desktop/java.awt.image=ALL-UNNAMED --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.font=ALL-UNNAMED --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED --add-opens=java.desktop/sun.awt=ALL-UNNAMED --add-opens=java.desktop/sun.font=ALL-UNNAMED --add-opens=java.desktop/sun.java2d=ALL-UNNAMED --add-opens=java.desktop/sun.swing=ALL-UNNAMED --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED com.intellij.idea.Main] (owned by unix-user:ree)
+-- Boot 2a886fae77824755a4d8c5453e54eec8 --
+3月 29 11:43:32 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 29 11:43:32 ree-virtual-machine polkitd[794]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 29 11:43:32 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 29 11:43:35 ree-virtual-machine polkitd(authority=local)[794]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 29 11:43:44 ree-virtual-machine polkitd(authority=local)[794]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 29 11:43:47 ree-virtual-machine polkitd(authority=local)[794]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 29 12:42:34 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 29 12:42:34 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 29 12:42:34 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+3月 29 12:42:34 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.123s CPU time.
+-- Boot bb0991777ac541be83385906c043308d --
+3月 29 12:42:42 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 29 12:42:42 ree-virtual-machine polkitd[856]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 29 12:42:42 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 29 12:42:43 ree-virtual-machine polkitd(authority=local)[856]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 29 12:43:28 ree-virtual-machine polkitd(authority=local)[856]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 29 12:43:30 ree-virtual-machine polkitd(authority=local)[856]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 29 12:50:43 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 29 12:50:43 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 29 12:50:43 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+3月 29 12:50:43 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.160s CPU time.
+-- Boot d7712a95bc0b49358ac3d7c9a0282431 --
+3月 29 13:18:47 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 29 13:18:47 ree-virtual-machine polkitd[913]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 29 13:18:47 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 29 13:18:50 ree-virtual-machine polkitd(authority=local)[913]: Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 29 13:19:50 ree-virtual-machine polkitd(authority=local)[913]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 29 13:19:52 ree-virtual-machine polkitd(authority=local)[913]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 29 13:23:16 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 29 13:23:16 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 29 13:23:16 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+3月 29 13:23:16 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.073s CPU time.
+-- Boot 19b4dd46eb7b4597999d4311a7fcd580 --
+3月 29 13:24:44 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 29 13:24:44 ree-virtual-machine polkitd[744]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 29 13:24:44 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 29 13:24:47 ree-virtual-machine polkitd(authority=local)[744]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 29 13:24:59 ree-virtual-machine polkitd(authority=local)[744]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 29 13:25:01 ree-virtual-machine polkitd(authority=local)[744]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+-- Boot 9d814a28020a4d1b8dc1b211140df378 --
+3月 30 14:04:52 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 30 14:04:52 ree-virtual-machine polkitd[851]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 14:04:52 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 30 14:04:56 ree-virtual-machine polkitd(authority=local)[851]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 30 14:05:17 ree-virtual-machine polkitd(authority=local)[851]: Registered Authentication Agent for unix-session:2 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 14:05:19 ree-virtual-machine polkitd(authority=local)[851]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 30 14:58:39 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 30 14:58:39 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 30 14:58:39 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+3月 30 14:58:39 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.394s CPU time.
+-- Boot 84aa09a898d145c7a959de6db29053d7 --
+3月 30 15:02:21 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 30 15:02:21 ree-virtual-machine polkitd[860]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 15:02:21 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 30 15:02:23 ree-virtual-machine polkitd(authority=local)[860]: Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 30 15:02:32 ree-virtual-machine polkitd(authority=local)[860]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 15:02:34 ree-virtual-machine polkitd(authority=local)[860]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 30 15:02:52 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 30 15:02:52 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 30 15:02:52 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+3月 30 15:02:52 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.126s CPU time.
+-- Boot aa4829cf4bad48fb9f7b1a4eb947f5c0 --
+3月 30 15:03:27 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 30 15:03:27 ree-virtual-machine polkitd[922]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 15:03:27 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 30 15:03:30 ree-virtual-machine polkitd(authority=local)[922]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 30 15:03:35 ree-virtual-machine polkitd(authority=local)[922]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 30 15:03:35 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 30 15:03:36 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 30 15:03:36 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+-- Boot 00a7e42d2b624b439bea376a3bc361f1 --
+3月 30 15:14:14 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 30 15:14:14 ree-virtual-machine polkitd[835]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 15:14:14 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 30 15:14:16 ree-virtual-machine polkitd(authority=local)[835]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 30 15:15:05 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 30 15:15:06 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 30 15:15:06 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+-- Boot 1516c1af27714148858b849306510739 --
+3月 30 15:23:25 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 30 15:23:25 ree-virtual-machine polkitd[843]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 15:23:25 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 30 15:23:28 ree-virtual-machine polkitd(authority=local)[843]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 30 15:23:50 ree-virtual-machine polkitd(authority=local)[843]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 15:23:55 ree-virtual-machine polkitd(authority=local)[843]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 30 15:38:16 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 30 15:38:16 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 30 15:38:16 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+3月 30 15:38:16 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.372s CPU time.
+-- Boot 9069828abd4b41e5829b4880b07ecdde --
+3月 30 15:38:53 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 30 15:38:53 ree-virtual-machine polkitd[838]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 15:38:53 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 30 15:38:55 ree-virtual-machine polkitd(authority=local)[838]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 30 15:39:06 ree-virtual-machine polkitd(authority=local)[838]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 15:39:08 ree-virtual-machine polkitd(authority=local)[838]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+-- Boot 76e16ebfbeab47788bc4dd8853d9fe7e --
+3月 30 17:34:19 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 30 17:34:19 ree-virtual-machine polkitd[873]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 17:34:19 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 30 17:34:22 ree-virtual-machine polkitd(authority=local)[873]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 30 17:34:34 ree-virtual-machine polkitd(authority=local)[873]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 17:34:37 ree-virtual-machine polkitd(authority=local)[873]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 30 20:32:24 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 30 20:32:24 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 30 20:32:24 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+3月 30 20:32:24 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.323s CPU time.
+-- Boot e249c720d58849269d73a22f14ee6fb9 --
+3月 30 20:32:33 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 30 20:32:33 ree-virtual-machine polkitd[890]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 20:32:33 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 30 20:32:35 ree-virtual-machine polkitd(authority=local)[890]: Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 30 20:32:45 ree-virtual-machine polkitd(authority=local)[890]: Registered Authentication Agent for unix-session:2 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 20:32:47 ree-virtual-machine polkitd(authority=local)[890]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 30 21:22:56 ree-virtual-machine polkitd(authority=local)[890]: Registered Authentication Agent for unix-process:5578:302611 (system bus name :1.170 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 21:23:00 ree-virtual-machine polkitd(authority=local)[890]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.171 [systemctl start sshd.service] (owned by unix-user:ree)
+3月 30 21:23:00 ree-virtual-machine polkitd(authority=local)[890]: Unregistered Authentication Agent for unix-process:5578:302611 (system bus name :1.170, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 21:23:10 ree-virtual-machine polkitd(authority=local)[890]: Registered Authentication Agent for unix-process:5601:303959 (system bus name :1.174 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 21:23:13 ree-virtual-machine polkitd(authority=local)[890]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.175 [systemctl start ssh.service] (owned by unix-user:ree)
+3月 30 21:23:13 ree-virtual-machine polkitd(authority=local)[890]: Unregistered Authentication Agent for unix-process:5601:303959 (system bus name :1.174, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 21:26:19 ree-virtual-machine polkitd(authority=local)[890]: Registered Authentication Agent for unix-process:6060:322856 (system bus name :1.181 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 21:26:22 ree-virtual-machine polkitd(authority=local)[890]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.182 [systemctl start ssh.service] (owned by unix-user:ree)
+3月 30 21:26:22 ree-virtual-machine polkitd(authority=local)[890]: Unregistered Authentication Agent for unix-process:6060:322856 (system bus name :1.181, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Boot 9ccccf2adff74839b8fba49d83281f8b --
+3月 30 22:53:44 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 30 22:53:44 ree-virtual-machine polkitd[853]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 22:53:44 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 30 22:53:47 ree-virtual-machine polkitd(authority=local)[853]: Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 30 22:54:38 ree-virtual-machine polkitd(authority=local)[853]: Registered Authentication Agent for unix-session:2 (system bus name :1.85 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 22:54:40 ree-virtual-machine polkitd(authority=local)[853]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 30 23:30:42 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 30 23:30:42 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 30 23:30:42 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+3月 30 23:30:42 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.180s CPU time.
+-- Boot 308f7b0f7a274f0bb6200973f34667b6 --
+3月 31 00:22:28 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 31 00:22:28 ree-virtual-machine polkitd[855]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 31 00:22:28 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 31 00:22:31 ree-virtual-machine polkitd(authority=local)[855]: Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 31 00:22:38 ree-virtual-machine polkitd(authority=local)[855]: Registered Authentication Agent for unix-session:2 (system bus name :1.85 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 00:22:41 ree-virtual-machine polkitd(authority=local)[855]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 31 00:27:29 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 31 00:27:30 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 31 00:27:30 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+3月 31 00:27:30 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.237s CPU time.
+-- Boot d85c7c53e5114994bc2f0f623b3af509 --
+3月 31 19:12:16 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 31 19:12:16 ree-virtual-machine polkitd[851]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 31 19:12:16 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 31 19:12:19 ree-virtual-machine polkitd(authority=local)[851]: Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 31 19:12:25 ree-virtual-machine polkitd(authority=local)[851]: Registered Authentication Agent for unix-session:2 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 19:12:28 ree-virtual-machine polkitd(authority=local)[851]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 31 19:35:33 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 31 19:35:33 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 31 19:35:33 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+3月 31 19:35:33 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.387s CPU time.
+-- Boot 09785a07d95540b1ad518945fbcc300d --
+3月 31 19:43:50 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 31 19:43:50 ree-virtual-machine polkitd[855]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 31 19:43:50 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 31 19:43:52 ree-virtual-machine polkitd(authority=local)[855]: Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 31 19:43:59 ree-virtual-machine polkitd(authority=local)[855]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 19:44:01 ree-virtual-machine polkitd(authority=local)[855]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 31 19:44:48 ree-virtual-machine polkitd(authority=local)[855]: Registered Authentication Agent for unix-process:3057:6486 (system bus name :1.113 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 19:44:51 ree-virtual-machine polkitd(authority=local)[855]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.114 [systemctl restart sshd.service] (owned by unix-user:ree)
+3月 31 19:44:51 ree-virtual-machine polkitd(authority=local)[855]: Unregistered Authentication Agent for unix-process:3057:6486 (system bus name :1.113, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 31 19:44:59 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+3月 31 19:44:59 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+3月 31 19:44:59 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+3月 31 19:44:59 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.141s CPU time.
+-- Boot 436dee14f55b451a880859c1f76478af --
+3月 31 21:10:03 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+3月 31 21:10:03 ree-virtual-machine polkitd[867]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 31 21:10:03 ree-virtual-machine systemd[1]: Started Authorization Manager.
+3月 31 21:10:05 ree-virtual-machine polkitd(authority=local)[867]: Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 31 21:10:24 ree-virtual-machine polkitd(authority=local)[867]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 21:10:27 ree-virtual-machine polkitd(authority=local)[867]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 03 22:12:10 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+4月 03 22:12:10 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+4月 03 22:12:10 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+4月 03 22:12:10 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.210s CPU time.
+-- Boot e2fd3a66bd3b4bd68261cb94d3fee451 --
+4月 04 12:20:46 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+4月 04 12:20:46 ree-virtual-machine polkitd[813]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 04 12:20:46 ree-virtual-machine systemd[1]: Started Authorization Manager.
+4月 04 12:20:49 ree-virtual-machine polkitd(authority=local)[813]: Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 04 12:20:56 ree-virtual-machine polkitd(authority=local)[813]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 04 12:20:58 ree-virtual-machine polkitd(authority=local)[813]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 04 12:22:47 ree-virtual-machine polkitd(authority=local)[813]: Registered Authentication Agent for unix-process:3253:12858 (system bus name :1.112 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 04 12:22:50 ree-virtual-machine polkitd(authority=local)[813]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.113 [systemctl start sshd.service] (owned by unix-user:ree)
+4月 04 12:22:50 ree-virtual-machine polkitd(authority=local)[813]: Unregistered Authentication Agent for unix-process:3253:12858 (system bus name :1.112, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 04 12:24:57 ree-virtual-machine polkitd(authority=local)[813]: Registered Authentication Agent for unix-process:3986:25988 (system bus name :1.130 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 04 12:25:00 ree-virtual-machine polkitd(authority=local)[813]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.131 [systemctl restart sshd.service] (owned by unix-user:ree)
+4月 04 12:25:00 ree-virtual-machine polkitd(authority=local)[813]: Unregistered Authentication Agent for unix-process:3986:25988 (system bus name :1.130, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 04 17:35:37 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+4月 04 17:35:37 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+4月 04 17:35:37 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+4月 04 17:35:37 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.868s CPU time.
+-- Boot 25dbee67bff049baa23eecea014b8763 --
+4月 04 17:35:54 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+4月 04 17:35:54 ree-virtual-machine polkitd[882]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 04 17:35:54 ree-virtual-machine systemd[1]: Started Authorization Manager.
+4月 04 17:35:56 ree-virtual-machine polkitd(authority=local)[882]: Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 04 17:36:43 ree-virtual-machine polkitd(authority=local)[882]: Registered Authentication Agent for unix-session:2 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 04 17:36:45 ree-virtual-machine polkitd(authority=local)[882]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 04 20:54:00 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+4月 04 20:54:00 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+4月 04 20:54:00 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+4月 04 20:54:00 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.250s CPU time.
+-- Boot 0d532a9de8ef4df1a92a1cc3f8ce562d --
+4月 09 19:14:33 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+4月 09 19:14:33 ree-virtual-machine polkitd[806]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 09 19:14:33 ree-virtual-machine systemd[1]: Started Authorization Manager.
+4月 09 19:14:36 ree-virtual-machine polkitd(authority=local)[806]: Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 09 19:14:49 ree-virtual-machine polkitd(authority=local)[806]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 09 19:14:52 ree-virtual-machine polkitd(authority=local)[806]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 09 19:16:55 ree-virtual-machine polkitd(authority=local)[806]: Registered Authentication Agent for unix-process:3374:15282 (system bus name :1.112 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 09 19:16:59 ree-virtual-machine polkitd(authority=local)[806]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.113 [systemctl restart sshd.service] (owned by unix-user:ree)
+4月 09 19:16:59 ree-virtual-machine polkitd(authority=local)[806]: Unregistered Authentication Agent for unix-process:3374:15282 (system bus name :1.112, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 09 19:17:43 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+4月 09 19:17:43 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+4月 09 19:17:43 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+4月 09 19:17:43 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.301s CPU time.
+-- Boot 66c095c2b40d4348bbbaa9bd9371fd5b --
+4月 09 19:21:17 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+4月 09 19:21:17 ree-virtual-machine polkitd[834]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 09 19:21:20 ree-virtual-machine systemd[1]: Started Authorization Manager.
+4月 09 19:21:24 ree-virtual-machine polkitd(authority=local)[834]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 09 19:21:32 ree-virtual-machine polkitd(authority=local)[834]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 09 19:21:40 ree-virtual-machine polkitd(authority=local)[834]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 09 21:44:17 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+4月 09 21:44:17 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+4月 09 21:44:17 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+4月 09 21:44:17 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.408s CPU time.
+-- Boot 125b443d38b7450fbc1c404530e9dc9e --
+4月 12 11:21:57 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+4月 12 11:21:57 ree-virtual-machine polkitd[919]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 12 11:21:57 ree-virtual-machine systemd[1]: Started Authorization Manager.
+4月 12 11:22:04 ree-virtual-machine polkitd(authority=local)[919]: Registered Authentication Agent for unix-session:c2 (system bus name :1.50 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 12 11:28:25 ree-virtual-machine polkitd(authority=local)[919]: Registered Authentication Agent for unix-session:2 (system bus name :1.97 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 12 11:28:28 ree-virtual-machine polkitd(authority=local)[919]: Unregistered Authentication Agent for unix-session:c2 (system bus name :1.50, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 12 12:31:43 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+4月 12 12:31:43 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+4月 12 12:31:43 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+4月 12 12:31:43 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.207s CPU time.
+-- Boot e043495edc834fd3b8de378cf5b742ab --
+4月 12 12:32:37 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+4月 12 12:32:37 ree-virtual-machine polkitd[834]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 12 12:32:37 ree-virtual-machine systemd[1]: Started Authorization Manager.
+4月 12 12:32:41 ree-virtual-machine polkitd(authority=local)[834]: Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 12 12:33:37 ree-virtual-machine polkitd(authority=local)[834]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 12 12:33:39 ree-virtual-machine polkitd(authority=local)[834]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 12 13:25:29 ree-virtual-machine polkitd(authority=local)[834]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:4509:64756 [/home/ree/snap/pycharm-2022.3.3/jbr/bin/java -classpath /home/ree/snap/pycharm-2022.3.3/lib/util.jar:/home/ree/snap/pycharm-2022.3.3/lib/app.jar:/home/ree/snap/pycharm-2022.3.3/lib/3rd-party-rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/platform-statistics-devkit.jar:/home/ree/snap/pycharm-2022.3.3/lib/jps-model.jar:/home/ree/snap/pycharm-2022.3.3/lib/stats.jar:/home/ree/snap/pycharm-2022.3.3/lib/protobuf.jar:/home/ree/snap/pycharm-2022.3.3/lib/external-system-rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/forms_rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/intellij-test-discovery.jar:/home/ree/snap/pycharm-2022.3.3/lib/groovy.jar:/home/ree/snap/pycharm-2022.3.3/lib/3rd-party-native.jar:/home/ree/snap/pycharm-2022.3.3/lib/annotations-java5.jar:/home/ree/snap/pycharm-2022.3.3/lib/async-profiler-windows.jar:/home/ree/snap/pycharm-2022.3.3/lib/async-profiler.jar:/home/ree/snap/pycharm-2022.3.3/lib/byte-buddy-agent.jar:/home/ree/snap/pycharm-2022.3.3/lib/error-prone-annotations.jar:/home/ree/snap/pycharm-2022.3.3/lib/externalProcess-rt.jar:/home/ree/snap/pycharm-2022.3.3/lib/intellij-coverage-agent-1.0.682.jar:/home/ree/snap/pycharm-2022.3.3/lib/jetbrains-annotations.jar:/home/ree/snap/pycharm-2022.3.3/lib/jsch-agent.jar:/home/ree/snap/pycharm-2022.3.3/lib/junit4.jar:/home/ree/snap/pycharm-2022.3.3/lib/platform-objectSerializer-annotations.jar:/home/ree/snap/pycharm-2022.3.3/lib/rd.jar:/home/ree/snap/pycharm-2022.3.3/lib/util_rt.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=512m -XX:+UseG1GC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -XX:+IgnoreUnrecognizedVMOptions -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend -ea -Dsun.io.useCanonCaches=false -Dsun.java2d.metal=true -Djbr.catch.SIGABRT=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -Dsun.tools.attach.tmp.only=true -Xmx1995m -XX:ErrorFile=/home/ree/java_error_in_pycharm_%p.log -XX:HeapDumpPath=/home/ree/java_error_in_pycharm_.hprof -Djb.vmOptionsFile=/home/ree/.config/JetBrains/PyCharm2022.3/pycharm64.vmoptions -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader -Didea.vendor.name=JetBrains -Didea.paths.selector=PyCharm2022.3 -Djna.boot.library.path=/home/ree/snap/pycharm-2022.3.3/lib/jna/amd64 -Dpty4j.preferred.native.folder=/home/ree/snap/pycharm-2022.3.3/lib/pty4j -Djna.nosys=true -Djna.noclasspath=true -Didea.platform.prefix=Python -Dsplash=true --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.ref=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.text=ALL-UNNAMED --add-opens=java.base/java.time=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.fs=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED --add-opens=java.base/sun.security.util=ALL-UNNAMED --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED --add-opens=java.desktop/java.awt=ALL-UNNAMED --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.event=ALL-UNNAMED --add-opens=java.desktop/java.awt.image=ALL-UNNAMED --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.font=ALL-UNNAMED --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED --add-opens=java.desktop/sun.awt=ALL-UNNAMED --add-opens=java.desktop/sun.font=ALL-UNNAMED --add-opens=java.desktop/sun.java2d=ALL-UNNAMED --add-opens=java.desktop/sun.swing=ALL-UNNAMED --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED com.intellij.idea.Main] (owned by unix-user:ree)
+4月 12 13:58:16 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+4月 12 13:58:16 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+4月 12 13:58:16 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+4月 12 13:58:16 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.298s CPU time.
+-- Boot 9296bd89129642f58a1e422116180a89 --
+4月 12 19:33:18 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+4月 12 19:33:18 ree-virtual-machine polkitd[923]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 12 19:33:18 ree-virtual-machine systemd[1]: Started Authorization Manager.
+4月 12 19:33:21 ree-virtual-machine polkitd(authority=local)[923]: Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 12 19:33:31 ree-virtual-machine polkitd(authority=local)[923]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 12 19:33:34 ree-virtual-machine polkitd(authority=local)[923]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 12 21:30:57 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+4月 12 21:30:57 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+4月 12 21:30:57 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+4月 12 21:30:57 ree-virtual-machine systemd[1]: polkit.service: Consumed 2.225s CPU time.
+-- Boot e44af90cbb3e49179059ad1de25c45d0 --
+4月 12 21:31:07 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+4月 12 21:31:07 ree-virtual-machine polkitd[854]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 12 21:31:07 ree-virtual-machine systemd[1]: Started Authorization Manager.
+4月 12 21:31:09 ree-virtual-machine polkitd(authority=local)[854]: Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 12 21:34:20 ree-virtual-machine polkitd(authority=local)[854]: Registered Authentication Agent for unix-session:2 (system bus name :1.87 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 12 21:34:22 ree-virtual-machine polkitd(authority=local)[854]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 12 21:48:57 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+4月 12 21:48:57 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+4月 12 21:48:57 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+4月 12 21:48:57 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.539s CPU time.
+-- Boot 670c3aae65b84f6c8708951f52467260 --
+4月 12 21:49:13 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+4月 12 21:49:13 ree-virtual-machine polkitd[901]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 12 21:49:13 ree-virtual-machine systemd[1]: Started Authorization Manager.
+4月 12 21:49:16 ree-virtual-machine polkitd(authority=local)[901]: Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 12 21:49:23 ree-virtual-machine polkitd(authority=local)[901]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 12 21:49:25 ree-virtual-machine polkitd(authority=local)[901]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 12 21:53:20 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+4月 12 21:53:21 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+4月 12 21:53:21 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+4月 12 21:53:21 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.080s CPU time.
+-- Boot 73255c0c6dec4ce4bca99ec2ceb12507 --
+4月 12 21:53:28 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+4月 12 21:53:28 ree-virtual-machine polkitd[817]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 12 21:53:29 ree-virtual-machine systemd[1]: Started Authorization Manager.
+4月 12 21:53:30 ree-virtual-machine polkitd(authority=local)[817]: Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 12 21:53:50 ree-virtual-machine polkitd(authority=local)[817]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 12 21:53:51 ree-virtual-machine polkitd(authority=local)[817]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 13 01:12:51 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+4月 13 01:12:51 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+4月 13 01:12:51 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+4月 13 01:12:51 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.200s CPU time.
+-- Boot ab354c8c35ec46309c3d583c22d4722e --
+4月 13 11:49:15 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+4月 13 11:49:15 ree-virtual-machine polkitd[927]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 13 11:49:15 ree-virtual-machine systemd[1]: Started Authorization Manager.
+4月 13 11:49:20 ree-virtual-machine polkitd(authority=local)[927]: Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 13 11:49:42 ree-virtual-machine polkitd(authority=local)[927]: Registered Authentication Agent for unix-session:4 (system bus name :1.87 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 13 11:49:44 ree-virtual-machine polkitd(authority=local)[927]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 13 20:22:12 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+4月 13 20:22:12 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+4月 13 20:22:12 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+4月 13 20:22:12 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.329s CPU time.
+-- Boot 1223bb12cf164754a34338b3879bc416 --
+4月 13 20:22:51 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+4月 13 20:22:51 ree-virtual-machine polkitd[926]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 13 20:22:51 ree-virtual-machine systemd[1]: Started Authorization Manager.
+4月 13 20:22:54 ree-virtual-machine polkitd(authority=local)[926]: Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 13 20:23:43 ree-virtual-machine polkitd(authority=local)[926]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 13 20:23:45 ree-virtual-machine polkitd(authority=local)[926]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 13 23:11:10 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+4月 13 23:11:10 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+4月 13 23:11:10 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+4月 13 23:11:10 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.243s CPU time.
+-- Boot eedc866258b546db86377bdd16f52c6c --
+4月 13 23:33:00 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+4月 13 23:33:00 ree-virtual-machine polkitd[918]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 13 23:33:00 ree-virtual-machine systemd[1]: Started Authorization Manager.
+4月 13 23:33:03 ree-virtual-machine polkitd(authority=local)[918]: Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 13 23:33:11 ree-virtual-machine polkitd(authority=local)[918]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 13 23:33:13 ree-virtual-machine polkitd(authority=local)[918]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 14 01:45:07 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+4月 14 01:45:07 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+4月 14 01:45:07 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+4月 14 01:45:07 ree-virtual-machine systemd[1]: polkit.service: Consumed 2.055s CPU time.
+-- Boot 6336d5d01d9d47a1a84a86d400678bbe --
+4月 14 18:40:04 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+4月 14 18:40:04 ree-virtual-machine polkitd[926]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 14 18:40:04 ree-virtual-machine systemd[1]: Started Authorization Manager.
+4月 14 18:40:07 ree-virtual-machine polkitd(authority=local)[926]: Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 14 18:40:36 ree-virtual-machine polkitd(authority=local)[926]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 14 18:40:39 ree-virtual-machine polkitd(authority=local)[926]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 14 19:24:32 ree-virtual-machine systemd[1]: Stopping Authorization Manager...
+4月 14 19:24:32 ree-virtual-machine systemd[1]: polkit.service: Deactivated successfully.
+4月 14 19:24:32 ree-virtual-machine systemd[1]: Stopped Authorization Manager.
+4月 14 19:24:32 ree-virtual-machine systemd[1]: polkit.service: Consumed 1.314s CPU time.
+-- Boot 00425514c17e404db4cc5611a8f55ed9 --
+4月 14 21:28:23 ree-virtual-machine systemd[1]: Starting Authorization Manager...
+4月 14 21:28:23 ree-virtual-machine polkitd[926]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 14 21:28:23 ree-virtual-machine systemd[1]: Started Authorization Manager.
+4月 14 21:28:25 ree-virtual-machine polkitd(authority=local)[926]: Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 14 21:28:32 ree-virtual-machine polkitd(authority=local)[926]: Registered Authentication Agent for unix-session:2 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 14 21:28:35 ree-virtual-machine polkitd(authority=local)[926]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+

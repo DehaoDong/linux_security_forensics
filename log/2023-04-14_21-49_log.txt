@@ -1,0 +1,70 @@
+2023-04-14 21:49:45,490
+取证结果存放目录(directory for storing forensics result)：./results/2023-04-14_21-49_ree-virtual-machine/
+
+
+2023-04-14 21:49:45,490
+系统信息(System information):
+
+2023-04-14 21:49:45,491
+Operating System: Linux
+
+2023-04-14 21:49:45,491
+Node Name: ree-virtual-machine
+
+2023-04-14 21:49:45,491
+Release: 5.19.0-38-generic
+
+2023-04-14 21:49:45,491
+Version: #39~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 17 21:16:15 UTC 2
+
+2023-04-14 21:49:45,491
+Machine: x86_64
+
+2023-04-14 21:49:45,491
+Processor: x86_64
+
+2023-04-14 21:49:45,491
+IP Address: 192.168.101.20
+
+2023-04-14 21:49:45,491
+CPU Cores: 4
+
+2023-04-14 21:49:45,491
+Total Memory: 15.59 GB
+
+2023-04-14 21:49:45,491
+Total Disk Space: 48.42 GB
+
+2023-04-14 21:49:45,492
+Checking aliases...
+
+2023-04-14 21:49:45,506
+No suspicious aliases found.
+
+2023-04-14 21:49:45,506
+Storing users' information...
+
+2023-04-14 21:49:45,535
+Checking processes...
+
+2023-04-14 21:49:46,029
+No high resource usage processes found.
+
+2023-04-14 21:49:46,038
+No hidden processes detected.
+
+2023-04-14 21:49:46,073
+No reverse shell processes found.
+
+2023-04-14 21:49:46,083
+No source deleted processes found
+
+2023-04-14 21:49:46,083
+Checking connections...
+
+2023-04-14 21:49:46,131
+No foreign connections detected.
+
+2023-04-14 21:49:46,133
+No malicious connections detected.
+

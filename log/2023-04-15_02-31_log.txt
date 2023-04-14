@@ -1,0 +1,106 @@
+2023-04-15 02:31:12,663
+取证结果存放目录(directory for storing forensics result)：./results/2023-04-15_02-31_ree-virtual-machine/
+
+
+2023-04-15 02:31:12,663
+系统信息(System information):
+
+2023-04-15 02:31:12,664
+Operating System: Linux
+
+2023-04-15 02:31:12,664
+Node Name: ree-virtual-machine
+
+2023-04-15 02:31:12,664
+Release: 5.19.0-38-generic
+
+2023-04-15 02:31:12,664
+Version: #39~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 17 21:16:15 UTC 2
+
+2023-04-15 02:31:12,664
+Machine: x86_64
+
+2023-04-15 02:31:12,664
+Processor: x86_64
+
+2023-04-15 02:31:12,664
+IP Address: 192.168.101.20
+
+2023-04-15 02:31:12,664
+CPU Cores: 4
+
+2023-04-15 02:31:12,664
+Total Memory: 15.59 GB
+
+2023-04-15 02:31:12,664
+Total Disk Space: 48.42 GB
+
+2023-04-15 02:31:12,665
+Backing up important system files...
+
+2023-04-15 02:31:12,665
+File /var/log/secure not found. Skipping backup.
+
+2023-04-15 02:31:12,665
+File /var/log/messages not found. Skipping backup.
+
+2023-04-15 02:31:12,677
+File /var/log/yum.log not found. Skipping backup.
+
+2023-04-15 02:31:12,678
+File /var/log/sudo not found. Skipping backup.
+
+2023-04-15 02:31:12,678
+File /home/username/.bash_history not found. Skipping backup.
+
+2023-04-15 02:31:12,678
+File /etc/iptables not found. Skipping backup.
+
+2023-04-15 02:31:12,678
+File /etc/sysconfig/iptables not found. Skipping backup.
+
+2023-04-15 02:31:12,678
+File /root/.tcshrc not found. Skipping backup.
+
+2023-04-15 02:31:12,678
+File /root/.bash_profile not found. Skipping backup.
+
+2023-04-15 02:31:12,678
+File /root/.cshrc not found. Skipping backup.
+
+2023-04-15 02:31:12,678
+File /root/.tcshrc not found. Skipping backup.
+
+2023-04-15 02:31:12,679
+File /etc/bashrc not found. Skipping backup.
+
+2023-04-15 02:31:12,679
+File /etc/csh.login not found. Skipping backup.
+
+2023-04-15 02:31:12,679
+File /etc/csh.cshrc not found. Skipping backup.
+
+2023-04-15 02:31:12,679
+File /.bashrc not found. Skipping backup.
+
+2023-04-15 02:31:12,679
+File /.bash_profile not found. Skipping backup.
+
+2023-04-15 02:31:12,679
+File /.tcshrc not found. Skipping backup.
+
+2023-04-15 02:31:12,679
+File /.cshrc not found. Skipping backup.
+
+2023-04-15 02:31:12,679
+File /etc/ld.so.preload not found. Skipping backup.
+
+2023-04-15 02:31:12,680
+File /etc/inetd.conf not found. Skipping backup.
+
+2023-04-15 02:31:12,680
+File /etc/xinetd.d not found. Skipping backup.
+
+2023-04-15 02:31:12,680
+Backup completed
+

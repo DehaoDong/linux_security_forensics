@@ -1,0 +1,37 @@
+3月 22 19:50:01 ree-virtual-machine systemd[1]: Starting Daily man-db regeneration...
+3月 22 19:50:02 ree-virtual-machine systemd[1]: man-db.service: Deactivated successfully.
+3月 22 19:50:02 ree-virtual-machine systemd[1]: Finished Daily man-db regeneration.
+-- Boot ee7967cec9534f4aa0162aa833ebf2b7 --
+3月 23 14:19:34 ree-virtual-machine systemd[1]: Starting Daily man-db regeneration...
+3月 23 14:19:37 ree-virtual-machine systemd[1]: man-db.service: Deactivated successfully.
+3月 23 14:19:37 ree-virtual-machine systemd[1]: Finished Daily man-db regeneration.
+-- Boot 9e3eeb915f5e4d0aab1fa06627dc238a --
+3月 25 22:39:34 ree-virtual-machine systemd[1]: Starting Daily man-db regeneration...
+3月 25 22:39:35 ree-virtual-machine systemd[1]: man-db.service: Deactivated successfully.
+3月 25 22:39:35 ree-virtual-machine systemd[1]: Finished Daily man-db regeneration.
+3月 26 15:12:58 ree-virtual-machine systemd[1]: Starting Daily man-db regeneration...
+3月 26 15:12:59 ree-virtual-machine systemd[1]: man-db.service: Deactivated successfully.
+3月 26 15:12:59 ree-virtual-machine systemd[1]: Finished Daily man-db regeneration.
+3月 27 12:09:07 ree-virtual-machine systemd[1]: Starting Daily man-db regeneration...
+3月 27 12:09:09 ree-virtual-machine systemd[1]: man-db.service: Deactivated successfully.
+3月 27 12:09:09 ree-virtual-machine systemd[1]: Finished Daily man-db regeneration.
+-- Boot cce731051b6244c4a03f32893ae3c956 --
+3月 28 21:21:35 ree-virtual-machine systemd[1]: Starting Daily man-db regeneration...
+3月 28 21:21:35 ree-virtual-machine systemd[1]: man-db.service: Deactivated successfully.
+3月 28 21:21:35 ree-virtual-machine systemd[1]: Finished Daily man-db regeneration.
+3月 29 11:35:59 ree-virtual-machine systemd[1]: Starting Daily man-db regeneration...
+3月 29 11:35:59 ree-virtual-machine systemd[1]: man-db.service: Deactivated successfully.
+3月 29 11:35:59 ree-virtual-machine systemd[1]: Finished Daily man-db regeneration.
+-- Boot 436dee14f55b451a880859c1f76478af --
+4月 03 22:11:21 ree-virtual-machine systemd[1]: Starting Daily man-db regeneration...
+4月 03 22:11:20 ree-virtual-machine systemd[1]: man-db.service: Deactivated successfully.
+4月 03 22:11:20 ree-virtual-machine systemd[1]: Finished Daily man-db regeneration.
+-- Boot ab354c8c35ec46309c3d583c22d4722e --
+4月 13 15:14:16 ree-virtual-machine systemd[1]: Starting Daily man-db regeneration...
+4月 13 15:14:16 ree-virtual-machine systemd[1]: man-db.service: Deactivated successfully.
+4月 13 15:14:16 ree-virtual-machine systemd[1]: Finished Daily man-db regeneration.
+-- Boot 00425514c17e404db4cc5611a8f55ed9 --
+4月 14 22:38:15 ree-virtual-machine systemd[1]: Starting Daily man-db regeneration...
+4月 14 22:38:15 ree-virtual-machine systemd[1]: man-db.service: Deactivated successfully.
+4月 14 22:38:15 ree-virtual-machine systemd[1]: Finished Daily man-db regeneration.
+

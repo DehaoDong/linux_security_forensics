@@ -1,0 +1,88 @@
+2023-04-15 02:41:24,625
+取证结果存放目录(directory for storing forensics result)：./results/2023-04-15_02-41_ree-virtual-machine/
+
+
+2023-04-15 02:41:24,626
+系统信息(System information):
+
+2023-04-15 02:41:24,626
+Operating System: Linux
+
+2023-04-15 02:41:24,626
+Node Name: ree-virtual-machine
+
+2023-04-15 02:41:24,626
+Release: 5.19.0-38-generic
+
+2023-04-15 02:41:24,626
+Version: #39~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 17 21:16:15 UTC 2
+
+2023-04-15 02:41:24,626
+Machine: x86_64
+
+2023-04-15 02:41:24,626
+Processor: x86_64
+
+2023-04-15 02:41:24,626
+IP Address: 192.168.101.20
+
+2023-04-15 02:41:24,627
+CPU Cores: 4
+
+2023-04-15 02:41:24,627
+Total Memory: 15.59 GB
+
+2023-04-15 02:41:24,627
+Total Disk Space: 48.42 GB
+
+2023-04-15 02:41:24,629
+Found environment variable backdoors:
+
+2023-04-15 02:41:24,631
+Found cron backdoors:
+
+2023-04-15 02:41:24,631
+/etc/cron.d/anacron
+
+2023-04-15 02:41:24,631
+/etc/cron.daily/apt-compat
+
+2023-04-15 02:41:24,631
+/etc/cron.daily/apport
+
+2023-04-15 02:41:24,631
+/etc/cron.daily/0anacron
+
+2023-04-15 02:41:24,632
+/etc/cron.daily/cracklib-runtime
+
+2023-04-15 02:41:24,632
+/etc/cron.daily/logrotate
+
+2023-04-15 02:41:24,632
+/etc/cron.daily/dpkg
+
+2023-04-15 02:41:24,632
+/etc/cron.daily/man-db
+
+2023-04-15 02:41:24,632
+/etc/cron.weekly/0anacron
+
+2023-04-15 02:41:24,632
+/etc/cron.weekly/man-db
+
+2023-04-15 02:41:24,632
+/etc/cron.monthly/0anacron
+
+2023-04-15 02:41:24,645
+Found SSH backdoors:
+
+2023-04-15 02:41:24,645
+Found SSH wrapper backdoor:
+
+2023-04-15 02:41:24,645
+False
+
+2023-04-15 02:41:24,645
+Found inetd backdoors:
+

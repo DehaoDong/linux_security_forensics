@@ -21,6 +21,8 @@ def write_content(file_path, content):
 
     # 打开文件，如果文件不存在则创建
     with open(file_path, "ab") as f:
+        if isinstance(content, list):
+            content = '\n'.join(content)
         # 检查content是否为文件路径，如果是，则读取文件内容并写入
         if os.path.isfile(content):
             with open(content, "rb") as content_file:

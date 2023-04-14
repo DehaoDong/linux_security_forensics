@@ -1,0 +1,7 @@
+2023-04-15 03:11:19,866
+取证结果存放目录(directory for storing forensics result)：./results/2023-04-15_03-11_ree-virtual-machine/
+
+
+2023-04-15 03:11:19,866
+系统信息(System information):
+

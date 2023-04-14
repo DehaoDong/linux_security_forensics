@@ -1,0 +1,799 @@
+2月 20 18:38:52 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+2月 20 18:38:52 ree-virtual-machine snapd[909]: AppArmor status: apparmor is enabled and all features are available
+2月 20 18:38:52 ree-virtual-machine snapd[909]: overlord.go:263: Acquiring state lock file
+2月 20 18:38:52 ree-virtual-machine snapd[909]: overlord.go:268: Acquired state lock file
+2月 20 18:38:52 ree-virtual-machine snapd[909]: patch.go:63: Patching system state level 6 to sublevel 1...
+2月 20 18:38:52 ree-virtual-machine snapd[909]: patch.go:63: Patching system state level 6 to sublevel 2...
+2月 20 18:38:52 ree-virtual-machine snapd[909]: patch.go:63: Patching system state level 6 to sublevel 3...
+2月 20 18:38:52 ree-virtual-machine snapd[909]: daemon.go:247: started snapd/2.56.2+22.04ubuntu1 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-32-generic.
+2月 20 18:38:52 ree-virtual-machine snapd[909]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+2月 20 18:38:54 ree-virtual-machine systemd[1]: Started Snap Daemon.
+2月 20 18:51:56 ree-virtual-machine snapd[909]: main.go:155: Exiting on terminated signal.
+2月 20 18:51:56 ree-virtual-machine snapd[909]: overlord.go:504: Released state lock file
+2月 20 18:51:56 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+2月 20 18:51:56 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+2月 20 18:51:56 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+2月 20 18:51:56 ree-virtual-machine systemd[1]: snapd.service: Consumed 5.008s CPU time.
+2月 20 18:51:56 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+2月 20 18:51:56 ree-virtual-machine snapd[29948]: overlord.go:268: Acquiring state lock file
+2月 20 18:51:56 ree-virtual-machine snapd[29948]: overlord.go:273: Acquired state lock file
+2月 20 18:51:56 ree-virtual-machine snapd[29948]: patch.go:64: Patching system state level 6 to sublevel 1...
+2月 20 18:51:56 ree-virtual-machine snapd[29948]: patch.go:64: Patching system state level 6 to sublevel 2...
+2月 20 18:51:56 ree-virtual-machine snapd[29948]: patch.go:64: Patching system state level 6 to sublevel 3...
+2月 20 18:51:56 ree-virtual-machine snapd[29948]: daemon.go:247: started snapd/2.58+22.04 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-32-generic.
+2月 20 18:51:56 ree-virtual-machine snapd[29948]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+2月 20 18:51:56 ree-virtual-machine snapd[29948]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+2月 20 18:52:00 ree-virtual-machine snapd[29948]: main.go:155: Exiting on terminated signal.
+2月 20 18:52:08 ree-virtual-machine snapd[29948]: overlord.go:512: Released state lock file
+2月 20 18:52:08 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+2月 20 18:52:08 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+2月 20 18:52:08 ree-virtual-machine systemd[1]: snapd.service: Consumed 7.941s CPU time.
+2月 20 18:52:08 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+2月 20 18:52:08 ree-virtual-machine snapd[30117]: overlord.go:268: Acquiring state lock file
+2月 20 18:52:08 ree-virtual-machine snapd[30117]: overlord.go:273: Acquired state lock file
+2月 20 18:52:08 ree-virtual-machine snapd[30117]: daemon.go:247: started snapd/2.58+22.04 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-32-generic.
+2月 20 18:52:08 ree-virtual-machine snapd[30117]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+2月 20 18:52:08 ree-virtual-machine snapd[30117]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+2月 20 18:52:08 ree-virtual-machine systemd[1]: Started Snap Daemon.
+2月 20 18:52:48 ree-virtual-machine snapd[30117]: main.go:155: Exiting on terminated signal.
+2月 20 18:52:48 ree-virtual-machine snapd[30117]: overlord.go:512: Released state lock file
+2月 20 18:52:48 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+2月 20 18:52:48 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+2月 20 18:52:48 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+-- Boot 59a08585a9874716bda9035a442e266a --
+2月 20 18:52:55 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+2月 20 18:52:56 ree-virtual-machine snapd[877]: overlord.go:268: Acquiring state lock file
+2月 20 18:52:56 ree-virtual-machine snapd[877]: overlord.go:273: Acquired state lock file
+2月 20 18:52:56 ree-virtual-machine snapd[877]: daemon.go:247: started snapd/2.58+22.04 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-32-generic.
+2月 20 18:52:56 ree-virtual-machine snapd[877]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+2月 20 18:52:56 ree-virtual-machine snapd[877]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+2月 20 18:52:56 ree-virtual-machine systemd[1]: Started Snap Daemon.
+-- Boot 4e50f35765d14836ba11bf87868d3690 --
+2月 21 18:32:15 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+2月 21 18:32:16 ree-virtual-machine snapd[892]: overlord.go:268: Acquiring state lock file
+2月 21 18:32:16 ree-virtual-machine snapd[892]: overlord.go:273: Acquired state lock file
+2月 21 18:32:16 ree-virtual-machine snapd[892]: daemon.go:247: started snapd/2.58+22.04 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-32-generic.
+2月 21 18:32:16 ree-virtual-machine snapd[892]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+2月 21 18:32:16 ree-virtual-machine snapd[892]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+2月 21 18:32:16 ree-virtual-machine systemd[1]: Started Snap Daemon.
+2月 21 18:37:24 ree-virtual-machine snapd[892]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "gtk-common-themes"
+2月 21 18:37:24 ree-virtual-machine snapd[892]: snapstate.go:1778: cannot refresh snap "firefox": snap "firefox" has running apps (firefox), pids: 2507,2642,2682,2962,3829,3866,4164,4186,4192,4213,4238
+2月 21 18:38:46 ree-virtual-machine snapd[892]: daemon.go:521: gracefully waiting for running hooks
+2月 21 18:38:46 ree-virtual-machine snapd[892]: daemon.go:523: done waiting for running hooks
+2月 21 18:38:46 ree-virtual-machine snapd[892]: overlord.go:512: Released state lock file
+2月 21 18:38:46 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+2月 21 18:38:46 ree-virtual-machine systemd[1]: snapd.service: Consumed 1min 11.437s CPU time.
+2月 21 18:38:47 ree-virtual-machine systemd[1]: snapd.service: Scheduled restart job, restart counter is at 1.
+2月 21 18:38:47 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+2月 21 18:38:47 ree-virtual-machine systemd[1]: snapd.service: Consumed 1min 11.437s CPU time.
+2月 21 18:38:47 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+2月 21 18:38:47 ree-virtual-machine snapd[6892]: overlord.go:268: Acquiring state lock file
+2月 21 18:38:47 ree-virtual-machine snapd[6892]: overlord.go:273: Acquired state lock file
+2月 21 18:38:47 ree-virtual-machine snapd[6892]: patch.go:64: Patching system state level 6 to sublevel 1...
+2月 21 18:38:47 ree-virtual-machine snapd[6892]: patch.go:64: Patching system state level 6 to sublevel 2...
+2月 21 18:38:47 ree-virtual-machine snapd[6892]: patch.go:64: Patching system state level 6 to sublevel 3...
+2月 21 18:38:47 ree-virtual-machine snapd[6892]: daemon.go:247: started snapd/2.58.2 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-32-generic.
+2月 21 18:38:47 ree-virtual-machine snapd[6892]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+2月 21 18:38:47 ree-virtual-machine snapd[6892]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+2月 21 18:38:50 ree-virtual-machine systemd[1]: Started Snap Daemon.
+2月 21 18:39:21 ree-virtual-machine snapd[6892]: services.go:1090: RemoveSnapServices - disabling snap.snapd-desktop-integration.snapd-desktop-integration.service
+2月 21 18:41:05 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+2月 21 18:41:05 ree-virtual-machine snapd[6892]: main.go:155: Exiting on terminated signal.
+2月 21 18:42:18 ree-virtual-machine snapd[6892]: overlord.go:512: Released state lock file
+2月 21 18:42:18 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+2月 21 18:42:18 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+2月 21 18:42:18 ree-virtual-machine systemd[1]: snapd.service: Consumed 26.776s CPU time.
+-- Boot 378ef5fc52a64e67810e6fa7a9ee31e6 --
+2月 21 18:42:26 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+2月 21 18:42:27 ree-virtual-machine snapd[855]: overlord.go:268: Acquiring state lock file
+2月 21 18:42:27 ree-virtual-machine snapd[855]: overlord.go:273: Acquired state lock file
+2月 21 18:42:27 ree-virtual-machine snapd[855]: daemon.go:247: started snapd/2.58.2 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-32-generic.
+2月 21 18:42:27 ree-virtual-machine snapd[855]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+2月 21 18:42:27 ree-virtual-machine snapd[855]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+2月 21 18:42:28 ree-virtual-machine systemd[1]: Started Snap Daemon.
+2月 21 18:43:10 ree-virtual-machine snapd[855]: storehelpers.go:769: cannot refresh: snap has no updates available: "core20", "gnome-3-38-2004", "snap-store", "snapd", "snapd-desktop-integration"
+2月 21 19:01:35 ree-virtual-machine snapd[855]: main.go:155: Exiting on terminated signal.
+2月 21 19:01:35 ree-virtual-machine snapd[855]: overlord.go:512: Released state lock file
+2月 21 19:01:35 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+2月 21 19:01:35 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+2月 21 19:01:35 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+2月 21 19:01:35 ree-virtual-machine systemd[1]: snapd.service: Consumed 13.889s CPU time.
+-- Boot 48d666794bf9483ca7ebe0e999848072 --
+2月 21 19:01:44 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+2月 21 19:01:45 ree-virtual-machine snapd[901]: overlord.go:268: Acquiring state lock file
+2月 21 19:01:45 ree-virtual-machine snapd[901]: overlord.go:273: Acquired state lock file
+2月 21 19:01:46 ree-virtual-machine snapd[901]: daemon.go:247: started snapd/2.58.2 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-32-generic.
+2月 21 19:01:46 ree-virtual-machine snapd[901]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+2月 21 19:01:46 ree-virtual-machine snapd[901]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+2月 21 19:01:46 ree-virtual-machine systemd[1]: Started Snap Daemon.
+2月 21 19:02:28 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+2月 21 19:02:28 ree-virtual-machine snapd[901]: main.go:155: Exiting on terminated signal.
+2月 21 19:02:28 ree-virtual-machine snapd[901]: overlord.go:512: Released state lock file
+2月 21 19:02:28 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+2月 21 19:02:28 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+2月 21 19:02:28 ree-virtual-machine systemd[1]: snapd.service: Consumed 1.566s CPU time.
+-- Boot a0299816d1d24b8ab70b7c10b1502239 --
+2月 21 19:02:36 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+2月 21 19:02:37 ree-virtual-machine snapd[902]: overlord.go:268: Acquiring state lock file
+2月 21 19:02:37 ree-virtual-machine snapd[902]: overlord.go:273: Acquired state lock file
+2月 21 19:02:37 ree-virtual-machine snapd[902]: daemon.go:247: started snapd/2.58.2 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-32-generic.
+2月 21 19:02:37 ree-virtual-machine snapd[902]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+2月 21 19:02:37 ree-virtual-machine snapd[902]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+2月 21 19:02:38 ree-virtual-machine systemd[1]: Started Snap Daemon.
+2月 21 19:17:46 ree-virtual-machine snapd[902]: main.go:155: Exiting on terminated signal.
+2月 21 19:17:46 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+2月 21 19:17:46 ree-virtual-machine snapd[902]: overlord.go:512: Released state lock file
+2月 21 19:17:46 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+2月 21 19:17:46 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+2月 21 19:17:46 ree-virtual-machine systemd[1]: snapd.service: Consumed 1.602s CPU time.
+-- Boot 7319c95352634624b166e30456e7d6e8 --
+2月 21 19:17:55 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+2月 21 19:17:56 ree-virtual-machine snapd[873]: overlord.go:268: Acquiring state lock file
+2月 21 19:17:56 ree-virtual-machine snapd[873]: overlord.go:273: Acquired state lock file
+2月 21 19:17:57 ree-virtual-machine snapd[873]: daemon.go:247: started snapd/2.58.2 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-32-generic.
+2月 21 19:17:57 ree-virtual-machine snapd[873]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+2月 21 19:17:57 ree-virtual-machine snapd[873]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+2月 21 19:17:57 ree-virtual-machine systemd[1]: Started Snap Daemon.
+2月 21 19:23:02 ree-virtual-machine snapd[873]: main.go:155: Exiting on terminated signal.
+2月 21 19:23:02 ree-virtual-machine snapd[873]: overlord.go:512: Released state lock file
+2月 21 19:23:02 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+2月 21 19:23:02 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+2月 21 19:23:02 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+2月 21 19:23:02 ree-virtual-machine systemd[1]: snapd.service: Consumed 1.509s CPU time.
+-- Boot e6c010b640444a48974c34b34cbf889b --
+2月 21 19:23:10 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+2月 21 19:23:11 ree-virtual-machine snapd[816]: overlord.go:268: Acquiring state lock file
+2月 21 19:23:11 ree-virtual-machine snapd[816]: overlord.go:273: Acquired state lock file
+2月 21 19:23:11 ree-virtual-machine snapd[816]: daemon.go:247: started snapd/2.58.2 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-32-generic.
+2月 21 19:23:11 ree-virtual-machine snapd[816]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+2月 21 19:23:11 ree-virtual-machine snapd[816]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+2月 21 19:23:12 ree-virtual-machine systemd[1]: Started Snap Daemon.
+2月 21 19:50:53 ree-virtual-machine snapd[816]: main.go:155: Exiting on terminated signal.
+2月 21 19:50:53 ree-virtual-machine snapd[816]: overlord.go:512: Released state lock file
+2月 21 19:50:53 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+2月 21 19:50:53 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+2月 21 19:50:53 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+2月 21 19:50:53 ree-virtual-machine systemd[1]: snapd.service: Consumed 1.686s CPU time.
+-- Boot 9ce45ab8fa0345b987fea497f44c5051 --
+3月 10 20:00:44 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 10 20:00:46 ree-virtual-machine snapd[827]: overlord.go:268: Acquiring state lock file
+3月 10 20:00:46 ree-virtual-machine snapd[827]: overlord.go:273: Acquired state lock file
+3月 10 20:00:46 ree-virtual-machine snapd[827]: daemon.go:247: started snapd/2.58.2 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-32-generic.
+3月 10 20:00:46 ree-virtual-machine snapd[827]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+3月 10 20:00:46 ree-virtual-machine snapd[827]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 10 20:00:46 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 10 20:06:11 ree-virtual-machine snapd[827]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 10 20:09:11 ree-virtual-machine snapd[827]: storehelpers.go:769: cannot refresh: snap has no updates available: "core20", "firefox"
+3月 10 20:30:58 ree-virtual-machine snapd[827]: main.go:155: Exiting on terminated signal.
+3月 10 20:30:58 ree-virtual-machine snapd[827]: overlord.go:512: Released state lock file
+3月 10 20:30:58 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 10 20:30:58 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 10 20:30:58 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 10 20:30:58 ree-virtual-machine systemd[1]: snapd.service: Consumed 30.123s CPU time.
+-- Boot 78840721b8c14d03929c91da9cf2989f --
+3月 15 11:06:35 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 15 11:06:37 ree-virtual-machine snapd[877]: overlord.go:268: Acquiring state lock file
+3月 15 11:06:37 ree-virtual-machine snapd[877]: overlord.go:273: Acquired state lock file
+3月 15 11:06:37 ree-virtual-machine snapd[877]: daemon.go:247: started snapd/2.58.2 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-32-generic.
+3月 15 11:06:37 ree-virtual-machine snapd[877]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+3月 15 11:06:37 ree-virtual-machine snapd[877]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 15 11:06:37 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 15 11:11:46 ree-virtual-machine snapd[877]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 15 11:11:46 ree-virtual-machine snapd[877]: snapstate.go:1778: cannot refresh snap "firefox": snap "firefox" has running apps (firefox), pids: 2447,2709,2743,2764,3195,3226,3339,3350,3357,3392,3403,3512,3556,3598,3688,3692
+3月 15 11:11:46 ree-virtual-machine snapd[877]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+3月 15 11:27:13 ree-virtual-machine snapd[877]: main.go:155: Exiting on terminated signal.
+3月 15 11:27:13 ree-virtual-machine snapd[877]: overlord.go:512: Released state lock file
+3月 15 11:27:13 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 15 11:27:13 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 15 11:27:13 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 15 11:27:13 ree-virtual-machine systemd[1]: snapd.service: Consumed 3.604s CPU time.
+-- Boot ca9b2e5e215f4f3fbeb8e0a2983e83e6 --
+3月 22 19:19:57 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 22 19:20:02 ree-virtual-machine snapd[810]: overlord.go:268: Acquiring state lock file
+3月 22 19:20:02 ree-virtual-machine snapd[810]: overlord.go:273: Acquired state lock file
+3月 22 19:20:02 ree-virtual-machine snapd[810]: daemon.go:247: started snapd/2.58.2 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-32-generic.
+3月 22 19:20:02 ree-virtual-machine snapd[810]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+3月 22 19:20:02 ree-virtual-machine snapd[810]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 22 19:20:02 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 22 19:25:14 ree-virtual-machine snapd[810]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 22 19:26:52 ree-virtual-machine snapd[810]: storehelpers.go:769: cannot refresh: snap has no updates available: "core20", "firefox"
+3月 22 19:48:04 ree-virtual-machine snapd[810]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd-desktop-integration"
+3月 22 19:48:05 ree-virtual-machine snapd[810]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd-desktop-integration"
+3月 22 19:48:20 ree-virtual-machine snapd[810]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd-desktop-integration"
+3月 22 19:48:56 ree-virtual-machine snapd[810]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd-desktop-integration"
+3月 22 19:49:34 ree-virtual-machine snapd[810]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd-desktop-integration"
+3月 22 19:56:18 ree-virtual-machine snapd[810]: main.go:155: Exiting on terminated signal.
+3月 22 19:56:18 ree-virtual-machine snapd[810]: overlord.go:512: Released state lock file
+3月 22 19:56:18 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 22 19:56:18 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 22 19:56:18 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 22 19:56:18 ree-virtual-machine systemd[1]: snapd.service: Consumed 16.874s CPU time.
+-- Boot ee7967cec9534f4aa0162aa833ebf2b7 --
+3月 22 19:56:29 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 22 19:56:30 ree-virtual-machine snapd[928]: overlord.go:268: Acquiring state lock file
+3月 22 19:56:30 ree-virtual-machine snapd[928]: overlord.go:273: Acquired state lock file
+3月 22 19:56:30 ree-virtual-machine snapd[928]: daemon.go:247: started snapd/2.58.2 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-35-generic.
+3月 22 19:56:30 ree-virtual-machine snapd[928]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+3月 22 19:56:30 ree-virtual-machine snapd[928]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 22 19:56:31 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 22 19:56:43 ree-virtual-machine snapd[928]: stateengine.go:149: state ensure error: decode new commands catalog: net/http: request canceled (Client.Timeout exceeded while reading body)
+3月 22 19:57:20 ree-virtual-machine snapd[928]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd-desktop-integration"
+3月 23 14:19:45 ree-virtual-machine snapd[928]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd-desktop-integration"
+3月 23 14:19:45 ree-virtual-machine snapd[928]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd-desktop-integration"
+3月 23 14:19:46 ree-virtual-machine snapd[928]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd-desktop-integration"
+-- Boot 9e3eeb915f5e4d0aab1fa06627dc238a --
+3月 25 22:03:00 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 25 22:03:02 ree-virtual-machine snapd[859]: overlord.go:268: Acquiring state lock file
+3月 25 22:03:02 ree-virtual-machine snapd[859]: overlord.go:273: Acquired state lock file
+3月 25 22:03:02 ree-virtual-machine snapd[859]: daemon.go:247: started snapd/2.58.2 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-35-generic.
+3月 25 22:03:02 ree-virtual-machine snapd[859]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+3月 25 22:03:02 ree-virtual-machine snapd[859]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 25 22:03:02 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 25 22:03:14 ree-virtual-machine snapd[859]: stateengine.go:149: state ensure error: decode new commands catalog: net/http: request canceled (Client.Timeout exceeded while reading body)
+3月 25 22:03:48 ree-virtual-machine snapd[859]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gnome-3-38-2004", "gtk-common-themes", "snap-store"
+3月 25 22:04:01 ree-virtual-machine snapd[859]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gnome-3-38-2004", "gtk-common-themes", "snap-store"
+3月 25 22:08:19 ree-virtual-machine snapd[859]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gnome-3-38-2004", "gtk-common-themes", "snap-store"
+3月 25 22:10:34 ree-virtual-machine snapd[859]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gnome-3-38-2004", "gtk-common-themes", "snap-store"
+3月 25 22:18:22 ree-virtual-machine snapd[859]: store_download.go:213: Cannot download or apply deltas for snapd: download too slow: 0.00 bytes/sec
+3月 25 22:18:51 ree-virtual-machine snapd[859]: daemon.go:521: gracefully waiting for running hooks
+3月 25 22:18:51 ree-virtual-machine snapd[859]: daemon.go:523: done waiting for running hooks
+3月 25 22:18:51 ree-virtual-machine snapd[859]: overlord.go:512: Released state lock file
+3月 25 22:18:51 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 25 22:18:51 ree-virtual-machine systemd[1]: snapd.service: Consumed 17.852s CPU time.
+3月 25 22:18:51 ree-virtual-machine systemd[1]: snapd.service: Scheduled restart job, restart counter is at 1.
+3月 25 22:18:51 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 25 22:18:51 ree-virtual-machine systemd[1]: snapd.service: Consumed 17.852s CPU time.
+3月 25 22:18:51 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 25 22:18:52 ree-virtual-machine snapd[7021]: overlord.go:268: Acquiring state lock file
+3月 25 22:18:52 ree-virtual-machine snapd[7021]: overlord.go:273: Acquired state lock file
+3月 25 22:18:52 ree-virtual-machine snapd[7021]: patch.go:64: Patching system state level 6 to sublevel 1...
+3月 25 22:18:52 ree-virtual-machine snapd[7021]: patch.go:64: Patching system state level 6 to sublevel 2...
+3月 25 22:18:52 ree-virtual-machine snapd[7021]: patch.go:64: Patching system state level 6 to sublevel 3...
+3月 25 22:18:52 ree-virtual-machine snapd[7021]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-35-generic.
+3月 25 22:18:52 ree-virtual-machine snapd[7021]: daemon.go:340: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+3月 25 22:18:52 ree-virtual-machine snapd[7021]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 25 22:18:54 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 25 22:19:08 ree-virtual-machine snapd[7021]: stateengine.go:149: state ensure error: decode new commands catalog: net/http: request canceled (Client.Timeout exceeded while reading body)
+3月 25 22:24:39 ree-virtual-machine snapd[7021]: taskrunner.go:289: [change 7 "下载 snap \"snapd-desktop-integration\" (57)，来自频道 \"latest/stable/ubuntu-22.04\"" task] failed: download too slow: 1027.93 bytes/sec
+3月 25 22:39:36 ree-virtual-machine snapd[7021]: storehelpers.go:769: cannot refresh snap "snapd": snap has no updates available
+3月 26 18:51:54 ree-virtual-machine snapd[7021]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd"
+3月 26 18:51:56 ree-virtual-machine snapd[7021]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd"
+3月 26 18:52:05 ree-virtual-machine snapd[7021]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd"
+3月 26 18:52:20 ree-virtual-machine snapd[7021]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd"
+3月 27 12:10:38 ree-virtual-machine snapd[7021]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd"
+3月 27 12:10:42 ree-virtual-machine snapd[7021]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd"
+3月 27 12:11:12 ree-virtual-machine snapd[7021]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd"
+3月 27 17:22:35 ree-virtual-machine snapd[7021]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd"
+3月 27 17:22:50 ree-virtual-machine snapd[7021]: services.go:1090: RemoveSnapServices - disabling snap.snapd-desktop-integration.snapd-desktop-integration.service
+3月 27 17:22:57 ree-virtual-machine snapd[7021]: storehelpers.go:769: cannot refresh snap "snapd-desktop-integration": snap has no updates available
+3月 27 21:22:33 ree-virtual-machine snapd[7021]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 27 21:22:33 ree-virtual-machine snapd[7021]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+-- Boot cce731051b6244c4a03f32893ae3c956 --
+3月 28 10:31:04 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 28 10:31:06 ree-virtual-machine snapd[869]: overlord.go:268: Acquiring state lock file
+3月 28 10:31:06 ree-virtual-machine snapd[869]: overlord.go:273: Acquired state lock file
+3月 28 10:31:06 ree-virtual-machine snapd[869]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-35-generic.
+3月 28 10:31:06 ree-virtual-machine snapd[869]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 28 10:31:06 ree-virtual-machine snapd[869]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 28 10:31:06 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 28 10:36:14 ree-virtual-machine snapd[869]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 28 10:36:14 ree-virtual-machine snapd[869]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+3月 28 10:38:16 ree-virtual-machine snapd[869]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 28 10:38:19 ree-virtual-machine snapd[869]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 28 10:38:40 ree-virtual-machine snapd[869]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 28 10:38:49 ree-virtual-machine snapd[869]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 28 18:29:41 ree-virtual-machine snapd[869]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 28 18:29:41 ree-virtual-machine snapd[869]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+-- Boot 2a886fae77824755a4d8c5453e54eec8 --
+3月 29 11:43:32 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 29 11:43:34 ree-virtual-machine snapd[821]: overlord.go:268: Acquiring state lock file
+3月 29 11:43:34 ree-virtual-machine snapd[821]: overlord.go:273: Acquired state lock file
+3月 29 11:43:34 ree-virtual-machine snapd[821]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 29 11:43:34 ree-virtual-machine snapd[821]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 29 11:43:34 ree-virtual-machine snapd[821]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 29 11:43:34 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 29 11:44:26 ree-virtual-machine snapd[821]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 29 11:44:28 ree-virtual-machine snapd[821]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 29 11:44:54 ree-virtual-machine snapd[821]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 29 11:48:39 ree-virtual-machine snapd[821]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 29 11:48:39 ree-virtual-machine snapd[821]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+3月 29 12:42:33 ree-virtual-machine snapd[821]: main.go:155: Exiting on terminated signal.
+3月 29 12:42:33 ree-virtual-machine snapd[821]: overlord.go:512: Released state lock file
+3月 29 12:42:33 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 29 12:42:34 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 29 12:42:34 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 29 12:42:34 ree-virtual-machine systemd[1]: snapd.service: Consumed 3.548s CPU time.
+-- Boot bb0991777ac541be83385906c043308d --
+3月 29 12:42:42 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 29 12:42:43 ree-virtual-machine snapd[868]: overlord.go:268: Acquiring state lock file
+3月 29 12:42:43 ree-virtual-machine snapd[868]: overlord.go:273: Acquired state lock file
+3月 29 12:42:43 ree-virtual-machine snapd[868]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 29 12:42:43 ree-virtual-machine snapd[868]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 29 12:42:43 ree-virtual-machine snapd[868]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 29 12:42:43 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 29 12:50:43 ree-virtual-machine snapd[868]: main.go:155: Exiting on terminated signal.
+3月 29 12:50:43 ree-virtual-machine snapd[868]: overlord.go:512: Released state lock file
+3月 29 12:50:43 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 29 12:50:43 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 29 12:50:43 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 29 12:50:43 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.001s CPU time.
+-- Boot d7712a95bc0b49358ac3d7c9a0282431 --
+3月 29 13:18:47 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 29 13:18:48 ree-virtual-machine snapd[927]: overlord.go:268: Acquiring state lock file
+3月 29 13:18:48 ree-virtual-machine snapd[927]: overlord.go:273: Acquired state lock file
+3月 29 13:18:48 ree-virtual-machine snapd[927]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 29 13:18:49 ree-virtual-machine snapd[927]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 29 13:18:49 ree-virtual-machine snapd[927]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 29 13:18:49 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 29 13:20:27 ree-virtual-machine snapd[927]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 29 13:23:16 ree-virtual-machine snapd[927]: main.go:155: Exiting on terminated signal.
+3月 29 13:23:16 ree-virtual-machine snapd[927]: overlord.go:512: Released state lock file
+3月 29 13:23:16 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 29 13:23:16 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 29 13:23:16 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 29 13:23:16 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.610s CPU time.
+-- Boot 19b4dd46eb7b4597999d4311a7fcd580 --
+3月 29 13:24:44 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 29 13:24:46 ree-virtual-machine snapd[776]: overlord.go:268: Acquiring state lock file
+3月 29 13:24:46 ree-virtual-machine snapd[776]: overlord.go:273: Acquired state lock file
+3月 29 13:24:46 ree-virtual-machine snapd[776]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 29 13:24:46 ree-virtual-machine snapd[776]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 29 13:24:46 ree-virtual-machine snapd[776]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 29 13:24:46 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 29 13:25:38 ree-virtual-machine snapd[776]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 29 13:29:51 ree-virtual-machine snapd[776]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 29 13:29:51 ree-virtual-machine snapd[776]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+-- Boot 9d814a28020a4d1b8dc1b211140df378 --
+3月 30 14:04:52 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 30 14:04:54 ree-virtual-machine snapd[864]: overlord.go:268: Acquiring state lock file
+3月 30 14:04:54 ree-virtual-machine snapd[864]: overlord.go:273: Acquired state lock file
+3月 30 14:04:54 ree-virtual-machine snapd[864]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 30 14:04:54 ree-virtual-machine snapd[864]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 30 14:04:54 ree-virtual-machine snapd[864]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 30 14:04:54 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 30 14:06:07 ree-virtual-machine snapd[864]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 30 14:06:09 ree-virtual-machine snapd[864]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 30 14:06:39 ree-virtual-machine snapd[864]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 30 14:09:59 ree-virtual-machine snapd[864]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 30 14:09:59 ree-virtual-machine snapd[864]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+3月 30 14:58:39 ree-virtual-machine snapd[864]: main.go:155: Exiting on terminated signal.
+3月 30 14:58:39 ree-virtual-machine snapd[864]: overlord.go:512: Released state lock file
+3月 30 14:58:39 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 30 14:58:39 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 30 14:58:39 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 30 14:58:39 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.908s CPU time.
+-- Boot 84aa09a898d145c7a959de6db29053d7 --
+3月 30 15:02:21 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 30 15:02:22 ree-virtual-machine snapd[879]: overlord.go:268: Acquiring state lock file
+3月 30 15:02:22 ree-virtual-machine snapd[879]: overlord.go:273: Acquired state lock file
+3月 30 15:02:22 ree-virtual-machine snapd[879]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 30 15:02:22 ree-virtual-machine snapd[879]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 30 15:02:22 ree-virtual-machine snapd[879]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 30 15:02:23 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 30 15:02:52 ree-virtual-machine snapd[879]: main.go:155: Exiting on terminated signal.
+3月 30 15:02:52 ree-virtual-machine snapd[879]: overlord.go:512: Released state lock file
+3月 30 15:02:52 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 30 15:02:52 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 30 15:02:52 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 30 15:02:52 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.137s CPU time.
+-- Boot aa4829cf4bad48fb9f7b1a4eb947f5c0 --
+3月 30 15:03:27 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 30 15:03:28 ree-virtual-machine snapd[934]: overlord.go:268: Acquiring state lock file
+3月 30 15:03:28 ree-virtual-machine snapd[934]: overlord.go:273: Acquired state lock file
+3月 30 15:03:28 ree-virtual-machine snapd[934]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 30 15:03:29 ree-virtual-machine snapd[934]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 30 15:03:29 ree-virtual-machine snapd[934]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 30 15:03:29 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 30 15:03:35 ree-virtual-machine snapd[934]: main.go:155: Exiting on terminated signal.
+3月 30 15:03:35 ree-virtual-machine snapd[934]: overlord.go:512: Released state lock file
+3月 30 15:03:35 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 30 15:03:35 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 30 15:03:35 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 30 15:03:35 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.232s CPU time.
+-- Boot 00a7e42d2b624b439bea376a3bc361f1 --
+3月 30 15:14:14 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 30 15:14:15 ree-virtual-machine snapd[859]: overlord.go:268: Acquiring state lock file
+3月 30 15:14:15 ree-virtual-machine snapd[859]: overlord.go:273: Acquired state lock file
+3月 30 15:14:15 ree-virtual-machine snapd[859]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 30 15:14:15 ree-virtual-machine snapd[859]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 30 15:14:15 ree-virtual-machine snapd[859]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 30 15:14:16 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 30 15:15:05 ree-virtual-machine snapd[859]: main.go:155: Exiting on terminated signal.
+3月 30 15:15:05 ree-virtual-machine snapd[859]: overlord.go:512: Released state lock file
+3月 30 15:15:05 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 30 15:15:05 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 30 15:15:05 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 30 15:15:05 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.078s CPU time.
+-- Boot 1516c1af27714148858b849306510739 --
+3月 30 15:23:25 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 30 15:23:27 ree-virtual-machine snapd[853]: overlord.go:268: Acquiring state lock file
+3月 30 15:23:27 ree-virtual-machine snapd[853]: overlord.go:273: Acquired state lock file
+3月 30 15:23:27 ree-virtual-machine snapd[853]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 30 15:23:27 ree-virtual-machine snapd[853]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 30 15:23:27 ree-virtual-machine snapd[853]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 30 15:23:27 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 30 15:24:16 ree-virtual-machine snapd[853]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 30 15:38:16 ree-virtual-machine snapd[853]: main.go:155: Exiting on terminated signal.
+3月 30 15:38:16 ree-virtual-machine snapd[853]: overlord.go:512: Released state lock file
+3月 30 15:38:16 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 30 15:38:16 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 30 15:38:16 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 30 15:38:16 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.454s CPU time.
+-- Boot 9069828abd4b41e5829b4880b07ecdde --
+3月 30 15:38:53 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 30 15:38:54 ree-virtual-machine snapd[854]: overlord.go:268: Acquiring state lock file
+3月 30 15:38:54 ree-virtual-machine snapd[854]: overlord.go:273: Acquired state lock file
+3月 30 15:38:54 ree-virtual-machine snapd[854]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 30 15:38:54 ree-virtual-machine snapd[854]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 30 15:38:54 ree-virtual-machine snapd[854]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 30 15:38:55 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 30 15:39:13 ree-virtual-machine snapd[854]: stateengine.go:149: state ensure error: decode new commands catalog: net/http: request canceled (Client.Timeout exceeded while reading body)
+3月 30 15:39:48 ree-virtual-machine snapd[854]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+-- Boot 76e16ebfbeab47788bc4dd8853d9fe7e --
+3月 30 17:34:19 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 30 17:34:21 ree-virtual-machine snapd[883]: overlord.go:268: Acquiring state lock file
+3月 30 17:34:21 ree-virtual-machine snapd[883]: overlord.go:273: Acquired state lock file
+3月 30 17:34:21 ree-virtual-machine snapd[883]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 30 17:34:21 ree-virtual-machine snapd[883]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 30 17:34:21 ree-virtual-machine snapd[883]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 30 17:34:21 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 30 17:34:55 ree-virtual-machine snapd[883]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 30 18:44:27 ree-virtual-machine snapd[883]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 30 18:44:27 ree-virtual-machine snapd[883]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+3月 30 20:28:47 ree-virtual-machine snapd[883]: stateengine.go:149: state ensure error: decode new commands catalog: net/http: request canceled (Client.Timeout exceeded while reading body)
+3月 30 20:32:24 ree-virtual-machine snapd[883]: main.go:155: Exiting on terminated signal.
+3月 30 20:32:24 ree-virtual-machine snapd[883]: overlord.go:512: Released state lock file
+3月 30 20:32:24 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 30 20:32:24 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 30 20:32:24 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 30 20:32:24 ree-virtual-machine systemd[1]: snapd.service: Consumed 3.688s CPU time.
+-- Boot e249c720d58849269d73a22f14ee6fb9 --
+3月 30 20:32:33 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 30 20:32:34 ree-virtual-machine snapd[904]: overlord.go:268: Acquiring state lock file
+3月 30 20:32:34 ree-virtual-machine snapd[904]: overlord.go:273: Acquired state lock file
+3月 30 20:32:34 ree-virtual-machine snapd[904]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 30 20:32:34 ree-virtual-machine snapd[904]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 30 20:32:34 ree-virtual-machine snapd[904]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 30 20:32:34 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 30 20:33:12 ree-virtual-machine snapd[904]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 30 20:33:14 ree-virtual-machine snapd[904]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+-- Boot 9ccccf2adff74839b8fba49d83281f8b --
+3月 30 22:53:44 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 30 22:53:46 ree-virtual-machine snapd[865]: overlord.go:268: Acquiring state lock file
+3月 30 22:53:46 ree-virtual-machine snapd[865]: overlord.go:273: Acquired state lock file
+3月 30 22:53:46 ree-virtual-machine snapd[865]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 30 22:53:46 ree-virtual-machine snapd[865]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 30 22:53:46 ree-virtual-machine snapd[865]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 30 22:53:46 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 30 22:53:59 ree-virtual-machine snapd[865]: stateengine.go:149: state ensure error: decode new commands catalog: net/http: request canceled (Client.Timeout exceeded while reading body)
+3月 30 22:54:54 ree-virtual-machine snapd[865]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 30 23:30:42 ree-virtual-machine snapd[865]: main.go:155: Exiting on terminated signal.
+3月 30 23:30:42 ree-virtual-machine snapd[865]: overlord.go:512: Released state lock file
+3月 30 23:30:42 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 30 23:30:42 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 30 23:30:42 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 30 23:30:42 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.473s CPU time.
+-- Boot 308f7b0f7a274f0bb6200973f34667b6 --
+3月 31 00:22:28 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 31 00:22:30 ree-virtual-machine snapd[873]: overlord.go:268: Acquiring state lock file
+3月 31 00:22:30 ree-virtual-machine snapd[873]: overlord.go:273: Acquired state lock file
+3月 31 00:22:30 ree-virtual-machine snapd[873]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 31 00:22:30 ree-virtual-machine snapd[873]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 31 00:22:30 ree-virtual-machine snapd[873]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 31 00:22:30 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 31 00:22:44 ree-virtual-machine snapd[873]: stateengine.go:149: state ensure error: decode new commands catalog: net/http: request canceled (Client.Timeout exceeded while reading body)
+3月 31 00:22:51 ree-virtual-machine snapd[873]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 31 00:27:29 ree-virtual-machine snapd[873]: main.go:155: Exiting on terminated signal.
+3月 31 00:27:29 ree-virtual-machine snapd[873]: overlord.go:512: Released state lock file
+3月 31 00:27:29 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 31 00:27:29 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 31 00:27:29 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 31 00:27:29 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.471s CPU time.
+-- Boot d85c7c53e5114994bc2f0f623b3af509 --
+3月 31 19:12:16 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 31 19:12:18 ree-virtual-machine snapd[866]: overlord.go:268: Acquiring state lock file
+3月 31 19:12:18 ree-virtual-machine snapd[866]: overlord.go:273: Acquired state lock file
+3月 31 19:12:18 ree-virtual-machine snapd[866]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 31 19:12:18 ree-virtual-machine snapd[866]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 31 19:12:18 ree-virtual-machine snapd[866]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 31 19:12:18 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 31 19:12:51 ree-virtual-machine snapd[866]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 31 19:12:53 ree-virtual-machine snapd[866]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 31 19:12:53 ree-virtual-machine snapd[866]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 31 19:12:54 ree-virtual-machine snapd[866]: stateengine.go:149: state ensure error: decode new commands catalog: net/http: request canceled (Client.Timeout exceeded while reading body)
+3月 31 19:12:54 ree-virtual-machine snapd[866]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 31 19:12:56 ree-virtual-machine snapd[866]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 31 19:12:56 ree-virtual-machine snapd[866]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+3月 31 19:35:33 ree-virtual-machine snapd[866]: main.go:155: Exiting on terminated signal.
+3月 31 19:35:33 ree-virtual-machine snapd[866]: overlord.go:512: Released state lock file
+3月 31 19:35:33 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 31 19:35:33 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 31 19:35:33 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 31 19:35:33 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.533s CPU time.
+-- Boot 09785a07d95540b1ad518945fbcc300d --
+3月 31 19:43:50 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 31 19:43:51 ree-virtual-machine snapd[865]: overlord.go:268: Acquiring state lock file
+3月 31 19:43:51 ree-virtual-machine snapd[865]: overlord.go:273: Acquired state lock file
+3月 31 19:43:51 ree-virtual-machine snapd[865]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 31 19:43:52 ree-virtual-machine snapd[865]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 31 19:43:52 ree-virtual-machine snapd[865]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 31 19:43:52 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 31 19:44:09 ree-virtual-machine snapd[865]: stateengine.go:149: state ensure error: decode new commands catalog: net/http: request canceled (Client.Timeout exceeded while reading body)
+3月 31 19:44:31 ree-virtual-machine snapd[865]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+3月 31 19:44:59 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+3月 31 19:44:59 ree-virtual-machine snapd[865]: main.go:155: Exiting on terminated signal.
+3月 31 19:44:59 ree-virtual-machine snapd[865]: overlord.go:512: Released state lock file
+3月 31 19:44:59 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+3月 31 19:44:59 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+3月 31 19:44:59 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.407s CPU time.
+-- Boot 436dee14f55b451a880859c1f76478af --
+3月 31 21:10:03 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+3月 31 21:10:04 ree-virtual-machine snapd[884]: overlord.go:268: Acquiring state lock file
+3月 31 21:10:04 ree-virtual-machine snapd[884]: overlord.go:273: Acquired state lock file
+3月 31 21:10:04 ree-virtual-machine snapd[884]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+3月 31 21:10:05 ree-virtual-machine snapd[884]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+3月 31 21:10:05 ree-virtual-machine snapd[884]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+3月 31 21:10:05 ree-virtual-machine systemd[1]: Started Snap Daemon.
+3月 31 21:11:32 ree-virtual-machine snapd[884]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 03 22:12:10 ree-virtual-machine snapd[884]: main.go:155: Exiting on terminated signal.
+4月 03 22:12:10 ree-virtual-machine snapd[884]: overlord.go:512: Released state lock file
+4月 03 22:12:10 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+4月 03 22:12:10 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+4月 03 22:12:10 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+4月 03 22:12:10 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.455s CPU time.
+-- Boot e2fd3a66bd3b4bd68261cb94d3fee451 --
+4月 04 12:20:46 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+4月 04 12:20:48 ree-virtual-machine snapd[836]: overlord.go:268: Acquiring state lock file
+4月 04 12:20:48 ree-virtual-machine snapd[836]: overlord.go:273: Acquired state lock file
+4月 04 12:20:48 ree-virtual-machine snapd[836]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+4月 04 12:20:48 ree-virtual-machine snapd[836]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+4月 04 12:20:48 ree-virtual-machine snapd[836]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+4月 04 12:20:48 ree-virtual-machine systemd[1]: Started Snap Daemon.
+4月 04 12:21:24 ree-virtual-machine snapd[836]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 04 12:21:24 ree-virtual-machine snapd[836]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 04 12:21:25 ree-virtual-machine snapd[836]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 04 12:25:54 ree-virtual-machine snapd[836]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "firefox", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 04 12:26:35 ree-virtual-machine snapd[836]: storehelpers.go:769: cannot refresh: snap has no updates available: "core22", "gnome-3-38-2004", "gnome-42-2204"
+4月 04 17:35:37 ree-virtual-machine snapd[836]: main.go:155: Exiting on terminated signal.
+4月 04 17:35:37 ree-virtual-machine snapd[836]: overlord.go:512: Released state lock file
+4月 04 17:35:37 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+4月 04 17:35:37 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+4月 04 17:35:37 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+4月 04 17:35:37 ree-virtual-machine systemd[1]: snapd.service: Consumed 31.797s CPU time.
+-- Boot 25dbee67bff049baa23eecea014b8763 --
+4月 04 17:35:54 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+4月 04 17:35:55 ree-virtual-machine snapd[889]: overlord.go:268: Acquiring state lock file
+4月 04 17:35:55 ree-virtual-machine snapd[889]: overlord.go:273: Acquired state lock file
+4月 04 17:35:55 ree-virtual-machine snapd[889]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+4月 04 17:35:55 ree-virtual-machine snapd[889]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+4月 04 17:35:55 ree-virtual-machine snapd[889]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+4月 04 17:35:55 ree-virtual-machine systemd[1]: Started Snap Daemon.
+4月 04 17:36:58 ree-virtual-machine snapd[889]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 04 20:05:55 ree-virtual-machine snapd[889]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 04 20:05:55 ree-virtual-machine snapd[889]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+4月 04 20:54:00 ree-virtual-machine snapd[889]: main.go:155: Exiting on terminated signal.
+4月 04 20:54:00 ree-virtual-machine snapd[889]: overlord.go:512: Released state lock file
+4月 04 20:54:00 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+4月 04 20:54:00 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+4月 04 20:54:00 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+4月 04 20:54:00 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.842s CPU time.
+-- Boot 0d532a9de8ef4df1a92a1cc3f8ce562d --
+4月 09 19:14:33 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+4月 09 19:14:35 ree-virtual-machine snapd[829]: overlord.go:268: Acquiring state lock file
+4月 09 19:14:35 ree-virtual-machine snapd[829]: overlord.go:273: Acquired state lock file
+4月 09 19:14:35 ree-virtual-machine snapd[829]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+4月 09 19:14:35 ree-virtual-machine snapd[829]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+4月 09 19:14:35 ree-virtual-machine snapd[829]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+4月 09 19:14:35 ree-virtual-machine systemd[1]: Started Snap Daemon.
+4月 09 19:15:10 ree-virtual-machine snapd[829]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 09 19:15:11 ree-virtual-machine snapd[829]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 09 19:15:14 ree-virtual-machine snapd[829]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 09 19:17:43 ree-virtual-machine snapd[829]: main.go:155: Exiting on terminated signal.
+4月 09 19:17:43 ree-virtual-machine snapd[829]: overlord.go:512: Released state lock file
+4月 09 19:17:43 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+4月 09 19:17:43 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+4月 09 19:17:43 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+4月 09 19:17:43 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.578s CPU time.
+-- Boot 66c095c2b40d4348bbbaa9bd9371fd5b --
+4月 09 19:21:20 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+4月 09 19:21:22 ree-virtual-machine snapd[864]: overlord.go:268: Acquiring state lock file
+4月 09 19:21:22 ree-virtual-machine snapd[864]: overlord.go:273: Acquired state lock file
+4月 09 19:21:22 ree-virtual-machine snapd[864]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+4月 09 19:21:22 ree-virtual-machine snapd[864]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+4月 09 19:21:22 ree-virtual-machine snapd[864]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+4月 09 19:21:22 ree-virtual-machine systemd[1]: Started Snap Daemon.
+4月 09 19:21:51 ree-virtual-machine snapd[864]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 09 19:26:22 ree-virtual-machine snapd[864]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 09 19:26:22 ree-virtual-machine snapd[864]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+4月 09 21:44:17 ree-virtual-machine snapd[864]: main.go:155: Exiting on terminated signal.
+4月 09 21:44:17 ree-virtual-machine snapd[864]: overlord.go:512: Released state lock file
+4月 09 21:44:17 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+4月 09 21:44:17 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+4月 09 21:44:17 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+4月 09 21:44:17 ree-virtual-machine systemd[1]: snapd.service: Consumed 3.199s CPU time.
+-- Boot 125b443d38b7450fbc1c404530e9dc9e --
+4月 12 11:21:57 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+4月 12 11:21:59 ree-virtual-machine snapd[932]: overlord.go:268: Acquiring state lock file
+4月 12 11:21:59 ree-virtual-machine snapd[932]: overlord.go:273: Acquired state lock file
+4月 12 11:21:59 ree-virtual-machine snapd[932]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+4月 12 11:21:59 ree-virtual-machine snapd[932]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+4月 12 11:21:59 ree-virtual-machine snapd[932]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+4月 12 11:21:59 ree-virtual-machine systemd[1]: Started Snap Daemon.
+4月 12 11:27:06 ree-virtual-machine snapd[932]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 12 11:27:06 ree-virtual-machine snapd[932]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+4月 12 11:28:47 ree-virtual-machine snapd[932]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 12 11:28:47 ree-virtual-machine snapd[932]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 12 11:28:48 ree-virtual-machine snapd[932]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 12 11:28:49 ree-virtual-machine snapd[932]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 12 12:31:43 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+4月 12 12:31:43 ree-virtual-machine snapd[932]: main.go:155: Exiting on terminated signal.
+4月 12 12:31:43 ree-virtual-machine snapd[932]: overlord.go:512: Released state lock file
+4月 12 12:31:43 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+4月 12 12:31:43 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+4月 12 12:31:43 ree-virtual-machine systemd[1]: snapd.service: Consumed 3.043s CPU time.
+-- Boot e043495edc834fd3b8de378cf5b742ab --
+4月 12 12:32:37 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+4月 12 12:32:39 ree-virtual-machine snapd[859]: overlord.go:268: Acquiring state lock file
+4月 12 12:32:39 ree-virtual-machine snapd[859]: overlord.go:273: Acquired state lock file
+4月 12 12:32:39 ree-virtual-machine snapd[859]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+4月 12 12:32:39 ree-virtual-machine snapd[859]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+4月 12 12:32:39 ree-virtual-machine snapd[859]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+4月 12 12:32:39 ree-virtual-machine systemd[1]: Started Snap Daemon.
+4月 12 12:33:49 ree-virtual-machine snapd[859]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 12 12:37:42 ree-virtual-machine snapd[859]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 12 12:37:42 ree-virtual-machine snapd[859]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+4月 12 13:58:16 ree-virtual-machine snapd[859]: main.go:155: Exiting on terminated signal.
+4月 12 13:58:16 ree-virtual-machine snapd[859]: overlord.go:512: Released state lock file
+4月 12 13:58:16 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+4月 12 13:58:16 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+4月 12 13:58:16 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+4月 12 13:58:16 ree-virtual-machine systemd[1]: snapd.service: Consumed 3.339s CPU time.
+-- Boot 9296bd89129642f58a1e422116180a89 --
+4月 12 19:33:18 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+4月 12 19:33:20 ree-virtual-machine snapd[931]: overlord.go:268: Acquiring state lock file
+4月 12 19:33:20 ree-virtual-machine snapd[931]: overlord.go:273: Acquired state lock file
+4月 12 19:33:20 ree-virtual-machine snapd[931]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+4月 12 19:33:20 ree-virtual-machine snapd[931]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+4月 12 19:33:20 ree-virtual-machine snapd[931]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+4月 12 19:33:20 ree-virtual-machine systemd[1]: Started Snap Daemon.
+4月 12 19:33:48 ree-virtual-machine snapd[931]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 12 19:33:50 ree-virtual-machine snapd[931]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 12 19:38:27 ree-virtual-machine snapd[931]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 12 19:38:27 ree-virtual-machine snapd[931]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+4月 12 21:30:57 ree-virtual-machine snapd[931]: main.go:155: Exiting on terminated signal.
+4月 12 21:30:57 ree-virtual-machine snapd[931]: overlord.go:512: Released state lock file
+4月 12 21:30:57 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+4月 12 21:30:57 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+4月 12 21:30:57 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+4月 12 21:30:57 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.783s CPU time.
+-- Boot e44af90cbb3e49179059ad1de25c45d0 --
+4月 12 21:31:07 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+4月 12 21:31:08 ree-virtual-machine snapd[869]: overlord.go:268: Acquiring state lock file
+4月 12 21:31:08 ree-virtual-machine snapd[869]: overlord.go:273: Acquired state lock file
+4月 12 21:31:08 ree-virtual-machine snapd[869]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+4月 12 21:31:08 ree-virtual-machine snapd[869]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+4月 12 21:31:08 ree-virtual-machine snapd[869]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+4月 12 21:31:08 ree-virtual-machine systemd[1]: Started Snap Daemon.
+4月 12 21:35:29 ree-virtual-machine snapd[869]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 12 21:35:32 ree-virtual-machine snapd[869]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 12 21:48:57 ree-virtual-machine snapd[869]: main.go:155: Exiting on terminated signal.
+4月 12 21:48:57 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+4月 12 21:48:57 ree-virtual-machine snapd[869]: overlord.go:512: Released state lock file
+4月 12 21:48:57 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+4月 12 21:48:57 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+4月 12 21:48:57 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.182s CPU time.
+-- Boot 670c3aae65b84f6c8708951f52467260 --
+4月 12 21:49:13 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+4月 12 21:49:14 ree-virtual-machine snapd[916]: overlord.go:268: Acquiring state lock file
+4月 12 21:49:14 ree-virtual-machine snapd[916]: overlord.go:273: Acquired state lock file
+4月 12 21:49:14 ree-virtual-machine snapd[916]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+4月 12 21:49:14 ree-virtual-machine snapd[916]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+4月 12 21:49:14 ree-virtual-machine snapd[916]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+4月 12 21:49:14 ree-virtual-machine systemd[1]: Started Snap Daemon.
+4月 12 21:49:57 ree-virtual-machine snapd[916]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 12 21:53:20 ree-virtual-machine snapd[916]: main.go:155: Exiting on terminated signal.
+4月 12 21:53:20 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+4月 12 21:53:20 ree-virtual-machine snapd[916]: overlord.go:512: Released state lock file
+4月 12 21:53:20 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+4月 12 21:53:20 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+4月 12 21:53:20 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.174s CPU time.
+-- Boot 73255c0c6dec4ce4bca99ec2ceb12507 --
+4月 12 21:53:28 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+4月 12 21:53:29 ree-virtual-machine snapd[841]: overlord.go:268: Acquiring state lock file
+4月 12 21:53:29 ree-virtual-machine snapd[841]: overlord.go:273: Acquired state lock file
+4月 12 21:53:29 ree-virtual-machine snapd[841]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+4月 12 21:53:29 ree-virtual-machine snapd[841]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+4月 12 21:53:30 ree-virtual-machine snapd[841]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+4月 12 21:53:30 ree-virtual-machine systemd[1]: Started Snap Daemon.
+4月 12 21:54:31 ree-virtual-machine snapd[841]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 13 01:12:51 ree-virtual-machine snapd[841]: main.go:155: Exiting on terminated signal.
+4月 13 01:12:51 ree-virtual-machine snapd[841]: overlord.go:512: Released state lock file
+4月 13 01:12:51 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+4月 13 01:12:51 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+4月 13 01:12:51 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+4月 13 01:12:51 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.510s CPU time.
+-- Boot ab354c8c35ec46309c3d583c22d4722e --
+4月 13 11:49:15 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+4月 13 11:49:17 ree-virtual-machine snapd[937]: overlord.go:268: Acquiring state lock file
+4月 13 11:49:17 ree-virtual-machine snapd[937]: overlord.go:273: Acquired state lock file
+4月 13 11:49:18 ree-virtual-machine snapd[937]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+4月 13 11:49:18 ree-virtual-machine snapd[937]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+4月 13 11:49:18 ree-virtual-machine snapd[937]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+4月 13 11:49:18 ree-virtual-machine systemd[1]: Started Snap Daemon.
+4月 13 11:50:14 ree-virtual-machine snapd[937]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 13 11:50:15 ree-virtual-machine snapd[937]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 13 11:50:16 ree-virtual-machine snapd[937]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 13 11:50:16 ree-virtual-machine snapd[937]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 13 11:54:20 ree-virtual-machine snapd[937]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 13 11:54:20 ree-virtual-machine snapd[937]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+4月 13 20:22:12 ree-virtual-machine snapd[937]: main.go:155: Exiting on terminated signal.
+4月 13 20:22:12 ree-virtual-machine snapd[937]: overlord.go:512: Released state lock file
+4月 13 20:22:12 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+4月 13 20:22:12 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+4月 13 20:22:12 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+4月 13 20:22:12 ree-virtual-machine systemd[1]: snapd.service: Consumed 4.157s CPU time.
+-- Boot 1223bb12cf164754a34338b3879bc416 --
+4月 13 20:22:51 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+4月 13 20:22:53 ree-virtual-machine snapd[937]: overlord.go:268: Acquiring state lock file
+4月 13 20:22:53 ree-virtual-machine snapd[937]: overlord.go:273: Acquired state lock file
+4月 13 20:22:53 ree-virtual-machine snapd[937]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+4月 13 20:22:53 ree-virtual-machine snapd[937]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+4月 13 20:22:53 ree-virtual-machine snapd[937]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+4月 13 20:22:53 ree-virtual-machine systemd[1]: Started Snap Daemon.
+4月 13 20:23:59 ree-virtual-machine snapd[937]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 13 20:28:08 ree-virtual-machine snapd[937]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 13 20:28:08 ree-virtual-machine snapd[937]: snapstate.go:1778: cannot refresh snap "firefox": snap "firefox" has running apps (firefox), pids: 3265,3423,3465,3579,3738,3740,3748,3759,4047,4290,4318
+4月 13 20:28:08 ree-virtual-machine snapd[937]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+4月 13 23:11:10 ree-virtual-machine snapd[937]: main.go:155: Exiting on terminated signal.
+4月 13 23:11:10 ree-virtual-machine snapd[937]: overlord.go:512: Released state lock file
+4月 13 23:11:10 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+4月 13 23:11:10 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+4月 13 23:11:10 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+4月 13 23:11:10 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.996s CPU time.
+-- Boot eedc866258b546db86377bdd16f52c6c --
+4月 13 23:33:00 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+4月 13 23:33:02 ree-virtual-machine snapd[931]: overlord.go:268: Acquiring state lock file
+4月 13 23:33:02 ree-virtual-machine snapd[931]: overlord.go:273: Acquired state lock file
+4月 13 23:33:02 ree-virtual-machine snapd[931]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+4月 13 23:33:02 ree-virtual-machine snapd[931]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+4月 13 23:33:02 ree-virtual-machine snapd[931]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+4月 13 23:33:02 ree-virtual-machine systemd[1]: Started Snap Daemon.
+4月 13 23:33:30 ree-virtual-machine snapd[931]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 14 01:45:07 ree-virtual-machine snapd[931]: main.go:155: Exiting on terminated signal.
+4月 14 01:45:07 ree-virtual-machine snapd[931]: overlord.go:512: Released state lock file
+4月 14 01:45:07 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+4月 14 01:45:07 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+4月 14 01:45:07 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+4月 14 01:45:07 ree-virtual-machine systemd[1]: snapd.service: Consumed 2.774s CPU time.
+-- Boot 6336d5d01d9d47a1a84a86d400678bbe --
+4月 14 18:40:04 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+4月 14 18:40:06 ree-virtual-machine snapd[935]: overlord.go:268: Acquiring state lock file
+4月 14 18:40:06 ree-virtual-machine snapd[935]: overlord.go:273: Acquired state lock file
+4月 14 18:40:06 ree-virtual-machine snapd[935]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+4月 14 18:40:06 ree-virtual-machine snapd[935]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+4月 14 18:40:06 ree-virtual-machine snapd[935]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+4月 14 18:40:06 ree-virtual-machine systemd[1]: Started Snap Daemon.
+4月 14 18:41:06 ree-virtual-machine snapd[935]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 14 18:41:07 ree-virtual-machine snapd[935]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 14 18:41:07 ree-virtual-machine snapd[935]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 14 18:41:08 ree-virtual-machine snapd[935]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 14 18:45:10 ree-virtual-machine snapd[935]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 14 18:45:10 ree-virtual-machine snapd[935]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+4月 14 19:24:32 ree-virtual-machine systemd[1]: Stopping Snap Daemon...
+4月 14 19:24:32 ree-virtual-machine snapd[935]: main.go:155: Exiting on terminated signal.
+4月 14 19:24:32 ree-virtual-machine snapd[935]: overlord.go:512: Released state lock file
+4月 14 19:24:32 ree-virtual-machine systemd[1]: snapd.service: Deactivated successfully.
+4月 14 19:24:32 ree-virtual-machine systemd[1]: Stopped Snap Daemon.
+4月 14 19:24:32 ree-virtual-machine systemd[1]: snapd.service: Consumed 3.025s CPU time.
+-- Boot 00425514c17e404db4cc5611a8f55ed9 --
+4月 14 21:28:23 ree-virtual-machine systemd[1]: Starting Snap Daemon...
+4月 14 21:28:24 ree-virtual-machine snapd[941]: overlord.go:268: Acquiring state lock file
+4月 14 21:28:24 ree-virtual-machine snapd[941]: overlord.go:273: Acquired state lock file
+4月 14 21:28:24 ree-virtual-machine snapd[941]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-38-generic.
+4月 14 21:28:24 ree-virtual-machine snapd[941]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+4月 14 21:28:24 ree-virtual-machine snapd[941]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+4月 14 21:28:24 ree-virtual-machine systemd[1]: Started Snap Daemon.
+4月 14 21:28:59 ree-virtual-machine snapd[941]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 15 00:38:26 ree-virtual-machine snapd[941]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+4月 15 00:38:26 ree-virtual-machine snapd[941]: autorefresh.go:551: 全部刷新：所有的 snap 已是最新
+

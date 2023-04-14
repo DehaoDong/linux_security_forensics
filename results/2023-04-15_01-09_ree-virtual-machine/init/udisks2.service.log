@@ -1,0 +1,641 @@
+2月 20 18:38:52 ree-virtual-machine systemd[1]: Starting Disk Manager...
+2月 20 18:38:52 ree-virtual-machine udisksd[918]: udisks daemon version 2.9.4 starting
+2月 20 18:38:52 ree-virtual-machine udisksd[918]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+2月 20 18:38:52 ree-virtual-machine udisksd[918]: Failed to load the 'mdraid' libblockdev plugin
+2月 20 18:38:52 ree-virtual-machine systemd[1]: Started Disk Manager.
+2月 20 18:38:52 ree-virtual-machine udisksd[918]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+2月 20 18:40:17 ree-virtual-machine udisksd[918]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+2月 20 18:52:48 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+2月 20 18:52:48 ree-virtual-machine udisksd[918]: udisks daemon version 2.9.4 exiting
+2月 20 18:52:48 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+2月 20 18:52:48 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 59a08585a9874716bda9035a442e266a --
+2月 20 18:52:56 ree-virtual-machine systemd[1]: Starting Disk Manager...
+2月 20 18:52:56 ree-virtual-machine udisksd[886]: udisks daemon version 2.9.4 starting
+2月 20 18:52:56 ree-virtual-machine udisksd[886]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+2月 20 18:52:56 ree-virtual-machine udisksd[886]: Failed to load the 'mdraid' libblockdev plugin
+2月 20 18:52:56 ree-virtual-machine systemd[1]: Started Disk Manager.
+2月 20 18:52:56 ree-virtual-machine udisksd[886]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+2月 20 18:52:56 ree-virtual-machine udisksd[886]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+2月 20 18:54:23 ree-virtual-machine udisksd[886]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+-- Boot 4e50f35765d14836ba11bf87868d3690 --
+2月 21 18:32:15 ree-virtual-machine systemd[1]: Starting Disk Manager...
+2月 21 18:32:15 ree-virtual-machine udisksd[904]: udisks daemon version 2.9.4 starting
+2月 21 18:32:16 ree-virtual-machine udisksd[904]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+2月 21 18:32:16 ree-virtual-machine udisksd[904]: Failed to load the 'mdraid' libblockdev plugin
+2月 21 18:32:16 ree-virtual-machine systemd[1]: Started Disk Manager.
+2月 21 18:32:16 ree-virtual-machine udisksd[904]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+2月 21 18:32:16 ree-virtual-machine udisksd[904]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+2月 21 18:32:34 ree-virtual-machine udisksd[904]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+2月 21 18:32:34 ree-virtual-machine udisksd[904]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+2月 21 18:41:05 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+2月 21 18:41:05 ree-virtual-machine udisksd[904]: udisks daemon version 2.9.4 exiting
+2月 21 18:41:05 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+2月 21 18:41:05 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 378ef5fc52a64e67810e6fa7a9ee31e6 --
+2月 21 18:42:26 ree-virtual-machine systemd[1]: Starting Disk Manager...
+2月 21 18:42:26 ree-virtual-machine udisksd[868]: udisks daemon version 2.9.4 starting
+2月 21 18:42:26 ree-virtual-machine udisksd[868]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+2月 21 18:42:26 ree-virtual-machine udisksd[868]: Failed to load the 'mdraid' libblockdev plugin
+2月 21 18:42:27 ree-virtual-machine systemd[1]: Started Disk Manager.
+2月 21 18:42:27 ree-virtual-machine udisksd[868]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+2月 21 18:42:27 ree-virtual-machine udisksd[868]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+2月 21 18:42:27 ree-virtual-machine udisksd[868]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+2月 21 18:42:35 ree-virtual-machine udisksd[868]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+2月 21 18:42:35 ree-virtual-machine udisksd[868]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+2月 21 19:01:35 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+2月 21 19:01:35 ree-virtual-machine udisksd[868]: udisks daemon version 2.9.4 exiting
+2月 21 19:01:35 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+2月 21 19:01:35 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 48d666794bf9483ca7ebe0e999848072 --
+2月 21 19:01:45 ree-virtual-machine systemd[1]: Starting Disk Manager...
+2月 21 19:01:45 ree-virtual-machine udisksd[907]: udisks daemon version 2.9.4 starting
+2月 21 19:01:45 ree-virtual-machine udisksd[907]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+2月 21 19:01:45 ree-virtual-machine udisksd[907]: Failed to load the 'mdraid' libblockdev plugin
+2月 21 19:01:45 ree-virtual-machine systemd[1]: Started Disk Manager.
+2月 21 19:01:45 ree-virtual-machine udisksd[907]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+2月 21 19:01:45 ree-virtual-machine udisksd[907]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+2月 21 19:01:45 ree-virtual-machine udisksd[907]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+2月 21 19:01:53 ree-virtual-machine udisksd[907]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+2月 21 19:01:53 ree-virtual-machine udisksd[907]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+2月 21 19:02:28 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+2月 21 19:02:28 ree-virtual-machine udisksd[907]: udisks daemon version 2.9.4 exiting
+2月 21 19:02:28 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+2月 21 19:02:28 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot a0299816d1d24b8ab70b7c10b1502239 --
+2月 21 19:02:36 ree-virtual-machine systemd[1]: Starting Disk Manager...
+2月 21 19:02:36 ree-virtual-machine udisksd[923]: udisks daemon version 2.9.4 starting
+2月 21 19:02:36 ree-virtual-machine udisksd[923]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+2月 21 19:02:37 ree-virtual-machine udisksd[923]: Failed to load the 'mdraid' libblockdev plugin
+2月 21 19:02:37 ree-virtual-machine systemd[1]: Started Disk Manager.
+2月 21 19:02:37 ree-virtual-machine udisksd[923]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+2月 21 19:02:37 ree-virtual-machine udisksd[923]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+2月 21 19:02:37 ree-virtual-machine udisksd[923]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+2月 21 19:02:46 ree-virtual-machine udisksd[923]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+2月 21 19:02:46 ree-virtual-machine udisksd[923]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+2月 21 19:17:46 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+2月 21 19:17:46 ree-virtual-machine udisksd[923]: udisks daemon version 2.9.4 exiting
+2月 21 19:17:46 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+2月 21 19:17:46 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 7319c95352634624b166e30456e7d6e8 --
+2月 21 19:17:55 ree-virtual-machine systemd[1]: Starting Disk Manager...
+2月 21 19:17:56 ree-virtual-machine udisksd[896]: udisks daemon version 2.9.4 starting
+2月 21 19:17:56 ree-virtual-machine udisksd[896]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+2月 21 19:17:56 ree-virtual-machine udisksd[896]: Failed to load the 'mdraid' libblockdev plugin
+2月 21 19:17:56 ree-virtual-machine udisksd[896]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+2月 21 19:17:56 ree-virtual-machine udisksd[896]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+2月 21 19:17:56 ree-virtual-machine systemd[1]: Started Disk Manager.
+2月 21 19:17:56 ree-virtual-machine udisksd[896]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+2月 21 19:18:41 ree-virtual-machine udisksd[896]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+2月 21 19:18:41 ree-virtual-machine udisksd[896]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+2月 21 19:23:02 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+2月 21 19:23:02 ree-virtual-machine udisksd[896]: udisks daemon version 2.9.4 exiting
+2月 21 19:23:02 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+2月 21 19:23:02 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot e6c010b640444a48974c34b34cbf889b --
+2月 21 19:23:10 ree-virtual-machine systemd[1]: Starting Disk Manager...
+2月 21 19:23:10 ree-virtual-machine udisksd[882]: udisks daemon version 2.9.4 starting
+2月 21 19:23:11 ree-virtual-machine udisksd[882]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+2月 21 19:23:11 ree-virtual-machine udisksd[882]: Failed to load the 'mdraid' libblockdev plugin
+2月 21 19:23:11 ree-virtual-machine systemd[1]: Started Disk Manager.
+2月 21 19:23:11 ree-virtual-machine udisksd[882]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+2月 21 19:23:11 ree-virtual-machine udisksd[882]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+2月 21 19:23:11 ree-virtual-machine udisksd[882]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+2月 21 19:23:30 ree-virtual-machine udisksd[882]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+2月 21 19:23:30 ree-virtual-machine udisksd[882]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+2月 21 19:50:53 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+2月 21 19:50:53 ree-virtual-machine udisksd[882]: udisks daemon version 2.9.4 exiting
+2月 21 19:50:53 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+2月 21 19:50:53 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 9ce45ab8fa0345b987fea497f44c5051 --
+3月 10 20:00:44 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 10 20:00:45 ree-virtual-machine udisksd[846]: udisks daemon version 2.9.4 starting
+3月 10 20:00:45 ree-virtual-machine udisksd[846]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 10 20:00:45 ree-virtual-machine udisksd[846]: Failed to load the 'mdraid' libblockdev plugin
+3月 10 20:00:45 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 10 20:00:45 ree-virtual-machine udisksd[846]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 10 20:00:45 ree-virtual-machine udisksd[846]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 10 20:00:45 ree-virtual-machine udisksd[846]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 10 20:01:01 ree-virtual-machine udisksd[846]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 10 20:01:01 ree-virtual-machine udisksd[846]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 10 20:30:58 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 10 20:30:58 ree-virtual-machine udisksd[846]: udisks daemon version 2.9.4 exiting
+3月 10 20:30:58 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 10 20:30:58 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 78840721b8c14d03929c91da9cf2989f --
+3月 15 11:06:35 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 15 11:06:35 ree-virtual-machine udisksd[882]: udisks daemon version 2.9.4 starting
+3月 15 11:06:35 ree-virtual-machine udisksd[882]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 15 11:06:35 ree-virtual-machine udisksd[882]: Failed to load the 'mdraid' libblockdev plugin
+3月 15 11:06:35 ree-virtual-machine udisksd[882]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 15 11:06:35 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 15 11:06:35 ree-virtual-machine udisksd[882]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 15 11:06:35 ree-virtual-machine udisksd[882]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 15 11:09:32 ree-virtual-machine udisksd[882]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 15 11:09:32 ree-virtual-machine udisksd[882]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 15 11:27:13 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 15 11:27:13 ree-virtual-machine udisksd[882]: udisks daemon version 2.9.4 exiting
+3月 15 11:27:13 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 15 11:27:13 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot ca9b2e5e215f4f3fbeb8e0a2983e83e6 --
+3月 22 19:19:57 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 22 19:20:00 ree-virtual-machine udisksd[821]: udisks daemon version 2.9.4 starting
+3月 22 19:20:01 ree-virtual-machine udisksd[821]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 22 19:20:01 ree-virtual-machine udisksd[821]: Failed to load the 'mdraid' libblockdev plugin
+3月 22 19:20:01 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 22 19:20:01 ree-virtual-machine udisksd[821]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 22 19:20:01 ree-virtual-machine udisksd[821]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 22 19:20:01 ree-virtual-machine udisksd[821]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 22 19:20:55 ree-virtual-machine udisksd[821]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 22 19:20:55 ree-virtual-machine udisksd[821]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 22 19:56:18 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 22 19:56:18 ree-virtual-machine udisksd[821]: udisks daemon version 2.9.4 exiting
+3月 22 19:56:18 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 22 19:56:18 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot ee7967cec9534f4aa0162aa833ebf2b7 --
+3月 22 19:56:29 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 22 19:56:29 ree-virtual-machine udisksd[935]: udisks daemon version 2.9.4 starting
+3月 22 19:56:29 ree-virtual-machine udisksd[935]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 22 19:56:29 ree-virtual-machine udisksd[935]: Failed to load the 'mdraid' libblockdev plugin
+3月 22 19:56:29 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 22 19:56:29 ree-virtual-machine udisksd[935]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 22 19:56:29 ree-virtual-machine udisksd[935]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 22 19:56:29 ree-virtual-machine udisksd[935]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 22 19:56:48 ree-virtual-machine udisksd[935]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 22 19:56:48 ree-virtual-machine udisksd[935]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+-- Boot 9e3eeb915f5e4d0aab1fa06627dc238a --
+3月 25 22:03:00 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 25 22:03:00 ree-virtual-machine udisksd[867]: udisks daemon version 2.9.4 starting
+3月 25 22:03:00 ree-virtual-machine udisksd[867]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 25 22:03:00 ree-virtual-machine udisksd[867]: Failed to load the 'mdraid' libblockdev plugin
+3月 25 22:03:00 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 25 22:03:00 ree-virtual-machine udisksd[867]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 25 22:03:00 ree-virtual-machine udisksd[867]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 25 22:03:00 ree-virtual-machine udisksd[867]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 25 22:03:11 ree-virtual-machine udisksd[867]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 25 22:03:11 ree-virtual-machine udisksd[867]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+-- Boot cce731051b6244c4a03f32893ae3c956 --
+3月 28 10:31:04 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 28 10:31:04 ree-virtual-machine udisksd[881]: udisks daemon version 2.9.4 starting
+3月 28 10:31:04 ree-virtual-machine udisksd[881]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 28 10:31:04 ree-virtual-machine udisksd[881]: Failed to load the 'mdraid' libblockdev plugin
+3月 28 10:31:04 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 28 10:31:04 ree-virtual-machine udisksd[881]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 28 10:31:04 ree-virtual-machine udisksd[881]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 28 10:31:04 ree-virtual-machine udisksd[881]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 28 10:37:48 ree-virtual-machine udisksd[881]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 28 10:37:48 ree-virtual-machine udisksd[881]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+-- Boot 2a886fae77824755a4d8c5453e54eec8 --
+3月 29 11:43:32 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 29 11:43:32 ree-virtual-machine udisksd[850]: udisks daemon version 2.9.4 starting
+3月 29 11:43:32 ree-virtual-machine udisksd[850]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 29 11:43:32 ree-virtual-machine udisksd[850]: Failed to load the 'mdraid' libblockdev plugin
+3月 29 11:43:32 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 29 11:43:32 ree-virtual-machine udisksd[850]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 29 11:43:32 ree-virtual-machine udisksd[850]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 29 11:43:32 ree-virtual-machine udisksd[850]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 29 11:43:44 ree-virtual-machine udisksd[850]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 29 11:43:44 ree-virtual-machine udisksd[850]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 29 12:42:33 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 29 12:42:34 ree-virtual-machine udisksd[850]: udisks daemon version 2.9.4 exiting
+3月 29 12:42:34 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 29 12:42:34 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot bb0991777ac541be83385906c043308d --
+3月 29 12:42:42 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 29 12:42:42 ree-virtual-machine udisksd[876]: udisks daemon version 2.9.4 starting
+3月 29 12:42:42 ree-virtual-machine udisksd[876]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 29 12:42:42 ree-virtual-machine udisksd[876]: Failed to load the 'mdraid' libblockdev plugin
+3月 29 12:42:42 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 29 12:42:42 ree-virtual-machine udisksd[876]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 29 12:42:42 ree-virtual-machine udisksd[876]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 29 12:42:42 ree-virtual-machine udisksd[876]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 29 12:43:28 ree-virtual-machine udisksd[876]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 29 12:43:28 ree-virtual-machine udisksd[876]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 29 12:50:43 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 29 12:50:43 ree-virtual-machine udisksd[876]: udisks daemon version 2.9.4 exiting
+3月 29 12:50:43 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 29 12:50:43 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot d7712a95bc0b49358ac3d7c9a0282431 --
+3月 29 13:18:47 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 29 13:18:47 ree-virtual-machine udisksd[945]: udisks daemon version 2.9.4 starting
+3月 29 13:18:47 ree-virtual-machine udisksd[945]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 29 13:18:47 ree-virtual-machine udisksd[945]: Failed to load the 'mdraid' libblockdev plugin
+3月 29 13:18:47 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 29 13:18:47 ree-virtual-machine udisksd[945]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 29 13:18:47 ree-virtual-machine udisksd[945]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 29 13:18:47 ree-virtual-machine udisksd[945]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 29 13:19:50 ree-virtual-machine udisksd[945]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 29 13:19:50 ree-virtual-machine udisksd[945]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 29 13:23:16 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 29 13:23:16 ree-virtual-machine udisksd[945]: udisks daemon version 2.9.4 exiting
+3月 29 13:23:16 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 29 13:23:16 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 19b4dd46eb7b4597999d4311a7fcd580 --
+3月 29 13:24:44 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 29 13:24:44 ree-virtual-machine udisksd[810]: udisks daemon version 2.9.4 starting
+3月 29 13:24:44 ree-virtual-machine udisksd[810]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 29 13:24:44 ree-virtual-machine udisksd[810]: Failed to load the 'mdraid' libblockdev plugin
+3月 29 13:24:44 ree-virtual-machine udisksd[810]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 29 13:24:44 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 29 13:24:44 ree-virtual-machine udisksd[810]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 29 13:24:44 ree-virtual-machine udisksd[810]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 29 13:24:59 ree-virtual-machine udisksd[810]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 29 13:24:59 ree-virtual-machine udisksd[810]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+-- Boot 9d814a28020a4d1b8dc1b211140df378 --
+3月 30 14:04:52 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 30 14:04:52 ree-virtual-machine udisksd[875]: udisks daemon version 2.9.4 starting
+3月 30 14:04:52 ree-virtual-machine udisksd[875]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 30 14:04:52 ree-virtual-machine udisksd[875]: Failed to load the 'mdraid' libblockdev plugin
+3月 30 14:04:53 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 30 14:04:53 ree-virtual-machine udisksd[875]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 30 14:04:53 ree-virtual-machine udisksd[875]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 30 14:04:53 ree-virtual-machine udisksd[875]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 30 14:05:17 ree-virtual-machine udisksd[875]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 30 14:05:17 ree-virtual-machine udisksd[875]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 30 14:58:39 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 30 14:58:39 ree-virtual-machine udisksd[875]: udisks daemon version 2.9.4 exiting
+3月 30 14:58:39 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 30 14:58:39 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 84aa09a898d145c7a959de6db29053d7 --
+3月 30 15:02:21 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 30 15:02:21 ree-virtual-machine udisksd[892]: udisks daemon version 2.9.4 starting
+3月 30 15:02:21 ree-virtual-machine udisksd[892]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 30 15:02:21 ree-virtual-machine udisksd[892]: Failed to load the 'mdraid' libblockdev plugin
+3月 30 15:02:21 ree-virtual-machine udisksd[892]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 30 15:02:21 ree-virtual-machine udisksd[892]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 30 15:02:21 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 30 15:02:21 ree-virtual-machine udisksd[892]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 30 15:02:32 ree-virtual-machine udisksd[892]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 30 15:02:32 ree-virtual-machine udisksd[892]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 30 15:02:52 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 30 15:02:52 ree-virtual-machine udisksd[892]: udisks daemon version 2.9.4 exiting
+3月 30 15:02:52 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 30 15:02:52 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot aa4829cf4bad48fb9f7b1a4eb947f5c0 --
+3月 30 15:03:27 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 30 15:03:27 ree-virtual-machine udisksd[950]: udisks daemon version 2.9.4 starting
+3月 30 15:03:27 ree-virtual-machine udisksd[950]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 30 15:03:27 ree-virtual-machine udisksd[950]: Failed to load the 'mdraid' libblockdev plugin
+3月 30 15:03:27 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 30 15:03:27 ree-virtual-machine udisksd[950]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 30 15:03:27 ree-virtual-machine udisksd[950]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 30 15:03:27 ree-virtual-machine udisksd[950]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 30 15:03:35 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 30 15:03:35 ree-virtual-machine udisksd[950]: udisks daemon version 2.9.4 exiting
+3月 30 15:03:36 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 30 15:03:36 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 00a7e42d2b624b439bea376a3bc361f1 --
+3月 30 15:14:14 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 30 15:14:14 ree-virtual-machine udisksd[868]: udisks daemon version 2.9.4 starting
+3月 30 15:14:14 ree-virtual-machine udisksd[868]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 30 15:14:14 ree-virtual-machine udisksd[868]: Failed to load the 'mdraid' libblockdev plugin
+3月 30 15:14:14 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 30 15:14:14 ree-virtual-machine udisksd[868]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 30 15:15:05 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 30 15:15:05 ree-virtual-machine udisksd[868]: udisks daemon version 2.9.4 exiting
+3月 30 15:15:05 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 30 15:15:05 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 1516c1af27714148858b849306510739 --
+3月 30 15:23:25 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 30 15:23:25 ree-virtual-machine udisksd[860]: udisks daemon version 2.9.4 starting
+3月 30 15:23:25 ree-virtual-machine udisksd[860]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 30 15:23:25 ree-virtual-machine udisksd[860]: Failed to load the 'mdraid' libblockdev plugin
+3月 30 15:23:25 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 30 15:23:25 ree-virtual-machine udisksd[860]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 30 15:23:52 ree-virtual-machine udisksd[860]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 30 15:23:52 ree-virtual-machine udisksd[860]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 30 15:38:16 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 30 15:38:16 ree-virtual-machine udisksd[860]: udisks daemon version 2.9.4 exiting
+3月 30 15:38:16 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 30 15:38:16 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 9069828abd4b41e5829b4880b07ecdde --
+3月 30 15:38:53 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 30 15:38:53 ree-virtual-machine udisksd[860]: udisks daemon version 2.9.4 starting
+3月 30 15:38:53 ree-virtual-machine udisksd[860]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 30 15:38:53 ree-virtual-machine udisksd[860]: Failed to load the 'mdraid' libblockdev plugin
+3月 30 15:38:53 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 30 15:38:53 ree-virtual-machine udisksd[860]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 30 15:38:53 ree-virtual-machine udisksd[860]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 30 15:38:53 ree-virtual-machine udisksd[860]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 30 15:39:06 ree-virtual-machine udisksd[860]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 30 15:39:06 ree-virtual-machine udisksd[860]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+-- Boot 76e16ebfbeab47788bc4dd8853d9fe7e --
+3月 30 17:34:19 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 30 17:34:19 ree-virtual-machine udisksd[905]: udisks daemon version 2.9.4 starting
+3月 30 17:34:19 ree-virtual-machine udisksd[905]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 30 17:34:19 ree-virtual-machine udisksd[905]: Failed to load the 'mdraid' libblockdev plugin
+3月 30 17:34:19 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 30 17:34:19 ree-virtual-machine udisksd[905]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 30 17:34:19 ree-virtual-machine udisksd[905]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 30 17:34:19 ree-virtual-machine udisksd[905]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 30 17:34:34 ree-virtual-machine udisksd[905]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 30 17:34:34 ree-virtual-machine udisksd[905]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 30 20:32:24 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 30 20:32:24 ree-virtual-machine udisksd[905]: udisks daemon version 2.9.4 exiting
+3月 30 20:32:24 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 30 20:32:24 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot e249c720d58849269d73a22f14ee6fb9 --
+3月 30 20:32:33 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 30 20:32:33 ree-virtual-machine udisksd[913]: udisks daemon version 2.9.4 starting
+3月 30 20:32:33 ree-virtual-machine udisksd[913]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 30 20:32:33 ree-virtual-machine udisksd[913]: Failed to load the 'mdraid' libblockdev plugin
+3月 30 20:32:33 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 30 20:32:33 ree-virtual-machine udisksd[913]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 30 20:32:33 ree-virtual-machine udisksd[913]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 30 20:32:33 ree-virtual-machine udisksd[913]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 30 20:32:45 ree-virtual-machine udisksd[913]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 30 20:32:45 ree-virtual-machine udisksd[913]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+-- Boot 9ccccf2adff74839b8fba49d83281f8b --
+3月 30 22:53:44 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 30 22:53:44 ree-virtual-machine udisksd[876]: udisks daemon version 2.9.4 starting
+3月 30 22:53:44 ree-virtual-machine udisksd[876]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 30 22:53:44 ree-virtual-machine udisksd[876]: Failed to load the 'mdraid' libblockdev plugin
+3月 30 22:53:44 ree-virtual-machine udisksd[876]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 30 22:53:44 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 30 22:53:44 ree-virtual-machine udisksd[876]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 30 22:53:44 ree-virtual-machine udisksd[876]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 30 22:54:38 ree-virtual-machine udisksd[876]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 30 22:54:38 ree-virtual-machine udisksd[876]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 30 23:30:42 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 30 23:30:42 ree-virtual-machine udisksd[876]: udisks daemon version 2.9.4 exiting
+3月 30 23:30:42 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 30 23:30:42 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 308f7b0f7a274f0bb6200973f34667b6 --
+3月 31 00:22:28 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 31 00:22:28 ree-virtual-machine udisksd[886]: udisks daemon version 2.9.4 starting
+3月 31 00:22:28 ree-virtual-machine udisksd[886]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 31 00:22:28 ree-virtual-machine udisksd[886]: Failed to load the 'mdraid' libblockdev plugin
+3月 31 00:22:28 ree-virtual-machine udisksd[886]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 31 00:22:28 ree-virtual-machine udisksd[886]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 31 00:22:28 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 31 00:22:28 ree-virtual-machine udisksd[886]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 31 00:22:39 ree-virtual-machine udisksd[886]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 31 00:22:39 ree-virtual-machine udisksd[886]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 31 00:27:29 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 31 00:27:29 ree-virtual-machine udisksd[886]: udisks daemon version 2.9.4 exiting
+3月 31 00:27:29 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 31 00:27:29 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot d85c7c53e5114994bc2f0f623b3af509 --
+3月 31 19:12:16 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 31 19:12:16 ree-virtual-machine udisksd[879]: udisks daemon version 2.9.4 starting
+3月 31 19:12:16 ree-virtual-machine udisksd[879]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 31 19:12:16 ree-virtual-machine udisksd[879]: Failed to load the 'mdraid' libblockdev plugin
+3月 31 19:12:16 ree-virtual-machine udisksd[879]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 31 19:12:16 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 31 19:12:16 ree-virtual-machine udisksd[879]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 31 19:12:17 ree-virtual-machine udisksd[879]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 31 19:12:25 ree-virtual-machine udisksd[879]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 31 19:12:26 ree-virtual-machine udisksd[879]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 31 19:35:33 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 31 19:35:33 ree-virtual-machine udisksd[879]: udisks daemon version 2.9.4 exiting
+3月 31 19:35:33 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 31 19:35:33 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 09785a07d95540b1ad518945fbcc300d --
+3月 31 19:43:50 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 31 19:43:50 ree-virtual-machine udisksd[880]: udisks daemon version 2.9.4 starting
+3月 31 19:43:50 ree-virtual-machine udisksd[880]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 31 19:43:50 ree-virtual-machine udisksd[880]: Failed to load the 'mdraid' libblockdev plugin
+3月 31 19:43:50 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 31 19:43:50 ree-virtual-machine udisksd[880]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 31 19:43:50 ree-virtual-machine udisksd[880]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 31 19:43:50 ree-virtual-machine udisksd[880]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 31 19:43:59 ree-virtual-machine udisksd[880]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 31 19:43:59 ree-virtual-machine udisksd[880]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+3月 31 19:44:59 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+3月 31 19:44:59 ree-virtual-machine udisksd[880]: udisks daemon version 2.9.4 exiting
+3月 31 19:44:59 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+3月 31 19:44:59 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 436dee14f55b451a880859c1f76478af --
+3月 31 21:10:03 ree-virtual-machine systemd[1]: Starting Disk Manager...
+3月 31 21:10:03 ree-virtual-machine udisksd[891]: udisks daemon version 2.9.4 starting
+3月 31 21:10:03 ree-virtual-machine udisksd[891]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+3月 31 21:10:03 ree-virtual-machine udisksd[891]: Failed to load the 'mdraid' libblockdev plugin
+3月 31 21:10:03 ree-virtual-machine systemd[1]: Started Disk Manager.
+3月 31 21:10:03 ree-virtual-machine udisksd[891]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+3月 31 21:10:03 ree-virtual-machine udisksd[891]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+3月 31 21:10:03 ree-virtual-machine udisksd[891]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+3月 31 21:10:24 ree-virtual-machine udisksd[891]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+3月 31 21:10:24 ree-virtual-machine udisksd[891]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 03 22:12:10 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+4月 03 22:12:10 ree-virtual-machine udisksd[891]: udisks daemon version 2.9.4 exiting
+4月 03 22:12:10 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+4月 03 22:12:10 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot e2fd3a66bd3b4bd68261cb94d3fee451 --
+4月 04 12:20:46 ree-virtual-machine systemd[1]: Starting Disk Manager...
+4月 04 12:20:46 ree-virtual-machine udisksd[853]: udisks daemon version 2.9.4 starting
+4月 04 12:20:46 ree-virtual-machine udisksd[853]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 04 12:20:47 ree-virtual-machine udisksd[853]: Failed to load the 'mdraid' libblockdev plugin
+4月 04 12:20:47 ree-virtual-machine systemd[1]: Started Disk Manager.
+4月 04 12:20:47 ree-virtual-machine udisksd[853]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+4月 04 12:20:47 ree-virtual-machine udisksd[853]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+4月 04 12:20:47 ree-virtual-machine udisksd[853]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 04 12:20:57 ree-virtual-machine udisksd[853]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+4月 04 12:20:57 ree-virtual-machine udisksd[853]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 04 17:35:37 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+4月 04 17:35:37 ree-virtual-machine udisksd[853]: udisks daemon version 2.9.4 exiting
+4月 04 17:35:37 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+4月 04 17:35:37 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 25dbee67bff049baa23eecea014b8763 --
+4月 04 17:35:54 ree-virtual-machine systemd[1]: Starting Disk Manager...
+4月 04 17:35:54 ree-virtual-machine udisksd[896]: udisks daemon version 2.9.4 starting
+4月 04 17:35:54 ree-virtual-machine udisksd[896]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 04 17:35:54 ree-virtual-machine udisksd[896]: Failed to load the 'mdraid' libblockdev plugin
+4月 04 17:35:54 ree-virtual-machine systemd[1]: Started Disk Manager.
+4月 04 17:35:54 ree-virtual-machine udisksd[896]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+4月 04 17:35:54 ree-virtual-machine udisksd[896]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+4月 04 17:35:54 ree-virtual-machine udisksd[896]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 04 17:36:43 ree-virtual-machine udisksd[896]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 04 17:36:43 ree-virtual-machine udisksd[896]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+4月 04 20:54:00 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+4月 04 20:54:00 ree-virtual-machine udisksd[896]: udisks daemon version 2.9.4 exiting
+4月 04 20:54:00 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+4月 04 20:54:00 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 0d532a9de8ef4df1a92a1cc3f8ce562d --
+4月 09 19:14:33 ree-virtual-machine systemd[1]: Starting Disk Manager...
+4月 09 19:14:33 ree-virtual-machine udisksd[851]: udisks daemon version 2.9.4 starting
+4月 09 19:14:33 ree-virtual-machine udisksd[851]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 09 19:14:33 ree-virtual-machine udisksd[851]: Failed to load the 'mdraid' libblockdev plugin
+4月 09 19:14:34 ree-virtual-machine systemd[1]: Started Disk Manager.
+4月 09 19:14:34 ree-virtual-machine udisksd[851]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+4月 09 19:14:34 ree-virtual-machine udisksd[851]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 09 19:14:34 ree-virtual-machine udisksd[851]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+4月 09 19:14:49 ree-virtual-machine udisksd[851]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+4月 09 19:14:49 ree-virtual-machine udisksd[851]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 09 19:17:43 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+4月 09 19:17:43 ree-virtual-machine udisksd[851]: udisks daemon version 2.9.4 exiting
+4月 09 19:17:43 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+4月 09 19:17:43 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 66c095c2b40d4348bbbaa9bd9371fd5b --
+4月 09 19:21:20 ree-virtual-machine systemd[1]: Starting Disk Manager...
+4月 09 19:21:20 ree-virtual-machine udisksd[883]: udisks daemon version 2.9.4 starting
+4月 09 19:21:20 ree-virtual-machine udisksd[883]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 09 19:21:20 ree-virtual-machine udisksd[883]: Failed to load the 'mdraid' libblockdev plugin
+4月 09 19:21:20 ree-virtual-machine udisksd[883]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+4月 09 19:21:20 ree-virtual-machine udisksd[883]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+4月 09 19:21:20 ree-virtual-machine systemd[1]: Started Disk Manager.
+4月 09 19:21:20 ree-virtual-machine udisksd[883]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 09 19:21:33 ree-virtual-machine udisksd[883]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 09 19:21:36 ree-virtual-machine udisksd[883]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+4月 09 21:44:17 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+4月 09 21:44:17 ree-virtual-machine udisksd[883]: udisks daemon version 2.9.4 exiting
+4月 09 21:44:17 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+4月 09 21:44:17 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 125b443d38b7450fbc1c404530e9dc9e --
+4月 12 11:21:57 ree-virtual-machine systemd[1]: Starting Disk Manager...
+4月 12 11:21:57 ree-virtual-machine udisksd[949]: udisks daemon version 2.9.4 starting
+4月 12 11:21:57 ree-virtual-machine udisksd[949]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 12 11:21:57 ree-virtual-machine udisksd[949]: Failed to load the 'mdraid' libblockdev plugin
+4月 12 11:21:57 ree-virtual-machine systemd[1]: Started Disk Manager.
+4月 12 11:21:57 ree-virtual-machine udisksd[949]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+4月 12 11:21:57 ree-virtual-machine udisksd[949]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+4月 12 11:21:57 ree-virtual-machine udisksd[949]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 12 11:28:25 ree-virtual-machine udisksd[949]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 12 11:28:25 ree-virtual-machine udisksd[949]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+4月 12 12:31:43 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+4月 12 12:31:43 ree-virtual-machine udisksd[949]: udisks daemon version 2.9.4 exiting
+4月 12 12:31:43 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+4月 12 12:31:43 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot e043495edc834fd3b8de378cf5b742ab --
+4月 12 12:32:37 ree-virtual-machine systemd[1]: Starting Disk Manager...
+4月 12 12:32:37 ree-virtual-machine udisksd[880]: udisks daemon version 2.9.4 starting
+4月 12 12:32:37 ree-virtual-machine udisksd[880]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 12 12:32:37 ree-virtual-machine udisksd[880]: Failed to load the 'mdraid' libblockdev plugin
+4月 12 12:32:38 ree-virtual-machine systemd[1]: Started Disk Manager.
+4月 12 12:32:38 ree-virtual-machine udisksd[880]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 12 12:32:38 ree-virtual-machine udisksd[880]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+4月 12 12:32:38 ree-virtual-machine udisksd[880]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+4月 12 12:33:37 ree-virtual-machine udisksd[880]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+4月 12 12:33:37 ree-virtual-machine udisksd[880]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 12 13:58:16 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+4月 12 13:58:16 ree-virtual-machine udisksd[880]: udisks daemon version 2.9.4 exiting
+4月 12 13:58:16 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+4月 12 13:58:16 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 9296bd89129642f58a1e422116180a89 --
+4月 12 19:33:18 ree-virtual-machine systemd[1]: Starting Disk Manager...
+4月 12 19:33:18 ree-virtual-machine udisksd[947]: udisks daemon version 2.9.4 starting
+4月 12 19:33:18 ree-virtual-machine udisksd[947]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 12 19:33:19 ree-virtual-machine udisksd[947]: Failed to load the 'mdraid' libblockdev plugin
+4月 12 19:33:19 ree-virtual-machine systemd[1]: Started Disk Manager.
+4月 12 19:33:19 ree-virtual-machine udisksd[947]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 12 19:33:19 ree-virtual-machine udisksd[947]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+4月 12 19:33:19 ree-virtual-machine udisksd[947]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+4月 12 19:33:32 ree-virtual-machine udisksd[947]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+4月 12 19:33:32 ree-virtual-machine udisksd[947]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 12 21:30:57 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+4月 12 21:30:57 ree-virtual-machine udisksd[947]: udisks daemon version 2.9.4 exiting
+4月 12 21:30:57 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+4月 12 21:30:57 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot e44af90cbb3e49179059ad1de25c45d0 --
+4月 12 21:31:07 ree-virtual-machine systemd[1]: Starting Disk Manager...
+4月 12 21:31:07 ree-virtual-machine udisksd[878]: udisks daemon version 2.9.4 starting
+4月 12 21:31:07 ree-virtual-machine udisksd[878]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 12 21:31:07 ree-virtual-machine udisksd[878]: Failed to load the 'mdraid' libblockdev plugin
+4月 12 21:31:07 ree-virtual-machine systemd[1]: Started Disk Manager.
+4月 12 21:31:07 ree-virtual-machine udisksd[878]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+4月 12 21:31:07 ree-virtual-machine udisksd[878]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+4月 12 21:31:07 ree-virtual-machine udisksd[878]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 12 21:34:20 ree-virtual-machine udisksd[878]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+4月 12 21:34:20 ree-virtual-machine udisksd[878]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 12 21:48:57 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+4月 12 21:48:57 ree-virtual-machine udisksd[878]: udisks daemon version 2.9.4 exiting
+4月 12 21:48:57 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+4月 12 21:48:57 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 670c3aae65b84f6c8708951f52467260 --
+4月 12 21:49:13 ree-virtual-machine systemd[1]: Starting Disk Manager...
+4月 12 21:49:13 ree-virtual-machine udisksd[926]: udisks daemon version 2.9.4 starting
+4月 12 21:49:13 ree-virtual-machine udisksd[926]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 12 21:49:13 ree-virtual-machine udisksd[926]: Failed to load the 'mdraid' libblockdev plugin
+4月 12 21:49:13 ree-virtual-machine systemd[1]: Started Disk Manager.
+4月 12 21:49:13 ree-virtual-machine udisksd[926]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 12 21:49:13 ree-virtual-machine udisksd[926]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+4月 12 21:49:13 ree-virtual-machine udisksd[926]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+4月 12 21:49:24 ree-virtual-machine udisksd[926]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+4月 12 21:49:24 ree-virtual-machine udisksd[926]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 12 21:53:20 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+4月 12 21:53:20 ree-virtual-machine udisksd[926]: udisks daemon version 2.9.4 exiting
+4月 12 21:53:20 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+4月 12 21:53:20 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 73255c0c6dec4ce4bca99ec2ceb12507 --
+4月 12 21:53:28 ree-virtual-machine systemd[1]: Starting Disk Manager...
+4月 12 21:53:28 ree-virtual-machine udisksd[864]: udisks daemon version 2.9.4 starting
+4月 12 21:53:29 ree-virtual-machine udisksd[864]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 12 21:53:29 ree-virtual-machine udisksd[864]: Failed to load the 'mdraid' libblockdev plugin
+4月 12 21:53:29 ree-virtual-machine systemd[1]: Started Disk Manager.
+4月 12 21:53:29 ree-virtual-machine udisksd[864]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 12 21:53:29 ree-virtual-machine udisksd[864]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+4月 12 21:53:29 ree-virtual-machine udisksd[864]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+4月 12 21:53:50 ree-virtual-machine udisksd[864]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+4月 12 21:53:50 ree-virtual-machine udisksd[864]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 13 01:12:51 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+4月 13 01:12:51 ree-virtual-machine udisksd[864]: udisks daemon version 2.9.4 exiting
+4月 13 01:12:51 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+4月 13 01:12:51 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot ab354c8c35ec46309c3d583c22d4722e --
+4月 13 11:49:15 ree-virtual-machine systemd[1]: Starting Disk Manager...
+4月 13 11:49:15 ree-virtual-machine udisksd[949]: udisks daemon version 2.9.4 starting
+4月 13 11:49:16 ree-virtual-machine udisksd[949]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 13 11:49:16 ree-virtual-machine udisksd[949]: Failed to load the 'mdraid' libblockdev plugin
+4月 13 11:49:16 ree-virtual-machine systemd[1]: Started Disk Manager.
+4月 13 11:49:16 ree-virtual-machine udisksd[949]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 13 11:49:16 ree-virtual-machine udisksd[949]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+4月 13 11:49:16 ree-virtual-machine udisksd[949]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+4月 13 11:49:42 ree-virtual-machine udisksd[949]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+4月 13 11:49:42 ree-virtual-machine udisksd[949]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 13 20:22:12 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+4月 13 20:22:12 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+4月 13 20:22:12 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 1223bb12cf164754a34338b3879bc416 --
+4月 13 20:22:51 ree-virtual-machine systemd[1]: Starting Disk Manager...
+4月 13 20:22:51 ree-virtual-machine udisksd[944]: udisks daemon version 2.9.4 starting
+4月 13 20:22:51 ree-virtual-machine udisksd[944]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 13 20:22:52 ree-virtual-machine udisksd[944]: Failed to load the 'mdraid' libblockdev plugin
+4月 13 20:22:52 ree-virtual-machine systemd[1]: Started Disk Manager.
+4月 13 20:22:52 ree-virtual-machine udisksd[944]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 13 20:22:52 ree-virtual-machine udisksd[944]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+4月 13 20:22:52 ree-virtual-machine udisksd[944]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+4月 13 20:23:43 ree-virtual-machine udisksd[944]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+4月 13 20:23:43 ree-virtual-machine udisksd[944]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 13 23:11:10 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+4月 13 23:11:10 ree-virtual-machine udisksd[944]: udisks daemon version 2.9.4 exiting
+4月 13 23:11:10 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+4月 13 23:11:10 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot eedc866258b546db86377bdd16f52c6c --
+4月 13 23:33:00 ree-virtual-machine systemd[1]: Starting Disk Manager...
+4月 13 23:33:00 ree-virtual-machine udisksd[945]: udisks daemon version 2.9.4 starting
+4月 13 23:33:00 ree-virtual-machine udisksd[945]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 13 23:33:00 ree-virtual-machine udisksd[945]: Failed to load the 'mdraid' libblockdev plugin
+4月 13 23:33:00 ree-virtual-machine systemd[1]: Started Disk Manager.
+4月 13 23:33:00 ree-virtual-machine udisksd[945]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+4月 13 23:33:00 ree-virtual-machine udisksd[945]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+4月 13 23:33:01 ree-virtual-machine udisksd[945]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 13 23:33:11 ree-virtual-machine udisksd[945]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 13 23:33:11 ree-virtual-machine udisksd[945]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+4月 14 01:45:07 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+4月 14 01:45:07 ree-virtual-machine udisksd[945]: udisks daemon version 2.9.4 exiting
+4月 14 01:45:07 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+4月 14 01:45:07 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 6336d5d01d9d47a1a84a86d400678bbe --
+4月 14 18:40:04 ree-virtual-machine systemd[1]: Starting Disk Manager...
+4月 14 18:40:04 ree-virtual-machine udisksd[946]: udisks daemon version 2.9.4 starting
+4月 14 18:40:04 ree-virtual-machine udisksd[946]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 14 18:40:04 ree-virtual-machine udisksd[946]: Failed to load the 'mdraid' libblockdev plugin
+4月 14 18:40:04 ree-virtual-machine systemd[1]: Started Disk Manager.
+4月 14 18:40:04 ree-virtual-machine udisksd[946]: Cleaning up mount point /media/ree/CDROM (device 11:0 is not mounted)
+4月 14 18:40:04 ree-virtual-machine udisksd[946]: Cleaning up mount point /media/ree/Ubuntu 22.04.1 LTS amd64 (device 11:1 is not mounted)
+4月 14 18:40:05 ree-virtual-machine udisksd[946]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 14 18:40:36 ree-virtual-machine udisksd[946]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+4月 14 18:40:36 ree-virtual-machine udisksd[946]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 14 19:24:32 ree-virtual-machine systemd[1]: Stopping Disk Manager...
+4月 14 19:24:32 ree-virtual-machine udisksd[946]: udisks daemon version 2.9.4 exiting
+4月 14 19:24:32 ree-virtual-machine systemd[1]: udisks2.service: Deactivated successfully.
+4月 14 19:24:32 ree-virtual-machine systemd[1]: Stopped Disk Manager.
+-- Boot 00425514c17e404db4cc5611a8f55ed9 --
+4月 14 21:28:23 ree-virtual-machine systemd[1]: Starting Disk Manager...
+4月 14 21:28:23 ree-virtual-machine udisksd[953]: udisks daemon version 2.9.4 starting
+4月 14 21:28:23 ree-virtual-machine udisksd[953]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 14 21:28:23 ree-virtual-machine udisksd[953]: Failed to load the 'mdraid' libblockdev plugin
+4月 14 21:28:23 ree-virtual-machine systemd[1]: Started Disk Manager.
+4月 14 21:28:23 ree-virtual-machine udisksd[953]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 14 21:28:32 ree-virtual-machine udisksd[953]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+4月 14 21:28:32 ree-virtual-machine udisksd[953]: Mounted /dev/sr1 at /media/ree/Ubuntu 22.04.1 LTS amd64 on behalf of uid 1000
+
