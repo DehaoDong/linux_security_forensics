@@ -148,8 +148,10 @@ def main():
     high_resource_usage_processes = check_high_resource_usage_processes()
     if high_resource_usage_processes:
         log.print_and_log("High resource usage processes:")
+        output_result.write_content("suspicious.txt", "High resource usage processes:")
         for process in high_resource_usage_processes:
             log.print_and_log(f"{process.pid} {process.name()} CPU: {process.cpu_percent()}% Memory: {process.memory_percent()}%")
+            output_result.write_content("suspicious.txt", f"{process.pid} {process.name()} CPU: {process.cpu_percent()}% Memory: {process.memory_percent()}%")
     else:
         log.print_and_log("No high resource usage processes found.")
 
@@ -157,8 +159,10 @@ def main():
     hidden_processes = detect_hidden_processes()
     if hidden_processes:
         log.print_and_log("Hidden processes detected:")
+        output_result.write_content("suspicious.txt", "Hidden processes detected:")
         for pid in hidden_processes:
             log.print_and_log(f"PID: {process.pid}, Name: {process.name()}, Cmdline: {' '.join(process.cmdline())}")
+            output_result.write_content("suspicious.txt", f"PID: {process.pid}, Name: {process.name()}, Cmdline: {' '.join(process.cmdline())}")
     else:
         log.print_and_log("No hidden processes detected.")
 
@@ -166,8 +170,10 @@ def main():
     reverse_shell_processes = check_reverse_shell_processes()
     if reverse_shell_processes:
         log.print_and_log("Reverse shell processes:")
+        output_result.write_content("suspicious.txt", "Reverse shell processes:")
         for process in reverse_shell_processes:
             log.print_and_log(f"{process.pid} {process.name()} Cmdline: {' '.join(process.cmdline())}")
+            output_result.write_content("suspicious.txt", f"{process.pid} {process.name()} Cmdline: {' '.join(process.cmdline())}")
     else:
         log.print_and_log("No reverse shell processes found.")
 
@@ -175,9 +181,11 @@ def main():
     source_deleted_processes = check_source_deleted_processes()
     if source_deleted_processes:
         log.print_and_log("Source deleted processes:")
+        output_result.write_content("suspicious.txt", "Source deleted processes:")
         for pid, comm in source_deleted_processes:
             if is_source_deleted(pid):
                 log.print_and_log(f"Process {comm} (PID: {pid}) has its source deleted.")
+                output_result.write_content("suspicious.txt", f"Process {comm} (PID: {pid}) has its source deleted.")
     else:
         log.print_and_log("No source deleted processes found")
 

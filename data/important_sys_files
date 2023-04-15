@@ -49,3 +49,4 @@
 /usr/sbin/sshd
 /etc/inetd.conf
 /etc/xinetd.d
+/run/utmp

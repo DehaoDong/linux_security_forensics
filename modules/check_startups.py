@@ -96,6 +96,7 @@ def check_upstart_service_files(services):
 
 
 def main():
+    log.print_and_log("Checking startups...")
     init_system = get_init_system()
     log.print_and_log(f"Init system: {init_system}")
 

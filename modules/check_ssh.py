@@ -33,6 +33,9 @@ def analyze_log(log_lines):
     successful_logins = []
     suspicious_logins = []
 
+    # 超过这么多次登录判定为可疑
+    suspicious_login_times = 20
+
     for line in log_lines:
         if "sshd" in line:
             parts = line.split()
@@ -46,7 +49,7 @@ def analyze_log(log_lines):
                 successful_logins.append({"user": user, "ip": ip, "timestamp": timestamp})
 
     for login in successful_logins:
-        if failed_login_attempts.get(login["ip"], 0) > 5:
+        if failed_login_attempts.get(login["ip"], 0) > suspicious_login_times:
             suspicious_logins.append(login)
 
     return suspicious_logins
@@ -60,8 +63,10 @@ def main():
 
     if suspicious_logins:
         log.print_and_log("Suspicious SSH logins found:")
+        output_result.write_content("suspicious.txt", "Suspicious SSH logins found:")
         for login in suspicious_logins:
             log.print_and_log(f"User: {login['user']}, IP: {login['ip']}, Timestamp: {login['timestamp']}")
+            output_result.write_content("suspicious.txt", f"User: {login['user']}, IP: {login['ip']}, Timestamp: {login['timestamp']}")
     else:
         log.print_and_log("No suspicious SSH logins found.")
 

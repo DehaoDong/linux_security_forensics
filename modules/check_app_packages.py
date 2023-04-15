@@ -33,6 +33,9 @@ def verify_packages(packages, verify_command):
             log.print_and_log(f"Package verification results for {package}:")
             log.print_and_log(output)
 
+            output_result.write_content("suspicious.txt", f"Package verification results for {package}:")
+            output_result.write_content("suspicious.txt", output)
+
 
 def main():
     log.print_and_log("Checking app packages...")

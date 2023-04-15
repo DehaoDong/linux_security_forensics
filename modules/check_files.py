@@ -34,7 +34,8 @@ def check_temp_directory(path):
 
 
 def main():
-    log.print_and_log("Check the executability of system files...")
+    log.print_and_log("Checking files...")
+    log.print_and_log("Checking the executability of system files...")
     check_executable_files('/bin')
 
     log.print_and_log("Checking temp directory...")

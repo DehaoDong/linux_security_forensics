@@ -1,0 +1,128 @@
+2月 20 18:50:13 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+2月 20 18:50:13 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+2月 20 18:50:13 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 59a08585a9874716bda9035a442e266a --
+2月 20 18:54:18 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+2月 20 18:54:18 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+2月 20 18:54:18 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 378ef5fc52a64e67810e6fa7a9ee31e6 --
+2月 21 18:47:42 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+2月 21 18:47:42 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+2月 21 18:47:42 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 9ce45ab8fa0345b987fea497f44c5051 --
+3月 10 20:09:05 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+3月 10 20:09:06 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+3月 10 20:09:06 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot ca9b2e5e215f4f3fbeb8e0a2983e83e6 --
+3月 22 19:50:01 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+3月 22 19:50:01 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+3月 22 19:50:01 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+3月 22 19:55:38 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+3月 22 19:55:38 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+3月 22 19:55:38 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot ee7967cec9534f4aa0162aa833ebf2b7 --
+3月 22 21:07:31 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+3月 22 21:07:32 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+3月 22 21:07:32 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 9e3eeb915f5e4d0aab1fa06627dc238a --
+3月 25 22:12:21 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+3月 25 22:12:22 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+3月 25 22:12:22 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+3月 27 16:47:56 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+3月 27 16:47:56 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+3月 27 16:47:56 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+3月 28 00:53:34 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+3月 28 00:53:35 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+3月 28 00:53:35 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot cce731051b6244c4a03f32893ae3c956 --
+3月 28 11:16:56 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+3月 28 11:16:56 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+3月 28 11:16:56 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+3月 28 18:31:22 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+3月 28 18:31:23 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+3月 28 18:31:23 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 2a886fae77824755a4d8c5453e54eec8 --
+3月 29 11:52:33 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+3月 29 11:52:33 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+3月 29 11:52:33 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 19b4dd46eb7b4597999d4311a7fcd580 --
+3月 29 14:09:42 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+3月 29 14:09:42 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+3月 29 14:09:42 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 9d814a28020a4d1b8dc1b211140df378 --
+3月 30 14:34:52 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+3月 30 14:34:52 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+3月 30 14:34:52 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 76e16ebfbeab47788bc4dd8853d9fe7e --
+3月 30 17:47:42 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+3月 30 17:47:42 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+3月 30 17:47:42 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot e249c720d58849269d73a22f14ee6fb9 --
+3月 30 20:44:48 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+3月 30 20:44:48 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+3月 30 20:44:48 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 9ccccf2adff74839b8fba49d83281f8b --
+3月 30 22:58:58 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+3月 30 22:58:58 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+3月 30 22:58:58 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 436dee14f55b451a880859c1f76478af --
+4月 03 22:11:21 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+4月 03 22:11:19 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+4月 03 22:11:19 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot e2fd3a66bd3b4bd68261cb94d3fee451 --
+4月 04 12:43:15 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+4月 04 12:43:15 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+4月 04 12:43:15 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 25dbee67bff049baa23eecea014b8763 --
+4月 04 18:08:04 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+4月 04 18:08:04 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+4月 04 18:08:04 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 66c095c2b40d4348bbbaa9bd9371fd5b --
+4月 09 20:11:19 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+4月 09 20:11:19 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+4月 09 20:11:19 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 125b443d38b7450fbc1c404530e9dc9e --
+4月 12 12:15:32 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+4月 12 12:15:32 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+4月 12 12:15:32 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot e043495edc834fd3b8de378cf5b742ab --
+4月 12 12:51:07 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+4月 12 12:51:08 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+4月 12 12:51:08 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 9296bd89129642f58a1e422116180a89 --
+4月 12 19:49:43 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+4月 12 19:49:44 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+4月 12 19:49:44 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot e44af90cbb3e49179059ad1de25c45d0 --
+4月 12 21:45:53 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+4月 12 21:45:53 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+4月 12 21:45:53 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 73255c0c6dec4ce4bca99ec2ceb12507 --
+4月 12 22:38:30 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+4月 12 22:38:30 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+4月 12 22:38:30 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot ab354c8c35ec46309c3d583c22d4722e --
+4月 13 12:13:05 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+4月 13 12:13:05 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+4月 13 12:13:05 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 1223bb12cf164754a34338b3879bc416 --
+4月 13 21:03:03 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+4月 13 21:03:03 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+4月 13 21:03:03 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot eedc866258b546db86377bdd16f52c6c --
+4月 14 00:09:06 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+4月 14 00:09:06 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+4月 14 00:09:06 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 6336d5d01d9d47a1a84a86d400678bbe --
+4月 14 18:45:37 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+4月 14 18:45:38 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+4月 14 18:45:38 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot 00425514c17e404db4cc5611a8f55ed9 --
+4月 14 22:24:46 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+4月 14 22:24:46 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+4月 14 22:24:46 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+-- Boot ac6742caea064674b1504bee9f2e0abd --
+4月 15 11:47:45 ree-virtual-machine systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+4月 15 11:47:46 ree-virtual-machine systemd[1]: ua-timer.service: Deactivated successfully.
+4月 15 11:47:46 ree-virtual-machine systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+

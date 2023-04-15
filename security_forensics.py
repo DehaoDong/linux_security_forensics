@@ -2,7 +2,7 @@ import argparse
 import os
 import sys
 
-from modules import check_alias, check_process, check_connections, check_login_log, check_users_history_operations, \
+from modules import check_alias, check_process, check_connections, check_login, check_operations, \
     check_webservers, check_files, check_startups, check_app_packages, check_backdoors, output_result, get_host_info, \
     log, get_users_info, back_up_important_system_files, check_ssh
 
@@ -60,14 +60,40 @@ if __name__ == "__main__":
     for key, value in host_info.items():
         log.print_and_log(f"{key}: {value}")
         output_result.write_content("host_info.txt", f"{key}: {value}")
-    print("")
+    print()
 
     if args.all:
         log.print_and_log('执行所有检查(Running all checks)...\n')
+        get_users_info.main()
+        print()
+        back_up_important_system_files.main()
+        print()
+        check_alias.main()
+        print()
+        check_backdoors.main()
+        print()
+        check_ssh.main()
+        print()
+        check_login.main()
+        print()
+        check_connections.main()
+        print()
+        check_process.main()
+        print()
+        check_startups.main()
+        print()
+        check_operations.main()
+        print()
+        check_webservers.main()
+        print()
+        check_files.main()
+        print()
+        check_app_packages.main()
+        print()
     else:
         if args.alias:
             check_alias.main()
-            print("")
+            print()
         if args.user:
             get_users_info.main()
             print()
@@ -76,31 +102,33 @@ if __name__ == "__main__":
             print()
         if args.backdoor:
             check_backdoors.main()
-            print("")
+            print()
         if args.ssh:
             check_ssh.main()
             print()
         if args.process:
             check_process.main()
-            print("")
+            print()
         if args.connection:
             check_connections.main()
-            print("")
-        if args.login: #un
-            check_login_log.main()
-            print("")
-        if args.operation:#un
-            check_users_history_operations.main()
-            print("")
+            print()
+        if args.login:
+            check_login.main()
+            print()
+        if args.operation:
+            check_operations.main()
+            print()
         if args.server:
             check_webservers.main()
-            print("")
-        if args.file:#
+            print()
+        if args.file:
             check_files.main()
-            print("")
+            print()
         if args.startup:
             check_startups.main()
-            print("")
+            print()
         if args.package:
             check_app_packages.main()
-            print("")
+            print()
+
+    output_result.compress_results()

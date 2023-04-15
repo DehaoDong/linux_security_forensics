@@ -46,9 +46,11 @@ def main():
     log.print_and_log("Checking aliases...")
     suspicious_aliases = check_alias()
     if suspicious_aliases:
+        output_result.write_content("suspicious.txt", "Suspicious aliases found:")
         log.print_and_log("Suspicious aliases found:")
         for alias in suspicious_aliases:
             log.print_and_log(alias)
+            output_result.write_content("suspicious.txt", alias)
     else:
         log.print_and_log("No suspicious aliases found.")
 

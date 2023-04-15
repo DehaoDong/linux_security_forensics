@@ -61,6 +61,7 @@ def scan_web_directory_for_webshells(directory):
                     for signature in webshell_signatures:
                         if re.search(signature, content, re.IGNORECASE):
                             log.print_and_log(f"Possible WebShell found: {file_path}")
+                            output_result.write_content("suspicious.txt", f"Possible WebShell found: {file_path}")
                             break
 
 
@@ -92,6 +93,7 @@ def main():
         # log.print_and_log(subprocess.run(['du', '-sh', 'results/'], capture_output=True, text=True).stdout)
 
     log.print_and_log("server logs backup completed")
+    log.print_and_log("Checking webshells...")
 
     # 提取web服务器的web目录
     web_server_directories = load_web_server_directories("./data/server_directories")
