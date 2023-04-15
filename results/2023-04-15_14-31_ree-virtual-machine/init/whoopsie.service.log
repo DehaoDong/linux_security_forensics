@@ -1,0 +1,84 @@
+2月 20 18:38:53 ree-virtual-machine systemd[1]: Started crash report submission.
+2月 20 18:38:53 ree-virtual-machine whoopsie[1157]: [18:38:53] Using lock path: /var/lock/whoopsie/lock
+2月 20 18:38:53 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+2月 20 18:51:54 ree-virtual-machine systemd[1]: Started crash report submission.
+2月 20 18:51:54 ree-virtual-machine whoopsie[29699]: [18:51:54] Using lock path: /var/lock/whoopsie/lock
+2月 20 18:51:54 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot 59a08585a9874716bda9035a442e266a --
+2月 20 18:52:56 ree-virtual-machine systemd[1]: Started crash report submission.
+2月 20 18:52:56 ree-virtual-machine whoopsie[1036]: [18:52:56] Using lock path: /var/lock/whoopsie/lock
+2月 20 18:52:56 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot 4e50f35765d14836ba11bf87868d3690 --
+2月 21 18:32:16 ree-virtual-machine systemd[1]: Started crash report submission.
+2月 21 18:32:16 ree-virtual-machine whoopsie[1058]: [18:32:16] Using lock path: /var/lock/whoopsie/lock
+2月 21 18:32:16 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot 378ef5fc52a64e67810e6fa7a9ee31e6 --
+2月 21 18:42:27 ree-virtual-machine systemd[1]: Started crash report submission.
+2月 21 18:42:27 ree-virtual-machine whoopsie[1062]: [18:42:27] Using lock path: /var/lock/whoopsie/lock
+2月 21 18:42:27 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot 48d666794bf9483ca7ebe0e999848072 --
+2月 21 19:01:46 ree-virtual-machine systemd[1]: Started crash report submission.
+2月 21 19:01:46 ree-virtual-machine whoopsie[1238]: [19:01:46] Using lock path: /var/lock/whoopsie/lock
+2月 21 19:01:46 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot a0299816d1d24b8ab70b7c10b1502239 --
+2月 21 19:02:37 ree-virtual-machine systemd[1]: Started crash report submission.
+2月 21 19:02:37 ree-virtual-machine whoopsie[1030]: [19:02:37] Using lock path: /var/lock/whoopsie/lock
+2月 21 19:02:37 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot 7319c95352634624b166e30456e7d6e8 --
+2月 21 19:17:56 ree-virtual-machine systemd[1]: Started crash report submission.
+2月 21 19:17:56 ree-virtual-machine whoopsie[1033]: [19:17:56] Using lock path: /var/lock/whoopsie/lock
+2月 21 19:17:56 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot e6c010b640444a48974c34b34cbf889b --
+2月 21 19:23:11 ree-virtual-machine systemd[1]: Started crash report submission.
+2月 21 19:23:11 ree-virtual-machine whoopsie[1024]: [19:23:11] Using lock path: /var/lock/whoopsie/lock
+2月 21 19:23:11 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot 9ce45ab8fa0345b987fea497f44c5051 --
+3月 10 20:00:45 ree-virtual-machine systemd[1]: Started crash report submission.
+3月 10 20:00:45 ree-virtual-machine whoopsie[992]: [20:00:45] Using lock path: /var/lock/whoopsie/lock
+3月 10 20:00:45 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot 78840721b8c14d03929c91da9cf2989f --
+3月 15 11:06:36 ree-virtual-machine systemd[1]: Started crash report submission.
+3月 15 11:06:36 ree-virtual-machine whoopsie[1033]: [11:06:36] Using lock path: /var/lock/whoopsie/lock
+3月 15 11:06:36 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot ca9b2e5e215f4f3fbeb8e0a2983e83e6 --
+3月 22 19:20:01 ree-virtual-machine systemd[1]: Started crash report submission.
+3月 22 19:20:01 ree-virtual-machine whoopsie[1002]: [19:20:01] Using lock path: /var/lock/whoopsie/lock
+3月 22 19:20:01 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot ee7967cec9534f4aa0162aa833ebf2b7 --
+3月 22 19:56:29 ree-virtual-machine systemd[1]: Started crash report submission.
+3月 22 19:56:29 ree-virtual-machine whoopsie[1044]: [19:56:29] Using lock path: /var/lock/whoopsie/lock
+3月 22 19:56:29 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot 9e3eeb915f5e4d0aab1fa06627dc238a --
+3月 25 22:03:00 ree-virtual-machine systemd[1]: Started crash report submission.
+3月 25 22:03:00 ree-virtual-machine whoopsie[1041]: [22:03:00] Using lock path: /var/lock/whoopsie/lock
+3月 25 22:03:00 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+3月 25 22:40:34 ree-virtual-machine systemd[1]: Started crash report submission.
+3月 25 22:40:34 ree-virtual-machine whoopsie[9518]: [22:40:34] Using lock path: /var/lock/whoopsie/lock
+3月 25 22:40:34 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+3月 25 22:40:34 ree-virtual-machine systemd[1]: Started crash report submission.
+3月 25 22:40:34 ree-virtual-machine whoopsie[9543]: [22:40:34] Using lock path: /var/lock/whoopsie/lock
+3月 25 22:40:34 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot e2fd3a66bd3b4bd68261cb94d3fee451 --
+4月 04 12:25:44 ree-virtual-machine systemd[1]: Started crash report submission.
+4月 04 12:25:44 ree-virtual-machine whoopsie[4117]: [12:25:44] Using lock path: /var/lock/whoopsie/lock
+4月 04 12:25:44 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot 66c095c2b40d4348bbbaa9bd9371fd5b --
+4月 09 19:26:16 ree-virtual-machine systemd[1]: Started crash report submission.
+4月 09 19:26:17 ree-virtual-machine whoopsie[5066]: [19:26:16] Using lock path: /var/lock/whoopsie/lock
+4月 09 19:26:17 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot 125b443d38b7450fbc1c404530e9dc9e --
+4月 12 11:22:00 ree-virtual-machine systemd[1]: Started crash report submission.
+4月 12 11:22:00 ree-virtual-machine whoopsie[1376]: [11:22:00] Using lock path: /var/lock/whoopsie/lock
+4月 12 11:22:00 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+4月 12 11:22:01 ree-virtual-machine systemd[1]: Started crash report submission.
+4月 12 11:22:01 ree-virtual-machine whoopsie[1390]: [11:22:01] Using lock path: /var/lock/whoopsie/lock
+4月 12 11:22:01 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot ab354c8c35ec46309c3d583c22d4722e --
+4月 13 11:54:14 ree-virtual-machine systemd[1]: Started crash report submission.
+4月 13 11:54:14 ree-virtual-machine whoopsie[5046]: [11:54:14] Using lock path: /var/lock/whoopsie/lock
+4月 13 11:54:14 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+-- Boot 6336d5d01d9d47a1a84a86d400678bbe --
+4月 14 19:05:13 ree-virtual-machine systemd[1]: Started crash report submission.
+4月 14 19:05:13 ree-virtual-machine whoopsie[5760]: [19:05:13] Using lock path: /var/lock/whoopsie/lock
+4月 14 19:05:13 ree-virtual-machine systemd[1]: whoopsie.service: Deactivated successfully.
+

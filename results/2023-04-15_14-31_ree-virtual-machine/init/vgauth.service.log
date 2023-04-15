@@ -1,0 +1,579 @@
+2月 20 18:38:49 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+2月 20 18:38:49 ree-virtual-machine VGAuthService[837]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+2月 20 18:38:49 ree-virtual-machine VGAuthService[837]: Core dump limit set to -1
+2月 20 18:38:49 ree-virtual-machine VGAuthService[837]: INIT SERVICE
+2月 20 18:38:50 ree-virtual-machine VGAuthService[837]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+2月 20 18:38:50 ree-virtual-machine VGAuthService[837]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+2月 20 18:38:50 ree-virtual-machine VGAuthService[837]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+2月 20 18:38:50 ree-virtual-machine VGAuthService[837]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+2月 20 18:38:50 ree-virtual-machine VGAuthService[837]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+2月 20 18:38:50 ree-virtual-machine VGAuthService[837]: BEGIN SERVICE
+2月 20 18:52:49 ree-virtual-machine VGAuthService[837]: Processing SIGTERM; service exiting
+2月 20 18:52:49 ree-virtual-machine VGAuthService[837]: ServiceEndMainLoop: about to stop main loop
+2月 20 18:52:49 ree-virtual-machine VGAuthService[837]: END SERVICE
+-- Boot 59a08585a9874716bda9035a442e266a --
+2月 20 18:52:55 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+2月 20 18:52:55 ree-virtual-machine VGAuthService[704]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+2月 20 18:52:55 ree-virtual-machine VGAuthService[704]: Core dump limit set to -1
+2月 20 18:52:55 ree-virtual-machine VGAuthService[704]: INIT SERVICE
+2月 20 18:52:55 ree-virtual-machine VGAuthService[704]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+2月 20 18:52:55 ree-virtual-machine VGAuthService[704]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+2月 20 18:52:55 ree-virtual-machine VGAuthService[704]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+2月 20 18:52:55 ree-virtual-machine VGAuthService[704]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+2月 20 18:52:55 ree-virtual-machine VGAuthService[704]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+2月 20 18:52:55 ree-virtual-machine VGAuthService[704]: BEGIN SERVICE
+-- Boot 4e50f35765d14836ba11bf87868d3690 --
+2月 21 18:32:15 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+2月 21 18:32:15 ree-virtual-machine VGAuthService[744]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+2月 21 18:32:15 ree-virtual-machine VGAuthService[744]: Core dump limit set to -1
+2月 21 18:32:15 ree-virtual-machine VGAuthService[744]: INIT SERVICE
+2月 21 18:32:15 ree-virtual-machine VGAuthService[744]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+2月 21 18:32:15 ree-virtual-machine VGAuthService[744]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+2月 21 18:32:15 ree-virtual-machine VGAuthService[744]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+2月 21 18:32:15 ree-virtual-machine VGAuthService[744]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+2月 21 18:32:15 ree-virtual-machine VGAuthService[744]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+2月 21 18:32:15 ree-virtual-machine VGAuthService[744]: BEGIN SERVICE
+2月 21 18:42:19 ree-virtual-machine VGAuthService[744]: Processing SIGTERM; service exiting
+2月 21 18:42:19 ree-virtual-machine VGAuthService[744]: ServiceEndMainLoop: about to stop main loop
+-- Boot 378ef5fc52a64e67810e6fa7a9ee31e6 --
+2月 21 18:42:26 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+2月 21 18:42:26 ree-virtual-machine VGAuthService[778]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+2月 21 18:42:26 ree-virtual-machine VGAuthService[778]: Core dump limit set to -1
+2月 21 18:42:26 ree-virtual-machine VGAuthService[778]: INIT SERVICE
+2月 21 18:42:26 ree-virtual-machine VGAuthService[778]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+2月 21 18:42:26 ree-virtual-machine VGAuthService[778]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+2月 21 18:42:26 ree-virtual-machine VGAuthService[778]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+2月 21 18:42:26 ree-virtual-machine VGAuthService[778]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+2月 21 18:42:26 ree-virtual-machine VGAuthService[778]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+2月 21 18:42:26 ree-virtual-machine VGAuthService[778]: BEGIN SERVICE
+2月 21 19:01:36 ree-virtual-machine VGAuthService[778]: Processing SIGTERM; service exiting
+2月 21 19:01:36 ree-virtual-machine VGAuthService[778]: ServiceEndMainLoop: about to stop main loop
+2月 21 19:01:36 ree-virtual-machine VGAuthService[778]: END SERVICE
+-- Boot 48d666794bf9483ca7ebe0e999848072 --
+2月 21 19:01:44 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+2月 21 19:01:44 ree-virtual-machine VGAuthService[785]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+2月 21 19:01:44 ree-virtual-machine VGAuthService[785]: Core dump limit set to -1
+2月 21 19:01:44 ree-virtual-machine VGAuthService[785]: INIT SERVICE
+2月 21 19:01:44 ree-virtual-machine VGAuthService[785]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+2月 21 19:01:44 ree-virtual-machine VGAuthService[785]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+2月 21 19:01:44 ree-virtual-machine VGAuthService[785]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+2月 21 19:01:44 ree-virtual-machine VGAuthService[785]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+2月 21 19:01:44 ree-virtual-machine VGAuthService[785]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+2月 21 19:01:44 ree-virtual-machine VGAuthService[785]: BEGIN SERVICE
+2月 21 19:02:29 ree-virtual-machine VGAuthService[785]: Processing SIGTERM; service exiting
+2月 21 19:02:29 ree-virtual-machine VGAuthService[785]: ServiceEndMainLoop: about to stop main loop
+-- Boot a0299816d1d24b8ab70b7c10b1502239 --
+2月 21 19:02:36 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+2月 21 19:02:36 ree-virtual-machine VGAuthService[706]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+2月 21 19:02:36 ree-virtual-machine VGAuthService[706]: Core dump limit set to -1
+2月 21 19:02:36 ree-virtual-machine VGAuthService[706]: INIT SERVICE
+2月 21 19:02:36 ree-virtual-machine VGAuthService[706]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+2月 21 19:02:36 ree-virtual-machine VGAuthService[706]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+2月 21 19:02:36 ree-virtual-machine VGAuthService[706]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+2月 21 19:02:36 ree-virtual-machine VGAuthService[706]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+2月 21 19:02:36 ree-virtual-machine VGAuthService[706]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+2月 21 19:02:36 ree-virtual-machine VGAuthService[706]: BEGIN SERVICE
+2月 21 19:17:47 ree-virtual-machine VGAuthService[706]: Processing SIGTERM; service exiting
+2月 21 19:17:47 ree-virtual-machine VGAuthService[706]: ServiceEndMainLoop: about to stop main loop
+2月 21 19:17:47 ree-virtual-machine VGAuthService[706]: END SERVICE
+-- Boot 7319c95352634624b166e30456e7d6e8 --
+2月 21 19:17:55 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+2月 21 19:17:55 ree-virtual-machine VGAuthService[786]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+2月 21 19:17:55 ree-virtual-machine VGAuthService[786]: Core dump limit set to -1
+2月 21 19:17:55 ree-virtual-machine VGAuthService[786]: INIT SERVICE
+2月 21 19:17:55 ree-virtual-machine VGAuthService[786]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+2月 21 19:17:55 ree-virtual-machine VGAuthService[786]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+2月 21 19:17:55 ree-virtual-machine VGAuthService[786]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+2月 21 19:17:55 ree-virtual-machine VGAuthService[786]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+2月 21 19:17:55 ree-virtual-machine VGAuthService[786]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+2月 21 19:17:55 ree-virtual-machine VGAuthService[786]: BEGIN SERVICE
+2月 21 19:23:03 ree-virtual-machine VGAuthService[786]: Processing SIGTERM; service exiting
+2月 21 19:23:03 ree-virtual-machine VGAuthService[786]: ServiceEndMainLoop: about to stop main loop
+-- Boot e6c010b640444a48974c34b34cbf889b --
+2月 21 19:23:10 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+2月 21 19:23:10 ree-virtual-machine VGAuthService[675]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+2月 21 19:23:10 ree-virtual-machine VGAuthService[675]: Core dump limit set to -1
+2月 21 19:23:10 ree-virtual-machine VGAuthService[675]: INIT SERVICE
+2月 21 19:23:10 ree-virtual-machine VGAuthService[675]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+2月 21 19:23:10 ree-virtual-machine VGAuthService[675]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+2月 21 19:23:10 ree-virtual-machine VGAuthService[675]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+2月 21 19:23:10 ree-virtual-machine VGAuthService[675]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+2月 21 19:23:10 ree-virtual-machine VGAuthService[675]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+2月 21 19:23:10 ree-virtual-machine VGAuthService[675]: BEGIN SERVICE
+2月 21 19:50:55 ree-virtual-machine VGAuthService[675]: Processing SIGTERM; service exiting
+2月 21 19:50:55 ree-virtual-machine VGAuthService[675]: ServiceEndMainLoop: about to stop main loop
+-- Boot 9ce45ab8fa0345b987fea497f44c5051 --
+3月 10 20:00:44 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 10 20:00:44 ree-virtual-machine VGAuthService[581]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 10 20:00:44 ree-virtual-machine VGAuthService[581]: Core dump limit set to -1
+3月 10 20:00:44 ree-virtual-machine VGAuthService[581]: INIT SERVICE
+3月 10 20:00:44 ree-virtual-machine VGAuthService[581]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 10 20:00:44 ree-virtual-machine VGAuthService[581]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 10 20:00:44 ree-virtual-machine VGAuthService[581]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 10 20:00:44 ree-virtual-machine VGAuthService[581]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 10 20:00:44 ree-virtual-machine VGAuthService[581]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 10 20:00:44 ree-virtual-machine VGAuthService[581]: BEGIN SERVICE
+-- Boot 78840721b8c14d03929c91da9cf2989f --
+3月 15 11:06:34 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 15 11:06:34 ree-virtual-machine VGAuthService[580]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 15 11:06:34 ree-virtual-machine VGAuthService[580]: Core dump limit set to -1
+3月 15 11:06:34 ree-virtual-machine VGAuthService[580]: INIT SERVICE
+3月 15 11:06:35 ree-virtual-machine VGAuthService[580]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 15 11:06:35 ree-virtual-machine VGAuthService[580]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 15 11:06:35 ree-virtual-machine VGAuthService[580]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 15 11:06:35 ree-virtual-machine VGAuthService[580]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 15 11:06:35 ree-virtual-machine VGAuthService[580]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 15 11:06:35 ree-virtual-machine VGAuthService[580]: BEGIN SERVICE
+-- Boot ca9b2e5e215f4f3fbeb8e0a2983e83e6 --
+3月 22 19:19:56 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 22 19:19:56 ree-virtual-machine VGAuthService[586]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 22 19:19:56 ree-virtual-machine VGAuthService[586]: Core dump limit set to -1
+3月 22 19:19:56 ree-virtual-machine VGAuthService[586]: INIT SERVICE
+3月 22 19:19:56 ree-virtual-machine VGAuthService[586]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 22 19:19:56 ree-virtual-machine VGAuthService[586]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 22 19:19:56 ree-virtual-machine VGAuthService[586]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 22 19:19:56 ree-virtual-machine VGAuthService[586]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 22 19:19:56 ree-virtual-machine VGAuthService[586]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 22 19:19:56 ree-virtual-machine VGAuthService[586]: BEGIN SERVICE
+3月 22 19:56:19 ree-virtual-machine VGAuthService[586]: Processing SIGTERM; service exiting
+3月 22 19:56:19 ree-virtual-machine VGAuthService[586]: ServiceEndMainLoop: about to stop main loop
+3月 22 19:56:19 ree-virtual-machine VGAuthService[586]: END SERVICE
+-- Boot ee7967cec9534f4aa0162aa833ebf2b7 --
+3月 22 19:56:26 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 22 19:56:26 ree-virtual-machine VGAuthService[736]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 22 19:56:26 ree-virtual-machine VGAuthService[736]: Core dump limit set to -1
+3月 22 19:56:26 ree-virtual-machine VGAuthService[736]: INIT SERVICE
+3月 22 19:56:26 ree-virtual-machine VGAuthService[736]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 22 19:56:26 ree-virtual-machine VGAuthService[736]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 22 19:56:26 ree-virtual-machine VGAuthService[736]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 22 19:56:26 ree-virtual-machine VGAuthService[736]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 22 19:56:26 ree-virtual-machine VGAuthService[736]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 22 19:56:26 ree-virtual-machine VGAuthService[736]: BEGIN SERVICE
+-- Boot 9e3eeb915f5e4d0aab1fa06627dc238a --
+3月 25 22:02:59 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 25 22:03:00 ree-virtual-machine VGAuthService[589]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 25 22:03:00 ree-virtual-machine VGAuthService[589]: Core dump limit set to -1
+3月 25 22:03:00 ree-virtual-machine VGAuthService[589]: INIT SERVICE
+3月 25 22:03:00 ree-virtual-machine VGAuthService[589]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 25 22:03:00 ree-virtual-machine VGAuthService[589]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 25 22:03:00 ree-virtual-machine VGAuthService[589]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 25 22:03:00 ree-virtual-machine VGAuthService[589]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 25 22:03:00 ree-virtual-machine VGAuthService[589]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 25 22:03:00 ree-virtual-machine VGAuthService[589]: BEGIN SERVICE
+-- Boot cce731051b6244c4a03f32893ae3c956 --
+3月 28 10:31:03 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 28 10:31:03 ree-virtual-machine VGAuthService[645]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 28 10:31:03 ree-virtual-machine VGAuthService[645]: Core dump limit set to -1
+3月 28 10:31:03 ree-virtual-machine VGAuthService[645]: INIT SERVICE
+3月 28 10:31:03 ree-virtual-machine VGAuthService[645]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 28 10:31:03 ree-virtual-machine VGAuthService[645]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 28 10:31:03 ree-virtual-machine VGAuthService[645]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 28 10:31:03 ree-virtual-machine VGAuthService[645]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 28 10:31:03 ree-virtual-machine VGAuthService[645]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 28 10:31:03 ree-virtual-machine VGAuthService[645]: BEGIN SERVICE
+-- Boot 2a886fae77824755a4d8c5453e54eec8 --
+3月 29 11:43:30 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 29 11:43:30 ree-virtual-machine VGAuthService[582]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 29 11:43:30 ree-virtual-machine VGAuthService[582]: Core dump limit set to -1
+3月 29 11:43:30 ree-virtual-machine VGAuthService[582]: INIT SERVICE
+3月 29 11:43:31 ree-virtual-machine VGAuthService[582]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 29 11:43:31 ree-virtual-machine VGAuthService[582]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 29 11:43:31 ree-virtual-machine VGAuthService[582]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 29 11:43:31 ree-virtual-machine VGAuthService[582]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 29 11:43:31 ree-virtual-machine VGAuthService[582]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 29 11:43:31 ree-virtual-machine VGAuthService[582]: BEGIN SERVICE
+3月 29 12:42:35 ree-virtual-machine VGAuthService[582]: Processing SIGTERM; service exiting
+3月 29 12:42:35 ree-virtual-machine VGAuthService[582]: ServiceEndMainLoop: about to stop main loop
+-- Boot bb0991777ac541be83385906c043308d --
+3月 29 12:42:41 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 29 12:42:41 ree-virtual-machine VGAuthService[766]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 29 12:42:41 ree-virtual-machine VGAuthService[766]: Core dump limit set to -1
+3月 29 12:42:41 ree-virtual-machine VGAuthService[766]: INIT SERVICE
+3月 29 12:42:41 ree-virtual-machine VGAuthService[766]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 29 12:42:41 ree-virtual-machine VGAuthService[766]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 29 12:42:41 ree-virtual-machine VGAuthService[766]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 29 12:42:41 ree-virtual-machine VGAuthService[766]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 29 12:42:41 ree-virtual-machine VGAuthService[766]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 29 12:42:41 ree-virtual-machine VGAuthService[766]: BEGIN SERVICE
+3月 29 12:50:44 ree-virtual-machine VGAuthService[766]: Processing SIGTERM; service exiting
+3月 29 12:50:44 ree-virtual-machine VGAuthService[766]: ServiceEndMainLoop: about to stop main loop
+-- Boot d7712a95bc0b49358ac3d7c9a0282431 --
+3月 29 13:18:46 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 29 13:18:46 ree-virtual-machine VGAuthService[760]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 29 13:18:46 ree-virtual-machine VGAuthService[760]: Core dump limit set to -1
+3月 29 13:18:46 ree-virtual-machine VGAuthService[760]: INIT SERVICE
+3月 29 13:18:46 ree-virtual-machine VGAuthService[760]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 29 13:18:46 ree-virtual-machine VGAuthService[760]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 29 13:18:46 ree-virtual-machine VGAuthService[760]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 29 13:18:46 ree-virtual-machine VGAuthService[760]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 29 13:18:46 ree-virtual-machine VGAuthService[760]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 29 13:18:46 ree-virtual-machine VGAuthService[760]: BEGIN SERVICE
+-- Boot 19b4dd46eb7b4597999d4311a7fcd580 --
+3月 29 13:24:43 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 29 13:24:43 ree-virtual-machine VGAuthService[577]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 29 13:24:43 ree-virtual-machine VGAuthService[577]: Core dump limit set to -1
+3月 29 13:24:43 ree-virtual-machine VGAuthService[577]: INIT SERVICE
+3月 29 13:24:44 ree-virtual-machine VGAuthService[577]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 29 13:24:44 ree-virtual-machine VGAuthService[577]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 29 13:24:44 ree-virtual-machine VGAuthService[577]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 29 13:24:44 ree-virtual-machine VGAuthService[577]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 29 13:24:44 ree-virtual-machine VGAuthService[577]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 29 13:24:44 ree-virtual-machine VGAuthService[577]: BEGIN SERVICE
+-- Boot 9d814a28020a4d1b8dc1b211140df378 --
+3月 30 14:04:52 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 14:04:52 ree-virtual-machine VGAuthService[604]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 14:04:52 ree-virtual-machine VGAuthService[604]: Core dump limit set to -1
+3月 30 14:04:52 ree-virtual-machine VGAuthService[604]: INIT SERVICE
+3月 30 14:04:52 ree-virtual-machine VGAuthService[604]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 14:04:52 ree-virtual-machine VGAuthService[604]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 14:04:52 ree-virtual-machine VGAuthService[604]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 14:04:52 ree-virtual-machine VGAuthService[604]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 30 14:04:52 ree-virtual-machine VGAuthService[604]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 14:04:52 ree-virtual-machine VGAuthService[604]: BEGIN SERVICE
+3月 30 14:58:39 ree-virtual-machine VGAuthService[604]: Processing SIGTERM; service exiting
+3月 30 14:58:39 ree-virtual-machine VGAuthService[604]: ServiceEndMainLoop: about to stop main loop
+-- Boot 84aa09a898d145c7a959de6db29053d7 --
+3月 30 15:02:20 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 15:02:20 ree-virtual-machine VGAuthService[573]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 15:02:20 ree-virtual-machine VGAuthService[573]: Core dump limit set to -1
+3月 30 15:02:20 ree-virtual-machine VGAuthService[573]: INIT SERVICE
+3月 30 15:02:20 ree-virtual-machine VGAuthService[573]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 15:02:20 ree-virtual-machine VGAuthService[573]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 15:02:20 ree-virtual-machine VGAuthService[573]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 15:02:20 ree-virtual-machine VGAuthService[573]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 30 15:02:20 ree-virtual-machine VGAuthService[573]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 15:02:20 ree-virtual-machine VGAuthService[573]: BEGIN SERVICE
+3月 30 15:02:52 ree-virtual-machine VGAuthService[573]: Processing SIGTERM; service exiting
+3月 30 15:02:52 ree-virtual-machine VGAuthService[573]: ServiceEndMainLoop: about to stop main loop
+3月 30 15:02:52 ree-virtual-machine VGAuthService[573]: END SERVICE
+-- Boot aa4829cf4bad48fb9f7b1a4eb947f5c0 --
+3月 30 15:03:26 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 15:03:26 ree-virtual-machine VGAuthService[701]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 15:03:26 ree-virtual-machine VGAuthService[701]: Core dump limit set to -1
+3月 30 15:03:26 ree-virtual-machine VGAuthService[701]: INIT SERVICE
+3月 30 15:03:26 ree-virtual-machine VGAuthService[701]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 15:03:26 ree-virtual-machine VGAuthService[701]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 15:03:26 ree-virtual-machine VGAuthService[701]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 15:03:26 ree-virtual-machine VGAuthService[701]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 30 15:03:26 ree-virtual-machine VGAuthService[701]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 15:03:26 ree-virtual-machine VGAuthService[701]: BEGIN SERVICE
+-- Boot 00a7e42d2b624b439bea376a3bc361f1 --
+3月 30 15:14:13 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 15:14:13 ree-virtual-machine VGAuthService[583]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 15:14:13 ree-virtual-machine VGAuthService[583]: Core dump limit set to -1
+3月 30 15:14:13 ree-virtual-machine VGAuthService[583]: INIT SERVICE
+3月 30 15:14:13 ree-virtual-machine VGAuthService[583]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 15:14:13 ree-virtual-machine VGAuthService[583]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 15:14:13 ree-virtual-machine VGAuthService[583]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 15:14:13 ree-virtual-machine VGAuthService[583]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 30 15:14:13 ree-virtual-machine VGAuthService[583]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 15:14:13 ree-virtual-machine VGAuthService[583]: BEGIN SERVICE
+-- Boot 1516c1af27714148858b849306510739 --
+3月 30 15:23:25 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 15:23:25 ree-virtual-machine VGAuthService[655]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 15:23:25 ree-virtual-machine VGAuthService[655]: Core dump limit set to -1
+3月 30 15:23:25 ree-virtual-machine VGAuthService[655]: INIT SERVICE
+3月 30 15:23:25 ree-virtual-machine VGAuthService[655]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 15:23:25 ree-virtual-machine VGAuthService[655]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 15:23:25 ree-virtual-machine VGAuthService[655]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 15:23:25 ree-virtual-machine VGAuthService[655]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 30 15:23:25 ree-virtual-machine VGAuthService[655]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 15:23:25 ree-virtual-machine VGAuthService[655]: BEGIN SERVICE
+3月 30 15:38:18 ree-virtual-machine VGAuthService[655]: Processing SIGTERM; service exiting
+3月 30 15:38:18 ree-virtual-machine VGAuthService[655]: ServiceEndMainLoop: about to stop main loop
+-- Boot 9069828abd4b41e5829b4880b07ecdde --
+3月 30 15:38:52 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 15:38:52 ree-virtual-machine VGAuthService[596]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 15:38:52 ree-virtual-machine VGAuthService[596]: Core dump limit set to -1
+3月 30 15:38:52 ree-virtual-machine VGAuthService[596]: INIT SERVICE
+3月 30 15:38:52 ree-virtual-machine VGAuthService[596]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 15:38:52 ree-virtual-machine VGAuthService[596]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 15:38:52 ree-virtual-machine VGAuthService[596]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 15:38:52 ree-virtual-machine VGAuthService[596]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 30 15:38:52 ree-virtual-machine VGAuthService[596]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 15:38:52 ree-virtual-machine VGAuthService[596]: BEGIN SERVICE
+-- Boot 76e16ebfbeab47788bc4dd8853d9fe7e --
+3月 30 17:34:18 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 17:34:18 ree-virtual-machine VGAuthService[677]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 17:34:18 ree-virtual-machine VGAuthService[677]: Core dump limit set to -1
+3月 30 17:34:18 ree-virtual-machine VGAuthService[677]: INIT SERVICE
+3月 30 17:34:18 ree-virtual-machine VGAuthService[677]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 17:34:18 ree-virtual-machine VGAuthService[677]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 17:34:18 ree-virtual-machine VGAuthService[677]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 17:34:18 ree-virtual-machine VGAuthService[677]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 30 17:34:18 ree-virtual-machine VGAuthService[677]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 17:34:18 ree-virtual-machine VGAuthService[677]: BEGIN SERVICE
+3月 30 20:32:25 ree-virtual-machine VGAuthService[677]: Processing SIGTERM; service exiting
+3月 30 20:32:25 ree-virtual-machine VGAuthService[677]: ServiceEndMainLoop: about to stop main loop
+3月 30 20:32:25 ree-virtual-machine VGAuthService[677]: END SERVICE
+-- Boot e249c720d58849269d73a22f14ee6fb9 --
+3月 30 20:32:33 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 20:32:33 ree-virtual-machine VGAuthService[690]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 20:32:33 ree-virtual-machine VGAuthService[690]: Core dump limit set to -1
+3月 30 20:32:33 ree-virtual-machine VGAuthService[690]: INIT SERVICE
+3月 30 20:32:33 ree-virtual-machine VGAuthService[690]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 20:32:33 ree-virtual-machine VGAuthService[690]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 20:32:33 ree-virtual-machine VGAuthService[690]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 20:32:33 ree-virtual-machine VGAuthService[690]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 30 20:32:33 ree-virtual-machine VGAuthService[690]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 20:32:33 ree-virtual-machine VGAuthService[690]: BEGIN SERVICE
+-- Boot 9ccccf2adff74839b8fba49d83281f8b --
+3月 30 22:53:42 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 22:53:42 ree-virtual-machine VGAuthService[655]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 22:53:42 ree-virtual-machine VGAuthService[655]: Core dump limit set to -1
+3月 30 22:53:42 ree-virtual-machine VGAuthService[655]: INIT SERVICE
+3月 30 22:53:43 ree-virtual-machine VGAuthService[655]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 22:53:43 ree-virtual-machine VGAuthService[655]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 22:53:43 ree-virtual-machine VGAuthService[655]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 22:53:43 ree-virtual-machine VGAuthService[655]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 30 22:53:43 ree-virtual-machine VGAuthService[655]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 22:53:43 ree-virtual-machine VGAuthService[655]: BEGIN SERVICE
+-- Boot 308f7b0f7a274f0bb6200973f34667b6 --
+3月 31 00:22:26 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 31 00:22:26 ree-virtual-machine VGAuthService[616]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 31 00:22:26 ree-virtual-machine VGAuthService[616]: Core dump limit set to -1
+3月 31 00:22:26 ree-virtual-machine VGAuthService[616]: INIT SERVICE
+3月 31 00:22:26 ree-virtual-machine VGAuthService[616]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 31 00:22:26 ree-virtual-machine VGAuthService[616]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 31 00:22:26 ree-virtual-machine VGAuthService[616]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 31 00:22:26 ree-virtual-machine VGAuthService[616]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 31 00:22:26 ree-virtual-machine VGAuthService[616]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 31 00:22:26 ree-virtual-machine VGAuthService[616]: BEGIN SERVICE
+3月 31 00:27:31 ree-virtual-machine VGAuthService[616]: Processing SIGTERM; service exiting
+3月 31 00:27:31 ree-virtual-machine VGAuthService[616]: ServiceEndMainLoop: about to stop main loop
+-- Boot d85c7c53e5114994bc2f0f623b3af509 --
+3月 31 19:12:14 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 31 19:12:14 ree-virtual-machine VGAuthService[658]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 31 19:12:14 ree-virtual-machine VGAuthService[658]: Core dump limit set to -1
+3月 31 19:12:14 ree-virtual-machine VGAuthService[658]: INIT SERVICE
+3月 31 19:12:15 ree-virtual-machine VGAuthService[658]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 31 19:12:15 ree-virtual-machine VGAuthService[658]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 31 19:12:15 ree-virtual-machine VGAuthService[658]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 31 19:12:15 ree-virtual-machine VGAuthService[658]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 31 19:12:15 ree-virtual-machine VGAuthService[658]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 31 19:12:15 ree-virtual-machine VGAuthService[658]: BEGIN SERVICE
+3月 31 19:35:35 ree-virtual-machine VGAuthService[658]: Processing SIGTERM; service exiting
+3月 31 19:35:35 ree-virtual-machine VGAuthService[658]: ServiceEndMainLoop: about to stop main loop
+-- Boot 09785a07d95540b1ad518945fbcc300d --
+3月 31 19:43:49 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 31 19:43:49 ree-virtual-machine VGAuthService[636]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 31 19:43:49 ree-virtual-machine VGAuthService[636]: Core dump limit set to -1
+3月 31 19:43:49 ree-virtual-machine VGAuthService[636]: INIT SERVICE
+3月 31 19:43:49 ree-virtual-machine VGAuthService[636]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 31 19:43:49 ree-virtual-machine VGAuthService[636]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 31 19:43:49 ree-virtual-machine VGAuthService[636]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 31 19:43:49 ree-virtual-machine VGAuthService[636]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 31 19:43:49 ree-virtual-machine VGAuthService[636]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 31 19:43:49 ree-virtual-machine VGAuthService[636]: BEGIN SERVICE
+3月 31 19:45:01 ree-virtual-machine VGAuthService[636]: Processing SIGTERM; service exiting
+3月 31 19:45:01 ree-virtual-machine VGAuthService[636]: ServiceEndMainLoop: about to stop main loop
+-- Boot 436dee14f55b451a880859c1f76478af --
+3月 31 21:10:02 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 31 21:10:02 ree-virtual-machine VGAuthService[683]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 31 21:10:02 ree-virtual-machine VGAuthService[683]: Core dump limit set to -1
+3月 31 21:10:02 ree-virtual-machine VGAuthService[683]: INIT SERVICE
+3月 31 21:10:02 ree-virtual-machine VGAuthService[683]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 31 21:10:02 ree-virtual-machine VGAuthService[683]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 31 21:10:02 ree-virtual-machine VGAuthService[683]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 31 21:10:02 ree-virtual-machine VGAuthService[683]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+3月 31 21:10:02 ree-virtual-machine VGAuthService[683]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 31 21:10:02 ree-virtual-machine VGAuthService[683]: BEGIN SERVICE
+-- Boot e2fd3a66bd3b4bd68261cb94d3fee451 --
+4月 04 12:20:42 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 04 12:20:42 ree-virtual-machine VGAuthService[599]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 04 12:20:42 ree-virtual-machine VGAuthService[599]: Core dump limit set to -1
+4月 04 12:20:42 ree-virtual-machine VGAuthService[599]: INIT SERVICE
+4月 04 12:20:43 ree-virtual-machine VGAuthService[599]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 04 12:20:43 ree-virtual-machine VGAuthService[599]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 04 12:20:43 ree-virtual-machine VGAuthService[599]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 04 12:20:43 ree-virtual-machine VGAuthService[599]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 04 12:20:43 ree-virtual-machine VGAuthService[599]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 04 12:20:43 ree-virtual-machine VGAuthService[599]: BEGIN SERVICE
+4月 04 17:35:44 ree-virtual-machine VGAuthService[599]: Processing SIGTERM; service exiting
+4月 04 17:35:44 ree-virtual-machine VGAuthService[599]: ServiceEndMainLoop: about to stop main loop
+-- Boot 25dbee67bff049baa23eecea014b8763 --
+4月 04 17:35:52 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 04 17:35:52 ree-virtual-machine VGAuthService[711]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 04 17:35:52 ree-virtual-machine VGAuthService[711]: Core dump limit set to -1
+4月 04 17:35:52 ree-virtual-machine VGAuthService[711]: INIT SERVICE
+4月 04 17:35:52 ree-virtual-machine VGAuthService[711]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 04 17:35:52 ree-virtual-machine VGAuthService[711]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 04 17:35:54 ree-virtual-machine VGAuthService[711]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 04 17:35:54 ree-virtual-machine VGAuthService[711]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 04 17:35:54 ree-virtual-machine VGAuthService[711]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 04 17:35:54 ree-virtual-machine VGAuthService[711]: BEGIN SERVICE
+-- Boot 0d532a9de8ef4df1a92a1cc3f8ce562d --
+4月 09 19:14:32 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 09 19:14:33 ree-virtual-machine VGAuthService[582]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 09 19:14:33 ree-virtual-machine VGAuthService[582]: Core dump limit set to -1
+4月 09 19:14:33 ree-virtual-machine VGAuthService[582]: INIT SERVICE
+4月 09 19:14:33 ree-virtual-machine VGAuthService[582]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 09 19:14:33 ree-virtual-machine VGAuthService[582]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 09 19:14:33 ree-virtual-machine VGAuthService[582]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 09 19:14:33 ree-virtual-machine VGAuthService[582]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 09 19:14:33 ree-virtual-machine VGAuthService[582]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 09 19:14:33 ree-virtual-machine VGAuthService[582]: BEGIN SERVICE
+4月 09 19:17:44 ree-virtual-machine VGAuthService[582]: Processing SIGTERM; service exiting
+4月 09 19:17:44 ree-virtual-machine VGAuthService[582]: ServiceEndMainLoop: about to stop main loop
+-- Boot 66c095c2b40d4348bbbaa9bd9371fd5b --
+4月 09 19:21:17 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 09 19:21:17 ree-virtual-machine VGAuthService[624]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 09 19:21:17 ree-virtual-machine VGAuthService[624]: Core dump limit set to -1
+4月 09 19:21:17 ree-virtual-machine VGAuthService[624]: INIT SERVICE
+4月 09 19:21:17 ree-virtual-machine VGAuthService[624]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 09 19:21:17 ree-virtual-machine VGAuthService[624]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 09 19:21:17 ree-virtual-machine VGAuthService[624]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 09 19:21:17 ree-virtual-machine VGAuthService[624]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 09 19:21:17 ree-virtual-machine VGAuthService[624]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 09 19:21:17 ree-virtual-machine VGAuthService[624]: BEGIN SERVICE
+4月 09 21:44:19 ree-virtual-machine VGAuthService[624]: Processing SIGTERM; service exiting
+4月 09 21:44:19 ree-virtual-machine VGAuthService[624]: ServiceEndMainLoop: about to stop main loop
+4月 09 21:44:19 ree-virtual-machine VGAuthService[624]: END SERVICE
+-- Boot 125b443d38b7450fbc1c404530e9dc9e --
+4月 12 11:21:57 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 12 11:21:57 ree-virtual-machine VGAuthService[725]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 12 11:21:57 ree-virtual-machine VGAuthService[725]: Core dump limit set to -1
+4月 12 11:21:57 ree-virtual-machine VGAuthService[725]: INIT SERVICE
+4月 12 11:21:57 ree-virtual-machine VGAuthService[725]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 12 11:21:57 ree-virtual-machine VGAuthService[725]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 12 11:21:57 ree-virtual-machine VGAuthService[725]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 12 11:21:57 ree-virtual-machine VGAuthService[725]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 12 11:21:57 ree-virtual-machine VGAuthService[725]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 12 11:21:57 ree-virtual-machine VGAuthService[725]: BEGIN SERVICE
+-- Boot e043495edc834fd3b8de378cf5b742ab --
+4月 12 12:32:36 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 12 12:32:36 ree-virtual-machine VGAuthService[586]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 12 12:32:36 ree-virtual-machine VGAuthService[586]: Core dump limit set to -1
+4月 12 12:32:36 ree-virtual-machine VGAuthService[586]: INIT SERVICE
+4月 12 12:32:36 ree-virtual-machine VGAuthService[586]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 12 12:32:36 ree-virtual-machine VGAuthService[586]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 12 12:32:36 ree-virtual-machine VGAuthService[586]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 12 12:32:36 ree-virtual-machine VGAuthService[586]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 12 12:32:36 ree-virtual-machine VGAuthService[586]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 12 12:32:36 ree-virtual-machine VGAuthService[586]: BEGIN SERVICE
+-- Boot 9296bd89129642f58a1e422116180a89 --
+4月 12 19:33:16 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 12 19:33:16 ree-virtual-machine VGAuthService[693]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 12 19:33:16 ree-virtual-machine VGAuthService[693]: Core dump limit set to -1
+4月 12 19:33:16 ree-virtual-machine VGAuthService[693]: INIT SERVICE
+4月 12 19:33:17 ree-virtual-machine VGAuthService[693]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 12 19:33:17 ree-virtual-machine VGAuthService[693]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 12 19:33:17 ree-virtual-machine VGAuthService[693]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 12 19:33:17 ree-virtual-machine VGAuthService[693]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 12 19:33:17 ree-virtual-machine VGAuthService[693]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 12 19:33:17 ree-virtual-machine VGAuthService[693]: BEGIN SERVICE
+4月 12 21:30:58 ree-virtual-machine VGAuthService[693]: Processing SIGTERM; service exiting
+4月 12 21:30:58 ree-virtual-machine VGAuthService[693]: ServiceEndMainLoop: about to stop main loop
+-- Boot e44af90cbb3e49179059ad1de25c45d0 --
+4月 12 21:31:07 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 12 21:31:07 ree-virtual-machine VGAuthService[715]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 12 21:31:07 ree-virtual-machine VGAuthService[715]: Core dump limit set to -1
+4月 12 21:31:07 ree-virtual-machine VGAuthService[715]: INIT SERVICE
+4月 12 21:31:07 ree-virtual-machine VGAuthService[715]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 12 21:31:07 ree-virtual-machine VGAuthService[715]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 12 21:31:07 ree-virtual-machine VGAuthService[715]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 12 21:31:07 ree-virtual-machine VGAuthService[715]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 12 21:31:07 ree-virtual-machine VGAuthService[715]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 12 21:31:07 ree-virtual-machine VGAuthService[715]: BEGIN SERVICE
+-- Boot 670c3aae65b84f6c8708951f52467260 --
+4月 12 21:49:12 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 12 21:49:12 ree-virtual-machine VGAuthService[725]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 12 21:49:12 ree-virtual-machine VGAuthService[725]: Core dump limit set to -1
+4月 12 21:49:12 ree-virtual-machine VGAuthService[725]: INIT SERVICE
+4月 12 21:49:12 ree-virtual-machine VGAuthService[725]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 12 21:49:12 ree-virtual-machine VGAuthService[725]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 12 21:49:12 ree-virtual-machine VGAuthService[725]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 12 21:49:12 ree-virtual-machine VGAuthService[725]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 12 21:49:12 ree-virtual-machine VGAuthService[725]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 12 21:49:12 ree-virtual-machine VGAuthService[725]: BEGIN SERVICE
+4月 12 21:53:22 ree-virtual-machine VGAuthService[725]: Processing SIGTERM; service exiting
+4月 12 21:53:22 ree-virtual-machine VGAuthService[725]: ServiceEndMainLoop: about to stop main loop
+4月 12 21:53:22 ree-virtual-machine VGAuthService[725]: END SERVICE
+-- Boot 73255c0c6dec4ce4bca99ec2ceb12507 --
+4月 12 21:53:28 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 12 21:53:28 ree-virtual-machine VGAuthService[685]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 12 21:53:28 ree-virtual-machine VGAuthService[685]: Core dump limit set to -1
+4月 12 21:53:28 ree-virtual-machine VGAuthService[685]: INIT SERVICE
+4月 12 21:53:28 ree-virtual-machine VGAuthService[685]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 12 21:53:28 ree-virtual-machine VGAuthService[685]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 12 21:53:28 ree-virtual-machine VGAuthService[685]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 12 21:53:28 ree-virtual-machine VGAuthService[685]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 12 21:53:28 ree-virtual-machine VGAuthService[685]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 12 21:53:28 ree-virtual-machine VGAuthService[685]: BEGIN SERVICE
+4月 13 01:12:52 ree-virtual-machine VGAuthService[685]: Processing SIGTERM; service exiting
+4月 13 01:12:52 ree-virtual-machine VGAuthService[685]: ServiceEndMainLoop: about to stop main loop
+-- Boot ab354c8c35ec46309c3d583c22d4722e --
+4月 13 11:49:14 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 13 11:49:14 ree-virtual-machine VGAuthService[727]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 13 11:49:14 ree-virtual-machine VGAuthService[727]: Core dump limit set to -1
+4月 13 11:49:14 ree-virtual-machine VGAuthService[727]: INIT SERVICE
+4月 13 11:49:15 ree-virtual-machine VGAuthService[727]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 13 11:49:15 ree-virtual-machine VGAuthService[727]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 13 11:49:15 ree-virtual-machine VGAuthService[727]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 13 11:49:15 ree-virtual-machine VGAuthService[727]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 13 11:49:15 ree-virtual-machine VGAuthService[727]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 13 11:49:15 ree-virtual-machine VGAuthService[727]: BEGIN SERVICE
+4月 13 20:22:14 ree-virtual-machine VGAuthService[727]: Processing SIGTERM; service exiting
+4月 13 20:22:14 ree-virtual-machine VGAuthService[727]: ServiceEndMainLoop: about to stop main loop
+-- Boot 1223bb12cf164754a34338b3879bc416 --
+4月 13 20:22:50 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 13 20:22:50 ree-virtual-machine VGAuthService[708]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 13 20:22:50 ree-virtual-machine VGAuthService[708]: Core dump limit set to -1
+4月 13 20:22:50 ree-virtual-machine VGAuthService[708]: INIT SERVICE
+4月 13 20:22:50 ree-virtual-machine VGAuthService[708]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 13 20:22:50 ree-virtual-machine VGAuthService[708]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 13 20:22:50 ree-virtual-machine VGAuthService[708]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 13 20:22:50 ree-virtual-machine VGAuthService[708]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 13 20:22:50 ree-virtual-machine VGAuthService[708]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 13 20:22:50 ree-virtual-machine VGAuthService[708]: BEGIN SERVICE
+4月 13 23:11:11 ree-virtual-machine VGAuthService[708]: Processing SIGTERM; service exiting
+4月 13 23:11:11 ree-virtual-machine VGAuthService[708]: ServiceEndMainLoop: about to stop main loop
+4月 13 23:11:11 ree-virtual-machine VGAuthService[708]: END SERVICE
+-- Boot eedc866258b546db86377bdd16f52c6c --
+4月 13 23:32:58 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 13 23:32:58 ree-virtual-machine VGAuthService[686]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 13 23:32:58 ree-virtual-machine VGAuthService[686]: Core dump limit set to -1
+4月 13 23:32:58 ree-virtual-machine VGAuthService[686]: INIT SERVICE
+4月 13 23:32:58 ree-virtual-machine VGAuthService[686]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 13 23:32:59 ree-virtual-machine VGAuthService[686]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 13 23:32:59 ree-virtual-machine VGAuthService[686]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 13 23:32:59 ree-virtual-machine VGAuthService[686]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 13 23:32:59 ree-virtual-machine VGAuthService[686]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 13 23:32:59 ree-virtual-machine VGAuthService[686]: BEGIN SERVICE
+4月 14 01:45:08 ree-virtual-machine VGAuthService[686]: Processing SIGTERM; service exiting
+4月 14 01:45:08 ree-virtual-machine VGAuthService[686]: ServiceEndMainLoop: about to stop main loop
+4月 14 01:45:08 ree-virtual-machine VGAuthService[686]: END SERVICE
+-- Boot 6336d5d01d9d47a1a84a86d400678bbe --
+4月 14 18:40:04 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 14 18:40:04 ree-virtual-machine VGAuthService[777]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 14 18:40:04 ree-virtual-machine VGAuthService[777]: Core dump limit set to -1
+4月 14 18:40:04 ree-virtual-machine VGAuthService[777]: INIT SERVICE
+4月 14 18:40:04 ree-virtual-machine VGAuthService[777]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 14 18:40:04 ree-virtual-machine VGAuthService[777]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 14 18:40:04 ree-virtual-machine VGAuthService[777]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 14 18:40:04 ree-virtual-machine VGAuthService[777]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 14 18:40:04 ree-virtual-machine VGAuthService[777]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 14 18:40:04 ree-virtual-machine VGAuthService[777]: BEGIN SERVICE
+-- Boot 00425514c17e404db4cc5611a8f55ed9 --
+4月 14 21:28:22 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 14 21:28:22 ree-virtual-machine VGAuthService[788]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 14 21:28:22 ree-virtual-machine VGAuthService[788]: Core dump limit set to -1
+4月 14 21:28:22 ree-virtual-machine VGAuthService[788]: INIT SERVICE
+4月 14 21:28:22 ree-virtual-machine VGAuthService[788]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 14 21:28:22 ree-virtual-machine VGAuthService[788]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 14 21:28:22 ree-virtual-machine VGAuthService[788]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 14 21:28:22 ree-virtual-machine VGAuthService[788]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 14 21:28:22 ree-virtual-machine VGAuthService[788]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 14 21:28:22 ree-virtual-machine VGAuthService[788]: BEGIN SERVICE
+-- Boot ac6742caea064674b1504bee9f2e0abd --
+4月 15 11:41:47 ree-virtual-machine systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 15 11:41:47 ree-virtual-machine VGAuthService[734]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 15 11:41:47 ree-virtual-machine VGAuthService[734]: Core dump limit set to -1
+4月 15 11:41:47 ree-virtual-machine VGAuthService[734]: INIT SERVICE
+4月 15 11:41:47 ree-virtual-machine VGAuthService[734]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 15 11:41:47 ree-virtual-machine VGAuthService[734]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 15 11:41:47 ree-virtual-machine VGAuthService[734]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 15 11:41:47 ree-virtual-machine VGAuthService[734]: SAML_Init: Using xmlsec1 1.2.33 for XML signature support
+4月 15 11:41:47 ree-virtual-machine VGAuthService[734]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 15 11:41:47 ree-virtual-machine VGAuthService[734]: BEGIN SERVICE
+

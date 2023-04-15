@@ -1,0 +1,771 @@
+2月 20 18:38:54 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+2月 20 18:38:54 ree-virtual-machine PackageKit[1255]: daemon start
+2月 20 18:38:54 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+2月 20 18:48:19 ree-virtual-machine PackageKit[1255]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2月 20 18:48:19 ree-virtual-machine PackageKit[1255]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2月 20 18:48:32 ree-virtual-machine PackageKit[1255]: refresh-cache transaction /1_eaebcbeb from uid 1000 finished with success after 13546ms
+2月 20 18:52:48 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+2月 20 18:52:48 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+2月 20 18:52:48 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+2月 20 18:52:48 ree-virtual-machine systemd[1]: packagekit.service: Consumed 12.945s CPU time.
+-- Boot 59a08585a9874716bda9035a442e266a --
+2月 20 18:52:57 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+2月 20 18:52:57 ree-virtual-machine PackageKit[1340]: daemon start
+2月 20 18:52:57 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+-- Boot 4e50f35765d14836ba11bf87868d3690 --
+2月 21 18:32:18 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+2月 21 18:32:18 ree-virtual-machine PackageKit[1407]: daemon start
+2月 21 18:32:18 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+2月 21 18:41:05 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+2月 21 18:41:05 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+2月 21 18:41:05 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+-- Boot 378ef5fc52a64e67810e6fa7a9ee31e6 --
+2月 21 18:42:28 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+2月 21 18:42:28 ree-virtual-machine PackageKit[1290]: daemon start
+2月 21 18:42:28 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+2月 21 19:01:35 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+2月 21 19:01:35 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+2月 21 19:01:35 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+-- Boot 48d666794bf9483ca7ebe0e999848072 --
+2月 21 19:01:46 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+2月 21 19:01:46 ree-virtual-machine PackageKit[1302]: daemon start
+2月 21 19:01:46 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+2月 21 19:02:28 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+2月 21 19:02:28 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+2月 21 19:02:28 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+-- Boot a0299816d1d24b8ab70b7c10b1502239 --
+2月 21 19:02:38 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+2月 21 19:02:38 ree-virtual-machine PackageKit[1312]: daemon start
+2月 21 19:02:38 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+2月 21 19:17:46 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+2月 21 19:17:46 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+2月 21 19:17:46 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+-- Boot 7319c95352634624b166e30456e7d6e8 --
+2月 21 19:17:57 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+2月 21 19:17:57 ree-virtual-machine PackageKit[1314]: daemon start
+2月 21 19:17:57 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+2月 21 19:23:02 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+2月 21 19:23:02 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+2月 21 19:23:02 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+-- Boot e6c010b640444a48974c34b34cbf889b --
+2月 21 19:23:12 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+2月 21 19:23:12 ree-virtual-machine PackageKit[1311]: daemon start
+2月 21 19:23:12 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+2月 21 19:50:53 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+2月 21 19:50:53 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+2月 21 19:50:53 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+-- Boot 9ce45ab8fa0345b987fea497f44c5051 --
+3月 10 20:00:47 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 10 20:00:47 ree-virtual-machine PackageKit[1314]: daemon start
+3月 10 20:00:47 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 10 20:30:58 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 10 20:30:58 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 10 20:30:58 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+-- Boot 78840721b8c14d03929c91da9cf2989f --
+3月 15 11:06:38 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 15 11:06:38 ree-virtual-machine PackageKit[1315]: daemon start
+3月 15 11:06:38 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 15 11:27:13 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 15 11:27:13 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 15 11:27:13 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+-- Boot ca9b2e5e215f4f3fbeb8e0a2983e83e6 --
+3月 22 19:20:04 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 22 19:20:04 ree-virtual-machine PackageKit[1325]: daemon start
+3月 22 19:20:04 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 22 19:47:36 ree-virtual-machine PackageKit[1325]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 22 19:47:36 ree-virtual-machine PackageKit[1325]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 22 19:47:45 ree-virtual-machine PackageKit[1325]: refresh-cache transaction /2_ebbdbbca from uid 1000 finished with success after 8723ms
+3月 22 19:47:45 ree-virtual-machine PackageKit[1325]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 22 19:47:45 ree-virtual-machine PackageKit[1325]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 22 19:47:46 ree-virtual-machine PackageKit[1325]: refresh-cache transaction /3_eebcaedd from uid 1000 finished with success after 1677ms
+3月 22 19:47:52 ree-virtual-machine PackageKit[1325]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 22 19:47:52 ree-virtual-machine PackageKit[1325]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 22 19:47:54 ree-virtual-machine PackageKit[1325]: refresh-cache transaction /4_eecaacbc from uid 1000 finished with success after 1555ms
+3月 22 19:48:05 ree-virtual-machine PackageKit[1325]: get-updates transaction /5_adcbcace from uid 1000 finished with success after 1117ms
+3月 22 19:48:21 ree-virtual-machine PackageKit[1325]: get-updates transaction /6_bacccbac from uid 1000 finished with success after 368ms
+3月 22 19:48:54 ree-virtual-machine PackageKit[1325]: resolve transaction /7_cdbaeada from uid 1000 finished with success after 251ms
+3月 22 19:48:54 ree-virtual-machine PackageKit[1325]: search-file transaction /8_dddbdeec from uid 1000 finished with success after 767ms
+3月 22 19:48:55 ree-virtual-machine PackageKit[1325]: search-file transaction /9_ebecbbaa from uid 1000 finished with success after 263ms
+3月 22 19:48:55 ree-virtual-machine PackageKit[1325]: get-details transaction /10_edaeebeb from uid 1000 finished with success after 226ms
+3月 22 19:48:57 ree-virtual-machine PackageKit[1325]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 22 19:48:57 ree-virtual-machine PackageKit[1325]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 22 19:48:58 ree-virtual-machine PackageKit[1325]: refresh-cache transaction /11_cdababba from uid 1000 finished with success after 791ms
+3月 22 19:49:34 ree-virtual-machine PackageKit[1325]: get-updates transaction /12_ddbedbaa from uid 1000 finished with success after 338ms
+3月 22 19:56:18 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 22 19:56:18 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 22 19:56:18 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+3月 22 19:56:18 ree-virtual-machine systemd[1]: packagekit.service: Consumed 15.111s CPU time.
+-- Boot ee7967cec9534f4aa0162aa833ebf2b7 --
+3月 22 19:56:30 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 22 19:56:30 ree-virtual-machine PackageKit[1286]: daemon start
+3月 22 19:56:30 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 22 19:56:52 ree-virtual-machine PackageKit[1286]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 22 19:56:52 ree-virtual-machine PackageKit[1286]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 22 19:56:53 ree-virtual-machine PackageKit[1286]: refresh-cache transaction /13_ccdbbccd from uid 1000 finished with success after 880ms
+3月 22 19:57:19 ree-virtual-machine PackageKit[1286]: resolve transaction /14_cabcdebe from uid 1000 finished with success after 1443ms
+3月 22 19:57:19 ree-virtual-machine PackageKit[1286]: search-file transaction /15_eddbaeec from uid 1000 finished with success after 478ms
+3月 22 19:57:19 ree-virtual-machine PackageKit[1286]: search-file transaction /16_bbbcabdb from uid 1000 finished with success after 299ms
+3月 22 19:57:20 ree-virtual-machine PackageKit[1286]: get-details transaction /17_cedebcee from uid 1000 finished with success after 258ms
+3月 23 14:19:40 ree-virtual-machine PackageKit[1286]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 23 14:19:40 ree-virtual-machine PackageKit[1286]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 23 14:19:41 ree-virtual-machine PackageKit[1286]: refresh-cache transaction /18_ecceaeec from uid 1000 finished with failed after 514ms
+3月 23 14:19:41 ree-virtual-machine PackageKit[1286]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 23 14:19:41 ree-virtual-machine PackageKit[1286]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 23 14:19:41 ree-virtual-machine PackageKit[1286]: refresh-cache transaction /19_cabbbbda from uid 1000 finished with failed after 290ms
+3月 23 14:19:41 ree-virtual-machine PackageKit[1286]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 23 14:19:41 ree-virtual-machine PackageKit[1286]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 23 14:19:42 ree-virtual-machine PackageKit[1286]: refresh-cache transaction /20_cdeacadc from uid 1000 finished with failed after 519ms
+3月 23 14:19:45 ree-virtual-machine PackageKit[1286]: get-updates transaction /21_addbcdde from uid 1000 finished with success after 623ms
+3月 23 14:19:46 ree-virtual-machine PackageKit[1286]: get-updates transaction /22_dcbbaedb from uid 1000 finished with success after 654ms
+3月 23 14:19:47 ree-virtual-machine PackageKit[1286]: get-updates transaction /23_caaacaca from uid 1000 finished with success after 530ms
+-- Boot 9e3eeb915f5e4d0aab1fa06627dc238a --
+3月 25 22:03:03 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 25 22:03:03 ree-virtual-machine PackageKit[1310]: daemon start
+3月 25 22:03:03 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 25 22:03:16 ree-virtual-machine PackageKit[1310]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 25 22:03:16 ree-virtual-machine PackageKit[1310]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 25 22:03:30 ree-virtual-machine PackageKit[1310]: refresh-cache transaction /24_aeeebcce from uid 1000 finished with success after 13955ms
+3月 25 22:03:55 ree-virtual-machine PackageKit[1310]: resolve transaction /25_baeddaeb from uid 1000 finished with success after 1012ms
+3月 25 22:03:56 ree-virtual-machine PackageKit[1310]: search-file transaction /26_cbaaeeea from uid 1000 finished with success after 753ms
+3月 25 22:03:56 ree-virtual-machine PackageKit[1310]: search-file transaction /27_acdcaeed from uid 1000 finished with success after 276ms
+3月 25 22:03:56 ree-virtual-machine PackageKit[1310]: get-details transaction /28_cbaaaeac from uid 1000 finished with success after 239ms
+3月 25 22:09:55 ree-virtual-machine PackageKit[1310]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 25 22:09:55 ree-virtual-machine PackageKit[1310]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 25 22:09:56 ree-virtual-machine PackageKit[1310]: refresh-cache transaction /29_aedbbaab from uid 1000 finished with success after 898ms
+3月 25 22:10:36 ree-virtual-machine PackageKit[1310]: get-updates transaction /30_addbebec from uid 1000 finished with success after 1511ms
+3月 26 18:51:15 ree-virtual-machine PackageKit[1310]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 26 18:51:15 ree-virtual-machine PackageKit[1310]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 26 18:51:24 ree-virtual-machine PackageKit[1310]: refresh-cache transaction /31_eabbaecb from uid 1000 finished with success after 8376ms
+3月 26 18:51:24 ree-virtual-machine PackageKit[1310]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 26 18:51:24 ree-virtual-machine PackageKit[1310]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 26 18:51:25 ree-virtual-machine PackageKit[1310]: refresh-cache transaction /32_adbeacaa from uid 1000 finished with success after 1747ms
+3月 26 18:51:26 ree-virtual-machine PackageKit[1310]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 26 18:51:26 ree-virtual-machine PackageKit[1310]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 26 18:51:27 ree-virtual-machine PackageKit[1310]: refresh-cache transaction /33_dabacdbe from uid 1000 finished with success after 1714ms
+3月 26 18:51:27 ree-virtual-machine PackageKit[1310]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 26 18:51:27 ree-virtual-machine PackageKit[1310]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 26 18:51:29 ree-virtual-machine PackageKit[1310]: refresh-cache transaction /34_dbddccdb from uid 1000 finished with success after 1629ms
+3月 26 18:51:56 ree-virtual-machine PackageKit[1310]: get-updates transaction /35_adebcbbe from uid 1000 finished with success after 1430ms
+3月 26 18:51:56 ree-virtual-machine PackageKit[1310]: get-updates transaction /36_ebdcedbd from uid 1000 finished with success after 374ms
+3月 26 18:52:06 ree-virtual-machine PackageKit[1310]: get-updates transaction /37_cdcbdcda from uid 1000 finished with success after 333ms
+3月 26 18:52:20 ree-virtual-machine PackageKit[1310]: get-updates transaction /38_eddbedcb from uid 1000 finished with success after 334ms
+3月 27 12:09:13 ree-virtual-machine PackageKit[1310]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 27 12:09:13 ree-virtual-machine PackageKit[1310]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 27 12:09:13 ree-virtual-machine PackageKit[1310]: refresh-cache transaction /39_edddbbbb from uid 1000 finished with failed after 483ms
+3月 27 12:09:13 ree-virtual-machine PackageKit[1310]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 27 12:09:13 ree-virtual-machine PackageKit[1310]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 27 12:09:14 ree-virtual-machine PackageKit[1310]: refresh-cache transaction /40_dacacdac from uid 1000 finished with failed after 426ms
+3月 27 12:10:38 ree-virtual-machine PackageKit[1310]: get-updates transaction /41_cbecedea from uid 1000 finished with success after 566ms
+3月 27 12:10:42 ree-virtual-machine PackageKit[1310]: get-updates transaction /42_abdadaec from uid 1000 finished with success after 440ms
+-- Boot cce731051b6244c4a03f32893ae3c956 --
+3月 28 10:31:07 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 28 10:31:07 ree-virtual-machine PackageKit[1302]: daemon start
+3月 28 10:31:07 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 28 10:37:53 ree-virtual-machine PackageKit[1302]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 28 10:37:53 ree-virtual-machine PackageKit[1302]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 28 10:38:02 ree-virtual-machine PackageKit[1302]: refresh-cache transaction /43_deabcbba from uid 1000 finished with success after 8845ms
+3月 28 10:38:02 ree-virtual-machine PackageKit[1302]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 28 10:38:02 ree-virtual-machine PackageKit[1302]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 28 10:38:04 ree-virtual-machine PackageKit[1302]: refresh-cache transaction /44_cadcdcee from uid 1000 finished with success after 1921ms
+3月 28 10:38:04 ree-virtual-machine PackageKit[1302]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 28 10:38:04 ree-virtual-machine PackageKit[1302]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 28 10:38:06 ree-virtual-machine PackageKit[1302]: refresh-cache transaction /45_beeeacad from uid 1000 finished with success after 1705ms
+3月 28 10:38:37 ree-virtual-machine PackageKit[1302]: resolve transaction /46_cebcdcac from uid 1000 finished with success after 957ms
+3月 28 10:38:39 ree-virtual-machine PackageKit[1302]: search-file transaction /47_ceacdbeb from uid 1000 finished with success after 1913ms
+3月 28 10:38:39 ree-virtual-machine PackageKit[1302]: search-file transaction /48_baaecddc from uid 1000 finished with success after 267ms
+3月 28 10:38:40 ree-virtual-machine PackageKit[1302]: get-details transaction /49_cdbadced from uid 1000 finished with success after 229ms
+3月 29 11:35:59 ree-virtual-machine PackageKit[1302]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 29 11:35:59 ree-virtual-machine PackageKit[1302]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 29 11:36:05 ree-virtual-machine PackageKit[1302]: refresh-cache transaction /50_bebcdcce from uid 1000 finished with success after 5464ms
+3月 29 11:36:05 ree-virtual-machine PackageKit[1302]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 29 11:36:05 ree-virtual-machine PackageKit[1302]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 29 11:36:07 ree-virtual-machine PackageKit[1302]: refresh-cache transaction /51_ceaedaee from uid 1000 finished with success after 1668ms
+3月 29 11:36:07 ree-virtual-machine PackageKit[1302]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 29 11:36:07 ree-virtual-machine PackageKit[1302]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 29 11:36:08 ree-virtual-machine PackageKit[1302]: refresh-cache transaction /52_cabbccaa from uid 1000 finished with success after 1665ms
+3月 29 11:36:08 ree-virtual-machine PackageKit[1302]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 29 11:36:08 ree-virtual-machine PackageKit[1302]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 29 11:36:10 ree-virtual-machine PackageKit[1302]: refresh-cache transaction /53_adaccdec from uid 1000 finished with success after 1642ms
+3月 29 11:36:10 ree-virtual-machine PackageKit[1302]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 29 11:36:10 ree-virtual-machine PackageKit[1302]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+-- Boot 2a886fae77824755a4d8c5453e54eec8 --
+3月 29 11:43:35 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 29 11:43:35 ree-virtual-machine PackageKit[1315]: daemon start
+3月 29 11:43:35 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 29 11:43:49 ree-virtual-machine PackageKit[1315]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 29 11:43:49 ree-virtual-machine PackageKit[1315]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 29 11:43:50 ree-virtual-machine PackageKit[1315]: refresh-cache transaction /55_bbcbddaa from uid 1000 finished with success after 1229ms
+3月 29 11:43:50 ree-virtual-machine PackageKit[1315]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 29 11:43:50 ree-virtual-machine PackageKit[1315]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 29 11:43:54 ree-virtual-machine PackageKit[1315]: refresh-cache transaction /56_addbcbca from uid 1000 finished with success after 3158ms
+3月 29 11:43:54 ree-virtual-machine PackageKit[1315]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 29 11:43:54 ree-virtual-machine PackageKit[1315]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 29 11:43:55 ree-virtual-machine PackageKit[1315]: refresh-cache transaction /57_cccdceda from uid 1000 finished with success after 1823ms
+3月 29 11:44:29 ree-virtual-machine PackageKit[1315]: resolve transaction /58_badccebb from uid 1000 finished with success after 2658ms
+3月 29 11:44:34 ree-virtual-machine PackageKit[1315]: search-file transaction /59_dbbeaaee from uid 1000 finished with success after 4789ms
+3月 29 11:44:34 ree-virtual-machine PackageKit[1315]: search-file transaction /60_adbdccca from uid 1000 finished with success after 412ms
+3月 29 11:44:35 ree-virtual-machine PackageKit[1315]: get-details transaction /61_dadaaeee from uid 1000 finished with success after 431ms
+3月 29 12:42:33 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 29 12:42:34 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 29 12:42:34 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+3月 29 12:42:34 ree-virtual-machine systemd[1]: packagekit.service: Consumed 10.481s CPU time.
+-- Boot bb0991777ac541be83385906c043308d --
+3月 29 12:42:43 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 29 12:42:43 ree-virtual-machine PackageKit[1340]: daemon start
+3月 29 12:42:43 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 29 12:43:31 ree-virtual-machine PackageKit[1340]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 29 12:43:31 ree-virtual-machine PackageKit[1340]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 29 12:43:32 ree-virtual-machine PackageKit[1340]: refresh-cache transaction /62_ccdbeeec from uid 1000 finished with failed after 285ms
+3月 29 12:44:32 ree-virtual-machine PackageKit[1340]: resolve transaction /63_dbedcdbe from uid 1000 finished with success after 326ms
+3月 29 12:44:32 ree-virtual-machine PackageKit[1340]: resolve transaction /64_eabcddba from uid 1000 finished with success after 263ms
+3月 29 12:44:47 ree-virtual-machine PackageKit[1340]: resolve transaction /65_abacccba from uid 1000 finished with success after 263ms
+3月 29 12:44:48 ree-virtual-machine PackageKit[1340]: search-file transaction /66_ebaecebd from uid 1000 finished with success after 492ms
+3月 29 12:44:48 ree-virtual-machine PackageKit[1340]: search-file transaction /67_cbbabacd from uid 1000 finished with success after 273ms
+3月 29 12:44:48 ree-virtual-machine PackageKit[1340]: get-details transaction /68_ccedaacc from uid 1000 finished with success after 235ms
+3月 29 12:50:43 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 29 12:50:43 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 29 12:50:43 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+3月 29 12:50:43 ree-virtual-machine systemd[1]: packagekit.service: Consumed 2.118s CPU time.
+-- Boot d7712a95bc0b49358ac3d7c9a0282431 --
+3月 29 13:18:50 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 29 13:18:50 ree-virtual-machine PackageKit[1375]: daemon start
+3月 29 13:18:50 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 29 13:19:55 ree-virtual-machine PackageKit[1375]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 29 13:19:55 ree-virtual-machine PackageKit[1375]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 29 13:19:56 ree-virtual-machine PackageKit[1375]: refresh-cache transaction /69_adddeadc from uid 1000 finished with success after 1324ms
+3月 29 13:20:27 ree-virtual-machine PackageKit[1375]: resolve transaction /70_babeaadb from uid 1000 finished with success after 1198ms
+3月 29 13:20:27 ree-virtual-machine PackageKit[1375]: search-file transaction /71_ecaaadbe from uid 1000 finished with success after 498ms
+3月 29 13:20:28 ree-virtual-machine PackageKit[1375]: search-file transaction /72_eaaeecaa from uid 1000 finished with success after 275ms
+3月 29 13:20:28 ree-virtual-machine PackageKit[1375]: get-details transaction /73_abcedecb from uid 1000 finished with success after 246ms
+3月 29 13:23:16 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 29 13:23:16 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 29 13:23:16 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+3月 29 13:23:16 ree-virtual-machine systemd[1]: packagekit.service: Consumed 3.325s CPU time.
+-- Boot 19b4dd46eb7b4597999d4311a7fcd580 --
+3月 29 13:24:47 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 29 13:24:47 ree-virtual-machine PackageKit[1303]: daemon start
+3月 29 13:24:47 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 29 13:25:03 ree-virtual-machine PackageKit[1303]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 29 13:25:03 ree-virtual-machine PackageKit[1303]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 29 13:25:05 ree-virtual-machine PackageKit[1303]: refresh-cache transaction /74_eabcabaa from uid 1000 finished with success after 1324ms
+3月 29 13:25:36 ree-virtual-machine PackageKit[1303]: resolve transaction /75_eecebada from uid 1000 finished with success after 1296ms
+3月 29 13:25:36 ree-virtual-machine PackageKit[1303]: search-file transaction /76_eaeaedbb from uid 1000 finished with success after 512ms
+3月 29 13:25:37 ree-virtual-machine PackageKit[1303]: search-file transaction /77_adbdbdea from uid 1000 finished with success after 260ms
+3月 29 13:25:37 ree-virtual-machine PackageKit[1303]: get-details transaction /78_babbbdbb from uid 1000 finished with success after 247ms
+-- Boot 9d814a28020a4d1b8dc1b211140df378 --
+3月 30 14:04:56 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 30 14:04:56 ree-virtual-machine PackageKit[1326]: daemon start
+3月 30 14:04:56 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 30 14:05:22 ree-virtual-machine PackageKit[1326]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 30 14:05:22 ree-virtual-machine PackageKit[1326]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 30 14:05:30 ree-virtual-machine PackageKit[1326]: refresh-cache transaction /79_edccddde from uid 1000 finished with success after 8916ms
+3月 30 14:05:30 ree-virtual-machine PackageKit[1326]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 30 14:05:30 ree-virtual-machine PackageKit[1326]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 30 14:05:32 ree-virtual-machine PackageKit[1326]: refresh-cache transaction /80_ebcbbbcd from uid 1000 finished with success after 1845ms
+3月 30 14:05:32 ree-virtual-machine PackageKit[1326]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 30 14:05:32 ree-virtual-machine PackageKit[1326]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 30 14:05:34 ree-virtual-machine PackageKit[1326]: refresh-cache transaction /81_eabdecaa from uid 1000 finished with success after 1648ms
+3月 30 14:06:10 ree-virtual-machine PackageKit[1326]: resolve transaction /82_deeabbed from uid 1000 finished with success after 1014ms
+3月 30 14:06:11 ree-virtual-machine PackageKit[1326]: search-file transaction /83_dededcab from uid 1000 finished with success after 742ms
+3月 30 14:06:11 ree-virtual-machine PackageKit[1326]: search-file transaction /84_cdcdbbac from uid 1000 finished with success after 305ms
+3月 30 14:06:12 ree-virtual-machine PackageKit[1326]: get-details transaction /85_ddeeeccb from uid 1000 finished with success after 284ms
+3月 30 14:58:38 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 30 14:58:39 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 30 14:58:39 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+3月 30 14:58:39 ree-virtual-machine systemd[1]: packagekit.service: Consumed 12.717s CPU time.
+-- Boot 84aa09a898d145c7a959de6db29053d7 --
+3月 30 15:02:23 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 30 15:02:23 ree-virtual-machine PackageKit[1318]: daemon start
+3月 30 15:02:23 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 30 15:02:36 ree-virtual-machine PackageKit[1318]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 30 15:02:36 ree-virtual-machine PackageKit[1318]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 30 15:02:38 ree-virtual-machine PackageKit[1318]: refresh-cache transaction /86_caddbaec from uid 1000 finished with success after 1176ms
+3月 30 15:02:52 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 30 15:02:52 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 30 15:02:52 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+-- Boot aa4829cf4bad48fb9f7b1a4eb947f5c0 --
+3月 30 15:03:30 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 30 15:03:30 ree-virtual-machine PackageKit[1372]: daemon start
+3月 30 15:03:30 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 30 15:03:35 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 30 15:03:35 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 30 15:03:35 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+-- Boot 00a7e42d2b624b439bea376a3bc361f1 --
+3月 30 15:14:16 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 30 15:14:16 ree-virtual-machine PackageKit[1300]: daemon start
+3月 30 15:14:16 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 30 15:15:05 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 30 15:15:05 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 30 15:15:05 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+-- Boot 1516c1af27714148858b849306510739 --
+3月 30 15:23:28 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 30 15:23:28 ree-virtual-machine PackageKit[1288]: daemon start
+3月 30 15:23:28 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 30 15:23:57 ree-virtual-machine PackageKit[1288]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 30 15:23:57 ree-virtual-machine PackageKit[1288]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 30 15:24:01 ree-virtual-machine PackageKit[1288]: refresh-cache transaction /87_eacecace from uid 1000 finished with success after 3765ms
+3月 30 15:24:15 ree-virtual-machine PackageKit[1288]: resolve transaction /88_bbddcebe from uid 1000 finished with success after 1733ms
+3月 30 15:24:16 ree-virtual-machine PackageKit[1288]: search-file transaction /89_ecacadba from uid 1000 finished with success after 831ms
+3月 30 15:24:16 ree-virtual-machine PackageKit[1288]: search-file transaction /90_eaccdacc from uid 1000 finished with success after 291ms
+3月 30 15:24:17 ree-virtual-machine PackageKit[1288]: get-details transaction /91_eaaacdac from uid 1000 finished with success after 235ms
+3月 30 15:38:16 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 30 15:38:16 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 30 15:38:16 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+3月 30 15:38:16 ree-virtual-machine systemd[1]: packagekit.service: Consumed 6.246s CPU time.
+-- Boot 9069828abd4b41e5829b4880b07ecdde --
+3月 30 15:38:55 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 30 15:38:55 ree-virtual-machine PackageKit[1296]: daemon start
+3月 30 15:38:55 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 30 15:39:10 ree-virtual-machine PackageKit[1296]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 30 15:39:10 ree-virtual-machine PackageKit[1296]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 30 15:39:12 ree-virtual-machine PackageKit[1296]: refresh-cache transaction /92_dccbbbad from uid 1000 finished with success after 1221ms
+3月 30 15:39:46 ree-virtual-machine PackageKit[1296]: resolve transaction /93_aacbecaa from uid 1000 finished with success after 1724ms
+3月 30 15:39:47 ree-virtual-machine PackageKit[1296]: search-file transaction /94_edebdedd from uid 1000 finished with success after 437ms
+3月 30 15:39:47 ree-virtual-machine PackageKit[1296]: search-file transaction /95_cdcbbada from uid 1000 finished with success after 241ms
+3月 30 15:39:47 ree-virtual-machine PackageKit[1296]: get-details transaction /96_badbbdec from uid 1000 finished with success after 209ms
+-- Boot 76e16ebfbeab47788bc4dd8853d9fe7e --
+3月 30 17:34:22 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 30 17:34:22 ree-virtual-machine PackageKit[1384]: daemon start
+3月 30 17:34:22 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 30 17:34:39 ree-virtual-machine PackageKit[1384]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 30 17:34:39 ree-virtual-machine PackageKit[1384]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 30 17:34:40 ree-virtual-machine PackageKit[1384]: refresh-cache transaction /97_acecaccb from uid 1000 finished with success after 1307ms
+3月 30 17:34:55 ree-virtual-machine PackageKit[1384]: resolve transaction /98_cbbaeade from uid 1000 finished with success after 1234ms
+3月 30 17:34:55 ree-virtual-machine PackageKit[1384]: search-file transaction /99_abeebbdc from uid 1000 finished with success after 495ms
+3月 30 17:34:56 ree-virtual-machine PackageKit[1384]: search-file transaction /100_ececeebd from uid 1000 finished with success after 256ms
+3月 30 17:34:56 ree-virtual-machine PackageKit[1384]: get-details transaction /101_bebadbce from uid 1000 finished with success after 214ms
+3月 30 20:32:24 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 30 20:32:24 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 30 20:32:24 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+3月 30 20:32:24 ree-virtual-machine systemd[1]: packagekit.service: Consumed 3.334s CPU time.
+-- Boot e249c720d58849269d73a22f14ee6fb9 --
+3月 30 20:32:35 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 30 20:32:35 ree-virtual-machine PackageKit[1266]: daemon start
+3月 30 20:32:35 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 30 20:32:49 ree-virtual-machine PackageKit[1266]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 30 20:32:49 ree-virtual-machine PackageKit[1266]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 30 20:32:58 ree-virtual-machine PackageKit[1266]: refresh-cache transaction /102_abcdceed from uid 1000 finished with success after 9390ms
+3月 30 20:33:13 ree-virtual-machine PackageKit[1266]: resolve transaction /103_aeebebce from uid 1000 finished with success after 1057ms
+3月 30 20:33:13 ree-virtual-machine PackageKit[1266]: search-file transaction /104_cedeaaad from uid 1000 finished with success after 506ms
+3月 30 20:33:13 ree-virtual-machine PackageKit[1266]: search-file transaction /105_edecadee from uid 1000 finished with success after 273ms
+3月 30 20:33:14 ree-virtual-machine PackageKit[1266]: get-details transaction /106_cecacaac from uid 1000 finished with success after 241ms
+-- Boot 9ccccf2adff74839b8fba49d83281f8b --
+3月 30 22:53:47 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 30 22:53:47 ree-virtual-machine PackageKit[1307]: daemon start
+3月 30 22:53:47 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 30 22:54:43 ree-virtual-machine PackageKit[1307]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 30 22:54:43 ree-virtual-machine PackageKit[1307]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 30 22:54:48 ree-virtual-machine PackageKit[1307]: refresh-cache transaction /107_ebddeaed from uid 1000 finished with success after 5105ms
+3月 30 22:54:54 ree-virtual-machine PackageKit[1307]: resolve transaction /108_adcecdae from uid 1000 finished with success after 2326ms
+3月 30 22:54:54 ree-virtual-machine PackageKit[1307]: search-file transaction /109_bcdaabed from uid 1000 finished with success after 464ms
+3月 30 22:54:55 ree-virtual-machine PackageKit[1307]: search-file transaction /110_ababaccb from uid 1000 finished with success after 267ms
+3月 30 22:54:55 ree-virtual-machine PackageKit[1307]: get-details transaction /111_eddbeaad from uid 1000 finished with success after 249ms
+3月 30 23:30:42 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 30 23:30:42 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 30 23:30:42 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+3月 30 23:30:42 ree-virtual-machine systemd[1]: packagekit.service: Consumed 4.062s CPU time.
+-- Boot 308f7b0f7a274f0bb6200973f34667b6 --
+3月 31 00:22:31 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 31 00:22:31 ree-virtual-machine PackageKit[1321]: daemon start
+3月 31 00:22:31 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 31 00:22:44 ree-virtual-machine PackageKit[1321]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 31 00:22:44 ree-virtual-machine PackageKit[1321]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 31 00:22:49 ree-virtual-machine PackageKit[1321]: refresh-cache transaction /112_abdbbceb from uid 1000 finished with success after 5300ms
+3月 31 00:22:53 ree-virtual-machine PackageKit[1321]: resolve transaction /113_cebbecbc from uid 1000 finished with success after 1860ms
+3月 31 00:22:53 ree-virtual-machine PackageKit[1321]: search-file transaction /114_abaccaae from uid 1000 finished with success after 470ms
+3月 31 00:22:53 ree-virtual-machine PackageKit[1321]: search-file transaction /115_caeaadee from uid 1000 finished with success after 259ms
+3月 31 00:22:54 ree-virtual-machine PackageKit[1321]: get-details transaction /116_edceedaa from uid 1000 finished with success after 226ms
+3月 31 00:27:29 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 31 00:27:29 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 31 00:27:29 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+3月 31 00:27:29 ree-virtual-machine systemd[1]: packagekit.service: Consumed 3.742s CPU time.
+-- Boot d85c7c53e5114994bc2f0f623b3af509 --
+3月 31 19:12:19 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 31 19:12:19 ree-virtual-machine PackageKit[1308]: daemon start
+3月 31 19:12:19 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 31 19:12:30 ree-virtual-machine PackageKit[1308]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 31 19:12:30 ree-virtual-machine PackageKit[1308]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 31 19:12:46 ree-virtual-machine PackageKit[1308]: refresh-cache transaction /117_dbaecdcb from uid 1000 finished with success after 15427ms
+3月 31 19:12:46 ree-virtual-machine PackageKit[1308]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 31 19:12:46 ree-virtual-machine PackageKit[1308]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 31 19:12:52 ree-virtual-machine packagekitd[1308]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy/InRelease  
+3月 31 19:12:52 ree-virtual-machine packagekitd[1308]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-updates/InRelease  
+3月 31 19:12:52 ree-virtual-machine PackageKit[1308]: refresh-cache transaction /118_eadddcbe from uid 1000 finished with cancelled-priority after 6539ms
+3月 31 19:12:52 ree-virtual-machine packagekitd[1308]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-backports/InRelease  
+3月 31 19:12:52 ree-virtual-machine packagekitd[1308]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-security/InRelease  
+3月 31 19:12:52 ree-virtual-machine packagekitd[1308]: Some index files failed to download. They have been ignored, or old ones used instead.
+3月 31 19:12:52 ree-virtual-machine PackageKit[1308]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 31 19:12:52 ree-virtual-machine PackageKit[1308]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 31 19:12:53 ree-virtual-machine PackageKit[1308]: resolve transaction /119_eedcebad from uid 1000 finished with success after 954ms
+3月 31 19:12:53 ree-virtual-machine packagekitd[1308]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy/InRelease  
+3月 31 19:12:53 ree-virtual-machine packagekitd[1308]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-updates/InRelease  
+3月 31 19:12:53 ree-virtual-machine packagekitd[1308]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-backports/InRelease  
+3月 31 19:12:53 ree-virtual-machine packagekitd[1308]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-security/InRelease  
+3月 31 19:12:53 ree-virtual-machine packagekitd[1308]: Some index files failed to download. They have been ignored, or old ones used instead.
+3月 31 19:12:53 ree-virtual-machine PackageKit[1308]: refresh-cache transaction /120_becdbade from uid 1000 finished with cancelled-priority after 251ms
+3月 31 19:12:55 ree-virtual-machine PackageKit[1308]: search-file transaction /121_cddeacad from uid 1000 finished with success after 1554ms
+3月 31 19:12:55 ree-virtual-machine PackageKit[1308]: search-file transaction /122_adddadaa from uid 1000 finished with success after 258ms
+3月 31 19:12:55 ree-virtual-machine PackageKit[1308]: get-details transaction /123_ddecdbcc from uid 1000 finished with success after 229ms
+3月 31 19:35:33 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 31 19:35:33 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 31 19:35:33 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+3月 31 19:35:33 ree-virtual-machine systemd[1]: packagekit.service: Consumed 10.995s CPU time.
+-- Boot 09785a07d95540b1ad518945fbcc300d --
+3月 31 19:43:52 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 31 19:43:52 ree-virtual-machine PackageKit[1264]: daemon start
+3月 31 19:43:52 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 31 19:44:03 ree-virtual-machine PackageKit[1264]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 31 19:44:03 ree-virtual-machine PackageKit[1264]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 31 19:44:10 ree-virtual-machine PackageKit[1264]: refresh-cache transaction /124_edbaabcd from uid 1000 finished with success after 6846ms
+3月 31 19:44:32 ree-virtual-machine PackageKit[1264]: resolve transaction /125_daeadbdc from uid 1000 finished with success after 1798ms
+3月 31 19:44:33 ree-virtual-machine PackageKit[1264]: search-file transaction /126_aacebccb from uid 1000 finished with success after 524ms
+3月 31 19:44:33 ree-virtual-machine PackageKit[1264]: search-file transaction /127_aeaaccbd from uid 1000 finished with success after 270ms
+3月 31 19:44:33 ree-virtual-machine PackageKit[1264]: get-details transaction /128_bcacaccd from uid 1000 finished with success after 226ms
+3月 31 19:44:59 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+3月 31 19:44:59 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+3月 31 19:44:59 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+3月 31 19:44:59 ree-virtual-machine systemd[1]: packagekit.service: Consumed 5.344s CPU time.
+-- Boot 436dee14f55b451a880859c1f76478af --
+3月 31 21:10:05 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+3月 31 21:10:05 ree-virtual-machine PackageKit[1305]: daemon start
+3月 31 21:10:06 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+3月 31 21:10:29 ree-virtual-machine PackageKit[1305]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+3月 31 21:10:29 ree-virtual-machine PackageKit[1305]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+3月 31 21:10:35 ree-virtual-machine PackageKit[1305]: refresh-cache transaction /129_aecedceb from uid 1000 finished with success after 5737ms
+3月 31 21:11:30 ree-virtual-machine PackageKit[1305]: resolve transaction /130_cdccadec from uid 1000 finished with success after 1119ms
+3月 31 21:11:31 ree-virtual-machine PackageKit[1305]: search-file transaction /131_aaeedbca from uid 1000 finished with success after 475ms
+3月 31 21:11:31 ree-virtual-machine PackageKit[1305]: search-file transaction /132_ecdbedce from uid 1000 finished with success after 274ms
+3月 31 21:11:31 ree-virtual-machine PackageKit[1305]: get-details transaction /133_bdceebce from uid 1000 finished with success after 235ms
+4月 03 22:12:10 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+4月 03 22:12:10 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+4月 03 22:12:10 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+4月 03 22:12:10 ree-virtual-machine systemd[1]: packagekit.service: Consumed 3.368s CPU time.
+-- Boot e2fd3a66bd3b4bd68261cb94d3fee451 --
+4月 04 12:20:49 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 04 12:20:49 ree-virtual-machine PackageKit[1318]: daemon start
+4月 04 12:20:49 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 04 12:21:03 ree-virtual-machine PackageKit[1318]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 04 12:21:03 ree-virtual-machine PackageKit[1318]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 04 12:21:19 ree-virtual-machine PackageKit[1318]: refresh-cache transaction /134_ccceaacd from uid 1000 finished with success after 18510ms
+4月 04 12:21:19 ree-virtual-machine PackageKit[1318]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 04 12:21:19 ree-virtual-machine PackageKit[1318]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 04 12:21:22 ree-virtual-machine packagekitd[1318]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy/InRelease  
+4月 04 12:21:22 ree-virtual-machine packagekitd[1318]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-updates/InRelease  
+4月 04 12:21:22 ree-virtual-machine packagekitd[1318]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-backports/InRelease  
+4月 04 12:21:22 ree-virtual-machine packagekitd[1318]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-security/InRelease  
+4月 04 12:21:22 ree-virtual-machine PackageKit[1318]: refresh-cache transaction /135_cdaedcbe from uid 1000 finished with cancelled-priority after 3081ms
+4月 04 12:21:22 ree-virtual-machine packagekitd[1318]: Some index files failed to download. They have been ignored, or old ones used instead.
+4月 04 12:21:22 ree-virtual-machine PackageKit[1318]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 04 12:21:22 ree-virtual-machine PackageKit[1318]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 04 12:21:23 ree-virtual-machine PackageKit[1318]: resolve transaction /136_bacbaede from uid 1000 finished with success after 1039ms
+4月 04 12:21:23 ree-virtual-machine packagekitd[1318]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy/InRelease  
+4月 04 12:21:23 ree-virtual-machine packagekitd[1318]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-updates/InRelease  
+4月 04 12:21:23 ree-virtual-machine packagekitd[1318]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-backports/InRelease  
+4月 04 12:21:23 ree-virtual-machine packagekitd[1318]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-security/InRelease  
+4月 04 12:21:23 ree-virtual-machine packagekitd[1318]: Some index files failed to download. They have been ignored, or old ones used instead.
+4月 04 12:21:23 ree-virtual-machine PackageKit[1318]: refresh-cache transaction /137_ceebbada from uid 1000 finished with cancelled-priority after 262ms
+4月 04 12:21:25 ree-virtual-machine PackageKit[1318]: search-file transaction /138_daccaaee from uid 1000 finished with success after 1584ms
+4月 04 12:21:25 ree-virtual-machine PackageKit[1318]: get-updates transaction /139_bbddcecd from uid 1000 finished with success after 357ms
+4月 04 12:21:26 ree-virtual-machine PackageKit[1318]: search-file transaction /140_cbdbecee from uid 1000 finished with success after 264ms
+4月 04 12:21:26 ree-virtual-machine PackageKit[1318]: get-updates transaction /141_aaeaadea from uid 1000 finished with success after 373ms
+4月 04 12:21:26 ree-virtual-machine PackageKit[1318]: get-details transaction /142_cdddccca from uid 1000 finished with success after 227ms
+4月 04 17:35:37 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+4月 04 17:35:37 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+4月 04 17:35:37 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+4月 04 17:35:37 ree-virtual-machine systemd[1]: packagekit.service: Consumed 12.256s CPU time.
+-- Boot 25dbee67bff049baa23eecea014b8763 --
+4月 04 17:35:56 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 04 17:35:56 ree-virtual-machine PackageKit[1297]: daemon start
+4月 04 17:35:56 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 04 17:36:47 ree-virtual-machine PackageKit[1297]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 04 17:36:47 ree-virtual-machine PackageKit[1297]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 04 17:36:54 ree-virtual-machine PackageKit[1297]: refresh-cache transaction /143_bdaebbea from uid 1000 finished with success after 7068ms
+4月 04 17:36:59 ree-virtual-machine PackageKit[1297]: resolve transaction /144_eccbbcdc from uid 1000 finished with success after 1394ms
+4月 04 17:37:00 ree-virtual-machine PackageKit[1297]: search-file transaction /145_edbacedc from uid 1000 finished with success after 812ms
+4月 04 17:37:00 ree-virtual-machine PackageKit[1297]: search-file transaction /146_decdeabb from uid 1000 finished with success after 281ms
+4月 04 17:37:00 ree-virtual-machine PackageKit[1297]: get-details transaction /147_bcdebdad from uid 1000 finished with success after 246ms
+4月 04 20:54:00 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+4月 04 20:54:00 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+4月 04 20:54:00 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+4月 04 20:54:00 ree-virtual-machine systemd[1]: packagekit.service: Consumed 5.104s CPU time.
+-- Boot 0d532a9de8ef4df1a92a1cc3f8ce562d --
+4月 09 19:14:36 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 09 19:14:36 ree-virtual-machine PackageKit[1331]: daemon start
+4月 09 19:14:36 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 09 19:14:54 ree-virtual-machine PackageKit[1331]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 09 19:14:54 ree-virtual-machine PackageKit[1331]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 09 19:15:05 ree-virtual-machine PackageKit[1331]: refresh-cache transaction /148_eacedcdb from uid 1000 finished with success after 13702ms
+4月 09 19:15:05 ree-virtual-machine PackageKit[1331]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 09 19:15:05 ree-virtual-machine PackageKit[1331]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 09 19:15:08 ree-virtual-machine packagekitd[1331]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy/InRelease  
+4月 09 19:15:08 ree-virtual-machine packagekitd[1331]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-updates/InRelease  
+4月 09 19:15:08 ree-virtual-machine packagekitd[1331]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-backports/InRelease  
+4月 09 19:15:08 ree-virtual-machine packagekitd[1331]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-security/InRelease  
+4月 09 19:15:08 ree-virtual-machine PackageKit[1331]: refresh-cache transaction /149_caccddec from uid 1000 finished with cancelled-priority after 3504ms
+4月 09 19:15:08 ree-virtual-machine packagekitd[1331]: Some index files failed to download. They have been ignored, or old ones used instead.
+4月 09 19:15:08 ree-virtual-machine PackageKit[1331]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 09 19:15:08 ree-virtual-machine PackageKit[1331]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 09 19:15:09 ree-virtual-machine PackageKit[1331]: resolve transaction /150_dcdaadae from uid 1000 finished with success after 919ms
+4月 09 19:15:09 ree-virtual-machine packagekitd[1331]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy/InRelease  
+4月 09 19:15:09 ree-virtual-machine packagekitd[1331]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-updates/InRelease  
+4月 09 19:15:09 ree-virtual-machine packagekitd[1331]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-backports/InRelease  
+4月 09 19:15:09 ree-virtual-machine packagekitd[1331]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-security/InRelease  
+4月 09 19:15:09 ree-virtual-machine packagekitd[1331]: Some index files failed to download. They have been ignored, or old ones used instead.
+4月 09 19:15:09 ree-virtual-machine PackageKit[1331]: refresh-cache transaction /151_aeebbace from uid 1000 finished with cancelled-priority after 241ms
+4月 09 19:15:11 ree-virtual-machine PackageKit[1331]: search-file transaction /152_adbcdcdc from uid 1000 finished with success after 1505ms
+4月 09 19:15:11 ree-virtual-machine PackageKit[1331]: search-file transaction /153_cdebcdcd from uid 1000 finished with success after 255ms
+4月 09 19:15:11 ree-virtual-machine PackageKit[1331]: get-details transaction /154_abcccbdb from uid 1000 finished with success after 217ms
+4月 09 19:17:43 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+4月 09 19:17:43 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+4月 09 19:17:43 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+4月 09 19:17:43 ree-virtual-machine systemd[1]: packagekit.service: Consumed 11.429s CPU time.
+-- Boot 66c095c2b40d4348bbbaa9bd9371fd5b --
+4月 09 19:21:24 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 09 19:21:24 ree-virtual-machine PackageKit[1310]: daemon start
+4月 09 19:21:24 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 09 19:21:43 ree-virtual-machine PackageKit[1310]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 09 19:21:43 ree-virtual-machine PackageKit[1310]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 09 19:21:50 ree-virtual-machine PackageKit[1310]: refresh-cache transaction /155_cebeceee from uid 1000 finished with success after 7338ms
+4月 09 19:21:51 ree-virtual-machine PackageKit[1310]: resolve transaction /156_aeabcadd from uid 1000 finished with success after 1515ms
+4月 09 19:21:52 ree-virtual-machine PackageKit[1310]: search-file transaction /157_ebaeeabc from uid 1000 finished with success after 854ms
+4月 09 19:21:52 ree-virtual-machine PackageKit[1310]: search-file transaction /158_cecdcadb from uid 1000 finished with success after 274ms
+4月 09 19:21:52 ree-virtual-machine PackageKit[1310]: get-details transaction /159_cbeccaed from uid 1000 finished with success after 241ms
+4月 09 21:44:17 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+4月 09 21:44:17 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+4月 09 21:44:17 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+4月 09 21:44:17 ree-virtual-machine systemd[1]: packagekit.service: Consumed 5.559s CPU time.
+-- Boot 125b443d38b7450fbc1c404530e9dc9e --
+4月 12 11:22:04 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 12 11:22:04 ree-virtual-machine PackageKit[1482]: daemon start
+4月 12 11:22:04 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 12 11:28:31 ree-virtual-machine PackageKit[1482]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 12 11:28:31 ree-virtual-machine PackageKit[1482]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 12 11:28:43 ree-virtual-machine PackageKit[1482]: refresh-cache transaction /160_caeeabba from uid 1000 finished with success after 12427ms
+4月 12 11:28:43 ree-virtual-machine PackageKit[1482]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 12 11:28:43 ree-virtual-machine PackageKit[1482]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 12 11:28:46 ree-virtual-machine packagekitd[1482]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy/InRelease  
+4月 12 11:28:46 ree-virtual-machine packagekitd[1482]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-updates/InRelease  
+4月 12 11:28:46 ree-virtual-machine packagekitd[1482]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-backports/InRelease  
+4月 12 11:28:46 ree-virtual-machine PackageKit[1482]: refresh-cache transaction /161_ebadadcc from uid 1000 finished with cancelled-priority after 3036ms
+4月 12 11:28:46 ree-virtual-machine packagekitd[1482]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-security/InRelease  
+4月 12 11:28:46 ree-virtual-machine packagekitd[1482]: Some index files failed to download. They have been ignored, or old ones used instead.
+4月 12 11:28:46 ree-virtual-machine PackageKit[1482]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 12 11:28:46 ree-virtual-machine PackageKit[1482]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 12 11:28:47 ree-virtual-machine PackageKit[1482]: resolve transaction /162_ddbebcae from uid 1000 finished with success after 938ms
+4月 12 11:28:47 ree-virtual-machine packagekitd[1482]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy/InRelease  
+4月 12 11:28:47 ree-virtual-machine packagekitd[1482]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-updates/InRelease  
+4月 12 11:28:47 ree-virtual-machine packagekitd[1482]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-backports/InRelease  
+4月 12 11:28:47 ree-virtual-machine packagekitd[1482]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-security/InRelease  
+4月 12 11:28:47 ree-virtual-machine packagekitd[1482]: Some index files failed to download. They have been ignored, or old ones used instead.
+4月 12 11:28:47 ree-virtual-machine PackageKit[1482]: refresh-cache transaction /163_ebbbbaeb from uid 1000 finished with cancelled-priority after 247ms
+4月 12 11:28:49 ree-virtual-machine PackageKit[1482]: get-updates transaction /164_abebbeab from uid 1000 finished with success after 1101ms
+4月 12 11:28:49 ree-virtual-machine PackageKit[1482]: search-file transaction /165_adacdbbd from uid 1000 finished with success after 891ms
+4月 12 11:28:50 ree-virtual-machine PackageKit[1482]: get-updates transaction /166_ceecebde from uid 1000 finished with success after 356ms
+4月 12 11:28:50 ree-virtual-machine PackageKit[1482]: search-file transaction /167_ecdaedaa from uid 1000 finished with success after 259ms
+4月 12 11:28:50 ree-virtual-machine PackageKit[1482]: get-details transaction /168_dcdeddea from uid 1000 finished with success after 238ms
+4月 12 12:31:43 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+4月 12 12:31:43 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+4月 12 12:31:43 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+4月 12 12:31:43 ree-virtual-machine systemd[1]: packagekit.service: Consumed 12.786s CPU time.
+-- Boot e043495edc834fd3b8de378cf5b742ab --
+4月 12 12:32:41 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 12 12:32:41 ree-virtual-machine PackageKit[1260]: daemon start
+4月 12 12:32:41 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 12 12:33:41 ree-virtual-machine PackageKit[1260]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 12 12:33:41 ree-virtual-machine PackageKit[1260]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 12 12:33:47 ree-virtual-machine PackageKit[1260]: refresh-cache transaction /169_aabacaee from uid 1000 finished with success after 5350ms
+4月 12 12:33:51 ree-virtual-machine PackageKit[1260]: resolve transaction /170_ccecdadc from uid 1000 finished with success after 2142ms
+4月 12 12:33:51 ree-virtual-machine PackageKit[1260]: search-file transaction /171_bbbdbcce from uid 1000 finished with success after 481ms
+4月 12 12:33:51 ree-virtual-machine PackageKit[1260]: search-file transaction /172_aeaecaaa from uid 1000 finished with success after 256ms
+4月 12 12:33:52 ree-virtual-machine PackageKit[1260]: get-details transaction /173_daebaead from uid 1000 finished with success after 240ms
+4月 12 13:58:16 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+4月 12 13:58:16 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+4月 12 13:58:16 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+4月 12 13:58:16 ree-virtual-machine systemd[1]: packagekit.service: Consumed 4.071s CPU time.
+-- Boot 9296bd89129642f58a1e422116180a89 --
+4月 12 19:33:21 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 12 19:33:21 ree-virtual-machine PackageKit[1379]: daemon start
+4月 12 19:33:21 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 12 19:33:36 ree-virtual-machine PackageKit[1379]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 12 19:33:36 ree-virtual-machine PackageKit[1379]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 12 19:33:45 ree-virtual-machine PackageKit[1379]: refresh-cache transaction /174_eaedbcce from uid 1000 finished with success after 8818ms
+4月 12 19:33:50 ree-virtual-machine PackageKit[1379]: resolve transaction /175_cbaabdca from uid 1000 finished with success after 2474ms
+4月 12 19:33:51 ree-virtual-machine PackageKit[1379]: search-file transaction /176_dccccbce from uid 1000 finished with success after 476ms
+4月 12 19:33:51 ree-virtual-machine PackageKit[1379]: search-file transaction /177_ddcddedd from uid 1000 finished with success after 280ms
+4月 12 19:33:51 ree-virtual-machine PackageKit[1379]: get-details transaction /178_bbcacead from uid 1000 finished with success after 235ms
+4月 12 21:30:57 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+4月 12 21:30:57 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+4月 12 21:30:57 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+4月 12 21:30:57 ree-virtual-machine systemd[1]: packagekit.service: Consumed 7.988s CPU time.
+-- Boot e44af90cbb3e49179059ad1de25c45d0 --
+4月 12 21:31:09 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 12 21:31:09 ree-virtual-machine PackageKit[1267]: daemon start
+4月 12 21:31:09 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 12 21:34:24 ree-virtual-machine PackageKit[1267]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 12 21:34:24 ree-virtual-machine PackageKit[1267]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 12 21:35:07 ree-virtual-machine PackageKit[1267]: refresh-cache transaction /179_ccaeeaee from uid 1000 finished with success after 43167ms
+4月 12 21:35:32 ree-virtual-machine PackageKit[1267]: resolve transaction /180_abeaaabb from uid 1000 finished with success after 1178ms
+4月 12 21:35:32 ree-virtual-machine PackageKit[1267]: search-file transaction /181_abeedced from uid 1000 finished with success after 868ms
+4月 12 21:35:33 ree-virtual-machine PackageKit[1267]: search-file transaction /182_ebcedbab from uid 1000 finished with success after 314ms
+4月 12 21:35:33 ree-virtual-machine PackageKit[1267]: get-details transaction /183_aaddbeda from uid 1000 finished with success after 276ms
+4月 12 21:48:57 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+4月 12 21:48:57 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+4月 12 21:48:57 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+4月 12 21:48:57 ree-virtual-machine systemd[1]: packagekit.service: Consumed 11.610s CPU time.
+-- Boot 670c3aae65b84f6c8708951f52467260 --
+4月 12 21:49:16 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 12 21:49:16 ree-virtual-machine PackageKit[1267]: daemon start
+4月 12 21:49:16 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 12 21:49:27 ree-virtual-machine PackageKit[1267]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 12 21:49:27 ree-virtual-machine PackageKit[1267]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 12 21:49:32 ree-virtual-machine PackageKit[1267]: refresh-cache transaction /184_aececbdb from uid 1000 finished with success after 5016ms
+4月 12 21:49:57 ree-virtual-machine PackageKit[1267]: resolve transaction /185_cdbeeeea from uid 1000 finished with success after 1230ms
+4月 12 21:49:58 ree-virtual-machine PackageKit[1267]: search-file transaction /186_bdadabbc from uid 1000 finished with success after 719ms
+4月 12 21:49:58 ree-virtual-machine PackageKit[1267]: search-file transaction /187_daadeebb from uid 1000 finished with success after 254ms
+4月 12 21:49:59 ree-virtual-machine PackageKit[1267]: get-details transaction /188_debcbeaa from uid 1000 finished with success after 227ms
+4月 12 21:53:20 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+4月 12 21:53:20 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+4月 12 21:53:20 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+4月 12 21:53:20 ree-virtual-machine systemd[1]: packagekit.service: Consumed 2.730s CPU time.
+-- Boot 73255c0c6dec4ce4bca99ec2ceb12507 --
+4月 12 21:53:30 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 12 21:53:30 ree-virtual-machine PackageKit[1265]: daemon start
+4月 12 21:53:30 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 12 21:53:53 ree-virtual-machine PackageKit[1265]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 12 21:53:53 ree-virtual-machine PackageKit[1265]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 12 21:53:58 ree-virtual-machine PackageKit[1265]: refresh-cache transaction /189_accdcabd from uid 1000 finished with success after 4945ms
+4月 12 21:54:32 ree-virtual-machine PackageKit[1265]: resolve transaction /190_babebeba from uid 1000 finished with success after 1256ms
+4月 12 21:54:33 ree-virtual-machine PackageKit[1265]: search-file transaction /191_daadabdc from uid 1000 finished with success after 494ms
+4月 12 21:54:33 ree-virtual-machine PackageKit[1265]: search-file transaction /192_dccaecdc from uid 1000 finished with success after 283ms
+4月 12 21:54:33 ree-virtual-machine PackageKit[1265]: get-details transaction /193_dbdbaaad from uid 1000 finished with success after 255ms
+4月 13 01:12:51 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+4月 13 01:12:51 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+4月 13 01:12:51 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+4月 13 01:12:51 ree-virtual-machine systemd[1]: packagekit.service: Consumed 3.010s CPU time.
+-- Boot ab354c8c35ec46309c3d583c22d4722e --
+4月 13 11:49:20 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 13 11:49:20 ree-virtual-machine PackageKit[1397]: daemon start
+4月 13 11:49:20 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 13 11:49:45 ree-virtual-machine PackageKit[1397]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 13 11:49:45 ree-virtual-machine PackageKit[1397]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 13 11:50:01 ree-virtual-machine PackageKit[1397]: refresh-cache transaction /194_cecdeedd from uid 1000 finished with success after 15623ms
+4月 13 11:50:01 ree-virtual-machine PackageKit[1397]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 13 11:50:01 ree-virtual-machine PackageKit[1397]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 13 11:50:09 ree-virtual-machine PackageKit[1397]: refresh-cache transaction /195_eeaccdae from uid 1000 finished with success after 8644ms
+4月 13 11:50:13 ree-virtual-machine PackageKit[1397]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 13 11:50:13 ree-virtual-machine PackageKit[1397]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 13 11:50:15 ree-virtual-machine packagekitd[1397]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy/InRelease  
+4月 13 11:50:15 ree-virtual-machine packagekitd[1397]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-updates/InRelease  
+4月 13 11:50:15 ree-virtual-machine packagekitd[1397]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-backports/InRelease  
+4月 13 11:50:15 ree-virtual-machine packagekitd[1397]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-security/InRelease  
+4月 13 11:50:15 ree-virtual-machine PackageKit[1397]: refresh-cache transaction /196_ebdaeeda from uid 1000 finished with cancelled-priority after 1952ms
+4月 13 11:50:15 ree-virtual-machine packagekitd[1397]: Some index files failed to download. They have been ignored, or old ones used instead.
+4月 13 11:50:17 ree-virtual-machine PackageKit[1397]: get-updates transaction /197_dbdbdccc from uid 1000 finished with success after 1740ms
+4月 13 11:50:17 ree-virtual-machine PackageKit[1397]: resolve transaction /198_ccceaaea from uid 1000 finished with success after 363ms
+4月 13 11:50:18 ree-virtual-machine PackageKit[1397]: search-file transaction /199_cccacdbd from uid 1000 finished with success after 866ms
+4月 13 11:50:18 ree-virtual-machine PackageKit[1397]: search-file transaction /200_dbcaabac from uid 1000 finished with success after 331ms
+4月 13 11:50:19 ree-virtual-machine PackageKit[1397]: get-details transaction /201_deacaeee from uid 1000 finished with success after 314ms
+4月 13 11:50:19 ree-virtual-machine PackageKit[1397]: get-updates transaction /202_dadbadde from uid 1000 finished with success after 505ms
+4月 13 20:22:12 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+4月 13 20:22:12 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+4月 13 20:22:12 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+4月 13 20:22:12 ree-virtual-machine systemd[1]: packagekit.service: Consumed 16.697s CPU time.
+-- Boot 1223bb12cf164754a34338b3879bc416 --
+4月 13 20:22:54 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 13 20:22:54 ree-virtual-machine PackageKit[1319]: daemon start
+4月 13 20:22:54 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 13 20:23:49 ree-virtual-machine PackageKit[1319]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 13 20:23:49 ree-virtual-machine PackageKit[1319]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 13 20:23:54 ree-virtual-machine PackageKit[1319]: refresh-cache transaction /203_cdebbcbc from uid 1000 finished with success after 5156ms
+4月 13 20:24:01 ree-virtual-machine PackageKit[1319]: resolve transaction /204_eaadceba from uid 1000 finished with success after 1978ms
+4月 13 20:24:01 ree-virtual-machine PackageKit[1319]: search-file transaction /205_cabdbcec from uid 1000 finished with success after 711ms
+4月 13 20:24:02 ree-virtual-machine PackageKit[1319]: search-file transaction /206_addddaec from uid 1000 finished with success after 274ms
+4月 13 20:24:02 ree-virtual-machine PackageKit[1319]: get-details transaction /207_acbdaeaa from uid 1000 finished with success after 231ms
+4月 13 23:11:10 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+4月 13 23:11:10 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+4月 13 23:11:10 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+4月 13 23:11:10 ree-virtual-machine systemd[1]: packagekit.service: Consumed 3.853s CPU time.
+-- Boot eedc866258b546db86377bdd16f52c6c --
+4月 13 23:33:03 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 13 23:33:03 ree-virtual-machine PackageKit[1383]: daemon start
+4月 13 23:33:03 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 13 23:33:16 ree-virtual-machine PackageKit[1383]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 13 23:33:16 ree-virtual-machine PackageKit[1383]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 13 23:33:25 ree-virtual-machine PackageKit[1383]: refresh-cache transaction /208_bbdaebca from uid 1000 finished with success after 9253ms
+4月 13 23:33:32 ree-virtual-machine PackageKit[1383]: resolve transaction /209_ebebabae from uid 1000 finished with success after 3254ms
+4月 13 23:33:33 ree-virtual-machine PackageKit[1383]: search-file transaction /210_cbecdcce from uid 1000 finished with success after 599ms
+4月 13 23:33:33 ree-virtual-machine PackageKit[1383]: search-file transaction /211_ebcedbed from uid 1000 finished with success after 312ms
+4月 13 23:33:34 ree-virtual-machine PackageKit[1383]: get-details transaction /212_cedcabba from uid 1000 finished with success after 294ms
+4月 14 01:45:07 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+4月 14 01:45:07 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+4月 14 01:45:07 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+4月 14 01:45:07 ree-virtual-machine systemd[1]: packagekit.service: Consumed 5.297s CPU time.
+-- Boot 6336d5d01d9d47a1a84a86d400678bbe --
+4月 14 18:40:07 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 14 18:40:08 ree-virtual-machine PackageKit[1377]: daemon start
+4月 14 18:40:08 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 14 18:40:41 ree-virtual-machine PackageKit[1377]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 14 18:40:41 ree-virtual-machine PackageKit[1377]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 14 18:41:03 ree-virtual-machine PackageKit[1377]: refresh-cache transaction /213_abcbaaed from uid 1000 finished with success after 21669ms
+4月 14 18:41:03 ree-virtual-machine PackageKit[1377]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 14 18:41:03 ree-virtual-machine PackageKit[1377]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 14 18:41:06 ree-virtual-machine packagekitd[1377]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy/InRelease  
+4月 14 18:41:06 ree-virtual-machine packagekitd[1377]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-updates/InRelease  
+4月 14 18:41:06 ree-virtual-machine PackageKit[1377]: refresh-cache transaction /214_dadccdbb from uid 1000 finished with cancelled-priority after 3011ms
+4月 14 18:41:06 ree-virtual-machine packagekitd[1377]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-backports/InRelease  
+4月 14 18:41:06 ree-virtual-machine packagekitd[1377]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-security/InRelease  
+4月 14 18:41:06 ree-virtual-machine packagekitd[1377]: Some index files failed to download. They have been ignored, or old ones used instead.
+4月 14 18:41:06 ree-virtual-machine PackageKit[1377]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 14 18:41:06 ree-virtual-machine PackageKit[1377]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 14 18:41:07 ree-virtual-machine PackageKit[1377]: resolve transaction /215_bdcbceaa from uid 1000 finished with success after 924ms
+4月 14 18:41:07 ree-virtual-machine packagekitd[1377]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy/InRelease  
+4月 14 18:41:07 ree-virtual-machine packagekitd[1377]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-updates/InRelease  
+4月 14 18:41:07 ree-virtual-machine packagekitd[1377]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-backports/InRelease  
+4月 14 18:41:07 ree-virtual-machine packagekitd[1377]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-security/InRelease  
+4月 14 18:41:07 ree-virtual-machine packagekitd[1377]: Some index files failed to download. They have been ignored, or old ones used instead.
+4月 14 18:41:07 ree-virtual-machine PackageKit[1377]: refresh-cache transaction /216_edeecabc from uid 1000 finished with cancelled-priority after 240ms
+4月 14 18:41:08 ree-virtual-machine PackageKit[1377]: get-updates transaction /217_adcabeda from uid 1000 finished with success after 1108ms
+4月 14 18:41:09 ree-virtual-machine PackageKit[1377]: search-file transaction /218_cdeeeabc from uid 1000 finished with success after 848ms
+4月 14 18:41:09 ree-virtual-machine PackageKit[1377]: get-updates transaction /219_aceaebbe from uid 1000 finished with success after 371ms
+4月 14 18:41:10 ree-virtual-machine PackageKit[1377]: search-file transaction /220_cdddcdde from uid 1000 finished with success after 265ms
+4月 14 18:41:10 ree-virtual-machine PackageKit[1377]: get-details transaction /221_acddebbd from uid 1000 finished with success after 265ms
+4月 14 19:24:32 ree-virtual-machine systemd[1]: Stopping PackageKit Daemon...
+4月 14 19:24:32 ree-virtual-machine systemd[1]: packagekit.service: Deactivated successfully.
+4月 14 19:24:32 ree-virtual-machine systemd[1]: Stopped PackageKit Daemon.
+4月 14 19:24:32 ree-virtual-machine systemd[1]: packagekit.service: Consumed 13.620s CPU time.
+-- Boot 00425514c17e404db4cc5611a8f55ed9 --
+4月 14 21:28:25 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 14 21:28:25 ree-virtual-machine PackageKit[1354]: daemon start
+4月 14 21:28:25 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 14 21:28:38 ree-virtual-machine PackageKit[1354]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 14 21:28:38 ree-virtual-machine PackageKit[1354]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 14 21:28:47 ree-virtual-machine PackageKit[1354]: refresh-cache transaction /222_eeaaedbc from uid 1000 finished with success after 8936ms
+4月 14 21:28:54 ree-virtual-machine PackageKit[1354]: resolve transaction /223_ddccedad from uid 1000 finished with success after 2868ms
+4月 14 21:28:55 ree-virtual-machine PackageKit[1354]: search-file transaction /224_acbbcbdd from uid 1000 finished with success after 985ms
+4月 14 21:28:56 ree-virtual-machine PackageKit[1354]: search-file transaction /225_dcaecbbe from uid 1000 finished with success after 389ms
+4月 14 21:28:56 ree-virtual-machine PackageKit[1354]: get-details transaction /226_aaedddea from uid 1000 finished with success after 276ms
+-- Boot ac6742caea064674b1504bee9f2e0abd --
+4月 15 11:41:50 ree-virtual-machine systemd[1]: Starting PackageKit Daemon...
+4月 15 11:41:50 ree-virtual-machine PackageKit[1378]: daemon start
+4月 15 11:41:50 ree-virtual-machine systemd[1]: Started PackageKit Daemon.
+4月 15 11:42:16 ree-virtual-machine PackageKit[1378]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 15 11:42:16 ree-virtual-machine PackageKit[1378]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 15 11:42:30 ree-virtual-machine PackageKit[1378]: refresh-cache transaction /227_cadeaceb from uid 1000 finished with success after 14190ms
+4月 15 11:42:30 ree-virtual-machine PackageKit[1378]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 15 11:42:30 ree-virtual-machine PackageKit[1378]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 15 11:42:34 ree-virtual-machine packagekitd[1378]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy/InRelease  
+4月 15 11:42:34 ree-virtual-machine PackageKit[1378]: refresh-cache transaction /228_aaaaebab from uid 1000 finished with cancelled-priority after 3706ms
+4月 15 11:42:34 ree-virtual-machine packagekitd[1378]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-updates/InRelease  
+4月 15 11:42:34 ree-virtual-machine packagekitd[1378]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-backports/InRelease  
+4月 15 11:42:34 ree-virtual-machine packagekitd[1378]: Failed to fetch http://mirrors.huaweicloud.com/repository/ubuntu/dists/jammy-security/InRelease  
+4月 15 11:42:34 ree-virtual-machine packagekitd[1378]: Some index files failed to download. They have been ignored, or old ones used instead.
+4月 15 11:42:34 ree-virtual-machine PackageKit[1378]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+4月 15 11:42:34 ree-virtual-machine PackageKit[1378]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+4月 15 11:42:35 ree-virtual-machine PackageKit[1378]: resolve transaction /229_ebbcbaee from uid 1000 finished with success after 1546ms
+4月 15 11:42:41 ree-virtual-machine PackageKit[1378]: refresh-cache transaction /230_badccede from uid 1000 finished with cancelled-priority after 5273ms
+4月 15 11:42:43 ree-virtual-machine PackageKit[1378]: search-file transaction /231_cbacbbde from uid 1000 finished with success after 2239ms
+4月 15 11:42:43 ree-virtual-machine PackageKit[1378]: search-file transaction /232_dbbcbcab from uid 1000 finished with success after 309ms
+4月 15 11:42:44 ree-virtual-machine PackageKit[1378]: get-updates transaction /233_dceebbbb from uid 1000 finished with success after 463ms
+4月 15 11:42:44 ree-virtual-machine PackageKit[1378]: get-updates transaction /234_dedaabad from uid 1000 finished with success after 443ms
+4月 15 11:42:44 ree-virtual-machine PackageKit[1378]: get-details transaction /235_abbdabce from uid 1000 finished with success after 299ms
+

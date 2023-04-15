@@ -1,0 +1,152 @@
+fd: 12
+family: AF_INET
+type: SOCK_DGRAM
+local_address: 0.0.0.0:5353
+remote_address: -
+status: NONE
+pid: 888
+
+fd: 5
+family: AF_INET6
+type: SOCK_STREAM
+local_address: ::1:11111
+remote_address: -
+status: LISTEN
+pid: 1579
+
+fd: 311
+family: AF_INET6
+type: SOCK_STREAM
+local_address: ::ffff:127.0.0.1:63342
+remote_address: ::ffff:127.0.0.1:35616
+status: ESTABLISHED
+pid: 2796
+
+fd: 15
+family: AF_INET6
+type: SOCK_DGRAM
+local_address: :::34340
+remote_address: -
+status: NONE
+pid: 888
+
+fd: 7
+family: AF_INET
+type: SOCK_STREAM
+local_address: 127.0.0.1:631
+remote_address: -
+status: LISTEN
+pid: 984
+
+fd: 24
+family: AF_INET
+type: SOCK_STREAM
+local_address: 127.0.0.1:35616
+remote_address: 127.0.0.1:63342
+status: ESTABLISHED
+pid: 13665
+
+fd: 7
+family: AF_INET
+type: SOCK_DGRAM
+local_address: 0.0.0.0:631
+remote_address: -
+status: NONE
+pid: 1322
+
+fd: 14
+family: AF_INET
+type: SOCK_DGRAM
+local_address: 0.0.0.0:59295
+remote_address: -
+status: NONE
+pid: 888
+
+fd: 21
+family: AF_INET6
+type: SOCK_STREAM
+local_address: ::ffff:127.0.0.1:6942
+remote_address: -
+status: LISTEN
+pid: 2796
+
+fd: 4
+family: AF_INET6
+type: SOCK_STREAM
+local_address: :::22
+remote_address: -
+status: LISTEN
+pid: 1020
+
+fd: 3
+family: AF_INET
+type: SOCK_STREAM
+local_address: 0.0.0.0:22
+remote_address: -
+status: LISTEN
+pid: 1020
+
+fd: 13
+family: AF_INET
+type: SOCK_DGRAM
+local_address: 127.0.0.53:53
+remote_address: -
+status: NONE
+pid: 688
+
+fd: 7
+family: AF_INET
+type: SOCK_STREAM
+local_address: 127.0.0.1:11111
+remote_address: -
+status: LISTEN
+pid: 1579
+
+fd: 4
+family: AF_INET
+type: SOCK_STREAM
+local_address: 192.168.101.20:22
+remote_address: 192.168.101.17:1224
+status: ESTABLISHED
+pid: 1579
+
+fd: 25
+family: AF_INET
+type: SOCK_DGRAM
+local_address: 192.168.101.20:68
+remote_address: 192.168.101.1:67
+status: NONE
+pid: 893
+
+fd: 14
+family: AF_INET
+type: SOCK_STREAM
+local_address: 127.0.0.53:53
+remote_address: -
+status: LISTEN
+pid: 688
+
+fd: 6
+family: AF_INET6
+type: SOCK_STREAM
+local_address: ::1:631
+remote_address: -
+status: LISTEN
+pid: 984
+
+fd: 67
+family: AF_INET6
+type: SOCK_STREAM
+local_address: ::ffff:127.0.0.1:63342
+remote_address: -
+status: LISTEN
+pid: 2796
+
+fd: 13
+family: AF_INET6
+type: SOCK_DGRAM
+local_address: :::5353
+remote_address: -
+status: NONE
+pid: 888
+

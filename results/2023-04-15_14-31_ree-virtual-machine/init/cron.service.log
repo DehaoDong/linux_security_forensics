@@ -1,0 +1,705 @@
+2月 20 18:38:52 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+2月 20 18:38:52 ree-virtual-machine cron[883]: (CRON) INFO (pidfile fd = 3)
+2月 20 18:38:52 ree-virtual-machine cron[883]: (CRON) INFO (Running @reboot jobs)
+2月 20 18:52:48 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+2月 20 18:52:48 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+2月 20 18:52:48 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 59a08585a9874716bda9035a442e266a --
+2月 20 18:52:55 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+2月 20 18:52:55 ree-virtual-machine cron[846]: (CRON) INFO (pidfile fd = 3)
+2月 20 18:52:55 ree-virtual-machine cron[846]: (CRON) INFO (Running @reboot jobs)
+-- Boot 4e50f35765d14836ba11bf87868d3690 --
+2月 21 18:32:15 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+2月 21 18:32:15 ree-virtual-machine cron[865]: (CRON) INFO (pidfile fd = 3)
+2月 21 18:32:15 ree-virtual-machine cron[865]: (CRON) INFO (Running @reboot jobs)
+2月 21 18:41:05 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+2月 21 18:41:05 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+2月 21 18:41:05 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 378ef5fc52a64e67810e6fa7a9ee31e6 --
+2月 21 18:42:26 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+2月 21 18:42:26 ree-virtual-machine cron[836]: (CRON) INFO (pidfile fd = 3)
+2月 21 18:42:26 ree-virtual-machine cron[836]: (CRON) INFO (Running @reboot jobs)
+2月 21 19:01:35 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+2月 21 19:01:35 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+2月 21 19:01:35 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 48d666794bf9483ca7ebe0e999848072 --
+2月 21 19:01:44 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+2月 21 19:01:44 ree-virtual-machine cron[876]: (CRON) INFO (pidfile fd = 3)
+2月 21 19:01:44 ree-virtual-machine cron[876]: (CRON) INFO (Running @reboot jobs)
+2月 21 19:02:28 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+2月 21 19:02:28 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+2月 21 19:02:28 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot a0299816d1d24b8ab70b7c10b1502239 --
+2月 21 19:02:36 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+2月 21 19:02:36 ree-virtual-machine cron[843]: (CRON) INFO (pidfile fd = 3)
+2月 21 19:02:36 ree-virtual-machine cron[843]: (CRON) INFO (Running @reboot jobs)
+2月 21 19:17:01 ree-virtual-machine CRON[4754]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2月 21 19:17:01 ree-virtual-machine CRON[4755]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+2月 21 19:17:01 ree-virtual-machine CRON[4754]: pam_unix(cron:session): session closed for user root
+2月 21 19:17:46 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+2月 21 19:17:46 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+2月 21 19:17:46 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 7319c95352634624b166e30456e7d6e8 --
+2月 21 19:17:55 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+2月 21 19:17:55 ree-virtual-machine cron[855]: (CRON) INFO (pidfile fd = 3)
+2月 21 19:17:55 ree-virtual-machine cron[855]: (CRON) INFO (Running @reboot jobs)
+2月 21 19:23:02 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+2月 21 19:23:02 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+2月 21 19:23:02 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot e6c010b640444a48974c34b34cbf889b --
+2月 21 19:23:10 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+2月 21 19:23:10 ree-virtual-machine cron[793]: (CRON) INFO (pidfile fd = 3)
+2月 21 19:23:10 ree-virtual-machine cron[793]: (CRON) INFO (Running @reboot jobs)
+2月 21 19:30:01 ree-virtual-machine CRON[8353]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2月 21 19:30:01 ree-virtual-machine CRON[8354]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2月 21 19:30:01 ree-virtual-machine CRON[8353]: pam_unix(cron:session): session closed for user root
+2月 21 19:50:53 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+2月 21 19:50:53 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+2月 21 19:50:53 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 9ce45ab8fa0345b987fea497f44c5051 --
+3月 10 20:00:44 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 10 20:00:44 ree-virtual-machine cron[760]: (CRON) INFO (pidfile fd = 3)
+3月 10 20:00:44 ree-virtual-machine cron[760]: (CRON) INFO (Running @reboot jobs)
+3月 10 20:17:01 ree-virtual-machine CRON[20311]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 10 20:17:01 ree-virtual-machine CRON[20313]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 10 20:17:01 ree-virtual-machine CRON[20311]: pam_unix(cron:session): session closed for user root
+3月 10 20:30:01 ree-virtual-machine CRON[31139]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 10 20:30:01 ree-virtual-machine CRON[31139]: pam_unix(cron:session): session closed for user root
+3月 10 20:30:58 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 10 20:30:58 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 10 20:30:58 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 78840721b8c14d03929c91da9cf2989f --
+3月 15 11:06:35 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 15 11:06:35 ree-virtual-machine cron[797]: (CRON) INFO (pidfile fd = 3)
+3月 15 11:06:35 ree-virtual-machine cron[797]: (CRON) INFO (Running @reboot jobs)
+3月 15 11:17:01 ree-virtual-machine CRON[4242]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 15 11:17:01 ree-virtual-machine CRON[4243]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 15 11:17:01 ree-virtual-machine CRON[4242]: pam_unix(cron:session): session closed for user root
+3月 15 11:27:13 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 15 11:27:13 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 15 11:27:13 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot ca9b2e5e215f4f3fbeb8e0a2983e83e6 --
+3月 22 19:19:57 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 22 19:19:57 ree-virtual-machine cron[748]: (CRON) INFO (pidfile fd = 3)
+3月 22 19:19:57 ree-virtual-machine cron[748]: (CRON) INFO (Running @reboot jobs)
+3月 22 19:30:01 ree-virtual-machine CRON[2860]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 22 19:30:01 ree-virtual-machine CRON[2861]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 22 19:30:01 ree-virtual-machine CRON[2860]: pam_unix(cron:session): session closed for user root
+3月 22 19:56:18 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 22 19:56:18 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 22 19:56:18 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot ee7967cec9534f4aa0162aa833ebf2b7 --
+3月 22 19:56:29 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 22 19:56:29 ree-virtual-machine cron[895]: (CRON) INFO (pidfile fd = 3)
+3月 22 19:56:29 ree-virtual-machine cron[895]: (CRON) INFO (Running @reboot jobs)
+3月 22 20:17:01 ree-virtual-machine CRON[3332]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 22 20:17:01 ree-virtual-machine CRON[3333]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 22 20:17:01 ree-virtual-machine CRON[3332]: pam_unix(cron:session): session closed for user root
+3月 22 20:30:01 ree-virtual-machine CRON[3342]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 22 20:30:01 ree-virtual-machine CRON[3343]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 22 20:30:01 ree-virtual-machine CRON[3342]: pam_unix(cron:session): session closed for user root
+3月 22 21:17:01 ree-virtual-machine CRON[3401]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 22 21:17:01 ree-virtual-machine CRON[3402]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 22 21:17:01 ree-virtual-machine CRON[3401]: pam_unix(cron:session): session closed for user root
+3月 22 21:30:01 ree-virtual-machine CRON[3427]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 22 21:30:01 ree-virtual-machine CRON[3427]: pam_unix(cron:session): session closed for user root
+3月 23 14:30:01 ree-virtual-machine CRON[3896]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 23 14:30:01 ree-virtual-machine CRON[3896]: pam_unix(cron:session): session closed for user root
+-- Boot 9e3eeb915f5e4d0aab1fa06627dc238a --
+3月 25 22:03:00 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 25 22:03:00 ree-virtual-machine cron[830]: (CRON) INFO (pidfile fd = 3)
+3月 25 22:03:00 ree-virtual-machine cron[830]: (CRON) INFO (Running @reboot jobs)
+3月 25 22:17:01 ree-virtual-machine CRON[6698]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 25 22:17:01 ree-virtual-machine CRON[6699]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 25 22:17:01 ree-virtual-machine CRON[6698]: pam_unix(cron:session): session closed for user root
+3月 25 22:30:01 ree-virtual-machine CRON[8642]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 25 22:30:01 ree-virtual-machine CRON[8643]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 25 22:30:01 ree-virtual-machine CRON[8642]: pam_unix(cron:session): session closed for user root
+3月 25 23:17:01 ree-virtual-machine CRON[11018]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 25 23:17:01 ree-virtual-machine CRON[11019]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 25 23:17:01 ree-virtual-machine CRON[11018]: pam_unix(cron:session): session closed for user root
+3月 25 23:30:01 ree-virtual-machine CRON[11048]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 25 23:30:01 ree-virtual-machine CRON[11048]: pam_unix(cron:session): session closed for user root
+3月 26 15:17:01 ree-virtual-machine CRON[12038]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 26 15:17:01 ree-virtual-machine CRON[12039]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 26 15:17:01 ree-virtual-machine CRON[12038]: pam_unix(cron:session): session closed for user root
+3月 26 19:17:01 ree-virtual-machine CRON[13401]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 26 19:17:01 ree-virtual-machine CRON[13402]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 26 19:17:01 ree-virtual-machine CRON[13401]: pam_unix(cron:session): session closed for user root
+3月 26 19:30:01 ree-virtual-machine CRON[13410]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 26 19:30:01 ree-virtual-machine CRON[13410]: pam_unix(cron:session): session closed for user root
+3月 26 20:17:01 ree-virtual-machine CRON[13443]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 26 20:17:01 ree-virtual-machine CRON[13444]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 26 20:17:01 ree-virtual-machine CRON[13443]: pam_unix(cron:session): session closed for user root
+3月 26 20:30:01 ree-virtual-machine CRON[13454]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 26 20:30:01 ree-virtual-machine CRON[13454]: pam_unix(cron:session): session closed for user root
+3月 27 12:17:01 ree-virtual-machine CRON[13967]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 12:17:01 ree-virtual-machine CRON[13968]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 27 12:17:01 ree-virtual-machine CRON[13967]: pam_unix(cron:session): session closed for user root
+3月 27 12:30:01 ree-virtual-machine CRON[14010]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 12:30:01 ree-virtual-machine CRON[14011]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 27 12:30:01 ree-virtual-machine CRON[14010]: pam_unix(cron:session): session closed for user root
+3月 27 13:17:01 ree-virtual-machine CRON[14047]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 13:17:01 ree-virtual-machine CRON[14048]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 27 13:17:01 ree-virtual-machine CRON[14047]: pam_unix(cron:session): session closed for user root
+3月 27 13:30:01 ree-virtual-machine CRON[14062]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 13:30:01 ree-virtual-machine CRON[14063]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 27 13:30:01 ree-virtual-machine CRON[14062]: pam_unix(cron:session): session closed for user root
+3月 27 16:20:19 ree-virtual-machine CRON[14173]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 16:20:19 ree-virtual-machine CRON[14174]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 27 16:20:19 ree-virtual-machine CRON[14173]: pam_unix(cron:session): session closed for user root
+3月 27 16:20:19 ree-virtual-machine CRON[14175]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 16:20:19 ree-virtual-machine CRON[14176]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 27 16:20:19 ree-virtual-machine CRON[14175]: pam_unix(cron:session): session closed for user root
+3月 27 16:30:02 ree-virtual-machine CRON[15800]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 16:30:02 ree-virtual-machine CRON[15801]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 27 16:30:02 ree-virtual-machine CRON[15800]: pam_unix(cron:session): session closed for user root
+3月 27 17:17:01 ree-virtual-machine CRON[17735]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 17:17:01 ree-virtual-machine CRON[17736]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 27 17:17:01 ree-virtual-machine CRON[17735]: pam_unix(cron:session): session closed for user root
+3月 27 17:30:01 ree-virtual-machine CRON[18188]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 17:30:01 ree-virtual-machine CRON[18188]: pam_unix(cron:session): session closed for user root
+3月 27 18:17:01 ree-virtual-machine CRON[18577]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 18:17:01 ree-virtual-machine CRON[18578]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 27 18:17:01 ree-virtual-machine CRON[18577]: pam_unix(cron:session): session closed for user root
+3月 27 18:30:01 ree-virtual-machine CRON[18977]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 18:30:01 ree-virtual-machine CRON[18977]: pam_unix(cron:session): session closed for user root
+3月 27 19:17:01 ree-virtual-machine CRON[19409]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 19:17:01 ree-virtual-machine CRON[19410]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 27 19:17:01 ree-virtual-machine CRON[19409]: pam_unix(cron:session): session closed for user root
+3月 27 19:30:01 ree-virtual-machine CRON[19448]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 19:30:01 ree-virtual-machine CRON[19449]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 27 19:30:01 ree-virtual-machine CRON[19448]: pam_unix(cron:session): session closed for user root
+3月 27 20:17:01 ree-virtual-machine CRON[19492]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 20:17:01 ree-virtual-machine CRON[19493]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 27 20:17:01 ree-virtual-machine CRON[19492]: pam_unix(cron:session): session closed for user root
+3月 27 20:30:01 ree-virtual-machine CRON[19506]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 20:30:01 ree-virtual-machine CRON[19506]: pam_unix(cron:session): session closed for user root
+3月 27 21:17:01 ree-virtual-machine CRON[19545]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 21:17:01 ree-virtual-machine CRON[19546]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 27 21:17:01 ree-virtual-machine CRON[19545]: pam_unix(cron:session): session closed for user root
+3月 27 21:30:01 ree-virtual-machine CRON[19559]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 21:30:01 ree-virtual-machine CRON[19559]: pam_unix(cron:session): session closed for user root
+3月 27 22:17:01 ree-virtual-machine CRON[19726]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 22:17:01 ree-virtual-machine CRON[19727]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 27 22:17:01 ree-virtual-machine CRON[19726]: pam_unix(cron:session): session closed for user root
+3月 27 22:30:01 ree-virtual-machine CRON[19741]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 27 22:30:01 ree-virtual-machine CRON[19741]: pam_unix(cron:session): session closed for user root
+3月 28 00:53:36 ree-virtual-machine CRON[19864]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 00:53:36 ree-virtual-machine CRON[19864]: pam_unix(cron:session): session closed for user root
+3月 28 01:17:01 ree-virtual-machine CRON[19975]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 01:17:01 ree-virtual-machine CRON[19976]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 28 01:17:01 ree-virtual-machine CRON[19975]: pam_unix(cron:session): session closed for user root
+-- Boot cce731051b6244c4a03f32893ae3c956 --
+3月 28 10:31:03 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 28 10:31:03 ree-virtual-machine cron[814]: (CRON) INFO (pidfile fd = 3)
+3月 28 10:31:03 ree-virtual-machine cron[814]: (CRON) INFO (Running @reboot jobs)
+3月 28 11:17:01 ree-virtual-machine CRON[12670]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 11:17:01 ree-virtual-machine CRON[12671]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 28 11:17:01 ree-virtual-machine CRON[12670]: pam_unix(cron:session): session closed for user root
+3月 28 11:30:01 ree-virtual-machine CRON[13104]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 11:30:01 ree-virtual-machine CRON[13104]: pam_unix(cron:session): session closed for user root
+3月 28 12:17:01 ree-virtual-machine CRON[13278]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 12:17:01 ree-virtual-machine CRON[13279]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 28 12:17:01 ree-virtual-machine CRON[13278]: pam_unix(cron:session): session closed for user root
+3月 28 12:30:01 ree-virtual-machine CRON[13300]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 12:30:01 ree-virtual-machine CRON[13300]: pam_unix(cron:session): session closed for user root
+3月 28 13:36:31 ree-virtual-machine CRON[13372]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 13:36:31 ree-virtual-machine CRON[13373]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 28 13:36:31 ree-virtual-machine CRON[13372]: pam_unix(cron:session): session closed for user root
+3月 28 14:17:01 ree-virtual-machine CRON[13636]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 14:17:01 ree-virtual-machine CRON[13637]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 28 14:17:01 ree-virtual-machine CRON[13636]: pam_unix(cron:session): session closed for user root
+3月 28 14:30:01 ree-virtual-machine CRON[13658]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 14:30:01 ree-virtual-machine CRON[13658]: pam_unix(cron:session): session closed for user root
+3月 28 15:17:01 ree-virtual-machine CRON[13698]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 15:17:01 ree-virtual-machine CRON[13699]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 28 15:17:01 ree-virtual-machine CRON[13698]: pam_unix(cron:session): session closed for user root
+3月 28 15:30:01 ree-virtual-machine CRON[13715]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 15:30:01 ree-virtual-machine CRON[13715]: pam_unix(cron:session): session closed for user root
+3月 28 16:17:01 ree-virtual-machine CRON[14012]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 16:17:01 ree-virtual-machine CRON[14013]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 28 16:17:01 ree-virtual-machine CRON[14012]: pam_unix(cron:session): session closed for user root
+3月 28 16:30:01 ree-virtual-machine CRON[14081]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 16:30:01 ree-virtual-machine CRON[14081]: pam_unix(cron:session): session closed for user root
+3月 28 17:17:01 ree-virtual-machine CRON[14237]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 17:17:01 ree-virtual-machine CRON[14238]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 28 17:17:01 ree-virtual-machine CRON[14237]: pam_unix(cron:session): session closed for user root
+3月 28 17:30:01 ree-virtual-machine CRON[14255]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 17:30:01 ree-virtual-machine CRON[14255]: pam_unix(cron:session): session closed for user root
+3月 28 18:17:01 ree-virtual-machine CRON[14384]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 18:17:01 ree-virtual-machine CRON[14385]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 28 18:17:01 ree-virtual-machine CRON[14384]: pam_unix(cron:session): session closed for user root
+3月 28 18:30:01 ree-virtual-machine CRON[14397]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 18:30:01 ree-virtual-machine CRON[14398]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 28 18:30:01 ree-virtual-machine CRON[14397]: pam_unix(cron:session): session closed for user root
+3月 28 19:17:01 ree-virtual-machine CRON[14652]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 19:17:01 ree-virtual-machine CRON[14653]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 28 19:17:01 ree-virtual-machine CRON[14652]: pam_unix(cron:session): session closed for user root
+3月 28 19:30:01 ree-virtual-machine CRON[14702]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 19:30:01 ree-virtual-machine CRON[14702]: pam_unix(cron:session): session closed for user root
+3月 28 20:17:01 ree-virtual-machine CRON[14802]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 20:17:01 ree-virtual-machine CRON[14803]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 28 20:17:01 ree-virtual-machine CRON[14802]: pam_unix(cron:session): session closed for user root
+3月 28 20:30:01 ree-virtual-machine CRON[14832]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 20:30:01 ree-virtual-machine CRON[14832]: pam_unix(cron:session): session closed for user root
+3月 28 21:17:01 ree-virtual-machine CRON[14888]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 21:17:01 ree-virtual-machine CRON[14889]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 28 21:17:01 ree-virtual-machine CRON[14888]: pam_unix(cron:session): session closed for user root
+3月 28 21:30:01 ree-virtual-machine CRON[14913]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 21:30:01 ree-virtual-machine CRON[14913]: pam_unix(cron:session): session closed for user root
+3月 28 22:17:01 ree-virtual-machine CRON[16364]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 22:17:01 ree-virtual-machine CRON[16365]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 28 22:17:01 ree-virtual-machine CRON[16364]: pam_unix(cron:session): session closed for user root
+3月 28 22:30:01 ree-virtual-machine CRON[16471]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 22:30:01 ree-virtual-machine CRON[16472]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 28 22:30:01 ree-virtual-machine CRON[16471]: pam_unix(cron:session): session closed for user root
+3月 28 23:17:01 ree-virtual-machine CRON[16721]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 23:17:01 ree-virtual-machine CRON[16721]: pam_unix(cron:session): session closed for user root
+3月 28 23:30:01 ree-virtual-machine CRON[17445]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 28 23:30:01 ree-virtual-machine CRON[17446]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 28 23:30:01 ree-virtual-machine CRON[17445]: pam_unix(cron:session): session closed for user root
+3月 29 00:17:01 ree-virtual-machine CRON[20970]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 29 00:17:01 ree-virtual-machine CRON[20971]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 29 00:17:01 ree-virtual-machine CRON[20970]: pam_unix(cron:session): session closed for user root
+-- Boot 2a886fae77824755a4d8c5453e54eec8 --
+3月 29 11:43:31 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 29 11:43:31 ree-virtual-machine cron[756]: (CRON) INFO (pidfile fd = 3)
+3月 29 11:43:31 ree-virtual-machine cron[756]: (CRON) INFO (Running @reboot jobs)
+3月 29 12:17:01 ree-virtual-machine CRON[4350]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 29 12:17:01 ree-virtual-machine CRON[4351]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 29 12:17:01 ree-virtual-machine CRON[4350]: pam_unix(cron:session): session closed for user root
+3月 29 12:30:01 ree-virtual-machine CRON[4360]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 29 12:30:01 ree-virtual-machine CRON[4361]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 29 12:30:01 ree-virtual-machine CRON[4360]: pam_unix(cron:session): session closed for user root
+3月 29 12:42:33 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 29 12:42:34 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 29 12:42:34 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot bb0991777ac541be83385906c043308d --
+3月 29 12:42:41 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 29 12:42:41 ree-virtual-machine cron[847]: (CRON) INFO (pidfile fd = 3)
+3月 29 12:42:41 ree-virtual-machine cron[847]: (CRON) INFO (Running @reboot jobs)
+3月 29 12:50:43 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 29 12:50:43 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 29 12:50:43 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot d7712a95bc0b49358ac3d7c9a0282431 --
+3月 29 13:18:47 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 29 13:18:47 ree-virtual-machine cron[885]: (CRON) INFO (pidfile fd = 3)
+3月 29 13:18:47 ree-virtual-machine cron[885]: (CRON) INFO (Running @reboot jobs)
+3月 29 13:23:16 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 29 13:23:16 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 29 13:23:16 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 19b4dd46eb7b4597999d4311a7fcd580 --
+3月 29 13:24:44 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 29 13:24:44 ree-virtual-machine cron[708]: (CRON) INFO (pidfile fd = 3)
+3月 29 13:24:44 ree-virtual-machine cron[708]: (CRON) INFO (Running @reboot jobs)
+3月 29 13:30:01 ree-virtual-machine CRON[3647]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 29 13:30:01 ree-virtual-machine CRON[3648]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 29 13:30:01 ree-virtual-machine CRON[3647]: pam_unix(cron:session): session closed for user root
+3月 29 14:17:01 ree-virtual-machine CRON[7692]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 29 14:17:01 ree-virtual-machine CRON[7693]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 29 14:17:01 ree-virtual-machine CRON[7692]: pam_unix(cron:session): session closed for user root
+3月 29 14:30:01 ree-virtual-machine CRON[7840]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 29 14:30:01 ree-virtual-machine CRON[7841]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 29 14:30:01 ree-virtual-machine CRON[7840]: pam_unix(cron:session): session closed for user root
+3月 29 15:17:01 ree-virtual-machine CRON[8115]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 29 15:17:01 ree-virtual-machine CRON[8116]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 29 15:17:01 ree-virtual-machine CRON[8115]: pam_unix(cron:session): session closed for user root
+3月 29 15:30:01 ree-virtual-machine CRON[8251]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 29 15:30:01 ree-virtual-machine CRON[8252]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 29 15:30:01 ree-virtual-machine CRON[8251]: pam_unix(cron:session): session closed for user root
+-- Boot 9d814a28020a4d1b8dc1b211140df378 --
+3月 30 14:04:52 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 30 14:04:52 ree-virtual-machine cron[805]: (CRON) INFO (pidfile fd = 3)
+3月 30 14:04:52 ree-virtual-machine cron[805]: (CRON) INFO (Running @reboot jobs)
+3月 30 14:17:01 ree-virtual-machine CRON[5166]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 30 14:17:01 ree-virtual-machine CRON[5167]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 30 14:17:01 ree-virtual-machine CRON[5166]: pam_unix(cron:session): session closed for user root
+3月 30 14:30:01 ree-virtual-machine CRON[5886]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 30 14:30:01 ree-virtual-machine CRON[5887]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 30 14:30:01 ree-virtual-machine CRON[5886]: pam_unix(cron:session): session closed for user root
+3月 30 14:58:38 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 30 14:58:39 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 30 14:58:39 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 84aa09a898d145c7a959de6db29053d7 --
+3月 30 15:02:20 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 30 15:02:20 ree-virtual-machine cron[756]: (CRON) INFO (pidfile fd = 3)
+3月 30 15:02:20 ree-virtual-machine cron[756]: (CRON) INFO (Running @reboot jobs)
+3月 30 15:02:52 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 30 15:02:52 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 30 15:02:52 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot aa4829cf4bad48fb9f7b1a4eb947f5c0 --
+3月 30 15:03:27 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 30 15:03:27 ree-virtual-machine cron[899]: (CRON) INFO (pidfile fd = 3)
+3月 30 15:03:27 ree-virtual-machine cron[899]: (CRON) INFO (Running @reboot jobs)
+3月 30 15:03:35 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 30 15:03:35 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 30 15:03:35 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 00a7e42d2b624b439bea376a3bc361f1 --
+3月 30 15:14:14 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 30 15:14:14 ree-virtual-machine cron[801]: (CRON) INFO (pidfile fd = 3)
+3月 30 15:14:14 ree-virtual-machine cron[801]: (CRON) INFO (Running @reboot jobs)
+3月 30 15:15:05 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 30 15:15:05 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 30 15:15:05 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 1516c1af27714148858b849306510739 --
+3月 30 15:23:25 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 30 15:23:25 ree-virtual-machine cron[777]: (CRON) INFO (pidfile fd = 3)
+3月 30 15:23:25 ree-virtual-machine cron[777]: (CRON) INFO (Running @reboot jobs)
+3月 30 15:30:01 ree-virtual-machine CRON[4002]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 30 15:30:01 ree-virtual-machine CRON[4003]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 30 15:30:01 ree-virtual-machine CRON[4002]: pam_unix(cron:session): session closed for user root
+3月 30 15:38:16 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 30 15:38:16 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 30 15:38:16 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 9069828abd4b41e5829b4880b07ecdde --
+3月 30 15:38:53 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 30 15:38:53 ree-virtual-machine cron[804]: (CRON) INFO (pidfile fd = 3)
+3月 30 15:38:53 ree-virtual-machine cron[804]: (CRON) INFO (Running @reboot jobs)
+-- Boot 76e16ebfbeab47788bc4dd8853d9fe7e --
+3月 30 17:34:19 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 30 17:34:19 ree-virtual-machine cron[835]: (CRON) INFO (pidfile fd = 3)
+3月 30 17:34:19 ree-virtual-machine cron[835]: (CRON) INFO (Running @reboot jobs)
+3月 30 18:17:01 ree-virtual-machine CRON[9490]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 30 18:17:01 ree-virtual-machine CRON[9491]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 30 18:17:01 ree-virtual-machine CRON[9490]: pam_unix(cron:session): session closed for user root
+3月 30 18:30:01 ree-virtual-machine CRON[9773]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 30 18:30:01 ree-virtual-machine CRON[9774]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 30 18:30:01 ree-virtual-machine CRON[9773]: pam_unix(cron:session): session closed for user root
+3月 30 20:26:12 ree-virtual-machine CRON[10686]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 30 20:26:12 ree-virtual-machine CRON[10687]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 30 20:26:12 ree-virtual-machine CRON[10686]: pam_unix(cron:session): session closed for user root
+3月 30 20:30:01 ree-virtual-machine CRON[10706]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 30 20:30:01 ree-virtual-machine CRON[10707]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 30 20:30:01 ree-virtual-machine CRON[10706]: pam_unix(cron:session): session closed for user root
+3月 30 20:32:24 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 30 20:32:24 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 30 20:32:24 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot e249c720d58849269d73a22f14ee6fb9 --
+3月 30 20:32:33 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 30 20:32:33 ree-virtual-machine cron[854]: (CRON) INFO (pidfile fd = 3)
+3月 30 20:32:33 ree-virtual-machine cron[854]: (CRON) INFO (Running @reboot jobs)
+3月 30 21:17:01 ree-virtual-machine CRON[5495]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 30 21:17:01 ree-virtual-machine CRON[5496]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 30 21:17:01 ree-virtual-machine CRON[5495]: pam_unix(cron:session): session closed for user root
+3月 30 21:30:01 ree-virtual-machine CRON[6112]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 30 21:30:01 ree-virtual-machine CRON[6113]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 30 21:30:01 ree-virtual-machine CRON[6112]: pam_unix(cron:session): session closed for user root
+-- Boot 9ccccf2adff74839b8fba49d83281f8b --
+3月 30 22:53:44 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 30 22:53:44 ree-virtual-machine cron[827]: (CRON) INFO (pidfile fd = 3)
+3月 30 22:53:44 ree-virtual-machine cron[827]: (CRON) INFO (Running @reboot jobs)
+3月 30 23:17:01 ree-virtual-machine CRON[3935]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 30 23:17:01 ree-virtual-machine CRON[3936]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 30 23:17:01 ree-virtual-machine CRON[3935]: pam_unix(cron:session): session closed for user root
+3月 30 23:30:01 ree-virtual-machine CRON[3952]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 30 23:30:01 ree-virtual-machine CRON[3952]: pam_unix(cron:session): session closed for user root
+3月 30 23:30:42 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 30 23:30:42 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 30 23:30:42 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 308f7b0f7a274f0bb6200973f34667b6 --
+3月 31 00:22:28 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 31 00:22:28 ree-virtual-machine cron[823]: (CRON) INFO (pidfile fd = 3)
+3月 31 00:22:28 ree-virtual-machine cron[823]: (CRON) INFO (Running @reboot jobs)
+3月 31 00:27:29 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 31 00:27:29 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 31 00:27:29 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot d85c7c53e5114994bc2f0f623b3af509 --
+3月 31 19:12:15 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 31 19:12:16 ree-virtual-machine cron[817]: (CRON) INFO (pidfile fd = 3)
+3月 31 19:12:16 ree-virtual-machine cron[817]: (CRON) INFO (Running @reboot jobs)
+3月 31 19:17:01 ree-virtual-machine CRON[3866]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 31 19:17:01 ree-virtual-machine CRON[3867]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 31 19:17:01 ree-virtual-machine CRON[3866]: pam_unix(cron:session): session closed for user root
+3月 31 19:30:01 ree-virtual-machine CRON[17386]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 31 19:30:01 ree-virtual-machine CRON[17387]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 31 19:30:01 ree-virtual-machine CRON[17386]: pam_unix(cron:session): session closed for user root
+3月 31 19:35:33 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 31 19:35:33 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 31 19:35:33 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 09785a07d95540b1ad518945fbcc300d --
+3月 31 19:43:50 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 31 19:43:50 ree-virtual-machine cron[827]: (CRON) INFO (pidfile fd = 3)
+3月 31 19:43:50 ree-virtual-machine cron[827]: (CRON) INFO (Running @reboot jobs)
+3月 31 19:44:59 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+3月 31 19:44:59 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+3月 31 19:44:59 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 436dee14f55b451a880859c1f76478af --
+3月 31 21:10:03 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+3月 31 21:10:03 ree-virtual-machine cron[837]: (CRON) INFO (pidfile fd = 3)
+3月 31 21:10:03 ree-virtual-machine cron[837]: (CRON) INFO (Running @reboot jobs)
+3月 31 21:17:01 ree-virtual-machine CRON[3130]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 31 21:17:01 ree-virtual-machine CRON[3131]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+3月 31 21:17:01 ree-virtual-machine CRON[3130]: pam_unix(cron:session): session closed for user root
+3月 31 21:30:01 ree-virtual-machine CRON[4629]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+3月 31 21:30:01 ree-virtual-machine CRON[4630]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+3月 31 21:30:01 ree-virtual-machine CRON[4629]: pam_unix(cron:session): session closed for user root
+4月 03 22:12:10 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+4月 03 22:12:10 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+4月 03 22:12:10 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot e2fd3a66bd3b4bd68261cb94d3fee451 --
+4月 04 12:20:46 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 04 12:20:46 ree-virtual-machine cron[774]: (CRON) INFO (pidfile fd = 3)
+4月 04 12:20:46 ree-virtual-machine cron[774]: (CRON) INFO (Running @reboot jobs)
+4月 04 12:30:01 ree-virtual-machine CRON[6196]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 04 12:30:01 ree-virtual-machine CRON[6197]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+4月 04 12:30:01 ree-virtual-machine CRON[6196]: pam_unix(cron:session): session closed for user root
+4月 04 17:35:37 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+4月 04 17:35:37 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+4月 04 17:35:37 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 25dbee67bff049baa23eecea014b8763 --
+4月 04 17:35:54 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 04 17:35:54 ree-virtual-machine cron[864]: (CRON) INFO (pidfile fd = 3)
+4月 04 17:35:54 ree-virtual-machine cron[864]: (CRON) INFO (Running @reboot jobs)
+4月 04 18:17:02 ree-virtual-machine CRON[5268]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 04 18:17:02 ree-virtual-machine CRON[5269]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 04 18:17:02 ree-virtual-machine CRON[5268]: pam_unix(cron:session): session closed for user root
+4月 04 18:30:01 ree-virtual-machine CRON[5396]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 04 18:30:01 ree-virtual-machine CRON[5396]: pam_unix(cron:session): session closed for user root
+4月 04 19:17:01 ree-virtual-machine CRON[6074]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 04 19:17:01 ree-virtual-machine CRON[6075]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 04 19:17:01 ree-virtual-machine CRON[6074]: pam_unix(cron:session): session closed for user root
+4月 04 19:30:01 ree-virtual-machine CRON[6557]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 04 19:30:01 ree-virtual-machine CRON[6558]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+4月 04 19:30:01 ree-virtual-machine CRON[6557]: pam_unix(cron:session): session closed for user root
+4月 04 20:17:01 ree-virtual-machine CRON[7177]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 04 20:17:01 ree-virtual-machine CRON[7178]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 04 20:17:01 ree-virtual-machine CRON[7177]: pam_unix(cron:session): session closed for user root
+4月 04 20:30:01 ree-virtual-machine CRON[7307]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 04 20:30:01 ree-virtual-machine CRON[7307]: pam_unix(cron:session): session closed for user root
+4月 04 20:54:00 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+4月 04 20:54:00 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+4月 04 20:54:00 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 0d532a9de8ef4df1a92a1cc3f8ce562d --
+4月 09 19:14:33 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 09 19:14:33 ree-virtual-machine cron[764]: (CRON) INFO (pidfile fd = 3)
+4月 09 19:14:33 ree-virtual-machine cron[764]: (CRON) INFO (Running @reboot jobs)
+4月 09 19:17:01 ree-virtual-machine CRON[3396]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 09 19:17:01 ree-virtual-machine CRON[3397]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 09 19:17:01 ree-virtual-machine CRON[3396]: pam_unix(cron:session): session closed for user root
+4月 09 19:17:43 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+4月 09 19:17:43 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+4月 09 19:17:43 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 66c095c2b40d4348bbbaa9bd9371fd5b --
+4月 09 19:21:17 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 09 19:21:17 ree-virtual-machine cron[807]: (CRON) INFO (pidfile fd = 3)
+4月 09 19:21:17 ree-virtual-machine cron[807]: (CRON) INFO (Running @reboot jobs)
+4月 09 19:30:01 ree-virtual-machine CRON[5148]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 09 19:30:01 ree-virtual-machine CRON[5149]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+4月 09 19:30:01 ree-virtual-machine CRON[5148]: pam_unix(cron:session): session closed for user root
+4月 09 20:17:01 ree-virtual-machine CRON[7553]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 09 20:17:01 ree-virtual-machine CRON[7554]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 09 20:17:01 ree-virtual-machine CRON[7553]: pam_unix(cron:session): session closed for user root
+4月 09 20:30:01 ree-virtual-machine CRON[7593]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 09 20:30:01 ree-virtual-machine CRON[7593]: pam_unix(cron:session): session closed for user root
+4月 09 21:17:01 ree-virtual-machine CRON[7819]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 09 21:17:01 ree-virtual-machine CRON[7820]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 09 21:17:01 ree-virtual-machine CRON[7819]: pam_unix(cron:session): session closed for user root
+4月 09 21:30:01 ree-virtual-machine CRON[7862]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 09 21:30:01 ree-virtual-machine CRON[7862]: pam_unix(cron:session): session closed for user root
+4月 09 21:44:17 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+4月 09 21:44:17 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+4月 09 21:44:17 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 125b443d38b7450fbc1c404530e9dc9e --
+4月 12 11:21:57 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 12 11:21:57 ree-virtual-machine cron[894]: (CRON) INFO (pidfile fd = 3)
+4月 12 11:21:57 ree-virtual-machine cron[894]: (CRON) INFO (Running @reboot jobs)
+4月 12 11:30:01 ree-virtual-machine CRON[3538]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 12 11:30:01 ree-virtual-machine CRON[3539]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+4月 12 11:30:01 ree-virtual-machine CRON[3538]: pam_unix(cron:session): session closed for user root
+4月 12 12:17:01 ree-virtual-machine CRON[6455]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 12 12:17:01 ree-virtual-machine CRON[6456]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 12 12:17:01 ree-virtual-machine CRON[6455]: pam_unix(cron:session): session closed for user root
+4月 12 12:30:01 ree-virtual-machine CRON[6710]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 12 12:30:01 ree-virtual-machine CRON[6710]: pam_unix(cron:session): session closed for user root
+4月 12 12:31:43 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+4月 12 12:31:43 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+4月 12 12:31:43 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot e043495edc834fd3b8de378cf5b742ab --
+4月 12 12:32:37 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 12 12:32:37 ree-virtual-machine cron[789]: (CRON) INFO (pidfile fd = 3)
+4月 12 12:32:37 ree-virtual-machine cron[789]: (CRON) INFO (Running @reboot jobs)
+4月 12 13:17:01 ree-virtual-machine CRON[5661]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 12 13:17:01 ree-virtual-machine CRON[5662]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 12 13:17:01 ree-virtual-machine CRON[5661]: pam_unix(cron:session): session closed for user root
+4月 12 13:30:01 ree-virtual-machine CRON[5931]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 12 13:30:01 ree-virtual-machine CRON[5932]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+4月 12 13:30:01 ree-virtual-machine CRON[5931]: pam_unix(cron:session): session closed for user root
+4月 12 13:58:16 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+4月 12 13:58:16 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+4月 12 13:58:16 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 9296bd89129642f58a1e422116180a89 --
+4月 12 19:33:18 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 12 19:33:18 ree-virtual-machine cron[902]: (CRON) INFO (pidfile fd = 3)
+4月 12 19:33:18 ree-virtual-machine cron[902]: (CRON) INFO (Running @reboot jobs)
+4月 12 20:17:01 ree-virtual-machine CRON[5173]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 12 20:17:01 ree-virtual-machine CRON[5174]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 12 20:17:01 ree-virtual-machine CRON[5173]: pam_unix(cron:session): session closed for user root
+4月 12 20:30:01 ree-virtual-machine CRON[5387]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 12 20:30:01 ree-virtual-machine CRON[5387]: pam_unix(cron:session): session closed for user root
+4月 12 21:17:01 ree-virtual-machine CRON[6902]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 12 21:17:01 ree-virtual-machine CRON[6903]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 12 21:17:01 ree-virtual-machine CRON[6902]: pam_unix(cron:session): session closed for user root
+4月 12 21:30:01 ree-virtual-machine CRON[8183]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 12 21:30:01 ree-virtual-machine CRON[8184]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+4月 12 21:30:01 ree-virtual-machine CRON[8183]: pam_unix(cron:session): session closed for user root
+4月 12 21:30:57 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+4月 12 21:30:57 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+4月 12 21:30:57 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot e44af90cbb3e49179059ad1de25c45d0 --
+4月 12 21:31:07 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 12 21:31:07 ree-virtual-machine cron[815]: (CRON) INFO (pidfile fd = 3)
+4月 12 21:31:07 ree-virtual-machine cron[815]: (CRON) INFO (Running @reboot jobs)
+4月 12 21:48:57 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+4月 12 21:48:57 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+4月 12 21:48:57 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 670c3aae65b84f6c8708951f52467260 --
+4月 12 21:49:13 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 12 21:49:13 ree-virtual-machine cron[884]: (CRON) INFO (pidfile fd = 3)
+4月 12 21:49:13 ree-virtual-machine cron[884]: (CRON) INFO (Running @reboot jobs)
+4月 12 21:53:20 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+4月 12 21:53:20 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+4月 12 21:53:20 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 73255c0c6dec4ce4bca99ec2ceb12507 --
+4月 12 21:53:28 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 12 21:53:28 ree-virtual-machine cron[802]: (CRON) INFO (pidfile fd = 3)
+4月 12 21:53:28 ree-virtual-machine cron[802]: (CRON) INFO (Running @reboot jobs)
+4月 12 22:17:01 ree-virtual-machine CRON[5244]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 12 22:17:01 ree-virtual-machine CRON[5245]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 12 22:17:01 ree-virtual-machine CRON[5244]: pam_unix(cron:session): session closed for user root
+4月 12 22:30:01 ree-virtual-machine CRON[5658]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 12 22:30:01 ree-virtual-machine CRON[5658]: pam_unix(cron:session): session closed for user root
+4月 12 23:17:01 ree-virtual-machine CRON[6527]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 12 23:17:01 ree-virtual-machine CRON[6528]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 12 23:17:01 ree-virtual-machine CRON[6527]: pam_unix(cron:session): session closed for user root
+4月 12 23:30:01 ree-virtual-machine CRON[6550]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 12 23:30:01 ree-virtual-machine CRON[6550]: pam_unix(cron:session): session closed for user root
+4月 13 00:17:01 ree-virtual-machine CRON[7001]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 13 00:17:01 ree-virtual-machine CRON[7002]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 13 00:17:01 ree-virtual-machine CRON[7001]: pam_unix(cron:session): session closed for user root
+4月 13 01:12:51 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+4月 13 01:12:51 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+4月 13 01:12:51 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot ab354c8c35ec46309c3d583c22d4722e --
+4月 13 11:49:15 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 13 11:49:15 ree-virtual-machine cron[905]: (CRON) INFO (pidfile fd = 3)
+4月 13 11:49:15 ree-virtual-machine cron[905]: (CRON) INFO (Running @reboot jobs)
+4月 13 12:17:01 ree-virtual-machine CRON[5597]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 13 12:17:01 ree-virtual-machine CRON[5598]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 13 12:17:01 ree-virtual-machine CRON[5597]: pam_unix(cron:session): session closed for user root
+4月 13 12:30:01 ree-virtual-machine CRON[5733]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 13 12:30:01 ree-virtual-machine CRON[5733]: pam_unix(cron:session): session closed for user root
+4月 13 13:17:01 ree-virtual-machine CRON[6041]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 13 13:17:01 ree-virtual-machine CRON[6042]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 13 13:17:01 ree-virtual-machine CRON[6041]: pam_unix(cron:session): session closed for user root
+4月 13 13:30:01 ree-virtual-machine CRON[6257]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 13 13:30:01 ree-virtual-machine CRON[6258]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+4月 13 13:30:01 ree-virtual-machine CRON[6257]: pam_unix(cron:session): session closed for user root
+4月 13 14:17:01 ree-virtual-machine CRON[6877]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 13 14:17:01 ree-virtual-machine CRON[6878]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 13 14:17:01 ree-virtual-machine CRON[6877]: pam_unix(cron:session): session closed for user root
+4月 13 14:30:01 ree-virtual-machine CRON[6936]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 13 14:30:01 ree-virtual-machine CRON[6936]: pam_unix(cron:session): session closed for user root
+4月 13 16:34:43 ree-virtual-machine CRON[7055]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 13 16:34:43 ree-virtual-machine CRON[7056]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+4月 13 16:34:43 ree-virtual-machine CRON[7055]: pam_unix(cron:session): session closed for user root
+4月 13 16:34:43 ree-virtual-machine CRON[7057]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 13 16:34:43 ree-virtual-machine CRON[7058]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+4月 13 16:34:43 ree-virtual-machine CRON[7057]: pam_unix(cron:session): session closed for user root
+4月 13 20:22:12 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+4月 13 20:22:12 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+4月 13 20:22:12 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 1223bb12cf164754a34338b3879bc416 --
+4月 13 20:22:51 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 13 20:22:51 ree-virtual-machine cron[895]: (CRON) INFO (pidfile fd = 3)
+4月 13 20:22:51 ree-virtual-machine cron[895]: (CRON) INFO (Running @reboot jobs)
+4月 13 20:30:01 ree-virtual-machine CRON[4538]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 13 20:30:01 ree-virtual-machine CRON[4539]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+4月 13 20:30:01 ree-virtual-machine CRON[4538]: pam_unix(cron:session): session closed for user root
+4月 13 21:17:01 ree-virtual-machine CRON[5539]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 13 21:17:01 ree-virtual-machine CRON[5540]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 13 21:17:01 ree-virtual-machine CRON[5539]: pam_unix(cron:session): session closed for user root
+4月 13 21:30:01 ree-virtual-machine CRON[5776]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 13 21:30:01 ree-virtual-machine CRON[5777]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+4月 13 21:30:01 ree-virtual-machine CRON[5776]: pam_unix(cron:session): session closed for user root
+4月 13 22:17:01 ree-virtual-machine CRON[6400]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 13 22:17:01 ree-virtual-machine CRON[6401]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 13 22:17:01 ree-virtual-machine CRON[6400]: pam_unix(cron:session): session closed for user root
+4月 13 22:30:01 ree-virtual-machine CRON[6549]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 13 22:30:01 ree-virtual-machine CRON[6549]: pam_unix(cron:session): session closed for user root
+4月 13 23:11:10 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+4月 13 23:11:10 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+4月 13 23:11:10 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot eedc866258b546db86377bdd16f52c6c --
+4月 13 23:33:00 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 13 23:33:00 ree-virtual-machine cron[882]: (CRON) INFO (pidfile fd = 3)
+4月 13 23:33:00 ree-virtual-machine cron[882]: (CRON) INFO (Running @reboot jobs)
+4月 14 00:17:01 ree-virtual-machine CRON[7375]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 14 00:17:01 ree-virtual-machine CRON[7376]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 14 00:17:01 ree-virtual-machine CRON[7375]: pam_unix(cron:session): session closed for user root
+4月 14 01:17:01 ree-virtual-machine CRON[9902]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 14 01:17:01 ree-virtual-machine CRON[9903]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 14 01:17:01 ree-virtual-machine CRON[9902]: pam_unix(cron:session): session closed for user root
+4月 14 01:45:07 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+4月 14 01:45:07 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+4月 14 01:45:07 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 6336d5d01d9d47a1a84a86d400678bbe --
+4月 14 18:40:04 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 14 18:40:04 ree-virtual-machine cron[887]: (CRON) INFO (pidfile fd = 3)
+4月 14 18:40:04 ree-virtual-machine cron[887]: (CRON) INFO (Running @reboot jobs)
+4月 14 19:17:01 ree-virtual-machine CRON[6378]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 14 19:17:01 ree-virtual-machine CRON[6379]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 14 19:17:01 ree-virtual-machine CRON[6378]: pam_unix(cron:session): session closed for user root
+4月 14 19:24:32 ree-virtual-machine systemd[1]: Stopping Regular background program processing daemon...
+4月 14 19:24:32 ree-virtual-machine systemd[1]: cron.service: Deactivated successfully.
+4月 14 19:24:32 ree-virtual-machine systemd[1]: Stopped Regular background program processing daemon.
+-- Boot 00425514c17e404db4cc5611a8f55ed9 --
+4月 14 21:28:22 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 14 21:28:22 ree-virtual-machine cron[867]: (CRON) INFO (pidfile fd = 3)
+4月 14 21:28:22 ree-virtual-machine cron[867]: (CRON) INFO (Running @reboot jobs)
+4月 14 21:30:02 ree-virtual-machine CRON[3618]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 14 21:30:02 ree-virtual-machine CRON[3619]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+4月 14 21:30:02 ree-virtual-machine CRON[3618]: pam_unix(cron:session): session closed for user root
+4月 14 22:17:01 ree-virtual-machine CRON[5314]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 14 22:17:01 ree-virtual-machine CRON[5314]: pam_unix(cron:session): session closed for user root
+4月 14 22:30:01 ree-virtual-machine CRON[5631]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 14 22:30:01 ree-virtual-machine CRON[5631]: pam_unix(cron:session): session closed for user root
+4月 14 23:17:01 ree-virtual-machine CRON[5757]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 14 23:17:01 ree-virtual-machine CRON[5758]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 14 23:17:01 ree-virtual-machine CRON[5757]: pam_unix(cron:session): session closed for user root
+4月 14 23:30:01 ree-virtual-machine CRON[5808]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 14 23:30:01 ree-virtual-machine CRON[5808]: pam_unix(cron:session): session closed for user root
+4月 15 00:17:01 ree-virtual-machine CRON[6107]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 15 00:17:01 ree-virtual-machine CRON[6108]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 15 00:17:01 ree-virtual-machine CRON[6107]: pam_unix(cron:session): session closed for user root
+4月 15 01:17:01 ree-virtual-machine CRON[7778]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 15 01:17:01 ree-virtual-machine CRON[7779]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 15 01:17:01 ree-virtual-machine CRON[7778]: pam_unix(cron:session): session closed for user root
+4月 15 02:17:01 ree-virtual-machine CRON[8787]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 15 02:17:01 ree-virtual-machine CRON[8788]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 15 02:17:01 ree-virtual-machine CRON[8787]: pam_unix(cron:session): session closed for user root
+4月 15 03:10:01 ree-virtual-machine CRON[9601]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 15 03:10:01 ree-virtual-machine CRON[9601]: pam_unix(cron:session): session closed for user root
+4月 15 03:17:01 ree-virtual-machine CRON[9693]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 15 03:17:01 ree-virtual-machine CRON[9693]: pam_unix(cron:session): session closed for user root
+-- Boot ac6742caea064674b1504bee9f2e0abd --
+4月 15 11:41:47 ree-virtual-machine systemd[1]: Started Regular background program processing daemon.
+4月 15 11:41:47 ree-virtual-machine cron[890]: (CRON) INFO (pidfile fd = 3)
+4月 15 11:41:47 ree-virtual-machine cron[890]: (CRON) INFO (Running @reboot jobs)
+4月 15 12:17:01 ree-virtual-machine CRON[5892]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 15 12:17:01 ree-virtual-machine CRON[5893]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 15 12:17:01 ree-virtual-machine CRON[5892]: pam_unix(cron:session): session closed for user root
+4月 15 12:30:01 ree-virtual-machine CRON[6198]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 15 12:30:01 ree-virtual-machine CRON[6198]: pam_unix(cron:session): session closed for user root
+4月 15 13:17:01 ree-virtual-machine CRON[11003]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 15 13:17:01 ree-virtual-machine CRON[11004]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 15 13:17:01 ree-virtual-machine CRON[11003]: pam_unix(cron:session): session closed for user root
+4月 15 13:30:01 ree-virtual-machine CRON[11174]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 15 13:30:01 ree-virtual-machine CRON[11175]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+4月 15 13:30:01 ree-virtual-machine CRON[11174]: pam_unix(cron:session): session closed for user root
+4月 15 14:17:01 ree-virtual-machine CRON[14298]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 15 14:17:01 ree-virtual-machine CRON[14299]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 15 14:17:01 ree-virtual-machine CRON[14298]: pam_unix(cron:session): session closed for user root
+4月 15 14:30:01 ree-virtual-machine CRON[14464]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+4月 15 14:30:01 ree-virtual-machine CRON[14464]: pam_unix(cron:session): session closed for user root
+

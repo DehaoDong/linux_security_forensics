@@ -1,0 +1,725 @@
+2月 20 18:38:52 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+2月 20 18:38:52 ree-virtual-machine anacron[880]: Anacron 2.3 started on 2023-02-20
+2月 20 18:38:52 ree-virtual-machine anacron[880]: Will run job `cron.daily' in 5 min.
+2月 20 18:38:52 ree-virtual-machine anacron[880]: Will run job `cron.weekly' in 10 min.
+2月 20 18:38:52 ree-virtual-machine anacron[880]: Will run job `cron.monthly' in 15 min.
+2月 20 18:38:52 ree-virtual-machine anacron[880]: Jobs will be executed sequentially
+2月 20 18:43:52 ree-virtual-machine anacron[880]: Job `cron.daily' started
+2月 20 18:43:52 ree-virtual-machine anacron[4792]: Updated timestamp for job `cron.daily' to 2023-02-20
+2月 20 18:43:52 ree-virtual-machine anacron[880]: Job `cron.daily' terminated
+2月 20 18:48:52 ree-virtual-machine anacron[880]: Job `cron.weekly' started
+2月 20 18:48:52 ree-virtual-machine anacron[6864]: Updated timestamp for job `cron.weekly' to 2023-02-20
+2月 20 18:48:52 ree-virtual-machine anacron[880]: Job `cron.weekly' terminated
+2月 20 18:52:48 ree-virtual-machine anacron[880]: Received SIGUSR1
+2月 20 18:52:48 ree-virtual-machine anacron[880]: Exited
+2月 20 18:52:48 ree-virtual-machine systemd[1]: Stopping Run anacron jobs...
+2月 20 18:52:48 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+2月 20 18:52:48 ree-virtual-machine systemd[1]: Stopped Run anacron jobs.
+-- Boot 59a08585a9874716bda9035a442e266a --
+2月 20 18:52:55 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+2月 20 18:52:55 ree-virtual-machine anacron[820]: Anacron 2.3 started on 2023-02-20
+2月 20 18:52:55 ree-virtual-machine anacron[820]: Will run job `cron.monthly' in 15 min.
+2月 20 18:52:55 ree-virtual-machine anacron[820]: Jobs will be executed sequentially
+-- Boot 4e50f35765d14836ba11bf87868d3690 --
+2月 21 18:32:15 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+2月 21 18:32:15 ree-virtual-machine anacron[862]: Anacron 2.3 started on 2023-02-21
+2月 21 18:32:15 ree-virtual-machine anacron[862]: Will run job `cron.daily' in 5 min.
+2月 21 18:32:15 ree-virtual-machine anacron[862]: Will run job `cron.monthly' in 15 min.
+2月 21 18:32:15 ree-virtual-machine anacron[862]: Jobs will be executed sequentially
+2月 21 18:37:15 ree-virtual-machine anacron[862]: Job `cron.daily' started
+2月 21 18:37:15 ree-virtual-machine anacron[5847]: Updated timestamp for job `cron.daily' to 2023-02-21
+2月 21 18:37:15 ree-virtual-machine cracklib[5877]: no dictionary update necessary.
+2月 21 18:37:15 ree-virtual-machine anacron[862]: Job `cron.daily' terminated
+2月 21 18:41:05 ree-virtual-machine anacron[862]: Received SIGUSR1
+2月 21 18:41:05 ree-virtual-machine systemd[1]: Stopping Run anacron jobs...
+2月 21 18:41:05 ree-virtual-machine anacron[862]: Exited
+2月 21 18:41:05 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+2月 21 18:41:05 ree-virtual-machine systemd[1]: Stopped Run anacron jobs.
+-- Boot 378ef5fc52a64e67810e6fa7a9ee31e6 --
+2月 21 18:42:26 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+2月 21 18:42:26 ree-virtual-machine anacron[833]: Anacron 2.3 started on 2023-02-21
+2月 21 18:42:26 ree-virtual-machine anacron[833]: Will run job `cron.monthly' in 15 min.
+2月 21 18:42:26 ree-virtual-machine anacron[833]: Jobs will be executed sequentially
+2月 21 18:57:26 ree-virtual-machine anacron[833]: Job `cron.monthly' started
+2月 21 18:57:26 ree-virtual-machine anacron[11358]: Updated timestamp for job `cron.monthly' to 2023-02-21
+2月 21 18:57:26 ree-virtual-machine anacron[833]: Job `cron.monthly' terminated
+2月 21 18:57:26 ree-virtual-machine anacron[833]: Normal exit (1 job run)
+2月 21 18:57:26 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 48d666794bf9483ca7ebe0e999848072 --
+2月 21 19:01:44 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+2月 21 19:01:44 ree-virtual-machine anacron[871]: Anacron 2.3 started on 2023-02-21
+2月 21 19:01:44 ree-virtual-machine anacron[871]: Normal exit (0 jobs run)
+2月 21 19:01:45 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot a0299816d1d24b8ab70b7c10b1502239 --
+2月 21 19:02:36 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+2月 21 19:02:36 ree-virtual-machine anacron[837]: Anacron 2.3 started on 2023-02-21
+2月 21 19:02:36 ree-virtual-machine anacron[837]: Normal exit (0 jobs run)
+2月 21 19:02:36 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 7319c95352634624b166e30456e7d6e8 --
+2月 21 19:17:55 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+2月 21 19:17:55 ree-virtual-machine anacron[851]: Anacron 2.3 started on 2023-02-21
+2月 21 19:17:55 ree-virtual-machine anacron[851]: Normal exit (0 jobs run)
+2月 21 19:17:55 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot e6c010b640444a48974c34b34cbf889b --
+2月 21 19:23:10 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+2月 21 19:23:10 ree-virtual-machine anacron[789]: Anacron 2.3 started on 2023-02-21
+2月 21 19:23:10 ree-virtual-machine anacron[789]: Normal exit (0 jobs run)
+2月 21 19:23:10 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+2月 21 19:30:59 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+2月 21 19:30:59 ree-virtual-machine anacron[8483]: Anacron 2.3 started on 2023-02-21
+2月 21 19:30:59 ree-virtual-machine anacron[8483]: Normal exit (0 jobs run)
+2月 21 19:30:59 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 9ce45ab8fa0345b987fea497f44c5051 --
+3月 10 20:00:44 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 10 20:00:44 ree-virtual-machine anacron[754]: Anacron 2.3 started on 2023-03-10
+3月 10 20:00:44 ree-virtual-machine anacron[754]: Will run job `cron.daily' in 5 min.
+3月 10 20:00:44 ree-virtual-machine anacron[754]: Will run job `cron.weekly' in 10 min.
+3月 10 20:00:44 ree-virtual-machine anacron[754]: Jobs will be executed sequentially
+3月 10 20:05:44 ree-virtual-machine anacron[754]: Job `cron.daily' started
+3月 10 20:05:44 ree-virtual-machine anacron[6867]: Updated timestamp for job `cron.daily' to 2023-03-10
+3月 10 20:05:44 ree-virtual-machine cracklib[6894]: no dictionary update necessary.
+3月 10 20:05:44 ree-virtual-machine anacron[754]: Job `cron.daily' terminated
+3月 10 20:10:44 ree-virtual-machine anacron[754]: Job `cron.weekly' started
+3月 10 20:10:44 ree-virtual-machine anacron[8655]: Updated timestamp for job `cron.weekly' to 2023-03-10
+3月 10 20:10:44 ree-virtual-machine anacron[754]: Job `cron.weekly' terminated
+3月 10 20:10:44 ree-virtual-machine anacron[754]: Normal exit (2 jobs run)
+3月 10 20:10:44 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 78840721b8c14d03929c91da9cf2989f --
+3月 15 11:06:35 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 15 11:06:35 ree-virtual-machine anacron[789]: Anacron 2.3 started on 2023-03-15
+3月 15 11:06:35 ree-virtual-machine anacron[789]: Will run job `cron.daily' in 5 min.
+3月 15 11:06:35 ree-virtual-machine anacron[789]: Jobs will be executed sequentially
+3月 15 11:11:31 ree-virtual-machine anacron[789]: Job `cron.daily' started
+3月 15 11:11:31 ree-virtual-machine anacron[3635]: Updated timestamp for job `cron.daily' to 2023-03-15
+3月 15 11:11:31 ree-virtual-machine cracklib[3675]: no dictionary update necessary.
+3月 15 11:11:31 ree-virtual-machine anacron[789]: Job `cron.daily' terminated
+3月 15 11:11:31 ree-virtual-machine anacron[789]: Normal exit (1 job run)
+3月 15 11:11:31 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot ca9b2e5e215f4f3fbeb8e0a2983e83e6 --
+3月 22 19:19:57 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 22 19:19:57 ree-virtual-machine anacron[731]: Anacron 2.3 started on 2023-03-22
+3月 22 19:19:57 ree-virtual-machine anacron[731]: Will run job `cron.daily' in 5 min.
+3月 22 19:19:57 ree-virtual-machine anacron[731]: Will run job `cron.weekly' in 10 min.
+3月 22 19:19:57 ree-virtual-machine anacron[731]: Will run job `cron.monthly' in 15 min.
+3月 22 19:19:57 ree-virtual-machine anacron[731]: Jobs will be executed sequentially
+3月 22 19:24:57 ree-virtual-machine anacron[731]: Job `cron.daily' started
+3月 22 19:24:57 ree-virtual-machine anacron[2482]: Updated timestamp for job `cron.daily' to 2023-03-22
+3月 22 19:24:57 ree-virtual-machine cracklib[2509]: no dictionary update necessary.
+3月 22 19:24:57 ree-virtual-machine anacron[731]: Job `cron.daily' terminated
+3月 22 19:29:57 ree-virtual-machine anacron[731]: Job `cron.weekly' started
+3月 22 19:29:57 ree-virtual-machine anacron[2857]: Updated timestamp for job `cron.weekly' to 2023-03-22
+3月 22 19:29:57 ree-virtual-machine anacron[731]: Job `cron.weekly' terminated
+3月 22 19:34:57 ree-virtual-machine anacron[731]: Job `cron.monthly' started
+3月 22 19:34:57 ree-virtual-machine anacron[731]: Job `cron.monthly' terminated
+3月 22 19:34:57 ree-virtual-machine anacron[731]: Normal exit (3 jobs run)
+3月 22 19:34:57 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 22 19:34:57 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 22 19:34:57 ree-virtual-machine anacron[3191]: Anacron 2.3 started on 2023-03-22
+3月 22 19:34:57 ree-virtual-machine anacron[3191]: Normal exit (0 jobs run)
+3月 22 19:34:57 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot ee7967cec9534f4aa0162aa833ebf2b7 --
+3月 22 19:56:29 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 22 19:56:29 ree-virtual-machine anacron[891]: Anacron 2.3 started on 2023-03-22
+3月 22 19:56:29 ree-virtual-machine anacron[891]: Normal exit (0 jobs run)
+3月 22 19:56:29 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 22 20:33:44 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 22 20:33:44 ree-virtual-machine anacron[3348]: Anacron 2.3 started on 2023-03-22
+3月 22 20:33:44 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 22 20:33:44 ree-virtual-machine anacron[3348]: Normal exit (0 jobs run)
+3月 22 21:33:23 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 22 21:33:23 ree-virtual-machine anacron[3433]: Anacron 2.3 started on 2023-03-22
+3月 22 21:33:23 ree-virtual-machine anacron[3433]: Normal exit (0 jobs run)
+3月 22 21:33:23 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 23 14:19:34 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 23 14:19:34 ree-virtual-machine anacron[3448]: Anacron 2.3 started on 2023-03-23
+3月 23 14:19:34 ree-virtual-machine anacron[3448]: Will run job `cron.daily' in 5 min.
+3月 23 14:19:34 ree-virtual-machine anacron[3448]: Jobs will be executed sequentially
+3月 23 14:24:34 ree-virtual-machine anacron[3448]: Job `cron.daily' started
+3月 23 14:24:34 ree-virtual-machine cracklib[3873]: no dictionary update necessary.
+3月 23 14:24:34 ree-virtual-machine anacron[3448]: Job `cron.daily' terminated
+3月 23 14:24:34 ree-virtual-machine anacron[3448]: Normal exit (1 job run)
+3月 23 14:24:34 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 23 14:32:22 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 23 14:32:22 ree-virtual-machine anacron[3900]: Anacron 2.3 started on 2023-03-23
+3月 23 14:32:22 ree-virtual-machine anacron[3900]: Normal exit (0 jobs run)
+3月 23 14:32:22 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 9e3eeb915f5e4d0aab1fa06627dc238a --
+3月 25 22:03:00 ree-virtual-machine anacron[825]: Anacron 2.3 started on 2023-03-25
+3月 25 22:03:00 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 25 22:03:00 ree-virtual-machine anacron[825]: Will run job `cron.daily' in 5 min.
+3月 25 22:03:00 ree-virtual-machine anacron[825]: Jobs will be executed sequentially
+3月 25 22:07:59 ree-virtual-machine anacron[825]: Job `cron.daily' started
+3月 25 22:07:59 ree-virtual-machine anacron[5614]: Updated timestamp for job `cron.daily' to 2023-03-25
+3月 25 22:07:59 ree-virtual-machine anacron[825]: Job `cron.daily' terminated
+3月 25 22:07:59 ree-virtual-machine anacron[825]: Normal exit (1 job run)
+3月 25 22:07:59 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 25 22:32:21 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 25 22:32:21 ree-virtual-machine anacron[8732]: Anacron 2.3 started on 2023-03-25
+3月 25 22:32:21 ree-virtual-machine anacron[8732]: Normal exit (0 jobs run)
+3月 25 22:32:21 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 25 23:30:29 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 25 23:30:29 ree-virtual-machine anacron[11050]: Anacron 2.3 started on 2023-03-25
+3月 25 23:30:29 ree-virtual-machine anacron[11050]: Normal exit (0 jobs run)
+3月 25 23:30:29 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 26 15:12:58 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 26 15:12:58 ree-virtual-machine anacron[11172]: Anacron 2.3 started on 2023-03-26
+3月 26 15:12:58 ree-virtual-machine anacron[11172]: Will run job `cron.daily' in 5 min.
+3月 26 15:12:58 ree-virtual-machine anacron[11172]: Jobs will be executed sequentially
+3月 26 15:18:02 ree-virtual-machine anacron[11172]: Job `cron.daily' started
+3月 26 15:18:02 ree-virtual-machine anacron[12048]: Updated timestamp for job `cron.daily' to 2023-03-26
+3月 26 15:18:02 ree-virtual-machine cracklib[12074]: no dictionary update necessary.
+3月 26 15:18:02 ree-virtual-machine anacron[11172]: Job `cron.daily' terminated
+3月 26 15:18:02 ree-virtual-machine anacron[11172]: Normal exit (1 job run)
+3月 26 15:18:02 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 26 18:51:15 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 26 18:51:15 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 26 19:33:20 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 26 19:33:20 ree-virtual-machine anacron[13415]: Anacron 2.3 started on 2023-03-26
+3月 26 19:33:20 ree-virtual-machine anacron[13415]: Normal exit (0 jobs run)
+3月 26 19:33:20 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 26 20:30:38 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 26 20:30:38 ree-virtual-machine anacron[13457]: Anacron 2.3 started on 2023-03-26
+3月 26 20:30:38 ree-virtual-machine anacron[13457]: Normal exit (0 jobs run)
+3月 26 20:30:38 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 27 12:09:07 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 27 12:09:07 ree-virtual-machine anacron[13493]: Anacron 2.3 started on 2023-03-27
+3月 27 12:09:07 ree-virtual-machine anacron[13493]: Will run job `cron.daily' in 5 min.
+3月 27 12:09:07 ree-virtual-machine anacron[13493]: Jobs will be executed sequentially
+3月 27 12:14:54 ree-virtual-machine anacron[13493]: Job `cron.daily' started
+3月 27 12:14:54 ree-virtual-machine anacron[13936]: Updated timestamp for job `cron.daily' to 2023-03-27
+3月 27 12:14:54 ree-virtual-machine anacron[13493]: Job `cron.daily' terminated
+3月 27 12:14:54 ree-virtual-machine anacron[13493]: Normal exit (1 job run)
+3月 27 12:14:54 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 27 12:35:17 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 27 12:35:17 ree-virtual-machine anacron[14016]: Anacron 2.3 started on 2023-03-27
+3月 27 12:35:17 ree-virtual-machine anacron[14016]: Normal exit (0 jobs run)
+3月 27 12:35:17 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 27 13:33:47 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 27 13:33:47 ree-virtual-machine anacron[14067]: Anacron 2.3 started on 2023-03-27
+3月 27 13:33:47 ree-virtual-machine anacron[14067]: Normal exit (0 jobs run)
+3月 27 13:33:47 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 27 16:19:58 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 27 16:19:58 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 27 16:32:22 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 27 16:32:22 ree-virtual-machine anacron[16140]: Anacron 2.3 started on 2023-03-27
+3月 27 16:32:22 ree-virtual-machine anacron[16140]: Normal exit (0 jobs run)
+3月 27 16:32:22 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 27 17:33:29 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 27 17:33:29 ree-virtual-machine anacron[18197]: Anacron 2.3 started on 2023-03-27
+3月 27 17:33:29 ree-virtual-machine anacron[18197]: Normal exit (0 jobs run)
+3月 27 17:33:29 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 27 18:32:29 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 27 18:32:29 ree-virtual-machine anacron[18988]: Anacron 2.3 started on 2023-03-27
+3月 27 18:32:29 ree-virtual-machine anacron[18988]: Normal exit (0 jobs run)
+3月 27 18:32:29 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 27 19:31:14 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 27 19:31:14 ree-virtual-machine anacron[19451]: Anacron 2.3 started on 2023-03-27
+3月 27 19:31:14 ree-virtual-machine anacron[19451]: Normal exit (0 jobs run)
+3月 27 19:31:14 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 27 20:30:10 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 27 20:30:10 ree-virtual-machine anacron[19508]: Anacron 2.3 started on 2023-03-27
+3月 27 20:30:10 ree-virtual-machine anacron[19508]: Normal exit (0 jobs run)
+3月 27 20:30:10 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 27 21:30:29 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 27 21:30:29 ree-virtual-machine anacron[19561]: Anacron 2.3 started on 2023-03-27
+3月 27 21:30:29 ree-virtual-machine anacron[19561]: Normal exit (0 jobs run)
+3月 27 21:30:29 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 27 22:34:29 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 27 22:34:29 ree-virtual-machine anacron[19747]: Anacron 2.3 started on 2023-03-27
+3月 27 22:34:29 ree-virtual-machine anacron[19747]: Normal exit (0 jobs run)
+3月 27 22:34:29 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 28 00:53:33 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 00:53:34 ree-virtual-machine anacron[19774]: Anacron 2.3 started on 2023-03-28
+3月 28 00:53:34 ree-virtual-machine anacron[19774]: Will run job `cron.daily' in 5 min.
+3月 28 00:53:34 ree-virtual-machine anacron[19774]: Jobs will be executed sequentially
+3月 28 00:58:33 ree-virtual-machine anacron[19774]: Job `cron.daily' started
+3月 28 00:58:33 ree-virtual-machine anacron[19926]: Updated timestamp for job `cron.daily' to 2023-03-28
+3月 28 00:58:33 ree-virtual-machine cracklib[19952]: no dictionary update necessary.
+3月 28 00:58:33 ree-virtual-machine anacron[19774]: Job `cron.daily' terminated
+3月 28 00:58:33 ree-virtual-machine anacron[19774]: Normal exit (1 job run)
+3月 28 00:58:33 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot cce731051b6244c4a03f32893ae3c956 --
+3月 28 10:31:03 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 10:31:03 ree-virtual-machine anacron[809]: Anacron 2.3 started on 2023-03-28
+3月 28 10:31:03 ree-virtual-machine anacron[809]: Normal exit (0 jobs run)
+3月 28 10:31:04 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 28 10:35:33 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 10:35:33 ree-virtual-machine anacron[1516]: Anacron 2.3 started on 2023-03-28
+3月 28 10:35:33 ree-virtual-machine anacron[1516]: Normal exit (0 jobs run)
+3月 28 10:35:33 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 28 11:33:29 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 11:33:29 ree-virtual-machine anacron[13174]: Anacron 2.3 started on 2023-03-28
+3月 28 11:33:29 ree-virtual-machine anacron[13174]: Normal exit (0 jobs run)
+3月 28 11:33:29 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 28 12:30:52 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 12:30:52 ree-virtual-machine anacron[13303]: Anacron 2.3 started on 2023-03-28
+3月 28 12:30:52 ree-virtual-machine anacron[13303]: Normal exit (0 jobs run)
+3月 28 12:30:52 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 28 13:35:51 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 13:35:51 ree-virtual-machine anacron[13357]: Anacron 2.3 started on 2023-03-28
+3月 28 13:35:51 ree-virtual-machine anacron[13357]: Normal exit (0 jobs run)
+3月 28 13:35:51 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 28 14:32:56 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 14:32:56 ree-virtual-machine anacron[13661]: Anacron 2.3 started on 2023-03-28
+3月 28 14:32:56 ree-virtual-machine anacron[13661]: Normal exit (0 jobs run)
+3月 28 14:32:56 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 28 15:30:56 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 15:30:56 ree-virtual-machine anacron[13718]: Anacron 2.3 started on 2023-03-28
+3月 28 15:30:56 ree-virtual-machine anacron[13718]: Normal exit (0 jobs run)
+3月 28 15:30:56 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 28 16:31:56 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 16:31:56 ree-virtual-machine anacron[14098]: Anacron 2.3 started on 2023-03-28
+3月 28 16:31:56 ree-virtual-machine anacron[14098]: Normal exit (0 jobs run)
+3月 28 16:31:56 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 28 17:33:37 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 17:33:37 ree-virtual-machine anacron[14261]: Anacron 2.3 started on 2023-03-28
+3月 28 17:33:37 ree-virtual-machine anacron[14261]: Normal exit (0 jobs run)
+3月 28 17:33:37 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 28 18:30:50 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 18:30:50 ree-virtual-machine anacron[14399]: Anacron 2.3 started on 2023-03-28
+3月 28 18:30:50 ree-virtual-machine anacron[14399]: Normal exit (0 jobs run)
+3月 28 18:30:50 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 28 19:34:22 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 19:34:22 ree-virtual-machine anacron[14708]: Anacron 2.3 started on 2023-03-28
+3月 28 19:34:22 ree-virtual-machine anacron[14708]: Normal exit (0 jobs run)
+3月 28 19:34:22 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 28 20:32:06 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 20:32:06 ree-virtual-machine anacron[14841]: Anacron 2.3 started on 2023-03-28
+3月 28 20:32:06 ree-virtual-machine anacron[14841]: Normal exit (0 jobs run)
+3月 28 20:32:06 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 28 21:34:56 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 21:34:56 ree-virtual-machine anacron[15005]: Anacron 2.3 started on 2023-03-28
+3月 28 21:34:56 ree-virtual-machine anacron[15005]: Normal exit (0 jobs run)
+3月 28 21:34:56 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 28 22:34:32 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 22:34:32 ree-virtual-machine anacron[16509]: Anacron 2.3 started on 2023-03-28
+3月 28 22:34:32 ree-virtual-machine anacron[16509]: Normal exit (0 jobs run)
+3月 28 22:34:32 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 28 23:30:56 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 28 23:30:56 ree-virtual-machine anacron[17461]: Anacron 2.3 started on 2023-03-28
+3月 28 23:30:56 ree-virtual-machine anacron[17461]: Normal exit (0 jobs run)
+3月 28 23:30:56 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 29 11:35:59 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 29 11:35:59 ree-virtual-machine anacron[23206]: Anacron 2.3 started on 2023-03-29
+3月 29 11:35:59 ree-virtual-machine anacron[23206]: Will run job `cron.daily' in 5 min.
+3月 29 11:35:59 ree-virtual-machine anacron[23206]: Will run job `cron.weekly' in 10 min.
+3月 29 11:35:59 ree-virtual-machine anacron[23206]: Jobs will be executed sequentially
+-- Boot 2a886fae77824755a4d8c5453e54eec8 --
+3月 29 11:43:31 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 29 11:43:31 ree-virtual-machine anacron[743]: Anacron 2.3 started on 2023-03-29
+3月 29 11:43:31 ree-virtual-machine anacron[743]: Will run job `cron.daily' in 5 min.
+3月 29 11:43:31 ree-virtual-machine anacron[743]: Will run job `cron.weekly' in 10 min.
+3月 29 11:43:31 ree-virtual-machine anacron[743]: Jobs will be executed sequentially
+3月 29 11:48:32 ree-virtual-machine anacron[743]: Job `cron.daily' started
+3月 29 11:48:32 ree-virtual-machine anacron[4128]: Updated timestamp for job `cron.daily' to 2023-03-29
+3月 29 11:48:33 ree-virtual-machine anacron[743]: Job `cron.daily' terminated
+3月 29 11:53:31 ree-virtual-machine anacron[743]: Job `cron.weekly' started
+3月 29 11:53:31 ree-virtual-machine anacron[4202]: Updated timestamp for job `cron.weekly' to 2023-03-29
+3月 29 11:53:31 ree-virtual-machine anacron[743]: Job `cron.weekly' terminated
+3月 29 11:53:31 ree-virtual-machine anacron[743]: Normal exit (2 jobs run)
+3月 29 11:53:31 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 29 12:31:04 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 29 12:31:04 ree-virtual-machine anacron[4364]: Anacron 2.3 started on 2023-03-29
+3月 29 12:31:04 ree-virtual-machine anacron[4364]: Normal exit (0 jobs run)
+3月 29 12:31:04 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot bb0991777ac541be83385906c043308d --
+3月 29 12:42:41 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 29 12:42:41 ree-virtual-machine anacron[839]: Anacron 2.3 started on 2023-03-29
+3月 29 12:42:41 ree-virtual-machine anacron[839]: Normal exit (0 jobs run)
+3月 29 12:42:42 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot d7712a95bc0b49358ac3d7c9a0282431 --
+3月 29 13:18:47 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 29 13:18:47 ree-virtual-machine anacron[880]: Anacron 2.3 started on 2023-03-29
+3月 29 13:18:47 ree-virtual-machine anacron[880]: Normal exit (0 jobs run)
+3月 29 13:18:47 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 19b4dd46eb7b4597999d4311a7fcd580 --
+3月 29 13:24:44 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 29 13:24:44 ree-virtual-machine anacron[700]: Anacron 2.3 started on 2023-03-29
+3月 29 13:24:44 ree-virtual-machine anacron[700]: Normal exit (0 jobs run)
+3月 29 13:24:44 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 29 13:30:44 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 29 13:30:44 ree-virtual-machine anacron[3653]: Anacron 2.3 started on 2023-03-29
+3月 29 13:30:44 ree-virtual-machine anacron[3653]: Normal exit (0 jobs run)
+3月 29 13:30:44 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 29 14:33:35 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 29 14:33:35 ree-virtual-machine anacron[7844]: Anacron 2.3 started on 2023-03-29
+3月 29 14:33:35 ree-virtual-machine anacron[7844]: Normal exit (0 jobs run)
+3月 29 14:33:35 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 29 15:33:13 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 29 15:33:13 ree-virtual-machine anacron[8284]: Anacron 2.3 started on 2023-03-29
+3月 29 15:33:13 ree-virtual-machine anacron[8284]: Normal exit (0 jobs run)
+3月 29 15:33:13 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 9d814a28020a4d1b8dc1b211140df378 --
+3月 30 14:04:52 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 14:04:52 ree-virtual-machine anacron[800]: Anacron 2.3 started on 2023-03-30
+3月 30 14:04:52 ree-virtual-machine anacron[800]: Will run job `cron.daily' in 5 min.
+3月 30 14:04:52 ree-virtual-machine anacron[800]: Jobs will be executed sequentially
+3月 30 14:09:52 ree-virtual-machine anacron[800]: Job `cron.daily' started
+3月 30 14:09:52 ree-virtual-machine anacron[4866]: Updated timestamp for job `cron.daily' to 2023-03-30
+3月 30 14:09:52 ree-virtual-machine cracklib[4893]: no dictionary update necessary.
+3月 30 14:09:52 ree-virtual-machine anacron[800]: Job `cron.daily' terminated
+3月 30 14:09:52 ree-virtual-machine anacron[800]: Normal exit (1 job run)
+3月 30 14:09:52 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 30 14:34:12 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 14:34:12 ree-virtual-machine anacron[5901]: Anacron 2.3 started on 2023-03-30
+3月 30 14:34:12 ree-virtual-machine anacron[5901]: Normal exit (0 jobs run)
+3月 30 14:34:12 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 84aa09a898d145c7a959de6db29053d7 --
+3月 30 15:02:20 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 15:02:20 ree-virtual-machine anacron[744]: Anacron 2.3 started on 2023-03-30
+3月 30 15:02:20 ree-virtual-machine anacron[744]: Normal exit (0 jobs run)
+3月 30 15:02:21 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot aa4829cf4bad48fb9f7b1a4eb947f5c0 --
+3月 30 15:03:27 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 15:03:27 ree-virtual-machine anacron[895]: Anacron 2.3 started on 2023-03-30
+3月 30 15:03:27 ree-virtual-machine anacron[895]: Normal exit (0 jobs run)
+3月 30 15:03:27 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 00a7e42d2b624b439bea376a3bc361f1 --
+3月 30 15:14:14 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 15:14:14 ree-virtual-machine anacron[792]: Anacron 2.3 started on 2023-03-30
+3月 30 15:14:14 ree-virtual-machine anacron[792]: Normal exit (0 jobs run)
+3月 30 15:14:14 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 1516c1af27714148858b849306510739 --
+3月 30 15:23:25 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 15:23:25 ree-virtual-machine anacron[772]: Anacron 2.3 started on 2023-03-30
+3月 30 15:23:25 ree-virtual-machine anacron[772]: Normal exit (0 jobs run)
+3月 30 15:23:25 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 30 15:32:57 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 15:32:57 ree-virtual-machine anacron[4221]: Anacron 2.3 started on 2023-03-30
+3月 30 15:32:57 ree-virtual-machine anacron[4221]: Normal exit (0 jobs run)
+3月 30 15:32:57 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 9069828abd4b41e5829b4880b07ecdde --
+3月 30 15:38:53 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 15:38:53 ree-virtual-machine anacron[801]: Anacron 2.3 started on 2023-03-30
+3月 30 15:38:53 ree-virtual-machine anacron[801]: Normal exit (0 jobs run)
+3月 30 15:38:53 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 76e16ebfbeab47788bc4dd8853d9fe7e --
+3月 30 17:34:19 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 17:34:19 ree-virtual-machine anacron[826]: Anacron 2.3 started on 2023-03-30
+3月 30 17:34:19 ree-virtual-machine anacron[826]: Normal exit (0 jobs run)
+3月 30 17:34:19 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 30 17:35:21 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 17:35:21 ree-virtual-machine anacron[3535]: Anacron 2.3 started on 2023-03-30
+3月 30 17:35:21 ree-virtual-machine anacron[3535]: Normal exit (0 jobs run)
+3月 30 17:35:21 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 30 18:30:15 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 18:30:15 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 30 20:25:50 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 20:25:50 ree-virtual-machine anacron[10570]: Anacron 2.3 started on 2023-03-30
+3月 30 20:25:50 ree-virtual-machine anacron[10570]: Normal exit (0 jobs run)
+3月 30 20:25:50 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot e249c720d58849269d73a22f14ee6fb9 --
+3月 30 20:32:33 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 20:32:33 ree-virtual-machine anacron[843]: Anacron 2.3 started on 2023-03-30
+3月 30 20:32:33 ree-virtual-machine anacron[843]: Normal exit (0 jobs run)
+3月 30 20:32:33 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 30 20:36:48 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 20:36:48 ree-virtual-machine anacron[3709]: Anacron 2.3 started on 2023-03-30
+3月 30 20:36:48 ree-virtual-machine anacron[3709]: Normal exit (0 jobs run)
+3月 30 20:36:48 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 30 21:30:48 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 21:30:48 ree-virtual-machine anacron[6262]: Anacron 2.3 started on 2023-03-30
+3月 30 21:30:48 ree-virtual-machine anacron[6262]: Normal exit (0 jobs run)
+3月 30 21:30:48 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 9ccccf2adff74839b8fba49d83281f8b --
+3月 30 22:53:44 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 22:53:44 ree-virtual-machine anacron[820]: Anacron 2.3 started on 2023-03-30
+3月 30 22:53:44 ree-virtual-machine anacron[820]: Normal exit (0 jobs run)
+3月 30 22:53:44 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 30 22:55:13 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 30 22:55:13 ree-virtual-machine anacron[2931]: Anacron 2.3 started on 2023-03-30
+3月 30 22:55:13 ree-virtual-machine anacron[2931]: Normal exit (0 jobs run)
+3月 30 22:55:13 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 308f7b0f7a274f0bb6200973f34667b6 --
+3月 31 00:22:28 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 31 00:22:28 ree-virtual-machine anacron[811]: Anacron 2.3 started on 2023-03-31
+3月 31 00:22:28 ree-virtual-machine anacron[811]: Will run job `cron.daily' in 5 min.
+3月 31 00:22:28 ree-virtual-machine anacron[811]: Jobs will be executed sequentially
+3月 31 00:27:27 ree-virtual-machine anacron[811]: Job `cron.daily' started
+3月 31 00:27:27 ree-virtual-machine anacron[3801]: Updated timestamp for job `cron.daily' to 2023-03-31
+3月 31 00:27:27 ree-virtual-machine anacron[811]: Job `cron.daily' terminated
+3月 31 00:27:27 ree-virtual-machine anacron[811]: Normal exit (1 job run)
+3月 31 00:27:27 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot d85c7c53e5114994bc2f0f623b3af509 --
+3月 31 19:12:15 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 31 19:12:15 ree-virtual-machine anacron[810]: Anacron 2.3 started on 2023-03-31
+3月 31 19:12:15 ree-virtual-machine anacron[810]: Normal exit (0 jobs run)
+3月 31 19:12:16 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 31 19:12:52 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 31 19:12:52 ree-virtual-machine anacron[3006]: Anacron 2.3 started on 2023-03-31
+3月 31 19:12:52 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 31 19:12:52 ree-virtual-machine anacron[3006]: Normal exit (0 jobs run)
+3月 31 19:33:38 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 31 19:33:38 ree-virtual-machine anacron[17490]: Anacron 2.3 started on 2023-03-31
+3月 31 19:33:38 ree-virtual-machine anacron[17490]: Normal exit (0 jobs run)
+3月 31 19:33:38 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 09785a07d95540b1ad518945fbcc300d --
+3月 31 19:43:50 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 31 19:43:50 ree-virtual-machine anacron[812]: Anacron 2.3 started on 2023-03-31
+3月 31 19:43:50 ree-virtual-machine anacron[812]: Normal exit (0 jobs run)
+3月 31 19:43:50 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 436dee14f55b451a880859c1f76478af --
+3月 31 21:10:03 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 31 21:10:03 ree-virtual-machine anacron[834]: Anacron 2.3 started on 2023-03-31
+3月 31 21:10:03 ree-virtual-machine anacron[834]: Normal exit (0 jobs run)
+3月 31 21:10:03 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 31 21:12:13 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 31 21:12:13 ree-virtual-machine anacron[2943]: Anacron 2.3 started on 2023-03-31
+3月 31 21:12:13 ree-virtual-machine anacron[2943]: Normal exit (0 jobs run)
+3月 31 21:12:13 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+3月 31 21:31:06 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+3月 31 21:31:06 ree-virtual-machine anacron[4633]: Anacron 2.3 started on 2023-03-31
+3月 31 21:31:06 ree-virtual-machine anacron[4633]: Normal exit (0 jobs run)
+3月 31 21:31:06 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 03 22:11:20 ree-virtual-machine anacron[5020]: Anacron 2.3 started on 2023-04-03
+4月 03 22:11:20 ree-virtual-machine anacron[5020]: Will run job `cron.daily' in 5 min.
+4月 03 22:11:20 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 03 22:11:20 ree-virtual-machine anacron[5020]: Jobs will be executed sequentially
+4月 03 22:12:10 ree-virtual-machine anacron[5020]: Received SIGUSR1
+4月 03 22:12:10 ree-virtual-machine anacron[5020]: Exited
+4月 03 22:12:10 ree-virtual-machine systemd[1]: Stopping Run anacron jobs...
+4月 03 22:12:10 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 03 22:12:10 ree-virtual-machine systemd[1]: Stopped Run anacron jobs.
+-- Boot e2fd3a66bd3b4bd68261cb94d3fee451 --
+4月 04 12:20:46 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 04 12:20:46 ree-virtual-machine anacron[771]: Anacron 2.3 started on 2023-04-04
+4月 04 12:20:46 ree-virtual-machine anacron[771]: Will run job `cron.daily' in 5 min.
+4月 04 12:20:46 ree-virtual-machine anacron[771]: Jobs will be executed sequentially
+4月 04 12:25:44 ree-virtual-machine anacron[771]: Job `cron.daily' started
+4月 04 12:25:44 ree-virtual-machine anacron[4108]: Updated timestamp for job `cron.daily' to 2023-04-04
+4月 04 12:25:44 ree-virtual-machine cracklib[4139]: no dictionary update necessary.
+4月 04 12:25:44 ree-virtual-machine anacron[771]: Job `cron.daily' terminated
+4月 04 12:25:44 ree-virtual-machine anacron[771]: Normal exit (1 job run)
+4月 04 12:25:44 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 04 12:35:01 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 04 12:35:01 ree-virtual-machine anacron[6262]: Anacron 2.3 started on 2023-04-04
+4月 04 12:35:01 ree-virtual-machine anacron[6262]: Normal exit (0 jobs run)
+4月 04 12:35:01 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 04 17:32:56 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 04 17:32:56 ree-virtual-machine anacron[6618]: Anacron 2.3 started on 2023-04-04
+4月 04 17:32:56 ree-virtual-machine anacron[6618]: Normal exit (0 jobs run)
+4月 04 17:32:56 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 25dbee67bff049baa23eecea014b8763 --
+4月 04 17:35:54 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 04 17:35:54 ree-virtual-machine anacron[859]: Anacron 2.3 started on 2023-04-04
+4月 04 17:35:54 ree-virtual-machine anacron[859]: Normal exit (0 jobs run)
+4月 04 17:35:54 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 04 18:34:24 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 04 18:34:24 ree-virtual-machine anacron[5426]: Anacron 2.3 started on 2023-04-04
+4月 04 18:34:24 ree-virtual-machine anacron[5426]: Normal exit (0 jobs run)
+4月 04 18:34:24 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 04 19:33:13 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 04 19:33:13 ree-virtual-machine anacron[6638]: Anacron 2.3 started on 2023-04-04
+4月 04 19:33:13 ree-virtual-machine anacron[6638]: Normal exit (0 jobs run)
+4月 04 19:33:13 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 04 20:30:53 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 04 20:30:53 ree-virtual-machine anacron[7313]: Anacron 2.3 started on 2023-04-04
+4月 04 20:30:53 ree-virtual-machine anacron[7313]: Normal exit (0 jobs run)
+4月 04 20:30:53 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 0d532a9de8ef4df1a92a1cc3f8ce562d --
+4月 09 19:14:33 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 09 19:14:33 ree-virtual-machine anacron[749]: Anacron 2.3 started on 2023-04-09
+4月 09 19:14:33 ree-virtual-machine anacron[749]: Will run job `cron.daily' in 5 min.
+4月 09 19:14:33 ree-virtual-machine anacron[749]: Will run job `cron.weekly' in 10 min.
+4月 09 19:14:33 ree-virtual-machine anacron[749]: Jobs will be executed sequentially
+4月 09 19:17:43 ree-virtual-machine anacron[749]: Received SIGUSR1
+4月 09 19:17:43 ree-virtual-machine systemd[1]: Stopping Run anacron jobs...
+4月 09 19:17:43 ree-virtual-machine anacron[749]: Exited
+4月 09 19:17:43 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 09 19:17:43 ree-virtual-machine systemd[1]: Stopped Run anacron jobs.
+-- Boot 66c095c2b40d4348bbbaa9bd9371fd5b --
+4月 09 19:21:17 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 09 19:21:17 ree-virtual-machine anacron[800]: Anacron 2.3 started on 2023-04-09
+4月 09 19:21:17 ree-virtual-machine anacron[800]: Will run job `cron.daily' in 5 min.
+4月 09 19:21:17 ree-virtual-machine anacron[800]: Will run job `cron.weekly' in 10 min.
+4月 09 19:21:17 ree-virtual-machine anacron[800]: Jobs will be executed sequentially
+4月 09 19:26:16 ree-virtual-machine anacron[800]: Job `cron.daily' started
+4月 09 19:26:16 ree-virtual-machine anacron[5057]: Updated timestamp for job `cron.daily' to 2023-04-09
+4月 09 19:26:17 ree-virtual-machine cracklib[5089]: no dictionary update necessary.
+4月 09 19:26:17 ree-virtual-machine anacron[800]: Job `cron.daily' terminated
+4月 09 19:31:17 ree-virtual-machine anacron[800]: Job `cron.weekly' started
+4月 09 19:31:17 ree-virtual-machine anacron[5165]: Updated timestamp for job `cron.weekly' to 2023-04-09
+4月 09 19:31:17 ree-virtual-machine anacron[800]: Job `cron.weekly' terminated
+4月 09 19:31:17 ree-virtual-machine anacron[800]: Normal exit (2 jobs run)
+4月 09 19:31:17 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 09 20:32:18 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 09 20:32:18 ree-virtual-machine anacron[7598]: Anacron 2.3 started on 2023-04-09
+4月 09 20:32:18 ree-virtual-machine anacron[7598]: Normal exit (0 jobs run)
+4月 09 20:32:18 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 09 21:30:35 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 09 21:30:35 ree-virtual-machine anacron[7865]: Anacron 2.3 started on 2023-04-09
+4月 09 21:30:35 ree-virtual-machine anacron[7865]: Normal exit (0 jobs run)
+4月 09 21:30:35 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 125b443d38b7450fbc1c404530e9dc9e --
+4月 12 11:21:57 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 12 11:21:57 ree-virtual-machine anacron[887]: Anacron 2.3 started on 2023-04-12
+4月 12 11:21:57 ree-virtual-machine anacron[887]: Will run job `cron.daily' in 5 min.
+4月 12 11:21:57 ree-virtual-machine anacron[887]: Jobs will be executed sequentially
+4月 12 11:26:56 ree-virtual-machine anacron[887]: Job `cron.daily' started
+4月 12 11:26:56 ree-virtual-machine anacron[1676]: Updated timestamp for job `cron.daily' to 2023-04-12
+4月 12 11:26:56 ree-virtual-machine cracklib[1703]: no dictionary update necessary.
+4月 12 11:26:56 ree-virtual-machine anacron[887]: Job `cron.daily' terminated
+4月 12 11:26:56 ree-virtual-machine anacron[887]: Normal exit (1 job run)
+4月 12 11:26:56 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 12 11:31:07 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 12 11:31:07 ree-virtual-machine anacron[4681]: Anacron 2.3 started on 2023-04-12
+4月 12 11:31:07 ree-virtual-machine anacron[4681]: Normal exit (0 jobs run)
+4月 12 11:31:07 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 12 12:30:42 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 12 12:30:42 ree-virtual-machine anacron[6714]: Anacron 2.3 started on 2023-04-12
+4月 12 12:30:42 ree-virtual-machine anacron[6714]: Normal exit (0 jobs run)
+4月 12 12:30:42 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot e043495edc834fd3b8de378cf5b742ab --
+4月 12 12:32:37 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 12 12:32:37 ree-virtual-machine anacron[772]: Anacron 2.3 started on 2023-04-12
+4月 12 12:32:37 ree-virtual-machine anacron[772]: Normal exit (0 jobs run)
+4月 12 12:32:37 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 12 13:31:17 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 12 13:31:17 ree-virtual-machine anacron[5958]: Anacron 2.3 started on 2023-04-12
+4月 12 13:31:17 ree-virtual-machine anacron[5958]: Normal exit (0 jobs run)
+4月 12 13:31:17 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 9296bd89129642f58a1e422116180a89 --
+4月 12 19:33:18 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 12 19:33:18 ree-virtual-machine anacron[885]: Anacron 2.3 started on 2023-04-12
+4月 12 19:33:18 ree-virtual-machine anacron[885]: Normal exit (0 jobs run)
+4月 12 19:33:18 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 12 19:35:23 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 12 19:35:23 ree-virtual-machine anacron[3805]: Anacron 2.3 started on 2023-04-12
+4月 12 19:35:23 ree-virtual-machine anacron[3805]: Normal exit (0 jobs run)
+4月 12 19:35:23 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 12 20:33:20 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 12 20:33:20 ree-virtual-machine anacron[5454]: Anacron 2.3 started on 2023-04-12
+4月 12 20:33:20 ree-virtual-machine anacron[5454]: Normal exit (0 jobs run)
+4月 12 20:33:20 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 12 21:30:43 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 12 21:30:43 ree-virtual-machine anacron[8196]: Anacron 2.3 started on 2023-04-12
+4月 12 21:30:43 ree-virtual-machine anacron[8196]: Normal exit (0 jobs run)
+4月 12 21:30:43 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot e44af90cbb3e49179059ad1de25c45d0 --
+4月 12 21:31:07 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 12 21:31:07 ree-virtual-machine anacron[807]: Anacron 2.3 started on 2023-04-12
+4月 12 21:31:07 ree-virtual-machine anacron[807]: Normal exit (0 jobs run)
+4月 12 21:31:07 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 670c3aae65b84f6c8708951f52467260 --
+4月 12 21:49:13 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 12 21:49:13 ree-virtual-machine anacron[881]: Anacron 2.3 started on 2023-04-12
+4月 12 21:49:13 ree-virtual-machine anacron[881]: Normal exit (0 jobs run)
+4月 12 21:49:13 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 73255c0c6dec4ce4bca99ec2ceb12507 --
+4月 12 21:53:28 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 12 21:53:28 ree-virtual-machine anacron[796]: Anacron 2.3 started on 2023-04-12
+4月 12 21:53:28 ree-virtual-machine anacron[796]: Normal exit (0 jobs run)
+4月 12 21:53:28 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 12 22:33:21 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 12 22:33:21 ree-virtual-machine anacron[5739]: Anacron 2.3 started on 2023-04-12
+4月 12 22:33:21 ree-virtual-machine anacron[5739]: Normal exit (0 jobs run)
+4月 12 22:33:21 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 12 23:30:34 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 12 23:30:34 ree-virtual-machine anacron[6552]: Anacron 2.3 started on 2023-04-12
+4月 12 23:30:34 ree-virtual-machine anacron[6552]: Normal exit (0 jobs run)
+4月 12 23:30:34 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot ab354c8c35ec46309c3d583c22d4722e --
+4月 13 11:49:15 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 13 11:49:15 ree-virtual-machine anacron[890]: Anacron 2.3 started on 2023-04-13
+4月 13 11:49:15 ree-virtual-machine anacron[890]: Will run job `cron.daily' in 5 min.
+4月 13 11:49:15 ree-virtual-machine anacron[890]: Jobs will be executed sequentially
+4月 13 11:54:14 ree-virtual-machine anacron[890]: Job `cron.daily' started
+4月 13 11:54:14 ree-virtual-machine anacron[5038]: Updated timestamp for job `cron.daily' to 2023-04-13
+4月 13 11:54:14 ree-virtual-machine cracklib[5070]: no dictionary update necessary.
+4月 13 11:54:14 ree-virtual-machine anacron[890]: Job `cron.daily' terminated
+4月 13 11:54:14 ree-virtual-machine anacron[890]: Normal exit (1 job run)
+4月 13 11:54:14 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 13 12:31:07 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 13 12:31:07 ree-virtual-machine anacron[5743]: Anacron 2.3 started on 2023-04-13
+4月 13 12:31:07 ree-virtual-machine anacron[5743]: Normal exit (0 jobs run)
+4月 13 12:31:07 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 13 13:33:22 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 13 13:33:22 ree-virtual-machine anacron[6279]: Anacron 2.3 started on 2023-04-13
+4月 13 13:33:22 ree-virtual-machine anacron[6279]: Normal exit (0 jobs run)
+4月 13 13:33:22 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 13 14:34:16 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 13 14:34:16 ree-virtual-machine anacron[6945]: Anacron 2.3 started on 2023-04-13
+4月 13 14:34:16 ree-virtual-machine anacron[6945]: Normal exit (0 jobs run)
+4月 13 14:34:16 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 13 16:34:10 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 13 16:34:10 ree-virtual-machine anacron[7041]: Anacron 2.3 started on 2023-04-13
+4月 13 16:34:10 ree-virtual-machine anacron[7041]: Normal exit (0 jobs run)
+4月 13 16:34:10 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 13 20:20:59 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 13 20:20:59 ree-virtual-machine anacron[7064]: Anacron 2.3 started on 2023-04-13
+4月 13 20:20:59 ree-virtual-machine anacron[7064]: Normal exit (0 jobs run)
+4月 13 20:20:59 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 1223bb12cf164754a34338b3879bc416 --
+4月 13 20:22:51 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 13 20:22:51 ree-virtual-machine anacron[884]: Anacron 2.3 started on 2023-04-13
+4月 13 20:22:51 ree-virtual-machine anacron[884]: Normal exit (0 jobs run)
+4月 13 20:22:51 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 13 20:34:53 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 13 20:34:53 ree-virtual-machine anacron[4623]: Anacron 2.3 started on 2023-04-13
+4月 13 20:34:53 ree-virtual-machine anacron[4623]: Normal exit (0 jobs run)
+4月 13 20:34:53 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 13 21:34:49 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 13 21:34:49 ree-virtual-machine anacron[5854]: Anacron 2.3 started on 2023-04-13
+4月 13 21:34:49 ree-virtual-machine anacron[5854]: Normal exit (0 jobs run)
+4月 13 21:34:49 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 13 22:34:02 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 13 22:34:02 ree-virtual-machine anacron[6595]: Anacron 2.3 started on 2023-04-13
+4月 13 22:34:02 ree-virtual-machine anacron[6595]: Normal exit (0 jobs run)
+4月 13 22:34:02 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot eedc866258b546db86377bdd16f52c6c --
+4月 13 23:33:00 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 13 23:33:00 ree-virtual-machine anacron[874]: Anacron 2.3 started on 2023-04-13
+4月 13 23:33:00 ree-virtual-machine anacron[874]: Normal exit (0 jobs run)
+4月 13 23:33:00 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 13 23:36:37 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 13 23:36:37 ree-virtual-machine anacron[4312]: Anacron 2.3 started on 2023-04-13
+4月 13 23:36:37 ree-virtual-machine anacron[4312]: Normal exit (0 jobs run)
+4月 13 23:36:37 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 6336d5d01d9d47a1a84a86d400678bbe --
+4月 14 18:40:04 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 14 18:40:04 ree-virtual-machine anacron[882]: Anacron 2.3 started on 2023-04-14
+4月 14 18:40:04 ree-virtual-machine anacron[882]: Will run job `cron.daily' in 5 min.
+4月 14 18:40:04 ree-virtual-machine anacron[882]: Jobs will be executed sequentially
+4月 14 18:45:04 ree-virtual-machine anacron[882]: Job `cron.daily' started
+4月 14 18:45:04 ree-virtual-machine anacron[4809]: Updated timestamp for job `cron.daily' to 2023-04-14
+4月 14 18:45:04 ree-virtual-machine cracklib[4836]: no dictionary update necessary.
+4月 14 18:45:04 ree-virtual-machine anacron[882]: Job `cron.daily' terminated
+4月 14 18:45:04 ree-virtual-machine anacron[882]: Normal exit (1 job run)
+4月 14 18:45:04 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot 00425514c17e404db4cc5611a8f55ed9 --
+4月 14 21:28:22 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 14 21:28:22 ree-virtual-machine anacron[863]: Anacron 2.3 started on 2023-04-14
+4月 14 21:28:22 ree-virtual-machine anacron[863]: Normal exit (0 jobs run)
+4月 14 21:28:23 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 14 21:31:23 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 14 21:31:23 ree-virtual-machine anacron[3622]: Anacron 2.3 started on 2023-04-14
+4月 14 21:31:23 ree-virtual-machine anacron[3622]: Normal exit (0 jobs run)
+4月 14 21:31:23 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 14 22:34:46 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 14 22:34:46 ree-virtual-machine anacron[5645]: Anacron 2.3 started on 2023-04-14
+4月 14 22:34:46 ree-virtual-machine anacron[5645]: Normal exit (0 jobs run)
+4月 14 22:34:46 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 14 23:31:42 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 14 23:31:42 ree-virtual-machine anacron[5813]: Anacron 2.3 started on 2023-04-14
+4月 14 23:31:42 ree-virtual-machine anacron[5813]: Normal exit (0 jobs run)
+4月 14 23:31:42 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+-- Boot ac6742caea064674b1504bee9f2e0abd --
+4月 15 11:41:47 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 15 11:41:47 ree-virtual-machine anacron[886]: Anacron 2.3 started on 2023-04-15
+4月 15 11:41:47 ree-virtual-machine anacron[886]: Will run job `cron.daily' in 5 min.
+4月 15 11:41:47 ree-virtual-machine anacron[886]: Jobs will be executed sequentially
+4月 15 11:46:47 ree-virtual-machine anacron[886]: Job `cron.daily' started
+4月 15 11:46:47 ree-virtual-machine anacron[5151]: Updated timestamp for job `cron.daily' to 2023-04-15
+4月 15 11:46:47 ree-virtual-machine cracklib[5178]: no dictionary update necessary.
+4月 15 11:46:47 ree-virtual-machine anacron[886]: Job `cron.daily' terminated
+4月 15 11:46:47 ree-virtual-machine anacron[886]: Normal exit (1 job run)
+4月 15 11:46:47 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 15 12:33:29 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 15 12:33:29 ree-virtual-machine anacron[6290]: Anacron 2.3 started on 2023-04-15
+4月 15 12:33:29 ree-virtual-machine anacron[6290]: Normal exit (0 jobs run)
+4月 15 12:33:29 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 15 13:32:59 ree-virtual-machine systemd[1]: Started Run anacron jobs.
+4月 15 13:32:59 ree-virtual-machine anacron[11193]: Anacron 2.3 started on 2023-04-15
+4月 15 13:32:59 ree-virtual-machine systemd[1]: anacron.service: Deactivated successfully.
+4月 15 13:32:59 ree-virtual-machine anacron[11193]: Normal exit (0 jobs run)
+

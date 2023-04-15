@@ -1,0 +1,67 @@
+临时文件 /tmp/.ICE-unix/1122 可被执行！
+临时文件 /tmp/.ICE-unix/1995 可被执行！
+临时文件 /tmp/.X11-unix/X1024 可被执行！
+临时文件 /tmp/.X11-unix/X1025 可被执行！
+临时文件 /tmp/.X11-unix/X0 可被执行！
+临时文件 /tmp/.X11-unix/X1 可被执行！
+Package verification results for efibootmgr:
+missing     /usr/share/doc/efibootmgr/README.Debian
+missing     /usr/share/doc/efibootmgr/README.gz
+missing     /usr/share/doc/efibootmgr/TODO
+missing     /usr/share/doc/efibootmgr/changelog.Debian.gz
+missing     /usr/share/doc/efibootmgr/copyright
+missing     /usr/share/man/man8/efibootdump.8.gz
+missing     /usr/share/man/man8/efibootmgr.8.gz
+
+Package verification results for proxychains:
+??5?????? c /etc/proxychains.conf
+
+Package verification results for sogoupinyin:
+missing     /opt/sogoupinyin/files/bin/qt.conf
+missing     /opt/sogoupinyin/files/lib/qt5
+missing     /opt/sogoupinyin/files/lib/qt5/qml
+missing     /opt/sogoupinyin/files/lib/qt5/qml/QtQuick.2
+missing     /opt/sogoupinyin/files/lib/qt5/qml/QtQuick.2/libqtquick2plugin.so
+missing     /opt/sogoupinyin/files/lib/qt5/qml/QtQuick.2/plugins.qmltypes
+missing     /opt/sogoupinyin/files/lib/qt5/qml/QtQuick.2/qmldir
+missing     /opt/sogoupinyin/files/lib/qt5/plugins
+missing     /opt/sogoupinyin/files/lib/qt5/plugins/platforms
+missing     /opt/sogoupinyin/files/lib/qt5/plugins/platforms/libqminimal.so
+missing     /opt/sogoupinyin/files/lib/qt5/plugins/platforms/libqoffscreen.so
+missing     /opt/sogoupinyin/files/lib/qt5/plugins/platforms/libqxcb.so
+missing     /opt/sogoupinyin/files/lib/qt5/plugins/platforms/libqlinuxfb.so
+missing     /opt/sogoupinyin/files/lib/qt5/plugins/systemtrayicon
+missing     /opt/sogoupinyin/files/lib/qt5/plugins/systemtrayicon/libsni-qt.so
+missing     /opt/sogoupinyin/files/lib/qt5/plugins/imageformats
+missing     /opt/sogoupinyin/files/lib/qt5/plugins/imageformats/libqsvg.so
+missing     /opt/sogoupinyin/files/lib/qt5/plugins/xcbglintegrations
+missing     /opt/sogoupinyin/files/lib/qt5/plugins/xcbglintegrations/libqxcb-glx-integration.so
+missing     /opt/sogoupinyin/files/lib/qt5/plugins/platforminputcontexts
+missing     /opt/sogoupinyin/files/lib/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so
+missing     /opt/sogoupinyin/files/lib/qt5/plugins/iconengines
+missing     /opt/sogoupinyin/files/lib/qt5/plugins/iconengines/libqsvgicon.so
+missing     /opt/sogoupinyin/files/lib/qt5/lib
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libQt5XcbQpa.so.5
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libQt5Network.so.5
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libFcitxQt5DBusAddons.so.1
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libgsettings-qt.so.1
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libicuuc.so.54
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libpcre.so.3
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libQt5Core.so.5
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libQt5DBus.so.5
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libicui18n.so.54
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libpng12.so.0
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libQt5QuickWidgets.so.5
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libQt5Svg.so.5
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libQt5Qml.so.5
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libQt5Widgets.so.5
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libicudata.so.54
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libQt5Gui.so.5
+missing     /opt/sogoupinyin/files/lib/qt5/lib/libQt5Quick.so.5
+
+Package verification results for update-notifier-common:
+??5?????? c /etc/apt/apt.conf.d/10periodic
+
+Package verification results for youdao-dict:
+missing   c /etc/xdg/autostart/youdao-dict-autostart.desktop
+

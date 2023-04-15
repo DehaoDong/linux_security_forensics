@@ -1,0 +1,334 @@
+3月 28 10:31:04 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 28 10:31:04 ree-virtual-machine whoopsie-upload-all[943]: ERROR: whoopsie.path is not enabled
+3月 28 10:31:05 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 28 10:31:05 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 28 10:31:05 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+3月 28 11:31:04 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 28 11:31:04 ree-virtual-machine whoopsie-upload-all[13139]: ERROR: whoopsie.path is not enabled
+3月 28 11:31:04 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 28 11:31:04 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 28 11:31:04 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+3月 28 15:14:36 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 28 15:14:36 ree-virtual-machine whoopsie-upload-all[13695]: ERROR: whoopsie.path is not enabled
+3月 28 15:14:36 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 28 15:14:36 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 28 15:14:36 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+3月 28 18:15:03 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 28 18:15:03 ree-virtual-machine whoopsie-upload-all[14380]: ERROR: whoopsie.path is not enabled
+3月 28 18:15:03 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 28 18:15:03 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 28 18:15:03 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+3月 28 21:15:12 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 28 21:15:12 ree-virtual-machine whoopsie-upload-all[14884]: ERROR: whoopsie.path is not enabled
+3月 28 21:15:12 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 28 21:15:12 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 28 21:15:12 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+3月 29 00:15:21 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 29 00:15:21 ree-virtual-machine whoopsie-upload-all[20041]: ERROR: whoopsie.path is not enabled
+3月 29 00:15:21 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 29 00:15:21 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 29 00:15:21 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 2a886fae77824755a4d8c5453e54eec8 --
+3月 29 11:43:32 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 29 11:43:33 ree-virtual-machine whoopsie-upload-all[907]: ERROR: whoopsie.path is not enabled
+3月 29 11:43:33 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 29 11:43:33 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 29 11:43:33 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot bb0991777ac541be83385906c043308d --
+3月 29 12:42:42 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 29 12:42:42 ree-virtual-machine whoopsie-upload-all[921]: ERROR: whoopsie.path is not enabled
+3月 29 12:42:42 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 29 12:42:42 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 29 12:42:42 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot d7712a95bc0b49358ac3d7c9a0282431 --
+3月 29 13:18:47 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 29 13:18:47 ree-virtual-machine whoopsie-upload-all[987]: ERROR: whoopsie.path is not enabled
+3月 29 13:18:47 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 29 13:18:47 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 29 13:18:47 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 19b4dd46eb7b4597999d4311a7fcd580 --
+3月 29 13:24:44 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 29 13:24:44 ree-virtual-machine whoopsie-upload-all[925]: ERROR: whoopsie.path is not enabled
+3月 29 13:24:44 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 29 13:24:44 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 29 13:24:44 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+3月 29 14:24:46 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 29 14:24:46 ree-virtual-machine whoopsie-upload-all[7823]: ERROR: whoopsie.path is not enabled
+3月 29 14:24:46 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 29 14:24:46 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 29 14:24:46 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 9d814a28020a4d1b8dc1b211140df378 --
+3月 30 14:04:52 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 30 14:04:53 ree-virtual-machine whoopsie-upload-all[918]: ERROR: whoopsie.path is not enabled
+3月 30 14:04:53 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 30 14:04:53 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 30 14:04:53 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 84aa09a898d145c7a959de6db29053d7 --
+3月 30 15:02:21 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 30 15:02:21 ree-virtual-machine whoopsie-upload-all[942]: ERROR: whoopsie.path is not enabled
+3月 30 15:02:21 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 30 15:02:21 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 30 15:02:21 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot aa4829cf4bad48fb9f7b1a4eb947f5c0 --
+3月 30 15:03:27 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 30 15:03:27 ree-virtual-machine whoopsie-upload-all[988]: ERROR: whoopsie.path is not enabled
+3月 30 15:03:27 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 30 15:03:27 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 30 15:03:27 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 00a7e42d2b624b439bea376a3bc361f1 --
+3月 30 15:14:14 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 30 15:14:14 ree-virtual-machine whoopsie-upload-all[941]: ERROR: whoopsie.path is not enabled
+3月 30 15:14:14 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 30 15:14:14 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 30 15:14:14 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 1516c1af27714148858b849306510739 --
+3月 30 15:23:25 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 30 15:23:26 ree-virtual-machine whoopsie-upload-all[900]: ERROR: whoopsie.path is not enabled
+3月 30 15:23:26 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 30 15:23:26 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 30 15:23:26 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 9069828abd4b41e5829b4880b07ecdde --
+3月 30 15:38:53 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 30 15:38:53 ree-virtual-machine whoopsie-upload-all[912]: ERROR: whoopsie.path is not enabled
+3月 30 15:38:53 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 30 15:38:53 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 30 15:38:53 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 76e16ebfbeab47788bc4dd8853d9fe7e --
+3月 30 17:34:19 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 30 17:34:19 ree-virtual-machine whoopsie-upload-all[962]: ERROR: whoopsie.path is not enabled
+3月 30 17:34:19 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 30 17:34:19 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 30 17:34:19 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+3月 30 18:34:19 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 30 18:34:19 ree-virtual-machine whoopsie-upload-all[10551]: ERROR: whoopsie.path is not enabled
+3月 30 18:34:19 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 30 18:34:19 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 30 18:34:19 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot e249c720d58849269d73a22f14ee6fb9 --
+3月 30 20:32:33 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 30 20:32:33 ree-virtual-machine whoopsie-upload-all[966]: ERROR: whoopsie.path is not enabled
+3月 30 20:32:33 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 30 20:32:33 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 30 20:32:33 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+3月 30 21:32:35 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 30 21:32:35 ree-virtual-machine whoopsie-upload-all[6484]: ERROR: whoopsie.path is not enabled
+3月 30 21:32:35 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 30 21:32:35 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 30 21:32:35 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 9ccccf2adff74839b8fba49d83281f8b --
+3月 30 22:53:44 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 30 22:53:45 ree-virtual-machine whoopsie-upload-all[970]: ERROR: whoopsie.path is not enabled
+3月 30 22:53:45 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 30 22:53:45 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 30 22:53:45 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 308f7b0f7a274f0bb6200973f34667b6 --
+3月 31 00:22:28 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 31 00:22:28 ree-virtual-machine whoopsie-upload-all[923]: ERROR: whoopsie.path is not enabled
+3月 31 00:22:28 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 31 00:22:28 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 31 00:22:28 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot d85c7c53e5114994bc2f0f623b3af509 --
+3月 31 19:12:16 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 31 19:12:17 ree-virtual-machine whoopsie-upload-all[934]: ERROR: whoopsie.path is not enabled
+3月 31 19:12:17 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 31 19:12:17 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 31 19:12:17 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 09785a07d95540b1ad518945fbcc300d --
+3月 31 19:43:50 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 31 19:43:50 ree-virtual-machine whoopsie-upload-all[927]: ERROR: whoopsie.path is not enabled
+3月 31 19:43:50 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 31 19:43:50 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 31 19:43:50 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 436dee14f55b451a880859c1f76478af --
+3月 31 21:10:03 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+3月 31 21:10:03 ree-virtual-machine whoopsie-upload-all[927]: ERROR: whoopsie.path is not enabled
+3月 31 21:10:03 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+3月 31 21:10:03 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+3月 31 21:10:03 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot e2fd3a66bd3b4bd68261cb94d3fee451 --
+4月 04 12:20:47 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 04 12:20:47 ree-virtual-machine whoopsie-upload-all[952]: ERROR: whoopsie.path is not enabled
+4月 04 12:20:47 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 04 12:20:47 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 04 12:20:47 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 04 12:25:44 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 04 12:25:44 ree-virtual-machine whoopsie-upload-all[4115]: ERROR: whoopsie.path is not enabled
+4月 04 12:25:44 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 04 12:25:44 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 04 12:25:44 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 25dbee67bff049baa23eecea014b8763 --
+4月 04 17:35:54 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 04 17:35:54 ree-virtual-machine whoopsie-upload-all[925]: ERROR: whoopsie.path is not enabled
+4月 04 17:35:54 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 04 17:35:54 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 04 17:35:54 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 04 18:35:52 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 04 18:35:52 ree-virtual-machine whoopsie-upload-all[5439]: ERROR: whoopsie.path is not enabled
+4月 04 18:35:52 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 04 18:35:52 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 04 18:35:52 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 0d532a9de8ef4df1a92a1cc3f8ce562d --
+4月 09 19:14:33 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 09 19:14:34 ree-virtual-machine whoopsie-upload-all[963]: ERROR: whoopsie.path is not enabled
+4月 09 19:14:34 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 09 19:14:34 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 09 19:14:34 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 66c095c2b40d4348bbbaa9bd9371fd5b --
+4月 09 19:21:20 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 09 19:21:20 ree-virtual-machine whoopsie-upload-all[950]: ERROR: whoopsie.path is not enabled
+4月 09 19:21:20 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 09 19:21:20 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 09 19:21:20 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 09 19:26:16 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 09 19:26:17 ree-virtual-machine whoopsie-upload-all[5064]: ERROR: whoopsie.path is not enabled
+4月 09 19:26:17 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 09 19:26:17 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 09 19:26:17 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 09 20:21:19 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 09 20:21:19 ree-virtual-machine whoopsie-upload-all[7562]: ERROR: whoopsie.path is not enabled
+4月 09 20:21:19 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 09 20:21:19 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 09 20:21:19 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 125b443d38b7450fbc1c404530e9dc9e --
+4月 12 11:21:57 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 12 11:21:58 ree-virtual-machine whoopsie-upload-all[990]: ERROR: whoopsie.path is not enabled
+4月 12 11:21:58 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 12 11:21:58 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 12 11:21:58 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 12 11:22:00 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 12 11:22:00 ree-virtual-machine whoopsie-upload-all[1375]: ERROR: whoopsie.path is not enabled
+4月 12 11:22:00 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 12 11:22:00 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 12 11:22:00 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 12 11:22:01 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 12 11:22:01 ree-virtual-machine whoopsie-upload-all[1389]: ERROR: whoopsie.path is not enabled
+4月 12 11:22:01 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 12 11:22:01 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 12 11:22:01 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 12 12:21:58 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 12 12:21:58 ree-virtual-machine whoopsie-upload-all[6686]: ERROR: whoopsie.path is not enabled
+4月 12 12:21:58 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 12 12:21:58 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 12 12:21:58 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot e043495edc834fd3b8de378cf5b742ab --
+4月 12 12:32:38 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 12 12:32:38 ree-virtual-machine whoopsie-upload-all[956]: ERROR: whoopsie.path is not enabled
+4月 12 12:32:38 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 12 12:32:38 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 12 12:32:38 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 12 13:32:38 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 12 13:32:38 ree-virtual-machine whoopsie-upload-all[6050]: ERROR: whoopsie.path is not enabled
+4月 12 13:32:38 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 12 13:32:38 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 12 13:32:38 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 9296bd89129642f58a1e422116180a89 --
+4月 12 19:33:19 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 12 19:33:19 ree-virtual-machine whoopsie-upload-all[1021]: ERROR: whoopsie.path is not enabled
+4月 12 19:33:19 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 12 19:33:19 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 12 19:33:19 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 12 20:33:20 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 12 20:33:20 ree-virtual-machine whoopsie-upload-all[5455]: ERROR: whoopsie.path is not enabled
+4月 12 20:33:20 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 12 20:33:20 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 12 20:33:20 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot e44af90cbb3e49179059ad1de25c45d0 --
+4月 12 21:31:07 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 12 21:31:07 ree-virtual-machine whoopsie-upload-all[964]: ERROR: whoopsie.path is not enabled
+4月 12 21:31:07 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 12 21:31:07 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 12 21:31:07 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 670c3aae65b84f6c8708951f52467260 --
+4月 12 21:49:13 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 12 21:49:13 ree-virtual-machine whoopsie-upload-all[969]: ERROR: whoopsie.path is not enabled
+4月 12 21:49:13 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 12 21:49:13 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 12 21:49:13 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 73255c0c6dec4ce4bca99ec2ceb12507 --
+4月 12 21:53:29 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 12 21:53:29 ree-virtual-machine whoopsie-upload-all[956]: ERROR: whoopsie.path is not enabled
+4月 12 21:53:29 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 12 21:53:29 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 12 21:53:29 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 12 22:53:30 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 12 22:53:30 ree-virtual-machine whoopsie-upload-all[6012]: ERROR: whoopsie.path is not enabled
+4月 12 22:53:30 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 12 22:53:30 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 12 22:53:30 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot ab354c8c35ec46309c3d583c22d4722e --
+4月 13 11:49:16 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 13 11:49:16 ree-virtual-machine whoopsie-upload-all[996]: ERROR: whoopsie.path is not enabled
+4月 13 11:49:16 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 13 11:49:16 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 13 11:49:16 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 13 11:54:14 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 13 11:54:14 ree-virtual-machine whoopsie-upload-all[5045]: ERROR: whoopsie.path is not enabled
+4月 13 11:54:14 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 13 11:54:14 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 13 11:54:14 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 13 12:49:17 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 13 12:49:17 ree-virtual-machine whoopsie-upload-all[5829]: ERROR: whoopsie.path is not enabled
+4月 13 12:49:17 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 13 12:49:17 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 13 12:49:17 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 1223bb12cf164754a34338b3879bc416 --
+4月 13 20:22:51 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 13 20:22:52 ree-virtual-machine whoopsie-upload-all[983]: ERROR: whoopsie.path is not enabled
+4月 13 20:22:52 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 13 20:22:52 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 13 20:22:52 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 13 21:22:50 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 13 21:22:50 ree-virtual-machine whoopsie-upload-all[5663]: ERROR: whoopsie.path is not enabled
+4月 13 21:22:50 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 13 21:22:50 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 13 21:22:50 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot eedc866258b546db86377bdd16f52c6c --
+4月 13 23:33:00 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 13 23:33:01 ree-virtual-machine whoopsie-upload-all[979]: ERROR: whoopsie.path is not enabled
+4月 13 23:33:01 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 13 23:33:01 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 13 23:33:01 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 14 00:32:59 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 14 00:32:59 ree-virtual-machine whoopsie-upload-all[8278]: ERROR: whoopsie.path is not enabled
+4月 14 00:32:59 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 14 00:32:59 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 14 00:32:59 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 6336d5d01d9d47a1a84a86d400678bbe --
+4月 14 18:40:04 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 14 18:40:05 ree-virtual-machine whoopsie-upload-all[976]: ERROR: whoopsie.path is not enabled
+4月 14 18:40:05 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 14 18:40:05 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 14 18:40:05 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 14 19:05:13 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 14 19:05:13 ree-virtual-machine whoopsie-upload-all[5759]: ERROR: whoopsie.path is not enabled
+4月 14 19:05:13 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 14 19:05:13 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 14 19:05:13 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 00425514c17e404db4cc5611a8f55ed9 --
+4月 14 21:28:23 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 14 21:28:23 ree-virtual-machine whoopsie-upload-all[1054]: ERROR: whoopsie.path is not enabled
+4月 14 21:28:23 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 14 21:28:23 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 14 21:28:23 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 14 22:28:24 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 14 22:28:24 ree-virtual-machine whoopsie-upload-all[5607]: ERROR: whoopsie.path is not enabled
+4月 14 22:28:24 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 14 22:28:24 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 14 22:28:24 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 15 01:28:46 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 15 01:28:46 ree-virtual-machine whoopsie-upload-all[7908]: ERROR: whoopsie.path is not enabled
+4月 15 01:28:46 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 15 01:28:46 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 15 01:28:46 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot ac6742caea064674b1504bee9f2e0abd --
+4月 15 11:41:48 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 15 11:41:48 ree-virtual-machine whoopsie-upload-all[962]: ERROR: whoopsie.path is not enabled
+4月 15 11:41:48 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 15 11:41:48 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 15 11:41:48 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+4月 15 12:41:49 ree-virtual-machine systemd[1]: Starting Process error reports when automatic reporting is enabled...
+4月 15 12:41:49 ree-virtual-machine whoopsie-upload-all[6447]: ERROR: whoopsie.path is not enabled
+4月 15 12:41:49 ree-virtual-machine systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=1/FAILURE
+4月 15 12:41:49 ree-virtual-machine systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+4月 15 12:41:49 ree-virtual-machine systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+
