@@ -37,7 +37,7 @@ def backup_systemd_logs(services):
     for service in services:
         log.print_and_log(f"Backing up {service}.log")
         journalctl_output = subprocess.check_output(['journalctl', '-u', service], text=True, errors='ignore')
-        output_result.write_content(f"init/{service}.log", journalctl_output)
+        output_result.write_content(f"startup/{service}.log", journalctl_output)
 
 
 def check_systemd_service_files(services):
@@ -46,7 +46,7 @@ def check_systemd_service_files(services):
 
         log.print_and_log(f"Backing up service file for {service}:")
 
-        output_result.write_content(f"init/{service}.conf", service_file)
+        output_result.write_content(f"startup/{service}.conf", service_file)
 
 
 def sysv_services():
@@ -60,7 +60,7 @@ def backup_sysv_logs(services):
         log.print_and_log(f"Backing up {service}.log")
         log_path = f"/var/log/{service}.log"
         if os.path.exists(log_path):
-            output_result.write_content(f"init/{service}.log", log_path)
+            output_result.write_content(f"startup/{service}.log", log_path)
 
 
 def check_sysv_service_files(services):
@@ -69,7 +69,7 @@ def check_sysv_service_files(services):
 
         log.print_and_log(f"Backing up service file for {service}:")
 
-        output_result.write_content(f"init/{service}.conf", service_file)
+        output_result.write_content(f"startup/{service}.conf", service_file)
 
 
 def upstart_services():
@@ -83,7 +83,7 @@ def backup_upstart_logs(services):
         log.print_and_log(f"Backing up {service}.log")
         log_path = f"/var/log/upstart/{service}.log"
         if os.path.exists(log_path):
-            output_result.write_content(f"init/{service}.log", log_path)
+            output_result.write_content(f"startup/{service}.log", log_path)
 
 
 def check_upstart_service_files(services):
@@ -92,7 +92,7 @@ def check_upstart_service_files(services):
 
         log.print_and_log(f"Backing up service file for {service}")
 
-        output_result.write_content(f"init/{service}.conf", service_file)
+        output_result.write_content(f"startup/{service}.conf", service_file)
 
 
 def main():

@@ -1,0 +1,495 @@
+2023-04-21 17:32:20,568
+取证结果存放目录(directory for storing forensics result)：./results/2023-04-21_17-32_ubuntu/
+
+2023-04-21 17:32:20,568
+系统信息(System information):
+2023-04-21 17:32:20,568
+Operating System: Linux
+2023-04-21 17:32:20,569
+Node Name: ubuntu
+2023-04-21 17:32:20,569
+Release: 5.15.0-69-generic
+2023-04-21 17:32:20,569
+Version: #76~20.04.1-Ubuntu SMP Mon Mar 20 15:54:19 UTC 2023
+2023-04-21 17:32:20,570
+Machine: x86_64
+2023-04-21 17:32:20,570
+Processor: x86_64
+2023-04-21 17:32:20,570
+IP Address: 192.168.177.130
+2023-04-21 17:32:20,571
+CPU Cores: 2
+2023-04-21 17:32:20,571
+Total Memory: 7.73 GB
+2023-04-21 17:32:20,571
+Total Disk Space: 23.94 GB
+2023-04-21 17:32:20,572
+Checking startups...
+2023-04-21 17:32:20,595
+Init system: Systemd
+2023-04-21 17:32:21,250
+Backing up UNIT.log
+2023-04-21 17:32:21,368
+Backing up accounts-daemon.service.log
+2023-04-21 17:32:22,127
+Backing up acpid.service.log
+2023-04-21 17:32:22,421
+Backing up alsa-restore.service.log
+2023-04-21 17:32:22,653
+Backing up alsa-state.service.log
+2023-04-21 17:32:22,885
+Backing up alsa-utils.service.log
+2023-04-21 17:32:22,977
+Backing up anacron.service.log
+2023-04-21 17:32:23,160
+Backing up apache-htcacheclean.service.log
+2023-04-21 17:32:23,176
+Backing up apache-htcacheclean@.service.log
+2023-04-21 17:32:23,259
+Backing up apache2.service.log
+2023-04-21 17:32:23,302
+Backing up apache2@.service.log
+2023-04-21 17:32:23,314
+Backing up apparmor.service.log
+2023-04-21 17:32:23,356
+Backing up apport-autoreport.service.log
+2023-04-21 17:32:23,367
+Backing up apport-forward@.service.log
+2023-04-21 17:32:23,443
+Backing up apport.service.log
+2023-04-21 17:32:23,533
+Backing up apt-daily-upgrade.service.log
+2023-04-21 17:32:23,555
+Backing up apt-daily.service.log
+2023-04-21 17:32:23,647
+Backing up apt-news.service.log
+2023-04-21 17:32:23,734
+Backing up autovt@.service.log
+2023-04-21 17:32:23,743
+Backing up avahi-daemon.service.log
+2023-04-21 17:32:23,832
+Backing up bluetooth.service.log
+2023-04-21 17:32:23,864
+Backing up bolt.service.log
+2023-04-21 17:32:23,880
+Backing up brltty-udev.service.log
+2023-04-21 17:32:23,898
+Backing up brltty.service.log
+2023-04-21 17:32:23,907
+Backing up clean-mount-point@.service.log
+2023-04-21 17:32:23,928
+Backing up colord.service.log
+2023-04-21 17:32:23,967
+Backing up configure-printer@.service.log
+2023-04-21 17:32:23,993
+Backing up console-getty.service.log
+2023-04-21 17:32:24,004
+Backing up console-setup.service.log
+2023-04-21 17:32:24,021
+Backing up container-getty@.service.log
+2023-04-21 17:32:24,033
+Backing up cron.service.log
+2023-04-21 17:32:24,060
+Backing up cryptdisks-early.service.log
+2023-04-21 17:32:24,074
+Backing up cryptdisks.service.log
+2023-04-21 17:32:24,087
+Backing up cups-browsed.service.log
+2023-04-21 17:32:24,104
+Backing up cups.service.log
+2023-04-21 17:32:24,126
+Backing up dbus-fi.w1.wpa_supplicant1.service.log
+2023-04-21 17:32:24,136
+Backing up dbus-org.bluez.service.log
+2023-04-21 17:32:24,152
+Backing up dbus-org.freedesktop.Avahi.service.log
+2023-04-21 17:32:24,163
+Backing up dbus-org.freedesktop.hostname1.service.log
+2023-04-21 17:32:24,196
+Backing up dbus-org.freedesktop.locale1.service.log
+2023-04-21 17:32:24,211
+Backing up dbus-org.freedesktop.login1.service.log
+2023-04-21 17:32:24,220
+Backing up dbus-org.freedesktop.ModemManager1.service.log
+2023-04-21 17:32:24,231
+Backing up dbus-org.freedesktop.nm-dispatcher.service.log
+2023-04-21 17:32:24,247
+Backing up dbus-org.freedesktop.resolve1.service.log
+2023-04-21 17:32:24,256
+Backing up dbus-org.freedesktop.thermald.service.log
+2023-04-21 17:32:24,269
+Backing up dbus-org.freedesktop.timedate1.service.log
+2023-04-21 17:32:24,283
+Backing up dbus-org.freedesktop.timesync1.service.log
+2023-04-21 17:32:24,292
+Backing up dbus.service.log
+2023-04-21 17:32:24,392
+Backing up debug-shell.service.log
+2023-04-21 17:32:24,401
+Backing up display-manager.service.log
+2023-04-21 17:32:24,411
+Backing up dmesg.service.log
+2023-04-21 17:32:24,426
+Backing up e2scrub@.service.log
+2023-04-21 17:32:24,440
+Backing up e2scrub_all.service.log
+2023-04-21 17:32:24,453
+Backing up e2scrub_fail@.service.log
+2023-04-21 17:32:24,466
+Backing up e2scrub_reap.service.log
+2023-04-21 17:32:24,490
+Backing up emergency.service.log
+2023-04-21 17:32:24,500
+Backing up esm-cache.service.log
+2023-04-21 17:32:24,512
+Backing up fprintd.service.log
+2023-04-21 17:32:24,534
+Backing up friendly-recovery.service.log
+2023-04-21 17:32:24,543
+Backing up fstrim.service.log
+2023-04-21 17:32:24,562
+Backing up fwupd-offline-update.service.log
+2023-04-21 17:32:24,571
+Backing up fwupd-refresh.service.log
+2023-04-21 17:32:24,583
+Backing up fwupd.service.log
+2023-04-21 17:32:24,603
+Backing up gdm.service.log
+2023-04-21 17:32:24,635
+Backing up gdm3.service.log
+2023-04-21 17:32:24,645
+Backing up geoclue.service.log
+2023-04-21 17:32:24,665
+Backing up getty-static.service.log
+2023-04-21 17:32:24,690
+Backing up getty@.service.log
+2023-04-21 17:32:24,701
+Backing up gpu-manager.service.log
+2023-04-21 17:32:24,721
+Backing up grub-common.service.log
+2023-04-21 17:32:24,740
+Backing up grub-initrd-fallback.service.log
+2023-04-21 17:32:24,757
+Backing up hwclock.service.log
+2023-04-21 17:32:24,768
+Backing up iio-sensor-proxy.service.log
+2023-04-21 17:32:24,778
+Backing up initrd-cleanup.service.log
+2023-04-21 17:32:24,787
+Backing up initrd-parse-etc.service.log
+2023-04-21 17:32:24,798
+Backing up initrd-switch-root.service.log
+2023-04-21 17:32:24,809
+Backing up initrd-udevadm-cleanup-db.service.log
+2023-04-21 17:32:24,819
+Backing up ippusbxd@.service.log
+2023-04-21 17:32:24,829
+Backing up irqbalance.service.log
+2023-04-21 17:32:24,847
+Backing up kerneloops.service.log
+2023-04-21 17:32:24,869
+Backing up keyboard-setup.service.log
+2023-04-21 17:32:24,880
+Backing up kmod-static-nodes.service.log
+2023-04-21 17:32:24,889
+Backing up kmod.service.log
+2023-04-21 17:32:24,904
+Backing up logrotate.service.log
+2023-04-21 17:32:24,917
+Backing up man-db.service.log
+2023-04-21 17:32:24,931
+Backing up ModemManager.service.log
+2023-04-21 17:32:24,953
+Backing up modprobe@.service.log
+2023-04-21 17:32:24,966
+Backing up motd-news.service.log
+2023-04-21 17:32:24,977
+Backing up mysql.service.log
+2023-04-21 17:32:24,998
+Backing up netplan-ovs-cleanup.service.log
+2023-04-21 17:32:25,008
+Backing up network-manager.service.log
+2023-04-21 17:32:25,020
+Backing up networkd-dispatcher.service.log
+2023-04-21 17:32:25,048
+Backing up NetworkManager-dispatcher.service.log
+2023-04-21 17:32:25,079
+Backing up NetworkManager-wait-online.service.log
+2023-04-21 17:32:25,101
+Backing up NetworkManager.service.log
+2023-04-21 17:32:25,234
+Backing up ondemand.service.log
+2023-04-21 17:32:25,248
+Backing up open-vm-tools.service.log
+2023-04-21 17:32:25,266
+Backing up openvpn-client@.service.log
+2023-04-21 17:32:25,275
+Backing up openvpn-server@.service.log
+2023-04-21 17:32:25,287
+Backing up openvpn.service.log
+2023-04-21 17:32:25,308
+Backing up openvpn@.service.log
+2023-04-21 17:32:25,319
+Backing up packagekit-offline-update.service.log
+2023-04-21 17:32:25,337
+Backing up packagekit.service.log
+2023-04-21 17:32:25,377
+Backing up phpsessionclean.service.log
+2023-04-21 17:32:25,393
+Backing up plymouth-halt.service.log
+2023-04-21 17:32:25,403
+Backing up plymouth-kexec.service.log
+2023-04-21 17:32:25,412
+Backing up plymouth-log.service.log
+2023-04-21 17:32:25,426
+Backing up plymouth-poweroff.service.log
+2023-04-21 17:32:25,440
+Backing up plymouth-quit-wait.service.log
+2023-04-21 17:32:25,459
+Backing up plymouth-quit.service.log
+2023-04-21 17:32:25,469
+Backing up plymouth-read-write.service.log
+2023-04-21 17:32:25,486
+Backing up plymouth-reboot.service.log
+2023-04-21 17:32:25,498
+Backing up plymouth-start.service.log
+2023-04-21 17:32:25,512
+Backing up plymouth-switch-root.service.log
+2023-04-21 17:32:25,528
+Backing up plymouth.service.log
+2023-04-21 17:32:25,538
+Backing up polkit.service.log
+2023-04-21 17:32:25,567
+Backing up pppd-dns.service.log
+2023-04-21 17:32:25,585
+Backing up procps.service.log
+2023-04-21 17:32:25,596
+Backing up pulseaudio-enable-autospawn.service.log
+2023-04-21 17:32:25,605
+Backing up quotaon.service.log
+2023-04-21 17:32:25,617
+Backing up rc-local.service.log
+2023-04-21 17:32:25,626
+Backing up rc.service.log
+2023-04-21 17:32:25,638
+Backing up rcS.service.log
+2023-04-21 17:32:25,650
+Backing up rescue.service.log
+2023-04-21 17:32:25,659
+Backing up rsync.service.log
+2023-04-21 17:32:25,677
+Backing up rsyslog.service.log
+2023-04-21 17:32:25,700
+Backing up rtkit-daemon.service.log
+2023-04-21 17:32:25,796
+Backing up saned.service.log
+2023-04-21 17:32:25,806
+Backing up saned@.service.log
+2023-04-21 17:32:25,816
+Backing up secureboot-db.service.log
+2023-04-21 17:32:25,830
+Backing up serial-getty@.service.log
+2023-04-21 17:32:25,842
+Backing up setvtrgb.service.log
+2023-04-21 17:32:25,859
+Backing up snapd.aa-prompt-listener.service.log
+2023-04-21 17:32:25,888
+Backing up snapd.apparmor.service.log
+2023-04-21 17:32:25,905
+Backing up snapd.autoimport.service.log
+2023-04-21 17:32:25,920
+Backing up snapd.core-fixup.service.log
+2023-04-21 17:32:25,936
+Backing up snapd.failure.service.log
+2023-04-21 17:32:25,946
+Backing up snapd.recovery-chooser-trigger.service.log
+2023-04-21 17:32:25,965
+Backing up snapd.seeded.service.log
+2023-04-21 17:32:25,985
+Backing up snapd.service.log
+2023-04-21 17:32:26,022
+Backing up snapd.snap-repair.service.log
+2023-04-21 17:32:26,033
+Backing up snapd.system-shutdown.service.log
+2023-04-21 17:32:26,045
+Backing up speech-dispatcher.service.log
+2023-04-21 17:32:26,059
+Backing up speech-dispatcherd.service.log
+2023-04-21 17:32:26,069
+Backing up spice-vdagent.service.log
+2023-04-21 17:32:26,082
+Backing up spice-vdagentd.service.log
+2023-04-21 17:32:26,094
+Backing up ssh.service.log
+2023-04-21 17:32:26,107
+Backing up ssh@.service.log
+2023-04-21 17:32:26,118
+Backing up sshd.service.log
+2023-04-21 17:32:26,127
+Backing up sudo.service.log
+2023-04-21 17:32:26,138
+Backing up switcheroo-control.service.log
+2023-04-21 17:32:26,157
+Backing up syslog.service.log
+2023-04-21 17:32:26,168
+Backing up system-update-cleanup.service.log
+2023-04-21 17:32:26,182
+Backing up systemd-ask-password-console.service.log
+2023-04-21 17:32:26,191
+Backing up systemd-ask-password-plymouth.service.log
+2023-04-21 17:32:26,203
+Backing up systemd-ask-password-wall.service.log
+2023-04-21 17:32:26,214
+Backing up systemd-backlight@.service.log
+2023-04-21 17:32:26,223
+Backing up systemd-binfmt.service.log
+2023-04-21 17:32:26,239
+Backing up systemd-bless-boot.service.log
+2023-04-21 17:32:26,249
+Backing up systemd-boot-check-no-failures.service.log
+2023-04-21 17:32:26,259
+Backing up systemd-boot-system-token.service.log
+2023-04-21 17:32:26,275
+Backing up systemd-exit.service.log
+2023-04-21 17:32:26,286
+Backing up systemd-fsck-root.service.log
+2023-04-21 17:32:26,303
+Backing up systemd-fsck@.service.log
+2023-04-21 17:32:26,314
+Backing up systemd-fsckd.service.log
+2023-04-21 17:32:26,329
+Backing up systemd-halt.service.log
+2023-04-21 17:32:26,342
+Backing up systemd-hibernate-resume@.service.log
+2023-04-21 17:32:26,352
+Backing up systemd-hibernate.service.log
+2023-04-21 17:32:26,364
+Backing up systemd-hostnamed.service.log
+2023-04-21 17:32:26,383
+Backing up systemd-hwdb-update.service.log
+2023-04-21 17:32:26,404
+Backing up systemd-hybrid-sleep.service.log
+2023-04-21 17:32:26,414
+Backing up systemd-initctl.service.log
+2023-04-21 17:32:26,431
+Backing up systemd-journal-flush.service.log
+2023-04-21 17:32:26,446
+Backing up systemd-journald.service.log
+2023-04-21 17:32:26,468
+Backing up systemd-journald@.service.log
+2023-04-21 17:32:26,477
+Backing up systemd-kexec.service.log
+2023-04-21 17:32:26,489
+Backing up systemd-localed.service.log
+2023-04-21 17:32:26,508
+Backing up systemd-logind.service.log
+2023-04-21 17:32:26,538
+Backing up systemd-machine-id-commit.service.log
+2023-04-21 17:32:26,555
+Backing up systemd-modules-load.service.log
+2023-04-21 17:32:26,575
+Backing up systemd-network-generator.service.log
+2023-04-21 17:32:26,588
+Backing up systemd-networkd-wait-online.service.log
+2023-04-21 17:32:26,599
+Backing up systemd-networkd.service.log
+2023-04-21 17:32:26,610
+Backing up systemd-poweroff.service.log
+2023-04-21 17:32:26,627
+Backing up systemd-pstore.service.log
+2023-04-21 17:32:26,642
+Backing up systemd-quotacheck.service.log
+2023-04-21 17:32:26,657
+Backing up systemd-random-seed.service.log
+2023-04-21 17:32:26,672
+Backing up systemd-reboot.service.log
+2023-04-21 17:32:26,685
+Backing up systemd-remount-fs.service.log
+2023-04-21 17:32:26,697
+Backing up systemd-resolved.service.log
+2023-04-21 17:32:26,724
+Backing up systemd-rfkill.service.log
+2023-04-21 17:32:26,735
+Backing up systemd-suspend-then-hibernate.service.log
+2023-04-21 17:32:26,747
+Backing up systemd-suspend.service.log
+2023-04-21 17:32:26,758
+Backing up systemd-sysctl.service.log
+2023-04-21 17:32:26,781
+Backing up systemd-sysusers.service.log
+2023-04-21 17:32:26,828
+Backing up systemd-time-wait-sync.service.log
+2023-04-21 17:32:26,840
+Backing up systemd-timedated.service.log
+2023-04-21 17:32:26,859
+Backing up systemd-timesyncd.service.log
+2023-04-21 17:32:26,880
+Backing up systemd-tmpfiles-clean.service.log
+2023-04-21 17:32:26,892
+Backing up systemd-tmpfiles-setup-dev.service.log
+2023-04-21 17:32:26,908
+Backing up systemd-tmpfiles-setup.service.log
+2023-04-21 17:32:26,925
+Backing up systemd-udev-settle.service.log
+2023-04-21 17:32:26,938
+Backing up systemd-udev-trigger.service.log
+2023-04-21 17:32:26,953
+Backing up systemd-udevd.service.log
+2023-04-21 17:32:26,974
+Backing up systemd-update-utmp-runlevel.service.log
+2023-04-21 17:32:27,039
+Backing up systemd-update-utmp.service.log
+2023-04-21 17:32:27,061
+Backing up systemd-user-sessions.service.log
+2023-04-21 17:32:27,077
+Backing up systemd-volatile-root.service.log
+2023-04-21 17:32:27,089
+Backing up thermald.service.log
+2023-04-21 17:32:27,104
+Backing up ua-reboot-cmds.service.log
+2023-04-21 17:32:27,117
+Backing up ua-timer.service.log
+2023-04-21 17:32:27,134
+Backing up ubuntu-advantage-desktop-daemon.service.log
+2023-04-21 17:32:27,183
+Backing up ubuntu-advantage.service.log
+2023-04-21 17:32:27,193
+Backing up udev.service.log
+2023-04-21 17:32:27,205
+Backing up udisks2.service.log
+2023-04-21 17:32:27,234
+Backing up ufw.service.log
+2023-04-21 17:32:27,243
+Backing up unattended-upgrades.service.log
+2023-04-21 17:32:27,262
+Backing up upower.service.log
+2023-04-21 17:32:27,280
+Backing up usb_modeswitch@.service.log
+2023-04-21 17:32:27,289
+Backing up usbmuxd.service.log
+2023-04-21 17:32:27,299
+Backing up user-runtime-dir@.service.log
+2023-04-21 17:32:27,316
+Backing up user@.service.log
+2023-04-21 17:32:27,326
+Backing up uuidd.service.log
+2023-04-21 17:32:27,335
+Backing up vgauth.service.log
+2023-04-21 17:32:27,360
+Backing up vmtoolsd.service.log
+2023-04-21 17:32:27,373
+Backing up wacom-inputattach@.service.log
+2023-04-21 17:32:27,384
+Backing up whoopsie.service.log
+2023-04-21 17:32:27,417
+Backing up wpa_supplicant-nl80211@.service.log
+2023-04-21 17:32:27,427
+Backing up wpa_supplicant-wired@.service.log
+2023-04-21 17:32:27,439
+Backing up wpa_supplicant.service.log
+2023-04-21 17:32:27,458
+Backing up wpa_supplicant@.service.log
+2023-04-21 17:32:27,470
+Backing up x11-common.service.log
+2023-04-21 17:32:27,482
+Backing up 231.log

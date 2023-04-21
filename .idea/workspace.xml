@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2953411a-e452-4043-ba4a-8822ef2caa32" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/check_alias.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_alias.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/check_app_packages.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_app_packages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/check_backdoors.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_backdoors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/check_connections.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_connections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/check_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/check_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/check_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_operations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/check_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/check_ssh.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_ssh.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/check_webservers.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_webservers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/get_users_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/get_users_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/check_startups.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/check_startups.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +79,7 @@
       <workItem from="1681468908545" duration="1407000" />
       <workItem from="1681478938299" duration="14670000" />
       <workItem from="1681530160218" duration="11525000" />
-      <workItem from="1682060370160" duration="5931000" />
+      <workItem from="1682060370160" duration="6447000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,1010 @@
+-- Logs begin at Sat 2022-01-08 18:32:32 CST, end at Fri 2023-04-21 17:32:00 CST. --
+1月 09 21:33:01 ubuntu VGAuthService[821]: Processing SIGTERM; service exiting
+1月 09 21:33:01 ubuntu VGAuthService[821]: ServiceEndMainLoop: about to stop main loop
+-- Reboot --
+1月 09 21:33:15 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+1月 09 21:33:15 ubuntu VGAuthService[836]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+1月 09 21:33:15 ubuntu VGAuthService[836]: Core dump limit set to -1
+1月 09 21:33:15 ubuntu VGAuthService[836]: INIT SERVICE
+1月 09 21:33:15 ubuntu VGAuthService[836]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+1月 09 21:33:15 ubuntu VGAuthService[836]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+1月 09 21:33:15 ubuntu VGAuthService[836]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+1月 09 21:33:15 ubuntu VGAuthService[836]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+1月 09 21:33:15 ubuntu VGAuthService[836]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+1月 09 21:33:15 ubuntu VGAuthService[836]: BEGIN SERVICE
+-- Reboot --
+3月 22 14:03:02 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 22 14:03:02 ubuntu VGAuthService[834]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 22 14:03:02 ubuntu VGAuthService[834]: Core dump limit set to -1
+3月 22 14:03:02 ubuntu VGAuthService[834]: INIT SERVICE
+3月 22 14:03:02 ubuntu VGAuthService[834]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 22 14:03:02 ubuntu VGAuthService[834]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 22 14:03:02 ubuntu VGAuthService[834]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 22 14:03:02 ubuntu VGAuthService[834]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 22 14:03:02 ubuntu VGAuthService[834]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 22 14:03:02 ubuntu VGAuthService[834]: BEGIN SERVICE
+-- Reboot --
+3月 22 14:13:42 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 22 14:13:42 ubuntu VGAuthService[849]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 22 14:13:42 ubuntu VGAuthService[849]: Core dump limit set to -1
+3月 22 14:13:42 ubuntu VGAuthService[849]: INIT SERVICE
+3月 22 14:13:42 ubuntu VGAuthService[849]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 22 14:13:42 ubuntu VGAuthService[849]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 22 14:13:42 ubuntu VGAuthService[849]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 22 14:13:42 ubuntu VGAuthService[849]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 22 14:13:42 ubuntu VGAuthService[849]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 22 14:13:42 ubuntu VGAuthService[849]: BEGIN SERVICE
+3月 22 14:22:49 ubuntu VGAuthService[849]: Processing SIGTERM; service exiting
+3月 22 14:22:49 ubuntu VGAuthService[849]: ServiceEndMainLoop: about to stop main loop
+3月 22 14:22:49 ubuntu VGAuthService[849]: END SERVICE
+-- Reboot --
+3月 22 16:13:10 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 22 16:13:10 ubuntu VGAuthService[851]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 22 16:13:10 ubuntu VGAuthService[851]: Core dump limit set to -1
+3月 22 16:13:10 ubuntu VGAuthService[851]: INIT SERVICE
+3月 22 16:13:10 ubuntu VGAuthService[851]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 22 16:13:10 ubuntu VGAuthService[851]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 22 16:13:10 ubuntu VGAuthService[851]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 22 16:13:10 ubuntu VGAuthService[851]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 22 16:13:10 ubuntu VGAuthService[851]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 22 16:13:10 ubuntu VGAuthService[851]: BEGIN SERVICE
+3月 22 17:38:01 ubuntu VGAuthService[851]: Processing SIGTERM; service exiting
+3月 22 17:38:01 ubuntu VGAuthService[851]: ServiceEndMainLoop: about to stop main loop
+3月 22 17:38:01 ubuntu VGAuthService[851]: END SERVICE
+-- Reboot --
+3月 25 10:18:04 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 25 10:18:04 ubuntu VGAuthService[878]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 25 10:18:04 ubuntu VGAuthService[878]: Core dump limit set to -1
+3月 25 10:18:04 ubuntu VGAuthService[878]: INIT SERVICE
+3月 25 10:18:04 ubuntu VGAuthService[878]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 25 10:18:04 ubuntu VGAuthService[878]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 25 10:18:04 ubuntu VGAuthService[878]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 25 10:18:04 ubuntu VGAuthService[878]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 25 10:18:04 ubuntu VGAuthService[878]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 25 10:18:04 ubuntu VGAuthService[878]: BEGIN SERVICE
+-- Reboot --
+3月 25 10:45:15 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 25 10:45:15 ubuntu VGAuthService[879]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 25 10:45:15 ubuntu VGAuthService[879]: Core dump limit set to -1
+3月 25 10:45:15 ubuntu VGAuthService[879]: INIT SERVICE
+3月 25 10:45:15 ubuntu VGAuthService[879]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 25 10:45:15 ubuntu VGAuthService[879]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 25 10:45:15 ubuntu VGAuthService[879]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 25 10:45:15 ubuntu VGAuthService[879]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 25 10:45:15 ubuntu VGAuthService[879]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 25 10:45:15 ubuntu VGAuthService[879]: BEGIN SERVICE
+-- Reboot --
+3月 28 10:02:53 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 28 10:02:53 ubuntu VGAuthService[871]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 28 10:02:53 ubuntu VGAuthService[871]: Core dump limit set to -1
+3月 28 10:02:53 ubuntu VGAuthService[871]: INIT SERVICE
+3月 28 10:02:53 ubuntu VGAuthService[871]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 28 10:02:53 ubuntu VGAuthService[871]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 28 10:02:53 ubuntu VGAuthService[871]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 28 10:02:53 ubuntu VGAuthService[871]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 28 10:02:53 ubuntu VGAuthService[871]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 28 10:02:53 ubuntu VGAuthService[871]: BEGIN SERVICE
+-- Reboot --
+3月 28 14:59:43 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 28 14:59:43 ubuntu VGAuthService[870]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 28 14:59:43 ubuntu VGAuthService[870]: Core dump limit set to -1
+3月 28 14:59:43 ubuntu VGAuthService[870]: INIT SERVICE
+3月 28 14:59:43 ubuntu VGAuthService[870]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 28 14:59:43 ubuntu VGAuthService[870]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 28 14:59:43 ubuntu VGAuthService[870]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 28 14:59:43 ubuntu VGAuthService[870]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 28 14:59:43 ubuntu VGAuthService[870]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 28 14:59:43 ubuntu VGAuthService[870]: BEGIN SERVICE
+-- Reboot --
+3月 28 16:17:45 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 28 16:17:45 ubuntu VGAuthService[768]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 28 16:17:45 ubuntu VGAuthService[768]: Core dump limit set to -1
+3月 28 16:17:45 ubuntu VGAuthService[768]: INIT SERVICE
+3月 28 16:17:45 ubuntu VGAuthService[768]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 28 16:17:45 ubuntu VGAuthService[768]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 28 16:17:45 ubuntu VGAuthService[768]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 28 16:17:45 ubuntu VGAuthService[768]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 28 16:17:45 ubuntu VGAuthService[768]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 28 16:17:45 ubuntu VGAuthService[768]: BEGIN SERVICE
+3月 28 17:29:22 ubuntu VGAuthService[768]: Processing SIGTERM; service exiting
+3月 28 17:29:22 ubuntu VGAuthService[768]: ServiceEndMainLoop: about to stop main loop
+3月 28 17:29:22 ubuntu VGAuthService[768]: END SERVICE
+-- Reboot --
+4月 01 10:14:20 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 01 10:14:20 ubuntu VGAuthService[821]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 01 10:14:20 ubuntu VGAuthService[821]: Core dump limit set to -1
+4月 01 10:14:20 ubuntu VGAuthService[821]: INIT SERVICE
+4月 01 10:14:20 ubuntu VGAuthService[821]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 01 10:14:20 ubuntu VGAuthService[821]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 01 10:14:20 ubuntu VGAuthService[821]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 01 10:14:20 ubuntu VGAuthService[821]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 01 10:14:20 ubuntu VGAuthService[821]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 01 10:14:20 ubuntu VGAuthService[821]: BEGIN SERVICE
+4月 01 10:24:20 ubuntu VGAuthService[821]: Processing SIGTERM; service exiting
+4月 01 10:24:20 ubuntu VGAuthService[821]: ServiceEndMainLoop: about to stop main loop
+4月 01 10:24:20 ubuntu VGAuthService[821]: END SERVICE
+-- Reboot --
+4月 01 10:25:01 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 01 10:25:01 ubuntu VGAuthService[822]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 01 10:25:01 ubuntu VGAuthService[822]: Core dump limit set to -1
+4月 01 10:25:01 ubuntu VGAuthService[822]: INIT SERVICE
+4月 01 10:25:02 ubuntu VGAuthService[822]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 01 10:25:02 ubuntu VGAuthService[822]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 01 10:25:02 ubuntu VGAuthService[822]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 01 10:25:02 ubuntu VGAuthService[822]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 01 10:25:02 ubuntu VGAuthService[822]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 01 10:25:02 ubuntu VGAuthService[822]: BEGIN SERVICE
+4月 01 12:03:44 ubuntu VGAuthService[822]: Processing SIGTERM; service exiting
+4月 01 12:03:44 ubuntu VGAuthService[822]: ServiceEndMainLoop: about to stop main loop
+-- Reboot --
+4月 02 08:51:51 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 02 08:51:51 ubuntu VGAuthService[825]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 02 08:51:51 ubuntu VGAuthService[825]: Core dump limit set to -1
+4月 02 08:51:51 ubuntu VGAuthService[825]: INIT SERVICE
+4月 02 08:51:51 ubuntu VGAuthService[825]: VMXLog_Init: Failed to set up VMX logging
+4月 02 08:51:51 ubuntu VGAuthService[825]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 02 08:51:51 ubuntu VGAuthService[825]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 02 08:51:51 ubuntu VGAuthService[825]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 02 08:51:51 ubuntu VGAuthService[825]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 02 08:51:51 ubuntu VGAuthService[825]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 02 08:51:51 ubuntu VGAuthService[825]: BEGIN SERVICE
+-- Reboot --
+4月 02 09:04:36 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 02 09:04:36 ubuntu VGAuthService[823]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 02 09:04:36 ubuntu VGAuthService[823]: Core dump limit set to -1
+4月 02 09:04:36 ubuntu VGAuthService[823]: INIT SERVICE
+4月 02 09:04:36 ubuntu VGAuthService[823]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 02 09:04:36 ubuntu VGAuthService[823]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 02 09:04:36 ubuntu VGAuthService[823]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 02 09:04:36 ubuntu VGAuthService[823]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 02 09:04:36 ubuntu VGAuthService[823]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 02 09:04:36 ubuntu VGAuthService[823]: BEGIN SERVICE
+-- Reboot --
+4月 02 09:10:27 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 02 09:10:27 ubuntu VGAuthService[826]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 02 09:10:27 ubuntu VGAuthService[826]: Core dump limit set to -1
+4月 02 09:10:27 ubuntu VGAuthService[826]: INIT SERVICE
+4月 02 09:10:27 ubuntu VGAuthService[826]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 02 09:10:27 ubuntu VGAuthService[826]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 02 09:10:27 ubuntu VGAuthService[826]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 02 09:10:27 ubuntu VGAuthService[826]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 02 09:10:27 ubuntu VGAuthService[826]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 02 09:10:27 ubuntu VGAuthService[826]: BEGIN SERVICE
+4月 02 09:29:38 ubuntu VGAuthService[826]: Processing SIGTERM; service exiting
+4月 02 09:29:38 ubuntu VGAuthService[826]: ServiceEndMainLoop: about to stop main loop
+4月 02 09:29:38 ubuntu VGAuthService[826]: END SERVICE
+-- Reboot --
+4月 02 17:22:59 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 02 17:22:59 ubuntu VGAuthService[748]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 02 17:22:59 ubuntu VGAuthService[748]: Core dump limit set to -1
+4月 02 17:22:59 ubuntu VGAuthService[748]: INIT SERVICE
+4月 02 17:22:59 ubuntu VGAuthService[748]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 02 17:22:59 ubuntu VGAuthService[748]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 02 17:22:59 ubuntu VGAuthService[748]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 02 17:22:59 ubuntu VGAuthService[748]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 02 17:22:59 ubuntu VGAuthService[748]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 02 17:22:59 ubuntu VGAuthService[748]: BEGIN SERVICE
+4月 02 17:51:14 ubuntu VGAuthService[748]: Processing SIGTERM; service exiting
+4月 02 17:51:14 ubuntu VGAuthService[748]: ServiceEndMainLoop: about to stop main loop
+4月 02 17:51:14 ubuntu VGAuthService[748]: END SERVICE
+-- Reboot --
+4月 02 17:51:28 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 02 17:51:28 ubuntu VGAuthService[824]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 02 17:51:28 ubuntu VGAuthService[824]: Core dump limit set to -1
+4月 02 17:51:28 ubuntu VGAuthService[824]: INIT SERVICE
+4月 02 17:51:28 ubuntu VGAuthService[824]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 02 17:51:33 ubuntu VGAuthService[824]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 02 17:51:33 ubuntu VGAuthService[824]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 02 17:51:33 ubuntu VGAuthService[824]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 02 17:51:33 ubuntu VGAuthService[824]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 02 17:51:33 ubuntu VGAuthService[824]: BEGIN SERVICE
+-- Reboot --
+4月 06 08:17:16 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 06 08:17:16 ubuntu VGAuthService[821]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 06 08:17:16 ubuntu VGAuthService[821]: Core dump limit set to -1
+4月 06 08:17:16 ubuntu VGAuthService[821]: INIT SERVICE
+4月 06 08:17:16 ubuntu VGAuthService[821]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 06 08:17:16 ubuntu VGAuthService[821]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 06 08:17:16 ubuntu VGAuthService[821]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 06 08:17:16 ubuntu VGAuthService[821]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 06 08:17:16 ubuntu VGAuthService[821]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 06 08:17:16 ubuntu VGAuthService[821]: BEGIN SERVICE
+-- Reboot --
+4月 13 08:09:37 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 13 08:09:37 ubuntu VGAuthService[768]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 13 08:09:37 ubuntu VGAuthService[768]: Core dump limit set to -1
+4月 13 08:09:37 ubuntu VGAuthService[768]: INIT SERVICE
+4月 13 08:09:37 ubuntu VGAuthService[768]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 13 08:09:37 ubuntu VGAuthService[768]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 13 08:09:37 ubuntu VGAuthService[768]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 13 08:09:37 ubuntu VGAuthService[768]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 13 08:09:37 ubuntu VGAuthService[768]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 13 08:09:37 ubuntu VGAuthService[768]: BEGIN SERVICE
+-- Reboot --
+4月 13 08:30:19 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 13 08:30:19 ubuntu VGAuthService[810]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 13 08:30:19 ubuntu VGAuthService[810]: Core dump limit set to -1
+4月 13 08:30:19 ubuntu VGAuthService[810]: INIT SERVICE
+4月 13 08:30:19 ubuntu VGAuthService[810]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 13 08:30:19 ubuntu VGAuthService[810]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 13 08:30:19 ubuntu VGAuthService[810]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 13 08:30:19 ubuntu VGAuthService[810]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 13 08:30:19 ubuntu VGAuthService[810]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 13 08:30:19 ubuntu VGAuthService[810]: BEGIN SERVICE
+-- Reboot --
+4月 13 10:23:37 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 13 10:23:37 ubuntu VGAuthService[824]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 13 10:23:37 ubuntu VGAuthService[824]: Core dump limit set to -1
+4月 13 10:23:37 ubuntu VGAuthService[824]: INIT SERVICE
+4月 13 10:23:38 ubuntu VGAuthService[824]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 13 10:23:38 ubuntu VGAuthService[824]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 13 10:23:38 ubuntu VGAuthService[824]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 13 10:23:38 ubuntu VGAuthService[824]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 13 10:23:38 ubuntu VGAuthService[824]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 13 10:23:38 ubuntu VGAuthService[824]: BEGIN SERVICE
+-- Reboot --
+4月 13 14:46:32 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 13 14:46:33 ubuntu VGAuthService[752]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 13 14:46:33 ubuntu VGAuthService[752]: Core dump limit set to -1
+4月 13 14:46:33 ubuntu VGAuthService[752]: INIT SERVICE
+4月 13 14:46:33 ubuntu VGAuthService[752]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 13 14:46:33 ubuntu VGAuthService[752]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 13 14:46:33 ubuntu VGAuthService[752]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 13 14:46:33 ubuntu VGAuthService[752]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 13 14:46:33 ubuntu VGAuthService[752]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 13 14:46:33 ubuntu VGAuthService[752]: BEGIN SERVICE
+4月 13 15:21:58 ubuntu VGAuthService[752]: Processing SIGTERM; service exiting
+4月 13 15:21:58 ubuntu VGAuthService[752]: ServiceEndMainLoop: about to stop main loop
+4月 13 15:21:58 ubuntu VGAuthService[752]: END SERVICE
+-- Reboot --
+4月 15 10:16:59 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 15 10:16:59 ubuntu VGAuthService[770]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 15 10:16:59 ubuntu VGAuthService[770]: Core dump limit set to -1
+4月 15 10:16:59 ubuntu VGAuthService[770]: INIT SERVICE
+4月 15 10:16:59 ubuntu VGAuthService[770]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 15 10:16:59 ubuntu VGAuthService[770]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 15 10:16:59 ubuntu VGAuthService[770]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 15 10:16:59 ubuntu VGAuthService[770]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 15 10:16:59 ubuntu VGAuthService[770]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 15 10:16:59 ubuntu VGAuthService[770]: BEGIN SERVICE
+-- Reboot --
+4月 20 08:14:44 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 20 08:14:44 ubuntu VGAuthService[823]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 20 08:14:44 ubuntu VGAuthService[823]: Core dump limit set to -1
+4月 20 08:14:44 ubuntu VGAuthService[823]: INIT SERVICE
+4月 20 08:14:44 ubuntu VGAuthService[823]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 20 08:14:44 ubuntu VGAuthService[823]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 20 08:14:44 ubuntu VGAuthService[823]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 20 08:14:44 ubuntu VGAuthService[823]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 20 08:14:44 ubuntu VGAuthService[823]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 20 08:14:44 ubuntu VGAuthService[823]: BEGIN SERVICE
+4月 20 08:22:51 ubuntu VGAuthService[823]: Processing SIGTERM; service exiting
+4月 20 08:22:51 ubuntu VGAuthService[823]: ServiceEndMainLoop: about to stop main loop
+4月 20 08:22:51 ubuntu VGAuthService[823]: END SERVICE
+-- Reboot --
+4月 20 08:23:05 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 20 08:23:05 ubuntu VGAuthService[773]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 20 08:23:05 ubuntu VGAuthService[773]: Core dump limit set to -1
+4月 20 08:23:05 ubuntu VGAuthService[773]: INIT SERVICE
+4月 20 08:23:05 ubuntu VGAuthService[773]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 20 08:23:05 ubuntu VGAuthService[773]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 20 08:23:05 ubuntu VGAuthService[773]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 20 08:23:05 ubuntu VGAuthService[773]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 20 08:23:05 ubuntu VGAuthService[773]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 20 08:23:05 ubuntu VGAuthService[773]: BEGIN SERVICE
+-- Reboot --
+4月 27 08:18:19 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 27 08:18:20 ubuntu VGAuthService[754]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 27 08:18:20 ubuntu VGAuthService[754]: Core dump limit set to -1
+4月 27 08:18:20 ubuntu VGAuthService[754]: INIT SERVICE
+4月 27 08:18:20 ubuntu VGAuthService[754]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 27 08:18:20 ubuntu VGAuthService[754]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 27 08:18:20 ubuntu VGAuthService[754]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 27 08:18:20 ubuntu VGAuthService[754]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 27 08:18:20 ubuntu VGAuthService[754]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 27 08:18:20 ubuntu VGAuthService[754]: BEGIN SERVICE
+4月 27 10:50:17 ubuntu VGAuthService[754]: Processing SIGTERM; service exiting
+4月 27 10:50:17 ubuntu VGAuthService[754]: ServiceEndMainLoop: about to stop main loop
+4月 27 10:50:17 ubuntu VGAuthService[754]: END SERVICE
+-- Reboot --
+4月 27 11:07:08 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 27 11:07:08 ubuntu VGAuthService[816]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 27 11:07:08 ubuntu VGAuthService[816]: Core dump limit set to -1
+4月 27 11:07:08 ubuntu VGAuthService[816]: INIT SERVICE
+4月 27 11:07:08 ubuntu VGAuthService[816]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 27 11:07:08 ubuntu VGAuthService[816]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 27 11:07:08 ubuntu VGAuthService[816]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 27 11:07:08 ubuntu VGAuthService[816]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 27 11:07:08 ubuntu VGAuthService[816]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 27 11:07:08 ubuntu VGAuthService[816]: BEGIN SERVICE
+4月 27 11:20:11 ubuntu VGAuthService[816]: Processing SIGTERM; service exiting
+4月 27 11:20:11 ubuntu VGAuthService[816]: ServiceEndMainLoop: about to stop main loop
+4月 27 11:20:11 ubuntu VGAuthService[816]: END SERVICE
+-- Reboot --
+4月 27 14:11:30 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 27 14:11:31 ubuntu VGAuthService[809]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 27 14:11:31 ubuntu VGAuthService[809]: Core dump limit set to -1
+4月 27 14:11:31 ubuntu VGAuthService[809]: INIT SERVICE
+4月 27 14:11:31 ubuntu VGAuthService[809]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 27 14:11:31 ubuntu VGAuthService[809]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 27 14:11:31 ubuntu VGAuthService[809]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 27 14:11:31 ubuntu VGAuthService[809]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 27 14:11:31 ubuntu VGAuthService[809]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 27 14:11:31 ubuntu VGAuthService[809]: BEGIN SERVICE
+4月 27 15:05:05 ubuntu VGAuthService[809]: Processing SIGTERM; service exiting
+4月 27 15:05:05 ubuntu VGAuthService[809]: ServiceEndMainLoop: about to stop main loop
+4月 27 15:05:05 ubuntu VGAuthService[809]: END SERVICE
+-- Reboot --
+4月 27 15:05:19 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 27 15:05:19 ubuntu VGAuthService[769]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 27 15:05:19 ubuntu VGAuthService[769]: Core dump limit set to -1
+4月 27 15:05:19 ubuntu VGAuthService[769]: INIT SERVICE
+4月 27 15:05:19 ubuntu VGAuthService[769]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 27 15:05:19 ubuntu VGAuthService[769]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 27 15:05:19 ubuntu VGAuthService[769]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 27 15:05:19 ubuntu VGAuthService[769]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 27 15:05:19 ubuntu VGAuthService[769]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 27 15:05:19 ubuntu VGAuthService[769]: BEGIN SERVICE
+-- Reboot --
+4月 28 21:00:45 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 28 21:00:45 ubuntu VGAuthService[828]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 28 21:00:45 ubuntu VGAuthService[828]: Core dump limit set to -1
+4月 28 21:00:45 ubuntu VGAuthService[828]: INIT SERVICE
+4月 28 21:00:45 ubuntu VGAuthService[828]: VMXLog_Init: Failed to set up VMX logging
+4月 28 21:00:45 ubuntu VGAuthService[828]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 28 21:00:45 ubuntu VGAuthService[828]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 28 21:00:45 ubuntu VGAuthService[828]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 28 21:00:45 ubuntu VGAuthService[828]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 28 21:00:45 ubuntu VGAuthService[828]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 28 21:00:45 ubuntu VGAuthService[828]: BEGIN SERVICE
+4月 28 21:01:52 ubuntu VGAuthService[828]: Processing SIGTERM; service exiting
+4月 28 21:01:52 ubuntu VGAuthService[828]: ServiceEndMainLoop: about to stop main loop
+4月 28 21:01:52 ubuntu VGAuthService[828]: END SERVICE
+-- Reboot --
+5月 06 10:06:15 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 06 10:06:15 ubuntu VGAuthService[830]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 06 10:06:15 ubuntu VGAuthService[830]: Core dump limit set to -1
+5月 06 10:06:15 ubuntu VGAuthService[830]: INIT SERVICE
+5月 06 10:06:15 ubuntu VGAuthService[830]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 06 10:06:15 ubuntu VGAuthService[830]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 06 10:06:15 ubuntu VGAuthService[830]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 06 10:06:15 ubuntu VGAuthService[830]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 06 10:06:15 ubuntu VGAuthService[830]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 06 10:06:15 ubuntu VGAuthService[830]: BEGIN SERVICE
+5月 06 10:17:24 ubuntu VGAuthService[830]: Processing SIGTERM; service exiting
+5月 06 10:17:24 ubuntu VGAuthService[830]: ServiceEndMainLoop: about to stop main loop
+5月 06 10:17:24 ubuntu VGAuthService[830]: END SERVICE
+-- Reboot --
+5月 06 10:17:39 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 06 10:17:39 ubuntu VGAuthService[758]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 06 10:17:39 ubuntu VGAuthService[758]: Core dump limit set to -1
+5月 06 10:17:39 ubuntu VGAuthService[758]: INIT SERVICE
+5月 06 10:17:39 ubuntu VGAuthService[758]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 06 10:17:39 ubuntu VGAuthService[758]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 06 10:17:39 ubuntu VGAuthService[758]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 06 10:17:39 ubuntu VGAuthService[758]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 06 10:17:39 ubuntu VGAuthService[758]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 06 10:17:39 ubuntu VGAuthService[758]: BEGIN SERVICE
+5月 06 11:20:33 ubuntu VGAuthService[758]: Processing SIGTERM; service exiting
+5月 06 11:20:33 ubuntu VGAuthService[758]: ServiceEndMainLoop: about to stop main loop
+5月 06 11:20:33 ubuntu VGAuthService[758]: END SERVICE
+-- Reboot --
+5月 07 08:13:43 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 07 08:13:43 ubuntu VGAuthService[784]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 07 08:13:43 ubuntu VGAuthService[784]: Core dump limit set to -1
+5月 07 08:13:43 ubuntu VGAuthService[784]: INIT SERVICE
+5月 07 08:13:43 ubuntu VGAuthService[784]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 07 08:13:43 ubuntu VGAuthService[784]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 07 08:13:43 ubuntu VGAuthService[784]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 07 08:13:43 ubuntu VGAuthService[784]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 07 08:13:43 ubuntu VGAuthService[784]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 07 08:13:43 ubuntu VGAuthService[784]: BEGIN SERVICE
+-- Reboot --
+5月 08 14:53:45 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 08 14:53:45 ubuntu VGAuthService[764]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 08 14:53:45 ubuntu VGAuthService[764]: Core dump limit set to -1
+5月 08 14:53:45 ubuntu VGAuthService[764]: INIT SERVICE
+5月 08 14:53:45 ubuntu VGAuthService[764]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 08 14:53:45 ubuntu VGAuthService[764]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 08 14:53:45 ubuntu VGAuthService[764]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 08 14:53:45 ubuntu VGAuthService[764]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 08 14:53:45 ubuntu VGAuthService[764]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 08 14:53:45 ubuntu VGAuthService[764]: BEGIN SERVICE
+5月 08 14:55:09 ubuntu VGAuthService[764]: Processing SIGTERM; service exiting
+5月 08 14:55:09 ubuntu VGAuthService[764]: ServiceEndMainLoop: about to stop main loop
+5月 08 14:55:09 ubuntu VGAuthService[764]: END SERVICE
+-- Reboot --
+5月 08 15:54:09 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 08 15:54:09 ubuntu VGAuthService[757]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 08 15:54:09 ubuntu VGAuthService[757]: Core dump limit set to -1
+5月 08 15:54:09 ubuntu VGAuthService[757]: INIT SERVICE
+5月 08 15:54:09 ubuntu VGAuthService[757]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 08 15:54:09 ubuntu VGAuthService[757]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 08 15:54:09 ubuntu VGAuthService[757]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 08 15:54:09 ubuntu VGAuthService[757]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 08 15:54:09 ubuntu VGAuthService[757]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 08 15:54:09 ubuntu VGAuthService[757]: BEGIN SERVICE
+-- Reboot --
+5月 08 16:27:10 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 08 16:27:10 ubuntu VGAuthService[777]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 08 16:27:10 ubuntu VGAuthService[777]: Core dump limit set to -1
+5月 08 16:27:10 ubuntu VGAuthService[777]: INIT SERVICE
+5月 08 16:27:10 ubuntu VGAuthService[777]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 08 16:27:10 ubuntu VGAuthService[777]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 08 16:27:21 ubuntu VGAuthService[777]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 08 16:27:21 ubuntu VGAuthService[777]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 08 16:27:21 ubuntu VGAuthService[777]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 08 16:27:21 ubuntu VGAuthService[777]: BEGIN SERVICE
+5月 08 17:02:56 ubuntu VGAuthService[777]: Processing SIGTERM; service exiting
+5月 08 17:02:56 ubuntu VGAuthService[777]: ServiceEndMainLoop: about to stop main loop
+5月 08 17:02:56 ubuntu VGAuthService[777]: END SERVICE
+-- Reboot --
+5月 14 20:51:42 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 14 20:51:42 ubuntu VGAuthService[783]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 14 20:51:42 ubuntu VGAuthService[783]: Core dump limit set to -1
+5月 14 20:51:42 ubuntu VGAuthService[783]: INIT SERVICE
+5月 14 20:51:42 ubuntu VGAuthService[783]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 14 20:51:42 ubuntu VGAuthService[783]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 14 20:51:42 ubuntu VGAuthService[783]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 14 20:51:42 ubuntu VGAuthService[783]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 14 20:51:42 ubuntu VGAuthService[783]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 14 20:51:42 ubuntu VGAuthService[783]: BEGIN SERVICE
+-- Reboot --
+5月 15 00:06:12 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 15 00:06:12 ubuntu VGAuthService[775]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 15 00:06:12 ubuntu VGAuthService[775]: Core dump limit set to -1
+5月 15 00:06:12 ubuntu VGAuthService[775]: INIT SERVICE
+5月 15 00:06:12 ubuntu VGAuthService[775]: VMXLog_Init: Failed to set up VMX logging
+5月 15 00:06:12 ubuntu VGAuthService[775]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 15 00:06:13 ubuntu VGAuthService[775]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 15 00:06:13 ubuntu VGAuthService[775]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 15 00:06:13 ubuntu VGAuthService[775]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 15 00:06:13 ubuntu VGAuthService[775]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 15 00:06:13 ubuntu VGAuthService[775]: BEGIN SERVICE
+5月 15 00:09:21 ubuntu VGAuthService[775]: Processing SIGTERM; service exiting
+5月 15 00:09:21 ubuntu VGAuthService[775]: ServiceEndMainLoop: about to stop main loop
+5月 15 00:09:21 ubuntu VGAuthService[775]: END SERVICE
+-- Reboot --
+5月 15 00:15:05 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 15 00:15:05 ubuntu VGAuthService[834]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 15 00:15:05 ubuntu VGAuthService[834]: Core dump limit set to -1
+5月 15 00:15:05 ubuntu VGAuthService[834]: INIT SERVICE
+5月 15 00:15:05 ubuntu VGAuthService[834]: VMXLog_Init: Failed to set up VMX logging
+5月 15 00:15:05 ubuntu VGAuthService[834]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 15 00:15:05 ubuntu VGAuthService[834]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 15 00:15:05 ubuntu VGAuthService[834]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 15 00:15:05 ubuntu VGAuthService[834]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 15 00:15:05 ubuntu VGAuthService[834]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 15 00:15:05 ubuntu VGAuthService[834]: BEGIN SERVICE
+5月 15 00:18:03 ubuntu VGAuthService[834]: Processing SIGTERM; service exiting
+5月 15 00:18:03 ubuntu VGAuthService[834]: ServiceEndMainLoop: about to stop main loop
+5月 15 00:18:03 ubuntu VGAuthService[834]: END SERVICE
+-- Reboot --
+5月 15 10:43:39 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 15 10:43:39 ubuntu VGAuthService[834]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 15 10:43:39 ubuntu VGAuthService[834]: Core dump limit set to -1
+5月 15 10:43:39 ubuntu VGAuthService[834]: INIT SERVICE
+5月 15 10:43:39 ubuntu VGAuthService[834]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 15 10:43:39 ubuntu VGAuthService[834]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 15 10:43:39 ubuntu VGAuthService[834]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 15 10:43:39 ubuntu VGAuthService[834]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 15 10:43:39 ubuntu VGAuthService[834]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 15 10:43:39 ubuntu VGAuthService[834]: BEGIN SERVICE
+5月 15 13:21:33 ubuntu VGAuthService[834]: Processing SIGTERM; service exiting
+5月 15 13:21:33 ubuntu VGAuthService[834]: ServiceEndMainLoop: about to stop main loop
+5月 15 13:21:33 ubuntu VGAuthService[834]: END SERVICE
+-- Reboot --
+5月 15 15:15:40 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 15 15:15:40 ubuntu VGAuthService[784]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 15 15:15:40 ubuntu VGAuthService[784]: Core dump limit set to -1
+5月 15 15:15:40 ubuntu VGAuthService[784]: INIT SERVICE
+5月 15 15:15:40 ubuntu VGAuthService[784]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 15 15:15:40 ubuntu VGAuthService[784]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 15 15:15:40 ubuntu VGAuthService[784]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 15 15:15:40 ubuntu VGAuthService[784]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 15 15:15:40 ubuntu VGAuthService[784]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 15 15:15:40 ubuntu VGAuthService[784]: BEGIN SERVICE
+5月 15 15:16:45 ubuntu VGAuthService[784]: Processing SIGTERM; service exiting
+5月 15 15:16:45 ubuntu VGAuthService[784]: ServiceEndMainLoop: about to stop main loop
+5月 15 15:16:45 ubuntu VGAuthService[784]: END SERVICE
+-- Reboot --
+5月 15 16:28:26 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 15 16:28:26 ubuntu VGAuthService[784]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 15 16:28:26 ubuntu VGAuthService[784]: Core dump limit set to -1
+5月 15 16:28:26 ubuntu VGAuthService[784]: INIT SERVICE
+5月 15 16:28:26 ubuntu VGAuthService[784]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 15 16:28:26 ubuntu VGAuthService[784]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 15 16:28:26 ubuntu VGAuthService[784]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 15 16:28:26 ubuntu VGAuthService[784]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 15 16:28:26 ubuntu VGAuthService[784]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 15 16:28:26 ubuntu VGAuthService[784]: BEGIN SERVICE
+-- Reboot --
+5月 15 21:27:13 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 15 21:27:13 ubuntu VGAuthService[782]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 15 21:27:13 ubuntu VGAuthService[782]: Core dump limit set to -1
+5月 15 21:27:13 ubuntu VGAuthService[782]: INIT SERVICE
+5月 15 21:27:13 ubuntu VGAuthService[782]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 15 21:27:13 ubuntu VGAuthService[782]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 15 21:27:13 ubuntu VGAuthService[782]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 15 21:27:13 ubuntu VGAuthService[782]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 15 21:27:13 ubuntu VGAuthService[782]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 15 21:27:13 ubuntu VGAuthService[782]: BEGIN SERVICE
+5月 15 22:59:16 ubuntu VGAuthService[782]: Processing SIGTERM; service exiting
+5月 15 22:59:16 ubuntu VGAuthService[782]: ServiceEndMainLoop: about to stop main loop
+5月 15 22:59:16 ubuntu VGAuthService[782]: END SERVICE
+-- Reboot --
+5月 31 15:28:44 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 31 15:28:44 ubuntu VGAuthService[780]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 31 15:28:44 ubuntu VGAuthService[780]: Core dump limit set to -1
+5月 31 15:28:44 ubuntu VGAuthService[780]: INIT SERVICE
+5月 31 15:28:44 ubuntu VGAuthService[780]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 31 15:28:44 ubuntu VGAuthService[780]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 31 15:28:44 ubuntu VGAuthService[780]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 31 15:28:44 ubuntu VGAuthService[780]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 31 15:28:44 ubuntu VGAuthService[780]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 31 15:28:44 ubuntu VGAuthService[780]: BEGIN SERVICE
+5月 31 16:19:39 ubuntu VGAuthService[780]: Processing SIGTERM; service exiting
+5月 31 16:19:39 ubuntu VGAuthService[780]: ServiceEndMainLoop: about to stop main loop
+5月 31 16:19:39 ubuntu VGAuthService[780]: END SERVICE
+-- Reboot --
+5月 31 16:19:53 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 31 16:19:54 ubuntu VGAuthService[831]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 31 16:19:54 ubuntu VGAuthService[831]: Core dump limit set to -1
+5月 31 16:19:54 ubuntu VGAuthService[831]: INIT SERVICE
+5月 31 16:19:54 ubuntu VGAuthService[831]: VMXLog_Init: Failed to set up VMX logging
+5月 31 16:19:54 ubuntu VGAuthService[831]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 31 16:19:54 ubuntu VGAuthService[831]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 31 16:19:54 ubuntu VGAuthService[831]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 31 16:19:54 ubuntu VGAuthService[831]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 31 16:19:54 ubuntu VGAuthService[831]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 31 16:19:54 ubuntu VGAuthService[831]: BEGIN SERVICE
+-- Reboot --
+5月 31 21:00:55 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+5月 31 21:00:55 ubuntu VGAuthService[811]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+5月 31 21:00:55 ubuntu VGAuthService[811]: Core dump limit set to -1
+5月 31 21:00:55 ubuntu VGAuthService[811]: INIT SERVICE
+5月 31 21:00:55 ubuntu VGAuthService[811]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+5月 31 21:00:55 ubuntu VGAuthService[811]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+5月 31 21:00:55 ubuntu VGAuthService[811]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+5月 31 21:00:55 ubuntu VGAuthService[811]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+5月 31 21:00:55 ubuntu VGAuthService[811]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+5月 31 21:00:55 ubuntu VGAuthService[811]: BEGIN SERVICE
+-- Reboot --
+6月 01 23:20:19 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+6月 01 23:20:19 ubuntu VGAuthService[827]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+6月 01 23:20:19 ubuntu VGAuthService[827]: Core dump limit set to -1
+6月 01 23:20:19 ubuntu VGAuthService[827]: INIT SERVICE
+6月 01 23:20:19 ubuntu VGAuthService[827]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+6月 01 23:20:19 ubuntu VGAuthService[827]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+6月 01 23:20:19 ubuntu VGAuthService[827]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+6月 01 23:20:19 ubuntu VGAuthService[827]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+6月 01 23:20:19 ubuntu VGAuthService[827]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+6月 01 23:20:19 ubuntu VGAuthService[827]: BEGIN SERVICE
+6月 02 00:27:51 ubuntu VGAuthService[827]: Processing SIGTERM; service exiting
+6月 02 00:27:51 ubuntu VGAuthService[827]: ServiceEndMainLoop: about to stop main loop
+6月 02 00:27:51 ubuntu VGAuthService[827]: END SERVICE
+-- Reboot --
+6月 06 14:12:34 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+6月 06 14:12:34 ubuntu VGAuthService[831]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+6月 06 14:12:34 ubuntu VGAuthService[831]: Core dump limit set to -1
+6月 06 14:12:34 ubuntu VGAuthService[831]: INIT SERVICE
+6月 06 14:12:34 ubuntu VGAuthService[831]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+6月 06 14:12:34 ubuntu VGAuthService[831]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+6月 06 14:12:34 ubuntu VGAuthService[831]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+6月 06 14:12:34 ubuntu VGAuthService[831]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+6月 06 14:12:34 ubuntu VGAuthService[831]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+6月 06 14:12:34 ubuntu VGAuthService[831]: BEGIN SERVICE
+6月 06 15:33:48 ubuntu VGAuthService[831]: Processing SIGTERM; service exiting
+6月 06 15:33:48 ubuntu VGAuthService[831]: ServiceEndMainLoop: about to stop main loop
+6月 06 15:33:48 ubuntu VGAuthService[831]: END SERVICE
+-- Reboot --
+6月 06 15:39:28 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+6月 06 15:39:28 ubuntu VGAuthService[831]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+6月 06 15:39:28 ubuntu VGAuthService[831]: Core dump limit set to -1
+6月 06 15:39:28 ubuntu VGAuthService[831]: INIT SERVICE
+6月 06 15:39:28 ubuntu VGAuthService[831]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+6月 06 15:39:28 ubuntu VGAuthService[831]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+6月 06 15:39:28 ubuntu VGAuthService[831]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+6月 06 15:39:28 ubuntu VGAuthService[831]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+6月 06 15:39:28 ubuntu VGAuthService[831]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+6月 06 15:39:28 ubuntu VGAuthService[831]: BEGIN SERVICE
+6月 06 15:42:31 ubuntu VGAuthService[831]: Processing SIGTERM; service exiting
+6月 06 15:42:31 ubuntu VGAuthService[831]: ServiceEndMainLoop: about to stop main loop
+6月 06 15:42:31 ubuntu VGAuthService[831]: END SERVICE
+-- Reboot --
+6月 06 15:44:08 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+6月 06 15:44:08 ubuntu VGAuthService[772]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+6月 06 15:44:08 ubuntu VGAuthService[772]: Core dump limit set to -1
+6月 06 15:44:08 ubuntu VGAuthService[772]: INIT SERVICE
+6月 06 15:44:08 ubuntu VGAuthService[772]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+6月 06 15:44:08 ubuntu VGAuthService[772]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+6月 06 15:44:08 ubuntu VGAuthService[772]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+6月 06 15:44:08 ubuntu VGAuthService[772]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+6月 06 15:44:08 ubuntu VGAuthService[772]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+6月 06 15:44:08 ubuntu VGAuthService[772]: BEGIN SERVICE
+-- Reboot --
+6月 15 14:08:48 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+6月 15 14:08:48 ubuntu VGAuthService[829]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+6月 15 14:08:48 ubuntu VGAuthService[829]: Core dump limit set to -1
+6月 15 14:08:48 ubuntu VGAuthService[829]: INIT SERVICE
+6月 15 14:08:48 ubuntu VGAuthService[829]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+6月 15 14:08:49 ubuntu VGAuthService[829]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+6月 15 14:08:49 ubuntu VGAuthService[829]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+6月 15 14:08:49 ubuntu VGAuthService[829]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+6月 15 14:08:49 ubuntu VGAuthService[829]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+6月 15 14:08:49 ubuntu VGAuthService[829]: BEGIN SERVICE
+6月 15 16:32:45 ubuntu VGAuthService[829]: Processing SIGTERM; service exiting
+6月 15 16:32:45 ubuntu VGAuthService[829]: ServiceEndMainLoop: about to stop main loop
+6月 15 16:32:45 ubuntu VGAuthService[829]: END SERVICE
+-- Reboot --
+6月 16 14:48:28 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+6月 16 14:48:28 ubuntu VGAuthService[776]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+6月 16 14:48:28 ubuntu VGAuthService[776]: Core dump limit set to -1
+6月 16 14:48:28 ubuntu VGAuthService[776]: INIT SERVICE
+6月 16 14:48:28 ubuntu VGAuthService[776]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+6月 16 14:48:28 ubuntu VGAuthService[776]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+6月 16 14:48:28 ubuntu VGAuthService[776]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+6月 16 14:48:28 ubuntu VGAuthService[776]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+6月 16 14:48:28 ubuntu VGAuthService[776]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+6月 16 14:48:28 ubuntu VGAuthService[776]: BEGIN SERVICE
+-- Reboot --
+2月 25 16:36:14 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+2月 25 16:36:14 ubuntu VGAuthService[777]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+2月 25 16:36:14 ubuntu VGAuthService[777]: Core dump limit set to -1
+2月 25 16:36:14 ubuntu VGAuthService[777]: INIT SERVICE
+2月 25 16:36:14 ubuntu VGAuthService[777]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+2月 25 16:36:14 ubuntu VGAuthService[777]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+2月 25 16:36:14 ubuntu VGAuthService[777]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+2月 25 16:36:14 ubuntu VGAuthService[777]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+2月 25 16:36:14 ubuntu VGAuthService[777]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+2月 25 16:36:14 ubuntu VGAuthService[777]: BEGIN SERVICE
+-- Reboot --
+3月 27 17:52:48 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 27 17:52:48 ubuntu VGAuthService[773]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 27 17:52:48 ubuntu VGAuthService[773]: Core dump limit set to -1
+3月 27 17:52:48 ubuntu VGAuthService[773]: INIT SERVICE
+3月 27 17:52:48 ubuntu VGAuthService[773]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 27 17:52:48 ubuntu VGAuthService[773]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 27 17:52:48 ubuntu VGAuthService[773]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 27 17:52:48 ubuntu VGAuthService[773]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 27 17:52:48 ubuntu VGAuthService[773]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 27 17:52:48 ubuntu VGAuthService[773]: BEGIN SERVICE
+-- Reboot --
+3月 30 14:05:42 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 14:05:42 ubuntu VGAuthService[772]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 14:05:42 ubuntu VGAuthService[772]: Core dump limit set to -1
+3月 30 14:05:42 ubuntu VGAuthService[772]: INIT SERVICE
+3月 30 14:05:42 ubuntu VGAuthService[772]: VMXLog_Init: Failed to set up VMX logging
+3月 30 14:05:42 ubuntu VGAuthService[772]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 14:05:42 ubuntu VGAuthService[772]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 14:05:42 ubuntu VGAuthService[772]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 14:05:42 ubuntu VGAuthService[772]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 30 14:05:42 ubuntu VGAuthService[772]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 14:05:42 ubuntu VGAuthService[772]: BEGIN SERVICE
+3月 30 14:43:20 ubuntu systemd[1]: Stopping Authentication service for virtual machines hosted on VMware...
+3月 30 14:43:20 ubuntu VGAuthService[772]: Processing SIGTERM; service exiting
+3月 30 14:43:20 ubuntu VGAuthService[772]: ServiceEndMainLoop: about to stop main loop
+3月 30 14:43:20 ubuntu VGAuthService[772]: END SERVICE
+3月 30 14:43:20 ubuntu systemd[1]: vgauth.service: Succeeded.
+3月 30 14:43:20 ubuntu systemd[1]: Stopped Authentication service for virtual machines hosted on VMware.
+3月 30 14:43:20 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 14:43:20 ubuntu VGAuthService[11166]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 14:43:20 ubuntu VGAuthService[11166]: Core dump limit set to -1
+3月 30 14:43:20 ubuntu VGAuthService[11166]: INIT SERVICE
+3月 30 14:43:20 ubuntu VGAuthService[11166]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 14:43:20 ubuntu VGAuthService[11166]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 14:43:20 ubuntu VGAuthService[11166]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 14:43:20 ubuntu VGAuthService[11166]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 30 14:43:20 ubuntu VGAuthService[11166]: BEGIN SERVICE
+3月 30 14:43:20 ubuntu VGAuthService[11166]: Processing SIGTERM; service exiting
+3月 30 14:43:20 ubuntu VGAuthService[11166]: ServiceEndMainLoop: about to stop main loop
+3月 30 14:43:20 ubuntu VGAuthService[11166]: END SERVICE
+3月 30 14:43:20 ubuntu systemd[1]: Stopping Authentication service for virtual machines hosted on VMware...
+3月 30 14:43:20 ubuntu systemd[1]: vgauth.service: Succeeded.
+3月 30 14:43:20 ubuntu systemd[1]: Stopped Authentication service for virtual machines hosted on VMware.
+3月 30 14:43:20 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 14:43:20 ubuntu VGAuthService[11233]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 14:43:20 ubuntu VGAuthService[11233]: Core dump limit set to -1
+3月 30 14:43:20 ubuntu VGAuthService[11233]: INIT SERVICE
+3月 30 14:43:20 ubuntu VGAuthService[11233]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 14:43:20 ubuntu VGAuthService[11233]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 14:43:20 ubuntu VGAuthService[11233]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 14:43:20 ubuntu VGAuthService[11233]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 30 14:43:20 ubuntu VGAuthService[11233]: BEGIN SERVICE
+3月 30 14:44:06 ubuntu VGAuthService[11233]: Processing SIGTERM; service exiting
+3月 30 14:44:06 ubuntu VGAuthService[11233]: ServiceEndMainLoop: about to stop main loop
+3月 30 14:44:06 ubuntu VGAuthService[11233]: END SERVICE
+-- Reboot --
+3月 30 14:44:33 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 14:44:33 ubuntu VGAuthService[774]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 14:44:33 ubuntu VGAuthService[774]: Core dump limit set to -1
+3月 30 14:44:33 ubuntu VGAuthService[774]: INIT SERVICE
+3月 30 14:44:33 ubuntu VGAuthService[774]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 14:44:33 ubuntu VGAuthService[774]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 14:44:33 ubuntu VGAuthService[774]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 14:44:33 ubuntu VGAuthService[774]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 30 14:44:33 ubuntu VGAuthService[774]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 14:44:33 ubuntu VGAuthService[774]: BEGIN SERVICE
+3月 30 14:51:20 ubuntu VGAuthService[774]: Processing SIGTERM; service exiting
+3月 30 14:51:20 ubuntu VGAuthService[774]: ServiceEndMainLoop: about to stop main loop
+3月 30 14:51:20 ubuntu VGAuthService[774]: END SERVICE
+-- Reboot --
+3月 30 15:12:19 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 15:12:19 ubuntu VGAuthService[773]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 15:12:19 ubuntu VGAuthService[773]: Core dump limit set to -1
+3月 30 15:12:19 ubuntu VGAuthService[773]: INIT SERVICE
+3月 30 15:12:19 ubuntu VGAuthService[773]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 15:12:19 ubuntu VGAuthService[773]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 15:12:19 ubuntu VGAuthService[773]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 15:12:19 ubuntu VGAuthService[773]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 30 15:12:19 ubuntu VGAuthService[773]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 15:12:19 ubuntu VGAuthService[773]: BEGIN SERVICE
+3月 30 15:13:00 ubuntu VGAuthService[773]: Processing SIGTERM; service exiting
+3月 30 15:13:00 ubuntu VGAuthService[773]: ServiceEndMainLoop: about to stop main loop
+3月 30 15:13:00 ubuntu VGAuthService[773]: END SERVICE
+-- Reboot --
+3月 30 15:18:40 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 15:18:40 ubuntu VGAuthService[771]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 15:18:40 ubuntu VGAuthService[771]: Core dump limit set to -1
+3月 30 15:18:40 ubuntu VGAuthService[771]: INIT SERVICE
+3月 30 15:18:40 ubuntu VGAuthService[771]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 15:18:40 ubuntu VGAuthService[771]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 15:18:40 ubuntu VGAuthService[771]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 15:18:40 ubuntu VGAuthService[771]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 30 15:18:40 ubuntu VGAuthService[771]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 15:18:40 ubuntu VGAuthService[771]: BEGIN SERVICE
+3月 30 15:20:00 ubuntu VGAuthService[771]: Processing SIGTERM; service exiting
+3月 30 15:20:00 ubuntu VGAuthService[771]: ServiceEndMainLoop: about to stop main loop
+3月 30 15:20:00 ubuntu VGAuthService[771]: END SERVICE
+-- Reboot --
+3月 30 22:57:13 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 22:57:13 ubuntu VGAuthService[826]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 22:57:13 ubuntu VGAuthService[826]: Core dump limit set to -1
+3月 30 22:57:13 ubuntu VGAuthService[826]: INIT SERVICE
+3月 30 22:57:13 ubuntu VGAuthService[826]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 22:57:13 ubuntu VGAuthService[826]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 22:57:13 ubuntu VGAuthService[826]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 22:57:13 ubuntu VGAuthService[826]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 30 22:57:13 ubuntu VGAuthService[826]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 22:57:13 ubuntu VGAuthService[826]: BEGIN SERVICE
+3月 30 22:59:17 ubuntu VGAuthService[826]: Processing SIGTERM; service exiting
+3月 30 22:59:17 ubuntu VGAuthService[826]: ServiceEndMainLoop: about to stop main loop
+3月 30 22:59:17 ubuntu VGAuthService[826]: END SERVICE
+-- Reboot --
+3月 30 23:00:45 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 23:00:45 ubuntu VGAuthService[775]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 23:00:45 ubuntu VGAuthService[775]: Core dump limit set to -1
+3月 30 23:00:45 ubuntu VGAuthService[775]: INIT SERVICE
+3月 30 23:00:45 ubuntu VGAuthService[775]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 23:00:45 ubuntu VGAuthService[775]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 23:00:45 ubuntu VGAuthService[775]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 23:00:45 ubuntu VGAuthService[775]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 30 23:00:45 ubuntu VGAuthService[775]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 23:00:45 ubuntu VGAuthService[775]: BEGIN SERVICE
+3月 30 23:02:25 ubuntu VGAuthService[775]: Processing SIGTERM; service exiting
+3月 30 23:02:25 ubuntu VGAuthService[775]: ServiceEndMainLoop: about to stop main loop
+3月 30 23:02:25 ubuntu VGAuthService[775]: END SERVICE
+-- Reboot --
+3月 30 23:05:26 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 30 23:05:26 ubuntu VGAuthService[814]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 30 23:05:26 ubuntu VGAuthService[814]: Core dump limit set to -1
+3月 30 23:05:26 ubuntu VGAuthService[814]: INIT SERVICE
+3月 30 23:05:26 ubuntu VGAuthService[814]: VMXLog_Init: Failed to set up VMX logging
+3月 30 23:05:26 ubuntu VGAuthService[814]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 30 23:05:26 ubuntu VGAuthService[814]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 30 23:05:26 ubuntu VGAuthService[814]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 30 23:05:26 ubuntu VGAuthService[814]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 30 23:05:26 ubuntu VGAuthService[814]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 30 23:05:26 ubuntu VGAuthService[814]: BEGIN SERVICE
+3月 30 23:14:10 ubuntu VGAuthService[814]: Processing SIGTERM; service exiting
+3月 30 23:14:10 ubuntu VGAuthService[814]: ServiceEndMainLoop: about to stop main loop
+3月 30 23:14:10 ubuntu VGAuthService[814]: END SERVICE
+-- Reboot --
+3月 31 18:40:19 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 31 18:40:19 ubuntu VGAuthService[834]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 31 18:40:19 ubuntu VGAuthService[834]: Core dump limit set to -1
+3月 31 18:40:19 ubuntu VGAuthService[834]: INIT SERVICE
+3月 31 18:40:19 ubuntu VGAuthService[834]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 31 18:40:19 ubuntu VGAuthService[834]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 31 18:40:19 ubuntu VGAuthService[834]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 31 18:40:19 ubuntu VGAuthService[834]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 31 18:40:19 ubuntu VGAuthService[834]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 31 18:40:19 ubuntu VGAuthService[834]: BEGIN SERVICE
+3月 31 18:53:36 ubuntu VGAuthService[834]: Processing SIGTERM; service exiting
+3月 31 18:53:36 ubuntu VGAuthService[834]: ServiceEndMainLoop: about to stop main loop
+3月 31 18:53:36 ubuntu VGAuthService[834]: END SERVICE
+-- Reboot --
+3月 31 18:54:16 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 31 18:54:16 ubuntu VGAuthService[830]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 31 18:54:16 ubuntu VGAuthService[830]: Core dump limit set to -1
+3月 31 18:54:16 ubuntu VGAuthService[830]: INIT SERVICE
+3月 31 18:54:16 ubuntu VGAuthService[830]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 31 18:54:16 ubuntu VGAuthService[830]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 31 18:54:16 ubuntu VGAuthService[830]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 31 18:54:16 ubuntu VGAuthService[830]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 31 18:54:16 ubuntu VGAuthService[830]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 31 18:54:16 ubuntu VGAuthService[830]: BEGIN SERVICE
+-- Reboot --
+3月 31 19:04:01 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 31 19:04:01 ubuntu VGAuthService[776]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 31 19:04:01 ubuntu VGAuthService[776]: Core dump limit set to -1
+3月 31 19:04:01 ubuntu VGAuthService[776]: INIT SERVICE
+3月 31 19:04:01 ubuntu VGAuthService[776]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 31 19:04:01 ubuntu VGAuthService[776]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 31 19:04:01 ubuntu VGAuthService[776]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 31 19:04:01 ubuntu VGAuthService[776]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 31 19:04:01 ubuntu VGAuthService[776]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 31 19:04:01 ubuntu VGAuthService[776]: BEGIN SERVICE
+3月 31 19:26:11 ubuntu VGAuthService[776]: Processing SIGTERM; service exiting
+3月 31 19:26:11 ubuntu VGAuthService[776]: ServiceEndMainLoop: about to stop main loop
+3月 31 19:26:11 ubuntu VGAuthService[776]: END SERVICE
+-- Reboot --
+3月 31 19:27:35 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 31 19:27:35 ubuntu VGAuthService[826]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 31 19:27:35 ubuntu VGAuthService[826]: Core dump limit set to -1
+3月 31 19:27:35 ubuntu VGAuthService[826]: INIT SERVICE
+3月 31 19:27:35 ubuntu VGAuthService[826]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 31 19:27:35 ubuntu VGAuthService[826]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 31 19:27:35 ubuntu VGAuthService[826]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 31 19:27:35 ubuntu VGAuthService[826]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 31 19:27:35 ubuntu VGAuthService[826]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 31 19:27:35 ubuntu VGAuthService[826]: BEGIN SERVICE
+-- Reboot --
+3月 31 19:43:30 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 31 19:43:30 ubuntu VGAuthService[771]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 31 19:43:30 ubuntu VGAuthService[771]: Core dump limit set to -1
+3月 31 19:43:30 ubuntu VGAuthService[771]: INIT SERVICE
+3月 31 19:43:30 ubuntu VGAuthService[771]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 31 19:43:30 ubuntu VGAuthService[771]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 31 19:43:30 ubuntu VGAuthService[771]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 31 19:43:30 ubuntu VGAuthService[771]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 31 19:43:30 ubuntu VGAuthService[771]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 31 19:43:30 ubuntu VGAuthService[771]: BEGIN SERVICE
+3月 31 19:54:55 ubuntu VGAuthService[771]: Processing SIGTERM; service exiting
+3月 31 19:54:55 ubuntu VGAuthService[771]: ServiceEndMainLoop: about to stop main loop
+3月 31 19:54:55 ubuntu VGAuthService[771]: END SERVICE
+3月 31 19:54:55 ubuntu systemd[1]: Stopping Authentication service for virtual machines hosted on VMware...
+3月 31 19:54:55 ubuntu systemd[1]: vgauth.service: Succeeded.
+3月 31 19:54:55 ubuntu systemd[1]: Stopped Authentication service for virtual machines hosted on VMware.
+3月 31 19:54:55 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 31 19:54:55 ubuntu VGAuthService[26423]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 31 19:54:55 ubuntu VGAuthService[26423]: Core dump limit set to -1
+3月 31 19:54:55 ubuntu VGAuthService[26423]: INIT SERVICE
+3月 31 19:54:55 ubuntu VGAuthService[26423]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 31 19:54:55 ubuntu VGAuthService[26423]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 31 19:54:55 ubuntu VGAuthService[26423]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 31 19:54:55 ubuntu VGAuthService[26423]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 31 19:54:55 ubuntu VGAuthService[26423]: BEGIN SERVICE
+3月 31 19:54:55 ubuntu VGAuthService[26423]: Processing SIGTERM; service exiting
+3月 31 19:54:55 ubuntu VGAuthService[26423]: ServiceEndMainLoop: about to stop main loop
+3月 31 19:54:55 ubuntu systemd[1]: Stopping Authentication service for virtual machines hosted on VMware...
+3月 31 19:54:55 ubuntu VGAuthService[26423]: END SERVICE
+3月 31 19:54:55 ubuntu systemd[1]: vgauth.service: Succeeded.
+3月 31 19:54:55 ubuntu systemd[1]: Stopped Authentication service for virtual machines hosted on VMware.
+3月 31 19:54:55 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 31 19:54:55 ubuntu VGAuthService[26461]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 31 19:54:55 ubuntu VGAuthService[26461]: Core dump limit set to -1
+3月 31 19:54:55 ubuntu VGAuthService[26461]: INIT SERVICE
+3月 31 19:54:55 ubuntu VGAuthService[26461]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 31 19:54:55 ubuntu VGAuthService[26461]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 31 19:54:55 ubuntu VGAuthService[26461]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 31 19:54:55 ubuntu VGAuthService[26461]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 31 19:54:55 ubuntu VGAuthService[26461]: BEGIN SERVICE
+3月 31 19:57:59 ubuntu VGAuthService[26461]: Processing SIGTERM; service exiting
+3月 31 19:57:59 ubuntu VGAuthService[26461]: ServiceEndMainLoop: about to stop main loop
+3月 31 19:57:59 ubuntu VGAuthService[26461]: END SERVICE
+-- Reboot --
+3月 31 19:58:17 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 31 19:58:17 ubuntu VGAuthService[798]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 31 19:58:17 ubuntu VGAuthService[798]: Core dump limit set to -1
+3月 31 19:58:17 ubuntu VGAuthService[798]: INIT SERVICE
+3月 31 19:58:17 ubuntu VGAuthService[798]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 31 19:58:18 ubuntu VGAuthService[798]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 31 19:58:18 ubuntu VGAuthService[798]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 31 19:58:18 ubuntu VGAuthService[798]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 31 19:58:18 ubuntu VGAuthService[798]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 31 19:58:18 ubuntu VGAuthService[798]: BEGIN SERVICE
+-- Reboot --
+3月 31 20:24:34 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+3月 31 20:24:34 ubuntu VGAuthService[821]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+3月 31 20:24:34 ubuntu VGAuthService[821]: Core dump limit set to -1
+3月 31 20:24:34 ubuntu VGAuthService[821]: INIT SERVICE
+3月 31 20:24:34 ubuntu VGAuthService[821]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+3月 31 20:24:34 ubuntu VGAuthService[821]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+3月 31 20:24:34 ubuntu VGAuthService[821]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+3月 31 20:24:34 ubuntu VGAuthService[821]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+3月 31 20:24:34 ubuntu VGAuthService[821]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+3月 31 20:24:34 ubuntu VGAuthService[821]: BEGIN SERVICE
+-- Reboot --
+4月 02 17:05:04 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 02 17:05:04 ubuntu VGAuthService[819]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 02 17:05:04 ubuntu VGAuthService[819]: Core dump limit set to -1
+4月 02 17:05:04 ubuntu VGAuthService[819]: INIT SERVICE
+4月 02 17:05:04 ubuntu VGAuthService[819]: VMXLog_Init: Failed to set up VMX logging
+4月 02 17:05:04 ubuntu VGAuthService[819]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 02 17:05:04 ubuntu VGAuthService[819]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 02 17:05:04 ubuntu VGAuthService[819]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 02 17:05:04 ubuntu VGAuthService[819]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 02 17:05:04 ubuntu VGAuthService[819]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 02 17:05:04 ubuntu VGAuthService[819]: BEGIN SERVICE
+4月 03 02:09:53 ubuntu VGAuthService[819]: Processing SIGTERM; service exiting
+4月 03 02:09:53 ubuntu VGAuthService[819]: ServiceEndMainLoop: about to stop main loop
+4月 03 02:09:53 ubuntu VGAuthService[819]: END SERVICE
+-- Reboot --
+4月 14 20:21:36 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 14 20:21:36 ubuntu VGAuthService[752]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 14 20:21:36 ubuntu VGAuthService[752]: Core dump limit set to -1
+4月 14 20:21:36 ubuntu VGAuthService[752]: INIT SERVICE
+4月 14 20:21:36 ubuntu VGAuthService[752]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 14 20:21:36 ubuntu VGAuthService[752]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 14 20:21:36 ubuntu VGAuthService[752]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 14 20:21:36 ubuntu VGAuthService[752]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 14 20:21:36 ubuntu VGAuthService[752]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 14 20:21:36 ubuntu VGAuthService[752]: BEGIN SERVICE
+-- Reboot --
+4月 14 20:55:32 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 14 20:55:32 ubuntu VGAuthService[815]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 14 20:55:32 ubuntu VGAuthService[815]: Core dump limit set to -1
+4月 14 20:55:32 ubuntu VGAuthService[815]: INIT SERVICE
+4月 14 20:55:33 ubuntu VGAuthService[815]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 14 20:55:33 ubuntu VGAuthService[815]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 14 20:55:33 ubuntu VGAuthService[815]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 14 20:55:33 ubuntu VGAuthService[815]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 14 20:55:33 ubuntu VGAuthService[815]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 14 20:55:33 ubuntu VGAuthService[815]: BEGIN SERVICE
+-- Reboot --
+4月 15 22:30:51 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 15 22:30:51 ubuntu VGAuthService[816]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 15 22:30:51 ubuntu VGAuthService[816]: Core dump limit set to -1
+4月 15 22:30:51 ubuntu VGAuthService[816]: INIT SERVICE
+4月 15 22:30:51 ubuntu VGAuthService[816]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 15 22:30:51 ubuntu VGAuthService[816]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 15 22:30:51 ubuntu VGAuthService[816]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 15 22:30:51 ubuntu VGAuthService[816]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 15 22:30:51 ubuntu VGAuthService[816]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 15 22:30:51 ubuntu VGAuthService[816]: BEGIN SERVICE
+-- Reboot --
+4月 15 22:43:41 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 15 22:43:41 ubuntu VGAuthService[825]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 15 22:43:41 ubuntu VGAuthService[825]: Core dump limit set to -1
+4月 15 22:43:41 ubuntu VGAuthService[825]: INIT SERVICE
+4月 15 22:43:42 ubuntu VGAuthService[825]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 15 22:43:42 ubuntu VGAuthService[825]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 15 22:43:42 ubuntu VGAuthService[825]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 15 22:43:42 ubuntu VGAuthService[825]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 15 22:43:42 ubuntu VGAuthService[825]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 15 22:43:42 ubuntu VGAuthService[825]: BEGIN SERVICE
+-- Reboot --
+4月 19 18:41:04 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 19 18:41:04 ubuntu VGAuthService[768]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 19 18:41:04 ubuntu VGAuthService[768]: Core dump limit set to -1
+4月 19 18:41:04 ubuntu VGAuthService[768]: INIT SERVICE
+4月 19 18:41:04 ubuntu VGAuthService[768]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 19 18:41:04 ubuntu VGAuthService[768]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 19 18:41:04 ubuntu VGAuthService[768]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 19 18:41:04 ubuntu VGAuthService[768]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 19 18:41:04 ubuntu VGAuthService[768]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 19 18:41:04 ubuntu VGAuthService[768]: BEGIN SERVICE
+-- Reboot --
+4月 19 19:16:15 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 19 19:16:15 ubuntu VGAuthService[818]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 19 19:16:15 ubuntu VGAuthService[818]: Core dump limit set to -1
+4月 19 19:16:15 ubuntu VGAuthService[818]: INIT SERVICE
+4月 19 19:16:16 ubuntu VGAuthService[818]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 19 19:16:16 ubuntu VGAuthService[818]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 19 19:16:16 ubuntu VGAuthService[818]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 19 19:16:16 ubuntu VGAuthService[818]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 19 19:16:16 ubuntu VGAuthService[818]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 19 19:16:16 ubuntu VGAuthService[818]: BEGIN SERVICE
+-- Reboot --
+4月 21 14:58:06 ubuntu systemd[1]: Started Authentication service for virtual machines hosted on VMware.
+4月 21 14:58:06 ubuntu VGAuthService[800]: Pref_Init: Using '/etc/vmware-tools/vgauth.conf' as preferences filepath
+4月 21 14:58:06 ubuntu VGAuthService[800]: Core dump limit set to -1
+4月 21 14:58:06 ubuntu VGAuthService[800]: INIT SERVICE
+4月 21 14:58:06 ubuntu VGAuthService[800]: Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+4月 21 14:58:06 ubuntu VGAuthService[800]: LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+4月 21 14:58:06 ubuntu VGAuthService[800]: LoadPrefs: Allowing 300 of clock skew for SAML date validation
+4月 21 14:58:06 ubuntu VGAuthService[800]: SAML_Init: Using xmlsec1 1.2.28 for XML signature support
+4月 21 14:58:06 ubuntu VGAuthService[800]: ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+4月 21 14:58:06 ubuntu VGAuthService[800]: BEGIN SERVICE
+

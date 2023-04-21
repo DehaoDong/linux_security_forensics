@@ -1,0 +1,772 @@
+-- Logs begin at Sat 2022-01-08 18:32:32 CST, end at Fri 2023-04-21 17:32:00 CST. --
+1月 09 19:28:37 ubuntu systemd[1]: fwupd.service: Succeeded.
+-- Reboot --
+1月 09 21:33:31 ubuntu systemd[1]: Starting Firmware update daemon...
+1月 09 21:33:31 ubuntu systemd[1]: Started Firmware update daemon.
+-- Reboot --
+3月 22 14:03:22 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 22 14:03:23 ubuntu systemd[1]: Started Firmware update daemon.
+3月 22 14:10:35 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 22 14:10:55 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 22 14:10:55 ubuntu fwupd[8998]: 06:10:55:0428 FuPluginUpower       failed to query power type
+3月 22 14:10:55 ubuntu fwupd[8998]: 06:10:55:0432 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 22 14:10:55 ubuntu systemd[1]: Started Firmware update daemon.
+3月 22 14:12:07 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 22 14:12:07 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 22 14:12:07 ubuntu systemd[1]: Stopped Firmware update daemon.
+3月 22 14:12:07 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 22 14:12:07 ubuntu fwupd[22706]: 06:12:07:0444 FuPluginUpower       failed to query power type
+3月 22 14:12:07 ubuntu fwupd[22706]: 06:12:07:0450 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 22 14:12:07 ubuntu systemd[1]: Started Firmware update daemon.
+3月 22 14:12:07 ubuntu fwupd[22706]: 06:12:07:0656 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 22 14:13:28 ubuntu fwupd[22706]: 06:13:28:0040 FuPluginUpower       failed to query lid state
+3月 22 14:13:28 ubuntu fwupd[22706]: 06:13:28:0040 FuPluginUpower       failed to query power type
+3月 22 14:13:28 ubuntu fwupd[22706]: 06:13:28:0040 FuPluginUpower       failed to query lid state
+3月 22 14:13:28 ubuntu fwupd[22706]: 06:13:28:0040 FuPluginUpower       failed to query power type
+3月 22 14:13:28 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 22 14:13:28 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 22 14:13:28 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 22 14:16:17 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 22 14:16:17 ubuntu fwupd[2574]: 06:16:17:0365 FuPluginUpower       failed to query power type
+3月 22 14:16:17 ubuntu fwupd[2574]: 06:16:17:0372 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 22 14:16:17 ubuntu systemd[1]: Started Firmware update daemon.
+3月 22 14:16:17 ubuntu fwupd[2574]: 06:16:17:0545 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 22 14:22:48 ubuntu fwupd[2574]: 06:22:48:0127 FuPluginUpower       failed to query lid state
+3月 22 14:22:48 ubuntu fwupd[2574]: 06:22:48:0127 FuPluginUpower       failed to query power type
+3月 22 14:22:48 ubuntu fwupd[2574]: 06:22:48:0127 FuPluginUpower       failed to query lid state
+3月 22 14:22:48 ubuntu fwupd[2574]: 06:22:48:0127 FuPluginUpower       failed to query power type
+3月 22 14:22:48 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 22 14:22:48 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 22 14:22:48 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 22 16:13:59 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 22 16:14:00 ubuntu fwupd[2198]: 08:14:00:0230 FuPluginUpower       failed to query power type
+3月 22 16:14:00 ubuntu fwupd[2198]: 08:14:00:0247 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 22 16:14:00 ubuntu systemd[1]: Started Firmware update daemon.
+3月 22 16:14:00 ubuntu fwupd[2198]: 08:14:00:0911 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 22 17:37:59 ubuntu fwupd[2198]: 09:37:59:0576 FuPluginUpower       failed to query lid state
+3月 22 17:37:59 ubuntu fwupd[2198]: 09:37:59:0576 FuPluginUpower       failed to query power type
+3月 22 17:37:59 ubuntu fwupd[2198]: 09:37:59:0577 FuPluginUpower       failed to query lid state
+3月 22 17:37:59 ubuntu fwupd[2198]: 09:37:59:0577 FuPluginUpower       failed to query power type
+3月 22 17:37:59 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 22 17:37:59 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 22 17:37:59 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 25 10:18:43 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 25 10:18:44 ubuntu fwupd[2235]: 02:18:44:0074 FuPluginUpower       failed to query power type
+3月 25 10:18:44 ubuntu fwupd[2235]: 02:18:44:0093 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 25 10:18:44 ubuntu systemd[1]: Started Firmware update daemon.
+3月 25 10:18:44 ubuntu fwupd[2235]: 02:18:44:0631 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 25 10:36:28 ubuntu fwupd[2235]: 02:36:28:0859 FuPluginUpower       failed to query lid state
+3月 25 10:36:28 ubuntu fwupd[2235]: 02:36:28:0859 FuPluginUpower       failed to query power type
+3月 25 10:36:28 ubuntu fwupd[2235]: 02:36:28:0859 FuPluginUpower       failed to query lid state
+3月 25 10:36:28 ubuntu fwupd[2235]: 02:36:28:0859 FuPluginUpower       failed to query power type
+3月 25 10:36:29 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 25 10:36:29 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 25 10:36:29 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 25 10:45:51 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 25 10:45:52 ubuntu fwupd[2607]: 02:45:52:0090 FuPluginUpower       failed to query power type
+3月 25 10:45:52 ubuntu fwupd[2607]: 02:45:52:0116 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 25 10:45:52 ubuntu systemd[1]: Started Firmware update daemon.
+3月 25 10:45:52 ubuntu fwupd[2607]: 02:45:52:0816 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+3月 28 10:03:28 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 28 10:03:28 ubuntu fwupd[2218]: 02:03:28:0749 FuPluginUpower       failed to query power type
+3月 28 10:03:28 ubuntu fwupd[2218]: 02:03:28:0783 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 28 10:03:29 ubuntu systemd[1]: Started Firmware update daemon.
+3月 28 10:03:29 ubuntu fwupd[2218]: 02:03:29:0529 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+3月 28 15:00:17 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 28 15:00:18 ubuntu fwupd[2190]: 07:00:18:0215 FuPluginUpower       failed to query power type
+3月 28 15:00:18 ubuntu fwupd[2190]: 07:00:18:0235 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 28 15:00:18 ubuntu systemd[1]: Started Firmware update daemon.
+3月 28 15:00:18 ubuntu fwupd[2190]: 07:00:18:0778 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 28 15:53:54 ubuntu fwupd[2190]: 07:53:54:0105 FuPluginUpower       failed to query lid state
+3月 28 15:53:54 ubuntu fwupd[2190]: 07:53:54:0105 FuPluginUpower       failed to query power type
+3月 28 15:53:54 ubuntu fwupd[2190]: 07:53:54:0105 FuPluginUpower       failed to query lid state
+3月 28 15:53:54 ubuntu fwupd[2190]: 07:53:54:0106 FuPluginUpower       failed to query power type
+3月 28 15:53:54 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 28 15:53:54 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 28 15:53:54 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 28 16:18:56 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 28 16:18:56 ubuntu fwupd[2092]: 08:18:56:0710 FuPluginUpower       failed to query power type
+3月 28 16:18:56 ubuntu fwupd[2092]: 08:18:56:0737 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 28 16:18:57 ubuntu systemd[1]: Started Firmware update daemon.
+3月 28 16:18:57 ubuntu fwupd[2092]: 08:18:57:0534 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 28 17:29:20 ubuntu fwupd[2092]: 09:29:20:0078 FuPluginUpower       failed to query lid state
+3月 28 17:29:20 ubuntu fwupd[2092]: 09:29:20:0078 FuPluginUpower       failed to query power type
+3月 28 17:29:20 ubuntu fwupd[2092]: 09:29:20:0078 FuPluginUpower       failed to query lid state
+3月 28 17:29:20 ubuntu fwupd[2092]: 09:29:20:0078 FuPluginUpower       failed to query power type
+3月 28 17:29:20 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 28 17:29:20 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 28 17:29:20 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 01 10:15:07 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 01 10:15:07 ubuntu fwupd[2178]: 02:15:07:0907 FuPluginUpower       failed to query power type
+4月 01 10:15:07 ubuntu fwupd[2178]: 02:15:07:0918 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 01 10:15:08 ubuntu systemd[1]: Started Firmware update daemon.
+4月 01 10:15:08 ubuntu fwupd[2178]: 02:15:08:0171 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+4月 01 10:20:31 ubuntu fwupd[2178]: 02:20:31:0576 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+4月 01 10:24:19 ubuntu fwupd[2178]: 02:24:19:0671 FuPluginUpower       failed to query lid state
+4月 01 10:24:19 ubuntu fwupd[2178]: 02:24:19:0671 FuPluginUpower       failed to query power type
+4月 01 10:24:19 ubuntu fwupd[2178]: 02:24:19:0671 FuPluginUpower       failed to query lid state
+4月 01 10:24:19 ubuntu fwupd[2178]: 02:24:19:0671 FuPluginUpower       failed to query power type
+4月 01 10:24:19 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 01 10:24:20 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 01 10:24:20 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 01 10:25:41 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 01 10:25:41 ubuntu fwupd[2501]: 02:25:41:0530 FuPluginUpower       failed to query power type
+4月 01 10:25:41 ubuntu fwupd[2501]: 02:25:41:0550 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 01 10:25:42 ubuntu systemd[1]: Started Firmware update daemon.
+4月 01 10:25:42 ubuntu fwupd[2501]: 02:25:42:0142 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+4月 01 12:03:43 ubuntu fwupd[2501]: 04:03:43:0374 FuPluginUpower       failed to query lid state
+4月 01 12:03:43 ubuntu fwupd[2501]: 04:03:43:0374 FuPluginUpower       failed to query power type
+4月 01 12:03:43 ubuntu fwupd[2501]: 04:03:43:0375 FuPluginUpower       failed to query lid state
+4月 01 12:03:43 ubuntu fwupd[2501]: 04:03:43:0375 FuPluginUpower       failed to query power type
+4月 01 12:03:43 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 01 12:03:43 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 01 12:03:43 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 02 08:52:24 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 02 08:52:24 ubuntu fwupd[2151]: 00:52:24:0906 FuPluginUpower       failed to query power type
+4月 02 08:52:24 ubuntu fwupd[2151]: 00:52:24:0921 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 02 08:52:25 ubuntu systemd[1]: Started Firmware update daemon.
+4月 02 08:52:25 ubuntu fwupd[2151]: 00:52:25:0437 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+4月 02 09:11:31 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 02 09:11:31 ubuntu fwupd[2163]: 01:11:31:0722 FuPluginUpower       failed to query power type
+4月 02 09:11:31 ubuntu fwupd[2163]: 01:11:31:0728 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 02 09:11:31 ubuntu systemd[1]: Started Firmware update daemon.
+4月 02 09:11:31 ubuntu fwupd[2163]: 01:11:31:0914 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+4月 02 09:29:37 ubuntu fwupd[2163]: 01:29:37:0341 FuPluginUpower       failed to query lid state
+4月 02 09:29:37 ubuntu fwupd[2163]: 01:29:37:0341 FuPluginUpower       failed to query power type
+4月 02 09:29:37 ubuntu fwupd[2163]: 01:29:37:0341 FuPluginUpower       failed to query lid state
+4月 02 09:29:37 ubuntu fwupd[2163]: 01:29:37:0341 FuPluginUpower       failed to query power type
+4月 02 09:29:37 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 02 09:29:37 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 02 09:29:37 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 02 17:23:22 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 02 17:23:22 ubuntu fwupd[2051]: 09:23:22:0785 FuPluginUpower       failed to query power type
+4月 02 17:23:22 ubuntu fwupd[2051]: 09:23:22:0792 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 02 17:23:22 ubuntu systemd[1]: Started Firmware update daemon.
+4月 02 17:23:22 ubuntu fwupd[2051]: 09:23:22:0972 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+4月 02 17:51:13 ubuntu fwupd[2051]: 09:51:13:0943 FuPluginUpower       failed to query lid state
+4月 02 17:51:13 ubuntu fwupd[2051]: 09:51:13:0943 FuPluginUpower       failed to query power type
+4月 02 17:51:13 ubuntu fwupd[2051]: 09:51:13:0943 FuPluginUpower       failed to query lid state
+4月 02 17:51:13 ubuntu fwupd[2051]: 09:51:13:0943 FuPluginUpower       failed to query power type
+4月 02 17:51:14 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 02 17:51:14 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 02 17:51:14 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 02 17:51:49 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 02 17:51:49 ubuntu fwupd[2084]: 09:51:49:0971 FuPluginUpower       failed to query power type
+4月 02 17:51:49 ubuntu fwupd[2084]: 09:51:49:0979 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 02 17:51:50 ubuntu systemd[1]: Started Firmware update daemon.
+4月 02 17:51:50 ubuntu fwupd[2084]: 09:51:50:0145 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+4月 06 08:18:10 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 06 08:18:10 ubuntu fwupd[2175]: 00:18:10:0606 FuPluginUpower       failed to query power type
+4月 06 08:18:10 ubuntu fwupd[2175]: 00:18:10:0614 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 06 08:18:10 ubuntu systemd[1]: Started Firmware update daemon.
+4月 06 08:18:10 ubuntu fwupd[2175]: 00:18:10:0836 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+4月 06 10:26:21 ubuntu fwupd[2175]: 02:26:21:0575 FuPluginUpower       failed to query lid state
+4月 06 10:26:21 ubuntu fwupd[2175]: 02:26:21:0575 FuPluginUpower       failed to query power type
+4月 06 10:26:21 ubuntu fwupd[2175]: 02:26:21:0575 FuPluginUpower       failed to query lid state
+4月 06 10:26:21 ubuntu fwupd[2175]: 02:26:21:0575 FuPluginUpower       failed to query power type
+4月 06 10:26:21 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 06 10:26:21 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 06 10:26:21 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 13 08:10:16 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 13 08:10:16 ubuntu fwupd[2100]: 00:10:16:0974 FuPluginUpower       failed to query power type
+4月 13 08:10:17 ubuntu fwupd[2100]: 00:10:17:0003 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 13 08:10:17 ubuntu systemd[1]: Started Firmware update daemon.
+4月 13 08:10:18 ubuntu fwupd[2100]: 00:10:18:0016 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+4月 13 08:30:00 ubuntu fwupd[2100]: 00:30:00:0481 FuPluginUpower       failed to query lid state
+4月 13 08:30:00 ubuntu fwupd[2100]: 00:30:00:0481 FuPluginUpower       failed to query power type
+4月 13 08:30:00 ubuntu fwupd[2100]: 00:30:00:0481 FuPluginUpower       failed to query lid state
+4月 13 08:30:00 ubuntu fwupd[2100]: 00:30:00:0481 FuPluginUpower       failed to query power type
+4月 13 08:30:00 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 13 08:30:00 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 13 08:30:00 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 13 08:30:39 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 13 08:30:39 ubuntu fwupd[2474]: 00:30:39:0465 FuPluginUpower       failed to query power type
+4月 13 08:30:39 ubuntu fwupd[2474]: 00:30:39:0473 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 13 08:30:39 ubuntu systemd[1]: Started Firmware update daemon.
+4月 13 08:30:39 ubuntu fwupd[2474]: 00:30:39:0703 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+4月 13 10:24:27 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 13 10:24:27 ubuntu fwupd[2136]: 02:24:27:0644 FuPluginUpower       failed to query power type
+4月 13 10:24:27 ubuntu fwupd[2136]: 02:24:27:0653 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 13 10:24:27 ubuntu systemd[1]: Started Firmware update daemon.
+4月 13 10:24:27 ubuntu fwupd[2136]: 02:24:27:0884 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+4月 13 14:47:27 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 13 14:47:27 ubuntu fwupd[2082]: 06:47:27:0210 FuPluginUpower       failed to query power type
+4月 13 14:47:27 ubuntu fwupd[2082]: 06:47:27:0216 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 13 14:47:27 ubuntu systemd[1]: Started Firmware update daemon.
+4月 13 14:47:27 ubuntu fwupd[2082]: 06:47:27:0386 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+4月 13 15:21:57 ubuntu fwupd[2082]: 07:21:57:0461 FuPluginUpower       failed to query lid state
+4月 13 15:21:57 ubuntu fwupd[2082]: 07:21:57:0461 FuPluginUpower       failed to query power type
+4月 13 15:21:57 ubuntu fwupd[2082]: 07:21:57:0461 FuPluginUpower       failed to query lid state
+4月 13 15:21:57 ubuntu fwupd[2082]: 07:21:57:0461 FuPluginUpower       failed to query power type
+4月 13 15:21:57 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 13 15:21:57 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 13 15:21:57 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 15 10:19:09 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 15 10:19:09 ubuntu fwupd[2586]: 02:19:09:0575 FuPluginUpower       failed to query power type
+4月 15 10:19:09 ubuntu fwupd[2586]: 02:19:09:0583 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 15 10:19:09 ubuntu systemd[1]: Started Firmware update daemon.
+4月 15 10:19:09 ubuntu fwupd[2586]: 02:19:09:0768 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+4月 20 08:16:05 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 20 08:16:06 ubuntu fwupd[2190]: 00:16:06:0415 FuPluginUpower       failed to query power type
+4月 20 08:16:06 ubuntu fwupd[2190]: 00:16:06:0433 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 20 08:16:06 ubuntu systemd[1]: Started Firmware update daemon.
+4月 20 08:16:06 ubuntu fwupd[2190]: 00:16:06:0989 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+4月 20 08:22:49 ubuntu fwupd[2190]: 00:22:49:0731 FuPluginUpower       failed to query lid state
+4月 20 08:22:49 ubuntu fwupd[2190]: 00:22:49:0731 FuPluginUpower       failed to query power type
+4月 20 08:22:49 ubuntu fwupd[2190]: 00:22:49:0731 FuPluginUpower       failed to query lid state
+4月 20 08:22:49 ubuntu fwupd[2190]: 00:22:49:0731 FuPluginUpower       failed to query power type
+4月 20 08:22:49 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 20 08:22:49 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 20 08:22:49 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 20 08:23:32 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 20 08:23:33 ubuntu fwupd[2042]: 00:23:33:0288 FuPluginUpower       failed to query power type
+4月 20 08:23:33 ubuntu fwupd[2042]: 00:23:33:0308 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 20 08:23:33 ubuntu systemd[1]: Started Firmware update daemon.
+4月 20 08:23:33 ubuntu fwupd[2042]: 00:23:33:0885 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+4月 27 08:18:57 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 27 08:18:58 ubuntu fwupd[2097]: 00:18:58:0049 FuPluginUpower       failed to query power type
+4月 27 08:18:58 ubuntu fwupd[2097]: 00:18:58:0058 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 27 08:18:58 ubuntu systemd[1]: Started Firmware update daemon.
+4月 27 08:18:58 ubuntu fwupd[2097]: 00:18:58:0256 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+4月 27 10:19:43 ubuntu systemd[1]: fwupd.service: Succeeded.
+-- Reboot --
+4月 27 11:07:39 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 27 11:07:39 ubuntu fwupd[2521]: 03:07:39:0400 FuPluginUpower       failed to query power type
+4月 27 11:07:39 ubuntu fwupd[2521]: 03:07:39:0406 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 27 11:07:39 ubuntu systemd[1]: Started Firmware update daemon.
+4月 27 11:07:39 ubuntu fwupd[2521]: 03:07:39:0620 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+4月 27 11:20:10 ubuntu fwupd[2521]: 03:20:10:0108 FuPluginUpower       failed to query lid state
+4月 27 11:20:10 ubuntu fwupd[2521]: 03:20:10:0108 FuPluginUpower       failed to query power type
+4月 27 11:20:10 ubuntu fwupd[2521]: 03:20:10:0108 FuPluginUpower       failed to query lid state
+4月 27 11:20:10 ubuntu fwupd[2521]: 03:20:10:0108 FuPluginUpower       failed to query power type
+4月 27 11:20:10 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 27 11:20:10 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 27 11:20:10 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 27 14:11:52 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 27 14:11:52 ubuntu fwupd[2125]: 06:11:52:0427 FuPluginUpower       failed to query power type
+4月 27 14:11:52 ubuntu fwupd[2125]: 06:11:52:0434 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 27 14:11:52 ubuntu systemd[1]: Started Firmware update daemon.
+4月 27 14:11:52 ubuntu fwupd[2125]: 06:11:52:0666 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+4月 27 15:04:59 ubuntu fwupd[2125]: 07:04:59:0245 FuPluginUpower       failed to query lid state
+4月 27 15:04:59 ubuntu fwupd[2125]: 07:04:59:0245 FuPluginUpower       failed to query power type
+4月 27 15:04:59 ubuntu fwupd[2125]: 07:04:59:0245 FuPluginUpower       failed to query lid state
+4月 27 15:04:59 ubuntu fwupd[2125]: 07:04:59:0245 FuPluginUpower       failed to query power type
+4月 27 15:04:59 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 27 15:04:59 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 27 15:04:59 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 27 15:06:01 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 27 15:06:02 ubuntu fwupd[2065]: 07:06:02:0134 FuPluginUpower       failed to query power type
+4月 27 15:06:02 ubuntu fwupd[2065]: 07:06:02:0155 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 27 15:06:02 ubuntu systemd[1]: Started Firmware update daemon.
+4月 27 15:06:02 ubuntu fwupd[2065]: 07:06:02:0735 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+4月 27 16:02:17 ubuntu fwupd[2065]: 08:02:17:0397 FuPluginUpower       failed to query lid state
+4月 27 16:02:17 ubuntu fwupd[2065]: 08:02:17:0398 FuPluginUpower       failed to query power type
+4月 27 16:02:17 ubuntu fwupd[2065]: 08:02:17:0398 FuPluginUpower       failed to query lid state
+4月 27 16:02:17 ubuntu fwupd[2065]: 08:02:17:0398 FuPluginUpower       failed to query power type
+4月 27 16:02:17 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 27 16:02:17 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 27 16:02:17 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 28 21:01:22 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 28 21:01:22 ubuntu fwupd[2177]: 13:01:22:0484 FuPluginUpower       failed to query power type
+4月 28 21:01:22 ubuntu fwupd[2177]: 13:01:22:0491 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+4月 28 21:01:22 ubuntu systemd[1]: Started Firmware update daemon.
+4月 28 21:01:22 ubuntu fwupd[2177]: 13:01:22:0714 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+4月 28 21:01:50 ubuntu fwupd[2177]: 13:01:50:0381 FuPluginUpower       failed to query lid state
+4月 28 21:01:50 ubuntu fwupd[2177]: 13:01:50:0381 FuPluginUpower       failed to query power type
+4月 28 21:01:50 ubuntu fwupd[2177]: 13:01:50:0381 FuPluginUpower       failed to query lid state
+4月 28 21:01:50 ubuntu fwupd[2177]: 13:01:50:0381 FuPluginUpower       failed to query power type
+4月 28 21:01:50 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 28 21:01:50 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 28 21:01:50 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+5月 06 10:06:41 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 06 10:06:41 ubuntu fwupd[2175]: 02:06:41:0858 FuPluginUpower       failed to query power type
+5月 06 10:06:41 ubuntu fwupd[2175]: 02:06:41:0877 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 06 10:06:42 ubuntu systemd[1]: Started Firmware update daemon.
+5月 06 10:06:42 ubuntu fwupd[2175]: 02:06:42:0421 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+5月 06 10:17:23 ubuntu fwupd[2175]: 02:17:23:0090 FuPluginUpower       failed to query lid state
+5月 06 10:17:23 ubuntu fwupd[2175]: 02:17:23:0090 FuPluginUpower       failed to query power type
+5月 06 10:17:23 ubuntu fwupd[2175]: 02:17:23:0090 FuPluginUpower       failed to query lid state
+5月 06 10:17:23 ubuntu fwupd[2175]: 02:17:23:0090 FuPluginUpower       failed to query power type
+5月 06 10:17:23 ubuntu systemd[1]: Stopping Firmware update daemon...
+5月 06 10:17:23 ubuntu systemd[1]: fwupd.service: Succeeded.
+5月 06 10:17:23 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+5月 06 10:18:09 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 06 10:18:10 ubuntu fwupd[2447]: 02:18:10:0127 FuPluginUpower       failed to query power type
+5月 06 10:18:10 ubuntu fwupd[2447]: 02:18:10:0150 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 06 10:18:10 ubuntu systemd[1]: Started Firmware update daemon.
+5月 06 10:18:10 ubuntu fwupd[2447]: 02:18:10:0935 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+5月 06 11:20:32 ubuntu fwupd[2447]: 03:20:32:0148 FuPluginUpower       failed to query lid state
+5月 06 11:20:32 ubuntu fwupd[2447]: 03:20:32:0148 FuPluginUpower       failed to query power type
+5月 06 11:20:32 ubuntu fwupd[2447]: 03:20:32:0148 FuPluginUpower       failed to query lid state
+5月 06 11:20:32 ubuntu fwupd[2447]: 03:20:32:0148 FuPluginUpower       failed to query power type
+5月 06 11:20:32 ubuntu systemd[1]: Stopping Firmware update daemon...
+5月 06 11:20:32 ubuntu systemd[1]: fwupd.service: Succeeded.
+5月 06 11:20:32 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+5月 07 08:14:11 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 07 08:14:11 ubuntu fwupd[2128]: 00:14:11:0457 FuPluginUpower       failed to query power type
+5月 07 08:14:11 ubuntu fwupd[2128]: 00:14:11:0464 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 07 08:14:11 ubuntu systemd[1]: Started Firmware update daemon.
+5月 07 08:14:11 ubuntu fwupd[2128]: 00:14:11:0666 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+5月 08 14:54:14 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 08 14:54:15 ubuntu fwupd[2112]: 06:54:15:0125 FuPluginUpower       failed to query power type
+5月 08 14:54:15 ubuntu fwupd[2112]: 06:54:15:0132 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 08 14:54:15 ubuntu systemd[1]: Started Firmware update daemon.
+5月 08 14:54:15 ubuntu fwupd[2112]: 06:54:15:0349 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+5月 08 14:55:08 ubuntu fwupd[2112]: 06:55:08:0017 FuPluginUpower       failed to query lid state
+5月 08 14:55:08 ubuntu fwupd[2112]: 06:55:08:0017 FuPluginUpower       failed to query power type
+5月 08 14:55:08 ubuntu fwupd[2112]: 06:55:08:0017 FuPluginUpower       failed to query lid state
+5月 08 14:55:08 ubuntu fwupd[2112]: 06:55:08:0017 FuPluginUpower       failed to query power type
+5月 08 14:55:08 ubuntu systemd[1]: Stopping Firmware update daemon...
+5月 08 14:55:08 ubuntu systemd[1]: fwupd.service: Succeeded.
+5月 08 14:55:08 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+5月 08 15:54:56 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 08 15:54:57 ubuntu fwupd[2161]: 07:54:57:0119 FuPluginUpower       failed to query power type
+5月 08 15:54:57 ubuntu fwupd[2161]: 07:54:57:0138 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 08 15:54:57 ubuntu systemd[1]: Started Firmware update daemon.
+5月 08 15:54:57 ubuntu fwupd[2161]: 07:54:57:0726 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+5月 08 16:26:55 ubuntu fwupd[2161]: 08:26:55:0689 FuPluginUpower       failed to query lid state
+5月 08 16:26:55 ubuntu fwupd[2161]: 08:26:55:0689 FuPluginUpower       failed to query power type
+5月 08 16:26:55 ubuntu fwupd[2161]: 08:26:55:0689 FuPluginUpower       failed to query lid state
+5月 08 16:26:55 ubuntu fwupd[2161]: 08:26:55:0689 FuPluginUpower       failed to query power type
+5月 08 16:26:55 ubuntu systemd[1]: Stopping Firmware update daemon...
+5月 08 16:26:55 ubuntu systemd[1]: fwupd.service: Succeeded.
+5月 08 16:26:55 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+5月 08 16:27:38 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 08 16:27:39 ubuntu fwupd[2124]: 08:27:39:0044 FuPluginUpower       failed to query power type
+5月 08 16:27:39 ubuntu fwupd[2124]: 08:27:39:0050 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 08 16:27:39 ubuntu systemd[1]: Started Firmware update daemon.
+5月 08 16:27:39 ubuntu fwupd[2124]: 08:27:39:0262 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+5月 08 17:02:55 ubuntu fwupd[2124]: 09:02:55:0265 FuPluginUpower       failed to query lid state
+5月 08 17:02:55 ubuntu fwupd[2124]: 09:02:55:0265 FuPluginUpower       failed to query power type
+5月 08 17:02:55 ubuntu fwupd[2124]: 09:02:55:0265 FuPluginUpower       failed to query lid state
+5月 08 17:02:55 ubuntu fwupd[2124]: 09:02:55:0265 FuPluginUpower       failed to query power type
+5月 08 17:02:55 ubuntu systemd[1]: Stopping Firmware update daemon...
+5月 08 17:02:55 ubuntu systemd[1]: fwupd.service: Succeeded.
+5月 08 17:02:55 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+5月 14 20:52:15 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 14 20:52:15 ubuntu fwupd[2617]: 12:52:15:0806 FuPluginUpower       failed to query power type
+5月 14 20:52:15 ubuntu fwupd[2617]: 12:52:15:0820 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 14 20:52:15 ubuntu systemd[1]: Started Firmware update daemon.
+5月 14 20:52:16 ubuntu fwupd[2617]: 12:52:16:0009 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+5月 15 00:07:02 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 15 00:07:02 ubuntu fwupd[2659]: 16:07:02:0788 FuPluginUpower       failed to query power type
+5月 15 00:07:02 ubuntu fwupd[2659]: 16:07:02:0795 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 15 00:07:02 ubuntu systemd[1]: Started Firmware update daemon.
+5月 15 00:07:03 ubuntu fwupd[2659]: 16:07:03:0028 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+5月 15 00:09:00 ubuntu fwupd[2659]: 16:09:00:0546 FuPluginUpower       failed to query lid state
+5月 15 00:09:00 ubuntu fwupd[2659]: 16:09:00:0546 FuPluginUpower       failed to query power type
+5月 15 00:09:00 ubuntu fwupd[2659]: 16:09:00:0546 FuPluginUpower       failed to query lid state
+5月 15 00:09:00 ubuntu fwupd[2659]: 16:09:00:0546 FuPluginUpower       failed to query power type
+5月 15 00:09:00 ubuntu systemd[1]: Stopping Firmware update daemon...
+5月 15 00:09:00 ubuntu systemd[1]: fwupd.service: Succeeded.
+5月 15 00:09:00 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+5月 15 00:15:33 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 15 00:15:33 ubuntu fwupd[2224]: 16:15:33:0777 FuPluginUpower       failed to query power type
+5月 15 00:15:33 ubuntu fwupd[2224]: 16:15:33:0784 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 15 00:15:33 ubuntu systemd[1]: Started Firmware update daemon.
+5月 15 00:15:33 ubuntu fwupd[2224]: 16:15:33:0980 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+5月 15 00:17:56 ubuntu fwupd[2224]: 16:17:56:0739 FuPluginUpower       failed to query lid state
+5月 15 00:17:56 ubuntu fwupd[2224]: 16:17:56:0739 FuPluginUpower       failed to query power type
+5月 15 00:17:56 ubuntu fwupd[2224]: 16:17:56:0739 FuPluginUpower       failed to query lid state
+5月 15 00:17:56 ubuntu fwupd[2224]: 16:17:56:0739 FuPluginUpower       failed to query power type
+5月 15 00:17:56 ubuntu systemd[1]: Stopping Firmware update daemon...
+5月 15 00:17:56 ubuntu systemd[1]: fwupd.service: Succeeded.
+5月 15 00:17:56 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+5月 15 10:44:15 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 15 10:44:15 ubuntu fwupd[2269]: 02:44:15:0578 FuPluginUpower       failed to query power type
+5月 15 10:44:15 ubuntu fwupd[2269]: 02:44:15:0585 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 15 10:44:15 ubuntu systemd[1]: Started Firmware update daemon.
+5月 15 10:44:15 ubuntu fwupd[2269]: 02:44:15:0782 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+5月 15 13:02:43 ubuntu systemd[1]: fwupd.service: Succeeded.
+-- Reboot --
+5月 15 15:16:05 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 15 15:16:05 ubuntu fwupd[2613]: 07:16:05:0359 FuPluginUpower       failed to query power type
+5月 15 15:16:05 ubuntu fwupd[2613]: 07:16:05:0366 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 15 15:16:05 ubuntu systemd[1]: Started Firmware update daemon.
+5月 15 15:16:05 ubuntu fwupd[2613]: 07:16:05:0575 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+5月 15 15:16:43 ubuntu fwupd[2613]: 07:16:43:0925 FuPluginUpower       failed to query lid state
+5月 15 15:16:43 ubuntu fwupd[2613]: 07:16:43:0925 FuPluginUpower       failed to query power type
+5月 15 15:16:43 ubuntu fwupd[2613]: 07:16:43:0925 FuPluginUpower       failed to query lid state
+5月 15 15:16:43 ubuntu fwupd[2613]: 07:16:43:0925 FuPluginUpower       failed to query power type
+5月 15 15:16:44 ubuntu systemd[1]: Stopping Firmware update daemon...
+5月 15 15:16:44 ubuntu systemd[1]: fwupd.service: Succeeded.
+5月 15 15:16:44 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+5月 15 16:28:51 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 15 16:28:51 ubuntu fwupd[2231]: 08:28:51:0253 FuPluginUpower       failed to query power type
+5月 15 16:28:51 ubuntu fwupd[2231]: 08:28:51:0260 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 15 16:28:51 ubuntu systemd[1]: Started Firmware update daemon.
+5月 15 16:28:51 ubuntu fwupd[2231]: 08:28:51:0459 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+5月 15 17:59:27 ubuntu fwupd[2231]: 09:59:27:0424 FuPluginUpower       failed to query lid state
+5月 15 17:59:27 ubuntu fwupd[2231]: 09:59:27:0424 FuPluginUpower       failed to query power type
+5月 15 17:59:27 ubuntu fwupd[2231]: 09:59:27:0424 FuPluginUpower       failed to query lid state
+5月 15 17:59:27 ubuntu fwupd[2231]: 09:59:27:0424 FuPluginUpower       failed to query power type
+5月 15 17:59:27 ubuntu systemd[1]: Stopping Firmware update daemon...
+5月 15 17:59:27 ubuntu systemd[1]: fwupd.service: Succeeded.
+5月 15 17:59:27 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+5月 15 21:27:48 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 15 21:27:48 ubuntu fwupd[2280]: 13:27:48:0540 FuPluginUpower       failed to query power type
+5月 15 21:27:48 ubuntu fwupd[2280]: 13:27:48:0547 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 15 21:27:48 ubuntu systemd[1]: Started Firmware update daemon.
+5月 15 21:27:48 ubuntu fwupd[2280]: 13:27:48:0749 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+5月 15 22:59:14 ubuntu fwupd[2280]: 14:59:14:0734 FuPluginUpower       failed to query lid state
+5月 15 22:59:14 ubuntu fwupd[2280]: 14:59:14:0734 FuPluginUpower       failed to query power type
+5月 15 22:59:14 ubuntu fwupd[2280]: 14:59:14:0734 FuPluginUpower       failed to query lid state
+5月 15 22:59:14 ubuntu fwupd[2280]: 14:59:14:0734 FuPluginUpower       failed to query power type
+5月 15 22:59:15 ubuntu systemd[1]: Stopping Firmware update daemon...
+5月 15 22:59:16 ubuntu systemd[1]: fwupd.service: Succeeded.
+5月 15 22:59:16 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+5月 31 15:30:26 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 31 15:30:26 ubuntu fwupd[2298]: 07:30:26:0572 FuPluginUpower       failed to query power type
+5月 31 15:30:26 ubuntu fwupd[2298]: 07:30:26:0579 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 31 15:30:26 ubuntu systemd[1]: Started Firmware update daemon.
+5月 31 15:30:26 ubuntu fwupd[2298]: 07:30:26:0761 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+5月 31 16:19:37 ubuntu fwupd[2298]: 08:19:37:0504 FuPluginUpower       failed to query lid state
+5月 31 16:19:37 ubuntu fwupd[2298]: 08:19:37:0504 FuPluginUpower       failed to query power type
+5月 31 16:19:37 ubuntu fwupd[2298]: 08:19:37:0504 FuPluginUpower       failed to query lid state
+5月 31 16:19:37 ubuntu fwupd[2298]: 08:19:37:0504 FuPluginUpower       failed to query power type
+5月 31 16:19:37 ubuntu systemd[1]: Stopping Firmware update daemon...
+5月 31 16:19:37 ubuntu systemd[1]: fwupd.service: Succeeded.
+5月 31 16:19:37 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+5月 31 16:20:14 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 31 16:20:14 ubuntu fwupd[2571]: 08:20:14:0613 FuPluginUpower       failed to query power type
+5月 31 16:20:14 ubuntu fwupd[2571]: 08:20:14:0620 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 31 16:20:14 ubuntu systemd[1]: Started Firmware update daemon.
+5月 31 16:20:14 ubuntu fwupd[2571]: 08:20:14:0805 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+5月 31 18:20:26 ubuntu systemd[1]: fwupd.service: Succeeded.
+-- Reboot --
+5月 31 21:01:29 ubuntu systemd[1]: Starting Firmware update daemon...
+5月 31 21:01:29 ubuntu fwupd[2632]: 13:01:29:0680 FuPluginUpower       failed to query power type
+5月 31 21:01:29 ubuntu fwupd[2632]: 13:01:29:0689 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+5月 31 21:01:29 ubuntu systemd[1]: Started Firmware update daemon.
+5月 31 21:01:29 ubuntu fwupd[2632]: 13:01:29:0942 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+6月 01 23:22:12 ubuntu systemd[1]: Starting Firmware update daemon...
+6月 01 23:22:12 ubuntu fwupd[2743]: 15:22:12:0922 FuPluginUpower       failed to query power type
+6月 01 23:22:12 ubuntu fwupd[2743]: 15:22:12:0951 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+6月 01 23:22:13 ubuntu systemd[1]: Started Firmware update daemon.
+6月 01 23:22:13 ubuntu fwupd[2743]: 15:22:13:0783 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+6月 02 00:27:49 ubuntu fwupd[2743]: 16:27:49:0387 FuPluginUpower       failed to query lid state
+6月 02 00:27:49 ubuntu fwupd[2743]: 16:27:49:0387 FuPluginUpower       failed to query power type
+6月 02 00:27:49 ubuntu fwupd[2743]: 16:27:49:0387 FuPluginUpower       failed to query lid state
+6月 02 00:27:49 ubuntu fwupd[2743]: 16:27:49:0387 FuPluginUpower       failed to query power type
+6月 02 00:27:50 ubuntu systemd[1]: Stopping Firmware update daemon...
+6月 02 00:27:50 ubuntu systemd[1]: fwupd.service: Succeeded.
+6月 02 00:27:50 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+6月 06 14:13:00 ubuntu systemd[1]: Starting Firmware update daemon...
+6月 06 14:13:00 ubuntu fwupd[2676]: 06:13:00:0435 FuPluginUpower       failed to query power type
+6月 06 14:13:00 ubuntu fwupd[2676]: 06:13:00:0444 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+6月 06 14:13:00 ubuntu systemd[1]: Started Firmware update daemon.
+6月 06 14:13:00 ubuntu fwupd[2676]: 06:13:00:0686 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+6月 06 15:33:46 ubuntu fwupd[2676]: 07:33:46:0045 FuPluginUpower       failed to query lid state
+6月 06 15:33:46 ubuntu fwupd[2676]: 07:33:46:0045 FuPluginUpower       failed to query power type
+6月 06 15:33:46 ubuntu fwupd[2676]: 07:33:46:0045 FuPluginUpower       failed to query lid state
+6月 06 15:33:46 ubuntu fwupd[2676]: 07:33:46:0045 FuPluginUpower       failed to query power type
+6月 06 15:33:46 ubuntu systemd[1]: Stopping Firmware update daemon...
+6月 06 15:33:46 ubuntu systemd[1]: fwupd.service: Succeeded.
+6月 06 15:33:46 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+6月 06 15:40:01 ubuntu systemd[1]: Starting Firmware update daemon...
+6月 06 15:40:01 ubuntu fwupd[2644]: 07:40:01:0361 FuPluginUpower       failed to query power type
+6月 06 15:40:01 ubuntu fwupd[2644]: 07:40:01:0371 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+6月 06 15:40:01 ubuntu systemd[1]: Started Firmware update daemon.
+6月 06 15:40:01 ubuntu fwupd[2644]: 07:40:01:0637 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+6月 06 15:42:24 ubuntu fwupd[2644]: 07:42:24:0224 FuPluginUpower       failed to query lid state
+6月 06 15:42:24 ubuntu fwupd[2644]: 07:42:24:0224 FuPluginUpower       failed to query power type
+6月 06 15:42:24 ubuntu fwupd[2644]: 07:42:24:0224 FuPluginUpower       failed to query lid state
+6月 06 15:42:24 ubuntu fwupd[2644]: 07:42:24:0224 FuPluginUpower       failed to query power type
+6月 06 15:42:24 ubuntu systemd[1]: Stopping Firmware update daemon...
+6月 06 15:42:24 ubuntu systemd[1]: fwupd.service: Succeeded.
+6月 06 15:42:24 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+6月 06 15:45:03 ubuntu systemd[1]: Starting Firmware update daemon...
+6月 06 15:45:03 ubuntu fwupd[2179]: 07:45:03:0692 FuPluginUpower       failed to query power type
+6月 06 15:45:03 ubuntu fwupd[2179]: 07:45:03:0700 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+6月 06 15:45:03 ubuntu systemd[1]: Started Firmware update daemon.
+6月 06 15:45:04 ubuntu fwupd[2179]: 07:45:04:0003 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+6月 15 15:13:47 ubuntu systemd[1]: Starting Firmware update daemon...
+6月 15 15:13:47 ubuntu fwupd[3397]: 07:13:47:0894 FuPluginUpower       failed to query power type
+6月 15 15:13:47 ubuntu fwupd[3397]: 07:13:47:0901 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+6月 15 15:13:48 ubuntu systemd[1]: Started Firmware update daemon.
+6月 15 15:13:48 ubuntu fwupd[3397]: 07:13:48:0113 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+6月 15 16:32:38 ubuntu fwupd[3397]: 08:32:38:0486 FuPluginUpower       failed to query lid state
+6月 15 16:32:38 ubuntu fwupd[3397]: 08:32:38:0486 FuPluginUpower       failed to query power type
+6月 15 16:32:38 ubuntu fwupd[3397]: 08:32:38:0486 FuPluginUpower       failed to query lid state
+6月 15 16:32:38 ubuntu fwupd[3397]: 08:32:38:0486 FuPluginUpower       failed to query power type
+6月 15 16:32:38 ubuntu systemd[1]: Stopping Firmware update daemon...
+6月 15 16:32:39 ubuntu systemd[1]: fwupd.service: Succeeded.
+6月 15 16:32:39 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+6月 16 14:48:55 ubuntu systemd[1]: Starting Firmware update daemon...
+6月 16 14:48:55 ubuntu fwupd[2629]: 06:48:55:0640 FuPluginUpower       failed to query power type
+6月 16 14:48:55 ubuntu fwupd[2629]: 06:48:55:0650 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+6月 16 14:48:55 ubuntu systemd[1]: Started Firmware update daemon.
+6月 16 14:48:55 ubuntu fwupd[2629]: 06:48:55:0871 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+2月 25 16:36:53 ubuntu systemd[1]: Starting Firmware update daemon...
+2月 25 16:36:53 ubuntu fwupd[2671]: 08:36:53:0616 FuPluginUpower       failed to query power type
+2月 25 16:36:53 ubuntu fwupd[2671]: 08:36:53:0624 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+2月 25 16:36:53 ubuntu systemd[1]: Started Firmware update daemon.
+2月 25 16:36:53 ubuntu fwupd[2671]: 08:36:53:0828 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+2月 25 16:38:07 ubuntu fwupd[2671]: 08:38:07:0079 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+3月 27 17:53:16 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 27 17:53:16 ubuntu fwupd[2600]: 09:53:16:0478 FuPluginUpower       failed to query power type
+3月 27 17:53:16 ubuntu fwupd[2600]: 09:53:16:0486 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 27 17:53:16 ubuntu systemd[1]: Started Firmware update daemon.
+3月 27 17:53:16 ubuntu fwupd[2600]: 09:53:16:0674 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+3月 30 14:15:43 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 30 14:15:43 ubuntu fwupd[2961]: 06:15:43:0693 FuPluginUpower       failed to query power type
+3月 30 14:15:43 ubuntu fwupd[2961]: 06:15:43:0701 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 30 14:15:43 ubuntu systemd[1]: Started Firmware update daemon.
+3月 30 14:15:43 ubuntu fwupd[2961]: 06:15:43:0933 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 30 14:44:04 ubuntu fwupd[2961]: 06:44:04:0673 FuPluginUpower       failed to query lid state
+3月 30 14:44:04 ubuntu fwupd[2961]: 06:44:04:0673 FuPluginUpower       failed to query power type
+3月 30 14:44:04 ubuntu fwupd[2961]: 06:44:04:0673 FuPluginUpower       failed to query lid state
+3月 30 14:44:04 ubuntu fwupd[2961]: 06:44:04:0673 FuPluginUpower       failed to query power type
+3月 30 14:44:05 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 30 14:44:05 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 30 14:44:05 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 30 14:45:00 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 30 14:45:00 ubuntu fwupd[2120]: 06:45:00:0828 FuPluginUpower       failed to query power type
+3月 30 14:45:00 ubuntu fwupd[2120]: 06:45:00:0836 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 30 14:45:01 ubuntu systemd[1]: Started Firmware update daemon.
+3月 30 14:45:01 ubuntu fwupd[2120]: 06:45:01:0056 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 30 14:51:17 ubuntu fwupd[2120]: 06:51:17:0080 FuPluginUpower       failed to query lid state
+3月 30 14:51:17 ubuntu fwupd[2120]: 06:51:17:0080 FuPluginUpower       failed to query power type
+3月 30 14:51:17 ubuntu fwupd[2120]: 06:51:17:0080 FuPluginUpower       failed to query lid state
+3月 30 14:51:17 ubuntu fwupd[2120]: 06:51:17:0080 FuPluginUpower       failed to query power type
+3月 30 14:51:17 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 30 14:51:17 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 30 14:51:17 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 30 15:12:48 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 30 15:12:48 ubuntu fwupd[2209]: 07:12:48:0234 FuPluginUpower       failed to query power type
+3月 30 15:12:48 ubuntu fwupd[2209]: 07:12:48:0243 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 30 15:12:48 ubuntu systemd[1]: Started Firmware update daemon.
+3月 30 15:12:48 ubuntu fwupd[2209]: 07:12:48:0436 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 30 15:12:58 ubuntu fwupd[2209]: 07:12:58:0540 FuPluginUpower       failed to query lid state
+3月 30 15:12:58 ubuntu fwupd[2209]: 07:12:58:0540 FuPluginUpower       failed to query power type
+3月 30 15:12:58 ubuntu fwupd[2209]: 07:12:58:0540 FuPluginUpower       failed to query lid state
+3月 30 15:12:58 ubuntu fwupd[2209]: 07:12:58:0540 FuPluginUpower       failed to query power type
+3月 30 15:12:58 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 30 15:12:58 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 30 15:12:58 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 30 15:19:04 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 30 15:19:04 ubuntu fwupd[2186]: 07:19:04:0648 FuPluginUpower       failed to query power type
+3月 30 15:19:04 ubuntu fwupd[2186]: 07:19:04:0657 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 30 15:19:04 ubuntu systemd[1]: Started Firmware update daemon.
+3月 30 15:19:04 ubuntu fwupd[2186]: 07:19:04:0879 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 30 15:19:57 ubuntu fwupd[2186]: 07:19:57:0981 FuPluginUpower       failed to query lid state
+3月 30 15:19:57 ubuntu fwupd[2186]: 07:19:57:0981 FuPluginUpower       failed to query power type
+3月 30 15:19:57 ubuntu fwupd[2186]: 07:19:57:0981 FuPluginUpower       failed to query lid state
+3月 30 15:19:57 ubuntu fwupd[2186]: 07:19:57:0981 FuPluginUpower       failed to query power type
+3月 30 15:19:58 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 30 15:19:59 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 30 15:19:59 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 30 22:57:54 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 30 22:57:54 ubuntu fwupd[2292]: 14:57:54:0471 FuPluginUpower       failed to query power type
+3月 30 22:57:54 ubuntu fwupd[2292]: 14:57:54:0479 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 30 22:57:54 ubuntu systemd[1]: Started Firmware update daemon.
+3月 30 22:57:54 ubuntu fwupd[2292]: 14:57:54:0674 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 30 22:59:12 ubuntu fwupd[2292]: 14:59:12:0447 FuPluginUpower       failed to query lid state
+3月 30 22:59:12 ubuntu fwupd[2292]: 14:59:12:0447 FuPluginUpower       failed to query power type
+3月 30 22:59:12 ubuntu fwupd[2292]: 14:59:12:0447 FuPluginUpower       failed to query lid state
+3月 30 22:59:12 ubuntu fwupd[2292]: 14:59:12:0447 FuPluginUpower       failed to query power type
+3月 30 22:59:12 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 30 22:59:12 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 30 22:59:12 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 30 23:01:17 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 30 23:01:17 ubuntu fwupd[2184]: 15:01:17:0137 FuPluginUpower       failed to query power type
+3月 30 23:01:17 ubuntu fwupd[2184]: 15:01:17:0145 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 30 23:01:17 ubuntu systemd[1]: Started Firmware update daemon.
+3月 30 23:01:17 ubuntu fwupd[2184]: 15:01:17:0338 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 30 23:02:22 ubuntu fwupd[2184]: 15:02:22:0952 FuPluginUpower       failed to query lid state
+3月 30 23:02:22 ubuntu fwupd[2184]: 15:02:22:0952 FuPluginUpower       failed to query power type
+3月 30 23:02:22 ubuntu fwupd[2184]: 15:02:22:0952 FuPluginUpower       failed to query lid state
+3月 30 23:02:22 ubuntu fwupd[2184]: 15:02:22:0952 FuPluginUpower       failed to query power type
+3月 30 23:02:23 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 30 23:02:23 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 30 23:02:23 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 30 23:05:47 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 30 23:05:47 ubuntu fwupd[2196]: 15:05:47:0400 FuPluginUpower       failed to query power type
+3月 30 23:05:47 ubuntu fwupd[2196]: 15:05:47:0407 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 30 23:05:47 ubuntu systemd[1]: Started Firmware update daemon.
+3月 30 23:05:47 ubuntu fwupd[2196]: 15:05:47:0589 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 30 23:14:09 ubuntu fwupd[2196]: 15:14:09:0079 FuPluginUpower       failed to query lid state
+3月 30 23:14:09 ubuntu fwupd[2196]: 15:14:09:0079 FuPluginUpower       failed to query power type
+3月 30 23:14:09 ubuntu fwupd[2196]: 15:14:09:0079 FuPluginUpower       failed to query lid state
+3月 30 23:14:09 ubuntu fwupd[2196]: 15:14:09:0079 FuPluginUpower       failed to query power type
+3月 30 23:14:09 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 30 23:14:09 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 30 23:14:09 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 31 18:40:40 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 31 18:40:40 ubuntu fwupd[2306]: 10:40:40:0416 FuPluginUpower       failed to query power type
+3月 31 18:40:40 ubuntu fwupd[2306]: 10:40:40:0424 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 31 18:40:40 ubuntu systemd[1]: Started Firmware update daemon.
+3月 31 18:40:40 ubuntu fwupd[2306]: 10:40:40:0617 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 31 18:53:35 ubuntu fwupd[2306]: 10:53:35:0134 FuPluginUpower       failed to query lid state
+3月 31 18:53:35 ubuntu fwupd[2306]: 10:53:35:0134 FuPluginUpower       failed to query power type
+3月 31 18:53:35 ubuntu fwupd[2306]: 10:53:35:0135 FuPluginUpower       failed to query lid state
+3月 31 18:53:35 ubuntu fwupd[2306]: 10:53:35:0135 FuPluginUpower       failed to query power type
+3月 31 18:53:35 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 31 18:53:35 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 31 18:53:35 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 31 18:54:39 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 31 18:54:39 ubuntu fwupd[2221]: 10:54:39:0896 FuPluginUpower       failed to query power type
+3月 31 18:54:39 ubuntu fwupd[2221]: 10:54:39:0904 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 31 18:54:40 ubuntu systemd[1]: Started Firmware update daemon.
+3月 31 18:54:40 ubuntu fwupd[2221]: 10:54:40:0116 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 31 19:01:42 ubuntu fwupd[2221]: 11:01:42:0858 FuPluginUpower       failed to query lid state
+3月 31 19:01:42 ubuntu fwupd[2221]: 11:01:42:0858 FuPluginUpower       failed to query power type
+3月 31 19:01:42 ubuntu fwupd[2221]: 11:01:42:0858 FuPluginUpower       failed to query lid state
+3月 31 19:01:42 ubuntu fwupd[2221]: 11:01:42:0858 FuPluginUpower       failed to query power type
+3月 31 19:01:43 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 31 19:01:43 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 31 19:01:43 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 31 19:04:28 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 31 19:04:28 ubuntu fwupd[2167]: 11:04:28:0425 FuPluginUpower       failed to query power type
+3月 31 19:04:28 ubuntu fwupd[2167]: 11:04:28:0448 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 31 19:04:29 ubuntu systemd[1]: Started Firmware update daemon.
+3月 31 19:04:29 ubuntu fwupd[2167]: 11:04:29:0133 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 31 19:26:10 ubuntu fwupd[2167]: 11:26:10:0288 FuPluginUpower       failed to query lid state
+3月 31 19:26:10 ubuntu fwupd[2167]: 11:26:10:0288 FuPluginUpower       failed to query power type
+3月 31 19:26:10 ubuntu fwupd[2167]: 11:26:10:0288 FuPluginUpower       failed to query lid state
+3月 31 19:26:10 ubuntu fwupd[2167]: 11:26:10:0288 FuPluginUpower       failed to query power type
+3月 31 19:26:10 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 31 19:26:10 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 31 19:26:10 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 31 19:28:06 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 31 19:28:06 ubuntu fwupd[2219]: 11:28:06:0742 FuPluginUpower       failed to query power type
+3月 31 19:28:06 ubuntu fwupd[2219]: 11:28:06:0750 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 31 19:28:06 ubuntu systemd[1]: Started Firmware update daemon.
+3月 31 19:28:06 ubuntu fwupd[2219]: 11:28:06:0949 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+-- Reboot --
+3月 31 19:43:54 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 31 19:43:54 ubuntu fwupd[2156]: 11:43:54:0119 FuPluginUpower       failed to query power type
+3月 31 19:43:54 ubuntu fwupd[2156]: 11:43:54:0126 FuPluginTpm          failed to load eventlog: ????"/sys/kernel/security/tpm0/binary_bios_measurements"??:?????????
+3月 31 19:43:54 ubuntu systemd[1]: Started Firmware update daemon.
+3月 31 19:43:54 ubuntu fwupd[2156]: 11:43:54:0305 FuEngine             failed to record HSI attributes: failed to get historical attr: json-glib version too old
+3月 31 19:53:24 ubuntu systemd[1]: fwupd.service: Succeeded.
+-- Reboot --
+3月 31 20:02:42 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 31 20:02:43 ubuntu systemd[1]: Started Firmware update daemon.
+3月 31 20:09:57 ubuntu fwupd[2210]: 12:09:57:0257 FuPluginUpower       failed to query lid state
+3月 31 20:09:57 ubuntu fwupd[2210]: 12:09:57:0257 FuPluginUpower       failed to query lid state
+3月 31 20:09:57 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 31 20:09:57 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 31 20:09:57 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+3月 31 20:25:10 ubuntu systemd[1]: Starting Firmware update daemon...
+3月 31 20:25:11 ubuntu systemd[1]: Started Firmware update daemon.
+3月 31 21:06:51 ubuntu fwupd[2207]: 13:06:51:0785 FuPluginUpower       failed to query lid state
+3月 31 21:06:51 ubuntu fwupd[2207]: 13:06:51:0785 FuPluginUpower       failed to query lid state
+3月 31 21:06:51 ubuntu systemd[1]: Stopping Firmware update daemon...
+3月 31 21:06:52 ubuntu systemd[1]: fwupd.service: Succeeded.
+3月 31 21:06:52 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 02 17:05:25 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 02 17:05:25 ubuntu systemd[1]: Started Firmware update daemon.
+4月 02 17:13:52 ubuntu fwupd[2315]: 09:13:52:0437 FuPluginUpower       failed to query lid state
+4月 02 17:13:52 ubuntu fwupd[2315]: 09:13:52:0437 FuPluginUpower       failed to query lid state
+4月 02 17:13:52 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 02 17:13:52 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 02 17:13:52 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 14 20:21:59 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 14 20:22:00 ubuntu systemd[1]: Started Firmware update daemon.
+4月 14 20:54:40 ubuntu fwupd[2224]: 12:54:40:0348 FuPluginUpower       failed to query lid state
+4月 14 20:54:40 ubuntu fwupd[2224]: 12:54:40:0348 FuPluginUpower       failed to query lid state
+4月 14 20:54:40 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 14 20:54:40 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 14 20:54:40 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 14 20:56:39 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 14 20:56:39 ubuntu systemd[1]: Started Firmware update daemon.
+-- Reboot --
+4月 15 22:32:14 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 15 22:32:15 ubuntu systemd[1]: Started Firmware update daemon.
+4月 15 22:43:25 ubuntu fwupd[2345]: 14:43:25:0051 FuPluginUpower       failed to query lid state
+4月 15 22:43:25 ubuntu fwupd[2345]: 14:43:25:0051 FuPluginUpower       failed to query lid state
+4月 15 22:43:25 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 15 22:43:25 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 15 22:43:25 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 15 22:57:43 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 15 22:57:43 ubuntu systemd[1]: Started Firmware update daemon.
+4月 15 23:08:20 ubuntu fwupd[2264]: 15:08:20:0896 FuPluginUpower       failed to query lid state
+4月 15 23:08:20 ubuntu fwupd[2264]: 15:08:20:0896 FuPluginUpower       failed to query lid state
+4月 15 23:08:20 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 15 23:08:20 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 15 23:08:20 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 19 18:42:59 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 19 18:42:59 ubuntu systemd[1]: Started Firmware update daemon.
+4月 19 19:04:21 ubuntu fwupd[2303]: 11:04:21:0035 FuPluginUpower       failed to query lid state
+4月 19 19:04:21 ubuntu fwupd[2303]: 11:04:21:0035 FuPluginUpower       failed to query lid state
+4月 19 19:04:21 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 19 19:04:21 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 19 19:04:21 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 19 19:17:05 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 19 19:17:05 ubuntu systemd[1]: Started Firmware update daemon.
+4月 19 19:25:49 ubuntu fwupd[2312]: 11:25:49:0972 FuPluginUpower       failed to query lid state
+4月 19 19:25:49 ubuntu fwupd[2312]: 11:25:49:0972 FuPluginUpower       failed to query lid state
+4月 19 19:25:50 ubuntu systemd[1]: Stopping Firmware update daemon...
+4月 19 19:25:50 ubuntu systemd[1]: fwupd.service: Succeeded.
+4月 19 19:25:50 ubuntu systemd[1]: Stopped Firmware update daemon.
+-- Reboot --
+4月 21 14:58:31 ubuntu systemd[1]: Starting Firmware update daemon...
+4月 21 14:58:31 ubuntu systemd[1]: Started Firmware update daemon.
+4月 21 17:07:20 ubuntu systemd[1]: fwupd.service: Succeeded.
+
