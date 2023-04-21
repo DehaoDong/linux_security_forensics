@@ -25,7 +25,7 @@ def get_user_processes(username):
 
 
 def main():
-    log.print_and_log("Storing users' information...")
+    log.print_and_log("Storing information of users...")
     login_records = get_login_records()
 
     for record in login_records:

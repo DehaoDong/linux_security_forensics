@@ -8,7 +8,7 @@ def print_and_log(message):
 
     print(message)
 
-    logging.basicConfig(filename=log_path, level=logging.INFO, format='%(asctime)s\n%(message)s\n')
+    logging.basicConfig(filename=log_path, level=logging.INFO, format='%(asctime)s\n%(message)s')
     logging.info(message)
 
 

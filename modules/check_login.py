@@ -49,7 +49,7 @@ def check_wtmp():
                 if ip:
                     country_code = check_ip_country(ip)
                     if country_code and country_code != 'YOUR_COUNTRY_CODE':
-                        log.print_and_log(f"Foreign IP used to login in wtmp: user={user}, ip={ip}, country={country_code}")
+                        log.print_and_log(f"*Foreign IP used to login in wtmp: user={user}, ip={ip}, country={country_code}")
                         output_result.write_content("suspicious.txt",
                                                     f"Foreign IP used to login in wtmp: user={user}, ip={ip}, country={country_code}")
     except Exception as e:
@@ -67,7 +67,7 @@ def check_utmp():
                 if ip:
                     country_code = check_ip_country(ip)
                     if country_code and country_code != 'YOUR_COUNTRY_CODE':
-                        log.print_and_log(f"Foreign IP used to login in utmp: user={user}, ip={ip}, country={country_code}")
+                        log.print_and_log(f"*Foreign IP used to login in utmp: user={user}, ip={ip}, country={country_code}")
                         output_result.write_content("suspicious.txt",
                                                     f"Foreign IP used to login in utmp: user={user}, ip={ip}, country={country_code}")
     except Exception as e:
@@ -88,7 +88,7 @@ def check_lastlog():
                 if ip:
                     country_code = check_ip_country(ip)
                     if country_code and country_code != 'YOUR_COUNTRY_CODE':
-                        log.print_and_log(f"Foreign IP used to login in lastlog: user={user}, ip={ip}, country={country_code}")
+                        log.print_and_log(f"*Foreign IP used to login in lastlog: user={user}, ip={ip}, country={country_code}")
                         output_result.write_content("suspicious.txt", f"Foreign IP used to login in lastlog: user={user}, ip={ip}, country={country_code}")
     except Exception as e:
         log.print_and_log(f"Error in check_lastlog: {e}")
@@ -96,11 +96,11 @@ def check_lastlog():
 
 def main():
     log.print_and_log("Checking logins...")
-    log.print_and_log("Checking wtmp")
+    log.print_and_log("Checking wtmp...")
     check_wtmp()
-    log.print_and_log("Checking utmp")
+    log.print_and_log("Checking utmp...")
     check_utmp()
-    log.print_and_log("Checking lastlog")
+    log.print_and_log("Checking lastlog...")
     check_lastlog()
 
 

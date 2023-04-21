@@ -1,0 +1,865 @@
+Username: root
+TTY: pts/2
+Login time: 192.168.177.1 五 4月 21 15:07:18 +0800 2023
+User ID: 0
+Full name: root
+Home directory: /root
+Shell: /bin/bash
+Related processes:
+    PID TTY          TIME CMD
+      1 ?        00:00:04 systemd
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00 rcu_gp
+      4 ?        00:00:00 rcu_par_gp
+      5 ?        00:00:00 slub_flushwq
+      6 ?        00:00:00 netns
+      8 ?        00:00:00 kworker/0:0H-events_highpri
+     10 ?        00:00:00 mm_percpu_wq
+     11 ?        00:00:00 rcu_tasks_rude_
+     12 ?        00:00:00 rcu_tasks_trace
+     13 ?        00:00:01 ksoftirqd/0
+     14 ?        00:00:05 rcu_sched
+     15 ?        00:00:00 migration/0
+     16 ?        00:00:00 idle_inject/0
+     18 ?        00:00:00 cpuhp/0
+     19 ?        00:00:00 cpuhp/1
+     20 ?        00:00:00 idle_inject/1
+     21 ?        00:00:00 migration/1
+     22 ?        00:00:01 ksoftirqd/1
+     24 ?        00:00:00 kworker/1:0H-events_highpri
+     25 ?        00:00:00 kdevtmpfs
+     26 ?        00:00:00 inet_frag_wq
+     27 ?        00:00:00 kauditd
+     29 ?        00:00:00 khungtaskd
+     30 ?        00:00:00 oom_reaper
+     31 ?        00:00:00 writeback
+     32 ?        00:00:01 kcompactd0
+     33 ?        00:00:00 ksmd
+     34 ?        00:00:00 khugepaged
+     81 ?        00:00:00 kintegrityd
+     82 ?        00:00:00 kblockd
+     83 ?        00:00:00 blkcg_punt_bio
+     84 ?        00:00:00 tpm_dev_wq
+     85 ?        00:00:00 ata_sff
+     86 ?        00:00:00 md
+     87 ?        00:00:00 edac-poller
+     88 ?        00:00:00 devfreq_wq
+     89 ?        00:00:00 watchdogd
+     91 ?        00:00:02 kworker/0:1H-kblockd
+     93 ?        00:00:15 kswapd0
+     94 ?        00:00:00 ecryptfs-kthrea
+     96 ?        00:00:00 kthrotld
+     97 ?        00:00:00 irq/24-pciehp
+     98 ?        00:00:00 irq/25-pciehp
+     99 ?        00:00:00 irq/26-pciehp
+    100 ?        00:00:00 irq/27-pciehp
+    101 ?        00:00:00 irq/28-pciehp
+    102 ?        00:00:00 irq/29-pciehp
+    103 ?        00:00:00 irq/30-pciehp
+    104 ?        00:00:00 irq/31-pciehp
+    105 ?        00:00:00 irq/32-pciehp
+    106 ?        00:00:00 irq/33-pciehp
+    107 ?        00:00:00 irq/34-pciehp
+    108 ?        00:00:00 irq/35-pciehp
+    109 ?        00:00:00 irq/36-pciehp
+    110 ?        00:00:00 irq/37-pciehp
+    111 ?        00:00:00 irq/38-pciehp
+    112 ?        00:00:00 irq/39-pciehp
+    113 ?        00:00:00 irq/40-pciehp
+    114 ?        00:00:00 irq/41-pciehp
+    115 ?        00:00:00 irq/42-pciehp
+    116 ?        00:00:00 irq/43-pciehp
+    117 ?        00:00:00 irq/44-pciehp
+    118 ?        00:00:00 irq/45-pciehp
+    119 ?        00:00:00 irq/46-pciehp
+    120 ?        00:00:00 irq/47-pciehp
+    121 ?        00:00:00 irq/48-pciehp
+    122 ?        00:00:00 irq/49-pciehp
+    123 ?        00:00:00 irq/50-pciehp
+    124 ?        00:00:00 irq/51-pciehp
+    125 ?        00:00:00 irq/52-pciehp
+    126 ?        00:00:00 irq/53-pciehp
+    127 ?        00:00:00 irq/54-pciehp
+    128 ?        00:00:00 irq/55-pciehp
+    129 ?        00:00:00 acpi_thermal_pm
+    131 ?        00:00:00 scsi_eh_0
+    132 ?        00:00:00 scsi_tmf_0
+    133 ?        00:00:00 scsi_eh_1
+    134 ?        00:00:00 scsi_tmf_1
+    136 ?        00:00:00 vfio-irqfd-clea
+    137 ?        00:00:00 mld
+    138 ?        00:00:02 kworker/1:1H-kblockd
+    139 ?        00:00:00 ipv6_addrconf
+    151 ?        00:00:00 kstrp
+    154 ?        00:00:00 zswap-shrink
+    156 ?        00:00:00 kworker/u257:0
+    161 ?        00:00:00 charger_manager
+    205 ?        00:00:00 mpt_poll_0
+    206 ?        00:00:00 mpt/0
+    208 ?        00:00:00 scsi_eh_2
+    209 ?        00:00:00 scsi_tmf_2
+    210 ?        00:00:00 scsi_eh_3
+    211 ?        00:00:00 scsi_tmf_3
+    212 ?        00:00:00 scsi_eh_4
+    213 ?        00:00:00 scsi_tmf_4
+    214 ?        00:00:00 scsi_eh_5
+    215 ?        00:00:00 scsi_tmf_5
+    216 ?        00:00:00 scsi_eh_6
+    217 ?        00:00:00 scsi_tmf_6
+    218 ?        00:00:00 scsi_eh_7
+    219 ?        00:00:00 scsi_tmf_7
+    220 ?        00:00:00 scsi_eh_8
+    221 ?        00:00:00 scsi_tmf_8
+    222 ?        00:00:00 scsi_eh_9
+    223 ?        00:00:00 scsi_tmf_9
+    224 ?        00:00:00 scsi_eh_10
+    225 ?        00:00:00 scsi_tmf_10
+    226 ?        00:00:00 scsi_eh_11
+    227 ?        00:00:00 scsi_tmf_11
+    228 ?        00:00:00 scsi_eh_12
+    229 ?        00:00:00 scsi_tmf_12
+    230 ?        00:00:00 scsi_eh_13
+    231 ?        00:00:00 scsi_tmf_13
+    232 ?        00:00:00 scsi_eh_14
+    233 ?        00:00:00 scsi_tmf_14
+    234 ?        00:00:00 scsi_eh_15
+    235 ?        00:00:00 scsi_tmf_15
+    236 ?        00:00:00 scsi_eh_16
+    237 ?        00:00:00 scsi_tmf_16
+    238 ?        00:00:00 scsi_eh_17
+    239 ?        00:00:00 scsi_tmf_17
+    240 ?        00:00:00 scsi_eh_18
+    241 ?        00:00:00 scsi_tmf_18
+    242 ?        00:00:00 scsi_eh_19
+    243 ?        00:00:00 scsi_tmf_19
+    244 ?        00:00:00 scsi_eh_20
+    245 ?        00:00:00 scsi_tmf_20
+    246 ?        00:00:00 scsi_eh_21
+    247 ?        00:00:00 scsi_tmf_21
+    248 ?        00:00:00 scsi_eh_22
+    249 ?        00:00:00 scsi_tmf_22
+    250 ?        00:00:00 scsi_eh_23
+    251 ?        00:00:00 scsi_tmf_23
+    252 ?        00:00:00 scsi_eh_24
+    253 ?        00:00:00 scsi_tmf_24
+    254 ?        00:00:00 scsi_eh_25
+    255 ?        00:00:00 scsi_tmf_25
+    256 ?        00:00:00 scsi_eh_26
+    257 ?        00:00:00 scsi_tmf_26
+    258 ?        00:00:00 scsi_eh_27
+    259 ?        00:00:00 scsi_tmf_27
+    260 ?        00:00:00 scsi_eh_28
+    261 ?        00:00:00 scsi_tmf_28
+    262 ?        00:00:00 scsi_eh_29
+    263 ?        00:00:00 scsi_tmf_29
+    264 ?        00:00:00 scsi_eh_30
+    265 ?        00:00:00 scsi_tmf_30
+    266 ?        00:00:00 scsi_eh_31
+    267 ?        00:00:00 scsi_tmf_31
+    294 ?        00:00:00 scsi_eh_32
+    295 ?        00:00:00 scsi_tmf_32
+    320 ?        00:00:01 jbd2/sda5-8
+    321 ?        00:00:00 ext4-rsv-conver
+    361 ?        00:00:00 systemd-journal
+    403 ?        00:00:00 ttm_swap
+    404 ?        00:00:08 irq/16-vmwgfx
+    405 ?        00:00:00 card0-crtc0
+    406 ?        00:00:00 card0-crtc1
+    407 ?        00:00:00 card0-crtc2
+    408 ?        00:00:00 card0-crtc3
+    409 ?        00:00:00 card0-crtc4
+    410 ?        00:00:00 card0-crtc5
+    411 ?        00:00:00 card0-crtc6
+    412 ?        00:00:00 card0-crtc7
+    423 ?        00:00:00 systemd-udevd
+    432 ?        00:00:00 vmware-vmblock-
+    559 ?        00:00:00 cryptd
+    800 ?        00:00:00 VGAuthService
+    802 ?        00:00:14 vmtoolsd
+    830 ?        00:00:00 accounts-daemon
+    831 ?        00:00:00 acpid
+    841 ?        00:00:00 cron
+    844 ?        00:00:01 NetworkManager
+    855 ?        00:00:00 irqbalance
+    862 ?        00:00:00 networkd-dispat
+    866 ?        00:00:01 polkitd
+    881 ?        00:00:02 snapd
+    882 ?        00:00:00 switcheroo-cont
+    884 ?        00:00:00 systemd-logind
+    885 ?        00:00:00 udisksd
+    886 ?        00:00:00 wpa_supplicant
+    939 ?        00:00:00 ModemManager
+    947 ?        00:00:00 cups-browsed
+    968 ?        00:00:00 unattended-upgr
+    993 ?        00:00:00 sshd
+   1029 ?        00:00:00 gdm3
+   1038 ?        00:00:00 apache2
+   1111 ?        00:00:00 cupsd
+   1246 ?        00:00:00 upowerd
+   1556 ?        00:00:00 gdm-session-wor
+   6296 ?        00:00:03 sshd
+   6299 ?        00:00:00 systemd
+   6300 ?        00:00:00 (sd-pam)
+   6388 pts/2    00:00:00 bash
+  41967 pts/0    00:00:00 su
+  41968 pts/0    00:00:00 bash
+  44504 ?        00:00:00 kworker/u256:4-events_unbound
+  46926 ?        00:00:01 kworker/1:2-events
+  46927 ?        00:00:04 kworker/0:0-events
+  49376 ?        00:00:00 kworker/u256:1-ext4-rsv-conversion
+  49379 ?        00:00:00 kworker/1:1-events
+  49382 ?        00:00:00 kworker/0:1-events
+  49474 ?        00:00:00 kworker/u256:0-events_unbound
+  51681 ?        00:00:00 kworker/u256:2-events_freezable_power_
+  51683 pts/0    00:00:00 python
+  51686 pts/0    00:00:00 ps
+
+
+Username: daemon
+TTY: **从未登录过**
+Login time: 
+User ID: 1
+Full name: daemon
+Home directory: /usr/sbin
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: bin
+TTY: **从未登录过**
+Login time: 
+User ID: 2
+Full name: bin
+Home directory: /bin
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: sys
+TTY: **从未登录过**
+Login time: 
+User ID: 3
+Full name: sys
+Home directory: /dev
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: sync
+TTY: **从未登录过**
+Login time: 
+User ID: 4
+Full name: sync
+Home directory: /bin
+Shell: /bin/sync
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: games
+TTY: **从未登录过**
+Login time: 
+User ID: 5
+Full name: games
+Home directory: /usr/games
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: man
+TTY: **从未登录过**
+Login time: 
+User ID: 6
+Full name: man
+Home directory: /var/cache/man
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: lp
+TTY: **从未登录过**
+Login time: 
+User ID: 7
+Full name: lp
+Home directory: /var/spool/lpd
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+   1118 ?        00:00:00 dbus
+
+
+Username: mail
+TTY: **从未登录过**
+Login time: 
+User ID: 8
+Full name: mail
+Home directory: /var/mail
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: news
+TTY: **从未登录过**
+Login time: 
+User ID: 9
+Full name: news
+Home directory: /var/spool/news
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: uucp
+TTY: **从未登录过**
+Login time: 
+User ID: 10
+Full name: uucp
+Home directory: /var/spool/uucp
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: proxy
+TTY: **从未登录过**
+Login time: 
+User ID: 13
+Full name: proxy
+Home directory: /bin
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: www-data
+TTY: **从未登录过**
+Login time: 
+User ID: 33
+Full name: www-data
+Home directory: /var/www
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+   1073 ?        00:00:00 apache2
+   1074 ?        00:00:00 apache2
+   1075 ?        00:00:00 apache2
+   1076 ?        00:00:00 apache2
+   1077 ?        00:00:00 apache2
+
+
+Username: backup
+TTY: **从未登录过**
+Login time: 
+User ID: 34
+Full name: backup
+Home directory: /var/backups
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: list
+TTY: **从未登录过**
+Login time: 
+User ID: 38
+Full name: Mailing List Manager
+Home directory: /var/list
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: irc
+TTY: **从未登录过**
+Login time: 
+User ID: 39
+Full name: ircd
+Home directory: /var/run/ircd
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: gnats
+TTY: **从未登录过**
+Login time: 
+User ID: 41
+Full name: Gnats Bug-Reporting System (admin)
+Home directory: /var/lib/gnats
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: nobody
+TTY: **从未登录过**
+Login time: 
+User ID: 65534
+Full name: nobody
+Home directory: /nonexistent
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: systemd-network
+TTY: **从未登录过**
+Login time: 
+User ID: 100
+Full name: systemd Network Management,,,
+Home directory: /run/systemd
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: systemd-resolve
+TTY: **从未登录过**
+Login time: 
+User ID: 101
+Full name: systemd Resolver,,,
+Home directory: /run/systemd
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+    780 ?        00:00:00 systemd-resolve
+
+
+Username: systemd-timesync
+TTY: **从未登录过**
+Login time: 
+User ID: 102
+Full name: systemd Time Synchronization,,,
+Home directory: /run/systemd
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+    781 ?        00:00:00 systemd-timesyn
+
+
+Username: messagebus
+TTY: **从未登录过**
+Login time: 
+User ID: 103
+Full name: 
+Home directory: /nonexistent
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+    843 ?        00:00:01 dbus-daemon
+
+
+Username: syslog
+TTY: **从未登录过**
+Login time: 
+User ID: 104
+Full name: 
+Home directory: /home/syslog
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+    880 ?        00:00:00 rsyslogd
+
+
+Username: _apt
+TTY: **从未登录过**
+Login time: 
+User ID: 105
+Full name: 
+Home directory: /nonexistent
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: tss
+TTY: **从未登录过**
+Login time: 
+User ID: 106
+Full name: TPM software stack,,,
+Home directory: /var/lib/tpm
+Shell: /bin/false
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: uuidd
+TTY: **从未登录过**
+Login time: 
+User ID: 107
+Full name: 
+Home directory: /run/uuidd
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: tcpdump
+TTY: **从未登录过**
+Login time: 
+User ID: 108
+Full name: 
+Home directory: /nonexistent
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: avahi-autoipd
+TTY: **从未登录过**
+Login time: 
+User ID: 109
+Full name: Avahi autoip daemon,,,
+Home directory: /var/lib/avahi-autoipd
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: usbmux
+TTY: **从未登录过**
+Login time: 
+User ID: 110
+Full name: usbmux daemon,,,
+Home directory: /var/lib/usbmux
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: rtkit
+TTY: **从未登录过**
+Login time: 
+User ID: 111
+Full name: RealtimeKit,,,
+Home directory: /proc
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+   1117 ?        00:00:00 rtkit-daemon
+
+
+Username: dnsmasq
+TTY: **从未登录过**
+Login time: 
+User ID: 112
+Full name: dnsmasq,,,
+Home directory: /var/lib/misc
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: cups-pk-helper
+TTY: **从未登录过**
+Login time: 
+User ID: 113
+Full name: user for cups-pk-helper service,,,
+Home directory: /home/cups-pk-helper
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: speech-dispatcher
+TTY: **从未登录过**
+Login time: 
+User ID: 114
+Full name: Speech Dispatcher,,,
+Home directory: /run/speech-dispatcher
+Shell: /bin/false
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: avahi
+TTY: **从未登录过**
+Login time: 
+User ID: 115
+Full name: Avahi mDNS daemon,,,
+Home directory: /var/run/avahi-daemon
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+    838 ?        00:00:00 avahi-daemon
+    908 ?        00:00:00 avahi-daemon
+
+
+Username: kernoops
+TTY: **从未登录过**
+Login time: 
+User ID: 116
+Full name: Kernel Oops Tracking Daemon,,,
+Home directory: /
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+   2276 ?        00:00:00 kerneloops
+   2280 ?        00:00:00 kerneloops
+
+
+Username: saned
+TTY: **从未登录过**
+Login time: 
+User ID: 117
+Full name: 
+Home directory: /var/lib/saned
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: nm-openvpn
+TTY: **从未登录过**
+Login time: 
+User ID: 118
+Full name: NetworkManager OpenVPN,,,
+Home directory: /var/lib/openvpn/chroot
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: hplip
+TTY: **从未登录过**
+Login time: 
+User ID: 119
+Full name: HPLIP system user,,,
+Home directory: /run/hplip
+Shell: /bin/false
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: whoopsie
+TTY: **从未登录过**
+Login time: 
+User ID: 120
+Full name: 
+Home directory: /nonexistent
+Shell: /bin/false
+Related processes:
+    PID TTY          TIME CMD
+   2275 ?        00:00:00 whoopsie
+
+
+Username: colord
+TTY: **从未登录过**
+Login time: 
+User ID: 121
+Full name: colord colour management daemon,,,
+Home directory: /var/lib/colord
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+   1521 ?        00:00:00 colord
+
+
+Username: geoclue
+TTY: **从未登录过**
+Login time: 
+User ID: 122
+Full name: 
+Home directory: /var/lib/geoclue
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: pulse
+TTY: **从未登录过**
+Login time: 
+User ID: 123
+Full name: PulseAudio daemon,,,
+Home directory: /var/run/pulse
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: gnome-initial-setup
+TTY: **从未登录过**
+Login time: 
+User ID: 124
+Full name: 
+Home directory: /run/gnome-initial-setup/
+Shell: /bin/false
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: gdm
+TTY: **从未登录过**
+Login time: 
+User ID: 125
+Full name: Gnome Display Manager
+Home directory: /var/lib/gdm3
+Shell: /bin/false
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: sssd
+TTY: **从未登录过**
+Login time: 
+User ID: 126
+Full name: SSSD system user,,,
+Home directory: /var/lib/sss
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: ree
+TTY: pts/1
+Login time: 192.168.1.24 日 4月 2 17:07:32 +0800 2023
+User ID: 1000
+Full name: ree
+Home directory: /home/ree
+Shell: /bin/bash
+Related processes:
+    PID TTY          TIME CMD
+   1565 ?        00:00:00 systemd
+   1566 ?        00:00:00 (sd-pam)
+   1571 ?        00:01:08 pulseaudio
+   1573 ?        00:00:00 tracker-miner-f
+   1575 ?        00:00:00 dbus-daemon
+   1578 ?        00:00:00 gnome-keyring-d
+   1596 ?        00:00:00 gvfsd
+   1601 ?        00:00:00 gvfsd-fuse
+   1605 ?        00:00:00 gvfs-udisks2-vo
+   1616 ?        00:00:00 gvfs-goa-volume
+   1620 ?        00:00:00 goa-daemon
+   1628 ?        00:00:01 goa-identity-se
+   1633 ?        00:00:00 gvfs-afc-volume
+   1639 ?        00:00:00 gvfs-mtp-volume
+   1643 tty2     00:00:00 gdm-x-session
+   1646 tty2     00:05:04 Xorg
+   1647 ?        00:00:00 gvfs-gphoto2-vo
+   1668 tty2     00:00:00 gnome-session-b
+   1735 ?        00:00:00 ssh-agent
+   1752 ?        00:00:00 at-spi-bus-laun
+   1757 ?        00:00:00 dbus-daemon
+   1764 ?        00:00:00 gnome-session-c
+   1771 ?        00:00:00 gnome-session-b
+   1788 ?        00:04:16 gnome-shell
+   1807 ?        00:00:19 ibus-daemon
+   1811 ?        00:00:00 ibus-memconf
+   1812 ?        00:00:06 ibus-extension-
+   1816 ?        00:00:02 ibus-x11
+   1819 ?        00:00:00 ibus-portal
+   1829 ?        00:00:01 at-spi2-registr
+   1833 ?        00:00:00 xdg-permission-
+   1838 ?        00:00:00 gnome-shell-cal
+   1844 ?        00:00:00 evolution-sourc
+   1853 ?        00:00:00 evolution-calen
+   1857 ?        00:00:00 dconf-service
+   1868 ?        00:00:00 evolution-addre
+   1883 ?        00:00:00 gjs
+   1895 ?        00:00:00 gvfsd-trash
+   1898 ?        00:00:00 gsd-a11y-settin
+   1904 ?        00:00:00 gsd-color
+   1906 ?        00:00:00 gsd-datetime
+   1907 ?        00:00:00 gsd-housekeepin
+   1913 ?        00:00:00 gsd-keyboard
+   1927 ?        00:00:00 gsd-media-keys
+   1928 ?        00:00:00 gsd-power
+   1929 ?        00:00:00 gsd-disk-utilit
+   1930 ?        00:00:14 vmtoolsd
+   1931 ?        00:00:00 gsd-print-notif
+   1941 ?        00:00:00 gsd-rfkill
+   1946 ?        00:00:00 gsd-screensaver
+   1952 ?        00:00:00 gsd-sharing
+   1954 ?        00:00:00 gsd-smartcard
+   1961 ?        00:00:00 gsd-sound
+   1969 ?        00:00:00 gsd-usb-protect
+   1970 ?        00:00:00 gsd-wacom
+   1971 ?        00:00:00 gsd-wwan
+   1972 ?        00:00:00 gsd-xsettings
+   1991 ?        00:00:10 snap-store
+   2002 ?        00:00:00 evolution-alarm
+   2061 ?        00:00:00 xdg-document-po
+   2077 ?        00:00:00 gsd-printer
+   2095 ?        00:00:08 ibus-engine-lib
+   2195 ?        00:00:00 xdg-desktop-por
+   2199 ?        00:00:00 xdg-desktop-por
+   2249 ?        00:00:37 gnome-terminal-
+   2262 pts/0    00:00:00 bash
+   2340 ?        00:20:49 java
+   2472 ?        00:00:00 fsnotifier
+   2694 pts/1    00:00:00 bash
+   2724 ?        00:00:00 gvfsd-metadata
+   2725 ?        00:00:00 update-notifier
+   3698 ?        00:00:00 ssh-agent
+   6441 ?        00:00:01 gnome-control-c
+   6819 ?        00:00:01 nautilus
+   6836 pts/3    00:00:00 bash
+  25608 ?        00:02:40 firefox
+  25665 ?        00:00:00 Socket Process
+  25675 ?        00:00:14 WebExtensions
+  25695 ?        00:00:03 Privileged Cont
+  25810 ?        00:02:04 Isolated Web Co
+  41998 ?        00:01:15 Isolated Web Co
+  42023 ?        00:00:08 Isolated Web Co
+  42791 ?        00:00:20 Isolated Web Co
+  44375 ?        00:00:00 Web Content
+  44397 ?        00:00:00 RDD Process
+  44402 ?        00:00:00 Utility Process
+  44428 ?        00:00:00 Web Content
+  44452 ?        00:00:00 Web Content
+  44483 ?        00:00:00 sd_dummy
+  44486 ?        00:00:00 sd_espeak-ng
+  44492 ?        00:00:00 speech-dispatch
+
+
+Username: systemd-coredump
+TTY: **从未登录过**
+Login time: 
+User ID: 999
+Full name: systemd Core Dumper
+Home directory: /
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: mysql
+TTY: **从未登录过**
+Login time: 
+User ID: 127
+Full name: MySQL Server,,,
+Home directory: /nonexistent
+Shell: /bin/false
+Related processes:
+    PID TTY          TIME CMD
+   1092 ?        00:01:18 mysqld
+
+
+Username: sshd
+TTY: **从未登录过**
+Login time: 
+User ID: 128
+Full name: 
+Home directory: /run/sshd
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+
+Username: fwupd-refresh
+TTY: **从未登录过**
+Login time: 
+User ID: 129
+Full name: fwupd-refresh user,,,
+Home directory: /run/systemd
+Shell: /usr/sbin/nologin
+Related processes:
+    PID TTY          TIME CMD
+
+

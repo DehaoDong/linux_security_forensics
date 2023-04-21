@@ -13,7 +13,7 @@ def check_alias():
 
         # 遍历所有 alias，筛选出可能被视为可疑的别名
         for alias in aliases:
-            # print(alias)
+            # log.print_and_log(f"Checking {alias}")
             output_result.write_content('aliases.txt', alias)
             alias_name, alias_command = alias.split("=", 1)
 
@@ -47,9 +47,9 @@ def main():
     suspicious_aliases = check_alias()
     if suspicious_aliases:
         output_result.write_content("suspicious.txt", "Suspicious aliases found:")
-        log.print_and_log("Suspicious aliases found:")
+        log.print_and_log("*Suspicious aliases found:")
         for alias in suspicious_aliases:
-            log.print_and_log(alias)
+            log.print_and_log(f"*{alias}")
             output_result.write_content("suspicious.txt", alias)
     else:
         log.print_and_log("No suspicious aliases found.")

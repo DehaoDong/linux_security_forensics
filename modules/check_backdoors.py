@@ -158,60 +158,60 @@ def main():
     log.print_and_log("Checking backdoors...")
     environment_variable_backdoors = check_environment_variable_backdoors()
     if environment_variable_backdoors:
-        log.print_and_log("Found environment variable backdoors:")
+        log.print_and_log("*Found environment variable backdoors:")
         output_result.write_content("suspicious.txt", "Found environment variable backdoors:")
         for backdoor in environment_variable_backdoors:
-            log.print_and_log(backdoor)
-            output_result.write_content("suspicious.txt", backdoor)
+            log.print_and_log(f"*{backdoor}")
+            output_result.write_content("suspicious.txt", f"#{backdoor}")
     else:
         log.print_and_log("No environment variable backdoors found")
 
     sopreload_backdoors = check_ld_so_preload_backdoors()
     if sopreload_backdoors:
-        log.print_and_log("Found ld.so.preload backdoors:")
+        log.print_and_log("*Found ld.so.preload backdoors:")
         output_result.write_content("suspicious.txt", "Found ld.so.preload backdoors:")
         for backdoor in sopreload_backdoors:
-            log.print_and_log(backdoor)
-            output_result.write_content("suspicious.txt", backdoor)
+            log.print_and_log(f"*{backdoor}")
+            output_result.write_content("suspicious.txt", f"#{backdoor}")
     else:
         log.print_and_log("No ld.so.preload backdoors found")
 
     cron_backdoors = check_cron()
     if cron_backdoors:
-        log.print_and_log("Found cron backdoors:")
+        log.print_and_log("*Found cron backdoors:")
         output_result.write_content("suspicious.txt", "Found cron backdoors:")
         for backdoor in cron_backdoors:
-            log.print_and_log(backdoor)
-            output_result.write_content("suspicious.txt", backdoor)
+            log.print_and_log(f"*{backdoor}")
+            output_result.write_content("suspicious.txt", f"#{backdoor}")
     else:
         log.print_and_log("No cron backdoors found")
 
     ssh_backdoors = check_ssh()
     if ssh_backdoors:
-        log.print_and_log("Found SSH backdoors:")
+        log.print_and_log("*Found SSH backdoors:")
         output_result.write_content("suspicious.txt", "Found SSH backdoors:")
         for backdoor in ssh_backdoors:
-            log.print_and_log(backdoor)
-            output_result.write_content("suspicious.txt", backdoor)
+            log.print_and_log(f"*{backdoor}")
+            output_result.write_content("suspicious.txt", f"#{backdoor}")
     else:
         log.print_and_log("No SSH backdoors found")
 
     sshwrapper_backdoor = check_ssh_wrapper()
     if sshwrapper_backdoor:
-        log.print_and_log("Found SSH wrapper backdoor:")
+        log.print_and_log("*Found SSH wrapper backdoor:")
         output_result.write_content("suspicious.txt", "Found SSH wrapper backdoor:")
-        log.print_and_log(sshwrapper_backdoor)
-        output_result.write_content("suspicious.txt", sshwrapper_backdoor)
+        log.print_and_log(f"*{sshwrapper_backdoor}")
+        output_result.write_content("suspicious.txt", f"#{sshwrapper_backdoor}")
     else:
         log.print_and_log("No SSH wrapper backdoor found")
 
     inetd_backdoors = check_inetd()
     if inetd_backdoors:
-        log.print_and_log("Found inetd backdoors:")
+        log.print_and_log("*Found inetd backdoors:")
         output_result.write_content("suspicious.txt", "Found inetd backdoors:")
         for backdoor in inetd_backdoors:
-            log.print_and_log(backdoor)
-            output_result.write_content("suspicious.txt", backdoor)
+            log.print_and_log(f"*{backdoor}")
+            output_result.write_content("suspicious.txt", f"#{backdoor}")
     else:
         log.print_and_log("No inetd backdoors found")
 

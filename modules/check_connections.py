@@ -103,14 +103,16 @@ def main():
     # 获取所有连接详情
     connections = get_network_connections()
     for conn in connections:
-        output_result.write_content("connections.txt", f"fd: {conn['fd']}")
-        output_result.write_content("connections.txt", f"family: {conn['family']}")
-        output_result.write_content("connections.txt", f"type: {conn['type']}")
-        output_result.write_content("connections.txt", f"local_address: {conn['local_address']}")
-        output_result.write_content("connections.txt", f"remote_address: {conn['remote_address']}")
-        output_result.write_content("connections.txt", f"status: {conn['status']}")
-        output_result.write_content("connections.txt", f"pid: {conn['pid']}")
-        output_result.write_content("connections.txt", "")
+        conn_info = (
+            f"fd: {conn['fd']}\n"
+            f"family: {conn['family']}\n"
+            f"type: {conn['type']}\n"
+            f"local_address: {conn['local_address']}\n"
+            f"remote_address: {conn['remote_address']}\n"
+            f"status: {conn['status']}\n"
+            f"pid: {conn['pid']}\n\n"
+        )
+        output_result.write_content("connections.txt", conn_info)
 
     # 检查境外IP
     local_country_code = 'CN'  # Modify this country code if you are not chinese
@@ -118,10 +120,10 @@ def main():
     foreign_ips = get_foreign_connections(local_country_code)
 
     if foreign_ips:
-        log.print_and_log("Foreign connections:")
+        log.print_and_log("*Foreign connections:")
         output_result.write_content("suspicious.txt", "Foreign connections:")
         for ip, port, country in foreign_ips:
-            log.print_and_log(f"IP: {ip}, Port: {port}, Country: {country}")
+            log.print_and_log(f"*IP: {ip}, Port: {port}, Country: {country}")
             output_result.write_content("suspicious.txt", f"IP: {ip}, Port: {port}, Country: {country}")
     else:
         log.print_and_log("No foreign connections detected.")
@@ -130,10 +132,10 @@ def main():
     malicious_connections = detect_malicious_connections()
 
     if malicious_connections:
-        log.print_and_log("Malicious connections detected:")
+        log.print_and_log("*Malicious connections detected:")
         output_result.write_content("suspicious.txt", "Malicious connections detected:")
         for ip, port in malicious_connections:
-            log.print_and_log(f"IP: {ip}, Port: {port}")
+            log.print_and_log(f"*IP: {ip}, Port: {port}")
             output_result.write_content("suspicious.txt", f"IP: {ip}, Port: {port}")
     else:
         log.print_and_log("No malicious connections detected.")

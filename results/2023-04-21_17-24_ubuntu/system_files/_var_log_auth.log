@@ -1,0 +1,81 @@
+Apr 21 14:58:12 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 21 14:58:21 ubuntu gdm-password]: gkr-pam: unable to locate daemon control file
+Apr 21 14:58:21 ubuntu gdm-password]: gkr-pam: stashed password to try later in open session
+Apr 21 14:58:21 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user ree by (uid=0)
+Apr 21 14:58:21 ubuntu systemd-logind[884]: New session 2 of user ree.
+Apr 21 14:58:21 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ree by (uid=0)
+Apr 21 14:58:21 ubuntu gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Apr 21 14:58:24 ubuntu gnome-keyring-daemon[1578]: The PKCS#11 component was already initialized
+Apr 21 14:58:24 ubuntu gnome-keyring-daemon[1578]: The Secret Service was already initialized
+Apr 21 14:58:26 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 21 14:58:30 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Apr 21 14:58:30 ubuntu systemd-logind[884]: Session c1 logged out. Waiting for processes to exit.
+Apr 21 14:58:30 ubuntu systemd-logind[884]: Removed session c1.
+Apr 21 14:58:30 ubuntu polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 21 14:58:32 ubuntu PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Apr 21 14:58:32 ubuntu PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Apr 21 14:58:34 ubuntu dbus-daemon[843]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Apr 21 14:59:30 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 21 14:59:30 ubuntu pkexec[2781]: ree: Executing command [USER=root] [TTY=unknown] [CWD=/home/ree] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr 21 15:00:45 ubuntu PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Apr 21 15:00:45 ubuntu PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Apr 21 15:02:14 ubuntu PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Apr 21 15:02:14 ubuntu PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Apr 21 15:02:30 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 21 15:02:30 ubuntu pkexec[4419]: ree: Executing command [USER=root] [TTY=unknown] [CWD=/home/ree] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr 21 15:04:33 ubuntu PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Apr 21 15:04:33 ubuntu PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Apr 21 15:05:11 ubuntu PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Apr 21 15:05:11 ubuntu PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Apr 21 15:05:29 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 21 15:05:29 ubuntu pkexec[5772]: ree: Executing command [USER=root] [TTY=unknown] [CWD=/home/ree] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr 21 15:06:14 ubuntu PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Apr 21 15:06:14 ubuntu PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Apr 21 15:07:16 ubuntu sshd[6296]: Accepted password for root from 192.168.177.1 port 52339 ssh2
+Apr 21 15:07:16 ubuntu sshd[6296]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Apr 21 15:07:16 ubuntu systemd-logind[884]: New session 4 of user root.
+Apr 21 15:07:16 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Apr 21 15:08:30 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 21 15:08:30 ubuntu pkexec[6588]: ree: Executing command [USER=root] [TTY=unknown] [CWD=/home/ree] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr 21 15:09:01 ubuntu CRON[6599]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 15:09:01 ubuntu CRON[6599]: pam_unix(cron:session): session closed for user root
+Apr 21 15:17:02 ubuntu CRON[6935]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 15:17:02 ubuntu CRON[6935]: pam_unix(cron:session): session closed for user root
+Apr 21 15:29:27 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 21 15:29:27 ubuntu pkexec[23206]: ree: Executing command [USER=root] [TTY=unknown] [CWD=/home/ree] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr 21 15:30:01 ubuntu CRON[24247]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 15:30:01 ubuntu CRON[24247]: pam_unix(cron:session): session closed for user root
+Apr 21 15:32:27 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 21 15:32:27 ubuntu pkexec[25326]: ree: Executing command [USER=root] [TTY=unknown] [CWD=/home/ree] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr 21 15:32:47 ubuntu sudo:      ree : TTY=pts/3 ; PWD=/home/ree/Downloads/Python-3.10.11 ; USER=root ; COMMAND=/usr/bin/apt-get install libffi-dev
+Apr 21 15:32:47 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 21 15:32:51 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 15:35:27 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 21 15:35:27 ubuntu pkexec[25581]: ree: Executing command [USER=root] [TTY=unknown] [CWD=/home/ree] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr 21 15:39:01 ubuntu CRON[25855]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 15:39:01 ubuntu CRON[25855]: pam_unix(cron:session): session closed for user root
+Apr 21 15:39:58 ubuntu sudo:      ree : TTY=pts/3 ; PWD=/home/ree/Downloads/Python-3.10.11 ; USER=root ; COMMAND=/usr/bin/apt-get update
+Apr 21 15:39:58 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 21 15:40:01 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 15:40:24 ubuntu sudo:      ree : TTY=pts/3 ; PWD=/home/ree/Downloads/Python-3.10.11 ; USER=root ; COMMAND=/usr/bin/apt-get install -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev liblzma-dev tk-dev uuid-dev libffi-dev libdb-dev
+Apr 21 15:40:24 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 21 15:41:18 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 15:41:27 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 21 15:41:27 ubuntu pkexec[28748]: ree: Executing command [USER=root] [TTY=unknown] [CWD=/home/ree] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr 21 15:42:50 ubuntu sudo:      ree : TTY=pts/3 ; PWD=/home/ree/Downloads/Python-3.10.11 ; USER=root ; COMMAND=/usr/bin/make install
+Apr 21 15:42:50 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 21 15:46:14 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 15:48:00 ubuntu su: (to root) ree on pts/0
+Apr 21 15:48:00 ubuntu su: pam_unix(su:session): session opened for user root by (uid=1000)
+Apr 21 16:09:01 ubuntu CRON[44179]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 16:09:01 ubuntu CRON[44179]: pam_unix(cron:session): session closed for user root
+Apr 21 16:17:01 ubuntu CRON[44337]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 16:17:01 ubuntu CRON[44337]: pam_unix(cron:session): session closed for user root
+Apr 21 16:30:01 ubuntu CRON[44644]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 16:30:01 ubuntu CRON[44644]: pam_unix(cron:session): session closed for user root
+Apr 21 16:39:01 ubuntu CRON[46975]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 16:39:01 ubuntu CRON[46975]: pam_unix(cron:session): session closed for user root
+Apr 21 17:09:01 ubuntu CRON[49447]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 17:09:01 ubuntu CRON[49447]: pam_unix(cron:session): session closed for user root
+Apr 21 17:17:01 ubuntu CRON[51571]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 17:17:01 ubuntu CRON[51571]: pam_unix(cron:session): session closed for user root

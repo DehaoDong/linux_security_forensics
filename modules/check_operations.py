@@ -60,10 +60,10 @@ def main():
     geoip_db_path = './data/GeoLite2-Country.mmdb'
     foreign_ip_operations = check_foreign_ip_operations(history_files, geoip_db_path)
     if foreign_ip_operations:
-        log.print_and_log("Foreign IP operations found:")
+        log.print_and_log("*Foreign IP operations found:")
         output_result.write_content("suspicious.txt", "Foreign IP operations found:")
         for operation in foreign_ip_operations:
-            log.print_and_log(operation)
+            log.print_and_log(f"*{operation}")
             output_result.write_content("suspicious.txt", operation)
     else:
         log.print_and_log("No foreign IP operations found.")
@@ -71,10 +71,10 @@ def main():
     # 检查反弹shell操作
     reverse_shell_operations = check_reverse_shell_operations(history_files)
     if reverse_shell_operations:
-        log.print_and_log("Reverse shell operations found:")
+        log.print_and_log("*Reverse shell operations found:")
         output_result.write_content("suspicious.txt", "Reverse shell operations found:")
         for operation in reverse_shell_operations:
-            log.print_and_log(operation)
+            log.print_and_log(f"*{operation}")
             output_result.write_content("suspicious.txt", operation)
     else:
         log.print_and_log("No reverse shell operations found.")

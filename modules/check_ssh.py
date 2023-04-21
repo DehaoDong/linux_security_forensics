@@ -62,10 +62,10 @@ def main():
     suspicious_logins = analyze_log(ssh_logs)
 
     if suspicious_logins:
-        log.print_and_log("Suspicious SSH logins found:")
+        log.print_and_log("*Suspicious SSH logins found:")
         output_result.write_content("suspicious.txt", "Suspicious SSH logins found:")
         for login in suspicious_logins:
-            log.print_and_log(f"User: {login['user']}, IP: {login['ip']}, Timestamp: {login['timestamp']}")
+            log.print_and_log(f"*User: {login['user']}, IP: {login['ip']}, Timestamp: {login['timestamp']}")
             output_result.write_content("suspicious.txt", f"User: {login['user']}, IP: {login['ip']}, Timestamp: {login['timestamp']}")
     else:
         log.print_and_log("No suspicious SSH logins found.")

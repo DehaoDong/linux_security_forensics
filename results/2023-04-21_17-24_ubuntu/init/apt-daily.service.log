@@ -1,0 +1,46 @@
+-- Logs begin at Sat 2022-01-08 18:32:32 CST, end at Fri 2023-04-21 17:17:40 CST. --
+1月 09 19:26:05 ubuntu systemd[1]: Starting Daily apt download activities...
+1月 09 19:26:10 ubuntu systemd[1]: apt-daily.service: Succeeded.
+1月 09 19:26:10 ubuntu systemd[1]: Finished Daily apt download activities.
+-- Reboot --
+3月 22 14:11:53 ubuntu systemd[1]: Starting Daily apt download activities...
+3月 22 14:11:53 ubuntu systemd[1]: apt-daily.service: Succeeded.
+3月 22 14:11:53 ubuntu systemd[1]: Finished Daily apt download activities.
+-- Reboot --
+4月 01 10:21:43 ubuntu systemd[1]: Starting Daily apt download activities...
+4月 01 10:21:44 ubuntu systemd[1]: apt-daily.service: Succeeded.
+4月 01 10:21:44 ubuntu systemd[1]: Finished Daily apt download activities.
+-- Reboot --
+4月 06 08:49:01 ubuntu systemd[1]: Starting Daily apt download activities...
+4月 06 08:49:15 ubuntu systemd[1]: apt-daily.service: Succeeded.
+4月 06 08:49:15 ubuntu systemd[1]: Finished Daily apt download activities.
+-- Reboot --
+4月 20 08:52:00 ubuntu systemd[1]: Starting Daily apt download activities...
+4月 20 08:52:04 ubuntu systemd[1]: apt-daily.service: Succeeded.
+4月 20 08:52:04 ubuntu systemd[1]: Finished Daily apt download activities.
+-- Reboot --
+4月 27 08:25:07 ubuntu systemd[1]: Starting Daily apt download activities...
+4月 27 08:26:31 ubuntu systemd[1]: apt-daily.service: Succeeded.
+4月 27 08:26:31 ubuntu systemd[1]: Finished Daily apt download activities.
+-- Reboot --
+5月 06 11:19:17 ubuntu systemd[1]: Starting Daily apt download activities...
+5月 06 11:19:28 ubuntu systemd[1]: apt-daily.service: Succeeded.
+5月 06 11:19:28 ubuntu systemd[1]: Finished Daily apt download activities.
+-- Reboot --
+5月 07 08:52:41 ubuntu systemd[1]: Starting Daily apt download activities...
+5月 07 08:52:49 ubuntu systemd[1]: apt-daily.service: Succeeded.
+5月 07 08:52:49 ubuntu systemd[1]: Finished Daily apt download activities.
+-- Reboot --
+5月 31 15:46:32 ubuntu systemd[1]: Starting Daily apt download activities...
+5月 31 15:53:20 ubuntu systemd[1]: apt-daily.service: Succeeded.
+5月 31 15:53:20 ubuntu systemd[1]: Finished Daily apt download activities.
+-- Reboot --
+2月 25 16:59:30 ubuntu systemd[1]: Starting Daily apt download activities...
+2月 25 16:59:30 ubuntu systemd[1]: apt-daily.service: Succeeded.
+2月 25 16:59:30 ubuntu systemd[1]: Finished Daily apt download activities.
+2月 26 17:17:09 ubuntu systemd[1]: Starting Daily apt download activities...
+-- Reboot --
+3月 31 19:54:53 ubuntu systemd[1]: Starting Daily apt download activities...
+3月 31 19:54:53 ubuntu systemd[1]: apt-daily.service: Succeeded.
+3月 31 19:54:53 ubuntu systemd[1]: Finished Daily apt download activities.
+

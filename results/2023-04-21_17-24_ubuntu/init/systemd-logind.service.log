@@ -1,0 +1,1141 @@
+-- Logs begin at Sat 2022-01-08 18:32:32 CST, end at Fri 2023-04-21 17:17:40 CST. --
+1月 09 21:32:49 ubuntu systemd-logind[875]: Creating /run/nologin, blocking further logins...
+1月 09 21:32:59 ubuntu systemd-logind[875]: System is rebooting.
+1月 09 21:32:59 ubuntu systemd-logind[875]: Session 2 logged out. Waiting for processes to exit.
+1月 09 21:33:00 ubuntu systemd[1]: Stopping Login Service...
+1月 09 21:33:00 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+1月 09 21:33:00 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+1月 09 21:33:15 ubuntu systemd[1]: Starting Login Service...
+1月 09 21:33:15 ubuntu systemd-logind[894]: New seat seat0.
+1月 09 21:33:15 ubuntu systemd-logind[894]: Watching system buttons on /dev/input/event0 (Power Button)
+1月 09 21:33:15 ubuntu systemd-logind[894]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+1月 09 21:33:15 ubuntu systemd[1]: Started Login Service.
+1月 09 21:33:15 ubuntu systemd-logind[894]: New session c1 of user gdm.
+1月 09 21:33:23 ubuntu systemd-logind[894]: New session 2 of user ree.
+1月 09 21:33:30 ubuntu systemd-logind[894]: Session c1 logged out. Waiting for processes to exit.
+1月 09 21:33:30 ubuntu systemd-logind[894]: Removed session c1.
+-- Reboot --
+3月 22 14:03:02 ubuntu systemd[1]: Starting Login Service...
+3月 22 14:03:02 ubuntu systemd-logind[894]: New seat seat0.
+3月 22 14:03:02 ubuntu systemd-logind[894]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 22 14:03:02 ubuntu systemd-logind[894]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 22 14:03:02 ubuntu systemd[1]: Started Login Service.
+3月 22 14:03:02 ubuntu systemd-logind[894]: New session c1 of user gdm.
+3月 22 14:03:13 ubuntu systemd-logind[894]: New session 2 of user ree.
+3月 22 14:03:21 ubuntu systemd-logind[894]: Session c1 logged out. Waiting for processes to exit.
+3月 22 14:03:21 ubuntu systemd-logind[894]: Removed session c1.
+3月 22 14:13:27 ubuntu systemd-logind[894]: System is rebooting.
+3月 22 14:13:28 ubuntu systemd-logind[894]: Session 2 logged out. Waiting for processes to exit.
+3月 22 14:13:28 ubuntu systemd[1]: Stopping Login Service...
+3月 22 14:13:28 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 22 14:13:28 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 22 14:13:42 ubuntu systemd[1]: Starting Login Service...
+3月 22 14:13:42 ubuntu systemd-logind[910]: New seat seat0.
+3月 22 14:13:42 ubuntu systemd-logind[910]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 22 14:13:42 ubuntu systemd-logind[910]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 22 14:13:42 ubuntu systemd[1]: Started Login Service.
+3月 22 14:13:42 ubuntu systemd-logind[910]: New session c1 of user gdm.
+3月 22 14:16:08 ubuntu systemd-logind[910]: New session 2 of user ree.
+3月 22 14:16:16 ubuntu systemd-logind[910]: Session c1 logged out. Waiting for processes to exit.
+3月 22 14:16:16 ubuntu systemd-logind[910]: Removed session c1.
+3月 22 14:22:48 ubuntu systemd-logind[910]: System is powering down.
+3月 22 14:22:48 ubuntu systemd-logind[910]: Session 2 logged out. Waiting for processes to exit.
+3月 22 14:22:48 ubuntu systemd[1]: Stopping Login Service...
+3月 22 14:22:48 ubuntu systemd-logind[910]: Removed session 2.
+3月 22 14:22:48 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 22 14:22:48 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 22 16:13:10 ubuntu systemd[1]: Starting Login Service...
+3月 22 16:13:10 ubuntu systemd-logind[912]: New seat seat0.
+3月 22 16:13:10 ubuntu systemd-logind[912]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 22 16:13:10 ubuntu systemd-logind[912]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 22 16:13:10 ubuntu systemd[1]: Started Login Service.
+3月 22 16:13:10 ubuntu systemd-logind[912]: New session c1 of user gdm.
+3月 22 16:13:40 ubuntu systemd-logind[912]: New session 2 of user ree.
+3月 22 16:13:57 ubuntu systemd-logind[912]: Session c1 logged out. Waiting for processes to exit.
+3月 22 16:13:57 ubuntu systemd-logind[912]: Removed session c1.
+3月 22 17:37:59 ubuntu systemd-logind[912]: System is powering down.
+3月 22 17:37:59 ubuntu systemd-logind[912]: Session 2 logged out. Waiting for processes to exit.
+3月 22 17:38:00 ubuntu systemd[1]: Stopping Login Service...
+3月 22 17:38:00 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 22 17:38:00 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 25 10:18:04 ubuntu systemd[1]: Starting Login Service...
+3月 25 10:18:04 ubuntu systemd-logind[939]: New seat seat0.
+3月 25 10:18:04 ubuntu systemd-logind[939]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 25 10:18:04 ubuntu systemd-logind[939]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 25 10:18:05 ubuntu systemd[1]: Started Login Service.
+3月 25 10:18:06 ubuntu systemd-logind[939]: New session c1 of user gdm.
+3月 25 10:18:24 ubuntu systemd-logind[939]: New session 2 of user ree.
+3月 25 10:18:41 ubuntu systemd-logind[939]: Session c1 logged out. Waiting for processes to exit.
+3月 25 10:18:41 ubuntu systemd-logind[939]: Removed session c1.
+3月 25 10:36:28 ubuntu systemd-logind[939]: System is powering down.
+3月 25 10:36:29 ubuntu systemd-logind[939]: Session 2 logged out. Waiting for processes to exit.
+3月 25 10:36:29 ubuntu systemd[1]: Stopping Login Service...
+3月 25 10:36:29 ubuntu systemd-logind[939]: Removed session 2.
+3月 25 10:36:29 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 25 10:36:29 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 25 10:45:15 ubuntu systemd[1]: Starting Login Service...
+3月 25 10:45:15 ubuntu systemd-logind[934]: New seat seat0.
+3月 25 10:45:16 ubuntu systemd-logind[934]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 25 10:45:16 ubuntu systemd-logind[934]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 25 10:45:16 ubuntu systemd[1]: Started Login Service.
+3月 25 10:45:16 ubuntu systemd-logind[934]: New session c1 of user gdm.
+3月 25 10:45:31 ubuntu systemd-logind[934]: New session 2 of user ree.
+3月 25 10:45:48 ubuntu systemd-logind[934]: Session c1 logged out. Waiting for processes to exit.
+3月 25 10:45:49 ubuntu systemd-logind[934]: Removed session c1.
+-- Reboot --
+3月 28 10:02:53 ubuntu systemd[1]: Starting Login Service...
+3月 28 10:02:53 ubuntu systemd-logind[929]: New seat seat0.
+3月 28 10:02:53 ubuntu systemd-logind[929]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 28 10:02:53 ubuntu systemd-logind[929]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 28 10:02:54 ubuntu systemd[1]: Started Login Service.
+3月 28 10:02:55 ubuntu systemd-logind[929]: New session c1 of user gdm.
+3月 28 10:03:11 ubuntu systemd-logind[929]: New session 2 of user ree.
+3月 28 10:03:25 ubuntu systemd-logind[929]: Session c1 logged out. Waiting for processes to exit.
+3月 28 10:03:25 ubuntu systemd-logind[929]: Removed session c1.
+-- Reboot --
+3月 28 14:59:43 ubuntu systemd[1]: Starting Login Service...
+3月 28 14:59:44 ubuntu systemd-logind[933]: New seat seat0.
+3月 28 14:59:44 ubuntu systemd-logind[933]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 28 14:59:44 ubuntu systemd-logind[933]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 28 14:59:44 ubuntu systemd[1]: Started Login Service.
+3月 28 14:59:47 ubuntu systemd-logind[933]: New session c1 of user gdm.
+3月 28 15:00:00 ubuntu systemd-logind[933]: New session 2 of user ree.
+3月 28 15:00:15 ubuntu systemd-logind[933]: Session c1 logged out. Waiting for processes to exit.
+3月 28 15:00:15 ubuntu systemd-logind[933]: Removed session c1.
+3月 28 15:53:54 ubuntu systemd-logind[933]: Session 2 logged out. Waiting for processes to exit.
+3月 28 15:53:54 ubuntu systemd[1]: Stopping Login Service...
+3月 28 15:53:54 ubuntu systemd-logind[933]: Removed session 2.
+3月 28 15:53:54 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 28 15:53:54 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 28 16:17:45 ubuntu systemd[1]: Starting Login Service...
+3月 28 16:17:46 ubuntu systemd-logind[827]: New seat seat0.
+3月 28 16:17:46 ubuntu systemd-logind[827]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 28 16:17:46 ubuntu systemd-logind[827]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 28 16:17:46 ubuntu systemd[1]: Started Login Service.
+3月 28 16:17:50 ubuntu systemd-logind[827]: New session c1 of user gdm.
+3月 28 16:18:31 ubuntu systemd-logind[827]: New session 2 of user ree.
+3月 28 16:18:53 ubuntu systemd-logind[827]: Session c1 logged out. Waiting for processes to exit.
+3月 28 16:18:54 ubuntu systemd-logind[827]: Removed session c1.
+3月 28 17:29:19 ubuntu systemd-logind[827]: System is powering down.
+3月 28 17:29:20 ubuntu systemd-logind[827]: Session 2 logged out. Waiting for processes to exit.
+3月 28 17:29:21 ubuntu systemd[1]: Stopping Login Service...
+3月 28 17:29:21 ubuntu systemd-logind[827]: Removed session 2.
+3月 28 17:29:21 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 28 17:29:21 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 01 10:14:20 ubuntu systemd[1]: Starting Login Service...
+4月 01 10:14:21 ubuntu systemd-logind[885]: New seat seat0.
+4月 01 10:14:21 ubuntu systemd-logind[885]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 01 10:14:21 ubuntu systemd-logind[885]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 01 10:14:21 ubuntu systemd[1]: Started Login Service.
+4月 01 10:14:25 ubuntu systemd-logind[885]: New session c1 of user gdm.
+4月 01 10:14:47 ubuntu systemd-logind[885]: New session 2 of user ree.
+4月 01 10:15:06 ubuntu systemd-logind[885]: Session c1 logged out. Waiting for processes to exit.
+4月 01 10:15:06 ubuntu systemd-logind[885]: Removed session c1.
+4月 01 10:24:19 ubuntu systemd-logind[885]: System is rebooting.
+4月 01 10:24:19 ubuntu systemd-logind[885]: Session 2 logged out. Waiting for processes to exit.
+4月 01 10:24:20 ubuntu systemd[1]: Stopping Login Service...
+4月 01 10:24:20 ubuntu systemd-logind[885]: Removed session 2.
+4月 01 10:24:20 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 01 10:24:20 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 01 10:25:04 ubuntu systemd[1]: Starting Login Service...
+4月 01 10:25:05 ubuntu systemd-logind[887]: New seat seat0.
+4月 01 10:25:05 ubuntu systemd-logind[887]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 01 10:25:05 ubuntu systemd-logind[887]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 01 10:25:05 ubuntu systemd[1]: Started Login Service.
+4月 01 10:25:06 ubuntu systemd-logind[887]: New session c1 of user gdm.
+4月 01 10:25:22 ubuntu systemd-logind[887]: New session 2 of user ree.
+4月 01 10:25:38 ubuntu systemd-logind[887]: Session c1 logged out. Waiting for processes to exit.
+4月 01 10:25:38 ubuntu systemd-logind[887]: Removed session c1.
+4月 01 12:03:43 ubuntu systemd-logind[887]: System is powering down.
+4月 01 12:03:43 ubuntu systemd-logind[887]: Session 2 logged out. Waiting for processes to exit.
+4月 01 12:03:44 ubuntu systemd[1]: Stopping Login Service...
+4月 01 12:03:44 ubuntu systemd-logind[887]: Removed session 2.
+4月 01 12:03:44 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 01 12:03:44 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 02 08:51:51 ubuntu systemd[1]: Starting Login Service...
+4月 02 08:51:51 ubuntu systemd-logind[879]: New seat seat0.
+4月 02 08:51:51 ubuntu systemd-logind[879]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 02 08:51:51 ubuntu systemd-logind[879]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 02 08:51:52 ubuntu systemd[1]: Started Login Service.
+4月 02 08:51:55 ubuntu systemd-logind[879]: New session c1 of user gdm.
+4月 02 08:52:07 ubuntu systemd-logind[879]: New session 2 of user ree.
+4月 02 08:52:23 ubuntu systemd-logind[879]: Session c1 logged out. Waiting for processes to exit.
+4月 02 08:52:23 ubuntu systemd-logind[879]: Removed session c1.
+-- Reboot --
+4月 02 09:04:36 ubuntu systemd[1]: Starting Login Service...
+4月 02 09:04:37 ubuntu systemd-logind[888]: New seat seat0.
+4月 02 09:04:37 ubuntu systemd-logind[888]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 02 09:04:37 ubuntu systemd-logind[888]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 02 09:04:37 ubuntu systemd[1]: Started Login Service.
+4月 02 09:04:38 ubuntu systemd-logind[888]: New session c1 of user gdm.
+-- Reboot --
+4月 02 09:10:27 ubuntu systemd[1]: Starting Login Service...
+4月 02 09:10:28 ubuntu systemd-logind[893]: New seat seat0.
+4月 02 09:10:28 ubuntu systemd-logind[893]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 02 09:10:28 ubuntu systemd-logind[893]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 02 09:10:28 ubuntu systemd[1]: Started Login Service.
+4月 02 09:10:28 ubuntu systemd-logind[893]: New session c1 of user gdm.
+4月 02 09:11:21 ubuntu systemd-logind[893]: New session 2 of user ree.
+4月 02 09:11:30 ubuntu systemd-logind[893]: Session c1 logged out. Waiting for processes to exit.
+4月 02 09:11:30 ubuntu systemd-logind[893]: Removed session c1.
+4月 02 09:29:37 ubuntu systemd-logind[893]: System is powering down.
+4月 02 09:29:37 ubuntu systemd-logind[893]: Session 2 logged out. Waiting for processes to exit.
+4月 02 09:29:37 ubuntu systemd[1]: Stopping Login Service...
+4月 02 09:29:37 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 02 09:29:37 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 02 17:22:59 ubuntu systemd[1]: Starting Login Service...
+4月 02 17:23:00 ubuntu systemd-logind[810]: New seat seat0.
+4月 02 17:23:00 ubuntu systemd-logind[810]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 02 17:23:00 ubuntu systemd-logind[810]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 02 17:23:00 ubuntu systemd[1]: Started Login Service.
+4月 02 17:23:05 ubuntu systemd-logind[810]: New session c1 of user gdm.
+4月 02 17:23:13 ubuntu systemd-logind[810]: New session 2 of user ree.
+4月 02 17:23:21 ubuntu systemd-logind[810]: Session c1 logged out. Waiting for processes to exit.
+4月 02 17:23:21 ubuntu systemd-logind[810]: Removed session c1.
+4月 02 17:51:13 ubuntu systemd-logind[810]: System is rebooting.
+4月 02 17:51:14 ubuntu systemd-logind[810]: Session 2 logged out. Waiting for processes to exit.
+4月 02 17:51:14 ubuntu systemd[1]: Stopping Login Service...
+4月 02 17:51:14 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 02 17:51:14 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 02 17:51:33 ubuntu systemd[1]: Starting Login Service...
+4月 02 17:51:33 ubuntu systemd-logind[894]: New seat seat0.
+4月 02 17:51:33 ubuntu systemd-logind[894]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 02 17:51:33 ubuntu systemd-logind[894]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 02 17:51:33 ubuntu systemd[1]: Started Login Service.
+4月 02 17:51:33 ubuntu systemd-logind[894]: New session c1 of user gdm.
+4月 02 17:51:40 ubuntu systemd-logind[894]: New session 2 of user ree.
+4月 02 17:51:48 ubuntu systemd-logind[894]: Session c1 logged out. Waiting for processes to exit.
+4月 02 17:51:48 ubuntu systemd-logind[894]: Removed session c1.
+-- Reboot --
+4月 06 08:17:16 ubuntu systemd[1]: Starting Login Service...
+4月 06 08:17:17 ubuntu systemd-logind[890]: New seat seat0.
+4月 06 08:17:17 ubuntu systemd-logind[890]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 06 08:17:17 ubuntu systemd-logind[890]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 06 08:17:17 ubuntu systemd[1]: Started Login Service.
+4月 06 08:17:22 ubuntu systemd-logind[890]: New session c1 of user gdm.
+4月 06 08:17:59 ubuntu systemd-logind[890]: New session 2 of user ree.
+4月 06 08:18:09 ubuntu systemd-logind[890]: Session c1 logged out. Waiting for processes to exit.
+4月 06 08:18:09 ubuntu systemd-logind[890]: Removed session c1.
+4月 06 10:26:21 ubuntu systemd-logind[890]: System is rebooting.
+4月 06 10:26:21 ubuntu systemd-logind[890]: Session 2 logged out. Waiting for processes to exit.
+4月 06 10:26:22 ubuntu systemd[1]: Stopping Login Service...
+-- Reboot --
+4月 13 08:09:38 ubuntu systemd[1]: Starting Login Service...
+4月 13 08:09:38 ubuntu systemd-logind[838]: New seat seat0.
+4月 13 08:09:38 ubuntu systemd-logind[838]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 13 08:09:38 ubuntu systemd-logind[838]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 13 08:09:38 ubuntu systemd[1]: Started Login Service.
+4月 13 08:09:48 ubuntu systemd-logind[838]: New session c1 of user gdm.
+4月 13 08:10:03 ubuntu systemd-logind[838]: New session 2 of user ree.
+4月 13 08:10:13 ubuntu systemd-logind[838]: Session c1 logged out. Waiting for processes to exit.
+4月 13 08:10:14 ubuntu systemd-logind[838]: Removed session c1.
+4月 13 08:30:00 ubuntu systemd-logind[838]: System is rebooting.
+4月 13 08:30:00 ubuntu systemd-logind[838]: Session 2 logged out. Waiting for processes to exit.
+4月 13 08:30:01 ubuntu systemd[1]: Stopping Login Service...
+4月 13 08:30:01 ubuntu systemd-logind[838]: Removed session 2.
+4月 13 08:30:01 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 13 08:30:01 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 13 08:30:19 ubuntu systemd[1]: Starting Login Service...
+4月 13 08:30:20 ubuntu systemd-logind[867]: New seat seat0.
+4月 13 08:30:20 ubuntu systemd-logind[867]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 13 08:30:20 ubuntu systemd-logind[867]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 13 08:30:20 ubuntu systemd[1]: Started Login Service.
+4月 13 08:30:20 ubuntu systemd-logind[867]: New session c1 of user gdm.
+4月 13 08:30:29 ubuntu systemd-logind[867]: New session 2 of user ree.
+4月 13 08:30:37 ubuntu systemd-logind[867]: Session c1 logged out. Waiting for processes to exit.
+4月 13 08:30:38 ubuntu systemd-logind[867]: Removed session c1.
+-- Reboot --
+4月 13 10:23:38 ubuntu systemd[1]: Starting Login Service...
+4月 13 10:23:39 ubuntu systemd-logind[889]: New seat seat0.
+4月 13 10:23:39 ubuntu systemd-logind[889]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 13 10:23:39 ubuntu systemd-logind[889]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 13 10:23:39 ubuntu systemd[1]: Started Login Service.
+4月 13 10:23:41 ubuntu systemd-logind[889]: New session c1 of user gdm.
+4月 13 10:24:15 ubuntu systemd-logind[889]: New session 2 of user ree.
+4月 13 10:24:26 ubuntu systemd-logind[889]: Session c1 logged out. Waiting for processes to exit.
+4月 13 10:24:26 ubuntu systemd-logind[889]: Removed session c1.
+-- Reboot --
+4月 13 14:46:33 ubuntu systemd[1]: Starting Login Service...
+4月 13 14:46:33 ubuntu systemd-logind[818]: New seat seat0.
+4月 13 14:46:33 ubuntu systemd-logind[818]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 13 14:46:33 ubuntu systemd-logind[818]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 13 14:46:33 ubuntu systemd[1]: Started Login Service.
+4月 13 14:46:33 ubuntu systemd-logind[818]: New session c1 of user gdm.
+4月 13 14:47:16 ubuntu systemd-logind[818]: New session 2 of user ree.
+4月 13 14:47:25 ubuntu systemd-logind[818]: Session c1 logged out. Waiting for processes to exit.
+4月 13 14:47:25 ubuntu systemd-logind[818]: Removed session c1.
+4月 13 15:21:57 ubuntu systemd-logind[818]: System is powering down.
+4月 13 15:21:57 ubuntu systemd-logind[818]: Session 2 logged out. Waiting for processes to exit.
+4月 13 15:21:58 ubuntu systemd[1]: Stopping Login Service...
+4月 13 15:21:58 ubuntu systemd-logind[818]: Removed session 2.
+4月 13 15:21:58 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 13 15:21:58 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 15 10:17:00 ubuntu systemd[1]: Starting Login Service...
+4月 15 10:17:00 ubuntu systemd-logind[838]: New seat seat0.
+4月 15 10:17:00 ubuntu systemd-logind[838]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 15 10:17:00 ubuntu systemd-logind[838]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 15 10:17:00 ubuntu systemd[1]: Started Login Service.
+4月 15 10:17:00 ubuntu systemd-logind[838]: New session c1 of user gdm.
+4月 15 10:18:58 ubuntu systemd-logind[838]: New session 3 of user ree.
+4月 15 10:19:08 ubuntu systemd-logind[838]: Session c1 logged out. Waiting for processes to exit.
+4月 15 10:19:08 ubuntu systemd-logind[838]: Removed session c1.
+-- Reboot --
+4月 20 08:14:45 ubuntu systemd[1]: Starting Login Service...
+4月 20 08:14:45 ubuntu systemd-logind[893]: New seat seat0.
+4月 20 08:14:45 ubuntu systemd-logind[893]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 20 08:14:45 ubuntu systemd-logind[893]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 20 08:14:45 ubuntu systemd[1]: Started Login Service.
+4月 20 08:14:47 ubuntu systemd-logind[893]: New session c1 of user gdm.
+4月 20 08:15:42 ubuntu systemd-logind[893]: New session 2 of user ree.
+4月 20 08:16:02 ubuntu systemd-logind[893]: Session c1 logged out. Waiting for processes to exit.
+4月 20 08:16:03 ubuntu systemd-logind[893]: Removed session c1.
+4月 20 08:22:49 ubuntu systemd-logind[893]: System is rebooting.
+4月 20 08:22:49 ubuntu systemd-logind[893]: Session 2 logged out. Waiting for processes to exit.
+4月 20 08:22:50 ubuntu systemd[1]: Stopping Login Service...
+4月 20 08:22:50 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 20 08:22:50 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 20 08:23:05 ubuntu systemd[1]: Starting Login Service...
+4月 20 08:23:05 ubuntu systemd-logind[836]: New seat seat0.
+4月 20 08:23:05 ubuntu systemd-logind[836]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 20 08:23:05 ubuntu systemd-logind[836]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 20 08:23:05 ubuntu systemd[1]: Started Login Service.
+4月 20 08:23:06 ubuntu systemd-logind[836]: New session c1 of user gdm.
+4月 20 08:23:14 ubuntu systemd-logind[836]: New session 2 of user ree.
+4月 20 08:23:29 ubuntu systemd-logind[836]: Session c1 logged out. Waiting for processes to exit.
+4月 20 08:23:30 ubuntu systemd-logind[836]: Removed session c1.
+-- Reboot --
+4月 27 08:18:20 ubuntu systemd[1]: Starting Login Service...
+4月 27 08:18:21 ubuntu systemd-logind[820]: New seat seat0.
+4月 27 08:18:21 ubuntu systemd-logind[820]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 27 08:18:21 ubuntu systemd-logind[820]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 27 08:18:21 ubuntu systemd[1]: Started Login Service.
+4月 27 08:18:22 ubuntu systemd-logind[820]: New session c1 of user gdm.
+4月 27 08:18:48 ubuntu systemd-logind[820]: New session 2 of user ree.
+4月 27 08:18:56 ubuntu systemd-logind[820]: Session c1 logged out. Waiting for processes to exit.
+4月 27 08:18:56 ubuntu systemd-logind[820]: Removed session c1.
+4月 27 10:50:15 ubuntu systemd-logind[820]: System is powering down.
+4月 27 10:50:16 ubuntu systemd-logind[820]: Session 2 logged out. Waiting for processes to exit.
+4月 27 10:50:17 ubuntu systemd-logind[820]: Removed session 2.
+4月 27 10:50:17 ubuntu systemd[1]: Stopping Login Service...
+4月 27 10:50:17 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 27 10:50:17 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 27 11:07:08 ubuntu systemd[1]: Starting Login Service...
+4月 27 11:07:09 ubuntu systemd-logind[886]: New seat seat0.
+4月 27 11:07:09 ubuntu systemd-logind[886]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 27 11:07:09 ubuntu systemd-logind[886]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 27 11:07:09 ubuntu systemd[1]: Started Login Service.
+4月 27 11:07:10 ubuntu systemd-logind[886]: New session c1 of user gdm.
+4月 27 11:07:28 ubuntu systemd-logind[886]: New session 2 of user ree.
+4月 27 11:07:37 ubuntu systemd-logind[886]: Session c1 logged out. Waiting for processes to exit.
+4月 27 11:07:37 ubuntu systemd-logind[886]: Removed session c1.
+4月 27 11:20:09 ubuntu systemd-logind[886]: System is powering down.
+4月 27 11:20:10 ubuntu systemd-logind[886]: Session 2 logged out. Waiting for processes to exit.
+4月 27 11:20:11 ubuntu systemd[1]: Stopping Login Service...
+4月 27 11:20:11 ubuntu systemd-logind[886]: Removed session 2.
+4月 27 11:20:11 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 27 11:20:11 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 27 14:11:31 ubuntu systemd[1]: Starting Login Service...
+4月 27 14:11:31 ubuntu systemd-logind[878]: New seat seat0.
+4月 27 14:11:31 ubuntu systemd-logind[878]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 27 14:11:31 ubuntu systemd-logind[878]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 27 14:11:31 ubuntu systemd[1]: Started Login Service.
+4月 27 14:11:31 ubuntu systemd-logind[878]: New session c1 of user gdm.
+4月 27 14:11:41 ubuntu systemd-logind[878]: New session 2 of user ree.
+4月 27 14:11:50 ubuntu systemd-logind[878]: Session c1 logged out. Waiting for processes to exit.
+4月 27 14:11:50 ubuntu systemd-logind[878]: Removed session c1.
+4月 27 15:04:59 ubuntu systemd-logind[878]: System is rebooting.
+4月 27 15:04:59 ubuntu systemd-logind[878]: Session 2 logged out. Waiting for processes to exit.
+4月 27 15:04:59 ubuntu systemd[1]: Stopping Login Service...
+4月 27 15:04:59 ubuntu systemd-logind[878]: Removed session 2.
+4月 27 15:04:59 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 27 15:04:59 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 27 15:05:19 ubuntu systemd[1]: Starting Login Service...
+4月 27 15:05:19 ubuntu systemd-logind[850]: New seat seat0.
+4月 27 15:05:19 ubuntu systemd-logind[850]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 27 15:05:19 ubuntu systemd-logind[850]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 27 15:05:19 ubuntu systemd[1]: Started Login Service.
+4月 27 15:05:19 ubuntu systemd-logind[850]: New session c1 of user gdm.
+4月 27 15:05:51 ubuntu systemd-logind[850]: New session 2 of user ree.
+4月 27 15:06:00 ubuntu systemd-logind[850]: Session c1 logged out. Waiting for processes to exit.
+4月 27 15:06:00 ubuntu systemd-logind[850]: Removed session c1.
+4月 27 16:02:17 ubuntu systemd-logind[850]: System is powering down.
+4月 27 16:02:17 ubuntu systemd-logind[850]: Session 2 logged out. Waiting for processes to exit.
+4月 27 16:02:18 ubuntu systemd[1]: Stopping Login Service...
+4月 27 16:02:18 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 27 16:02:18 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 28 21:00:46 ubuntu systemd[1]: Starting Login Service...
+4月 28 21:00:47 ubuntu systemd-logind[903]: New seat seat0.
+4月 28 21:00:47 ubuntu systemd-logind[903]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 28 21:00:47 ubuntu systemd-logind[903]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 28 21:00:47 ubuntu systemd[1]: Started Login Service.
+4月 28 21:00:49 ubuntu systemd-logind[903]: New session c1 of user gdm.
+4月 28 21:01:13 ubuntu systemd-logind[903]: New session 2 of user ree.
+4月 28 21:01:21 ubuntu systemd-logind[903]: Session c1 logged out. Waiting for processes to exit.
+4月 28 21:01:21 ubuntu systemd-logind[903]: Removed session c1.
+4月 28 21:01:50 ubuntu systemd-logind[903]: System is powering down.
+4月 28 21:01:50 ubuntu systemd-logind[903]: Session 2 logged out. Waiting for processes to exit.
+4月 28 21:01:51 ubuntu systemd[1]: Stopping Login Service...
+4月 28 21:01:51 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 28 21:01:51 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+5月 06 10:06:15 ubuntu systemd[1]: Starting Login Service...
+5月 06 10:06:15 ubuntu systemd-logind[898]: New seat seat0.
+5月 06 10:06:15 ubuntu systemd-logind[898]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 06 10:06:15 ubuntu systemd-logind[898]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 06 10:06:15 ubuntu systemd[1]: Started Login Service.
+5月 06 10:06:18 ubuntu systemd-logind[898]: New session c1 of user gdm.
+5月 06 10:06:28 ubuntu systemd-logind[898]: New session 2 of user ree.
+5月 06 10:06:45 ubuntu systemd-logind[898]: Session c1 logged out. Waiting for processes to exit.
+5月 06 10:06:45 ubuntu systemd-logind[898]: Removed session c1.
+5月 06 10:17:22 ubuntu systemd-logind[898]: System is rebooting.
+5月 06 10:17:23 ubuntu systemd-logind[898]: Session 2 logged out. Waiting for processes to exit.
+5月 06 10:17:23 ubuntu systemd-logind[898]: Removed session 2.
+5月 06 10:17:23 ubuntu systemd[1]: Stopping Login Service...
+5月 06 10:17:23 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+5月 06 10:17:23 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+5月 06 10:17:46 ubuntu systemd[1]: Starting Login Service...
+5月 06 10:17:46 ubuntu systemd-logind[835]: New seat seat0.
+5月 06 10:17:46 ubuntu systemd-logind[835]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 06 10:17:46 ubuntu systemd-logind[835]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 06 10:17:46 ubuntu systemd[1]: Started Login Service.
+5月 06 10:17:46 ubuntu systemd-logind[835]: New session c1 of user gdm.
+5月 06 10:18:00 ubuntu systemd-logind[835]: New session 2 of user ree.
+5月 06 10:18:08 ubuntu systemd-logind[835]: Session c1 logged out. Waiting for processes to exit.
+5月 06 10:18:08 ubuntu systemd-logind[835]: Removed session c1.
+5月 06 11:20:32 ubuntu systemd-logind[835]: System is powering down.
+5月 06 11:20:32 ubuntu systemd-logind[835]: Session 2 logged out. Waiting for processes to exit.
+5月 06 11:20:33 ubuntu systemd[1]: Stopping Login Service...
+5月 06 11:20:33 ubuntu systemd-logind[835]: Removed session 2.
+5月 06 11:20:33 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+5月 06 11:20:33 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+5月 07 08:13:43 ubuntu systemd[1]: Starting Login Service...
+5月 07 08:13:43 ubuntu systemd-logind[857]: New seat seat0.
+5月 07 08:13:43 ubuntu systemd-logind[857]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 07 08:13:43 ubuntu systemd-logind[857]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 07 08:13:43 ubuntu systemd[1]: Started Login Service.
+5月 07 08:13:51 ubuntu systemd-logind[857]: New session c1 of user gdm.
+5月 07 08:14:00 ubuntu systemd-logind[857]: New session 2 of user ree.
+5月 07 08:14:10 ubuntu systemd-logind[857]: Session c1 logged out. Waiting for processes to exit.
+5月 07 08:14:10 ubuntu systemd-logind[857]: Removed session c1.
+-- Reboot --
+5月 08 14:53:46 ubuntu systemd[1]: Starting Login Service...
+5月 08 14:53:46 ubuntu systemd-logind[840]: New seat seat0.
+5月 08 14:53:46 ubuntu systemd-logind[840]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 08 14:53:46 ubuntu systemd-logind[840]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 08 14:53:46 ubuntu systemd[1]: Started Login Service.
+5月 08 14:53:54 ubuntu systemd-logind[840]: New session c1 of user gdm.
+5月 08 14:54:04 ubuntu systemd-logind[840]: New session 2 of user ree.
+5月 08 14:54:13 ubuntu systemd-logind[840]: Session c1 logged out. Waiting for processes to exit.
+5月 08 14:54:13 ubuntu systemd-logind[840]: Removed session c1.
+5月 08 14:55:07 ubuntu systemd-logind[840]: System is powering down.
+5月 08 14:55:08 ubuntu systemd-logind[840]: Session 2 logged out. Waiting for processes to exit.
+5月 08 14:55:09 ubuntu systemd[1]: Stopping Login Service...
+5月 08 14:55:09 ubuntu systemd-logind[840]: Removed session 2.
+5月 08 14:55:09 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+5月 08 14:55:09 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+5月 08 15:54:10 ubuntu systemd[1]: Starting Login Service...
+5月 08 15:54:10 ubuntu systemd-logind[832]: New seat seat0.
+5月 08 15:54:10 ubuntu systemd-logind[832]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 08 15:54:10 ubuntu systemd-logind[832]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 08 15:54:10 ubuntu systemd[1]: Started Login Service.
+5月 08 15:54:22 ubuntu systemd-logind[832]: New session c1 of user gdm.
+5月 08 15:54:48 ubuntu systemd-logind[832]: New session 2 of user ree.
+5月 08 15:54:55 ubuntu systemd-logind[832]: Session c1 logged out. Waiting for processes to exit.
+5月 08 15:54:55 ubuntu systemd-logind[832]: Removed session c1.
+5月 08 16:26:55 ubuntu systemd-logind[832]: System is rebooting.
+5月 08 16:26:55 ubuntu systemd-logind[832]: Session 2 logged out. Waiting for processes to exit.
+5月 08 16:26:57 ubuntu systemd[1]: Stopping Login Service...
+5月 08 16:26:57 ubuntu systemd-logind[832]: Removed session 2.
+5月 08 16:26:57 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+5月 08 16:26:57 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+5月 08 16:27:21 ubuntu systemd[1]: Starting Login Service...
+5月 08 16:27:21 ubuntu systemd-logind[859]: New seat seat0.
+5月 08 16:27:21 ubuntu systemd-logind[859]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 08 16:27:21 ubuntu systemd-logind[859]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 08 16:27:21 ubuntu systemd[1]: Started Login Service.
+5月 08 16:27:22 ubuntu systemd-logind[859]: New session c1 of user gdm.
+5月 08 16:27:30 ubuntu systemd-logind[859]: New session 2 of user ree.
+5月 08 16:27:37 ubuntu systemd-logind[859]: Session c1 logged out. Waiting for processes to exit.
+5月 08 16:27:37 ubuntu systemd-logind[859]: Removed session c1.
+5月 08 17:02:55 ubuntu systemd-logind[859]: System is powering down.
+5月 08 17:02:55 ubuntu systemd-logind[859]: Session 2 logged out. Waiting for processes to exit.
+5月 08 17:02:56 ubuntu systemd[1]: Stopping Login Service...
+5月 08 17:02:56 ubuntu systemd-logind[859]: Removed session 2.
+5月 08 17:02:56 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+5月 08 17:02:56 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+5月 14 20:51:42 ubuntu systemd[1]: Starting Login Service...
+5月 14 20:51:43 ubuntu systemd-logind[866]: New seat seat0.
+5月 14 20:51:43 ubuntu systemd-logind[866]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 14 20:51:43 ubuntu systemd-logind[866]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 14 20:51:43 ubuntu systemd[1]: Started Login Service.
+5月 14 20:51:53 ubuntu systemd-logind[866]: New session c1 of user gdm.
+5月 14 20:52:05 ubuntu systemd-logind[866]: New session 2 of user ree.
+5月 14 20:52:14 ubuntu systemd-logind[866]: Session c1 logged out. Waiting for processes to exit.
+5月 14 20:52:14 ubuntu systemd-logind[866]: Removed session c1.
+-- Reboot --
+5月 15 00:06:13 ubuntu systemd[1]: Starting Login Service...
+5月 15 00:06:13 ubuntu systemd-logind[857]: New seat seat0.
+5月 15 00:06:13 ubuntu systemd-logind[857]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 15 00:06:13 ubuntu systemd-logind[857]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 15 00:06:13 ubuntu systemd[1]: Started Login Service.
+5月 15 00:06:16 ubuntu systemd-logind[857]: New session c1 of user gdm.
+5月 15 00:06:52 ubuntu systemd-logind[857]: New session 2 of user ree.
+5月 15 00:07:01 ubuntu systemd-logind[857]: Session c1 logged out. Waiting for processes to exit.
+5月 15 00:07:01 ubuntu systemd-logind[857]: Removed session c1.
+5月 15 00:09:00 ubuntu systemd-logind[857]: Session 2 logged out. Waiting for processes to exit.
+5月 15 00:09:02 ubuntu systemd[1]: Stopping Login Service...
+5月 15 00:09:02 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+5月 15 00:09:02 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+5月 15 00:15:05 ubuntu systemd[1]: Starting Login Service...
+5月 15 00:15:06 ubuntu systemd-logind[908]: New seat seat0.
+5月 15 00:15:06 ubuntu systemd-logind[908]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 15 00:15:06 ubuntu systemd-logind[908]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 15 00:15:06 ubuntu systemd[1]: Started Login Service.
+5月 15 00:15:09 ubuntu systemd-logind[908]: New session c1 of user gdm.
+5月 15 00:15:23 ubuntu systemd-logind[908]: New session 2 of user ree.
+5月 15 00:15:32 ubuntu systemd-logind[908]: Session c1 logged out. Waiting for processes to exit.
+5月 15 00:15:32 ubuntu systemd-logind[908]: Removed session c1.
+5月 15 00:17:56 ubuntu systemd-logind[908]: Session 2 logged out. Waiting for processes to exit.
+5月 15 00:17:57 ubuntu systemd[1]: Stopping Login Service...
+5月 15 00:17:57 ubuntu systemd-logind[908]: Removed session 2.
+5月 15 00:17:58 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+5月 15 00:17:58 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+5月 15 10:43:39 ubuntu systemd[1]: Starting Login Service...
+5月 15 10:43:39 ubuntu systemd-logind[910]: New seat seat0.
+5月 15 10:43:39 ubuntu systemd-logind[910]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 15 10:43:39 ubuntu systemd-logind[910]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 15 10:43:40 ubuntu systemd[1]: Started Login Service.
+5月 15 10:43:43 ubuntu systemd-logind[910]: New session c1 of user gdm.
+5月 15 10:44:05 ubuntu systemd-logind[910]: New session 2 of user ree.
+5月 15 10:44:14 ubuntu systemd-logind[910]: Session c1 logged out. Waiting for processes to exit.
+5月 15 10:44:14 ubuntu systemd-logind[910]: Removed session c1.
+5月 15 13:21:32 ubuntu systemd-logind[910]: Session 2 logged out. Waiting for processes to exit.
+5月 15 13:21:33 ubuntu systemd[1]: Stopping Login Service...
+5月 15 13:21:33 ubuntu systemd-logind[910]: Removed session 2.
+5月 15 13:21:33 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+5月 15 13:21:33 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+5月 15 15:15:41 ubuntu systemd[1]: Starting Login Service...
+5月 15 15:15:41 ubuntu systemd-logind[874]: New seat seat0.
+5月 15 15:15:41 ubuntu systemd-logind[874]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 15 15:15:41 ubuntu systemd-logind[874]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 15 15:15:41 ubuntu systemd[1]: Started Login Service.
+5月 15 15:15:41 ubuntu systemd-logind[874]: New session c1 of user gdm.
+5月 15 15:15:55 ubuntu systemd-logind[874]: New session 2 of user ree.
+5月 15 15:16:04 ubuntu systemd-logind[874]: Session c1 logged out. Waiting for processes to exit.
+5月 15 15:16:04 ubuntu systemd-logind[874]: Removed session c1.
+5月 15 15:16:44 ubuntu systemd-logind[874]: Session 2 logged out. Waiting for processes to exit.
+5月 15 15:16:44 ubuntu systemd[1]: Stopping Login Service...
+5月 15 15:16:44 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+5月 15 15:16:44 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+5月 15 16:28:26 ubuntu systemd[1]: Starting Login Service...
+5月 15 16:28:27 ubuntu systemd-logind[877]: New seat seat0.
+5月 15 16:28:27 ubuntu systemd-logind[877]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 15 16:28:27 ubuntu systemd-logind[877]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 15 16:28:27 ubuntu systemd[1]: Started Login Service.
+5月 15 16:28:27 ubuntu systemd-logind[877]: New session c1 of user gdm.
+5月 15 16:28:40 ubuntu systemd-logind[877]: New session 2 of user ree.
+5月 15 16:28:50 ubuntu systemd-logind[877]: Session c1 logged out. Waiting for processes to exit.
+5月 15 16:28:50 ubuntu systemd-logind[877]: Removed session c1.
+5月 15 17:59:27 ubuntu systemd-logind[877]: System is powering down.
+5月 15 17:59:27 ubuntu systemd-logind[877]: Session 2 logged out. Waiting for processes to exit.
+5月 15 17:59:27 ubuntu systemd[1]: Stopping Login Service...
+5月 15 17:59:27 ubuntu systemd-logind[877]: Removed session 2.
+5月 15 17:59:27 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+5月 15 17:59:27 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+5月 15 21:27:13 ubuntu systemd[1]: Starting Login Service...
+5月 15 21:27:13 ubuntu systemd-logind[861]: New seat seat0.
+5月 15 21:27:13 ubuntu systemd-logind[861]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 15 21:27:13 ubuntu systemd-logind[861]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 15 21:27:14 ubuntu systemd[1]: Started Login Service.
+5月 15 21:27:14 ubuntu systemd-logind[861]: New session c1 of user gdm.
+5月 15 21:27:38 ubuntu systemd-logind[861]: New session 2 of user ree.
+5月 15 21:27:47 ubuntu systemd-logind[861]: Session c1 logged out. Waiting for processes to exit.
+5月 15 21:27:47 ubuntu systemd-logind[861]: Removed session c1.
+5月 15 22:59:14 ubuntu systemd-logind[861]: Session 2 logged out. Waiting for processes to exit.
+5月 15 22:59:15 ubuntu systemd[1]: Stopping Login Service...
+5月 15 22:59:15 ubuntu systemd-logind[861]: Removed session 2.
+5月 15 22:59:16 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+5月 15 22:59:16 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+5月 31 15:28:44 ubuntu systemd[1]: Starting Login Service...
+5月 31 15:28:45 ubuntu systemd-logind[866]: New seat seat0.
+5月 31 15:28:45 ubuntu systemd-logind[866]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 31 15:28:45 ubuntu systemd-logind[866]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 31 15:28:45 ubuntu systemd[1]: Started Login Service.
+5月 31 15:28:45 ubuntu systemd-logind[866]: New session c1 of user gdm.
+5月 31 15:30:16 ubuntu systemd-logind[866]: New session 3 of user ree.
+5月 31 15:30:25 ubuntu systemd-logind[866]: Session c1 logged out. Waiting for processes to exit.
+5月 31 15:30:25 ubuntu systemd-logind[866]: Removed session c1.
+5月 31 16:19:37 ubuntu systemd-logind[866]: System is rebooting.
+5月 31 16:19:37 ubuntu systemd-logind[866]: Session 3 logged out. Waiting for processes to exit.
+5月 31 16:19:39 ubuntu systemd[1]: Stopping Login Service...
+5月 31 16:19:39 ubuntu systemd-logind[866]: Removed session 3.
+5月 31 16:19:39 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+5月 31 16:19:39 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+5月 31 16:19:54 ubuntu systemd[1]: Starting Login Service...
+5月 31 16:19:54 ubuntu systemd-logind[908]: New seat seat0.
+5月 31 16:19:54 ubuntu systemd-logind[908]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 31 16:19:54 ubuntu systemd-logind[908]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 31 16:19:54 ubuntu systemd[1]: Started Login Service.
+5月 31 16:19:54 ubuntu systemd-logind[908]: New session c1 of user gdm.
+5月 31 16:20:05 ubuntu systemd-logind[908]: New session 2 of user ree.
+5月 31 16:20:13 ubuntu systemd-logind[908]: Session c1 logged out. Waiting for processes to exit.
+5月 31 16:20:13 ubuntu systemd-logind[908]: Removed session c1.
+-- Reboot --
+5月 31 21:00:56 ubuntu systemd[1]: Starting Login Service...
+5月 31 21:00:56 ubuntu systemd-logind[896]: New seat seat0.
+5月 31 21:00:56 ubuntu systemd-logind[896]: Watching system buttons on /dev/input/event0 (Power Button)
+5月 31 21:00:56 ubuntu systemd-logind[896]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+5月 31 21:00:56 ubuntu systemd[1]: Started Login Service.
+5月 31 21:00:57 ubuntu systemd-logind[896]: New session c1 of user gdm.
+5月 31 21:01:16 ubuntu systemd-logind[896]: New session 2 of user ree.
+5月 31 21:01:28 ubuntu systemd-logind[896]: Session c1 logged out. Waiting for processes to exit.
+5月 31 21:01:28 ubuntu systemd-logind[896]: Removed session c1.
+-- Reboot --
+6月 01 23:20:20 ubuntu systemd[1]: Starting Login Service...
+6月 01 23:20:21 ubuntu systemd-logind[904]: New seat seat0.
+6月 01 23:20:21 ubuntu systemd-logind[904]: Watching system buttons on /dev/input/event0 (Power Button)
+6月 01 23:20:21 ubuntu systemd-logind[904]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+6月 01 23:20:22 ubuntu systemd[1]: Started Login Service.
+6月 01 23:20:25 ubuntu systemd-logind[904]: New session c1 of user gdm.
+6月 01 23:21:37 ubuntu systemd-logind[904]: New session 2 of user ree.
+6月 01 23:22:05 ubuntu systemd-logind[904]: Session c1 logged out. Waiting for processes to exit.
+6月 01 23:22:05 ubuntu systemd-logind[904]: Removed session c1.
+6月 02 00:27:49 ubuntu systemd-logind[904]: System is powering down.
+6月 02 00:27:49 ubuntu systemd-logind[904]: Session 2 logged out. Waiting for processes to exit.
+6月 02 00:27:50 ubuntu systemd[1]: Stopping Login Service...
+6月 02 00:27:50 ubuntu systemd-logind[904]: Removed session 2.
+6月 02 00:27:50 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+6月 02 00:27:50 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+6月 06 14:12:35 ubuntu systemd[1]: Starting Login Service...
+6月 06 14:12:35 ubuntu systemd-logind[902]: New seat seat0.
+6月 06 14:12:35 ubuntu systemd-logind[902]: Watching system buttons on /dev/input/event0 (Power Button)
+6月 06 14:12:35 ubuntu systemd-logind[902]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+6月 06 14:12:35 ubuntu systemd[1]: Started Login Service.
+6月 06 14:12:36 ubuntu systemd-logind[902]: New session c1 of user gdm.
+6月 06 14:12:48 ubuntu systemd-logind[902]: New session 2 of user ree.
+6月 06 14:12:58 ubuntu systemd-logind[902]: Session c1 logged out. Waiting for processes to exit.
+6月 06 14:12:58 ubuntu systemd-logind[902]: Removed session c1.
+6月 06 15:33:45 ubuntu systemd-logind[902]: System is powering down.
+6月 06 15:33:46 ubuntu systemd-logind[902]: Session 2 logged out. Waiting for processes to exit.
+6月 06 15:33:47 ubuntu systemd[1]: Stopping Login Service...
+6月 06 15:33:47 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+6月 06 15:33:47 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+6月 06 15:39:29 ubuntu systemd[1]: Starting Login Service...
+6月 06 15:39:29 ubuntu systemd-logind[908]: New seat seat0.
+6月 06 15:39:29 ubuntu systemd-logind[908]: Watching system buttons on /dev/input/event0 (Power Button)
+6月 06 15:39:29 ubuntu systemd-logind[908]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+6月 06 15:39:29 ubuntu systemd[1]: Started Login Service.
+6月 06 15:39:29 ubuntu systemd-logind[908]: New session c1 of user gdm.
+6月 06 15:39:48 ubuntu systemd-logind[908]: New session 2 of user ree.
+6月 06 15:40:00 ubuntu systemd-logind[908]: Session c1 logged out. Waiting for processes to exit.
+6月 06 15:40:00 ubuntu systemd-logind[908]: Removed session c1.
+6月 06 15:42:24 ubuntu systemd-logind[908]: System is powering down.
+6月 06 15:42:24 ubuntu systemd-logind[908]: Session 2 logged out. Waiting for processes to exit.
+6月 06 15:42:25 ubuntu systemd[1]: Stopping Login Service...
+6月 06 15:42:25 ubuntu systemd-logind[908]: Removed session 2.
+6月 06 15:42:25 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+6月 06 15:42:25 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+6月 06 15:44:09 ubuntu systemd[1]: Starting Login Service...
+6月 06 15:44:10 ubuntu systemd-logind[841]: New seat seat0.
+6月 06 15:44:10 ubuntu systemd-logind[841]: Watching system buttons on /dev/input/event0 (Power Button)
+6月 06 15:44:10 ubuntu systemd-logind[841]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+6月 06 15:44:10 ubuntu systemd[1]: Started Login Service.
+6月 06 15:44:12 ubuntu systemd-logind[841]: New session c1 of user gdm.
+6月 06 15:44:45 ubuntu systemd-logind[841]: New session 2 of user ree.
+6月 06 15:45:02 ubuntu systemd-logind[841]: Session c1 logged out. Waiting for processes to exit.
+6月 06 15:45:02 ubuntu systemd-logind[841]: Removed session c1.
+-- Reboot --
+6月 15 14:08:49 ubuntu systemd[1]: Starting Login Service...
+6月 15 14:08:50 ubuntu systemd-logind[907]: New seat seat0.
+6月 15 14:08:50 ubuntu systemd-logind[907]: Watching system buttons on /dev/input/event0 (Power Button)
+6月 15 14:08:50 ubuntu systemd-logind[907]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+6月 15 14:08:50 ubuntu systemd[1]: Started Login Service.
+6月 15 14:08:57 ubuntu systemd-logind[907]: New session c1 of user gdm.
+6月 15 14:17:35 ubuntu systemd-logind[907]: Watching system buttons on /dev/input/event0 (Power Button)
+6月 15 14:17:35 ubuntu systemd-logind[907]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+6月 15 15:13:33 ubuntu systemd-logind[907]: New session 7 of user ree.
+6月 15 15:13:45 ubuntu systemd-logind[907]: Session c1 logged out. Waiting for processes to exit.
+6月 15 15:13:45 ubuntu systemd-logind[907]: Removed session c1.
+6月 15 16:32:38 ubuntu systemd-logind[907]: System is powering down.
+6月 15 16:32:38 ubuntu systemd-logind[907]: Session 7 logged out. Waiting for processes to exit.
+6月 15 16:32:39 ubuntu systemd[1]: Stopping Login Service...
+6月 15 16:32:39 ubuntu systemd-logind[907]: Removed session 7.
+6月 15 16:32:39 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+6月 15 16:32:39 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+6月 16 14:48:28 ubuntu systemd[1]: Starting Login Service...
+6月 16 14:48:28 ubuntu systemd-logind[855]: New seat seat0.
+6月 16 14:48:28 ubuntu systemd-logind[855]: Watching system buttons on /dev/input/event0 (Power Button)
+6月 16 14:48:28 ubuntu systemd-logind[855]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+6月 16 14:48:29 ubuntu systemd[1]: Started Login Service.
+6月 16 14:48:29 ubuntu systemd-logind[855]: New session c1 of user gdm.
+6月 16 14:48:44 ubuntu systemd-logind[855]: New session 2 of user ree.
+6月 16 14:48:54 ubuntu systemd-logind[855]: Session c1 logged out. Waiting for processes to exit.
+6月 16 14:48:54 ubuntu systemd-logind[855]: Removed session c1.
+6月 16 15:21:01 ubuntu systemd-logind[855]: Session 2 logged out. Waiting for processes to exit.
+6月 16 15:21:01 ubuntu systemd-logind[855]: New session c2 of user gdm.
+-- Reboot --
+2月 25 16:36:14 ubuntu systemd[1]: Starting Login Service...
+2月 25 16:36:14 ubuntu systemd-logind[855]: New seat seat0.
+2月 25 16:36:14 ubuntu systemd-logind[855]: Watching system buttons on /dev/input/event0 (Power Button)
+2月 25 16:36:14 ubuntu systemd-logind[855]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2月 25 16:36:14 ubuntu systemd[1]: Started Login Service.
+2月 25 16:36:15 ubuntu systemd-logind[855]: New session c1 of user gdm.
+2月 25 16:36:41 ubuntu systemd-logind[855]: New session 2 of user ree.
+2月 25 16:36:51 ubuntu systemd-logind[855]: Session c1 logged out. Waiting for processes to exit.
+2月 25 16:36:51 ubuntu systemd-logind[855]: Removed session c1.
+2月 25 16:37:50 ubuntu systemd-logind[855]: Session 2 logged out. Waiting for processes to exit.
+2月 25 16:37:50 ubuntu systemd-logind[855]: New session c2 of user gdm.
+2月 25 16:37:53 ubuntu systemd-logind[855]: Removed session 2.
+2月 25 16:37:58 ubuntu systemd-logind[855]: New session 5 of user ree.
+2月 25 16:38:07 ubuntu systemd-logind[855]: Session c2 logged out. Waiting for processes to exit.
+2月 25 16:38:07 ubuntu systemd-logind[855]: Removed session c2.
+-- Reboot --
+3月 27 17:52:49 ubuntu systemd[1]: Starting Login Service...
+3月 27 17:52:49 ubuntu systemd-logind[855]: New seat seat0.
+3月 27 17:52:49 ubuntu systemd-logind[855]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 27 17:52:49 ubuntu systemd-logind[855]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 27 17:52:49 ubuntu systemd[1]: Started Login Service.
+3月 27 17:52:50 ubuntu systemd-logind[855]: New session c1 of user gdm.
+3月 27 17:53:05 ubuntu systemd-logind[855]: New session 2 of user ree.
+3月 27 17:53:15 ubuntu systemd-logind[855]: Session c1 logged out. Waiting for processes to exit.
+3月 27 17:53:15 ubuntu systemd-logind[855]: Removed session c1.
+3月 27 18:08:13 ubuntu systemd-logind[855]: Session 2 logged out. Waiting for processes to exit.
+3月 27 18:08:13 ubuntu systemd-logind[855]: New session c2 of user gdm.
+3月 27 18:08:15 ubuntu systemd-logind[855]: Removed session 2.
+3月 27 18:08:42 ubuntu systemd-logind[855]: Delay lock is active (UID 0/root, PID 955/unattended-upgr) but inhibitor timeout is reached.
+3月 27 18:08:42 ubuntu systemd-logind[855]: System is powering down.
+-- Reboot --
+3月 30 14:05:42 ubuntu systemd[1]: Starting Login Service...
+3月 30 14:05:43 ubuntu systemd-logind[847]: New seat seat0.
+3月 30 14:05:43 ubuntu systemd-logind[847]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 30 14:05:43 ubuntu systemd-logind[847]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 30 14:05:43 ubuntu systemd[1]: Started Login Service.
+3月 30 14:06:07 ubuntu systemd-logind[847]: New session c1 of user gdm.
+3月 30 14:15:29 ubuntu systemd-logind[847]: New session 3 of user ree.
+3月 30 14:15:42 ubuntu systemd-logind[847]: Session c1 logged out. Waiting for processes to exit.
+3月 30 14:15:42 ubuntu systemd-logind[847]: Removed session c1.
+3月 30 14:43:18 ubuntu systemd-logind[847]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 30 14:43:20 ubuntu systemd-logind[847]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 30 14:43:56 ubuntu systemd-logind[847]: Session 3 logged out. Waiting for processes to exit.
+3月 30 14:43:56 ubuntu systemd-logind[847]: Removed session 3.
+3月 30 14:43:56 ubuntu systemd-logind[847]: New session c2 of user gdm.
+3月 30 14:44:04 ubuntu systemd-logind[847]: System is rebooting.
+3月 30 14:44:04 ubuntu systemd-logind[847]: Session c2 logged out. Waiting for processes to exit.
+3月 30 14:44:05 ubuntu systemd[1]: Stopping Login Service...
+3月 30 14:44:05 ubuntu systemd-logind[847]: Removed session c2.
+3月 30 14:44:05 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 30 14:44:05 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 30 14:44:33 ubuntu systemd[1]: Starting Login Service...
+3月 30 14:44:33 ubuntu systemd-logind[846]: New seat seat0.
+3月 30 14:44:33 ubuntu systemd-logind[846]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 30 14:44:33 ubuntu systemd-logind[846]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 30 14:44:33 ubuntu systemd[1]: Started Login Service.
+3月 30 14:44:34 ubuntu systemd-logind[846]: New session c1 of user gdm.
+3月 30 14:44:42 ubuntu systemd-logind[846]: New session 2 of user ree.
+3月 30 14:44:59 ubuntu systemd-logind[846]: Session c1 logged out. Waiting for processes to exit.
+3月 30 14:44:59 ubuntu systemd-logind[846]: Removed session c1.
+3月 30 14:51:16 ubuntu systemd-logind[846]: System is powering down.
+3月 30 14:51:17 ubuntu systemd-logind[846]: Session 2 logged out. Waiting for processes to exit.
+3月 30 14:51:19 ubuntu systemd[1]: Stopping Login Service...
+3月 30 14:51:19 ubuntu systemd-logind[846]: Removed session 2.
+3月 30 14:51:19 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 30 14:51:19 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 30 15:12:19 ubuntu systemd[1]: Starting Login Service...
+3月 30 15:12:19 ubuntu systemd-logind[851]: New seat seat0.
+3月 30 15:12:19 ubuntu systemd-logind[851]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 30 15:12:19 ubuntu systemd-logind[851]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 30 15:12:20 ubuntu systemd[1]: Started Login Service.
+3月 30 15:12:20 ubuntu systemd-logind[851]: New session c1 of user gdm.
+3月 30 15:12:38 ubuntu systemd-logind[851]: New session 2 of user ree.
+3月 30 15:12:47 ubuntu systemd-logind[851]: Session c1 logged out. Waiting for processes to exit.
+3月 30 15:12:47 ubuntu systemd-logind[851]: Removed session c1.
+3月 30 15:12:58 ubuntu systemd-logind[851]: System is powering down.
+3月 30 15:12:58 ubuntu systemd-logind[851]: Session 2 logged out. Waiting for processes to exit.
+3月 30 15:12:59 ubuntu systemd[1]: Stopping Login Service...
+3月 30 15:12:59 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 30 15:12:59 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 30 15:18:40 ubuntu systemd[1]: Starting Login Service...
+3月 30 15:18:40 ubuntu systemd-logind[845]: New seat seat0.
+3月 30 15:18:40 ubuntu systemd-logind[845]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 30 15:18:40 ubuntu systemd-logind[845]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 30 15:18:40 ubuntu systemd[1]: Started Login Service.
+3月 30 15:18:41 ubuntu systemd-logind[845]: New session c1 of user gdm.
+3月 30 15:18:54 ubuntu systemd-logind[845]: New session 2 of user ree.
+3月 30 15:19:03 ubuntu systemd-logind[845]: Session c1 logged out. Waiting for processes to exit.
+3月 30 15:19:03 ubuntu systemd-logind[845]: Removed session c1.
+3月 30 15:19:57 ubuntu systemd-logind[845]: System is powering down.
+3月 30 15:19:58 ubuntu systemd-logind[845]: Session 2 logged out. Waiting for processes to exit.
+3月 30 15:20:00 ubuntu systemd[1]: Stopping Login Service...
+3月 30 15:20:00 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 30 15:20:00 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 30 22:57:14 ubuntu systemd[1]: Starting Login Service...
+3月 30 22:57:14 ubuntu systemd-logind[904]: New seat seat0.
+3月 30 22:57:14 ubuntu systemd-logind[904]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 30 22:57:14 ubuntu systemd-logind[904]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 30 22:57:14 ubuntu systemd[1]: Started Login Service.
+3月 30 22:57:14 ubuntu systemd-logind[904]: New session c1 of user gdm.
+3月 30 22:57:44 ubuntu systemd-logind[904]: New session 2 of user ree.
+3月 30 22:57:53 ubuntu systemd-logind[904]: Session c1 logged out. Waiting for processes to exit.
+3月 30 22:57:53 ubuntu systemd-logind[904]: Removed session c1.
+3月 30 22:59:12 ubuntu systemd-logind[904]: System is powering down.
+3月 30 22:59:12 ubuntu systemd-logind[904]: Session 2 logged out. Waiting for processes to exit.
+3月 30 22:59:12 ubuntu systemd[1]: Stopping Login Service...
+3月 30 22:59:12 ubuntu systemd-logind[904]: Removed session 2.
+3月 30 22:59:12 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 30 22:59:12 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 30 23:00:45 ubuntu systemd[1]: Starting Login Service...
+3月 30 23:00:45 ubuntu systemd-logind[846]: New seat seat0.
+3月 30 23:00:45 ubuntu systemd-logind[846]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 30 23:00:45 ubuntu systemd-logind[846]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 30 23:00:45 ubuntu systemd[1]: Started Login Service.
+3月 30 23:00:46 ubuntu systemd-logind[846]: New session c1 of user gdm.
+3月 30 23:01:07 ubuntu systemd-logind[846]: New session 2 of user ree.
+3月 30 23:01:16 ubuntu systemd-logind[846]: Session c1 logged out. Waiting for processes to exit.
+3月 30 23:01:16 ubuntu systemd-logind[846]: Removed session c1.
+3月 30 23:02:22 ubuntu systemd-logind[846]: System is powering down.
+3月 30 23:02:23 ubuntu systemd-logind[846]: Session 2 logged out. Waiting for processes to exit.
+3月 30 23:02:25 ubuntu systemd[1]: Stopping Login Service...
+3月 30 23:02:25 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 30 23:02:25 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 30 23:05:26 ubuntu systemd[1]: Starting Login Service...
+3月 30 23:05:26 ubuntu systemd-logind[878]: New seat seat0.
+3月 30 23:05:26 ubuntu systemd-logind[878]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 30 23:05:26 ubuntu systemd-logind[878]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 30 23:05:26 ubuntu systemd[1]: Started Login Service.
+3月 30 23:05:27 ubuntu systemd-logind[878]: New session c1 of user gdm.
+3月 30 23:05:38 ubuntu systemd-logind[878]: New session 2 of user ree.
+3月 30 23:05:46 ubuntu systemd-logind[878]: Session c1 logged out. Waiting for processes to exit.
+3月 30 23:05:46 ubuntu systemd-logind[878]: Removed session c1.
+3月 30 23:14:08 ubuntu systemd-logind[878]: System is powering down.
+3月 30 23:14:09 ubuntu systemd-logind[878]: Session 2 logged out. Waiting for processes to exit.
+3月 30 23:14:09 ubuntu systemd[1]: Stopping Login Service...
+3月 30 23:14:09 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 30 23:14:09 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 31 18:40:20 ubuntu systemd[1]: Starting Login Service...
+3月 31 18:40:20 ubuntu systemd-logind[913]: New seat seat0.
+3月 31 18:40:20 ubuntu systemd-logind[913]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 31 18:40:20 ubuntu systemd-logind[913]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 31 18:40:20 ubuntu systemd[1]: Started Login Service.
+3月 31 18:40:21 ubuntu systemd-logind[913]: New session c1 of user gdm.
+3月 31 18:40:30 ubuntu systemd-logind[913]: New session 2 of user ree.
+3月 31 18:40:39 ubuntu systemd-logind[913]: Session c1 logged out. Waiting for processes to exit.
+3月 31 18:40:39 ubuntu systemd-logind[913]: Removed session c1.
+3月 31 18:41:59 ubuntu systemd-logind[913]: New session 4 of user ree.
+3月 31 18:47:55 ubuntu systemd-logind[913]: New session 5 of user ree.
+3月 31 18:53:28 ubuntu systemd-logind[913]: Session 2 logged out. Waiting for processes to exit.
+3月 31 18:53:29 ubuntu systemd-logind[913]: New session c2 of user gdm.
+3月 31 18:53:32 ubuntu systemd-logind[913]: Removed session 2.
+3月 31 18:53:35 ubuntu systemd-logind[913]: System is powering down.
+3月 31 18:53:35 ubuntu systemd-logind[913]: Session c2 logged out. Waiting for processes to exit.
+3月 31 18:53:35 ubuntu systemd-logind[913]: Removed session c2.
+3月 31 18:53:36 ubuntu systemd-logind[913]: Session 5 logged out. Waiting for processes to exit.
+3月 31 18:53:36 ubuntu systemd-logind[913]: Session 4 logged out. Waiting for processes to exit.
+3月 31 18:53:36 ubuntu systemd[1]: Stopping Login Service...
+3月 31 18:53:36 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 31 18:53:36 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 31 18:54:17 ubuntu systemd[1]: Starting Login Service...
+3月 31 18:54:17 ubuntu systemd-logind[900]: New seat seat0.
+3月 31 18:54:17 ubuntu systemd-logind[900]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 31 18:54:17 ubuntu systemd-logind[900]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 31 18:54:17 ubuntu systemd[1]: Started Login Service.
+3月 31 18:54:19 ubuntu systemd-logind[900]: New session c1 of user gdm.
+3月 31 18:54:29 ubuntu systemd-logind[900]: New session 2 of user ree.
+3月 31 18:54:38 ubuntu systemd-logind[900]: Session c1 logged out. Waiting for processes to exit.
+3月 31 18:54:38 ubuntu systemd-logind[900]: Removed session c1.
+3月 31 18:55:29 ubuntu systemd-logind[900]: New session 4 of user ree.
+3月 31 19:01:42 ubuntu systemd-logind[900]: System is powering down.
+3月 31 19:01:42 ubuntu systemd-logind[900]: Session 2 logged out. Waiting for processes to exit.
+3月 31 19:01:42 ubuntu systemd-logind[900]: Removed session 2.
+3月 31 19:01:42 ubuntu systemd-logind[900]: Session 4 logged out. Waiting for processes to exit.
+3月 31 19:01:42 ubuntu systemd-logind[900]: Removed session 4.
+3月 31 19:01:43 ubuntu systemd[1]: Stopping Login Service...
+3月 31 19:01:43 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 31 19:01:43 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 31 19:04:01 ubuntu systemd[1]: Starting Login Service...
+3月 31 19:04:01 ubuntu systemd-logind[847]: New seat seat0.
+3月 31 19:04:01 ubuntu systemd-logind[847]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 31 19:04:01 ubuntu systemd-logind[847]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 31 19:04:01 ubuntu systemd[1]: Started Login Service.
+3月 31 19:04:02 ubuntu systemd-logind[847]: New session c1 of user gdm.
+3月 31 19:04:14 ubuntu systemd-logind[847]: New session 2 of user ree.
+3月 31 19:04:25 ubuntu systemd-logind[847]: Session c1 logged out. Waiting for processes to exit.
+3月 31 19:04:25 ubuntu systemd-logind[847]: Removed session c1.
+3月 31 19:05:14 ubuntu systemd-logind[847]: New session 4 of user ree.
+3月 31 19:10:55 ubuntu systemd-logind[847]: New session 6 of user ree.
+3月 31 19:15:28 ubuntu systemd-logind[847]: New session 7 of user ree.
+3月 31 19:18:38 ubuntu systemd-logind[847]: Session 7 logged out. Waiting for processes to exit.
+3月 31 19:18:38 ubuntu systemd-logind[847]: Removed session 7.
+3月 31 19:18:55 ubuntu systemd-logind[847]: New session 9 of user ree.
+3月 31 19:23:56 ubuntu systemd-logind[847]: New session 10 of user ree.
+3月 31 19:25:55 ubuntu systemd-logind[847]: Session 4 logged out. Waiting for processes to exit.
+3月 31 19:25:55 ubuntu systemd-logind[847]: Removed session 4.
+3月 31 19:26:00 ubuntu systemd-logind[847]: Session 10 logged out. Waiting for processes to exit.
+3月 31 19:26:00 ubuntu systemd-logind[847]: Removed session 10.
+3月 31 19:26:10 ubuntu systemd-logind[847]: System is powering down.
+3月 31 19:26:10 ubuntu systemd-logind[847]: Session 2 logged out. Waiting for processes to exit.
+3月 31 19:26:10 ubuntu systemd-logind[847]: Session 6 logged out. Waiting for processes to exit.
+3月 31 19:26:10 ubuntu systemd-logind[847]: Session 9 logged out. Waiting for processes to exit.
+3月 31 19:26:10 ubuntu systemd-logind[847]: Removed session 6.
+3月 31 19:26:10 ubuntu systemd-logind[847]: Removed session 9.
+3月 31 19:26:11 ubuntu systemd[1]: Stopping Login Service...
+3月 31 19:26:11 ubuntu systemd-logind[847]: Removed session 2.
+3月 31 19:26:11 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 31 19:26:11 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 31 19:27:36 ubuntu systemd[1]: Starting Login Service...
+3月 31 19:27:36 ubuntu systemd-logind[900]: New seat seat0.
+3月 31 19:27:36 ubuntu systemd-logind[900]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 31 19:27:36 ubuntu systemd-logind[900]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 31 19:27:36 ubuntu systemd[1]: Started Login Service.
+3月 31 19:27:38 ubuntu systemd-logind[900]: New session c1 of user gdm.
+3月 31 19:27:56 ubuntu systemd-logind[900]: New session 2 of user ree.
+3月 31 19:28:05 ubuntu systemd-logind[900]: Session c1 logged out. Waiting for processes to exit.
+3月 31 19:28:06 ubuntu systemd-logind[900]: Removed session c1.
+3月 31 19:30:00 ubuntu systemd-logind[900]: New session 4 of user ree.
+3月 31 19:41:35 ubuntu systemd-logind[900]: Session 4 logged out. Waiting for processes to exit.
+3月 31 19:41:35 ubuntu systemd-logind[900]: Removed session 4.
+3月 31 19:41:43 ubuntu systemd-logind[900]: New session 7 of user ree.
+3月 31 19:42:56 ubuntu systemd-logind[900]: System is powering down.
+-- Reboot --
+3月 31 19:43:31 ubuntu systemd[1]: Starting Login Service...
+3月 31 19:43:31 ubuntu systemd-logind[840]: New seat seat0.
+3月 31 19:43:31 ubuntu systemd-logind[840]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 31 19:43:31 ubuntu systemd-logind[840]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 31 19:43:31 ubuntu systemd[1]: Started Login Service.
+3月 31 19:43:31 ubuntu systemd-logind[840]: New session c1 of user gdm.
+3月 31 19:43:44 ubuntu systemd-logind[840]: New session 2 of user ree.
+3月 31 19:43:53 ubuntu systemd-logind[840]: Session c1 logged out. Waiting for processes to exit.
+3月 31 19:43:53 ubuntu systemd-logind[840]: Removed session c1.
+3月 31 19:45:39 ubuntu systemd-logind[840]: New session 4 of user ree.
+3月 31 19:57:56 ubuntu systemd-logind[840]: System is rebooting.
+3月 31 19:57:56 ubuntu systemd-logind[840]: Session 2 logged out. Waiting for processes to exit.
+3月 31 19:57:56 ubuntu systemd-logind[840]: Session 4 logged out. Waiting for processes to exit.
+3月 31 19:57:56 ubuntu systemd-logind[840]: Removed session 4.
+3月 31 19:57:59 ubuntu systemd[1]: Stopping Login Service...
+3月 31 19:57:59 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 31 19:57:59 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 31 19:58:20 ubuntu systemd[1]: Starting Login Service...
+3月 31 19:58:20 ubuntu systemd-logind[877]: New seat seat0.
+3月 31 19:58:20 ubuntu systemd-logind[877]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 31 19:58:20 ubuntu systemd-logind[877]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 31 19:58:20 ubuntu systemd[1]: Started Login Service.
+3月 31 19:58:20 ubuntu systemd-logind[877]: New session c1 of user gdm.
+3月 31 20:02:32 ubuntu systemd-logind[877]: New session 2 of user ree.
+3月 31 20:02:42 ubuntu systemd-logind[877]: Session c1 logged out. Waiting for processes to exit.
+3月 31 20:02:42 ubuntu systemd-logind[877]: Removed session c1.
+3月 31 20:02:56 ubuntu systemd-logind[877]: New session 4 of user ree.
+3月 31 20:09:57 ubuntu systemd-logind[877]: System is powering down.
+3月 31 20:09:57 ubuntu systemd-logind[877]: Session 2 logged out. Waiting for processes to exit.
+3月 31 20:09:57 ubuntu systemd-logind[877]: Session 4 logged out. Waiting for processes to exit.
+3月 31 20:09:57 ubuntu systemd-logind[877]: Removed session 4.
+3月 31 20:09:57 ubuntu systemd[1]: Stopping Login Service...
+3月 31 20:09:57 ubuntu systemd-logind[877]: Removed session 2.
+3月 31 20:09:57 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 31 20:09:57 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+3月 31 20:24:35 ubuntu systemd[1]: Starting Login Service...
+3月 31 20:24:35 ubuntu systemd-logind[896]: New seat seat0.
+3月 31 20:24:35 ubuntu systemd-logind[896]: Watching system buttons on /dev/input/event0 (Power Button)
+3月 31 20:24:35 ubuntu systemd-logind[896]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+3月 31 20:24:35 ubuntu systemd[1]: Started Login Service.
+3月 31 20:24:37 ubuntu systemd-logind[896]: New session c1 of user gdm.
+3月 31 20:25:01 ubuntu systemd-logind[896]: New session 2 of user ree.
+3月 31 20:25:10 ubuntu systemd-logind[896]: Session c1 logged out. Waiting for processes to exit.
+3月 31 20:25:10 ubuntu systemd-logind[896]: Removed session c1.
+3月 31 20:25:57 ubuntu systemd-logind[896]: New session 4 of user ree.
+3月 31 20:26:21 ubuntu systemd-logind[896]: Session 4 logged out. Waiting for processes to exit.
+3月 31 20:26:21 ubuntu systemd-logind[896]: Removed session 4.
+3月 31 20:28:32 ubuntu systemd-logind[896]: New session 5 of user ree.
+3月 31 20:38:14 ubuntu systemd-logind[896]: Session 5 logged out. Waiting for processes to exit.
+3月 31 20:38:14 ubuntu systemd-logind[896]: Removed session 5.
+3月 31 20:38:44 ubuntu systemd-logind[896]: New session 7 of user ree.
+3月 31 21:06:51 ubuntu systemd-logind[896]: System is powering down.
+3月 31 21:06:51 ubuntu systemd-logind[896]: Session 2 logged out. Waiting for processes to exit.
+3月 31 21:06:51 ubuntu systemd-logind[896]: Session 7 logged out. Waiting for processes to exit.
+3月 31 21:06:51 ubuntu systemd-logind[896]: Removed session 7.
+3月 31 21:06:52 ubuntu systemd[1]: Stopping Login Service...
+3月 31 21:06:52 ubuntu systemd-logind[896]: Removed session 2.
+3月 31 21:06:52 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+3月 31 21:06:52 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 02 17:05:04 ubuntu systemd[1]: Starting Login Service...
+4月 02 17:05:04 ubuntu systemd-logind[899]: New seat seat0.
+4月 02 17:05:04 ubuntu systemd-logind[899]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 02 17:05:04 ubuntu systemd-logind[899]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 02 17:05:05 ubuntu systemd[1]: Started Login Service.
+4月 02 17:05:05 ubuntu systemd-logind[899]: New session c1 of user gdm.
+4月 02 17:05:15 ubuntu systemd-logind[899]: New session 2 of user ree.
+4月 02 17:05:24 ubuntu systemd-logind[899]: Session c1 logged out. Waiting for processes to exit.
+4月 02 17:05:24 ubuntu systemd-logind[899]: Removed session c1.
+4月 02 17:07:31 ubuntu systemd-logind[899]: New session 4 of user ree.
+4月 02 17:13:52 ubuntu systemd-logind[899]: System is powering down.
+4月 02 17:13:52 ubuntu systemd-logind[899]: Session 2 logged out. Waiting for processes to exit.
+4月 02 17:13:52 ubuntu systemd-logind[899]: Session 4 logged out. Waiting for processes to exit.
+4月 02 17:13:52 ubuntu systemd-logind[899]: Removed session 4.
+4月 02 17:13:53 ubuntu systemd[1]: Stopping Login Service...
+4月 02 17:13:53 ubuntu systemd-logind[899]: Removed session 2.
+4月 02 17:13:53 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 02 17:13:53 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 14 20:21:37 ubuntu systemd[1]: Starting Login Service...
+4月 14 20:21:37 ubuntu systemd-logind[836]: New seat seat0.
+4月 14 20:21:37 ubuntu systemd-logind[836]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 14 20:21:37 ubuntu systemd-logind[836]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 14 20:21:37 ubuntu systemd[1]: Started Login Service.
+4月 14 20:21:40 ubuntu systemd-logind[836]: New session c1 of user gdm.
+4月 14 20:21:54 ubuntu systemd-logind[836]: New session 2 of user ree.
+4月 14 20:21:58 ubuntu systemd-logind[836]: Session c1 logged out. Waiting for processes to exit.
+4月 14 20:21:58 ubuntu systemd-logind[836]: Removed session c1.
+4月 14 20:41:17 ubuntu systemd-logind[836]: New session 6 of user root.
+4月 14 20:42:01 ubuntu systemd-logind[836]: Session 6 logged out. Waiting for processes to exit.
+4月 14 20:42:01 ubuntu systemd-logind[836]: Removed session 6.
+4月 14 20:42:38 ubuntu systemd-logind[836]: New session 8 of user root.
+4月 14 20:54:40 ubuntu systemd-logind[836]: Session 2 logged out. Waiting for processes to exit.
+4月 14 20:54:40 ubuntu systemd-logind[836]: Session 8 logged out. Waiting for processes to exit.
+4月 14 20:54:40 ubuntu systemd-logind[836]: Removed session 8.
+4月 14 20:54:41 ubuntu systemd[1]: Stopping Login Service...
+4月 14 20:54:42 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 14 20:54:42 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 14 20:55:48 ubuntu systemd[1]: Starting Login Service...
+4月 14 20:55:49 ubuntu systemd-logind[889]: New seat seat0.
+4月 14 20:55:49 ubuntu systemd-logind[889]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 14 20:55:49 ubuntu systemd-logind[889]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 14 20:55:49 ubuntu systemd[1]: Started Login Service.
+4月 14 20:55:50 ubuntu systemd-logind[889]: New session c1 of user gdm.
+4月 14 20:56:29 ubuntu systemd-logind[889]: New session 2 of user ree.
+4月 14 20:56:38 ubuntu systemd-logind[889]: Session c1 logged out. Waiting for processes to exit.
+4月 14 20:56:38 ubuntu systemd-logind[889]: Removed session c1.
+-- Reboot --
+4月 15 22:31:07 ubuntu systemd[1]: Starting Login Service...
+4月 15 22:31:07 ubuntu systemd-logind[911]: New seat seat0.
+4月 15 22:31:07 ubuntu systemd-logind[911]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 15 22:31:07 ubuntu systemd-logind[911]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 15 22:31:07 ubuntu systemd[1]: Started Login Service.
+4月 15 22:31:08 ubuntu systemd-logind[911]: New session c1 of user gdm.
+4月 15 22:32:04 ubuntu systemd-logind[911]: New session 2 of user ree.
+4月 15 22:32:13 ubuntu systemd-logind[911]: Session c1 logged out. Waiting for processes to exit.
+4月 15 22:32:13 ubuntu systemd-logind[911]: Removed session c1.
+4月 15 22:43:24 ubuntu systemd-logind[911]: System is rebooting.
+4月 15 22:43:25 ubuntu systemd-logind[911]: Session 2 logged out. Waiting for processes to exit.
+4月 15 22:43:25 ubuntu systemd[1]: Stopping Login Service...
+4月 15 22:43:25 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 15 22:43:25 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 15 22:43:42 ubuntu systemd[1]: Starting Login Service...
+4月 15 22:43:42 ubuntu systemd-logind[901]: New seat seat0.
+4月 15 22:43:42 ubuntu systemd-logind[901]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 15 22:43:42 ubuntu systemd-logind[901]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 15 22:43:42 ubuntu systemd[1]: Started Login Service.
+4月 15 22:43:42 ubuntu systemd-logind[901]: New session c1 of user gdm.
+4月 15 22:57:33 ubuntu systemd-logind[901]: New session 2 of user ree.
+4月 15 22:57:42 ubuntu systemd-logind[901]: Session c1 logged out. Waiting for processes to exit.
+4月 15 22:57:42 ubuntu systemd-logind[901]: Removed session c1.
+4月 15 23:08:20 ubuntu systemd-logind[901]: System is powering down.
+4月 15 23:08:20 ubuntu systemd-logind[901]: Session 2 logged out. Waiting for processes to exit.
+4月 15 23:08:21 ubuntu systemd[1]: Stopping Login Service...
+4月 15 23:08:21 ubuntu systemd-logind[901]: Removed session 2.
+4月 15 23:08:21 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 15 23:08:21 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 19 18:41:05 ubuntu systemd[1]: Starting Login Service...
+4月 19 18:41:05 ubuntu systemd-logind[862]: New seat seat0.
+4月 19 18:41:05 ubuntu systemd-logind[862]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 19 18:41:05 ubuntu systemd-logind[862]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 19 18:41:05 ubuntu systemd[1]: Started Login Service.
+4月 19 18:41:06 ubuntu systemd-logind[862]: New session c1 of user gdm.
+4月 19 18:42:47 ubuntu systemd-logind[862]: New session 2 of user ree.
+4月 19 18:42:58 ubuntu systemd-logind[862]: Session c1 logged out. Waiting for processes to exit.
+4月 19 18:42:58 ubuntu systemd-logind[862]: Removed session c1.
+4月 19 18:45:44 ubuntu systemd-logind[862]: New session 4 of user root.
+4月 19 19:01:32 ubuntu systemd-logind[862]: Session 4 logged out. Waiting for processes to exit.
+4月 19 19:01:32 ubuntu systemd-logind[862]: Removed session 4.
+4月 19 19:02:07 ubuntu systemd-logind[862]: New session 6 of user root.
+4月 19 19:04:20 ubuntu systemd-logind[862]: System is powering down.
+4月 19 19:04:21 ubuntu systemd-logind[862]: Session 2 logged out. Waiting for processes to exit.
+4月 19 19:04:21 ubuntu systemd-logind[862]: Session 6 logged out. Waiting for processes to exit.
+4月 19 19:04:21 ubuntu systemd-logind[862]: Removed session 6.
+4月 19 19:04:21 ubuntu systemd[1]: Stopping Login Service...
+4月 19 19:04:21 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 19 19:04:21 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 19 19:16:16 ubuntu systemd[1]: Starting Login Service...
+4月 19 19:16:16 ubuntu systemd-logind[920]: New seat seat0.
+4月 19 19:16:16 ubuntu systemd-logind[920]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 19 19:16:16 ubuntu systemd-logind[920]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 19 19:16:16 ubuntu systemd[1]: Started Login Service.
+4月 19 19:16:17 ubuntu systemd-logind[920]: New session c1 of user gdm.
+4月 19 19:16:54 ubuntu systemd-logind[920]: New session 2 of user ree.
+4月 19 19:17:04 ubuntu systemd-logind[920]: Session c1 logged out. Waiting for processes to exit.
+4月 19 19:17:04 ubuntu systemd-logind[920]: Removed session c1.
+4月 19 19:17:21 ubuntu systemd-logind[920]: New session 5 of user root.
+4月 19 19:17:43 ubuntu systemd-logind[920]: Session 5 logged out. Waiting for processes to exit.
+4月 19 19:17:43 ubuntu systemd-logind[920]: Removed session 5.
+4月 19 19:18:02 ubuntu systemd-logind[920]: New session 7 of user root.
+4月 19 19:21:10 ubuntu systemd-logind[920]: New session 9 of user root.
+4月 19 19:25:49 ubuntu systemd-logind[920]: System is powering down.
+4月 19 19:25:50 ubuntu systemd-logind[920]: Session 7 logged out. Waiting for processes to exit.
+4月 19 19:25:50 ubuntu systemd-logind[920]: Session 2 logged out. Waiting for processes to exit.
+4月 19 19:25:50 ubuntu systemd-logind[920]: Session 9 logged out. Waiting for processes to exit.
+4月 19 19:25:50 ubuntu systemd-logind[920]: Removed session 7.
+4月 19 19:25:50 ubuntu systemd-logind[920]: Removed session 9.
+4月 19 19:25:50 ubuntu systemd[1]: Stopping Login Service...
+4月 19 19:25:50 ubuntu systemd-logind[920]: Removed session 2.
+4月 19 19:25:52 ubuntu systemd[1]: systemd-logind.service: Succeeded.
+4月 19 19:25:52 ubuntu systemd[1]: Stopped Login Service.
+-- Reboot --
+4月 21 14:58:07 ubuntu systemd[1]: Starting Login Service...
+4月 21 14:58:07 ubuntu systemd-logind[884]: New seat seat0.
+4月 21 14:58:07 ubuntu systemd-logind[884]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 21 14:58:07 ubuntu systemd-logind[884]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+4月 21 14:58:07 ubuntu systemd[1]: Started Login Service.
+4月 21 14:58:08 ubuntu systemd-logind[884]: New session c1 of user gdm.
+4月 21 14:58:21 ubuntu systemd-logind[884]: New session 2 of user ree.
+4月 21 14:58:30 ubuntu systemd-logind[884]: Session c1 logged out. Waiting for processes to exit.
+4月 21 14:58:30 ubuntu systemd-logind[884]: Removed session c1.
+4月 21 15:07:16 ubuntu systemd-logind[884]: New session 4 of user root.
+

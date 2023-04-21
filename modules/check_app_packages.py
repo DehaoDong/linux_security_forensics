@@ -25,13 +25,14 @@ def get_installed_packages():
 
 def verify_packages(packages, verify_command):
     for package in packages:
+        log.print_and_log(f"Checking package of {package}...")
         command = f"{verify_command} {package}"
         result = subprocess.run(command.split(), capture_output=True, text=True)
         output = result.stdout
 
         if output:
-            log.print_and_log(f"Package verification results for {package}:")
-            log.print_and_log(output)
+            log.print_and_log(f"*Package verification results for {package}:")
+            log.print_and_log(f"*{output}")
 
             output_result.write_content("suspicious.txt", f"Package verification results for {package}:")
             output_result.write_content("suspicious.txt", output)

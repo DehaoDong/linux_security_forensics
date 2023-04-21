@@ -60,7 +60,7 @@ def scan_web_directory_for_webshells(directory):
 
                     for signature in webshell_signatures:
                         if re.search(signature, content, re.IGNORECASE):
-                            log.print_and_log(f"Possible WebShell found: {file_path}")
+                            log.print_and_log(f"*Possible WebShell found: {file_path}")
                             output_result.write_content("suspicious.txt", f"Possible WebShell found: {file_path}")
                             break
 

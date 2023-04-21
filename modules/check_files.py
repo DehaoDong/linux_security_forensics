@@ -9,7 +9,7 @@ def check_executable_files(path):
         for file in files:
             if not os.access(os.path.join(root, file), os.X_OK):
                 output_result.write_content("suspicious.txt", f"non-executable: {os.path.join(root, file)}")
-                log.print_and_log(f"non-executable: {os.path.join(root, file)}")
+                log.print_and_log(f"*non-executable: {os.path.join(root, file)}")
 
 
 # 临时目录文件安全扫描
@@ -19,8 +19,8 @@ def check_temp_directory(path):
         for file in files:
             file_path = os.path.join(root, file)
             if os.access(file_path, os.X_OK):
-                output_result.write_content("suspicious.txt", f"临时文件 {file_path} 可被执行！")
-                log.print_and_log(f"临时文件 {file_path} 可被执行！")
+                output_result.write_content("suspicious.txt", f"Temporary file {file_path} is executable")
+                log.print_and_log(f"*Temporary file {file_path} is executable")
 
     # 检查大文件
     max_size = 10 * 1024 * 1024  # 10MB
@@ -29,8 +29,8 @@ def check_temp_directory(path):
             file_path = os.path.join(root, file)
             file_size = os.path.getsize(file_path)
             if file_size > max_size:
-                output_result.write_content("suspicious.txt", f"临时文件 {file_path} 过大！（超过 {max_size} 字节）")
-                log.print_and_log(f"临时文件 {file_path} 过大！（超过 {max_size} 字节）")
+                output_result.write_content("suspicious.txt", f"Temporary file {file_path} is too big！(more than {max_size} bytes)")
+                log.print_and_log(f"*Temporary file {file_path} is too big！(more than {max_size} bytes)")
 
 
 def main():

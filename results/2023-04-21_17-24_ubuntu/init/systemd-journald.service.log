@@ -1,0 +1,466 @@
+-- Logs begin at Sat 2022-01-08 18:32:32 CST, end at Fri 2023-04-21 17:17:40 CST. --
+1月 09 21:33:01 ubuntu systemd-journald[380]: Journal stopped
+-- Reboot --
+1月 09 21:33:13 ubuntu systemd-journald[379]: Journal started
+1月 09 21:33:13 ubuntu systemd-journald[379]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.2M, 71.2M free.
+1月 09 21:33:13 ubuntu systemd-journald[379]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 39.411ms for 1841 entries.
+1月 09 21:33:13 ubuntu systemd-journald[379]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 344.1M, max 2.3G, 2.0G free.
+-- Reboot --
+3月 22 14:03:00 ubuntu systemd-journald[380]: Journal started
+3月 22 14:03:00 ubuntu systemd-journald[380]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.2M, 71.2M free.
+3月 22 14:03:00 ubuntu systemd-journald[380]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 97.121ms for 1840 entries.
+3月 22 14:03:00 ubuntu systemd-journald[380]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 360.1M, max 2.3G, 2.0G free.
+3月 22 14:12:09 ubuntu systemd-journald[380]: Journal stopped
+3月 22 14:12:09 ubuntu systemd-journald[22981]: Journal started
+3月 22 14:12:09 ubuntu systemd-journald[22981]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 368.1M, max 2.3G, 2.0G free.
+3月 22 14:12:09 ubuntu systemd-journald[22981]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 368.1M, max 2.3G, 2.0G free.
+3月 22 14:13:29 ubuntu systemd-journald[22981]: Journal stopped
+-- Reboot --
+3月 22 14:13:40 ubuntu systemd-journald[381]: Journal started
+3月 22 14:13:40 ubuntu systemd-journald[381]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 22 14:13:40 ubuntu systemd-journald[381]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 38.161ms for 1835 entries.
+3月 22 14:13:40 ubuntu systemd-journald[381]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 368.1M, max 2.3G, 2.0G free.
+3月 22 14:22:49 ubuntu systemd-journald[381]: Journal stopped
+-- Reboot --
+3月 22 16:13:08 ubuntu systemd-journald[383]: Journal started
+3月 22 16:13:08 ubuntu systemd-journald[383]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 22 16:13:08 ubuntu systemd-journald[383]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 106.285ms for 1822 entries.
+3月 22 16:13:08 ubuntu systemd-journald[383]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 376.1M, max 2.3G, 2.0G free.
+3月 22 17:38:01 ubuntu systemd-journald[383]: Journal stopped
+-- Reboot --
+3月 25 10:17:57 ubuntu systemd-journald[382]: Journal started
+3月 25 10:17:57 ubuntu systemd-journald[382]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 25 10:17:57 ubuntu systemd-journald[382]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 245.449ms for 1851 entries.
+3月 25 10:17:57 ubuntu systemd-journald[382]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 376.1M, max 2.3G, 2.0G free.
+3月 25 10:36:30 ubuntu systemd-journald[382]: Journal stopped
+-- Reboot --
+3月 25 10:45:09 ubuntu systemd-journald[382]: Journal started
+3月 25 10:45:09 ubuntu systemd-journald[382]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 25 10:45:09 ubuntu systemd-journald[382]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 136.470ms for 1834 entries.
+3月 25 10:45:09 ubuntu systemd-journald[382]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 400.1M, max 2.3G, 2.0G free.
+-- Reboot --
+3月 28 10:02:47 ubuntu systemd-journald[382]: Journal started
+3月 28 10:02:47 ubuntu systemd-journald[382]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 28 10:02:47 ubuntu systemd-journald[382]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 198.672ms for 1847 entries.
+3月 28 10:02:47 ubuntu systemd-journald[382]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 400.1M, max 2.3G, 2.0G free.
+-- Reboot --
+3月 28 14:59:38 ubuntu systemd-journald[382]: Journal started
+3月 28 14:59:38 ubuntu systemd-journald[382]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 28 14:59:38 ubuntu systemd-journald[382]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 54.742ms for 1851 entries.
+3月 28 14:59:38 ubuntu systemd-journald[382]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 432.1M, max 2.3G, 1.9G free.
+3月 28 15:53:55 ubuntu systemd-journald[382]: Journal stopped
+-- Reboot --
+3月 28 16:17:37 ubuntu systemd-journald[361]: Journal started
+3月 28 16:17:37 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 28 16:17:37 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 179.824ms for 1846 entries.
+3月 28 16:17:37 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 456.1M, max 2.3G, 1.9G free.
+3月 28 17:29:22 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+4月 01 10:14:12 ubuntu systemd-journald[360]: Journal started
+4月 01 10:14:12 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 01 10:14:12 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 175.572ms for 1842 entries.
+4月 01 10:14:12 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 472.1M, max 2.3G, 1.9G free.
+4月 01 10:21:53 ubuntu systemd-journald[360]: Journal stopped
+4月 01 10:21:54 ubuntu systemd-journald[7840]: Journal started
+4月 01 10:21:54 ubuntu systemd-journald[7840]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 488.1M, max 2.3G, 1.9G free.
+4月 01 10:21:54 ubuntu systemd-journald[7840]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 488.1M, max 2.3G, 1.9G free.
+4月 01 10:24:20 ubuntu systemd-journald[7840]: Journal stopped
+-- Reboot --
+4月 01 10:24:54 ubuntu systemd-journald[361]: Journal started
+4月 01 10:24:54 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 01 10:24:54 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 129.210ms for 1834 entries.
+4月 01 10:24:54 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 488.1M, max 2.3G, 1.9G free.
+4月 01 12:03:44 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+4月 02 08:51:49 ubuntu systemd-journald[361]: Journal started
+4月 02 08:51:49 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 02 08:51:49 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 80.567ms for 1831 entries.
+4月 02 08:51:49 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 504.1M, max 2.3G, 1.9G free.
+-- Reboot --
+4月 02 09:04:28 ubuntu systemd-journald[361]: Journal started
+4月 02 09:04:28 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 02 09:04:28 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 61.753ms for 1831 entries.
+4月 02 09:04:28 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 528.2M, max 2.3G, 1.8G free.
+-- Reboot --
+4月 02 09:10:25 ubuntu systemd-journald[360]: Journal started
+4月 02 09:10:25 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 02 09:10:25 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 17.984ms for 1832 entries.
+4月 02 09:10:25 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 544.2M, max 2.3G, 1.8G free.
+4月 02 09:29:38 ubuntu systemd-journald[360]: Journal stopped
+-- Reboot --
+4月 02 17:22:57 ubuntu systemd-journald[361]: Journal started
+4月 02 17:22:57 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 02 17:22:57 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 99.191ms for 1747 entries.
+4月 02 17:22:57 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 560.2M, max 2.3G, 1.8G free.
+4月 02 17:51:14 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+4月 02 17:51:26 ubuntu systemd-journald[361]: Journal started
+4月 02 17:51:26 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 02 17:51:26 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 46.210ms for 1784 entries.
+4月 02 17:51:26 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 576.2M, max 2.3G, 1.8G free.
+-- Reboot --
+4月 06 08:17:07 ubuntu systemd-journald[360]: Journal started
+4月 06 08:17:07 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 06 08:17:07 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 45.740ms for 1795 entries.
+4月 06 08:17:07 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 600.2M, max 2.3G, 1.8G free.
+-- Reboot --
+4月 13 08:09:34 ubuntu systemd-journald[359]: Journal started
+4月 13 08:09:34 ubuntu systemd-journald[359]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 13 08:09:35 ubuntu systemd-journald[359]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 30.870ms for 1831 entries.
+4月 13 08:09:35 ubuntu systemd-journald[359]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 624.2M, max 2.3G, 1.7G free.
+4月 13 08:30:02 ubuntu systemd-journald[359]: Journal stopped
+-- Reboot --
+4月 13 08:30:16 ubuntu systemd-journald[361]: Journal started
+4月 13 08:30:16 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 13 08:30:17 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 40.890ms for 1828 entries.
+4月 13 08:30:17 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 632.2M, max 2.3G, 1.7G free.
+-- Reboot --
+4月 13 10:23:22 ubuntu systemd-journald[360]: Journal started
+4月 13 10:23:22 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 13 10:23:22 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 103.888ms for 1838 entries.
+4月 13 10:23:22 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 648.2M, max 2.3G, 1.7G free.
+-- Reboot --
+4月 13 14:46:30 ubuntu systemd-journald[362]: Journal started
+4月 13 14:46:30 ubuntu systemd-journald[362]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 13 14:46:30 ubuntu systemd-journald[362]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 9.368ms for 1830 entries.
+4月 13 14:46:30 ubuntu systemd-journald[362]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 656.2M, max 2.3G, 1.7G free.
+4月 13 15:21:58 ubuntu systemd-journald[362]: Journal stopped
+-- Reboot --
+4月 15 10:16:57 ubuntu systemd-journald[362]: Journal started
+4月 15 10:16:57 ubuntu systemd-journald[362]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 15 10:16:57 ubuntu systemd-journald[362]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 64.964ms for 1833 entries.
+4月 15 10:16:57 ubuntu systemd-journald[362]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 656.2M, max 2.3G, 1.7G free.
+-- Reboot --
+4月 20 08:14:36 ubuntu systemd-journald[361]: Journal started
+4月 20 08:14:36 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 20 08:14:36 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 51.375ms for 1849 entries.
+4月 20 08:14:36 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 680.2M, max 2.3G, 1.7G free.
+4月 20 08:22:51 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+4月 20 08:23:03 ubuntu systemd-journald[360]: Journal started
+4月 20 08:23:03 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 20 08:23:03 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 23.988ms for 1835 entries.
+4月 20 08:23:03 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 696.2M, max 2.3G, 1.7G free.
+-- Reboot --
+4月 27 08:18:11 ubuntu systemd-journald[361]: Journal started
+4月 27 08:18:11 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 27 08:18:12 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 56.827ms for 1839 entries.
+4月 27 08:18:12 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 704.2M, max 2.3G, 1.7G free.
+4月 27 10:50:17 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+4月 27 11:06:58 ubuntu systemd-journald[360]: Journal started
+4月 27 11:06:58 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 27 11:06:59 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 177.318ms for 1844 entries.
+4月 27 11:06:59 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 720.2M, max 2.3G, 1.6G free.
+4月 27 11:20:11 ubuntu systemd-journald[360]: Journal stopped
+-- Reboot --
+4月 27 14:11:28 ubuntu systemd-journald[360]: Journal started
+4月 27 14:11:28 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 27 14:11:28 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 104.686ms for 1840 entries.
+4月 27 14:11:28 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 728.2M, max 2.3G, 1.6G free.
+4月 27 15:05:05 ubuntu systemd-journald[360]: Journal stopped
+-- Reboot --
+4月 27 15:05:16 ubuntu systemd-journald[361]: Journal started
+4月 27 15:05:16 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 27 15:05:16 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 46.636ms for 1774 entries.
+4月 27 15:05:16 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 744.2M, max 2.3G, 1.6G free.
+4月 27 16:02:18 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+4月 28 21:00:36 ubuntu systemd-journald[360]: Journal started
+4月 28 21:00:36 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 28 21:00:36 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 213.555ms for 1848 entries.
+4月 28 21:00:36 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 752.2M, max 2.3G, 1.6G free.
+4月 28 21:01:52 ubuntu systemd-journald[360]: Journal stopped
+-- Reboot --
+5月 06 10:06:10 ubuntu systemd-journald[360]: Journal started
+5月 06 10:06:10 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 06 10:06:10 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 273.412ms for 1744 entries.
+5月 06 10:06:10 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 768.2M, max 2.3G, 1.6G free.
+5月 06 10:16:36 ubuntu systemd-journald[360]: Journal stopped
+5月 06 10:16:36 ubuntu systemd-journald[18937]: Journal started
+5月 06 10:16:36 ubuntu systemd-journald[18937]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 784.2M, max 2.3G, 1.6G free.
+5月 06 10:16:36 ubuntu systemd-journald[18937]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 784.2M, max 2.3G, 1.6G free.
+5月 06 10:17:24 ubuntu systemd-journald[18937]: Journal stopped
+-- Reboot --
+5月 06 10:17:36 ubuntu systemd-journald[360]: Journal started
+5月 06 10:17:36 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 06 10:17:36 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 40.500ms for 1830 entries.
+5月 06 10:17:36 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 784.2M, max 2.3G, 1.6G free.
+5月 06 11:20:33 ubuntu systemd-journald[360]: Journal stopped
+-- Reboot --
+5月 07 08:13:40 ubuntu systemd-journald[362]: Journal started
+5月 07 08:13:40 ubuntu systemd-journald[362]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 07 08:13:40 ubuntu systemd-journald[362]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 66.049ms for 1842 entries.
+5月 07 08:13:40 ubuntu systemd-journald[362]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 800.3M, max 2.3G, 1.6G free.
+-- Reboot --
+5月 08 14:53:42 ubuntu systemd-journald[361]: Journal started
+5月 08 14:53:42 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 08 14:53:42 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 57.863ms for 1843 entries.
+5月 08 14:53:42 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 816.3M, max 2.3G, 1.6G free.
+5月 08 14:55:09 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+5月 08 15:54:00 ubuntu systemd-journald[360]: Journal started
+5月 08 15:54:00 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 08 15:54:00 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 178.756ms for 1848 entries.
+5月 08 15:54:00 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 832.3M, max 2.3G, 1.5G free.
+5月 08 16:26:57 ubuntu systemd-journald[360]: Journal stopped
+-- Reboot --
+5月 08 16:27:08 ubuntu systemd-journald[360]: Journal started
+5月 08 16:27:08 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 08 16:27:08 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 30.277ms for 1831 entries.
+5月 08 16:27:08 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 848.3M, max 2.3G, 1.5G free.
+5月 08 17:02:56 ubuntu systemd-journald[360]: Journal stopped
+-- Reboot --
+5月 14 20:51:40 ubuntu systemd-journald[361]: Journal started
+5月 14 20:51:40 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 14 20:51:40 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 73.652ms for 1828 entries.
+5月 14 20:51:40 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 864.3M, max 2.3G, 1.5G free.
+-- Reboot --
+5月 15 00:06:10 ubuntu systemd-journald[361]: Journal started
+5月 15 00:06:10 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 15 00:06:10 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 7.602ms for 1839 entries.
+5月 15 00:06:10 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 872.3M, max 2.3G, 1.5G free.
+5月 15 00:09:21 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+5月 15 00:15:03 ubuntu systemd-journald[360]: Journal started
+5月 15 00:15:03 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 15 00:15:03 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 58.095ms for 1793 entries.
+5月 15 00:15:03 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 888.3M, max 2.3G, 1.5G free.
+5月 15 00:18:03 ubuntu systemd-journald[360]: Journal stopped
+-- Reboot --
+5月 15 10:43:37 ubuntu systemd-journald[361]: Journal started
+5月 15 10:43:37 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 15 10:43:37 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 90.887ms for 1836 entries.
+5月 15 10:43:37 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 896.3M, max 2.3G, 1.5G free.
+5月 15 13:21:33 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+5月 15 15:15:38 ubuntu systemd-journald[362]: Journal started
+5月 15 15:15:38 ubuntu systemd-journald[362]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 15 15:15:38 ubuntu systemd-journald[362]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 89.219ms for 1818 entries.
+5月 15 15:15:38 ubuntu systemd-journald[362]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 912.3M, max 2.3G, 1.5G free.
+5月 15 15:16:45 ubuntu systemd-journald[362]: Journal stopped
+-- Reboot --
+5月 15 16:28:24 ubuntu systemd-journald[361]: Journal started
+5月 15 16:28:24 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 15 16:28:24 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 122.431ms for 1754 entries.
+5月 15 16:28:24 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 920.3M, max 2.3G, 1.4G free.
+5月 15 17:59:29 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+5月 15 21:27:11 ubuntu systemd-journald[362]: Journal started
+5月 15 21:27:11 ubuntu systemd-journald[362]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 15 21:27:11 ubuntu systemd-journald[362]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 89.609ms for 1838 entries.
+5月 15 21:27:11 ubuntu systemd-journald[362]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 920.3M, max 2.3G, 1.4G free.
+5月 15 22:59:16 ubuntu systemd-journald[362]: Journal stopped
+-- Reboot --
+5月 31 15:28:42 ubuntu systemd-journald[362]: Journal started
+5月 31 15:28:42 ubuntu systemd-journald[362]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 31 15:28:42 ubuntu systemd-journald[362]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 116.521ms for 1831 entries.
+5月 31 15:28:42 ubuntu systemd-journald[362]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 920.3M, max 2.3G, 1.4G free.
+5月 31 16:19:39 ubuntu systemd-journald[362]: Journal stopped
+-- Reboot --
+5月 31 16:19:51 ubuntu systemd-journald[361]: Journal started
+5月 31 16:19:51 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 31 16:19:51 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 82.503ms for 1831 entries.
+5月 31 16:19:51 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 928.3M, max 2.3G, 1.4G free.
+-- Reboot --
+5月 31 21:00:51 ubuntu systemd-journald[360]: Journal started
+5月 31 21:00:51 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+5月 31 21:00:52 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 13.839ms for 1840 entries.
+5月 31 21:00:52 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 928.3M, max 2.3G, 1.4G free.
+-- Reboot --
+6月 01 23:20:06 ubuntu systemd-journald[360]: Journal started
+6月 01 23:20:06 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+6月 01 23:20:06 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 56.787ms for 1852 entries.
+6月 01 23:20:06 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 920.3M, max 2.3G, 1.4G free.
+6月 02 00:27:51 ubuntu systemd-journald[360]: Journal stopped
+-- Reboot --
+6月 06 14:12:24 ubuntu systemd-journald[361]: Journal started
+6月 06 14:12:24 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+6月 06 14:12:25 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 80.452ms for 1843 entries.
+6月 06 14:12:25 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 920.3M, max 2.3G, 1.4G free.
+6月 06 15:33:48 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+6月 06 15:39:18 ubuntu systemd-journald[360]: Journal started
+6月 06 15:39:18 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+6月 06 15:39:19 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 212.866ms for 1851 entries.
+6月 06 15:39:19 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 928.3M, max 2.3G, 1.4G free.
+6月 06 15:42:31 ubuntu systemd-journald[360]: Journal stopped
+-- Reboot --
+6月 06 15:43:55 ubuntu systemd-journald[360]: Journal started
+6月 06 15:43:55 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+6月 06 15:43:55 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 173.974ms for 1844 entries.
+6月 06 15:43:55 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 928.3M, max 2.3G, 1.4G free.
+-- Reboot --
+6月 15 14:08:41 ubuntu systemd-journald[360]: Journal started
+6月 15 14:08:41 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+6月 15 14:08:41 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 32.580ms for 1835 entries.
+6月 15 14:08:41 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 928.3M, max 2.3G, 1.4G free.
+6月 15 16:32:45 ubuntu systemd-journald[360]: Journal stopped
+-- Reboot --
+6月 16 14:48:25 ubuntu systemd-journald[360]: Journal started
+6月 16 14:48:25 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+6月 16 14:48:25 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 81.476ms for 1842 entries.
+6月 16 14:48:25 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 928.3M, max 2.3G, 1.4G free.
+-- Reboot --
+2月 25 16:36:11 ubuntu systemd-journald[360]: Journal started
+2月 25 16:36:11 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+2月 25 16:36:11 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 18.411ms for 1822 entries.
+2月 25 16:36:11 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 936.3M, max 2.3G, 1.4G free.
+-- Reboot --
+3月 27 17:52:45 ubuntu systemd-journald[363]: Journal started
+3月 27 17:52:45 ubuntu systemd-journald[363]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 27 17:52:45 ubuntu systemd-journald[363]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 12.250ms for 1823 entries.
+3月 27 17:52:45 ubuntu systemd-journald[363]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 936.3M, max 2.3G, 1.4G free.
+3月 27 17:53:12 ubuntu systemd-journald[363]: Forwarding to syslog missed 90 messages.
+-- Reboot --
+3月 30 14:05:39 ubuntu systemd-journald[360]: Journal started
+3月 30 14:05:39 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 30 14:05:39 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 9.576ms for 1825 entries.
+3月 30 14:05:39 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 936.3M, max 2.3G, 1.4G free.
+3月 30 14:06:34 ubuntu systemd-journald[360]: Forwarding to syslog missed 88 messages.
+3月 30 14:44:06 ubuntu systemd-journald[360]: Journal stopped
+-- Reboot --
+3月 30 14:44:30 ubuntu systemd-journald[361]: Journal started
+3月 30 14:44:30 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 30 14:44:31 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 43.829ms for 1824 entries.
+3月 30 14:44:31 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 936.3M, max 2.3G, 1.4G free.
+3月 30 14:51:20 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+3月 30 15:12:17 ubuntu systemd-journald[361]: Journal started
+3月 30 15:12:17 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 30 15:12:17 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 88.019ms for 1751 entries.
+3月 30 15:12:17 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 944.3M, max 2.3G, 1.4G free.
+3月 30 15:13:00 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+3月 30 15:18:38 ubuntu systemd-journald[359]: Journal started
+3月 30 15:18:38 ubuntu systemd-journald[359]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 30 15:18:38 ubuntu systemd-journald[359]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 81.002ms for 1831 entries.
+3月 30 15:18:38 ubuntu systemd-journald[359]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 944.3M, max 2.3G, 1.4G free.
+3月 30 15:19:05 ubuntu systemd-journald[359]: Forwarding to syslog missed 14 messages.
+3月 30 15:20:00 ubuntu systemd-journald[359]: Journal stopped
+-- Reboot --
+3月 30 22:57:11 ubuntu systemd-journald[361]: Journal started
+3月 30 22:57:11 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 30 22:57:11 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 182.866ms for 1749 entries.
+3月 30 22:57:11 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 944.3M, max 2.3G, 1.4G free.
+3月 30 22:59:17 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+3月 30 23:00:43 ubuntu systemd-journald[361]: Journal started
+3月 30 23:00:43 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 30 23:00:43 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 81.442ms for 1741 entries.
+3月 30 23:00:43 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 952.3M, max 2.3G, 1.4G free.
+3月 30 23:01:10 ubuntu systemd-journald[361]: Forwarding to syslog missed 12 messages.
+3月 30 23:02:25 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+3月 30 23:05:24 ubuntu systemd-journald[361]: Journal started
+3月 30 23:05:24 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 30 23:05:24 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 71.743ms for 1826 entries.
+3月 30 23:05:24 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 952.3M, max 2.3G, 1.4G free.
+3月 30 23:05:53 ubuntu systemd-journald[361]: Forwarding to syslog missed 61 messages.
+3月 30 23:14:10 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+3月 31 18:40:16 ubuntu systemd-journald[360]: Journal started
+3月 31 18:40:16 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 31 18:40:17 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 86.496ms for 1838 entries.
+3月 31 18:40:17 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 960.3M, max 2.3G, 1.4G free.
+3月 31 18:40:41 ubuntu systemd-journald[360]: Forwarding to syslog missed 52 messages.
+3月 31 18:53:36 ubuntu systemd-journald[360]: Journal stopped
+-- Reboot --
+3月 31 18:54:07 ubuntu systemd-journald[362]: Journal started
+3月 31 18:54:07 ubuntu systemd-journald[362]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 31 18:54:07 ubuntu systemd-journald[362]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 259.638ms for 1838 entries.
+3月 31 18:54:07 ubuntu systemd-journald[362]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 960.3M, max 2.3G, 1.4G free.
+3月 31 19:01:43 ubuntu systemd-journald[362]: Journal stopped
+-- Reboot --
+3月 31 19:03:58 ubuntu systemd-journald[360]: Journal started
+3月 31 19:03:58 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 31 19:03:58 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 116.483ms for 1832 entries.
+3月 31 19:03:58 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 968.3M, max 2.3G, 1.4G free.
+3月 31 19:04:25 ubuntu systemd-journald[360]: Forwarding to syslog missed 120 messages.
+3月 31 19:26:11 ubuntu systemd-journald[360]: Journal stopped
+-- Reboot --
+3月 31 19:27:33 ubuntu systemd-journald[360]: Journal started
+3月 31 19:27:33 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 31 19:27:33 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 180.271ms for 1837 entries.
+3月 31 19:27:33 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 976.3M, max 2.3G, 1.4G free.
+3月 31 19:28:01 ubuntu systemd-journald[360]: Forwarding to syslog missed 74 messages.
+-- Reboot --
+3月 31 19:43:28 ubuntu systemd-journald[360]: Journal started
+3月 31 19:43:28 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 31 19:43:28 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 14.729ms for 1831 entries.
+3月 31 19:43:28 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 976.3M, max 2.3G, 1.4G free.
+3月 31 19:43:55 ubuntu systemd-journald[360]: Forwarding to syslog missed 169 messages.
+3月 31 19:55:18 ubuntu systemd-journald[360]: Journal stopped
+3月 31 19:55:18 ubuntu systemd-journald[28948]: Journal started
+3月 31 19:55:18 ubuntu systemd-journald[28948]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 976.3M, max 2.3G, 1.4G free.
+3月 31 19:55:18 ubuntu systemd-journald[28948]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 976.3M, max 2.3G, 1.4G free.
+3月 31 19:57:59 ubuntu systemd-journald[28948]: Journal stopped
+-- Reboot --
+3月 31 19:58:12 ubuntu systemd-journald[361]: Journal started
+3月 31 19:58:12 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 31 19:58:12 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 44.981ms for 1835 entries.
+3月 31 19:58:12 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 984.3M, max 2.3G, 1.4G free.
+3月 31 19:58:45 ubuntu systemd-journald[361]: Forwarding to syslog missed 19 messages.
+3月 31 20:10:02 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+3月 31 20:24:32 ubuntu systemd-journald[361]: Journal started
+3月 31 20:24:32 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+3月 31 20:24:32 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 52.280ms for 1827 entries.
+3月 31 20:24:32 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 976.3M, max 2.3G, 1.4G free.
+3月 31 20:25:01 ubuntu systemd-journald[361]: Forwarding to syslog missed 618 messages.
+3月 31 21:06:53 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+4月 02 17:05:01 ubuntu systemd-journald[362]: Journal started
+4月 02 17:05:01 ubuntu systemd-journald[362]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 02 17:05:01 ubuntu systemd-journald[362]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 112.580ms for 1831 entries.
+4月 02 17:05:01 ubuntu systemd-journald[362]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 984.3M, max 2.3G, 1.4G free.
+4月 02 17:05:29 ubuntu systemd-journald[362]: Forwarding to syslog missed 471 messages.
+4月 03 02:09:53 ubuntu systemd-journald[362]: Journal stopped
+-- Reboot --
+4月 14 20:21:33 ubuntu systemd-journald[361]: Journal started
+4月 14 20:21:33 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 14 20:21:33 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 106.275ms for 1837 entries.
+4月 14 20:21:33 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 984.3M, max 2.3G, 1.4G free.
+4月 14 20:22:02 ubuntu systemd-journald[361]: Forwarding to syslog missed 591 messages.
+4月 14 20:54:42 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+4月 14 20:55:24 ubuntu systemd-journald[360]: Journal started
+4月 14 20:55:24 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 14 20:55:24 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 75.129ms for 1833 entries.
+4月 14 20:55:24 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 1000.3M, max 2.3G, 1.4G free.
+4月 14 20:56:05 ubuntu systemd-journald[360]: Forwarding to syslog missed 168 messages.
+-- Reboot --
+4月 15 22:30:49 ubuntu systemd-journald[361]: Journal started
+4月 15 22:30:49 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 15 22:30:49 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 11.751ms for 1825 entries.
+4月 15 22:30:49 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 1000.3M, max 2.3G, 1.4G free.
+4月 15 22:31:34 ubuntu systemd-journald[361]: Forwarding to syslog missed 613 messages.
+4月 15 22:43:26 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+4月 15 22:43:39 ubuntu systemd-journald[362]: Journal started
+4月 15 22:43:39 ubuntu systemd-journald[362]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 15 22:43:39 ubuntu systemd-journald[362]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 39.983ms for 1831 entries.
+4月 15 22:43:39 ubuntu systemd-journald[362]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 1008.3M, max 2.3G, 1.4G free.
+4月 15 22:44:08 ubuntu systemd-journald[362]: Forwarding to syslog missed 344 messages.
+4月 15 23:08:27 ubuntu systemd-journald[362]: Journal stopped
+-- Reboot --
+4月 19 18:41:02 ubuntu systemd-journald[361]: Journal started
+4月 19 18:41:02 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 19 18:41:02 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 103.572ms for 1829 entries.
+4月 19 18:41:02 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 1008.3M, max 2.3G, 1.4G free.
+4月 19 18:41:32 ubuntu systemd-journald[361]: Forwarding to syslog missed 501 messages.
+4月 19 19:04:22 ubuntu systemd-journald[361]: Journal stopped
+-- Reboot --
+4月 19 19:16:13 ubuntu systemd-journald[360]: Journal started
+4月 19 19:16:13 ubuntu systemd-journald[360]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 19 19:16:13 ubuntu systemd-journald[360]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 126.530ms for 1833 entries.
+4月 19 19:16:13 ubuntu systemd-journald[360]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 1016.3M, max 2.3G, 1.4G free.
+4月 19 19:16:43 ubuntu systemd-journald[360]: Forwarding to syslog missed 638 messages.
+4月 19 19:25:53 ubuntu systemd-journald[360]: Journal stopped
+-- Reboot --
+4月 21 14:58:03 ubuntu systemd-journald[361]: Journal started
+4月 21 14:58:03 ubuntu systemd-journald[361]: Runtime Journal (/run/log/journal/b911d30da65c4516a787c245720dc3ed) is 8.0M, max 79.1M, 71.1M free.
+4月 21 14:58:03 ubuntu systemd-journald[361]: Time spent on flushing to /var/log/journal/b911d30da65c4516a787c245720dc3ed is 139.215ms for 1827 entries.
+4月 21 14:58:03 ubuntu systemd-journald[361]: System Journal (/var/log/journal/b911d30da65c4516a787c245720dc3ed) is 1.0G, max 2.3G, 1.3G free.
+4月 21 14:58:30 ubuntu systemd-journald[361]: Forwarding to syslog missed 322 messages.
+
