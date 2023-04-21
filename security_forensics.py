@@ -22,24 +22,25 @@ if __name__ == "__main__":
                         )
     parser.add_argument('-a', '--all', action='store_true', help='运行所有检查(Run all checks)')
     parser.add_argument('--user', action='store_true', help='备份用户信息(Back up users\' information)')
-    parser.add_argument('--systemfile', action='store_true', help='备份重要系统文件(Back up important system files)')
+    parser.add_argument('--sysfile', action='store_true', help='备份重要系统文件(Back up important system files)')
     parser.add_argument('--alias', action='store_true', help='检查Alias(Check aliases)')
     parser.add_argument('--backdoor', action='store_true', help='检查后门(Check for backdoors)')
     parser.add_argument('--ssh', action='store_true', help='检查SSH(Check ssh)')
-    parser.add_argument('--process', action='store_true', help='检查进程(Check processes)')
-    parser.add_argument('--connection', action='store_true', help='检查网络连接(Check net connections)')
+    parser.add_argument('--proc', action='store_true', help='检查进程(Check processes)')
+    parser.add_argument('--conn', action='store_true', help='检查网络连接(Check net connections)')
     parser.add_argument('--login', action='store_true', help='检查用户登录日志(Check user login logs)')
-    parser.add_argument('--operation', action='store_true', help='检查用户历史操作(Check user history operations)')
+    parser.add_argument('--op', action='store_true', help='检查用户历史操作(Check user history operations)')
     parser.add_argument('--server', action='store_true', help='检查web服务器(Check web servers)')
     parser.add_argument('--file', action='store_true', help='检查异常文件(Check files)')
     parser.add_argument('--startup', action='store_true', help='检查系统启动项(Check startups)')
-    parser.add_argument('--package', action='store_true', help='检查应用程序包(Check app packages)')
+    parser.add_argument('--pkg', action='store_true', help='检查应用程序包(Check app packages)')
 
     args = parser.parse_args()
 
     if len(sys.argv) == 1:
         parser.print_help()
         print("\n*请使用root模式运行(Please run in root mode)\n")
+        print("*请使用'./python security_forensics.py'来避免被系统劫持影响(Please use '. /python security_forensics.py' to avoid being affected by system hijacking)\n")
         sys.exit()
 
     # get host information
@@ -97,7 +98,7 @@ if __name__ == "__main__":
         if args.user:
             get_users_info.main()
             print()
-        if args.systemfile:
+        if args.sysfile:
             back_up_important_system_files.main()
             print()
         if args.backdoor:
@@ -106,16 +107,16 @@ if __name__ == "__main__":
         if args.ssh:
             check_ssh.main()
             print()
-        if args.process:
+        if args.proc:
             check_process.main()
             print()
-        if args.connection:
+        if args.conn:
             check_connections.main()
             print()
         if args.login:
             check_login.main()
             print()
-        if args.operation:
+        if args.op:
             check_operations.main()
             print()
         if args.server:
@@ -127,7 +128,7 @@ if __name__ == "__main__":
         if args.startup:
             check_startups.main()
             print()
-        if args.package:
+        if args.pkg:
             check_app_packages.main()
             print()
 
