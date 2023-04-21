@@ -1,0 +1,21 @@
+-- Logs begin at Sat 2022-01-08 18:32:32 CST, end at Fri 2023-04-21 15:50:02 CST. --
+1月 09 19:26:07 ubuntu systemd[1]: Starting Load/Save RF Kill Switch Status...
+1月 09 19:26:07 ubuntu systemd[1]: Started Load/Save RF Kill Switch Status.
+1月 09 19:26:12 ubuntu systemd[1]: systemd-rfkill.service: Succeeded.
+-- Reboot --
+1月 09 21:33:14 ubuntu systemd[1]: Starting Load/Save RF Kill Switch Status...
+1月 09 21:33:14 ubuntu systemd[1]: Started Load/Save RF Kill Switch Status.
+1月 09 21:33:19 ubuntu systemd[1]: systemd-rfkill.service: Succeeded.
+-- Reboot --
+3月 25 10:17:59 ubuntu systemd[1]: Starting Load/Save RF Kill Switch Status...
+3月 25 10:17:59 ubuntu systemd[1]: Started Load/Save RF Kill Switch Status.
+3月 25 10:18:04 ubuntu systemd[1]: systemd-rfkill.service: Succeeded.
+-- Reboot --
+5月 15 15:15:39 ubuntu systemd[1]: Starting Load/Save RF Kill Switch Status...
+5月 15 15:15:39 ubuntu systemd[1]: Started Load/Save RF Kill Switch Status.
+5月 15 15:15:44 ubuntu systemd[1]: systemd-rfkill.service: Succeeded.
+-- Reboot --
+5月 15 16:28:25 ubuntu systemd[1]: Starting Load/Save RF Kill Switch Status...
+5月 15 16:28:25 ubuntu systemd[1]: Started Load/Save RF Kill Switch Status.
+5月 15 16:28:30 ubuntu systemd[1]: systemd-rfkill.service: Succeeded.
+

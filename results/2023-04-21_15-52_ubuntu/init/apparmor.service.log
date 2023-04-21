@@ -1,0 +1,535 @@
+-- Logs begin at Sat 2022-01-08 18:32:32 CST, end at Fri 2023-04-21 15:50:02 CST. --
+1月 09 21:33:15 ubuntu systemd[1]: Starting Load AppArmor profiles...
+1月 09 21:33:15 ubuntu apparmor.systemd[804]: Restarting AppArmor
+1月 09 21:33:15 ubuntu apparmor.systemd[804]: Reloading AppArmor profiles
+1月 09 21:33:15 ubuntu apparmor.systemd[817]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+1月 09 21:33:15 ubuntu apparmor.systemd[829]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+1月 09 21:33:15 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 22 14:03:02 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 22 14:03:02 ubuntu apparmor.systemd[801]: Restarting AppArmor
+3月 22 14:03:02 ubuntu apparmor.systemd[801]: Reloading AppArmor profiles
+3月 22 14:03:02 ubuntu apparmor.systemd[814]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 22 14:03:02 ubuntu apparmor.systemd[827]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 22 14:03:02 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 22 14:13:42 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 22 14:13:42 ubuntu apparmor.systemd[817]: Restarting AppArmor
+3月 22 14:13:42 ubuntu apparmor.systemd[817]: Reloading AppArmor profiles
+3月 22 14:13:42 ubuntu apparmor.systemd[830]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 22 14:13:42 ubuntu apparmor.systemd[842]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 22 14:13:42 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 22 16:13:10 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 22 16:13:10 ubuntu apparmor.systemd[817]: Restarting AppArmor
+3月 22 16:13:10 ubuntu apparmor.systemd[817]: Reloading AppArmor profiles
+3月 22 16:13:10 ubuntu apparmor.systemd[830]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 22 16:13:10 ubuntu apparmor.systemd[842]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 22 16:13:10 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 25 10:18:03 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 25 10:18:04 ubuntu apparmor.systemd[846]: Restarting AppArmor
+3月 25 10:18:04 ubuntu apparmor.systemd[846]: Reloading AppArmor profiles
+3月 25 10:18:04 ubuntu apparmor.systemd[859]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 25 10:18:04 ubuntu apparmor.systemd[871]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 25 10:18:04 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 25 10:45:15 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 25 10:45:15 ubuntu apparmor.systemd[846]: Restarting AppArmor
+3月 25 10:45:15 ubuntu apparmor.systemd[846]: Reloading AppArmor profiles
+3月 25 10:45:15 ubuntu apparmor.systemd[859]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 25 10:45:15 ubuntu apparmor.systemd[872]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 25 10:45:15 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 28 10:02:53 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 28 10:02:53 ubuntu apparmor.systemd[839]: Restarting AppArmor
+3月 28 10:02:53 ubuntu apparmor.systemd[839]: Reloading AppArmor profiles
+3月 28 10:02:53 ubuntu apparmor.systemd[852]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 28 10:02:53 ubuntu apparmor.systemd[864]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 28 10:02:53 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 28 14:59:43 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 28 14:59:43 ubuntu apparmor.systemd[837]: Restarting AppArmor
+3月 28 14:59:43 ubuntu apparmor.systemd[837]: Reloading AppArmor profiles
+3月 28 14:59:43 ubuntu apparmor.systemd[850]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 28 14:59:43 ubuntu apparmor.systemd[862]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 28 14:59:43 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 28 16:17:44 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 28 16:17:44 ubuntu apparmor.systemd[736]: Restarting AppArmor
+3月 28 16:17:44 ubuntu apparmor.systemd[736]: Reloading AppArmor profiles
+3月 28 16:17:44 ubuntu apparmor.systemd[752]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 28 16:17:44 ubuntu apparmor.systemd[761]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 28 16:17:45 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 01 10:14:19 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 01 10:14:19 ubuntu apparmor.systemd[789]: Restarting AppArmor
+4月 01 10:14:19 ubuntu apparmor.systemd[789]: Reloading AppArmor profiles
+4月 01 10:14:19 ubuntu apparmor.systemd[805]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 01 10:14:19 ubuntu apparmor.systemd[814]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 01 10:14:20 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 01 10:25:01 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 01 10:25:01 ubuntu apparmor.systemd[790]: Restarting AppArmor
+4月 01 10:25:01 ubuntu apparmor.systemd[790]: Reloading AppArmor profiles
+4月 01 10:25:01 ubuntu apparmor.systemd[806]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 01 10:25:01 ubuntu apparmor.systemd[815]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 01 10:25:01 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 02 08:51:51 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 02 08:51:51 ubuntu apparmor.systemd[791]: Restarting AppArmor
+4月 02 08:51:51 ubuntu apparmor.systemd[791]: Reloading AppArmor profiles
+4月 02 08:51:51 ubuntu apparmor.systemd[807]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 02 08:51:51 ubuntu apparmor.systemd[816]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 02 08:51:51 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 02 09:04:35 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 02 09:04:35 ubuntu apparmor.systemd[791]: Restarting AppArmor
+4月 02 09:04:35 ubuntu apparmor.systemd[791]: Reloading AppArmor profiles
+4月 02 09:04:35 ubuntu apparmor.systemd[807]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 02 09:04:35 ubuntu apparmor.systemd[816]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 02 09:04:36 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 02 09:10:27 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 02 09:10:27 ubuntu apparmor.systemd[792]: Restarting AppArmor
+4月 02 09:10:27 ubuntu apparmor.systemd[792]: Reloading AppArmor profiles
+4月 02 09:10:27 ubuntu apparmor.systemd[808]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 02 09:10:27 ubuntu apparmor.systemd[817]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 02 09:10:27 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 02 17:22:59 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 02 17:22:59 ubuntu apparmor.systemd[715]: Restarting AppArmor
+4月 02 17:22:59 ubuntu apparmor.systemd[715]: Reloading AppArmor profiles
+4月 02 17:22:59 ubuntu apparmor.systemd[732]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 02 17:22:59 ubuntu apparmor.systemd[741]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 02 17:22:59 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 02 17:51:28 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 02 17:51:28 ubuntu apparmor.systemd[791]: Restarting AppArmor
+4月 02 17:51:28 ubuntu apparmor.systemd[791]: Reloading AppArmor profiles
+4月 02 17:51:28 ubuntu apparmor.systemd[808]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 02 17:51:28 ubuntu apparmor.systemd[817]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 02 17:51:28 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 06 08:17:15 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 06 08:17:15 ubuntu apparmor.systemd[789]: Restarting AppArmor
+4月 06 08:17:15 ubuntu apparmor.systemd[789]: Reloading AppArmor profiles
+4月 06 08:17:15 ubuntu apparmor.systemd[805]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 06 08:17:15 ubuntu apparmor.systemd[814]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 06 08:17:16 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 13 08:09:37 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 13 08:09:37 ubuntu apparmor.systemd[736]: Restarting AppArmor
+4月 13 08:09:37 ubuntu apparmor.systemd[736]: Reloading AppArmor profiles
+4月 13 08:09:37 ubuntu apparmor.systemd[752]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 13 08:09:37 ubuntu apparmor.systemd[762]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 13 08:09:37 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 13 08:30:19 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 13 08:30:19 ubuntu apparmor.systemd[773]: Restarting AppArmor
+4月 13 08:30:19 ubuntu apparmor.systemd[773]: Reloading AppArmor profiles
+4月 13 08:30:19 ubuntu apparmor.systemd[792]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 13 08:30:19 ubuntu apparmor.systemd[803]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 13 08:30:19 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 13 10:23:36 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 13 10:23:36 ubuntu apparmor.systemd[792]: Restarting AppArmor
+4月 13 10:23:36 ubuntu apparmor.systemd[792]: Reloading AppArmor profiles
+4月 13 10:23:37 ubuntu apparmor.systemd[808]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 13 10:23:37 ubuntu apparmor.systemd[817]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 13 10:23:37 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 13 14:46:32 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 13 14:46:32 ubuntu apparmor.systemd[720]: Restarting AppArmor
+4月 13 14:46:32 ubuntu apparmor.systemd[720]: Reloading AppArmor profiles
+4月 13 14:46:32 ubuntu apparmor.systemd[735]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 13 14:46:32 ubuntu apparmor.systemd[746]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 13 14:46:32 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 15 10:16:59 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 15 10:16:59 ubuntu apparmor.systemd[737]: Restarting AppArmor
+4月 15 10:16:59 ubuntu apparmor.systemd[737]: Reloading AppArmor profiles
+4月 15 10:16:59 ubuntu apparmor.systemd[754]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 15 10:16:59 ubuntu apparmor.systemd[764]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 15 10:16:59 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 20 08:14:43 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 20 08:14:43 ubuntu apparmor.systemd[791]: Restarting AppArmor
+4月 20 08:14:43 ubuntu apparmor.systemd[791]: Reloading AppArmor profiles
+4月 20 08:14:43 ubuntu apparmor.systemd[807]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 20 08:14:43 ubuntu apparmor.systemd[816]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 20 08:14:44 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 20 08:23:05 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 20 08:23:05 ubuntu apparmor.systemd[741]: Restarting AppArmor
+4月 20 08:23:05 ubuntu apparmor.systemd[741]: Reloading AppArmor profiles
+4月 20 08:23:05 ubuntu apparmor.systemd[757]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 20 08:23:05 ubuntu apparmor.systemd[767]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 20 08:23:05 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 27 08:18:19 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 27 08:18:19 ubuntu apparmor.systemd[721]: Restarting AppArmor
+4月 27 08:18:19 ubuntu apparmor.systemd[721]: Reloading AppArmor profiles
+4月 27 08:18:19 ubuntu apparmor.systemd[738]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 27 08:18:19 ubuntu apparmor.systemd[747]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 27 08:18:19 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 27 11:07:07 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 27 11:07:07 ubuntu apparmor.systemd[784]: Restarting AppArmor
+4月 27 11:07:07 ubuntu apparmor.systemd[784]: Reloading AppArmor profiles
+4月 27 11:07:07 ubuntu apparmor.systemd[800]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 27 11:07:07 ubuntu apparmor.systemd[809]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 27 11:07:08 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 27 14:11:30 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 27 14:11:30 ubuntu apparmor.systemd[777]: Restarting AppArmor
+4月 27 14:11:30 ubuntu apparmor.systemd[777]: Reloading AppArmor profiles
+4月 27 14:11:30 ubuntu apparmor.systemd[793]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 27 14:11:30 ubuntu apparmor.systemd[802]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 27 14:11:30 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 27 15:05:18 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 27 15:05:18 ubuntu apparmor.systemd[738]: Restarting AppArmor
+4月 27 15:05:18 ubuntu apparmor.systemd[738]: Reloading AppArmor profiles
+4月 27 15:05:18 ubuntu apparmor.systemd[751]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 27 15:05:18 ubuntu apparmor.systemd[760]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 27 15:05:19 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 28 21:00:45 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 28 21:00:45 ubuntu apparmor.systemd[796]: Restarting AppArmor
+4月 28 21:00:45 ubuntu apparmor.systemd[796]: Reloading AppArmor profiles
+4月 28 21:00:45 ubuntu apparmor.systemd[812]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 28 21:00:45 ubuntu apparmor.systemd[821]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 28 21:00:45 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 06 10:06:14 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 06 10:06:14 ubuntu apparmor.systemd[797]: Restarting AppArmor
+5月 06 10:06:14 ubuntu apparmor.systemd[797]: Reloading AppArmor profiles
+5月 06 10:06:14 ubuntu apparmor.systemd[814]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 06 10:06:14 ubuntu apparmor.systemd[823]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 06 10:06:14 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 06 10:17:39 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 06 10:17:39 ubuntu apparmor.systemd[726]: Restarting AppArmor
+5月 06 10:17:39 ubuntu apparmor.systemd[726]: Reloading AppArmor profiles
+5月 06 10:17:39 ubuntu apparmor.systemd[741]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 06 10:17:39 ubuntu apparmor.systemd[751]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 06 10:17:39 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 07 08:13:42 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 07 08:13:42 ubuntu apparmor.systemd[752]: Restarting AppArmor
+5月 07 08:13:42 ubuntu apparmor.systemd[752]: Reloading AppArmor profiles
+5月 07 08:13:43 ubuntu apparmor.systemd[768]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 07 08:13:43 ubuntu apparmor.systemd[777]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 07 08:13:43 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 08 14:53:45 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 08 14:53:45 ubuntu apparmor.systemd[732]: Restarting AppArmor
+5月 08 14:53:45 ubuntu apparmor.systemd[732]: Reloading AppArmor profiles
+5月 08 14:53:45 ubuntu apparmor.systemd[745]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 08 14:53:45 ubuntu apparmor.systemd[757]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 08 14:53:45 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 08 15:54:09 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 08 15:54:09 ubuntu apparmor.systemd[725]: Restarting AppArmor
+5月 08 15:54:09 ubuntu apparmor.systemd[725]: Reloading AppArmor profiles
+5月 08 15:54:09 ubuntu apparmor.systemd[741]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 08 15:54:09 ubuntu apparmor.systemd[750]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 08 15:54:09 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 08 16:27:10 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 08 16:27:10 ubuntu apparmor.systemd[744]: Restarting AppArmor
+5月 08 16:27:10 ubuntu apparmor.systemd[744]: Reloading AppArmor profiles
+5月 08 16:27:10 ubuntu apparmor.systemd[760]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 08 16:27:10 ubuntu apparmor.systemd[770]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 08 16:27:10 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 14 20:51:42 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 14 20:51:42 ubuntu apparmor.systemd[748]: Restarting AppArmor
+5月 14 20:51:42 ubuntu apparmor.systemd[748]: Reloading AppArmor profiles
+5月 14 20:51:42 ubuntu apparmor.systemd[764]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 14 20:51:42 ubuntu apparmor.systemd[775]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 14 20:51:42 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 15 00:06:12 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 15 00:06:12 ubuntu apparmor.systemd[740]: Restarting AppArmor
+5月 15 00:06:12 ubuntu apparmor.systemd[740]: Reloading AppArmor profiles
+5月 15 00:06:12 ubuntu apparmor.systemd[753]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 15 00:06:12 ubuntu apparmor.systemd[766]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 15 00:06:12 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 15 00:15:05 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 15 00:15:05 ubuntu apparmor.systemd[799]: Restarting AppArmor
+5月 15 00:15:05 ubuntu apparmor.systemd[799]: Reloading AppArmor profiles
+5月 15 00:15:05 ubuntu apparmor.systemd[817]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 15 00:15:05 ubuntu apparmor.systemd[827]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 15 00:15:05 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 15 10:43:39 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 15 10:43:39 ubuntu apparmor.systemd[799]: Restarting AppArmor
+5月 15 10:43:39 ubuntu apparmor.systemd[799]: Reloading AppArmor profiles
+5月 15 10:43:39 ubuntu apparmor.systemd[815]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 15 10:43:39 ubuntu apparmor.systemd[825]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 15 10:43:39 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 15 15:15:40 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 15 15:15:40 ubuntu apparmor.systemd[749]: Restarting AppArmor
+5月 15 15:15:40 ubuntu apparmor.systemd[749]: Reloading AppArmor profiles
+5月 15 15:15:40 ubuntu apparmor.systemd[765]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 15 15:15:40 ubuntu apparmor.systemd[775]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 15 15:15:40 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 15 16:28:26 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 15 16:28:26 ubuntu apparmor.systemd[750]: Restarting AppArmor
+5月 15 16:28:26 ubuntu apparmor.systemd[750]: Reloading AppArmor profiles
+5月 15 16:28:26 ubuntu apparmor.systemd[767]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 15 16:28:26 ubuntu apparmor.systemd[777]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 15 16:28:26 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 15 21:27:13 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 15 21:27:13 ubuntu apparmor.systemd[747]: Restarting AppArmor
+5月 15 21:27:13 ubuntu apparmor.systemd[747]: Reloading AppArmor profiles
+5月 15 21:27:13 ubuntu apparmor.systemd[763]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 15 21:27:13 ubuntu apparmor.systemd[773]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 15 21:27:13 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 31 15:28:44 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 31 15:28:44 ubuntu apparmor.systemd[745]: Restarting AppArmor
+5月 31 15:28:44 ubuntu apparmor.systemd[745]: Reloading AppArmor profiles
+5月 31 15:28:44 ubuntu apparmor.systemd[761]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 31 15:28:44 ubuntu apparmor.systemd[774]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 31 15:28:44 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 31 16:19:53 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 31 16:19:53 ubuntu apparmor.systemd[798]: Restarting AppArmor
+5月 31 16:19:53 ubuntu apparmor.systemd[798]: Reloading AppArmor profiles
+5月 31 16:19:53 ubuntu apparmor.systemd[814]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 31 16:19:53 ubuntu apparmor.systemd[824]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 31 16:19:53 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+5月 31 21:00:55 ubuntu systemd[1]: Starting Load AppArmor profiles...
+5月 31 21:00:55 ubuntu apparmor.systemd[778]: Restarting AppArmor
+5月 31 21:00:55 ubuntu apparmor.systemd[778]: Reloading AppArmor profiles
+5月 31 21:00:55 ubuntu apparmor.systemd[791]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 31 21:00:55 ubuntu apparmor.systemd[804]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 31 21:00:55 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+6月 01 23:20:18 ubuntu systemd[1]: Starting Load AppArmor profiles...
+6月 01 23:20:18 ubuntu apparmor.systemd[794]: Restarting AppArmor
+6月 01 23:20:18 ubuntu apparmor.systemd[794]: Reloading AppArmor profiles
+6月 01 23:20:19 ubuntu apparmor.systemd[809]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+6月 01 23:20:19 ubuntu apparmor.systemd[820]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+6月 01 23:20:19 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+6月 06 14:12:33 ubuntu systemd[1]: Starting Load AppArmor profiles...
+6月 06 14:12:33 ubuntu apparmor.systemd[797]: Restarting AppArmor
+6月 06 14:12:33 ubuntu apparmor.systemd[797]: Reloading AppArmor profiles
+6月 06 14:12:33 ubuntu apparmor.systemd[814]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+6月 06 14:12:33 ubuntu apparmor.systemd[824]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+6月 06 14:12:34 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+6月 06 15:39:28 ubuntu systemd[1]: Starting Load AppArmor profiles...
+6月 06 15:39:28 ubuntu apparmor.systemd[794]: Restarting AppArmor
+6月 06 15:39:28 ubuntu apparmor.systemd[794]: Reloading AppArmor profiles
+6月 06 15:39:28 ubuntu apparmor.systemd[811]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+6月 06 15:39:28 ubuntu apparmor.systemd[824]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+6月 06 15:39:28 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+6月 06 15:44:07 ubuntu systemd[1]: Starting Load AppArmor profiles...
+6月 06 15:44:07 ubuntu apparmor.systemd[739]: Restarting AppArmor
+6月 06 15:44:07 ubuntu apparmor.systemd[739]: Reloading AppArmor profiles
+6月 06 15:44:07 ubuntu apparmor.systemd[755]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+6月 06 15:44:07 ubuntu apparmor.systemd[765]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+6月 06 15:44:08 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+6月 15 14:08:48 ubuntu systemd[1]: Starting Load AppArmor profiles...
+6月 15 14:08:48 ubuntu apparmor.systemd[796]: Restarting AppArmor
+6月 15 14:08:48 ubuntu apparmor.systemd[796]: Reloading AppArmor profiles
+6月 15 14:08:48 ubuntu apparmor.systemd[812]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+6月 15 14:08:48 ubuntu apparmor.systemd[822]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+6月 15 14:08:48 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+6月 16 14:48:28 ubuntu systemd[1]: Starting Load AppArmor profiles...
+6月 16 14:48:28 ubuntu apparmor.systemd[743]: Restarting AppArmor
+6月 16 14:48:28 ubuntu apparmor.systemd[743]: Reloading AppArmor profiles
+6月 16 14:48:28 ubuntu apparmor.systemd[759]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+6月 16 14:48:28 ubuntu apparmor.systemd[769]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+6月 16 14:48:28 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+2月 25 16:36:14 ubuntu systemd[1]: Starting Load AppArmor profiles...
+2月 25 16:36:14 ubuntu apparmor.systemd[741]: Restarting AppArmor
+2月 25 16:36:14 ubuntu apparmor.systemd[741]: Reloading AppArmor profiles
+2月 25 16:36:14 ubuntu apparmor.systemd[754]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+2月 25 16:36:14 ubuntu apparmor.systemd[770]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+2月 25 16:36:14 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 27 17:52:48 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 27 17:52:48 ubuntu apparmor.systemd[739]: Restarting AppArmor
+3月 27 17:52:48 ubuntu apparmor.systemd[739]: Reloading AppArmor profiles
+3月 27 17:52:48 ubuntu apparmor.systemd[756]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 27 17:52:48 ubuntu apparmor.systemd[766]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 27 17:52:48 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 30 14:05:42 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 30 14:05:42 ubuntu apparmor.systemd[739]: Restarting AppArmor
+3月 30 14:05:42 ubuntu apparmor.systemd[739]: Reloading AppArmor profiles
+3月 30 14:05:42 ubuntu apparmor.systemd[755]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 30 14:05:42 ubuntu apparmor.systemd[765]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 30 14:05:42 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 30 14:44:33 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 30 14:44:33 ubuntu apparmor.systemd[741]: Restarting AppArmor
+3月 30 14:44:33 ubuntu apparmor.systemd[741]: Reloading AppArmor profiles
+3月 30 14:44:33 ubuntu apparmor.systemd[757]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 30 14:44:33 ubuntu apparmor.systemd[767]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 30 14:44:33 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 30 15:12:19 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 30 15:12:19 ubuntu apparmor.systemd[738]: Restarting AppArmor
+3月 30 15:12:19 ubuntu apparmor.systemd[738]: Reloading AppArmor profiles
+3月 30 15:12:19 ubuntu apparmor.systemd[756]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 30 15:12:19 ubuntu apparmor.systemd[766]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 30 15:12:19 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 30 15:18:40 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 30 15:18:40 ubuntu apparmor.systemd[736]: Restarting AppArmor
+3月 30 15:18:40 ubuntu apparmor.systemd[736]: Reloading AppArmor profiles
+3月 30 15:18:40 ubuntu apparmor.systemd[752]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 30 15:18:40 ubuntu apparmor.systemd[763]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 30 15:18:40 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 30 22:57:13 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 30 22:57:13 ubuntu apparmor.systemd[791]: Restarting AppArmor
+3月 30 22:57:13 ubuntu apparmor.systemd[791]: Reloading AppArmor profiles
+3月 30 22:57:13 ubuntu apparmor.systemd[809]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 30 22:57:13 ubuntu apparmor.systemd[819]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 30 22:57:13 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 30 23:00:45 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 30 23:00:45 ubuntu apparmor.systemd[740]: Restarting AppArmor
+3月 30 23:00:45 ubuntu apparmor.systemd[740]: Reloading AppArmor profiles
+3月 30 23:00:45 ubuntu apparmor.systemd[757]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 30 23:00:45 ubuntu apparmor.systemd[769]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 30 23:00:45 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 30 23:05:26 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 30 23:05:26 ubuntu apparmor.systemd[781]: Restarting AppArmor
+3月 30 23:05:26 ubuntu apparmor.systemd[781]: Reloading AppArmor profiles
+3月 30 23:05:26 ubuntu apparmor.systemd[797]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 30 23:05:26 ubuntu apparmor.systemd[808]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 30 23:05:26 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 31 18:40:19 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 31 18:40:19 ubuntu apparmor.systemd[801]: Restarting AppArmor
+3月 31 18:40:19 ubuntu apparmor.systemd[801]: Reloading AppArmor profiles
+3月 31 18:40:19 ubuntu apparmor.systemd[817]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 31 18:40:19 ubuntu apparmor.systemd[827]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 31 18:40:19 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 31 18:54:15 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 31 18:54:16 ubuntu apparmor.systemd[797]: Restarting AppArmor
+3月 31 18:54:16 ubuntu apparmor.systemd[797]: Reloading AppArmor profiles
+3月 31 18:54:16 ubuntu apparmor.systemd[813]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 31 18:54:16 ubuntu apparmor.systemd[823]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 31 18:54:16 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 31 19:04:01 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 31 19:04:01 ubuntu apparmor.systemd[743]: Restarting AppArmor
+3月 31 19:04:01 ubuntu apparmor.systemd[743]: Reloading AppArmor profiles
+3月 31 19:04:01 ubuntu apparmor.systemd[759]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 31 19:04:01 ubuntu apparmor.systemd[770]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 31 19:04:01 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 31 19:27:35 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 31 19:27:35 ubuntu apparmor.systemd[793]: Restarting AppArmor
+3月 31 19:27:35 ubuntu apparmor.systemd[793]: Reloading AppArmor profiles
+3月 31 19:27:35 ubuntu apparmor.systemd[809]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 31 19:27:35 ubuntu apparmor.systemd[820]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 31 19:27:35 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 31 19:43:30 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 31 19:43:30 ubuntu apparmor.systemd[736]: Restarting AppArmor
+3月 31 19:43:30 ubuntu apparmor.systemd[736]: Reloading AppArmor profiles
+3月 31 19:43:30 ubuntu apparmor.systemd[752]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 31 19:43:30 ubuntu apparmor.systemd[764]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 31 19:43:30 ubuntu systemd[1]: Finished Load AppArmor profiles.
+3月 31 19:54:32 ubuntu systemd[1]: Stopping Load AppArmor profiles...
+3月 31 19:54:32 ubuntu systemd[1]: apparmor.service: Succeeded.
+3月 31 19:54:32 ubuntu systemd[1]: Stopped Load AppArmor profiles.
+3月 31 19:54:32 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 31 19:54:32 ubuntu apparmor.systemd[22982]: Restarting AppArmor
+3月 31 19:54:32 ubuntu apparmor.systemd[22982]: Reloading AppArmor profiles
+3月 31 19:54:32 ubuntu apparmor.systemd[22989]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 31 19:54:32 ubuntu apparmor.systemd[22999]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 31 19:54:37 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 31 19:58:13 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 31 19:58:13 ubuntu apparmor.systemd[762]: Restarting AppArmor
+3月 31 19:58:13 ubuntu apparmor.systemd[762]: Reloading AppArmor profiles
+3月 31 19:58:14 ubuntu apparmor.systemd[782]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 31 19:58:14 ubuntu apparmor.systemd[792]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 31 19:58:17 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+3月 31 20:24:34 ubuntu systemd[1]: Starting Load AppArmor profiles...
+3月 31 20:24:34 ubuntu apparmor.systemd[785]: Restarting AppArmor
+3月 31 20:24:34 ubuntu apparmor.systemd[785]: Reloading AppArmor profiles
+3月 31 20:24:34 ubuntu apparmor.systemd[804]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+3月 31 20:24:34 ubuntu apparmor.systemd[814]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+3月 31 20:24:34 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 02 17:05:04 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 02 17:05:04 ubuntu apparmor.systemd[786]: Restarting AppArmor
+4月 02 17:05:04 ubuntu apparmor.systemd[786]: Reloading AppArmor profiles
+4月 02 17:05:04 ubuntu apparmor.systemd[802]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 02 17:05:04 ubuntu apparmor.systemd[812]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 02 17:05:04 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 14 20:21:36 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 14 20:21:36 ubuntu apparmor.systemd[719]: Restarting AppArmor
+4月 14 20:21:36 ubuntu apparmor.systemd[719]: Reloading AppArmor profiles
+4月 14 20:21:36 ubuntu apparmor.systemd[735]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 14 20:21:36 ubuntu apparmor.systemd[745]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 14 20:21:36 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 14 20:55:32 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 14 20:55:32 ubuntu apparmor.systemd[782]: Restarting AppArmor
+4月 14 20:55:32 ubuntu apparmor.systemd[782]: Reloading AppArmor profiles
+4月 14 20:55:32 ubuntu apparmor.systemd[798]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 14 20:55:32 ubuntu apparmor.systemd[808]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 14 20:55:32 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 15 22:30:51 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 15 22:30:51 ubuntu apparmor.systemd[780]: Restarting AppArmor
+4月 15 22:30:51 ubuntu apparmor.systemd[780]: Reloading AppArmor profiles
+4月 15 22:30:51 ubuntu apparmor.systemd[796]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 15 22:30:51 ubuntu apparmor.systemd[806]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 15 22:30:51 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 15 22:43:41 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 15 22:43:41 ubuntu apparmor.systemd[789]: Restarting AppArmor
+4月 15 22:43:41 ubuntu apparmor.systemd[789]: Reloading AppArmor profiles
+4月 15 22:43:41 ubuntu apparmor.systemd[805]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 15 22:43:41 ubuntu apparmor.systemd[816]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 15 22:43:41 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 19 18:41:04 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 19 18:41:04 ubuntu apparmor.systemd[732]: Restarting AppArmor
+4月 19 18:41:04 ubuntu apparmor.systemd[732]: Reloading AppArmor profiles
+4月 19 18:41:04 ubuntu apparmor.systemd[748]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 19 18:41:04 ubuntu apparmor.systemd[761]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 19 18:41:04 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 19 19:16:15 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 19 19:16:15 ubuntu apparmor.systemd[782]: Restarting AppArmor
+4月 19 19:16:15 ubuntu apparmor.systemd[782]: Reloading AppArmor profiles
+4月 19 19:16:15 ubuntu apparmor.systemd[798]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 19 19:16:15 ubuntu apparmor.systemd[808]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 19 19:16:15 ubuntu systemd[1]: Finished Load AppArmor profiles.
+-- Reboot --
+4月 21 14:58:06 ubuntu systemd[1]: Starting Load AppArmor profiles...
+4月 21 14:58:06 ubuntu apparmor.systemd[767]: Restarting AppArmor
+4月 21 14:58:06 ubuntu apparmor.systemd[767]: Reloading AppArmor profiles
+4月 21 14:58:06 ubuntu apparmor.systemd[783]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 21 14:58:06 ubuntu apparmor.systemd[793]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+4月 21 14:58:06 ubuntu systemd[1]: Finished Load AppArmor profiles.
+

@@ -2,12 +2,22 @@ import os
 from subprocess import Popen, PIPE
 import re
 from geoip2.database import Reader
-
+from ipaddress import IPv4Address, AddressValueError
 from modules import log, output_result
 
 
 # 判断IP来源是否境外
+def is_private_ip(ip: str) -> bool:
+    try:
+        address = IPv4Address(ip)
+        return address.is_private
+    except AddressValueError:
+        return False
+
 def check_ip_country(ip: str) -> str:
+    if is_private_ip(ip):
+        return ''
+
     try:
         reader = Reader('./data/GeoLite2-Country.mmdb')
         response = reader.country(ip)

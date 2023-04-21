@@ -1,0 +1,205 @@
+Apr 14 20:21:46 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 20:21:54 ubuntu gdm-password]: gkr-pam: unable to locate daemon control file
+Apr 14 20:21:54 ubuntu gdm-password]: gkr-pam: stashed password to try later in open session
+Apr 14 20:21:54 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user ree by (uid=0)
+Apr 14 20:21:54 ubuntu systemd-logind[836]: New session 2 of user ree.
+Apr 14 20:21:54 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ree by (uid=0)
+Apr 14 20:21:54 ubuntu gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Apr 14 20:21:57 ubuntu gnome-keyring-daemon[1599]: The Secret Service was already initialized
+Apr 14 20:21:57 ubuntu gnome-keyring-daemon[1599]: The PKCS#11 component was already initialized
+Apr 14 20:22:02 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 20:22:06 ubuntu dbus-daemon[790]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Apr 14 20:21:58 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Apr 14 20:21:58 ubuntu systemd-logind[836]: Session c1 logged out. Waiting for processes to exit.
+Apr 14 20:21:58 ubuntu systemd-logind[836]: Removed session c1.
+Apr 14 20:21:59 ubuntu polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 14 20:22:01 ubuntu PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Apr 14 20:22:01 ubuntu PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Apr 14 20:22:31 ubuntu PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Apr 14 20:22:31 ubuntu PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Apr 14 20:22:35 ubuntu PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Apr 14 20:22:35 ubuntu PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Apr 14 20:22:55 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 14 20:22:55 ubuntu pkexec[3921]: ree: Executing command [USER=root] [TTY=unknown] [CWD=/home/ree] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr 14 20:23:11 ubuntu su: (to root) ree on pts/0
+Apr 14 20:23:11 ubuntu su: pam_unix(su:session): session opened for user root by (uid=1000)
+Apr 14 20:26:28 ubuntu su: pam_unix(su:session): session closed for user root
+Apr 14 20:28:52 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 14 20:28:52 ubuntu pkexec[9263]: ree: Executing command [USER=root] [TTY=unknown] [CWD=/home/ree] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr 14 20:30:02 ubuntu CRON[9280]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 14 20:30:02 ubuntu CRON[9280]: pam_unix(cron:session): session closed for user root
+Apr 14 20:37:03 ubuntu su: (to root) ree on pts/0
+Apr 14 20:37:03 ubuntu su: pam_unix(su:session): session opened for user root by (uid=1000)
+Apr 14 20:37:58 ubuntu sshd[945]: Received signal 15; terminating.
+Apr 14 20:37:58 ubuntu sshd[9668]: Server listening on 0.0.0.0 port 22.
+Apr 14 20:37:58 ubuntu sshd[9668]: Server listening on :: port 22.
+Apr 14 20:39:01 ubuntu CRON[9764]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 14 20:39:01 ubuntu CRON[9764]: pam_unix(cron:session): session closed for user root
+Apr 14 20:41:17 ubuntu sshd[9954]: Accepted password for root from 192.168.101.6 port 52361 ssh2
+Apr 14 20:41:17 ubuntu sshd[9954]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Apr 14 20:41:17 ubuntu systemd-logind[836]: New session 6 of user root.
+Apr 14 20:41:17 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Apr 14 20:41:38 ubuntu sshd[9954]: channel 3: open failed: connect failed: Connection refused
+Apr 14 20:41:39 ubuntu sshd[9954]: channel 4: open failed: connect failed: Connection refused
+Apr 14 20:41:40 ubuntu sshd[9954]: channel 3: open failed: connect failed: Connection refused
+Apr 14 20:41:41 ubuntu sshd[9954]: channel 4: open failed: connect failed: Connection refused
+Apr 14 20:41:42 ubuntu sshd[9954]: channel 3: open failed: connect failed: Connection refused
+Apr 14 20:41:43 ubuntu sshd[9954]: channel 4: open failed: connect failed: Connection refused
+Apr 14 20:41:44 ubuntu sshd[9954]: channel 3: open failed: connect failed: Connection refused
+Apr 14 20:41:45 ubuntu sshd[9954]: channel 4: open failed: connect failed: Connection refused
+Apr 14 20:41:46 ubuntu sshd[9954]: channel 3: open failed: connect failed: Connection refused
+Apr 14 20:41:46 ubuntu sshd[9954]: channel 5: open failed: connect failed: Connection refused
+Apr 14 20:41:46 ubuntu sshd[9954]: channel 6: open failed: connect failed: Connection refused
+Apr 14 20:41:47 ubuntu sshd[9954]: channel 4: open failed: connect failed: Connection refused
+Apr 14 20:41:48 ubuntu sshd[9954]: channel 3: open failed: connect failed: Connection refused
+Apr 14 20:41:48 ubuntu sshd[9954]: channel 5: open failed: connect failed: Connection refused
+Apr 14 20:41:49 ubuntu sshd[9954]: channel 4: open failed: connect failed: Connection refused
+Apr 14 20:41:50 ubuntu sshd[9954]: channel 3: open failed: connect failed: Connection refused
+Apr 14 20:41:50 ubuntu sshd[9954]: channel 5: open failed: connect failed: Connection refused
+Apr 14 20:41:51 ubuntu sshd[9954]: channel 4: open failed: connect failed: Connection refused
+Apr 14 20:41:53 ubuntu sshd[9954]: channel 3: open failed: connect failed: Connection refused
+Apr 14 20:41:53 ubuntu sshd[9954]: channel 5: open failed: connect failed: Connection refused
+Apr 14 20:41:53 ubuntu sshd[9954]: channel 6: open failed: connect failed: Connection refused
+Apr 14 20:41:53 ubuntu sshd[9954]: channel 4: open failed: connect failed: Connection refused
+Apr 14 20:41:55 ubuntu sshd[9954]: channel 3: open failed: connect failed: Connection refused
+Apr 14 20:41:55 ubuntu sshd[9954]: channel 5: open failed: connect failed: Connection refused
+Apr 14 20:41:55 ubuntu sshd[9954]: channel 6: open failed: connect failed: Connection refused
+Apr 14 20:41:55 ubuntu sshd[9954]: channel 4: open failed: connect failed: Connection refused
+Apr 14 20:41:56 ubuntu sshd[9954]: channel 7: open failed: connect failed: Connection refused
+Apr 14 20:41:57 ubuntu sshd[9954]: channel 3: open failed: connect failed: Connection refused
+Apr 14 20:41:57 ubuntu sshd[9954]: channel 5: open failed: connect failed: Connection refused
+Apr 14 20:41:57 ubuntu sshd[9954]: channel 4: open failed: connect failed: Connection refused
+Apr 14 20:41:58 ubuntu sshd[9954]: channel 6: open failed: connect failed: Connection refused
+Apr 14 20:41:59 ubuntu sshd[9954]: channel 3: open failed: connect failed: Connection refused
+Apr 14 20:41:59 ubuntu sshd[9954]: channel 5: open failed: connect failed: Connection refused
+Apr 14 20:42:00 ubuntu sshd[9954]: channel 4: open failed: connect failed: Connection refused
+Apr 14 20:42:01 ubuntu sshd[9954]: channel 3: open failed: connect failed: Connection refused
+Apr 14 20:42:01 ubuntu sshd[9954]: channel 5: open failed: connect failed: Connection refused
+Apr 14 20:42:01 ubuntu sshd[9954]: Received disconnect from 192.168.101.6 port 52361:11: disconnected by user
+Apr 14 20:42:01 ubuntu sshd[9954]: Disconnected from user root 192.168.101.6 port 52361
+Apr 14 20:42:01 ubuntu sshd[9954]: pam_unix(sshd:session): session closed for user root
+Apr 14 20:42:01 ubuntu systemd-logind[836]: Session 6 logged out. Waiting for processes to exit.
+Apr 14 20:42:01 ubuntu systemd-logind[836]: Removed session 6.
+Apr 14 20:42:38 ubuntu sshd[10122]: Accepted password for root from 192.168.101.6 port 52420 ssh2
+Apr 14 20:42:38 ubuntu sshd[10122]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Apr 14 20:42:38 ubuntu systemd-logind[836]: New session 8 of user root.
+Apr 14 20:42:38 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Apr 14 20:54:02 ubuntu su: pam_unix(su:session): session closed for user root
+Apr 14 20:54:39 ubuntu sshd[10122]: Exiting on signal 15
+Apr 14 20:54:39 ubuntu sshd[10122]: pam_unix(sshd:session): session closed for user root
+Apr 14 20:55:49 ubuntu systemd-logind[889]: New seat seat0.
+Apr 14 20:55:49 ubuntu systemd-logind[889]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 14 20:55:49 ubuntu systemd-logind[889]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Apr 14 20:55:49 ubuntu sshd[977]: Server listening on 0.0.0.0 port 22.
+Apr 14 20:55:49 ubuntu sshd[977]: Server listening on :: port 22.
+Apr 14 20:55:50 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Apr 14 20:55:50 ubuntu systemd-logind[889]: New session c1 of user gdm.
+Apr 14 20:55:50 ubuntu systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Apr 14 20:55:57 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 20:56:17 ubuntu dbus-daemon[859]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Apr 14 20:56:29 ubuntu gdm-password]: gkr-pam: unable to locate daemon control file
+Apr 14 20:56:29 ubuntu gdm-password]: gkr-pam: stashed password to try later in open session
+Apr 14 20:56:29 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user ree by (uid=0)
+Apr 14 20:56:29 ubuntu systemd-logind[889]: New session 2 of user ree.
+Apr 14 20:56:29 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ree by (uid=0)
+Apr 14 20:56:30 ubuntu gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Apr 14 20:56:33 ubuntu gnome-keyring-daemon[1614]: The Secret Service was already initialized
+Apr 14 20:56:33 ubuntu gnome-keyring-daemon[1614]: The PKCS#11 component was already initialized
+Apr 14 20:56:35 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 20:56:38 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Apr 14 20:56:38 ubuntu systemd-logind[889]: Session c1 logged out. Waiting for processes to exit.
+Apr 14 20:56:38 ubuntu systemd-logind[889]: Removed session c1.
+Apr 14 20:56:38 ubuntu polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 14 20:56:41 ubuntu PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Apr 14 20:56:41 ubuntu PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Apr 14 20:56:55 ubuntu dbus-daemon[859]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Apr 14 20:57:39 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 14 20:57:39 ubuntu pkexec[2986]: ree: Executing command [USER=root] [TTY=unknown] [CWD=/home/ree] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr 14 21:00:34 ubuntu su: (to root) ree on pts/0
+Apr 14 21:00:34 ubuntu su: pam_unix(su:session): session opened for user root by (uid=1000)
+Apr 14 21:06:27 ubuntu sudo:      ree : TTY=pts/2 ; PWD=/home/ree/MyWork/linux_security_forensics ; USER=root ; COMMAND=/usr/bin/apt install python3-pip
+Apr 14 21:06:27 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 21:07:18 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Apr 14 21:09:01 ubuntu CRON[5745]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 14 21:09:01 ubuntu CRON[5745]: pam_unix(cron:session): session closed for user root
+Apr 14 21:09:40 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 14 21:09:40 ubuntu pkexec[5813]: ree: Executing command [USER=root] [TTY=unknown] [CWD=/home/ree] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+                                                                              Apr 15 22:31:07 ubuntu systemd-logind[911]: New seat seat0.
+Apr 15 22:31:07 ubuntu systemd-logind[911]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 15 22:31:07 ubuntu systemd-logind[911]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Apr 15 22:31:07 ubuntu sshd[1013]: Server listening on 0.0.0.0 port 22.
+Apr 15 22:31:07 ubuntu sshd[1013]: Server listening on :: port 22.
+Apr 15 22:31:08 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Apr 15 22:31:08 ubuntu systemd-logind[911]: New session c1 of user gdm.
+Apr 15 22:31:08 ubuntu systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Apr 15 22:31:12 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 15 22:31:34 ubuntu dbus-daemon[858]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Apr 15 22:32:04 ubuntu gdm-password]: gkr-pam: unable to locate daemon control file
+Apr 15 22:32:04 ubuntu gdm-password]: gkr-pam: stashed password to try later in open session
+Apr 15 22:32:04 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user ree by (uid=0)
+Apr 15 22:32:04 ubuntu systemd-logind[911]: New session 2 of user ree.
+Apr 15 22:32:04 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ree by (uid=0)
+Apr 15 22:32:04 ubuntu gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Apr 15 22:32:08 ubuntu gnome-keyring-daemon[1682]: The Secret Service was already initialized
+Apr 15 22:32:08 ubuntu gnome-keyring-daemon[1682]: The PKCS#11 component was already initialized
+Apr 15 22:32:10 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 15 22:32:13 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Apr 15 22:32:13 ubuntu systemd-logind[911]: Session c1 logged out. Waiting for processes to exit.
+Apr 15 22:32:13 ubuntu systemd-logind[911]: Removed session c1.
+Apr 15 22:32:13 ubuntu polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 15 22:32:16 ubuntu PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Apr 15 22:32:16 ubuntu PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Apr 15 22:32:23 ubuntu systemd: pam_unix(systemd-user:session): session closed for user gdm
+Apr 15 22:32:29 ubuntu dbus-daemon[858]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Apr 15 22:33:14 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 15 22:33:14 ubuntu pkexec[3128]: ree: Executing command [USER=root] [TTY=unknown] [CWD=/home/ree] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr 15 22:34:42 ubuntu PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Apr 15 22:34:42 ubuntu PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Apr 15 22:35:11 ubuntu su: (to root) ree on pts/0
+Apr 15 22:35:11 ubuntu su: pam_unix(su:session): session opened for user root by (uid=1000)
+Apr 15 22:35:24 ubuntu PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Apr 15 22:35:24 ubuntu PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Apr 15 22:36:14 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 15 22:36:14 ubuntu pkexec[4827]: ree: Executing command [USER=root] [TTY=unknown] [CWD=/home/ree] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr 15 22:39:01 ubuntu CRON[5411]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 15 22:39:01 ubuntu CRON[5411]: pam_unix(cron:session): session closed for user root
+Apr 15 22:39:22 ubuntu su: pam_unix(su:session): session closed for user root
+Apr 15 22:40:39 ubuntu su: (to root) ree on pts/2
+Apr 15 22:40:39 ubuntu su: pam_unix(su:session): session opened for user root by (uid=1000)
+Apr 15 22:41:36 ubuntu su: pam_unix(su:session): session closed for user root
+Apr 15 22:42:01 ubuntu su: (to root) ree on pts/0
+Apr 15 22:42:01 ubuntu su: pam_unix(su:session): session opened for user root by (uid=1000)
+Apr 15 22:43:24 ubuntu systemd-logind[911]: System is rebooting.
+Apr 15 22:43:24 ubuntu gnome-keyring-daemon[1682]: ssh-agent: Child process exited with code 2
+Apr 15 22:43:42 ubuntu systemd-logind[901]: New seat seat0.
+Apr 15 22:43:42 ubuntu systemd-logind[901]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 15 22:43:42 ubuntu systemd-logind[901]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Apr 15 22:43:42 ubuntu sshd[987]: Server listening on 0.0.0.0 port 22.
+Apr 15 22:43:42 ubuntu sshd[987]: Server listening on :: port 22.
+Apr 15 22:43:42 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Apr 15 22:43:42 ubuntu systemd-logind[901]: New session c1 of user gdm.
+Apr 15 22:43:42 ubuntu systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Apr 15 22:43:45 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 15 22:44:08 ubuntu dbus-daemon[867]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Apr 15 22:57:33 ubuntu gdm-password]: gkr-pam: unable to locate daemon control file
+Apr 15 22:57:33 ubuntu gdm-password]: gkr-pam: stashed password to try later in open session
+Apr 15 22:57:33 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user ree by (uid=0)
+Apr 15 22:57:33 ubuntu systemd-logind[901]: New session 2 of user ree.
+Apr 15 22:57:33 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ree by (uid=0)
+Apr 15 22:57:33 ubuntu gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Apr 15 22:57:37 ubuntu gnome-keyring-daemon[1595]: The Secret Service was already initialized
+Apr 15 22:57:37 ubuntu gnome-keyring-daemon[1595]: The PKCS#11 component was already initialized
+Apr 15 22:57:39 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 15 22:57:42 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Apr 15 22:57:42 ubuntu systemd-logind[901]: Session c1 logged out. Waiting for processes to exit.
+Apr 15 22:57:42 ubuntu systemd-logind[901]: Removed session c1.
+Apr 15 22:57:42 ubuntu polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 15 22:57:44 ubuntu PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Apr 15 22:57:44 ubuntu PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Apr 15 22:57:58 ubuntu dbus-daemon[867]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Apr 15 22:58:17 ubuntu su: (to root) ree on pts/0
+Apr 15 22:58:17 ubuntu su: pam_unix(su:session): session opened for user root by (uid=1000)
+Apr 15 22:58:43 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 15 22:58:43 ubuntu pkexec[3235]: ree: Executing command [USER=root] [TTY=unknown] [CWD=/home/ree] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr 15 23:05:42 ubuntu su: (to root) ree on pts/1
+Apr 15 23:05:42 ubuntu su: pam_unix(su:session): session opened for user root by (uid=1000)

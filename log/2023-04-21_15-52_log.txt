@@ -1,0 +1,1166 @@
+2023-04-21 15:52:27,307
+取证结果存放目录(directory for storing forensics result)：./results/2023-04-21_15-52_ubuntu/
+
+
+2023-04-21 15:52:27,307
+系统信息(System information):
+
+2023-04-21 15:52:27,307
+Operating System: Linux
+
+2023-04-21 15:52:27,307
+Node Name: ubuntu
+
+2023-04-21 15:52:27,308
+Release: 5.15.0-69-generic
+
+2023-04-21 15:52:27,308
+Version: #76~20.04.1-Ubuntu SMP Mon Mar 20 15:54:19 UTC 2023
+
+2023-04-21 15:52:27,308
+Machine: x86_64
+
+2023-04-21 15:52:27,308
+Processor: x86_64
+
+2023-04-21 15:52:27,308
+IP Address: 192.168.177.130
+
+2023-04-21 15:52:27,308
+CPU Cores: 2
+
+2023-04-21 15:52:27,308
+Total Memory: 7.73 GB
+
+2023-04-21 15:52:27,308
+Total Disk Space: 23.94 GB
+
+2023-04-21 15:52:27,309
+执行所有检查(Running all checks)...
+
+
+2023-04-21 15:52:27,309
+Storing users' information...
+
+2023-04-21 15:52:27,921
+Backing up important system files...
+
+2023-04-21 15:52:27,958
+Backed up file /var/log/auth.log.
+
+2023-04-21 15:52:27,959
+File /var/log/secure not found. Skipping backup.
+
+2023-04-21 15:52:27,959
+File /var/log/messages not found. Skipping backup.
+
+2023-04-21 15:52:27,960
+Backed up file /var/log/syslog.
+
+2023-04-21 15:52:27,960
+Backed up file /var/log/kern.log.
+
+2023-04-21 15:52:27,963
+Backed up file /var/log/faillog.
+
+2023-04-21 15:52:27,964
+Backed up file /var/log/lastlog.
+
+2023-04-21 15:52:27,967
+Backed up file /var/log/wtmp.
+
+2023-04-21 15:52:27,968
+Backed up file /var/log/btmp.
+
+2023-04-21 15:52:27,968
+Backed up file /var/log/dmesg.
+
+2023-04-21 15:52:27,969
+Backed up file /var/log/apt/history.log.
+
+2023-04-21 15:52:27,969
+File /var/log/yum.log not found. Skipping backup.
+
+2023-04-21 15:52:27,970
+Backed up file /etc/passwd.
+
+2023-04-21 15:52:27,970
+Backed up file /etc/shadow.
+
+2023-04-21 15:52:27,970
+Backed up file /etc/group.
+
+2023-04-21 15:52:27,970
+Backed up file /etc/sudoers.
+
+2023-04-21 15:52:27,971
+File /var/log/sudo not found. Skipping backup.
+
+2023-04-21 15:52:27,971
+Backed up file /etc/ssh/sshd_config.
+
+2023-04-21 15:52:27,971
+Backed up file /etc/crontab.
+
+2023-04-21 15:52:27,971
+Backed up file /var/spool/cron/crontabs.
+
+2023-04-21 15:52:27,972
+Backed up file /root/.bash_history.
+
+2023-04-21 15:52:27,972
+File /home/username/.bash_history not found. Skipping backup.
+
+2023-04-21 15:52:27,972
+Backed up file /etc/hosts.
+
+2023-04-21 15:52:27,972
+Backed up file /etc/hosts.allow.
+
+2023-04-21 15:52:27,973
+Backed up file /etc/hosts.deny.
+
+2023-04-21 15:52:27,973
+File /etc/iptables not found. Skipping backup.
+
+2023-04-21 15:52:27,973
+File /etc/sysconfig/iptables not found. Skipping backup.
+
+2023-04-21 15:52:27,973
+Backed up file /etc/fstab.
+
+2023-04-21 15:52:27,974
+Backed up file /root/.bashrc.
+
+2023-04-21 15:52:27,974
+File /root/.tcshrc not found. Skipping backup.
+
+2023-04-21 15:52:27,974
+File /root/.bash_profile not found. Skipping backup.
+
+2023-04-21 15:52:27,974
+File /root/.cshrc not found. Skipping backup.
+
+2023-04-21 15:52:27,974
+File /root/.tcshrc not found. Skipping backup.
+
+2023-04-21 15:52:27,974
+File /etc/bashrc not found. Skipping backup.
+
+2023-04-21 15:52:27,975
+Backed up file /etc/profile.
+
+2023-04-21 15:52:27,975
+Backed up file /etc/profile.d/.
+
+2023-04-21 15:52:27,975
+File /etc/csh.login not found. Skipping backup.
+
+2023-04-21 15:52:27,975
+File /etc/csh.cshrc not found. Skipping backup.
+
+2023-04-21 15:52:27,975
+File /.bashrc not found. Skipping backup.
+
+2023-04-21 15:52:27,975
+File /.bash_profile not found. Skipping backup.
+
+2023-04-21 15:52:27,975
+File /.tcshrc not found. Skipping backup.
+
+2023-04-21 15:52:27,975
+File /.cshrc not found. Skipping backup.
+
+2023-04-21 15:52:27,976
+File /etc/ld.so.preload not found. Skipping backup.
+
+2023-04-21 15:52:27,976
+Backed up file /etc/cron.d.
+
+2023-04-21 15:52:27,976
+Backed up file /etc/cron.hourly.
+
+2023-04-21 15:52:27,976
+Backed up file /etc/cron.daily.
+
+2023-04-21 15:52:27,976
+Backed up file /etc/cron.weekly.
+
+2023-04-21 15:52:27,977
+Backed up file /etc/cron.monthly.
+
+2023-04-21 15:52:27,979
+Backed up file /usr/sbin/sshd.
+
+2023-04-21 15:52:27,979
+File /etc/inetd.conf not found. Skipping backup.
+
+2023-04-21 15:52:27,979
+File /etc/xinetd.d not found. Skipping backup.
+
+2023-04-21 15:52:27,979
+Backed up file /run/utmp.
+
+2023-04-21 15:52:27,980
+Checking aliases...
+
+2023-04-21 15:52:28,009
+No suspicious aliases found.
+
+2023-04-21 15:52:28,010
+Checking backdoors...
+
+2023-04-21 15:52:28,015
+No environment variable backdoors found
+
+2023-04-21 15:52:28,015
+No ld.so.preload backdoors found
+
+2023-04-21 15:52:28,024
+Found cron backdoors:
+
+2023-04-21 15:52:28,024
+/etc/cron.d/php
+
+2023-04-21 15:52:28,025
+/etc/cron.daily/popularity-contest
+
+2023-04-21 15:52:28,025
+/etc/cron.daily/bsdmainutils
+
+2023-04-21 15:52:28,042
+No SSH backdoors found
+
+2023-04-21 15:52:28,043
+No SSH wrapper backdoor found
+
+2023-04-21 15:52:28,043
+No inetd backdoors found
+
+2023-04-21 15:52:28,043
+Checking SSH...
+
+2023-04-21 15:52:28,043
+No suspicious SSH logins found.
+
+2023-04-21 15:52:28,043
+Checking logins...
+
+2023-04-21 15:52:28,043
+Checking wtmp
+
+2023-04-21 15:52:28,058
+Error in check_ip_country: The address 192.168.177.1 is not in the database.
+
+2023-04-21 15:52:28,059
+Error in check_ip_country: The address 192.168.101.21 is not in the database.
+
+2023-04-21 15:52:28,059
+Error in check_ip_country: The address 192.168.101.21 is not in the database.
+
+2023-04-21 15:52:28,060
+Error in check_ip_country: The address 192.168.101.21 is not in the database.
+
+2023-04-21 15:52:28,061
+Error in check_ip_country: The address 192.168.101.21 is not in the database.
+
+2023-04-21 15:52:28,061
+Error in check_ip_country: The address 192.168.101.21 is not in the database.
+
+2023-04-21 15:52:28,062
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,062
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,063
+Error in check_ip_country: The address 192.168.1.24 is not in the database.
+
+2023-04-21 15:52:28,063
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,063
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,064
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,064
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,064
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,065
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,065
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,066
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,066
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,066
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,067
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,067
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,068
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,068
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,068
+Error in check_ip_country: The address 192.168.101.6 is not in the database.
+
+2023-04-21 15:52:28,070
+Checking utmp
+
+2023-04-21 15:52:28,077
+Error in check_ip_country: The address 192.168.177.1 is not in the database.
+
+2023-04-21 15:52:28,077
+Checking lastlog
+
+2023-04-21 15:52:28,083
+Error in check_ip_country: The address 192.168.177.1 is not in the database.
+
+2023-04-21 15:52:28,084
+Error in check_ip_country: The address 192.168.1.24 is not in the database.
+
+2023-04-21 15:52:28,085
+Checking connections...
+
+2023-04-21 15:52:28,158
+No foreign connections detected.
+
+2023-04-21 15:52:28,164
+No malicious connections detected.
+
+2023-04-21 15:52:28,164
+Checking processes...
+
+2023-04-21 15:52:28,575
+No high resource usage processes found.
+
+2023-04-21 15:52:28,585
+No hidden processes detected.
+
+2023-04-21 15:52:28,629
+Reverse shell processes:
+
+2023-04-21 15:52:28,629
+42116 python Cmdline: ./python security_forensics.py -a
+
+2023-04-21 15:52:28,645
+No source deleted processes found
+
+2023-04-21 15:52:28,646
+Checking startups...
+
+2023-04-21 15:52:28,656
+Init system: Systemd
+
+2023-04-21 15:52:29,882
+Backing up UNIT.log
+
+2023-04-21 15:52:30,325
+Backing up accounts-daemon.service.log
+
+2023-04-21 15:52:31,168
+Backing up acpid.service.log
+
+2023-04-21 15:52:31,594
+Backing up alsa-restore.service.log
+
+2023-04-21 15:52:31,790
+Backing up alsa-state.service.log
+
+2023-04-21 15:52:31,994
+Backing up alsa-utils.service.log
+
+2023-04-21 15:52:32,119
+Backing up anacron.service.log
+
+2023-04-21 15:52:32,397
+Backing up apache-htcacheclean.service.log
+
+2023-04-21 15:52:32,413
+Backing up apache-htcacheclean@.service.log
+
+2023-04-21 15:52:32,549
+Backing up apache2.service.log
+
+2023-04-21 15:52:32,665
+Backing up apache2@.service.log
+
+2023-04-21 15:52:32,776
+Backing up apparmor.service.log
+
+2023-04-21 15:52:32,916
+Backing up apport-autoreport.service.log
+
+2023-04-21 15:52:32,976
+Backing up apport-forward@.service.log
+
+2023-04-21 15:52:33,108
+Backing up apport.service.log
+
+2023-04-21 15:52:33,267
+Backing up apt-daily-upgrade.service.log
+
+2023-04-21 15:52:33,384
+Backing up apt-daily.service.log
+
+2023-04-21 15:52:33,464
+Backing up apt-news.service.log
+
+2023-04-21 15:52:33,677
+Backing up autovt@.service.log
+
+2023-04-21 15:52:33,696
+Backing up avahi-daemon.service.log
+
+2023-04-21 15:52:33,898
+Backing up bluetooth.service.log
+
+2023-04-21 15:52:33,999
+Backing up bolt.service.log
+
+2023-04-21 15:52:34,055
+Backing up brltty-udev.service.log
+
+2023-04-21 15:52:34,095
+Backing up brltty.service.log
+
+2023-04-21 15:52:34,113
+Backing up clean-mount-point@.service.log
+
+2023-04-21 15:52:34,132
+Backing up colord.service.log
+
+2023-04-21 15:52:34,231
+Backing up configure-printer@.service.log
+
+2023-04-21 15:52:34,244
+Backing up console-getty.service.log
+
+2023-04-21 15:52:34,320
+Backing up console-setup.service.log
+
+2023-04-21 15:52:34,392
+Backing up container-getty@.service.log
+
+2023-04-21 15:52:34,404
+Backing up cron.service.log
+
+2023-04-21 15:52:34,456
+Backing up cryptdisks-early.service.log
+
+2023-04-21 15:52:34,467
+Backing up cryptdisks.service.log
+
+2023-04-21 15:52:34,490
+Backing up cups-browsed.service.log
+
+2023-04-21 15:52:34,511
+Backing up cups.service.log
+
+2023-04-21 15:52:34,533
+Backing up dbus-fi.w1.wpa_supplicant1.service.log
+
+2023-04-21 15:52:34,545
+Backing up dbus-org.bluez.service.log
+
+2023-04-21 15:52:34,558
+Backing up dbus-org.freedesktop.Avahi.service.log
+
+2023-04-21 15:52:34,570
+Backing up dbus-org.freedesktop.hostname1.service.log
+
+2023-04-21 15:52:34,583
+Backing up dbus-org.freedesktop.locale1.service.log
+
+2023-04-21 15:52:34,596
+Backing up dbus-org.freedesktop.login1.service.log
+
+2023-04-21 15:52:34,607
+Backing up dbus-org.freedesktop.ModemManager1.service.log
+
+2023-04-21 15:52:34,643
+Backing up dbus-org.freedesktop.nm-dispatcher.service.log
+
+2023-04-21 15:52:34,658
+Backing up dbus-org.freedesktop.resolve1.service.log
+
+2023-04-21 15:52:34,678
+Backing up dbus-org.freedesktop.thermald.service.log
+
+2023-04-21 15:52:34,693
+Backing up dbus-org.freedesktop.timedate1.service.log
+
+2023-04-21 15:52:34,731
+Backing up dbus-org.freedesktop.timesync1.service.log
+
+2023-04-21 15:52:34,796
+Backing up dbus.service.log
+
+2023-04-21 15:52:34,963
+Backing up debug-shell.service.log
+
+2023-04-21 15:52:34,978
+Backing up display-manager.service.log
+
+2023-04-21 15:52:35,053
+Backing up dmesg.service.log
+
+2023-04-21 15:52:35,070
+Backing up e2scrub@.service.log
+
+2023-04-21 15:52:35,089
+Backing up e2scrub_all.service.log
+
+2023-04-21 15:52:35,109
+Backing up e2scrub_fail@.service.log
+
+2023-04-21 15:52:35,124
+Backing up e2scrub_reap.service.log
+
+2023-04-21 15:52:35,147
+Backing up emergency.service.log
+
+2023-04-21 15:52:35,167
+Backing up esm-cache.service.log
+
+2023-04-21 15:52:35,188
+Backing up fprintd.service.log
+
+2023-04-21 15:52:35,266
+Backing up friendly-recovery.service.log
+
+2023-04-21 15:52:35,278
+Backing up fstrim.service.log
+
+2023-04-21 15:52:35,327
+Backing up fwupd-offline-update.service.log
+
+2023-04-21 15:52:35,339
+Backing up fwupd-refresh.service.log
+
+2023-04-21 15:52:35,353
+Backing up fwupd.service.log
+
+2023-04-21 15:52:35,381
+Backing up gdm.service.log
+
+2023-04-21 15:52:35,434
+Backing up gdm3.service.log
+
+2023-04-21 15:52:35,447
+Backing up geoclue.service.log
+
+2023-04-21 15:52:35,480
+Backing up getty-static.service.log
+
+2023-04-21 15:52:35,508
+Backing up getty@.service.log
+
+2023-04-21 15:52:35,534
+Backing up gpu-manager.service.log
+
+2023-04-21 15:52:35,560
+Backing up grub-common.service.log
+
+2023-04-21 15:52:35,594
+Backing up grub-initrd-fallback.service.log
+
+2023-04-21 15:52:35,622
+Backing up hwclock.service.log
+
+2023-04-21 15:52:35,636
+Backing up iio-sensor-proxy.service.log
+
+2023-04-21 15:52:35,650
+Backing up initrd-cleanup.service.log
+
+2023-04-21 15:52:35,683
+Backing up initrd-parse-etc.service.log
+
+2023-04-21 15:52:35,700
+Backing up initrd-switch-root.service.log
+
+2023-04-21 15:52:35,714
+Backing up initrd-udevadm-cleanup-db.service.log
+
+2023-04-21 15:52:35,730
+Backing up ippusbxd@.service.log
+
+2023-04-21 15:52:35,742
+Backing up irqbalance.service.log
+
+2023-04-21 15:52:35,769
+Backing up kerneloops.service.log
+
+2023-04-21 15:52:35,803
+Backing up keyboard-setup.service.log
+
+2023-04-21 15:52:35,821
+Backing up kmod-static-nodes.service.log
+
+2023-04-21 15:52:35,836
+Backing up kmod.service.log
+
+2023-04-21 15:52:35,861
+Backing up logrotate.service.log
+
+2023-04-21 15:52:35,878
+Backing up man-db.service.log
+
+2023-04-21 15:52:35,894
+Backing up ModemManager.service.log
+
+2023-04-21 15:52:35,924
+Backing up modprobe@.service.log
+
+2023-04-21 15:52:35,942
+Backing up motd-news.service.log
+
+2023-04-21 15:52:35,960
+Backing up mysql.service.log
+
+2023-04-21 15:52:35,980
+Backing up netplan-ovs-cleanup.service.log
+
+2023-04-21 15:52:35,996
+Backing up network-manager.service.log
+
+2023-04-21 15:52:36,010
+Backing up networkd-dispatcher.service.log
+
+2023-04-21 15:52:36,043
+Backing up NetworkManager-dispatcher.service.log
+
+2023-04-21 15:52:36,077
+Backing up NetworkManager-wait-online.service.log
+
+2023-04-21 15:52:36,100
+Backing up NetworkManager.service.log
+
+2023-04-21 15:52:36,257
+Backing up ondemand.service.log
+
+2023-04-21 15:52:36,273
+Backing up open-vm-tools.service.log
+
+2023-04-21 15:52:36,293
+Backing up openvpn-client@.service.log
+
+2023-04-21 15:52:36,308
+Backing up openvpn-server@.service.log
+
+2023-04-21 15:52:36,321
+Backing up openvpn.service.log
+
+2023-04-21 15:52:36,345
+Backing up openvpn@.service.log
+
+2023-04-21 15:52:36,360
+Backing up packagekit-offline-update.service.log
+
+2023-04-21 15:52:36,373
+Backing up packagekit.service.log
+
+2023-04-21 15:52:36,411
+Backing up phpsessionclean.service.log
+
+2023-04-21 15:52:36,424
+Backing up plymouth-halt.service.log
+
+2023-04-21 15:52:36,437
+Backing up plymouth-kexec.service.log
+
+2023-04-21 15:52:36,453
+Backing up plymouth-log.service.log
+
+2023-04-21 15:52:36,462
+Backing up plymouth-poweroff.service.log
+
+2023-04-21 15:52:36,493
+Backing up plymouth-quit-wait.service.log
+
+2023-04-21 15:52:36,519
+Backing up plymouth-quit.service.log
+
+2023-04-21 15:52:36,529
+Backing up plymouth-read-write.service.log
+
+2023-04-21 15:52:36,547
+Backing up plymouth-reboot.service.log
+
+2023-04-21 15:52:36,561
+Backing up plymouth-start.service.log
+
+2023-04-21 15:52:36,586
+Backing up plymouth-switch-root.service.log
+
+2023-04-21 15:52:36,604
+Backing up plymouth.service.log
+
+2023-04-21 15:52:36,616
+Backing up polkit.service.log
+
+2023-04-21 15:52:36,646
+Backing up pppd-dns.service.log
+
+2023-04-21 15:52:36,662
+Backing up procps.service.log
+
+2023-04-21 15:52:36,674
+Backing up pulseaudio-enable-autospawn.service.log
+
+2023-04-21 15:52:36,683
+Backing up quotaon.service.log
+
+2023-04-21 15:52:36,697
+Backing up rc-local.service.log
+
+2023-04-21 15:52:36,709
+Backing up rc.service.log
+
+2023-04-21 15:52:36,720
+Backing up rcS.service.log
+
+2023-04-21 15:52:36,730
+Backing up rescue.service.log
+
+2023-04-21 15:52:36,742
+Backing up rsync.service.log
+
+2023-04-21 15:52:36,757
+Backing up rsyslog.service.log
+
+2023-04-21 15:52:36,780
+Backing up rtkit-daemon.service.log
+
+2023-04-21 15:52:36,841
+Backing up saned.service.log
+
+2023-04-21 15:52:36,851
+Backing up saned@.service.log
+
+2023-04-21 15:52:36,860
+Backing up secureboot-db.service.log
+
+2023-04-21 15:52:36,878
+Backing up serial-getty@.service.log
+
+2023-04-21 15:52:36,891
+Backing up setvtrgb.service.log
+
+2023-04-21 15:52:36,913
+Backing up snapd.aa-prompt-listener.service.log
+
+2023-04-21 15:52:36,928
+Backing up snapd.apparmor.service.log
+
+2023-04-21 15:52:36,946
+Backing up snapd.autoimport.service.log
+
+2023-04-21 15:52:36,962
+Backing up snapd.core-fixup.service.log
+
+2023-04-21 15:52:36,984
+Backing up snapd.failure.service.log
+
+2023-04-21 15:52:36,993
+Backing up snapd.recovery-chooser-trigger.service.log
+
+2023-04-21 15:52:37,013
+Backing up snapd.seeded.service.log
+
+2023-04-21 15:52:37,032
+Backing up snapd.service.log
+
+2023-04-21 15:52:37,062
+Backing up snapd.snap-repair.service.log
+
+2023-04-21 15:52:37,077
+Backing up snapd.system-shutdown.service.log
+
+2023-04-21 15:52:37,089
+Backing up speech-dispatcher.service.log
+
+2023-04-21 15:52:37,099
+Backing up speech-dispatcherd.service.log
+
+2023-04-21 15:52:37,111
+Backing up spice-vdagent.service.log
+
+2023-04-21 15:52:37,125
+Backing up spice-vdagentd.service.log
+
+2023-04-21 15:52:37,137
+Backing up ssh.service.log
+
+2023-04-21 15:52:37,151
+Backing up ssh@.service.log
+
+2023-04-21 15:52:37,173
+Backing up sshd.service.log
+
+2023-04-21 15:52:37,184
+Backing up sudo.service.log
+
+2023-04-21 15:52:37,197
+Backing up switcheroo-control.service.log
+
+2023-04-21 15:52:37,222
+Backing up syslog.service.log
+
+2023-04-21 15:52:37,236
+Backing up system-update-cleanup.service.log
+
+2023-04-21 15:52:37,252
+Backing up systemd-ask-password-console.service.log
+
+2023-04-21 15:52:37,267
+Backing up systemd-ask-password-plymouth.service.log
+
+2023-04-21 15:52:37,283
+Backing up systemd-ask-password-wall.service.log
+
+2023-04-21 15:52:37,294
+Backing up systemd-backlight@.service.log
+
+2023-04-21 15:52:37,310
+Backing up systemd-binfmt.service.log
+
+2023-04-21 15:52:37,335
+Backing up systemd-bless-boot.service.log
+
+2023-04-21 15:52:37,351
+Backing up systemd-boot-check-no-failures.service.log
+
+2023-04-21 15:52:37,362
+Backing up systemd-boot-system-token.service.log
+
+2023-04-21 15:52:37,382
+Backing up systemd-exit.service.log
+
+2023-04-21 15:52:37,392
+Backing up systemd-fsck-root.service.log
+
+2023-04-21 15:52:37,408
+Backing up systemd-fsck@.service.log
+
+2023-04-21 15:52:37,419
+Backing up systemd-fsckd.service.log
+
+2023-04-21 15:52:37,435
+Backing up systemd-halt.service.log
+
+2023-04-21 15:52:37,450
+Backing up systemd-hibernate-resume@.service.log
+
+2023-04-21 15:52:37,461
+Backing up systemd-hibernate.service.log
+
+2023-04-21 15:52:37,492
+Backing up systemd-hostnamed.service.log
+
+2023-04-21 15:52:37,520
+Backing up systemd-hwdb-update.service.log
+
+2023-04-21 15:52:37,539
+Backing up systemd-hybrid-sleep.service.log
+
+2023-04-21 15:52:37,549
+Backing up systemd-initctl.service.log
+
+2023-04-21 15:52:37,561
+Backing up systemd-journal-flush.service.log
+
+2023-04-21 15:52:37,586
+Backing up systemd-journald.service.log
+
+2023-04-21 15:52:37,617
+Backing up systemd-journald@.service.log
+
+2023-04-21 15:52:37,638
+Backing up systemd-kexec.service.log
+
+2023-04-21 15:52:37,660
+Backing up systemd-localed.service.log
+
+2023-04-21 15:52:37,681
+Backing up systemd-logind.service.log
+
+2023-04-21 15:52:37,718
+Backing up systemd-machine-id-commit.service.log
+
+2023-04-21 15:52:37,741
+Backing up systemd-modules-load.service.log
+
+2023-04-21 15:52:37,790
+Backing up systemd-network-generator.service.log
+
+2023-04-21 15:52:37,801
+Backing up systemd-networkd-wait-online.service.log
+
+2023-04-21 15:52:37,813
+Backing up systemd-networkd.service.log
+
+2023-04-21 15:52:37,830
+Backing up systemd-poweroff.service.log
+
+2023-04-21 15:52:37,849
+Backing up systemd-pstore.service.log
+
+2023-04-21 15:52:37,867
+Backing up systemd-quotacheck.service.log
+
+2023-04-21 15:52:37,883
+Backing up systemd-random-seed.service.log
+
+2023-04-21 15:52:37,908
+Backing up systemd-reboot.service.log
+
+2023-04-21 15:52:37,924
+Backing up systemd-remount-fs.service.log
+
+2023-04-21 15:52:37,947
+Backing up systemd-resolved.service.log
+
+2023-04-21 15:52:37,979
+Backing up systemd-rfkill.service.log
+
+2023-04-21 15:52:37,990
+Backing up systemd-suspend-then-hibernate.service.log
+
+2023-04-21 15:52:37,999
+Backing up systemd-suspend.service.log
+
+2023-04-21 15:52:38,022
+Backing up systemd-sysctl.service.log
+
+2023-04-21 15:52:38,045
+Backing up systemd-sysusers.service.log
+
+2023-04-21 15:52:38,067
+Backing up systemd-time-wait-sync.service.log
+
+2023-04-21 15:52:38,085
+Backing up systemd-timedated.service.log
+
+2023-04-21 15:52:38,116
+Backing up systemd-timesyncd.service.log
+
+2023-04-21 15:52:38,154
+Backing up systemd-tmpfiles-clean.service.log
+
+2023-04-21 15:52:38,170
+Backing up systemd-tmpfiles-setup-dev.service.log
+
+2023-04-21 15:52:38,184
+Backing up systemd-tmpfiles-setup.service.log
+
+2023-04-21 15:52:38,202
+Backing up systemd-udev-settle.service.log
+
+2023-04-21 15:52:38,214
+Backing up systemd-udev-trigger.service.log
+
+2023-04-21 15:52:38,236
+Backing up systemd-udevd.service.log
+
+2023-04-21 15:52:38,265
+Backing up systemd-update-utmp-runlevel.service.log
+
+2023-04-21 15:52:38,294
+Backing up systemd-update-utmp.service.log
+
+2023-04-21 15:52:38,310
+Backing up systemd-user-sessions.service.log
+
+2023-04-21 15:52:38,331
+Backing up systemd-volatile-root.service.log
+
+2023-04-21 15:52:38,341
+Backing up thermald.service.log
+
+2023-04-21 15:52:38,367
+Backing up ua-reboot-cmds.service.log
+
+2023-04-21 15:52:38,381
+Backing up ua-timer.service.log
+
+2023-04-21 15:52:38,401
+Backing up ubuntu-advantage-desktop-daemon.service.log
+
+2023-04-21 15:52:38,414
+Backing up ubuntu-advantage.service.log
+
+2023-04-21 15:52:38,431
+Backing up udev.service.log
+
+2023-04-21 15:52:38,447
+Backing up udisks2.service.log
+
+2023-04-21 15:52:38,477
+Backing up ufw.service.log
+
+2023-04-21 15:52:38,493
+Backing up unattended-upgrades.service.log
+
+2023-04-21 15:52:38,507
+Backing up upower.service.log
+
+2023-04-21 15:52:38,527
+Backing up usb_modeswitch@.service.log
+
+2023-04-21 15:52:38,538
+Backing up usbmuxd.service.log
+
+2023-04-21 15:52:38,553
+Backing up user-runtime-dir@.service.log
+
+2023-04-21 15:52:38,563
+Backing up user@.service.log
+
+2023-04-21 15:52:38,575
+Backing up uuidd.service.log
+
+2023-04-21 15:52:38,586
+Backing up vgauth.service.log
+
+2023-04-21 15:52:38,612
+Backing up vmtoolsd.service.log
+
+2023-04-21 15:52:38,624
+Backing up wacom-inputattach@.service.log
+
+2023-04-21 15:52:38,635
+Backing up whoopsie.service.log
+
+2023-04-21 15:52:38,665
+Backing up wpa_supplicant-nl80211@.service.log
+
+2023-04-21 15:52:38,678
+Backing up wpa_supplicant-wired@.service.log
+
+2023-04-21 15:52:38,697
+Backing up wpa_supplicant.service.log
+
+2023-04-21 15:52:38,715
+Backing up wpa_supplicant@.service.log
+
+2023-04-21 15:52:38,728
+Backing up x11-common.service.log
+
+2023-04-21 15:52:38,739
+Backing up 231.log
+
+2023-04-21 15:52:38,748
+Checking operations...
+
+2023-04-21 15:52:38,748
+Checking /home/ree/.bash_history for foreign IP operations
+
+2023-04-21 15:52:38,750
+No foreign IP operations found.
+
+2023-04-21 15:52:38,751
+Checking /home/ree/.bash_history for reverse shell operations
+
+2023-04-21 15:52:38,751
+No reverse shell operations found.
+
+2023-04-21 15:52:38,752
+Checking web servers...
+
+2023-04-21 15:52:38,752
+Backing up server logs...
+
+2023-04-21 15:52:38,753
+nginx log directory '/var/log/nginx/' not found.
+
+2023-04-21 15:52:38,753
+tomcat log directory '/usr/local/tomcat/logs/' not found.
+
+2023-04-21 15:52:38,754
+jetty log directory '/opt/jetty/logs/' not found.
+
+2023-04-21 15:52:38,754
+apache log directory '/var/log/httpd/' not found.
+
+2023-04-21 15:52:38,754
+resin log directory '/usr/local/resin/log/' not found.
+
+2023-04-21 15:52:38,754
+jboss log directory '/usr/local/jboss/server/default/log/' not found.
+
+2023-04-21 15:52:38,755
+lighttpd log directory '/var/log/lighttpd/' not found.
+
+2023-04-21 15:52:38,755
+server logs backup completed
+
+2023-04-21 15:52:38,755
+Checking webshells...
+
+2023-04-21 15:52:38,756
+nginx web directory '/usr/local/nginx/html' not found.
+
+2023-04-21 15:52:38,756
+tomcat web directory '/usr/local/tomcat/webapps' not found.
+
+2023-04-21 15:52:38,757
+jetty web directory '/opt/jetty/webapps' not found.
+
+2023-04-21 15:52:38,757
+Scanning apache web directory '/var/www/html' for WebShells:
+
+2023-04-21 15:52:38,758
+resin web directory '/usr/local/resin/webapps' not found.
+
+2023-04-21 15:52:38,758
+jboss web directory '/usr/local/jboss/server/default/deploy' not found.
+
+2023-04-21 15:52:38,758
+Scanning lighttpd web directory '/var/www' for WebShells:
+
+2023-04-21 15:52:38,759
+Checking files...
+
+2023-04-21 15:52:38,759
+Checking the executability of system files...
+
+2023-04-21 15:52:38,775
+Checking temp directory...
+
+2023-04-21 15:52:38,778
+临时文件 /tmp/.X11-unix/X1025 可被执行！
+
+2023-04-21 15:52:38,778
+临时文件 /tmp/.X11-unix/X0 可被执行！
+
+2023-04-21 15:52:38,778
+临时文件 /tmp/.X11-unix/X1024 可被执行！
+
+2023-04-21 15:52:38,781
+临时文件 /tmp/.ICE-unix/1771 可被执行！
+
+2023-04-21 15:52:38,781
+临时文件 /tmp/.ICE-unix/1108 可被执行！
+
+2023-04-21 15:52:38,786
+Checking app packages...
+

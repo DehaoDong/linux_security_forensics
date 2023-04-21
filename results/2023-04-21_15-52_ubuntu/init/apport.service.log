@@ -1,0 +1,688 @@
+-- Logs begin at Sat 2022-01-08 18:32:32 CST, end at Fri 2023-04-21 15:50:02 CST. --
+1月 09 21:32:59 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+1月 09 21:32:59 ubuntu apport[16303]:  * Stopping automatic crash report generation: apport
+1月 09 21:32:59 ubuntu apport[16303]:    ...done.
+1月 09 21:32:59 ubuntu systemd[1]: apport.service: Succeeded.
+1月 09 21:32:59 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+1月 09 21:33:15 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+1月 09 21:33:15 ubuntu apport[861]:  * Starting automatic crash report generation: apport
+1月 09 21:33:15 ubuntu apport[861]:    ...done.
+1月 09 21:33:15 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+3月 22 14:03:02 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 22 14:03:02 ubuntu apport[858]:  * Starting automatic crash report generation: apport
+3月 22 14:03:02 ubuntu apport[858]:    ...done.
+3月 22 14:03:02 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 22 14:13:28 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 22 14:13:28 ubuntu apport[39934]:  * Stopping automatic crash report generation: apport
+3月 22 14:13:28 ubuntu apport[39934]:    ...done.
+3月 22 14:13:28 ubuntu systemd[1]: apport.service: Succeeded.
+3月 22 14:13:28 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 22 14:13:42 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 22 14:13:42 ubuntu apport[872]:  * Starting automatic crash report generation: apport
+3月 22 14:13:42 ubuntu apport[872]:    ...done.
+3月 22 14:13:42 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 22 14:22:48 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 22 14:22:48 ubuntu apport[4041]:  * Stopping automatic crash report generation: apport
+3月 22 14:22:48 ubuntu apport[4041]:    ...done.
+3月 22 14:22:48 ubuntu systemd[1]: apport.service: Succeeded.
+3月 22 14:22:48 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 22 16:13:10 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 22 16:13:10 ubuntu apport[874]:  * Starting automatic crash report generation: apport
+3月 22 16:13:10 ubuntu apport[874]:    ...done.
+3月 22 16:13:10 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 22 17:37:59 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 22 17:37:59 ubuntu apport[3897]:  * Stopping automatic crash report generation: apport
+3月 22 17:37:59 ubuntu apport[3897]:    ...done.
+3月 22 17:37:59 ubuntu systemd[1]: apport.service: Succeeded.
+3月 22 17:37:59 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 25 10:18:04 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 25 10:18:04 ubuntu apport[902]:  * Starting automatic crash report generation: apport
+3月 25 10:18:04 ubuntu apport[902]:    ...done.
+3月 25 10:18:04 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 25 10:36:28 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 25 10:36:29 ubuntu apport[6616]:  * Stopping automatic crash report generation: apport
+3月 25 10:36:29 ubuntu apport[6616]:    ...done.
+3月 25 10:36:29 ubuntu systemd[1]: apport.service: Succeeded.
+3月 25 10:36:29 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 25 10:45:15 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 25 10:45:15 ubuntu apport[902]:  * Starting automatic crash report generation: apport
+3月 25 10:45:15 ubuntu apport[902]:    ...done.
+3月 25 10:45:15 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+3月 28 10:02:53 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 28 10:02:53 ubuntu apport[894]:  * Starting automatic crash report generation: apport
+3月 28 10:02:54 ubuntu apport[894]:    ...done.
+3月 28 10:02:54 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+3月 28 14:59:43 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 28 14:59:44 ubuntu apport[893]:  * Starting automatic crash report generation: apport
+3月 28 14:59:44 ubuntu apport[893]:    ...done.
+3月 28 14:59:44 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 28 15:53:54 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 28 15:53:54 ubuntu apport[4328]:  * Stopping automatic crash report generation: apport
+3月 28 15:53:54 ubuntu apport[4328]:    ...done.
+3月 28 15:53:54 ubuntu systemd[1]: apport.service: Succeeded.
+3月 28 15:53:54 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 28 16:17:45 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 28 16:17:45 ubuntu apport[794]:  * Starting automatic crash report generation: apport
+3月 28 16:17:46 ubuntu apport[794]:    ...done.
+3月 28 16:17:46 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 28 17:29:19 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 28 17:29:20 ubuntu apport[3901]:  * Stopping automatic crash report generation: apport
+3月 28 17:29:20 ubuntu apport[3901]:    ...done.
+3月 28 17:29:20 ubuntu systemd[1]: apport.service: Succeeded.
+3月 28 17:29:20 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 01 10:14:20 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 01 10:14:21 ubuntu apport[848]:  * Starting automatic crash report generation: apport
+4月 01 10:14:21 ubuntu apport[848]:    ...done.
+4月 01 10:14:21 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 01 10:20:32 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 01 10:20:32 ubuntu apport[5550]:  * Stopping automatic crash report generation: apport
+4月 01 10:20:32 ubuntu apport[5550]:    ...done.
+4月 01 10:20:32 ubuntu systemd[1]: apport.service: Succeeded.
+4月 01 10:20:32 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+4月 01 10:21:45 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 01 10:21:45 ubuntu apport[6620]:  * Starting automatic crash report generation: apport
+4月 01 10:21:45 ubuntu apport[6620]:    ...done.
+4月 01 10:21:45 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 01 10:24:19 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 01 10:24:19 ubuntu apport[23913]:  * Stopping automatic crash report generation: apport
+4月 01 10:24:19 ubuntu apport[23913]:    ...done.
+4月 01 10:24:19 ubuntu systemd[1]: apport.service: Succeeded.
+4月 01 10:24:19 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 01 10:25:02 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 01 10:25:05 ubuntu apport[845]:  * Starting automatic crash report generation: apport
+4月 01 10:25:05 ubuntu apport[845]:    ...done.
+4月 01 10:25:05 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 01 12:03:43 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 01 12:03:43 ubuntu apport[4341]:  * Stopping automatic crash report generation: apport
+4月 01 12:03:43 ubuntu apport[4341]:    ...done.
+4月 01 12:03:43 ubuntu systemd[1]: apport.service: Succeeded.
+4月 01 12:03:43 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 02 08:51:51 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 02 08:51:51 ubuntu apport[847]:  * Starting automatic crash report generation: apport
+4月 02 08:51:51 ubuntu apport[847]:    ...done.
+4月 02 08:51:51 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+4月 02 09:04:36 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 02 09:04:37 ubuntu apport[846]:  * Starting automatic crash report generation: apport
+4月 02 09:04:37 ubuntu apport[846]:    ...done.
+4月 02 09:04:37 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+4月 02 09:10:27 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 02 09:10:27 ubuntu apport[848]:  * Starting automatic crash report generation: apport
+4月 02 09:10:27 ubuntu apport[848]:    ...done.
+4月 02 09:10:28 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 02 09:29:37 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 02 09:29:37 ubuntu apport[2777]:  * Stopping automatic crash report generation: apport
+4月 02 09:29:37 ubuntu apport[2777]:    ...done.
+4月 02 09:29:37 ubuntu systemd[1]: apport.service: Succeeded.
+4月 02 09:29:37 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 02 17:22:59 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 02 17:22:59 ubuntu apport[771]:  * Starting automatic crash report generation: apport
+4月 02 17:22:59 ubuntu apport[771]:    ...done.
+4月 02 17:23:00 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 02 17:51:13 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 02 17:51:14 ubuntu apport[4811]:  * Stopping automatic crash report generation: apport
+4月 02 17:51:14 ubuntu apport[4811]:    ...done.
+4月 02 17:51:14 ubuntu systemd[1]: apport.service: Succeeded.
+4月 02 17:51:14 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 02 17:51:28 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 02 17:51:33 ubuntu apport[849]:  * Starting automatic crash report generation: apport
+4月 02 17:51:33 ubuntu apport[849]:    ...done.
+4月 02 17:51:33 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+4月 06 08:17:16 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 06 08:17:17 ubuntu apport[844]:  * Starting automatic crash report generation: apport
+4月 06 08:17:17 ubuntu apport[844]:    ...done.
+4月 06 08:17:17 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 06 10:26:21 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 06 10:26:21 ubuntu apport[4774]:  * Stopping automatic crash report generation: apport
+4月 06 10:26:21 ubuntu apport[4774]:    ...done.
+4月 06 10:26:21 ubuntu systemd[1]: apport.service: Succeeded.
+4月 06 10:26:21 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 13 08:09:37 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 13 08:09:38 ubuntu apport[792]:  * Starting automatic crash report generation: apport
+4月 13 08:09:38 ubuntu apport[792]:    ...done.
+4月 13 08:09:38 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 13 08:30:00 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 13 08:30:00 ubuntu apport[12042]:  * Stopping automatic crash report generation: apport
+4月 13 08:30:00 ubuntu apport[12042]:    ...done.
+4月 13 08:30:00 ubuntu systemd[1]: apport.service: Succeeded.
+4月 13 08:30:00 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 13 08:30:19 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 13 08:30:19 ubuntu apport[834]:  * Starting automatic crash report generation: apport
+4月 13 08:30:19 ubuntu apport[834]:    ...done.
+4月 13 08:30:20 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+4月 13 10:23:38 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 13 10:23:39 ubuntu apport[848]:  * Starting automatic crash report generation: apport
+4月 13 10:23:39 ubuntu apport[848]:    ...done.
+4月 13 10:23:39 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+4月 13 14:46:33 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 13 14:46:33 ubuntu apport[776]:  * Starting automatic crash report generation: apport
+4月 13 14:46:33 ubuntu apport[776]:    ...done.
+4月 13 14:46:33 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 13 15:21:57 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 13 15:21:57 ubuntu apport[3182]:  * Stopping automatic crash report generation: apport
+4月 13 15:21:57 ubuntu apport[3182]:    ...done.
+4月 13 15:21:57 ubuntu systemd[1]: apport.service: Succeeded.
+4月 13 15:21:57 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 15 10:16:59 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 15 10:17:00 ubuntu apport[793]:  * Starting automatic crash report generation: apport
+4月 15 10:17:00 ubuntu apport[793]:    ...done.
+4月 15 10:17:00 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+4月 20 08:14:44 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 20 08:14:45 ubuntu apport[847]:  * Starting automatic crash report generation: apport
+4月 20 08:14:45 ubuntu apport[847]:    ...done.
+4月 20 08:14:45 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 20 08:22:49 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 20 08:22:49 ubuntu apport[12976]:  * Stopping automatic crash report generation: apport
+4月 20 08:22:49 ubuntu apport[12976]:    ...done.
+4月 20 08:22:49 ubuntu systemd[1]: apport.service: Succeeded.
+4月 20 08:22:49 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 20 08:23:05 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 20 08:23:05 ubuntu apport[798]:  * Starting automatic crash report generation: apport
+4月 20 08:23:05 ubuntu apport[798]:    ...done.
+4月 20 08:23:05 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+4月 27 08:18:20 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 27 08:18:21 ubuntu apport[778]:  * Starting automatic crash report generation: apport
+4月 27 08:18:21 ubuntu apport[778]:    ...done.
+4月 27 08:18:21 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 27 10:50:15 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 27 10:50:16 ubuntu apport[13739]:  * Stopping automatic crash report generation: apport
+4月 27 10:50:16 ubuntu apport[13739]:    ...done.
+4月 27 10:50:16 ubuntu systemd[1]: apport.service: Succeeded.
+4月 27 10:50:16 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 27 11:07:08 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 27 11:07:09 ubuntu apport[846]:  * Starting automatic crash report generation: apport
+4月 27 11:07:09 ubuntu apport[846]:    ...done.
+4月 27 11:07:09 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 27 11:20:10 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 27 11:20:10 ubuntu apport[3993]:  * Stopping automatic crash report generation: apport
+4月 27 11:20:10 ubuntu apport[3993]:    ...done.
+4月 27 11:20:10 ubuntu systemd[1]: apport.service: Succeeded.
+4月 27 11:20:10 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 27 14:11:31 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 27 14:11:31 ubuntu apport[839]:  * Starting automatic crash report generation: apport
+4月 27 14:11:31 ubuntu apport[839]:    ...done.
+4月 27 14:11:31 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 27 15:04:59 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 27 15:04:59 ubuntu apport[6244]:  * Stopping automatic crash report generation: apport
+4月 27 15:04:59 ubuntu apport[6244]:    ...done.
+4月 27 15:04:59 ubuntu systemd[1]: apport.service: Succeeded.
+4月 27 15:04:59 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 27 15:05:19 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 27 15:05:19 ubuntu apport[804]:  * Starting automatic crash report generation: apport
+4月 27 15:05:19 ubuntu apport[804]:    ...done.
+4月 27 15:05:19 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 27 16:02:17 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 27 16:02:17 ubuntu apport[4866]:  * Stopping automatic crash report generation: apport
+4月 27 16:02:17 ubuntu apport[4866]:    ...done.
+4月 27 16:02:17 ubuntu systemd[1]: apport.service: Succeeded.
+4月 27 16:02:17 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 28 21:00:45 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 28 21:00:46 ubuntu apport[862]:  * Starting automatic crash report generation: apport
+4月 28 21:00:46 ubuntu apport[862]:    ...done.
+4月 28 21:00:47 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 28 21:01:50 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 28 21:01:50 ubuntu apport[3091]:  * Stopping automatic crash report generation: apport
+4月 28 21:01:50 ubuntu apport[3091]:    ...done.
+4月 28 21:01:50 ubuntu systemd[1]: apport.service: Succeeded.
+4月 28 21:01:50 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+5月 06 10:06:15 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 06 10:06:15 ubuntu apport[860]:  * Starting automatic crash report generation: apport
+5月 06 10:06:15 ubuntu apport[860]:    ...done.
+5月 06 10:06:15 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+5月 06 10:17:23 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+5月 06 10:17:23 ubuntu apport[34150]:  * Stopping automatic crash report generation: apport
+5月 06 10:17:23 ubuntu apport[34150]:    ...done.
+5月 06 10:17:23 ubuntu systemd[1]: apport.service: Succeeded.
+5月 06 10:17:23 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+5月 06 10:17:39 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 06 10:17:46 ubuntu apport[790]:  * Starting automatic crash report generation: apport
+5月 06 10:17:46 ubuntu apport[790]:    ...done.
+5月 06 10:17:46 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+5月 06 11:20:32 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+5月 06 11:20:32 ubuntu apport[4976]:  * Stopping automatic crash report generation: apport
+5月 06 11:20:32 ubuntu apport[4976]:    ...done.
+5月 06 11:20:32 ubuntu systemd[1]: apport.service: Succeeded.
+5月 06 11:20:32 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+5月 07 08:13:43 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 07 08:13:43 ubuntu apport[815]:  * Starting automatic crash report generation: apport
+5月 07 08:13:43 ubuntu apport[815]:    ...done.
+5月 07 08:13:43 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+5月 08 14:53:45 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 08 14:53:46 ubuntu apport[795]:  * Starting automatic crash report generation: apport
+5月 08 14:53:46 ubuntu apport[795]:    ...done.
+5月 08 14:53:46 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+5月 08 14:55:07 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+5月 08 14:55:08 ubuntu apport[3688]:  * Stopping automatic crash report generation: apport
+5月 08 14:55:08 ubuntu apport[3688]:    ...done.
+5月 08 14:55:08 ubuntu systemd[1]: apport.service: Succeeded.
+5月 08 14:55:08 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+5月 08 15:54:09 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 08 15:54:10 ubuntu apport[790]:  * Starting automatic crash report generation: apport
+5月 08 15:54:10 ubuntu apport[790]:    ...done.
+5月 08 15:54:10 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+5月 08 16:26:55 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+5月 08 16:26:55 ubuntu apport[14750]:  * Stopping automatic crash report generation: apport
+5月 08 16:26:55 ubuntu apport[14750]:    ...done.
+5月 08 16:26:55 ubuntu systemd[1]: apport.service: Succeeded.
+5月 08 16:26:55 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+5月 08 16:27:21 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 08 16:27:21 ubuntu apport[813]:  * Starting automatic crash report generation: apport
+5月 08 16:27:21 ubuntu apport[813]:    ...done.
+5月 08 16:27:21 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+5月 08 17:02:55 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+5月 08 17:02:55 ubuntu apport[6703]:  * Stopping automatic crash report generation: apport
+5月 08 17:02:55 ubuntu apport[6703]:    ...done.
+5月 08 17:02:55 ubuntu systemd[1]: apport.service: Succeeded.
+5月 08 17:02:55 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+5月 14 20:51:42 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 14 20:51:43 ubuntu apport[814]:  * Starting automatic crash report generation: apport
+5月 14 20:51:43 ubuntu apport[814]:    ...done.
+5月 14 20:51:43 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+5月 15 00:06:13 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 15 00:06:13 ubuntu apport[808]:  * Starting automatic crash report generation: apport
+5月 15 00:06:13 ubuntu apport[808]:    ...done.
+5月 15 00:06:13 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+5月 15 00:09:00 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+5月 15 00:09:00 ubuntu apport[3645]:  * Stopping automatic crash report generation: apport
+5月 15 00:09:00 ubuntu apport[3645]:    ...done.
+5月 15 00:09:00 ubuntu systemd[1]: apport.service: Succeeded.
+5月 15 00:09:00 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+5月 15 00:15:05 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 15 00:15:05 ubuntu apport[868]:  * Starting automatic crash report generation: apport
+5月 15 00:15:06 ubuntu apport[868]:    ...done.
+5月 15 00:15:06 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+5月 15 00:17:56 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+5月 15 00:17:56 ubuntu apport[3056]:  * Stopping automatic crash report generation: apport
+5月 15 00:17:56 ubuntu apport[3056]:    ...done.
+5月 15 00:17:56 ubuntu systemd[1]: apport.service: Succeeded.
+5月 15 00:17:56 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+5月 15 10:43:39 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 15 10:43:39 ubuntu apport[866]:  * Starting automatic crash report generation: apport
+5月 15 10:43:39 ubuntu apport[866]:    ...done.
+5月 15 10:43:39 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+5月 15 13:21:32 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+5月 15 13:21:32 ubuntu apport[16127]:  * Stopping automatic crash report generation: apport
+5月 15 13:21:32 ubuntu apport[16127]:    ...done.
+5月 15 13:21:32 ubuntu systemd[1]: apport.service: Succeeded.
+5月 15 13:21:32 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+5月 15 15:15:40 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 15 15:15:41 ubuntu apport[817]:  * Starting automatic crash report generation: apport
+5月 15 15:15:41 ubuntu apport[817]:    ...done.
+5月 15 15:15:41 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+5月 15 15:16:43 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+5月 15 15:16:44 ubuntu apport[3336]:  * Stopping automatic crash report generation: apport
+5月 15 15:16:44 ubuntu apport[3336]:    ...done.
+5月 15 15:16:44 ubuntu systemd[1]: apport.service: Succeeded.
+5月 15 15:16:44 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+5月 15 16:28:26 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 15 16:28:27 ubuntu apport[815]:  * Starting automatic crash report generation: apport
+5月 15 16:28:27 ubuntu apport[815]:    ...done.
+5月 15 16:28:27 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+5月 15 17:59:27 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+5月 15 17:59:27 ubuntu apport[4495]:  * Stopping automatic crash report generation: apport
+5月 15 17:59:27 ubuntu apport[4495]:    ...done.
+5月 15 17:59:27 ubuntu systemd[1]: apport.service: Succeeded.
+5月 15 17:59:27 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+5月 15 21:27:13 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 15 21:27:13 ubuntu apport[812]:  * Starting automatic crash report generation: apport
+5月 15 21:27:13 ubuntu apport[812]:    ...done.
+5月 15 21:27:13 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+5月 15 22:59:14 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+5月 15 22:59:14 ubuntu apport[4644]:  * Stopping automatic crash report generation: apport
+5月 15 22:59:14 ubuntu apport[4644]:    ...done.
+5月 15 22:59:14 ubuntu systemd[1]: apport.service: Succeeded.
+5月 15 22:59:14 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+5月 31 15:28:44 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 31 15:28:45 ubuntu apport[810]:  * Starting automatic crash report generation: apport
+5月 31 15:28:45 ubuntu apport[810]:    ...done.
+5月 31 15:28:45 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+5月 31 15:52:19 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+5月 31 15:52:19 ubuntu apport[12505]:  * Stopping automatic crash report generation: apport
+5月 31 15:52:19 ubuntu apport[12505]:    ...done.
+5月 31 15:52:19 ubuntu systemd[1]: apport.service: Succeeded.
+5月 31 15:52:19 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+5月 31 15:52:20 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 31 15:52:20 ubuntu apport[12683]:  * Starting automatic crash report generation: apport
+5月 31 15:52:20 ubuntu apport[12683]:    ...done.
+5月 31 15:52:20 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+5月 31 16:19:37 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+5月 31 16:19:37 ubuntu apport[38661]:  * Stopping automatic crash report generation: apport
+5月 31 16:19:37 ubuntu apport[38661]:    ...done.
+5月 31 16:19:37 ubuntu systemd[1]: apport.service: Succeeded.
+5月 31 16:19:37 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+5月 31 16:19:54 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 31 16:19:54 ubuntu apport[862]:  * Starting automatic crash report generation: apport
+5月 31 16:19:54 ubuntu apport[862]:    ...done.
+5月 31 16:19:54 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+5月 31 21:00:55 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+5月 31 21:00:56 ubuntu apport[842]:  * Starting automatic crash report generation: apport
+5月 31 21:00:56 ubuntu apport[842]:    ...done.
+5月 31 21:00:56 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+6月 01 23:20:20 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+6月 01 23:20:21 ubuntu apport[858]:  * Starting automatic crash report generation: apport
+6月 01 23:20:21 ubuntu apport[858]:    ...done.
+6月 01 23:20:22 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+6月 02 00:27:49 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+6月 02 00:27:49 ubuntu apport[10695]:  * Stopping automatic crash report generation: apport
+6月 02 00:27:49 ubuntu apport[10695]:    ...done.
+6月 02 00:27:49 ubuntu systemd[1]: apport.service: Succeeded.
+6月 02 00:27:49 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+6月 06 14:12:34 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+6月 06 14:12:35 ubuntu apport[862]:  * Starting automatic crash report generation: apport
+6月 06 14:12:35 ubuntu apport[862]:    ...done.
+6月 06 14:12:35 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+6月 06 15:33:45 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+6月 06 15:33:46 ubuntu apport[14591]:  * Stopping automatic crash report generation: apport
+6月 06 15:33:46 ubuntu apport[14591]:    ...done.
+6月 06 15:33:46 ubuntu systemd[1]: apport.service: Succeeded.
+6月 06 15:33:46 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+6月 06 15:39:28 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+6月 06 15:39:29 ubuntu apport[861]:  * Starting automatic crash report generation: apport
+6月 06 15:39:29 ubuntu apport[861]:    ...done.
+6月 06 15:39:29 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+6月 06 15:42:24 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+6月 06 15:42:24 ubuntu apport[3655]:  * Stopping automatic crash report generation: apport
+6月 06 15:42:24 ubuntu apport[3655]:    ...done.
+6月 06 15:42:24 ubuntu systemd[1]: apport.service: Succeeded.
+6月 06 15:42:24 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+6月 06 15:44:09 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+6月 06 15:44:10 ubuntu apport[799]:  * Starting automatic crash report generation: apport
+6月 06 15:44:10 ubuntu apport[799]:    ...done.
+6月 06 15:44:10 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+6月 15 14:08:49 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+6月 15 14:08:49 ubuntu apport[861]:  * Starting automatic crash report generation: apport
+6月 15 14:08:50 ubuntu apport[861]:    ...done.
+6月 15 14:08:50 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+6月 15 16:32:38 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+6月 15 16:32:38 ubuntu apport[7297]:  * Stopping automatic crash report generation: apport
+6月 15 16:32:38 ubuntu apport[7297]:    ...done.
+6月 15 16:32:38 ubuntu systemd[1]: apport.service: Succeeded.
+6月 15 16:32:38 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+6月 16 14:48:28 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+6月 16 14:48:28 ubuntu apport[803]:  * Starting automatic crash report generation: apport
+6月 16 14:48:28 ubuntu apport[803]:    ...done.
+6月 16 14:48:28 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+2月 25 16:36:14 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+2月 25 16:36:14 ubuntu apport[804]:  * Starting automatic crash report generation: apport
+2月 25 16:36:14 ubuntu apport[804]:    ...done.
+2月 25 16:36:14 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+3月 27 17:52:48 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 27 17:52:49 ubuntu apport[799]:  * Starting automatic crash report generation: apport
+3月 27 17:52:49 ubuntu apport[799]:    ...done.
+3月 27 17:52:49 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+3月 30 14:05:42 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 30 14:05:43 ubuntu apport[798]:  * Starting automatic crash report generation: apport
+3月 30 14:05:43 ubuntu apport[798]:    ...done.
+3月 30 14:05:43 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 30 14:44:04 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 30 14:44:05 ubuntu apport[13565]:  * Stopping automatic crash report generation: apport
+3月 30 14:44:05 ubuntu apport[13565]:    ...done.
+3月 30 14:44:05 ubuntu systemd[1]: apport.service: Succeeded.
+3月 30 14:44:05 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 30 14:44:33 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 30 14:44:33 ubuntu apport[801]:  * Starting automatic crash report generation: apport
+3月 30 14:44:33 ubuntu apport[801]:    ...done.
+3月 30 14:44:33 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 30 14:51:17 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 30 14:51:17 ubuntu apport[4118]:  * Stopping automatic crash report generation: apport
+3月 30 14:51:17 ubuntu apport[4118]:    ...done.
+3月 30 14:51:17 ubuntu systemd[1]: apport.service: Succeeded.
+3月 30 14:51:17 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 30 15:12:19 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 30 15:12:19 ubuntu apport[800]:  * Starting automatic crash report generation: apport
+3月 30 15:12:19 ubuntu apport[800]:    ...done.
+3月 30 15:12:19 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 30 15:12:58 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 30 15:12:58 ubuntu apport[2612]:  * Stopping automatic crash report generation: apport
+3月 30 15:12:58 ubuntu apport[2612]:    ...done.
+3月 30 15:12:58 ubuntu systemd[1]: apport.service: Succeeded.
+3月 30 15:12:58 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 30 15:18:40 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 30 15:18:40 ubuntu apport[800]:  * Starting automatic crash report generation: apport
+3月 30 15:18:40 ubuntu apport[800]:    ...done.
+3月 30 15:18:40 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 30 15:19:57 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 30 15:19:58 ubuntu apport[2794]:  * Stopping automatic crash report generation: apport
+3月 30 15:19:58 ubuntu apport[2794]:    ...done.
+3月 30 15:19:58 ubuntu systemd[1]: apport.service: Succeeded.
+3月 30 15:19:58 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 30 22:57:13 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 30 22:57:14 ubuntu apport[853]:  * Starting automatic crash report generation: apport
+3月 30 22:57:14 ubuntu apport[853]:    ...done.
+3月 30 22:57:14 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 30 22:59:12 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 30 22:59:12 ubuntu apport[3169]:  * Stopping automatic crash report generation: apport
+3月 30 22:59:12 ubuntu apport[3169]:    ...done.
+3月 30 22:59:12 ubuntu systemd[1]: apport.service: Succeeded.
+3月 30 22:59:12 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 30 23:00:45 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 30 23:00:45 ubuntu apport[804]:  * Starting automatic crash report generation: apport
+3月 30 23:00:45 ubuntu apport[804]:    ...done.
+3月 30 23:00:45 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 30 23:02:22 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 30 23:02:23 ubuntu apport[2762]:  * Stopping automatic crash report generation: apport
+3月 30 23:02:23 ubuntu apport[2762]:    ...done.
+3月 30 23:02:23 ubuntu systemd[1]: apport.service: Succeeded.
+3月 30 23:02:23 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 30 23:05:26 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 30 23:05:26 ubuntu apport[842]:  * Starting automatic crash report generation: apport
+3月 30 23:05:26 ubuntu apport[842]:    ...done.
+3月 30 23:05:27 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 30 23:14:08 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 30 23:14:09 ubuntu apport[4116]:  * Stopping automatic crash report generation: apport
+3月 30 23:14:09 ubuntu apport[4116]:    ...done.
+3月 30 23:14:09 ubuntu systemd[1]: apport.service: Succeeded.
+3月 30 23:14:09 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 31 18:40:19 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 31 18:40:20 ubuntu apport[861]:  * Starting automatic crash report generation: apport
+3月 31 18:40:20 ubuntu apport[861]:    ...done.
+3月 31 18:40:20 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 31 18:53:35 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 31 18:53:35 ubuntu apport[16484]:  * Stopping automatic crash report generation: apport
+3月 31 18:53:35 ubuntu apport[16484]:    ...done.
+3月 31 18:53:35 ubuntu systemd[1]: apport.service: Succeeded.
+3月 31 18:53:35 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 31 18:54:16 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 31 18:54:17 ubuntu apport[857]:  * Starting automatic crash report generation: apport
+3月 31 18:54:17 ubuntu apport[857]:    ...done.
+3月 31 18:54:17 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 31 19:01:42 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 31 19:01:42 ubuntu apport[3413]:  * Stopping automatic crash report generation: apport
+3月 31 19:01:42 ubuntu apport[3413]:    ...done.
+3月 31 19:01:42 ubuntu systemd[1]: apport.service: Succeeded.
+3月 31 19:01:42 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 31 19:04:01 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 31 19:04:01 ubuntu apport[803]:  * Starting automatic crash report generation: apport
+3月 31 19:04:01 ubuntu apport[803]:    ...done.
+3月 31 19:04:01 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 31 19:26:10 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 31 19:26:10 ubuntu apport[4069]:  * Stopping automatic crash report generation: apport
+3月 31 19:26:10 ubuntu apport[4069]:    ...done.
+3月 31 19:26:10 ubuntu systemd[1]: apport.service: Succeeded.
+3月 31 19:26:10 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 31 19:27:35 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 31 19:27:36 ubuntu apport[853]:  * Starting automatic crash report generation: apport
+3月 31 19:27:36 ubuntu apport[853]:    ...done.
+3月 31 19:27:36 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+3月 31 19:43:30 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 31 19:43:31 ubuntu apport[798]:  * Starting automatic crash report generation: apport
+3月 31 19:43:31 ubuntu apport[798]:    ...done.
+3月 31 19:43:31 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 31 19:53:09 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 31 19:53:09 ubuntu apport[8600]:  * Stopping automatic crash report generation: apport
+3月 31 19:53:09 ubuntu apport[8600]:    ...done.
+3月 31 19:53:09 ubuntu systemd[1]: apport.service: Succeeded.
+3月 31 19:53:09 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+3月 31 19:55:14 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 31 19:55:14 ubuntu apport[27727]:  * Starting automatic crash report generation: apport
+3月 31 19:55:14 ubuntu apport[27727]:    ...done.
+3月 31 19:55:14 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 31 19:57:56 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 31 19:57:56 ubuntu apport[50005]:  * Stopping automatic crash report generation: apport
+3月 31 19:57:56 ubuntu apport[50005]:    ...done.
+3月 31 19:57:56 ubuntu systemd[1]: apport.service: Succeeded.
+3月 31 19:57:56 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 31 19:58:19 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 31 19:58:20 ubuntu apport[840]:  * Starting automatic crash report generation: apport
+3月 31 19:58:20 ubuntu apport[840]:    ...done.
+3月 31 19:58:20 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 31 20:09:57 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 31 20:09:57 ubuntu apport[3903]:  * Stopping automatic crash report generation: apport
+3月 31 20:09:57 ubuntu apport[3903]:    ...done.
+3月 31 20:09:57 ubuntu systemd[1]: apport.service: Succeeded.
+3月 31 20:09:57 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+3月 31 20:24:35 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+3月 31 20:24:35 ubuntu apport[855]:  * Starting automatic crash report generation: apport
+3月 31 20:24:35 ubuntu apport[855]:    ...done.
+3月 31 20:24:35 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+3月 31 21:06:51 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+3月 31 21:06:51 ubuntu apport[4435]:  * Stopping automatic crash report generation: apport
+3月 31 21:06:51 ubuntu apport[4435]:    ...done.
+3月 31 21:06:51 ubuntu systemd[1]: apport.service: Succeeded.
+3月 31 21:06:51 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 02 17:05:04 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 02 17:05:04 ubuntu apport[851]:  * Starting automatic crash report generation: apport
+4月 02 17:05:04 ubuntu apport[851]:    ...done.
+4月 02 17:05:04 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 02 17:13:52 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 02 17:13:52 ubuntu apport[5941]:  * Stopping automatic crash report generation: apport
+4月 02 17:13:52 ubuntu apport[5941]:    ...done.
+4月 02 17:13:52 ubuntu systemd[1]: apport.service: Succeeded.
+4月 02 17:13:52 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 14 20:21:36 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 14 20:21:37 ubuntu apport[786]:  * Starting automatic crash report generation: apport
+4月 14 20:21:37 ubuntu apport[786]:    ...done.
+4月 14 20:21:37 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 14 20:28:02 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 14 20:28:02 ubuntu apport[7156]:  * Stopping automatic crash report generation: apport
+4月 14 20:28:02 ubuntu apport[7156]:    ...done.
+4月 14 20:28:02 ubuntu systemd[1]: apport.service: Succeeded.
+4月 14 20:28:02 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+4月 14 20:28:04 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 14 20:28:04 ubuntu apport[7340]:  * Starting automatic crash report generation: apport
+4月 14 20:28:04 ubuntu apport[7340]:    ...done.
+4月 14 20:28:04 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 14 20:54:40 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 14 20:54:40 ubuntu apport[10929]:  * Stopping automatic crash report generation: apport
+4月 14 20:54:40 ubuntu apport[10929]:    ...done.
+4月 14 20:54:40 ubuntu systemd[1]: apport.service: Succeeded.
+4月 14 20:54:40 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 14 20:55:48 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 14 20:55:49 ubuntu apport[849]:  * Starting automatic crash report generation: apport
+4月 14 20:55:49 ubuntu apport[849]:    ...done.
+4月 14 20:55:49 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+-- Reboot --
+4月 15 22:30:52 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 15 22:31:07 ubuntu apport[853]:  * Starting automatic crash report generation: apport
+4月 15 22:31:07 ubuntu apport[853]:    ...done.
+4月 15 22:31:07 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 15 22:43:24 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 15 22:43:25 ubuntu apport[6060]:  * Stopping automatic crash report generation: apport
+4月 15 22:43:25 ubuntu apport[6060]:    ...done.
+4月 15 22:43:25 ubuntu systemd[1]: apport.service: Succeeded.
+4月 15 22:43:25 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 15 22:43:42 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 15 22:43:42 ubuntu apport[859]:  * Starting automatic crash report generation: apport
+4月 15 22:43:42 ubuntu apport[859]:    ...done.
+4月 15 22:43:42 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 15 23:08:20 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 15 23:08:20 ubuntu apport[5498]:  * Stopping automatic crash report generation: apport
+4月 15 23:08:20 ubuntu apport[5498]:    ...done.
+4月 15 23:08:20 ubuntu systemd[1]: apport.service: Succeeded.
+4月 15 23:08:20 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 19 18:41:04 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 19 18:41:05 ubuntu apport[802]:  * Starting automatic crash report generation: apport
+4月 19 18:41:05 ubuntu apport[802]:    ...done.
+4月 19 18:41:05 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 19 19:04:21 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 19 19:04:21 ubuntu apport[5316]:  * Stopping automatic crash report generation: apport
+4月 19 19:04:21 ubuntu apport[5316]:    ...done.
+4月 19 19:04:21 ubuntu systemd[1]: apport.service: Succeeded.
+4月 19 19:04:21 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 19 19:16:16 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 19 19:16:16 ubuntu apport[855]:  * Starting automatic crash report generation: apport
+4月 19 19:16:16 ubuntu apport[855]:    ...done.
+4月 19 19:16:16 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+4月 19 19:25:49 ubuntu systemd[1]: Stopping LSB: automatic crash report generation...
+4月 19 19:25:50 ubuntu apport[4692]:  * Stopping automatic crash report generation: apport
+4月 19 19:25:50 ubuntu apport[4692]:    ...done.
+4月 19 19:25:50 ubuntu systemd[1]: apport.service: Succeeded.
+4月 19 19:25:50 ubuntu systemd[1]: Stopped LSB: automatic crash report generation.
+-- Reboot --
+4月 21 14:58:06 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+4月 21 14:58:07 ubuntu apport[833]:  * Starting automatic crash report generation: apport
+4月 21 14:58:07 ubuntu apport[833]:    ...done.
+4月 21 14:58:07 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+

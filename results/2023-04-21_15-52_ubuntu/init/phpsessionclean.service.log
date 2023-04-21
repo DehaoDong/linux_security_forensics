@@ -1,0 +1,261 @@
+-- Logs begin at Sat 2022-01-08 18:32:32 CST, end at Fri 2023-04-21 15:50:02 CST. --
+5月 08 16:39:05 ubuntu systemd[1]: Starting Clean php session files...
+5月 08 16:39:05 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 08 16:39:05 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+5月 14 20:51:42 ubuntu systemd[1]: Starting Clean php session files...
+5月 14 20:51:43 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 14 20:51:43 ubuntu systemd[1]: Finished Clean php session files.
+5月 14 21:09:05 ubuntu systemd[1]: Starting Clean php session files...
+5月 14 21:09:05 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 14 21:09:05 ubuntu systemd[1]: Finished Clean php session files.
+5月 14 21:39:05 ubuntu systemd[1]: Starting Clean php session files...
+5月 14 21:39:05 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 14 21:39:05 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+5月 15 00:06:13 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 00:06:13 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 00:06:13 ubuntu systemd[1]: Finished Clean php session files.
+5月 15 00:09:00 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 00:09:00 ubuntu systemd[1]: phpsessionclean.service: Main process exited, code=killed, status=15/TERM
+5月 15 00:09:00 ubuntu systemd[1]: phpsessionclean.service: Failed with result 'signal'.
+5月 15 00:09:00 ubuntu systemd[1]: Stopped Clean php session files.
+-- Reboot --
+5月 15 10:43:39 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 10:43:40 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 10:43:40 ubuntu systemd[1]: Finished Clean php session files.
+5月 15 11:09:00 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 11:09:00 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 11:09:00 ubuntu systemd[1]: Finished Clean php session files.
+5月 15 11:39:00 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 11:39:00 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 11:39:00 ubuntu systemd[1]: Finished Clean php session files.
+5月 15 12:09:00 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 12:09:00 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 12:09:00 ubuntu systemd[1]: Finished Clean php session files.
+5月 15 12:39:00 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 12:39:00 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 12:39:00 ubuntu systemd[1]: Finished Clean php session files.
+5月 15 13:09:00 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 13:09:00 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 13:09:00 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+5月 15 15:15:40 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 15:15:41 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 15:15:41 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+5月 15 16:28:26 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 16:28:27 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 16:28:27 ubuntu systemd[1]: Finished Clean php session files.
+5月 15 16:39:10 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 16:39:10 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 16:39:10 ubuntu systemd[1]: Finished Clean php session files.
+5月 15 17:09:49 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 17:09:49 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 17:09:49 ubuntu systemd[1]: Finished Clean php session files.
+5月 15 17:39:49 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 17:39:49 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 17:39:49 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+5月 15 21:27:13 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 21:27:14 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 21:27:14 ubuntu systemd[1]: Finished Clean php session files.
+5月 15 21:39:30 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 21:39:30 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 21:39:30 ubuntu systemd[1]: Finished Clean php session files.
+5月 15 22:09:30 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 22:09:30 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 22:09:30 ubuntu systemd[1]: Finished Clean php session files.
+5月 15 22:39:30 ubuntu systemd[1]: Starting Clean php session files...
+5月 15 22:39:30 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 15 22:39:30 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+5月 31 15:28:44 ubuntu systemd[1]: Starting Clean php session files...
+5月 31 15:28:45 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 31 15:28:45 ubuntu systemd[1]: Finished Clean php session files.
+5月 31 15:39:11 ubuntu systemd[1]: Starting Clean php session files...
+5月 31 15:39:11 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 31 15:39:11 ubuntu systemd[1]: Finished Clean php session files.
+5月 31 16:09:07 ubuntu systemd[1]: Starting Clean php session files...
+5月 31 16:09:07 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 31 16:09:07 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+5月 31 16:39:30 ubuntu systemd[1]: Starting Clean php session files...
+5月 31 16:39:30 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 31 16:39:30 ubuntu systemd[1]: Finished Clean php session files.
+5月 31 17:09:01 ubuntu systemd[1]: Starting Clean php session files...
+5月 31 17:09:01 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 31 17:09:01 ubuntu systemd[1]: Finished Clean php session files.
+5月 31 17:39:40 ubuntu systemd[1]: Starting Clean php session files...
+5月 31 17:39:40 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 31 17:39:40 ubuntu systemd[1]: Finished Clean php session files.
+5月 31 18:09:10 ubuntu systemd[1]: Starting Clean php session files...
+5月 31 18:09:10 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 31 18:09:10 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+5月 31 21:00:56 ubuntu systemd[1]: Starting Clean php session files...
+5月 31 21:00:56 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 31 21:00:56 ubuntu systemd[1]: Finished Clean php session files.
+5月 31 21:09:19 ubuntu systemd[1]: Starting Clean php session files...
+5月 31 21:09:19 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 31 21:09:19 ubuntu systemd[1]: Finished Clean php session files.
+5月 31 21:39:00 ubuntu systemd[1]: Starting Clean php session files...
+5月 31 21:39:00 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 31 21:39:00 ubuntu systemd[1]: Finished Clean php session files.
+5月 31 22:09:09 ubuntu systemd[1]: Starting Clean php session files...
+5月 31 22:09:09 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 31 22:09:09 ubuntu systemd[1]: Finished Clean php session files.
+5月 31 22:39:19 ubuntu systemd[1]: Starting Clean php session files...
+5月 31 22:39:19 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+5月 31 22:39:19 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+6月 01 23:20:20 ubuntu systemd[1]: Starting Clean php session files...
+6月 01 23:20:24 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+6月 01 23:20:24 ubuntu systemd[1]: Finished Clean php session files.
+6月 01 23:39:05 ubuntu systemd[1]: Starting Clean php session files...
+6月 01 23:39:05 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+6月 01 23:39:05 ubuntu systemd[1]: Finished Clean php session files.
+6月 02 00:09:12 ubuntu systemd[1]: Starting Clean php session files...
+6月 02 00:09:12 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+6月 02 00:09:12 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+6月 06 14:12:34 ubuntu systemd[1]: Starting Clean php session files...
+6月 06 14:12:36 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+6月 06 14:12:36 ubuntu systemd[1]: Finished Clean php session files.
+6月 06 14:39:22 ubuntu systemd[1]: Starting Clean php session files...
+6月 06 14:39:22 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+6月 06 14:39:22 ubuntu systemd[1]: Finished Clean php session files.
+6月 06 15:09:17 ubuntu systemd[1]: Starting Clean php session files...
+6月 06 15:09:17 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+6月 06 15:09:17 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+6月 06 15:39:28 ubuntu systemd[1]: Starting Clean php session files...
+6月 06 15:39:36 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+6月 06 15:39:36 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+6月 15 14:08:49 ubuntu systemd[1]: Starting Clean php session files...
+6月 15 14:08:51 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+6月 15 14:08:51 ubuntu systemd[1]: Finished Clean php session files.
+6月 15 14:09:00 ubuntu systemd[1]: Starting Clean php session files...
+6月 15 14:09:01 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+6月 15 14:09:01 ubuntu systemd[1]: Finished Clean php session files.
+6月 15 14:39:08 ubuntu systemd[1]: Starting Clean php session files...
+6月 15 14:39:08 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+6月 15 14:39:08 ubuntu systemd[1]: Finished Clean php session files.
+6月 15 15:09:08 ubuntu systemd[1]: Starting Clean php session files...
+6月 15 15:09:08 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+6月 15 15:09:08 ubuntu systemd[1]: Finished Clean php session files.
+6月 15 15:39:08 ubuntu systemd[1]: Starting Clean php session files...
+6月 15 15:39:08 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+6月 15 15:39:08 ubuntu systemd[1]: Finished Clean php session files.
+6月 15 16:09:08 ubuntu systemd[1]: Starting Clean php session files...
+6月 15 16:09:08 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+6月 15 16:09:08 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+6月 16 14:48:28 ubuntu systemd[1]: Starting Clean php session files...
+6月 16 14:48:29 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+6月 16 14:48:29 ubuntu systemd[1]: Finished Clean php session files.
+6月 16 15:09:00 ubuntu systemd[1]: Starting Clean php session files...
+6月 16 15:09:00 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+6月 16 15:09:00 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+2月 25 16:36:14 ubuntu systemd[1]: Starting Clean php session files...
+2月 25 16:36:15 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+2月 25 16:36:15 ubuntu systemd[1]: Finished Clean php session files.
+2月 25 16:39:03 ubuntu systemd[1]: Starting Clean php session files...
+2月 25 16:39:03 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+2月 25 16:39:03 ubuntu systemd[1]: Finished Clean php session files.
+2月 25 17:09:30 ubuntu systemd[1]: Starting Clean php session files...
+2月 25 17:09:30 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+2月 25 17:09:30 ubuntu systemd[1]: Finished Clean php session files.
+2月 26 17:17:09 ubuntu systemd[1]: Starting Clean php session files...
+-- Reboot --
+3月 27 17:52:49 ubuntu systemd[1]: Starting Clean php session files...
+3月 27 17:52:49 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+3月 27 17:52:49 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+3月 30 14:05:42 ubuntu systemd[1]: Starting Clean php session files...
+3月 30 14:06:07 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+3月 30 14:06:07 ubuntu systemd[1]: Finished Clean php session files.
+3月 30 14:09:38 ubuntu systemd[1]: Starting Clean php session files...
+3月 30 14:09:38 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+3月 30 14:09:38 ubuntu systemd[1]: Finished Clean php session files.
+3月 30 14:39:00 ubuntu systemd[1]: Starting Clean php session files...
+3月 30 14:39:00 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+3月 30 14:39:00 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+3月 30 15:12:19 ubuntu systemd[1]: Starting Clean php session files...
+3月 30 15:12:20 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+3月 30 15:12:20 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+3月 30 22:57:13 ubuntu systemd[1]: Starting Clean php session files...
+3月 30 22:57:14 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+3月 30 22:57:14 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+3月 30 23:09:19 ubuntu systemd[1]: Starting Clean php session files...
+3月 30 23:09:19 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+3月 30 23:09:19 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+3月 31 18:40:19 ubuntu systemd[1]: Starting Clean php session files...
+3月 31 18:40:20 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+3月 31 18:40:20 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+3月 31 19:09:03 ubuntu systemd[1]: Starting Clean php session files...
+3月 31 19:09:03 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+3月 31 19:09:03 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+3月 31 19:39:16 ubuntu systemd[1]: Starting Clean php session files...
+3月 31 19:39:16 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+3月 31 19:39:16 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+3月 31 20:09:12 ubuntu systemd[1]: Starting Clean php session files...
+3月 31 20:09:12 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+3月 31 20:09:12 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+3月 31 20:39:01 ubuntu systemd[1]: Starting Clean php session files...
+3月 31 20:39:01 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+3月 31 20:39:01 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+4月 02 17:05:04 ubuntu systemd[1]: Starting Clean php session files...
+4月 02 17:05:05 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+4月 02 17:05:05 ubuntu systemd[1]: Finished Clean php session files.
+4月 02 17:09:07 ubuntu systemd[1]: Starting Clean php session files...
+4月 02 17:09:07 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+4月 02 17:09:07 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+4月 14 20:21:36 ubuntu systemd[1]: Starting Clean php session files...
+4月 14 20:21:40 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+4月 14 20:21:40 ubuntu systemd[1]: Finished Clean php session files.
+4月 14 20:39:18 ubuntu systemd[1]: Starting Clean php session files...
+4月 14 20:39:18 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+4月 14 20:39:18 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+4月 14 21:09:10 ubuntu systemd[1]: Starting Clean php session files...
+4月 14 21:09:10 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+4月 14 21:09:10 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+4月 15 22:30:52 ubuntu systemd[1]: Starting Clean php session files...
+4月 15 22:31:08 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+4月 15 22:31:08 ubuntu systemd[1]: Finished Clean php session files.
+4月 15 22:39:10 ubuntu systemd[1]: Starting Clean php session files...
+4月 15 22:39:10 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+4月 15 22:39:10 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+4月 19 18:41:05 ubuntu systemd[1]: Starting Clean php session files...
+4月 19 18:41:05 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+4月 19 18:41:05 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+4月 19 19:16:16 ubuntu systemd[1]: Starting Clean php session files...
+4月 19 19:16:16 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+4月 19 19:16:16 ubuntu systemd[1]: Finished Clean php session files.
+-- Reboot --
+4月 21 14:58:07 ubuntu systemd[1]: Starting Clean php session files...
+4月 21 14:58:07 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+4月 21 14:58:07 ubuntu systemd[1]: Finished Clean php session files.
+4月 21 15:09:02 ubuntu systemd[1]: Starting Clean php session files...
+4月 21 15:09:02 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+4月 21 15:09:02 ubuntu systemd[1]: Finished Clean php session files.
+4月 21 15:39:02 ubuntu systemd[1]: Starting Clean php session files...
+4月 21 15:39:02 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+4月 21 15:39:02 ubuntu systemd[1]: Finished Clean php session files.
+

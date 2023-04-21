@@ -1,0 +1,86 @@
+
+Start-Date: 2023-04-02  17:06:12
+Commandline: aptdaemon role='role-commit-packages' sender=':1.104'
+Upgrade: bolt:amd64 (0.9.1-2~ubuntu20.04.1, 0.9.1-2~ubuntu20.04.2)
+End-Date: 2023-04-02  17:06:14
+
+Start-Date: 2023-04-14  20:27:10
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: firefox-locale-zh-hans:amd64 (111.0.1+build2-0ubuntu0.20.04.1, 112.0+build2-0ubuntu0.20.04.1)
+End-Date: 2023-04-14  20:27:10
+
+Start-Date: 2023-04-14  20:27:14
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: xxd:amd64 (2:8.1.2269-1ubuntu5.12, 2:8.1.2269-1ubuntu5.13)
+End-Date: 2023-04-14  20:27:15
+
+Start-Date: 2023-04-14  20:27:20
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libldb2:amd64 (2:2.4.4-0ubuntu0.20.04.1, 2:2.4.4-0ubuntu0.20.04.2), libwbclient0:amd64 (2:4.15.13+dfsg-0ubuntu0.20.04.1, 2:4.15.13+dfsg-0ubuntu0.20.04.2), python3-ldb:amd64 (2:2.4.4-0ubuntu0.20.04.1, 2:2.4.4-0ubuntu0.20.04.2), samba-libs:amd64 (2:4.15.13+dfsg-0ubuntu0.20.04.1, 2:4.15.13+dfsg-0ubuntu0.20.04.2), libsmbclient:amd64 (2:4.15.13+dfsg-0ubuntu0.20.04.1, 2:4.15.13+dfsg-0ubuntu0.20.04.2)
+End-Date: 2023-04-14  20:27:21
+
+Start-Date: 2023-04-14  20:27:25
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: firefox-locale-en:amd64 (111.0.1+build2-0ubuntu0.20.04.1, 112.0+build2-0ubuntu0.20.04.1)
+End-Date: 2023-04-14  20:27:26
+
+Start-Date: 2023-04-14  20:27:29
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: liblouis-data:amd64 (3.12.0-3ubuntu0.1, 3.12.0-3ubuntu0.2)
+End-Date: 2023-04-14  20:27:30
+
+Start-Date: 2023-04-14  20:27:34
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libgs9:amd64 (9.50~dfsg-5ubuntu4.6, 9.50~dfsg-5ubuntu4.7), ghostscript:amd64 (9.50~dfsg-5ubuntu4.6, 9.50~dfsg-5ubuntu4.7), ghostscript-x:amd64 (9.50~dfsg-5ubuntu4.6, 9.50~dfsg-5ubuntu4.7), libgs9-common:amd64 (9.50~dfsg-5ubuntu4.6, 9.50~dfsg-5ubuntu4.7)
+End-Date: 2023-04-14  20:27:35
+
+Start-Date: 2023-04-14  20:27:39
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: python3-apport:amd64 (2.20.11-0ubuntu27.25, 2.20.11-0ubuntu27.26)
+End-Date: 2023-04-14  20:27:39
+
+Start-Date: 2023-04-14  20:27:43
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: sudo:amd64 (1.8.31-1ubuntu1.4, 1.8.31-1ubuntu1.5)
+End-Date: 2023-04-14  20:27:44
+
+Start-Date: 2023-04-14  20:27:48
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: vim-common:amd64 (2:8.1.2269-1ubuntu5.12, 2:8.1.2269-1ubuntu5.13), vim-tiny:amd64 (2:8.1.2269-1ubuntu5.12, 2:8.1.2269-1ubuntu5.13)
+End-Date: 2023-04-14  20:27:50
+
+Start-Date: 2023-04-14  20:27:53
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: python3-problem-report:amd64 (2.20.11-0ubuntu27.25, 2.20.11-0ubuntu27.26)
+End-Date: 2023-04-14  20:27:54
+
+Start-Date: 2023-04-14  20:27:57
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: apport-gtk:amd64 (2.20.11-0ubuntu27.25, 2.20.11-0ubuntu27.26)
+End-Date: 2023-04-14  20:27:58
+
+Start-Date: 2023-04-14  20:28:02
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: apport:amd64 (2.20.11-0ubuntu27.25, 2.20.11-0ubuntu27.26)
+End-Date: 2023-04-14  20:28:05
+
+Start-Date: 2023-04-14  20:28:09
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: firefox:amd64 (111.0.1+build2-0ubuntu0.20.04.1, 112.0+build2-0ubuntu0.20.04.1)
+End-Date: 2023-04-14  20:28:14
+
+Start-Date: 2023-04-14  20:28:18
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: tzdata:amd64 (2023b-0ubuntu0.20.04.0, 2023c-0ubuntu0.20.04.0)
+End-Date: 2023-04-14  20:28:18
+
+Start-Date: 2023-04-14  20:28:21
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: liblouis20:amd64 (3.12.0-3ubuntu0.1, 3.12.0-3ubuntu0.2), python3-louis:amd64 (3.12.0-3ubuntu0.1, 3.12.0-3ubuntu0.2)
+End-Date: 2023-04-14  20:28:22
+
+Start-Date: 2023-04-14  21:07:09
+Commandline: apt install python3-pip
+Requested-By: ree (1000)
+Install: python3-dev:amd64 (3.8.2-0ubuntu2, automatic), python3-distutils:amd64 (3.8.10-0ubuntu1~20.04, automatic), libpython3.8-dev:amd64 (3.8.10-0ubuntu1~20.04.7, automatic), libfakeroot:amd64 (1.24-1, automatic), libexpat1-dev:amd64 (2.2.9-1ubuntu0.6, automatic), libalgorithm-diff-perl:amd64 (1.19.03-2, automatic), libalgorithm-merge-perl:amd64 (0.08-3, automatic), g++:amd64 (4:9.3.0-1ubuntu2, automatic), python3-pip:amd64 (20.0.2-5ubuntu1.8), python3-wheel:amd64 (0.34.2-1ubuntu0.1, automatic), zlib1g-dev:amd64 (1:1.2.11.dfsg-2ubuntu1.5, automatic), libstdc++-9-dev:amd64 (9.4.0-1ubuntu1~20.04.1, automatic), build-essential:amd64 (12.8ubuntu1.1, automatic), g++-9:amd64 (9.4.0-1ubuntu1~20.04.1, automatic), fakeroot:amd64 (1.24-1, automatic), python3-lib2to3:amd64 (3.8.10-0ubuntu1~20.04, automatic), python3.8-dev:amd64 (3.8.10-0ubuntu1~20.04.7, automatic), libpython3-dev:amd64 (3.8.2-0ubuntu2, automatic), libalgorithm-diff-xs-perl:amd64 (0.04-6, automatic), python-pip-whl:amd64 (20.0.2-5ubuntu1.8, automatic), python3-setuptools:amd64 (45.2.0-1ubuntu0.1, automatic), dpkg-dev:amd64 (1.19.7ubuntu3.2, automatic)
+End-Date: 2023-04-14  21:07:16

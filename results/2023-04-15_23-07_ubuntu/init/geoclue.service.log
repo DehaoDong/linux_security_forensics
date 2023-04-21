@@ -1,0 +1,417 @@
+-- Logs begin at Sat 2022-01-08 18:32:32 CST, end at Sat 2023-04-15 23:05:42 CST. --
+1月 09 17:18:39 ubuntu geoclue[1343]: Service not used for 60 seconds. Shutting down..
+1月 09 17:18:39 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+1月 09 21:33:17 ubuntu systemd[1]: Starting Location Lookup Service...
+1月 09 21:33:17 ubuntu systemd[1]: Started Location Lookup Service.
+1月 09 21:34:18 ubuntu geoclue[1307]: Service not used for 60 seconds. Shutting down..
+1月 09 21:34:18 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 22 14:03:05 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 22 14:03:05 ubuntu systemd[1]: Started Location Lookup Service.
+3月 22 14:04:06 ubuntu geoclue[1369]: Service not used for 60 seconds. Shutting down..
+3月 22 14:04:06 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 22 14:13:44 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 22 14:13:44 ubuntu systemd[1]: Started Location Lookup Service.
+3月 22 14:14:46 ubuntu geoclue[1340]: Service not used for 60 seconds. Shutting down..
+3月 22 14:14:46 ubuntu systemd[1]: geoclue.service: Succeeded.
+3月 22 14:16:13 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 22 14:16:13 ubuntu systemd[1]: Started Location Lookup Service.
+3月 22 14:17:14 ubuntu geoclue[2210]: Service not used for 60 seconds. Shutting down..
+3月 22 14:17:14 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 22 16:13:13 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 22 16:13:13 ubuntu systemd[1]: Started Location Lookup Service.
+3月 22 16:14:14 ubuntu geoclue[1356]: Service not used for 60 seconds. Shutting down..
+3月 22 16:14:14 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 25 10:18:12 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 25 10:18:12 ubuntu systemd[1]: Started Location Lookup Service.
+3月 25 10:19:12 ubuntu geoclue[1412]: Service not used for 60 seconds. Shutting down..
+3月 25 10:19:12 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 25 10:45:22 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 25 10:45:22 ubuntu systemd[1]: Started Location Lookup Service.
+3月 25 10:46:23 ubuntu geoclue[1393]: Service not used for 60 seconds. Shutting down..
+3月 25 10:46:23 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 28 10:03:01 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 28 10:03:01 ubuntu systemd[1]: Started Location Lookup Service.
+3月 28 10:03:58 ubuntu geoclue[1400]: Service not used for 60 seconds. Shutting down..
+3月 28 10:03:58 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 28 14:59:53 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 28 14:59:53 ubuntu systemd[1]: Started Location Lookup Service.
+3月 28 15:00:51 ubuntu geoclue[1381]: Service not used for 60 seconds. Shutting down..
+3月 28 15:00:51 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 28 16:17:57 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 28 16:17:58 ubuntu systemd[1]: Started Location Lookup Service.
+3月 28 16:18:54 ubuntu geoclue[1268]: Service not used for 60 seconds. Shutting down..
+3月 28 16:18:54 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 01 10:14:34 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 01 10:14:34 ubuntu systemd[1]: Started Location Lookup Service.
+4月 01 10:15:32 ubuntu geoclue[1357]: Service not used for 60 seconds. Shutting down..
+4月 01 10:15:32 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 01 10:25:11 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 01 10:25:11 ubuntu systemd[1]: Started Location Lookup Service.
+4月 01 10:26:09 ubuntu geoclue[1298]: Service not used for 60 seconds. Shutting down..
+4月 01 10:26:09 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 02 08:51:58 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 02 08:51:58 ubuntu systemd[1]: Started Location Lookup Service.
+4月 02 08:52:54 ubuntu geoclue[1344]: Service not used for 60 seconds. Shutting down..
+4月 02 08:52:54 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 02 09:04:50 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 02 09:04:50 ubuntu systemd[1]: Started Location Lookup Service.
+-- Reboot --
+4月 02 09:10:35 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 02 09:10:35 ubuntu systemd[1]: Started Location Lookup Service.
+4月 02 09:11:31 ubuntu geoclue[1322]: Service not used for 60 seconds. Shutting down..
+4月 02 09:11:31 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 02 17:23:08 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 02 17:23:08 ubuntu systemd[1]: Started Location Lookup Service.
+4月 02 17:24:04 ubuntu geoclue[1249]: Service not used for 60 seconds. Shutting down..
+4月 02 17:24:04 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 02 17:51:35 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 02 17:51:35 ubuntu systemd[1]: Started Location Lookup Service.
+4月 02 17:52:32 ubuntu geoclue[1296]: Service not used for 60 seconds. Shutting down..
+4月 02 17:52:32 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 06 08:17:30 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 06 08:17:31 ubuntu systemd[1]: Started Location Lookup Service.
+4月 06 08:18:22 ubuntu geoclue[1351]: Service not used for 60 seconds. Shutting down..
+4月 06 08:18:22 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 13 08:09:52 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 13 08:09:52 ubuntu systemd[1]: Started Location Lookup Service.
+4月 13 08:10:53 ubuntu geoclue[1293]: Service not used for 60 seconds. Shutting down..
+4月 13 08:10:53 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 13 08:30:22 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 13 08:30:23 ubuntu systemd[1]: Started Location Lookup Service.
+4月 13 08:31:23 ubuntu geoclue[1285]: Service not used for 60 seconds. Shutting down..
+4月 13 08:31:23 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 13 10:23:53 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 13 10:23:53 ubuntu systemd[1]: Started Location Lookup Service.
+4月 13 10:24:53 ubuntu geoclue[1330]: Service not used for 60 seconds. Shutting down..
+4月 13 10:24:53 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 13 14:46:37 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 13 14:46:37 ubuntu systemd[1]: Started Location Lookup Service.
+4月 13 14:47:38 ubuntu geoclue[1259]: Service not used for 60 seconds. Shutting down..
+4月 13 14:47:38 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 15 10:17:03 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 15 10:17:03 ubuntu systemd[1]: Started Location Lookup Service.
+4月 15 10:18:03 ubuntu geoclue[1289]: Service not used for 60 seconds. Shutting down..
+4月 15 10:18:03 ubuntu systemd[1]: geoclue.service: Succeeded.
+4月 15 10:19:04 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 15 10:19:04 ubuntu systemd[1]: Started Location Lookup Service.
+4月 15 10:20:04 ubuntu geoclue[2232]: Service not used for 60 seconds. Shutting down..
+4月 15 10:20:04 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 20 08:14:54 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 20 08:14:54 ubuntu systemd[1]: Started Location Lookup Service.
+4月 20 08:15:53 ubuntu geoclue[1355]: Service not used for 60 seconds. Shutting down..
+4月 20 08:15:53 ubuntu systemd[1]: geoclue.service: Succeeded.
+4月 20 08:15:54 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 20 08:15:55 ubuntu systemd[1]: Started Location Lookup Service.
+4月 20 08:16:55 ubuntu geoclue[2013]: Service not used for 60 seconds. Shutting down..
+4月 20 08:16:55 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 20 08:23:08 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 20 08:23:08 ubuntu systemd[1]: Started Location Lookup Service.
+4月 20 08:24:08 ubuntu geoclue[1243]: Service not used for 60 seconds. Shutting down..
+4月 20 08:24:08 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 27 08:18:30 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 27 08:18:30 ubuntu systemd[1]: Started Location Lookup Service.
+4月 27 08:19:30 ubuntu geoclue[1286]: Service not used for 60 seconds. Shutting down..
+4月 27 08:19:30 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 27 11:07:19 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 27 11:07:19 ubuntu systemd[1]: Started Location Lookup Service.
+4月 27 11:08:19 ubuntu geoclue[1337]: Service not used for 60 seconds. Shutting down..
+4月 27 11:08:19 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 27 14:11:35 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 27 14:11:35 ubuntu systemd[1]: Started Location Lookup Service.
+4月 27 14:12:35 ubuntu geoclue[1316]: Service not used for 60 seconds. Shutting down..
+4月 27 14:12:35 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 27 15:05:21 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 27 15:05:22 ubuntu systemd[1]: Started Location Lookup Service.
+4月 27 15:06:22 ubuntu geoclue[1246]: Service not used for 60 seconds. Shutting down..
+4月 27 15:06:22 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 28 21:00:57 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 28 21:00:58 ubuntu systemd[1]: Started Location Lookup Service.
+4月 28 21:01:50 ubuntu systemd[1]: Stopping Location Lookup Service...
+4月 28 21:01:50 ubuntu systemd[1]: geoclue.service: Succeeded.
+4月 28 21:01:50 ubuntu systemd[1]: Stopped Location Lookup Service.
+-- Reboot --
+5月 06 10:06:21 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 06 10:06:21 ubuntu systemd[1]: Started Location Lookup Service.
+5月 06 10:07:13 ubuntu geoclue[1367]: Service not used for 60 seconds. Shutting down..
+5月 06 10:07:13 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+5月 06 10:17:49 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 06 10:17:49 ubuntu systemd[1]: Started Location Lookup Service.
+5月 06 10:18:41 ubuntu geoclue[1254]: Service not used for 60 seconds. Shutting down..
+5月 06 10:18:41 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+5月 07 08:13:54 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 07 08:13:54 ubuntu systemd[1]: Started Location Lookup Service.
+5月 07 08:14:46 ubuntu geoclue[1318]: Service not used for 60 seconds. Shutting down..
+5月 07 08:14:46 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+5月 08 14:53:58 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 08 14:53:58 ubuntu systemd[1]: Started Location Lookup Service.
+5月 08 14:54:49 ubuntu geoclue[1298]: Service not used for 60 seconds. Shutting down..
+5月 08 14:54:49 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+5月 08 15:54:30 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 08 15:54:30 ubuntu systemd[1]: Started Location Lookup Service.
+5月 08 15:55:21 ubuntu geoclue[1268]: Service not used for 60 seconds. Shutting down..
+5月 08 15:55:21 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+5月 08 16:27:24 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 08 16:27:24 ubuntu systemd[1]: Started Location Lookup Service.
+5月 08 16:28:15 ubuntu geoclue[1322]: Service not used for 60 seconds. Shutting down..
+5月 08 16:28:15 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+5月 14 20:51:57 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 14 20:51:57 ubuntu systemd[1]: Started Location Lookup Service.
+5月 14 20:52:57 ubuntu geoclue[1422]: Service not used for 60 seconds. Shutting down..
+5月 14 20:52:57 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+5月 15 00:06:20 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 15 00:06:20 ubuntu systemd[1]: Started Location Lookup Service.
+5月 15 00:07:17 ubuntu geoclue[1443]: Service not used for 60 seconds. Shutting down..
+5月 15 00:07:17 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+5月 15 00:15:12 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 15 00:15:12 ubuntu systemd[1]: Started Location Lookup Service.
+5月 15 00:16:13 ubuntu geoclue[1407]: Service not used for 60 seconds. Shutting down..
+5月 15 00:16:13 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+5月 15 10:43:47 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 15 10:43:47 ubuntu systemd[1]: Started Location Lookup Service.
+5月 15 10:44:45 ubuntu geoclue[1382]: Service not used for 60 seconds. Shutting down..
+5月 15 10:44:45 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+5月 15 15:15:45 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 15 15:15:45 ubuntu systemd[1]: Started Location Lookup Service.
+5月 15 15:16:43 ubuntu systemd[1]: Stopping Location Lookup Service...
+5月 15 15:16:43 ubuntu systemd[1]: geoclue.service: Succeeded.
+5月 15 15:16:43 ubuntu systemd[1]: Stopped Location Lookup Service.
+-- Reboot --
+5月 15 16:28:31 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 15 16:28:31 ubuntu systemd[1]: Started Location Lookup Service.
+5月 15 16:29:32 ubuntu geoclue[1421]: Service not used for 60 seconds. Shutting down..
+5月 15 16:29:32 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+5月 15 21:27:18 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 15 21:27:18 ubuntu systemd[1]: Started Location Lookup Service.
+5月 15 21:28:18 ubuntu geoclue[1414]: Service not used for 60 seconds. Shutting down..
+5月 15 21:28:18 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+5月 31 15:28:49 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 31 15:28:49 ubuntu systemd[1]: Started Location Lookup Service.
+5月 31 15:29:49 ubuntu geoclue[1447]: Service not used for 60 seconds. Shutting down..
+5月 31 15:29:49 ubuntu systemd[1]: geoclue.service: Succeeded.
+5月 31 15:30:21 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 31 15:30:21 ubuntu systemd[1]: Started Location Lookup Service.
+5月 31 15:31:21 ubuntu geoclue[1939]: Service not used for 60 seconds. Shutting down..
+5月 31 15:31:21 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+5月 31 16:19:57 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 31 16:19:57 ubuntu systemd[1]: Started Location Lookup Service.
+5月 31 16:20:57 ubuntu geoclue[1389]: Service not used for 60 seconds. Shutting down..
+5月 31 16:20:57 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+5月 31 21:01:02 ubuntu systemd[1]: Starting Location Lookup Service...
+5月 31 21:01:02 ubuntu systemd[1]: Started Location Lookup Service.
+5月 31 21:02:02 ubuntu geoclue[1441]: Service not used for 60 seconds. Shutting down..
+5月 31 21:02:02 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+6月 01 23:20:42 ubuntu systemd[1]: Starting Location Lookup Service...
+6月 01 23:20:42 ubuntu systemd[1]: Started Location Lookup Service.
+6月 01 23:21:42 ubuntu geoclue[1501]: Service not used for 60 seconds. Shutting down..
+6月 01 23:21:42 ubuntu systemd[1]: geoclue.service: Succeeded.
+6月 01 23:21:48 ubuntu systemd[1]: Starting Location Lookup Service...
+6月 01 23:21:48 ubuntu systemd[1]: Started Location Lookup Service.
+6月 01 23:22:49 ubuntu geoclue[2384]: Service not used for 60 seconds. Shutting down..
+6月 01 23:22:49 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+6月 06 14:12:42 ubuntu systemd[1]: Starting Location Lookup Service...
+6月 06 14:12:42 ubuntu systemd[1]: Started Location Lookup Service.
+6月 06 14:13:37 ubuntu geoclue[1485]: Service not used for 60 seconds. Shutting down..
+6月 06 14:13:37 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+6月 06 15:39:41 ubuntu systemd[1]: Starting Location Lookup Service...
+6月 06 15:39:41 ubuntu systemd[1]: Started Location Lookup Service.
+6月 06 15:40:36 ubuntu geoclue[1446]: Service not used for 60 seconds. Shutting down..
+6月 06 15:40:36 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+6月 06 15:44:33 ubuntu systemd[1]: Starting Location Lookup Service...
+6月 06 15:44:33 ubuntu systemd[1]: Started Location Lookup Service.
+6月 06 15:45:28 ubuntu geoclue[1354]: Service not used for 60 seconds. Shutting down..
+6月 06 15:45:28 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+6月 15 14:09:07 ubuntu systemd[1]: Starting Location Lookup Service...
+6月 15 14:09:07 ubuntu systemd[1]: Started Location Lookup Service.
+6月 15 14:10:08 ubuntu geoclue[1536]: Service not used for 60 seconds. Shutting down..
+6月 15 14:10:08 ubuntu systemd[1]: geoclue.service: Succeeded.
+6月 15 15:13:39 ubuntu systemd[1]: Starting Location Lookup Service...
+6月 15 15:13:39 ubuntu systemd[1]: Started Location Lookup Service.
+6月 15 15:14:39 ubuntu geoclue[3057]: Service not used for 60 seconds. Shutting down..
+6月 15 15:14:39 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+6月 16 14:48:34 ubuntu systemd[1]: Starting Location Lookup Service...
+6月 16 14:48:34 ubuntu systemd[1]: Started Location Lookup Service.
+6月 16 14:49:33 ubuntu geoclue[1431]: Service not used for 60 seconds. Shutting down..
+6月 16 14:49:33 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+2月 25 16:36:23 ubuntu systemd[1]: Starting Location Lookup Service...
+2月 25 16:36:23 ubuntu systemd[1]: Started Location Lookup Service.
+2月 25 16:37:23 ubuntu geoclue[1475]: Service not used for 60 seconds. Shutting down..
+2月 25 16:37:23 ubuntu systemd[1]: geoclue.service: Succeeded.
+2月 25 16:37:52 ubuntu systemd[1]: Starting Location Lookup Service...
+2月 25 16:37:52 ubuntu systemd[1]: Started Location Lookup Service.
+2月 25 16:38:53 ubuntu geoclue[4240]: Service not used for 60 seconds. Shutting down..
+2月 25 16:38:53 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 27 17:52:54 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 27 17:52:54 ubuntu systemd[1]: Started Location Lookup Service.
+3月 27 17:53:30 ubuntu geoclue[1408]: Service not used for 60 seconds. Shutting down..
+3月 27 17:53:30 ubuntu systemd[1]: geoclue.service: Succeeded.
+3月 27 18:08:16 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 27 18:08:16 ubuntu systemd[1]: Started Location Lookup Service.
+-- Reboot --
+3月 30 14:06:13 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 30 14:06:14 ubuntu systemd[1]: Started Location Lookup Service.
+3月 30 14:06:47 ubuntu geoclue[1431]: Service not used for 60 seconds. Shutting down..
+3月 30 14:06:47 ubuntu systemd[1]: geoclue.service: Succeeded.
+3月 30 14:15:37 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 30 14:15:37 ubuntu systemd[1]: Started Location Lookup Service.
+3月 30 14:16:37 ubuntu geoclue[2508]: Service not used for 60 seconds. Shutting down..
+3月 30 14:16:37 ubuntu systemd[1]: geoclue.service: Succeeded.
+3月 30 14:44:00 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 30 14:44:00 ubuntu systemd[1]: Started Location Lookup Service.
+3月 30 14:44:04 ubuntu systemd[1]: Stopping Location Lookup Service...
+3月 30 14:44:04 ubuntu systemd[1]: geoclue.service: Succeeded.
+3月 30 14:44:04 ubuntu systemd[1]: Stopped Location Lookup Service.
+-- Reboot --
+3月 30 14:44:37 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 30 14:44:37 ubuntu systemd[1]: Started Location Lookup Service.
+3月 30 14:45:37 ubuntu geoclue[1319]: Service not used for 60 seconds. Shutting down..
+3月 30 14:45:37 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 30 15:12:24 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 30 15:12:24 ubuntu systemd[1]: Started Location Lookup Service.
+3月 30 15:12:58 ubuntu systemd[1]: Stopping Location Lookup Service...
+3月 30 15:12:58 ubuntu systemd[1]: geoclue.service: Succeeded.
+3月 30 15:12:58 ubuntu systemd[1]: Stopped Location Lookup Service.
+-- Reboot --
+3月 30 15:18:45 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 30 15:18:45 ubuntu systemd[1]: Started Location Lookup Service.
+3月 30 15:19:44 ubuntu geoclue[1358]: Service not used for 60 seconds. Shutting down..
+3月 30 15:19:44 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 30 22:57:18 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 30 22:57:18 ubuntu systemd[1]: Started Location Lookup Service.
+3月 30 22:58:17 ubuntu geoclue[1450]: Service not used for 60 seconds. Shutting down..
+3月 30 22:58:17 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 30 23:00:49 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 30 23:00:49 ubuntu systemd[1]: Started Location Lookup Service.
+3月 30 23:01:49 ubuntu geoclue[1261]: Service not used for 60 seconds. Shutting down..
+3月 30 23:01:49 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 30 23:05:31 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 30 23:05:31 ubuntu systemd[1]: Started Location Lookup Service.
+3月 30 23:06:30 ubuntu geoclue[1391]: Service not used for 60 seconds. Shutting down..
+3月 30 23:06:31 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 31 18:40:25 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 31 18:40:25 ubuntu systemd[1]: Started Location Lookup Service.
+3月 31 18:41:25 ubuntu geoclue[1492]: Service not used for 60 seconds. Shutting down..
+3月 31 18:41:25 ubuntu systemd[1]: geoclue.service: Succeeded.
+3月 31 18:53:30 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 31 18:53:30 ubuntu systemd[1]: Started Location Lookup Service.
+3月 31 18:53:35 ubuntu systemd[1]: Stopping Location Lookup Service...
+3月 31 18:53:35 ubuntu systemd[1]: geoclue.service: Succeeded.
+3月 31 18:53:35 ubuntu systemd[1]: Stopped Location Lookup Service.
+-- Reboot --
+3月 31 18:54:23 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 31 18:54:23 ubuntu systemd[1]: Started Location Lookup Service.
+3月 31 18:55:23 ubuntu geoclue[1359]: Service not used for 60 seconds. Shutting down..
+3月 31 18:55:23 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 31 19:04:06 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 31 19:04:06 ubuntu systemd[1]: Started Location Lookup Service.
+3月 31 19:05:06 ubuntu geoclue[1355]: Service not used for 60 seconds. Shutting down..
+3月 31 19:05:06 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 31 19:27:42 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 31 19:27:42 ubuntu systemd[1]: Started Location Lookup Service.
+3月 31 19:28:41 ubuntu geoclue[1325]: Service not used for 60 seconds. Shutting down..
+3月 31 19:28:41 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 31 19:43:35 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 31 19:43:35 ubuntu systemd[1]: Started Location Lookup Service.
+3月 31 19:44:35 ubuntu geoclue[1350]: Service not used for 60 seconds. Shutting down..
+3月 31 19:44:35 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 31 19:58:23 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 31 19:58:23 ubuntu systemd[1]: Started Location Lookup Service.
+3月 31 19:59:23 ubuntu geoclue[1287]: Service not used for 60 seconds. Shutting down..
+3月 31 19:59:23 ubuntu systemd[1]: geoclue.service: Succeeded.
+3月 31 20:02:38 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 31 20:02:38 ubuntu systemd[1]: Started Location Lookup Service.
+3月 31 20:03:38 ubuntu geoclue[1860]: Service not used for 60 seconds. Shutting down..
+3月 31 20:03:38 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+3月 31 20:24:41 ubuntu systemd[1]: Starting Location Lookup Service...
+3月 31 20:24:41 ubuntu systemd[1]: Started Location Lookup Service.
+3月 31 20:25:41 ubuntu geoclue[1361]: Service not used for 60 seconds. Shutting down..
+3月 31 20:25:41 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 02 17:05:09 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 02 17:05:10 ubuntu systemd[1]: Started Location Lookup Service.
+4月 02 17:06:08 ubuntu geoclue[1499]: Service not used for 60 seconds. Shutting down..
+4月 02 17:06:08 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 14 20:21:46 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 14 20:21:46 ubuntu systemd[1]: Started Location Lookup Service.
+4月 14 20:22:31 ubuntu geoclue[1412]: Service not used for 60 seconds. Shutting down..
+4月 14 20:22:31 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 14 20:55:57 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 14 20:55:58 ubuntu systemd[1]: Started Location Lookup Service.
+4月 14 20:56:44 ubuntu geoclue[1405]: Service not used for 60 seconds. Shutting down..
+4月 14 20:56:44 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 15 22:31:12 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 15 22:31:12 ubuntu systemd[1]: Started Location Lookup Service.
+4月 15 22:32:12 ubuntu geoclue[1435]: Service not used for 60 seconds. Shutting down..
+4月 15 22:32:12 ubuntu systemd[1]: geoclue.service: Succeeded.
+-- Reboot --
+4月 15 22:43:45 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 15 22:43:45 ubuntu systemd[1]: Started Location Lookup Service.
+4月 15 22:44:45 ubuntu geoclue[1296]: Service not used for 60 seconds. Shutting down..
+4月 15 22:44:45 ubuntu systemd[1]: geoclue.service: Succeeded.
+4月 15 22:57:39 ubuntu systemd[1]: Starting Location Lookup Service...
+4月 15 22:57:39 ubuntu systemd[1]: Started Location Lookup Service.
+4月 15 22:58:39 ubuntu geoclue[1870]: Service not used for 60 seconds. Shutting down..
+4月 15 22:58:39 ubuntu systemd[1]: geoclue.service: Succeeded.
+

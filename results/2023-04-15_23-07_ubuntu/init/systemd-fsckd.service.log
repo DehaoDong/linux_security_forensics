@@ -1,0 +1,217 @@
+-- Logs begin at Sat 2022-01-08 18:32:32 CST, end at Sat 2023-04-15 23:07:25 CST. --
+1月 09 21:33:15 ubuntu systemd[1]: Started File System Check Daemon to report status.
+1月 09 21:33:45 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 22 14:03:01 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 22 14:03:32 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 22 14:13:42 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 22 14:14:12 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 22 16:13:09 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 22 16:13:40 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 25 10:18:03 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 25 10:18:34 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 25 10:45:14 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 25 10:45:45 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 28 10:02:53 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 28 10:03:23 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 28 14:59:43 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 28 15:00:15 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 28 16:17:44 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 28 16:18:17 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 01 10:14:19 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 01 10:14:52 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 01 10:25:01 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 01 10:25:33 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 02 08:51:51 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 02 08:52:24 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 02 09:04:35 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 02 09:05:09 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 02 09:10:27 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 02 09:11:01 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 02 17:22:59 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 02 17:23:33 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 02 17:51:28 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 02 17:52:02 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 06 08:17:15 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 06 08:17:49 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 13 08:09:37 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 13 08:10:16 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 13 08:30:19 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 13 08:30:49 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 13 10:23:36 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 13 10:24:06 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 13 14:46:32 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 13 14:47:02 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 15 10:16:59 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 15 10:17:29 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 20 08:14:43 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 20 08:15:13 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 20 08:23:05 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 20 08:23:35 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 27 08:18:19 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 27 08:18:49 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 27 11:07:07 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 27 11:07:37 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 27 14:11:30 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 27 14:12:00 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 27 15:05:18 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 27 15:05:48 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 28 21:00:45 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 28 21:01:16 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 06 10:06:14 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 06 10:06:46 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 06 10:17:39 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 06 10:18:15 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 07 08:13:42 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 07 08:14:20 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 08 14:53:45 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 08 14:54:23 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 08 15:54:09 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 08 15:54:49 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 08 16:27:10 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 08 16:27:51 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 14 20:51:42 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 14 20:52:22 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 15 00:06:12 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 15 00:06:44 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 15 00:15:05 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 15 00:15:38 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 15 10:43:39 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 15 10:44:12 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 15 15:15:40 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 15 15:16:10 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 15 16:28:26 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 15 16:28:56 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 15 21:27:13 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 15 21:27:43 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 31 15:28:44 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 31 15:29:14 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 31 16:19:53 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 31 16:20:23 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+5月 31 21:00:55 ubuntu systemd[1]: Started File System Check Daemon to report status.
+5月 31 21:01:25 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+6月 01 23:20:18 ubuntu systemd[1]: Started File System Check Daemon to report status.
+6月 01 23:20:48 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+6月 06 14:12:33 ubuntu systemd[1]: Started File System Check Daemon to report status.
+6月 06 14:13:03 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+6月 06 15:39:28 ubuntu systemd[1]: Started File System Check Daemon to report status.
+6月 06 15:40:04 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+6月 06 15:44:07 ubuntu systemd[1]: Started File System Check Daemon to report status.
+6月 06 15:44:43 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+6月 15 14:08:48 ubuntu systemd[1]: Started File System Check Daemon to report status.
+6月 15 14:09:23 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+6月 16 14:48:28 ubuntu systemd[1]: Started File System Check Daemon to report status.
+6月 16 14:48:58 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+2月 25 16:36:14 ubuntu systemd[1]: Started File System Check Daemon to report status.
+2月 25 16:36:46 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 27 17:52:48 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 27 17:53:18 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 30 14:05:42 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 30 14:06:36 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 30 14:44:33 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 30 14:45:03 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 30 15:12:19 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 30 15:12:49 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 30 15:18:40 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 30 15:19:10 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 30 22:57:13 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 30 22:57:43 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 30 23:00:45 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 30 23:01:15 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 30 23:05:26 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 30 23:05:56 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 31 18:40:19 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 31 18:40:49 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 31 18:54:15 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 31 18:54:46 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 31 19:04:01 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 31 19:04:31 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 31 19:27:35 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 31 19:28:07 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 31 19:43:30 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 31 19:44:00 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 31 19:58:13 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 31 19:58:45 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+3月 31 20:24:34 ubuntu systemd[1]: Started File System Check Daemon to report status.
+3月 31 20:25:05 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 02 17:05:03 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 02 17:05:34 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 14 20:21:36 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 14 20:22:08 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 14 20:55:32 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 14 20:56:17 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 15 22:30:51 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 15 22:31:36 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+-- Reboot --
+4月 15 22:43:41 ubuntu systemd[1]: Started File System Check Daemon to report status.
+4月 15 22:44:11 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+

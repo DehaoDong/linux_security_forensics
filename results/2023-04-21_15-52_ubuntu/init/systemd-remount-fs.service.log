@@ -1,0 +1,163 @@
+-- Logs begin at Sat 2022-01-08 18:32:32 CST, end at Fri 2023-04-21 15:50:02 CST. --
+1月 09 21:33:01 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+1月 09 21:33:01 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 22 14:13:29 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 22 14:13:29 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 22 14:22:49 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 22 14:22:49 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 22 17:38:01 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 22 17:38:01 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 25 10:36:30 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 25 10:36:30 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 28 15:53:55 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 28 15:53:55 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 28 17:29:22 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 28 17:29:22 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 01 10:24:20 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 01 10:24:20 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 01 12:03:44 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 01 12:03:44 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 02 09:29:38 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 02 09:29:38 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 02 17:51:14 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 02 17:51:14 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 13 08:30:01 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 13 08:30:01 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 13 15:21:58 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 13 15:21:58 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 20 08:22:50 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 20 08:22:50 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 27 10:50:17 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 27 10:50:17 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 27 11:20:11 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 27 11:20:11 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 27 15:05:05 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 27 15:05:05 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 27 16:02:18 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 27 16:02:18 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 28 21:01:52 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 28 21:01:52 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+5月 06 10:17:24 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+5月 06 10:17:24 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+5月 06 11:20:33 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+5月 06 11:20:33 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+5月 08 14:55:09 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+5月 08 14:55:09 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+5月 08 16:26:57 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+5月 08 16:26:57 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+5月 08 17:02:56 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+5月 08 17:02:56 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+5月 15 00:09:21 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+5月 15 00:09:21 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+5月 15 00:18:03 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+5月 15 00:18:03 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+5月 15 13:21:33 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+5月 15 13:21:33 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+5月 15 15:16:45 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+5月 15 15:16:45 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+5月 15 17:59:29 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+5月 15 17:59:29 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+5月 15 22:59:16 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+5月 15 22:59:16 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+5月 31 16:19:39 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+5月 31 16:19:39 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+6月 02 00:27:51 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+6月 02 00:27:51 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+6月 06 15:33:48 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+6月 06 15:33:48 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+6月 06 15:42:30 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+6月 06 15:42:30 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+6月 15 16:32:44 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+6月 15 16:32:44 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 30 14:44:06 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 30 14:44:06 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 30 14:51:19 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 30 14:51:19 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 30 15:13:00 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 30 15:13:00 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 30 15:20:00 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 30 15:20:00 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 30 22:59:17 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 30 22:59:17 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 30 23:02:25 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 30 23:02:25 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 30 23:14:10 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 30 23:14:10 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 31 18:53:36 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 31 18:53:36 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 31 19:01:43 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 31 19:01:43 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 31 19:26:11 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 31 19:26:11 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 31 19:57:59 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 31 19:57:59 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 31 20:10:02 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 31 20:10:02 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+3月 31 21:06:53 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+3月 31 21:06:53 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 03 02:09:53 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 03 02:09:53 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 14 20:54:42 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 14 20:54:42 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 15 22:43:26 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 15 22:43:26 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 15 23:08:27 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 15 23:08:27 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 19 19:04:22 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 19 19:04:22 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+-- Reboot --
+4月 19 19:25:52 ubuntu systemd[1]: systemd-remount-fs.service: Succeeded.
+4月 19 19:25:52 ubuntu systemd[1]: Stopped Remount Root and Kernel File Systems.
+

@@ -1,0 +1,275 @@
+-- Logs begin at Sat 2022-01-08 18:32:32 CST, end at Fri 2023-04-21 15:50:02 CST. --
+1月 09 19:26:07 ubuntu systemd[1]: Starting Bluetooth service...
+1月 09 19:26:07 ubuntu bluetoothd[10503]: Bluetooth daemon 5.53
+1月 09 19:26:07 ubuntu systemd[1]: Started Bluetooth service.
+1月 09 19:26:07 ubuntu bluetoothd[10503]: Starting SDP server
+1月 09 19:26:07 ubuntu bluetoothd[10503]: Bluetooth management interface 1.19 initialized
+1月 09 19:26:07 ubuntu bluetoothd[10503]: Endpoint registered: sender=:1.71 path=/MediaEndpoint/A2DPSink/sbc
+1月 09 19:26:07 ubuntu bluetoothd[10503]: Endpoint registered: sender=:1.71 path=/MediaEndpoint/A2DPSource/sbc
+1月 09 21:32:59 ubuntu bluetoothd[10503]: Endpoint unregistered: sender=:1.71 path=/MediaEndpoint/A2DPSink/sbc
+1月 09 21:32:59 ubuntu bluetoothd[10503]: Endpoint unregistered: sender=:1.71 path=/MediaEndpoint/A2DPSource/sbc
+1月 09 21:32:59 ubuntu bluetoothd[10503]: Terminating
+1月 09 21:32:59 ubuntu systemd[1]: Stopping Bluetooth service...
+1月 09 21:33:00 ubuntu bluetoothd[10503]: Stopping SDP server
+1月 09 21:33:00 ubuntu bluetoothd[10503]: Exit
+1月 09 21:33:00 ubuntu systemd[1]: bluetooth.service: Succeeded.
+1月 09 21:33:00 ubuntu systemd[1]: Stopped Bluetooth service.
+-- Reboot --
+1月 09 21:33:15 ubuntu systemd[1]: Starting Bluetooth service...
+1月 09 21:33:15 ubuntu bluetoothd[863]: Bluetooth daemon 5.53
+1月 09 21:33:15 ubuntu bluetoothd[863]: Starting SDP server
+1月 09 21:33:15 ubuntu systemd[1]: Started Bluetooth service.
+1月 09 21:33:15 ubuntu bluetoothd[863]: Bluetooth management interface 1.19 initialized
+1月 09 21:33:23 ubuntu bluetoothd[863]: Endpoint registered: sender=:1.69 path=/MediaEndpoint/A2DPSink/sbc
+1月 09 21:33:23 ubuntu bluetoothd[863]: Endpoint registered: sender=:1.69 path=/MediaEndpoint/A2DPSource/sbc
+-- Reboot --
+3月 22 14:03:03 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+3月 22 14:12:08 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 22 14:13:43 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+3月 22 14:16:08 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 22 16:13:11 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+3月 22 16:13:40 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 25 10:18:04 ubuntu systemd[1]: Starting Bluetooth service...
+3月 25 10:18:04 ubuntu bluetoothd[905]: Bluetooth daemon 5.53
+3月 25 10:18:05 ubuntu systemd[1]: Started Bluetooth service.
+3月 25 10:18:05 ubuntu bluetoothd[905]: Starting SDP server
+3月 25 10:18:05 ubuntu bluetoothd[905]: Bluetooth management interface 1.20 initialized
+3月 25 10:18:25 ubuntu bluetoothd[905]: Endpoint registered: sender=:1.75 path=/MediaEndpoint/A2DPSink/sbc
+3月 25 10:18:25 ubuntu bluetoothd[905]: Endpoint registered: sender=:1.75 path=/MediaEndpoint/A2DPSource/sbc
+3月 25 10:36:28 ubuntu systemd[1]: Stopping Bluetooth service...
+3月 25 10:36:28 ubuntu bluetoothd[905]: Terminating
+3月 25 10:36:28 ubuntu bluetoothd[905]: Endpoint unregistered: sender=:1.75 path=/MediaEndpoint/A2DPSink/sbc
+3月 25 10:36:28 ubuntu bluetoothd[905]: Endpoint unregistered: sender=:1.75 path=/MediaEndpoint/A2DPSource/sbc
+3月 25 10:36:28 ubuntu bluetoothd[905]: Stopping SDP server
+3月 25 10:36:28 ubuntu bluetoothd[905]: Exit
+3月 25 10:36:28 ubuntu systemd[1]: bluetooth.service: Succeeded.
+3月 25 10:36:28 ubuntu systemd[1]: Stopped Bluetooth service.
+-- Reboot --
+3月 25 10:45:17 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 28 10:02:56 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 28 14:59:48 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 28 16:17:52 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+3月 28 16:18:32 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 01 10:14:27 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 01 10:25:07 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 02 08:51:56 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 02 09:04:44 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 02 09:10:33 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 02 09:11:21 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 02 17:23:05 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 02 17:51:34 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 06 08:17:24 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 06 08:17:59 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 13 08:09:49 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 13 08:30:21 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 13 10:23:43 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 13 10:24:15 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 13 14:46:34 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 13 14:47:16 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 15 10:17:01 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 15 10:18:59 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 20 08:14:48 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 20 08:15:42 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 20 08:23:06 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 27 08:18:24 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 27 10:05:30 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 27 10:08:57 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 27 11:07:12 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 27 11:11:28 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 27 14:11:32 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 27 14:13:06 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 27 15:05:20 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 27 15:05:51 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 27 15:06:16 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 27 15:13:46 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 28 21:00:51 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+5月 06 10:06:18 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 06 10:07:09 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 06 10:13:01 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+5月 06 10:17:47 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 06 10:20:39 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+5月 07 08:13:52 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+5月 08 14:53:55 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+5月 08 15:54:23 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+5月 08 16:27:22 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+5月 14 20:51:54 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+5月 15 00:06:17 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 15 00:06:52 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+5月 15 00:15:09 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 15 00:15:36 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+5月 15 10:43:44 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 15 10:45:23 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 15 11:01:28 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 15 11:04:44 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 15 11:17:26 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+5月 15 15:15:40 ubuntu systemd[1]: Starting Bluetooth service...
+5月 15 15:15:40 ubuntu bluetoothd[820]: Bluetooth daemon 5.53
+5月 15 15:15:40 ubuntu bluetoothd[820]: Starting SDP server
+5月 15 15:15:40 ubuntu bluetoothd[820]: Bluetooth management interface 1.20 initialized
+5月 15 15:15:41 ubuntu systemd[1]: Started Bluetooth service.
+5月 15 15:15:55 ubuntu bluetoothd[820]: Endpoint registered: sender=:1.72 path=/MediaEndpoint/A2DPSink/sbc
+5月 15 15:15:55 ubuntu bluetoothd[820]: Endpoint registered: sender=:1.72 path=/MediaEndpoint/A2DPSource/sbc
+5月 15 15:16:43 ubuntu bluetoothd[820]: Terminating
+5月 15 15:16:43 ubuntu bluetoothd[820]: Endpoint unregistered: sender=:1.72 path=/MediaEndpoint/A2DPSink/sbc
+5月 15 15:16:43 ubuntu bluetoothd[820]: Endpoint unregistered: sender=:1.72 path=/MediaEndpoint/A2DPSource/sbc
+5月 15 15:16:43 ubuntu systemd[1]: Stopping Bluetooth service...
+5月 15 15:16:43 ubuntu bluetoothd[820]: Stopping SDP server
+5月 15 15:16:43 ubuntu bluetoothd[820]: Exit
+5月 15 15:16:43 ubuntu systemd[1]: bluetooth.service: Succeeded.
+5月 15 15:16:43 ubuntu systemd[1]: Stopped Bluetooth service.
+-- Reboot --
+5月 15 16:28:26 ubuntu systemd[1]: Starting Bluetooth service...
+5月 15 16:28:26 ubuntu bluetoothd[818]: Bluetooth daemon 5.53
+5月 15 16:28:26 ubuntu bluetoothd[818]: Starting SDP server
+5月 15 16:28:26 ubuntu bluetoothd[818]: Bluetooth management interface 1.20 initialized
+5月 15 16:28:27 ubuntu systemd[1]: Started Bluetooth service.
+5月 15 16:28:41 ubuntu bluetoothd[818]: Endpoint registered: sender=:1.72 path=/MediaEndpoint/A2DPSink/sbc
+5月 15 16:28:41 ubuntu bluetoothd[818]: Endpoint registered: sender=:1.72 path=/MediaEndpoint/A2DPSource/sbc
+5月 15 17:59:27 ubuntu bluetoothd[818]: Terminating
+5月 15 17:59:27 ubuntu bluetoothd[818]: Endpoint unregistered: sender=:1.72 path=/MediaEndpoint/A2DPSink/sbc
+5月 15 17:59:27 ubuntu systemd[1]: Stopping Bluetooth service...
+5月 15 17:59:27 ubuntu bluetoothd[818]: Endpoint unregistered: sender=:1.72 path=/MediaEndpoint/A2DPSource/sbc
+5月 15 17:59:27 ubuntu bluetoothd[818]: Stopping SDP server
+5月 15 17:59:27 ubuntu bluetoothd[818]: Exit
+5月 15 17:59:27 ubuntu systemd[1]: bluetooth.service: Succeeded.
+5月 15 17:59:27 ubuntu systemd[1]: Stopped Bluetooth service.
+-- Reboot --
+5月 15 21:27:15 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 15 21:27:51 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+5月 31 15:28:47 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 31 15:30:16 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+5月 31 16:19:55 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 31 16:32:18 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 31 16:50:16 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 31 17:30:37 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 31 18:18:18 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+5月 31 21:00:58 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 31 21:03:37 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 31 21:15:20 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 31 21:39:09 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+5月 31 21:56:13 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+6月 01 23:20:29 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+6月 01 23:21:37 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+6月 01 23:22:16 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+6月 01 23:27:59 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+6月 06 14:12:38 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+6月 06 14:13:14 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+6月 06 14:38:22 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+6月 06 14:54:19 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+6月 06 15:39:37 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+6月 06 15:44:21 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+6月 06 15:44:46 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+6月 15 14:09:00 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+6月 15 15:13:33 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+6月 15 15:14:59 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+6月 16 14:48:30 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+6月 16 14:48:57 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+6月 16 15:21:01 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+2月 25 16:36:19 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+2月 25 16:37:51 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 27 17:52:51 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+3月 27 18:08:13 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 30 14:06:09 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+3月 30 14:15:29 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+3月 30 14:43:58 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 30 14:44:35 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 30 15:12:21 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 30 15:18:42 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 30 22:57:15 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+3月 30 22:57:45 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 30 23:00:47 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 30 23:05:28 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 31 18:40:22 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+3月 31 18:53:27 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 31 18:54:20 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 31 19:04:03 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 31 19:27:39 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 31 19:43:32 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+3月 31 19:54:53 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 31 19:58:21 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+3月 31 20:02:32 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+3月 31 20:24:38 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 02 17:05:06 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 14 20:21:41 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 14 20:55:52 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 14 20:56:30 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 15 22:31:09 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 15 22:32:04 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 15 22:43:43 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 15 22:57:33 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 19 18:41:07 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 19 18:42:48 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 19 19:16:18 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+4月 19 19:16:54 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+-- Reboot --
+4月 21 14:58:09 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+

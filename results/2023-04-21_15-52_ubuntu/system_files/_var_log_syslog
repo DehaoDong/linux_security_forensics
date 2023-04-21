@@ -1,0 +1,1556 @@
+Apr 21 14:58:09 ubuntu rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="880" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Apr 21 14:58:09 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.freedesktop.systemd1' requested by ':1.1' (uid=125 pid=1108 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Apr 21 14:58:09 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr 21 14:58:09 ubuntu systemd[1]: logrotate.service: Main process exited, code=exited, status=1/FAILURE
+Apr 21 14:58:09 ubuntu systemd[1]: logrotate.service: Failed with result 'exit-code'.
+Apr 21 14:58:09 ubuntu systemd[1]: Failed to start Rotate log files.
+Apr 21 14:58:09 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.32' (uid=125 pid=1086 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+Apr 21 14:58:09 ubuntu systemd[1]: Condition check resulted in Bluetooth service being skipped.
+Apr 21 14:58:09 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=125 pid=1108 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Apr 21 14:58:09 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.3' (uid=125 pid=1090 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 14:58:09 ubuntu systemd[1080]: Starting Virtual filesystem service...
+Apr 21 14:58:09 ubuntu systemd[1080]: Started Sound Service.
+Apr 21 14:58:09 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr 21 14:58:09 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=125 pid=1108 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Apr 21 14:58:09 ubuntu gnome-session-binary[1108]: WARNING: Falling back to non-systemd startup procedure due to error: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Apr 21 14:58:09 ubuntu gnome-session[1108]: gnome-session-binary[1108]: WARNING: Falling back to non-systemd startup procedure due to error: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Apr 21 14:58:09 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr 21 14:58:09 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=125 pid=1108 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Apr 21 14:58:09 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr 21 14:58:09 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=125 pid=1108 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Apr 21 14:58:09 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr 21 14:58:09 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=125 pid=1108 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Apr 21 14:58:09 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr 21 14:58:09 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=125 pid=1108 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Apr 21 14:58:09 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr 21 14:58:09 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Successfully activated service 'org.gtk.vfs.Daemon'
+Apr 21 14:58:09 ubuntu systemd[1080]: Started Virtual filesystem service.
+Apr 21 14:58:09 ubuntu tracker-miner-f[1090]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+Apr 21 14:58:09 ubuntu tracker-miner-f[1090]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+Apr 21 14:58:09 ubuntu tracker-miner-f[1090]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+Apr 21 14:58:09 ubuntu tracker-miner-f[1090]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+Apr 21 14:58:09 ubuntu tracker-miner-f[1090]: Unable to get XDG user directory path for special directory &DOWNLOAD. Ignoring this location.
+Apr 21 14:58:09 ubuntu tracker-miner-f[1090]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+Apr 21 14:58:09 ubuntu tracker-miner-f[1090]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+Apr 21 14:58:09 ubuntu tracker-miner-f[1090]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+Apr 21 14:58:09 ubuntu tracker-miner-f[1090]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+Apr 21 14:58:09 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.3' (uid=125 pid=1090 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 14:58:09 ubuntu systemd[1080]: Starting Virtual filesystem service - disk device monitor...
+Apr 21 14:58:09 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Apr 21 14:58:09 ubuntu systemd[1080]: Started Virtual filesystem service - disk device monitor.
+Apr 21 14:58:09 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.3' (uid=125 pid=1090 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 14:58:09 ubuntu systemd[1080]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Apr 21 14:58:09 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Activating service name='org.gnome.OnlineAccounts' requested by ':1.8' (uid=125 pid=1189 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+Apr 21 14:58:09 ubuntu kernel: [    9.876032] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Apr 21 14:58:09 ubuntu kernel: [    9.876782] IPv6: ADDRCONF(NETDEV_CHANGE): ens33: link becomes ready
+Apr 21 14:58:09 ubuntu NetworkManager[844]: <info>  [1682060289.9162] device (ens33): carrier: link connected
+Apr 21 14:58:09 ubuntu NetworkManager[844]: <info>  [1682060289.9165] device (ens33): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Apr 21 14:58:09 ubuntu NetworkManager[844]: <info>  [1682060289.9215] policy: auto-activating connection '有线连接 1' (e5ceb4d5-b79a-3432-a0a6-a20910373427)
+Apr 21 14:58:09 ubuntu NetworkManager[844]: <info>  [1682060289.9227] device (ens33): Activation: starting connection '有线连接 1' (e5ceb4d5-b79a-3432-a0a6-a20910373427)
+Apr 21 14:58:09 ubuntu NetworkManager[844]: <info>  [1682060289.9232] device (ens33): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Apr 21 14:58:09 ubuntu NetworkManager[844]: <info>  [1682060289.9247] manager: NetworkManager state is now CONNECTING
+Apr 21 14:58:09 ubuntu NetworkManager[844]: <info>  [1682060289.9258] device (ens33): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Apr 21 14:58:09 ubuntu NetworkManager[844]: <info>  [1682060289.9279] device (ens33): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Apr 21 14:58:09 ubuntu NetworkManager[844]: <info>  [1682060289.9290] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+Apr 21 14:58:09 ubuntu avahi-daemon[838]: Joining mDNS multicast group on interface ens33.IPv6 with address fe80::2d9b:47a:efdd:f122.
+Apr 21 14:58:09 ubuntu avahi-daemon[838]: New relevant interface ens33.IPv6 for mDNS.
+Apr 21 14:58:09 ubuntu avahi-daemon[838]: Registering new address record for fe80::2d9b:47a:efdd:f122 on ens33.*.
+Apr 21 14:58:10 ubuntu goa-daemon[1193]: goa-daemon version 3.36.1 starting
+Apr 21 14:58:10 ubuntu snapd[881]: overlord.go:268: Acquiring state lock file
+Apr 21 14:58:10 ubuntu snapd[881]: overlord.go:273: Acquired state lock file
+Apr 21 14:58:10 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Activating service name='org.gnome.Identity' requested by ':1.9' (uid=125 pid=1193 comm="/usr/libexec/goa-daemon " label="unconfined")
+Apr 21 14:58:10 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Successfully activated service 'org.gnome.OnlineAccounts'
+Apr 21 14:58:10 ubuntu snapd[881]: daemon.go:247: started snapd/2.58.3 (series 16; classic) ubuntu/20.04 (amd64) linux/5.15.0-69-generic.
+Apr 21 14:58:10 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Apr 21 14:58:10 ubuntu systemd[1080]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Apr 21 14:58:10 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.3' (uid=125 pid=1090 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 14:58:10 ubuntu systemd[1080]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Apr 21 14:58:10 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Successfully activated service 'org.gnome.Identity'
+Apr 21 14:58:10 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Apr 21 14:58:10 ubuntu systemd[1080]: Started Virtual filesystem service - Apple File Conduit monitor.
+Apr 21 14:58:10 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.3' (uid=125 pid=1090 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 14:58:10 ubuntu systemd[1080]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Apr 21 14:58:10 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Apr 21 14:58:10 ubuntu systemd[1080]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Apr 21 14:58:10 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.3' (uid=125 pid=1090 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 14:58:10 ubuntu systemd[1080]: Starting Virtual filesystem service - digital camera monitor...
+Apr 21 14:58:10 ubuntu kernel: [   10.102901] loop17: detected capacity change from 0 to 8
+Apr 21 14:58:10 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Apr 21 14:58:10 ubuntu systemd[1080]: Started Virtual filesystem service - digital camera monitor.
+Apr 21 14:58:10 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.37' (uid=125 pid=1090 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 14:58:10 ubuntu systemd[1]: Starting Daemon for power management...
+Apr 21 14:58:10 ubuntu systemd[1080]: tmp-syscheck\x2dmountpoint\x2d516450630.mount: Succeeded.
+Apr 21 14:58:10 ubuntu snapd[881]: daemon.go:340: adjusting startup timeout by 1m15s (pessimistic estimate of 30s plus 5s per snap)
+Apr 21 14:58:10 ubuntu systemd[1080]: Started Tracker metadata extractor.
+Apr 21 14:58:10 ubuntu snapd[881]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+Apr 21 14:58:10 ubuntu ModemManager[939]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:11.0/0000:02:01.0': not supported by any plugin
+Apr 21 14:58:10 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.UPower'
+Apr 21 14:58:10 ubuntu systemd[1]: Started Daemon for power management.
+Apr 21 14:58:10 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.3' (uid=125 pid=1090 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 14:58:10 ubuntu systemd[1080]: Starting Tracker metadata database store and lookup manager...
+Apr 21 14:58:10 ubuntu systemd[1080]: Started Tracker file system data miner.
+Apr 21 14:58:10 ubuntu systemd[1080]: Reached target Main User Target.
+Apr 21 14:58:10 ubuntu systemd[1]: Started Snap Daemon.
+Apr 21 14:58:10 ubuntu systemd[1]: Starting Wait until snapd is fully seeded...
+Apr 21 14:58:10 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.39' (uid=0 pid=881 comm="/usr/lib/snapd/snapd " label="unconfined")
+Apr 21 14:58:10 ubuntu dbus-daemon[1091]: [session uid=125 pid=1091] Successfully activated service 'org.freedesktop.Tracker1'
+Apr 21 14:58:10 ubuntu systemd[1080]: Started Tracker metadata database store and lookup manager.
+Apr 21 14:58:10 ubuntu systemd[1080]: Startup finished in 2.377s.
+Apr 21 14:58:10 ubuntu systemd[1]: Starting Time & Date Service...
+Apr 21 14:58:10 ubuntu gnome-shell[1181]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: No matching EGL configs
+Apr 21 14:58:10 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Apr 21 14:58:10 ubuntu systemd[1]: Started Time & Date Service.
+Apr 21 14:58:10 ubuntu systemd[1]: Finished Wait until snapd is fully seeded.
+Apr 21 14:58:10 ubuntu systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+Apr 21 14:58:10 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=125 pid=1108 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Apr 21 14:58:10 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr 21 14:58:10 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=125 pid=1108 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Apr 21 14:58:10 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr 21 14:58:10 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=125 pid=1108 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Apr 21 14:58:10 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr 21 14:58:10 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=125 pid=1108 comm="/usr/libexec/gnome-session-binary --systemd --auto" label="unconfined")
+Apr 21 14:58:10 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr 21 14:58:10 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.a11y.Bus' requested by ':1.4' (uid=125 pid=1181 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 21 14:58:10 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Successfully activated service 'org.a11y.Bus'
+Apr 21 14:58:11 ubuntu gnome-shell[1181]: Some code accessed the property 'CredentialManager' on the module 'credentialManager'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Apr 21 14:58:11 ubuntu gnome-shell[1181]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+Apr 21 14:58:11 ubuntu gnome-shell[1181]: Will monitor session c1
+Apr 21 14:58:11 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.35' (uid=125 pid=1181 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 21 14:58:11 ubuntu systemd[1]: Starting Locale Service...
+Apr 21 14:58:11 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.locale1'
+Apr 21 14:58:11 ubuntu systemd[1]: Started Locale Service.
+Apr 21 14:58:11 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.freedesktop.portal.IBus' requested by ':1.6' (uid=125 pid=1333 comm="ibus-daemon --panel disable " label="unconfined")
+Apr 21 14:58:11 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Successfully activated service 'org.freedesktop.portal.IBus'
+Apr 21 14:58:12 ubuntu systemd[1]: dmesg.service: Succeeded.
+Apr 21 14:58:12 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.3' (uid=125 pid=1181 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 21 14:58:12 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Apr 21 14:58:12 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 21 14:58:12 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.35' (uid=125 pid=1181 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 21 14:58:12 ubuntu systemd[1]: Starting Location Lookup Service...
+Apr 21 14:58:12 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.35' (uid=125 pid=1181 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 21 14:58:12 ubuntu systemd[1]: Starting PackageKit Daemon...
+Apr 21 14:58:12 ubuntu PackageKit: daemon start
+Apr 21 14:58:12 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+Apr 21 14:58:12 ubuntu systemd[1]: Started Location Lookup Service.
+Apr 21 14:58:12 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.gnome.Shell.Notifications' requested by ':1.3' (uid=125 pid=1181 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 21 14:58:12 ubuntu /usr/lib/gdm3/gdm-wayland-session[1309]: dbus-daemon[1309]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=125 pid=1181 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 21 14:58:12 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Apr 21 14:58:12 ubuntu systemd[1]: Started PackageKit Daemon.
+Apr 21 14:58:12 ubuntu /usr/lib/gdm3/gdm-wayland-session[1309]: dbus-daemon[1309]: Successfully activated service 'org.a11y.atspi.Registry'
+Apr 21 14:58:12 ubuntu /usr/lib/gdm3/gdm-wayland-session[1410]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Apr 21 14:58:12 ubuntu gnome-shell[1181]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Apr 21 14:58:12 ubuntu kernel: [   12.664381] rfkill: input handler disabled
+Apr 21 14:58:12 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.freedesktop.systemd1' requested by ':1.11' (uid=125 pid=1413 comm="/usr/libexec/gsd-sharing " label="unconfined")
+Apr 21 14:58:12 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Apr 21 14:58:12 ubuntu gsd-sharing[1413]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Apr 21 14:58:12 ubuntu gsd-sharing[1413]: message repeated 3 times: [ Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1]
+Apr 21 14:58:12 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Successfully activated service 'org.gnome.Shell.Notifications'
+Apr 21 14:58:12 ubuntu gnome-shell[1181]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Apr 21 14:58:12 ubuntu gnome-shell[1181]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Apr 21 14:58:12 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.35' (uid=125 pid=1181 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 21 14:58:12 ubuntu systemd[1]: Starting Fingerprint Authentication Daemon...
+Apr 21 14:58:13 ubuntu dbus-daemon[843]: [system] Successfully activated service 'net.reactivated.Fprint'
+Apr 21 14:58:13 ubuntu systemd[1]: Started Fingerprint Authentication Daemon.
+Apr 21 14:58:13 ubuntu gnome-shell[1181]: Getting invalid resource scale property
+Apr 21 14:58:13 ubuntu gnome-shell[1181]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Apr 21 14:58:13 ubuntu gnome-shell[1181]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Apr 21 14:58:13 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service' requested by ':1.52' (uid=125 pid=1417 comm="/usr/libexec/gsd-color " label="unconfined")
+Apr 21 14:58:13 ubuntu systemd[1]: Starting Manage, Install and Generate Color Profiles...
+Apr 21 14:58:13 ubuntu colord[1521]: failed to get edid data: EDID length is too small
+Apr 21 14:58:13 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+Apr 21 14:58:13 ubuntu systemd[1]: Started Manage, Install and Generate Color Profiles.
+Apr 21 14:58:13 ubuntu gnome-shell[1181]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Apr 21 14:58:13 ubuntu gnome-shell[1181]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Apr 21 14:58:13 ubuntu gnome-shell[1181]: Not starting gsd-xsettings; waiting for gnome-session to do so
+Apr 21 14:58:13 ubuntu ibus-daemon[1333]: GChildWatchSource: Exit status of a child process was requested but ECHILD was received by waitpid(). See the documentation of g_child_watch_source_new() for possible causes.
+Apr 21 14:58:13 ubuntu gsd-color[1417]: failed to get edid: unable to get EDID for output
+Apr 21 14:58:13 ubuntu gsd-color[1417]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Apr 21 14:58:13 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Activating service name='org.freedesktop.portal.IBus' requested by ':1.32' (uid=125 pid=1525 comm="ibus-daemon --panel disable -r --xim " label="unconfined")
+Apr 21 14:58:13 ubuntu gsd-media-keys[1440]: Failed to grab accelerator for keybinding settings:playback-repeat
+Apr 21 14:58:13 ubuntu gsd-media-keys[1440]: Failed to grab accelerator for keybinding settings:rfkill
+Apr 21 14:58:13 ubuntu gsd-media-keys[1440]: Failed to grab accelerator for keybinding settings:hibernate
+Apr 21 14:58:13 ubuntu gsd-media-keys[1440]: Failed to grab accelerator for keybinding settings:playback-random
+Apr 21 14:58:13 ubuntu gnome-session-binary[1108]: Entering running state
+Apr 21 14:58:13 ubuntu xbrlapi.desktop[1543]: openConnection: connect: 没有那个文件或目录
+Apr 21 14:58:13 ubuntu xbrlapi.desktop[1543]: cannot connect to braille devices daemon brltty at :0
+Apr 21 14:58:13 ubuntu /usr/lib/gdm3/gdm-wayland-session[1104]: dbus-daemon[1104]: [session uid=125 pid=1104] Successfully activated service 'org.freedesktop.portal.IBus'
+Apr 21 14:58:13 ubuntu gnome-shell[1181]: Registering session with GDM
+Apr 21 14:58:15 ubuntu org.gnome.Shell.desktop[1554]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 21 14:58:15 ubuntu org.gnome.Shell.desktop[1554]: > Warning:          Unsupported maximum keycode 569, clipping.
+Apr 21 14:58:15 ubuntu org.gnome.Shell.desktop[1554]: >                   X11 cannot support keycodes above 255.
+Apr 21 14:58:15 ubuntu org.gnome.Shell.desktop[1554]: > Internal error:   Could not resolve keysym Invalid
+Apr 21 14:58:15 ubuntu org.gnome.Shell.desktop[1554]: Errors from xkbcomp are not fatal to the X server
+Apr 21 14:58:18 ubuntu gnome-shell[1181]: Warning: Failed to start gsd-xsettings
+Apr 21 14:58:18 ubuntu gnome-shell[1181]: JS WARNING: [resource:///org/gnome/shell/ui/layout.js 24]: reference to undefined property "MetaWindowXwayland"
+Apr 21 14:58:20 ubuntu systemd[1080]: tracker-extract.service: Succeeded.
+Apr 21 14:58:21 ubuntu systemd[1]: Created slice User Slice of UID 1000.
+Apr 21 14:58:21 ubuntu systemd[1]: Starting User Runtime Directory /run/user/1000...
+Apr 21 14:58:21 ubuntu systemd[1]: Finished User Runtime Directory /run/user/1000.
+Apr 21 14:58:21 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Apr 21 14:58:21 ubuntu systemd[1565]: Started Pending report trigger for Ubuntu Report.
+Apr 21 14:58:21 ubuntu systemd[1565]: Reached target Paths.
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] AppArmor D-Bus mediation is enabled
+Apr 21 14:58:21 ubuntu systemd[1565]: Reached target Timers.
+Apr 21 14:58:21 ubuntu systemd[1565]: Starting D-Bus User Message Bus Socket.
+Apr 21 14:58:21 ubuntu systemd[1565]: Listening on GnuPG network certificate management daemon.
+Apr 21 14:58:21 ubuntu systemd[1565]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 21 14:58:21 ubuntu systemd[1565]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 21 14:58:21 ubuntu systemd[1565]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr 21 14:58:21 ubuntu systemd[1565]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr 21 14:58:21 ubuntu systemd[1565]: Listening on debconf communication socket.
+Apr 21 14:58:21 ubuntu systemd[1565]: Listening on Sound System.
+Apr 21 14:58:21 ubuntu systemd[1565]: Listening on REST API socket for snapd user session agent.
+Apr 21 14:58:21 ubuntu systemd[1565]: Listening on D-Bus User Message Bus Socket.
+Apr 21 14:58:21 ubuntu systemd[1565]: Reached target Sockets.
+Apr 21 14:58:21 ubuntu systemd[1565]: Reached target Basic System.
+Apr 21 14:58:21 ubuntu systemd[1]: Started User Manager for UID 1000.
+Apr 21 14:58:21 ubuntu systemd[1]: Started Session 2 of user ree.
+Apr 21 14:58:21 ubuntu systemd[1565]: Starting Sound Service...
+Apr 21 14:58:21 ubuntu systemd[1565]: Starting Tracker metadata extractor...
+Apr 21 14:58:21 ubuntu systemd[1565]: Starting Tracker file system data miner...
+Apr 21 14:58:21 ubuntu tracker-extract[1572]: Set scheduler policy to SCHED_IDLE
+Apr 21 14:58:21 ubuntu tracker-extract[1572]: Setting priority nice level to 19
+Apr 21 14:58:21 ubuntu systemd[1565]: Started D-Bus User Message Bus.
+Apr 21 14:58:21 ubuntu tracker-miner-f[1573]: Set scheduler policy to SCHED_IDLE
+Apr 21 14:58:21 ubuntu tracker-miner-f[1573]: Setting priority nice level to 19
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 14:58:21 ubuntu systemd[1565]: Starting Virtual filesystem service...
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.gtk.vfs.Daemon'
+Apr 21 14:58:21 ubuntu systemd[1565]: Started Virtual filesystem service.
+Apr 21 14:58:21 ubuntu rtkit-daemon[1117]: Successfully made thread 1571 of process 1571 owned by '1000' high priority at nice level -11.
+Apr 21 14:58:21 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 2 users.
+Apr 21 14:58:21 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 2 users.
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 14:58:21 ubuntu systemd[1565]: Starting Virtual filesystem service - disk device monitor...
+Apr 21 14:58:21 ubuntu rtkit-daemon[1117]: Successfully made thread 1602 of process 1571 owned by '1000' RT at priority 5.
+Apr 21 14:58:21 ubuntu rtkit-daemon[1117]: Supervising 5 threads of 2 processes of 2 users.
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Apr 21 14:58:21 ubuntu systemd[1565]: Started Virtual filesystem service - disk device monitor.
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 14:58:21 ubuntu systemd[1565]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating service name='org.gnome.OnlineAccounts' requested by ':1.6' (uid=1000 pid=1616 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+Apr 21 14:58:21 ubuntu systemd[1565]: Started Sound Service.
+Apr 21 14:58:21 ubuntu goa-daemon[1620]: goa-daemon version 3.36.1 starting
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating service name='org.gnome.Identity' requested by ':1.8' (uid=1000 pid=1620 comm="/usr/libexec/goa-daemon " label="unconfined")
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.gnome.OnlineAccounts'
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Apr 21 14:58:21 ubuntu systemd[1565]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.gnome.Identity'
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 14:58:21 ubuntu systemd[1565]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Apr 21 14:58:21 ubuntu systemd[1565]: Started Virtual filesystem service - Apple File Conduit monitor.
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.2' (uid=1000 pid=1572 comm="/usr/libexec/tracker-extract " label="unconfined")
+Apr 21 14:58:21 ubuntu systemd[1565]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Apr 21 14:58:21 ubuntu kernel: [   21.790693] rfkill: input handler enabled
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Apr 21 14:58:21 ubuntu systemd[1565]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.2' (uid=1000 pid=1572 comm="/usr/libexec/tracker-extract " label="unconfined")
+Apr 21 14:58:21 ubuntu systemd[1565]: Starting Virtual filesystem service - digital camera monitor...
+Apr 21 14:58:21 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Apr 21 14:58:21 ubuntu systemd[1565]: Started Virtual filesystem service - digital camera monitor.
+Apr 21 14:58:21 ubuntu systemd[1565]: Started Tracker metadata extractor.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (--) Log file renamed from "/home/ree/.local/share/xorg/Xorg.pid-1646.log" to "/home/ree/.local/share/xorg/Xorg.0.log"
+Apr 21 14:58:21 ubuntu pulseaudio[1571]: Disabling timer-based scheduling because running inside a VM.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: X.Org X Server 1.20.13
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: X Protocol Version 11, Revision 0
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: Build Operating System: linux Ubuntu
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: Current Operating System: Linux ubuntu 5.15.0-69-generic #76~20.04.1-Ubuntu SMP Mon Mar 20 15:54:19 UTC 2023 x86_64
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-69-generic root=UUID=477f5a7d-cddf-4e43-afe1-cd3b20500e86 ro find_preseed=/preseed.cfg auto noprompt priority=critical locale=en_US quiet
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: Build Date: 29 March 2023  12:53:02PM
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: xorg-server 2:1.20.13-1ubuntu1~20.04.8 (For technical support please see http://www.ubuntu.com/support)
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: Current version of pixman: 0.38.4
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011Before reporting problems, check http://wiki.x.org
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011to make sure that you have the latest version.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: Markers: (--) probed, (**) from config file, (==) default setting,
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011(++) from command line, (!!) notice, (II) informational,
+Apr 21 14:58:21 ubuntu rtkit-daemon[1117]: Supervising 5 threads of 2 processes of 2 users.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) Log file: "/home/ree/.local/share/xorg/Xorg.0.log", Time: Fri Apr 21 14:58:21 2023
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) No Layout section.  Using the first Screen section.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) No screen section available. Using defaults.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) |-->Screen "Default Screen Section" (0)
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) |   |-->Monitor "<default monitor>"
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) No monitor specified for screen "Default Screen Section".
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011Using a default monitor configuration.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) Automatically adding devices
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) Automatically enabling devices
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) Automatically adding GPU devices
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) Automatically binding GPU devices
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) Max clients allowed: 256, resource mask: 0x1fffff
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011Entry deleted from font path.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011Entry deleted from font path.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011Entry deleted from font path.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011Entry deleted from font path.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011Entry deleted from font path.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) FontPath set to:
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011/usr/share/fonts/X11/misc,
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011/usr/share/fonts/X11/Type1,
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011built-ins
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) ModulePath set to "/usr/lib/xorg/modules"
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) The server relies on udev to provide the list of input devices.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011If no devices become available, reconfigure udev or disable AutoAddDevices.
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Loader magic: 0x561750daa020
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Module ABI versions:
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011X.Org ANSI C Emulation: 0.4
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011X.Org Video Driver: 24.1
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011X.Org XInput driver : 24.1
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011X.Org Server Extension : 10.0
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (++) using VT number 2
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) systemd-logind: took control of session /org/freedesktop/login1/session/_32
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) xfree86: Adding drm device (/dev/dri/card0)
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 12 paused 0
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (--) PCI:*(0@0:15:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xe8000000/134217728, 0xfe000000/8388608, I/O @ 0x00001070/16, BIOS @ 0x????????/131072
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) LoadModule: "glx"
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Module glx: vendor="X.Org Foundation"
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011compiled for 1.20.13, module version = 1.0.0
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011ABI class: X.Org Server Extension, version 10.0
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) Matched vmware as autoconfigured driver 0
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) Matched modesetting as autoconfigured driver 1
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) Matched fbdev as autoconfigured driver 2
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) Matched vesa as autoconfigured driver 3
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) Assigned the driver to the xf86ConfigLayout
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) LoadModule: "vmware"
+Apr 21 14:58:21 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Loading /usr/lib/xorg/modules/drivers/vmware_drv.so
+Apr 21 14:58:21 ubuntu rtkit-daemon[1117]: Successfully made thread 1653 of process 1571 owned by '1000' RT at priority 5.
+Apr 21 14:58:21 ubuntu rtkit-daemon[1117]: Supervising 6 threads of 2 processes of 2 users.
+Apr 21 14:58:22 ubuntu pulseaudio[1571]: ALSA 提醒我们在该设备中写入新数据，但实际上没有什么可以写入的！
+Apr 21 14:58:22 ubuntu pulseaudio[1571]: 这很可能是 ALSA 驱动程序 'snd_ens1371' 中的一个 bug。请向 ALSA 开发人员报告这个问题。
+Apr 21 14:58:22 ubuntu pulseaudio[1571]: 我们因 POLLOUT 被设置而唤醒 -- 但结果是 snd_pcm_avail() 返回 0 或者另一个小于最小可用值的数值。
+Apr 21 14:58:22 ubuntu pulseaudio[1571]: Disabling timer-based scheduling because running inside a VM.
+Apr 21 14:58:22 ubuntu systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Apr 21 14:58:22 ubuntu rtkit-daemon[1117]: Supervising 6 threads of 2 processes of 2 users.
+Apr 21 14:58:22 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 14:58:22 ubuntu systemd[1565]: Starting Tracker metadata database store and lookup manager...
+Apr 21 14:58:22 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.Tracker1'
+Apr 21 14:58:22 ubuntu systemd[1565]: Started Tracker metadata database store and lookup manager.
+Apr 21 14:58:22 ubuntu systemd[1565]: Started Tracker file system data miner.
+Apr 21 14:58:22 ubuntu systemd[1565]: Reached target Main User Target.
+Apr 21 14:58:22 ubuntu systemd[1565]: Startup finished in 1.064s.
+Apr 21 14:58:22 ubuntu rtkit-daemon[1117]: Successfully made thread 1654 of process 1571 owned by '1000' RT at priority 5.
+Apr 21 14:58:22 ubuntu rtkit-daemon[1117]: Supervising 7 threads of 2 processes of 2 users.
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Module vmware: vendor="X.Org Foundation"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011compiled for 1.20.8, module version = 13.3.0
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011Module class: X.Org Video Driver
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011ABI class: X.Org Video Driver, version 24.1
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) LoadModule: "modesetting"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Module modesetting: vendor="X.Org Foundation"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011compiled for 1.20.13, module version = 1.20.13
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011Module class: X.Org Video Driver
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011ABI class: X.Org Video Driver, version 24.1
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) LoadModule: "fbdev"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Module fbdev: vendor="X.Org Foundation"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011compiled for 1.20.1, module version = 0.5.0
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011Module class: X.Org Video Driver
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011ABI class: X.Org Video Driver, version 24.0
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) LoadModule: "vesa"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Module vesa: vendor="X.Org Foundation"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011compiled for 1.20.4, module version = 2.4.0
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011Module class: X.Org Video Driver
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011ABI class: X.Org Video Driver, version 24.0
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware: driver for VMware SVGA: vmware0405, vmware0710
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) FBDEV: driver for framebuffer: fbdev
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) VESA: driver for VESA chipsets: vesa
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (WW) Falling back to old probe method for modesetting
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (WW) Falling back to old probe method for fbdev
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Loading sub module "fbdevhw"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) LoadModule: "fbdevhw"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Module fbdevhw: vendor="X.Org Foundation"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011compiled for 1.20.13, module version = 0.0.2
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011ABI class: X.Org Video Driver, version 24.1
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (EE) open /dev/fb0: Permission denied
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Creating default Display subsection in Screen section
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011"Default Screen Section" for depth/fbbpp 24/32
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (--) vmware(0): DRM driver version is 2.19.0
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) vmware(0): Depth 24, (--) framebuffer bpp 32
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) vmware(0): RGB weight 888
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) vmware(0): Default visual is TrueColor
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (--) vmware(0): Min width 1, Max Width 16384.
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (--) vmware(0): Min height 1, Max Height 16384.
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual1 has no monitor section
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual2 has no monitor section
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual3 has no monitor section
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual4 has no monitor section
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual5 has no monitor section
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual6 has no monitor section
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual7 has no monitor section
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual8 has no monitor section
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Printing probed modes for output Virtual1
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "800x600"x60.0   42.75  800 850 900 950  600 650 700 750 -hsync +vsync (45.0 kHz eP)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "3840x2400"x60.0  592.25  3840 3888 3920 4000  2400 2403 2409 2469 +hsync -vsync (148.1 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "3840x2160"x60.0  533.00  3840 3888 3920 4000  2160 2163 2168 2222 +hsync -vsync (133.2 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "2880x1800"x59.9  337.50  2880 2928 2960 3040  1800 1803 1809 1852 +hsync -vsync (111.0 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "2560x1440"x60.0  241.50  2560 2608 2640 2720  1440 1443 1448 1481 +hsync -vsync (88.8 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1920x1080"x60.0  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync (67.2 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1280x720"x59.9   74.50  1280 1344 1472 1664  720 723 728 748 -hsync +vsync (44.8 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz e)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): EDID for output Virtual2
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): EDID for output Virtual3
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): EDID for output Virtual4
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): EDID for output Virtual5
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): EDID for output Virtual6
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): EDID for output Virtual7
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): EDID for output Virtual8
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual1 connected
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual2 disconnected
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual3 disconnected
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual4 disconnected
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual5 disconnected
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual6 disconnected
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual7 disconnected
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual8 disconnected
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Using exact sizes for initial modes
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Output Virtual1 using initial mode 800x600 +0+0
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) vmware(0): DPI set to (96, 96)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) vmware(0): Using gamma correction (1.0, 1.0, 1.0)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Loading sub module "fb"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) LoadModule: "fb"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Loading /usr/lib/xorg/modules/libfb.so
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Module fb: vendor="X.Org Foundation"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011compiled for 1.20.13, module version = 1.0.0
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011ABI class: X.Org ANSI C Emulation, version 0.4
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Loading sub module "dri2"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) LoadModule: "dri2"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Module "dri2" already built-in
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Loading sub module "dri3"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) LoadModule: "dri3"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Module "dri3" already built-in
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) UnloadModule: "modesetting"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Unloading modesetting
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) UnloadModule: "fbdev"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Unloading fbdev
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) UnloadSubModule: "fbdevhw"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Unloading fbdevhw
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) UnloadModule: "vesa"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Unloading vesa
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Initialized VMWARE_CTRL extension version 0.2
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Gallium3D XA version: 2.5.0.
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Path of drm device is "/dev/dri/card0".
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): [DRI2] Setup complete
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): [DRI2]   DRI driver: vmwgfx
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (--) vmware(0): Render acceleration is enabled.
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) vmware(0): Rendercheck mode is disabled.
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (--) vmware(0): Direct rendering (DRI2 3D) is enabled.
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (--) vmware(0): Direct rendering (DRI3 3D) is enabled.
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) vmware(0): Direct presents are disabled.
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) vmware(0): Hardware only presents are automatic per scanout.
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) vmware(0): Backing store enabled
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) vmware(0): Silken mouse enabled
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (==) vmware(0): DPMS enabled
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension Generic Event Extension
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension SHAPE
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension MIT-SHM
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension XInputExtension
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension XTEST
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension BIG-REQUESTS
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension SYNC
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension XKEYBOARD
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension XC-MISC
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension SECURITY
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension XFIXES
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension RENDER
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension RANDR
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension COMPOSITE
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension DAMAGE
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension MIT-SCREEN-SAVER
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension DOUBLE-BUFFER
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension RECORD
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension DPMS
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension Present
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension DRI3
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension X-Resource
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension XVideo
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension XVideo-MotionCompensation
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension SELinux
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) SELinux: Disabled on system
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension GLX
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) AIGLX: Loaded and initialized vmwgfx
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) GLX: Initialized DRI2 GL provider for screen 0
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension XFree86-VidModeExtension
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension XFree86-DGA
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension XFree86-DRI
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Initializing extension DRI2
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) vmware(0): Setting screen physical size to 211 x 158
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) config/udev: Adding input device Power Button (/dev/input/event0)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Power Button: Applying InputClass "libinput keyboard catchall"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) LoadModule: "libinput"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Module libinput: vendor="X.Org Foundation"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011compiled for 1.20.4, module version = 0.29.0
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011Module class: X.Org XInput Driver
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: #011ABI class: X.Org XInput driver, version 24.1
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Using input driver 'libinput' for 'Power Button'
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 24 paused 0
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Power Button: always reports core events
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "Device" "/dev/input/event0"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "_source" "server/udev"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event0  - Power Button: is tagged by udev as: Keyboard
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event0  - Power Button: device is a keyboard
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event0  - Power Button: device removed
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event0  - Power Button: is tagged by udev as: Keyboard
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event0  - Power Button: device is a keyboard
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) config/udev: Adding input device VMware VMware Virtual USB Mouse (/dev/input/event4)
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) VMware VMware Virtual USB Mouse: Applying InputClass "libinput pointer catchall"
+Apr 21 14:58:22 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Using input driver 'libinput' for 'VMware VMware Virtual USB Mouse'
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 27 paused 0
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) VMware VMware Virtual USB Mouse: always reports core events
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "Device" "/dev/input/event4"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "_source" "server/udev"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event4  - VMware VMware Virtual USB Mouse: is tagged by udev as: Mouse
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event4  - VMware VMware Virtual USB Mouse: device is a pointer
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event4  - VMware VMware Virtual USB Mouse: device removed
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1/2-1:1.0/0003:0E0F:0003.0001/input/input5/event4"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) XINPUT: Adding extended input device "VMware VMware Virtual USB Mouse" (type: MOUSE, id 7)
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "AccelerationScheme" "none"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) VMware VMware Virtual USB Mouse: (accel) selected scheme none/0
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) VMware VMware Virtual USB Mouse: (accel) acceleration factor: 2.000
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) VMware VMware Virtual USB Mouse: (accel) acceleration threshold: 4
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event4  - VMware VMware Virtual USB Mouse: is tagged by udev as: Mouse
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event4  - VMware VMware Virtual USB Mouse: device is a pointer
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) config/udev: Adding input device VMware VMware Virtual USB Mouse (/dev/input/mouse2)
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) No input driver specified, ignoring this device.
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) This device may have been added with another device file.
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event1)
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 28 paused 0
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) AT Translated Set 2 keyboard: always reports core events
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "Device" "/dev/input/event1"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "_source" "server/udev"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event1  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event1  - AT Translated Set 2 keyboard: device is a keyboard
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event1  - AT Translated Set 2 keyboard: device removed
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input1/event1"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 8)
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event1  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event1  - AT Translated Set 2 keyboard: device is a keyboard
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event3)
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) VirtualPS/2 VMware VMMouse: Applying InputClass "libinput pointer catchall"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Using input driver 'libinput' for 'VirtualPS/2 VMware VMMouse'
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 29 paused 0
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) VirtualPS/2 VMware VMMouse: always reports core events
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "Device" "/dev/input/event3"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "_source" "server/udev"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event3  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event3  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event3  - VirtualPS/2 VMware VMMouse: device removed
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event3"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 9)
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "AccelerationScheme" "none"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) VirtualPS/2 VMware VMMouse: (accel) selected scheme none/0
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event3  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event3  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse1)
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) No input driver specified, ignoring this device.
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) This device may have been added with another device file.
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event2)
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) VirtualPS/2 VMware VMMouse: Applying InputClass "libinput pointer catchall"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) Using input driver 'libinput' for 'VirtualPS/2 VMware VMMouse'
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 30 paused 0
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) VirtualPS/2 VMware VMMouse: always reports core events
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "Device" "/dev/input/event2"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "_source" "server/udev"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event2  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event2  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event2  - VirtualPS/2 VMware VMMouse: device removed
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input4/event2"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 10)
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) Option "AccelerationScheme" "none"
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) VirtualPS/2 VMware VMMouse: (accel) selected scheme none/0
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event2  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) event2  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse0)
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) No input driver specified, ignoring this device.
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1646]: (II) This device may have been added with another device file.
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1668]: /etc/gdm3/Xsession: Beginning session setup...
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1682]: localuser:ree being added to access control list
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1685]: dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1685]: dbus-update-activation-environment: setting DISPLAY=:0
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1685]: dbus-update-activation-environment: setting XAUTHORITY=/run/user/1000/gdm/Xauthority
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: localuser:ree being added to access control list
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1721]: dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1729]: dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting SHELL=/bin/bash
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting LANGUAGE=en_US:en
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting LC_ADDRESS=zh_CN.UTF-8
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting LC_NAME=zh_CN.UTF-8
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting DESKTOP_SESSION=ubuntu
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting LC_MONETARY=zh_CN.UTF-8
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting PWD=/home/ree
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=ubuntu
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting LOGNAME=ree
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting XAUTHORITY=/run/user/1000/gdm/Xauthority
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting WINDOWPATH=2
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting HOME=/home/ree
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting USERNAME=ree
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting LC_PAPER=zh_CN.UTF-8
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting LANG=en_US.UTF-8
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=ubuntu:GNOME
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting LC_IDENTIFICATION=zh_CN.UTF-8
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting USER=ree
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting DISPLAY=:0
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting SHLVL=1
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting LC_TELEPHONE=zh_CN.UTF-8
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting LC_MEASUREMENT=zh_CN.UTF-8
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting PAPERSIZE=a4
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting LC_TIME=zh_CN.UTF-8
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting GDMSESSION=ubuntu
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting LC_NUMERIC=zh_CN.UTF-8
+Apr 21 14:58:23 ubuntu /usr/lib/gdm3/gdm-x-session[1733]: dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+Apr 21 14:58:23 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.19' (uid=1000 pid=1751 comm="/usr/libexec/gnome-session-check-accelerated " label="unconfined")
+Apr 21 14:58:23 ubuntu systemd[1565]: Starting Accessibility services bus...
+Apr 21 14:58:23 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.a11y.Bus'
+Apr 21 14:58:23 ubuntu systemd[1565]: Started Accessibility services bus.
+Apr 21 14:58:24 ubuntu systemd[1565]: Created slice gnome\x2dsession\x2dmanager.slice.
+Apr 21 14:58:24 ubuntu systemd[1565]: Started Path trigger for Avahi .local domain notifications.
+Apr 21 14:58:24 ubuntu systemd[1565]: Started Path trigger for Apport crash notifications.
+Apr 21 14:58:24 ubuntu systemd[1565]: Started Path trigger for new release of Ubuntu notifications.
+Apr 21 14:58:24 ubuntu systemd[1565]: Condition check resulted in GNOME Initial Setup Copy Worker being skipped.
+Apr 21 14:58:24 ubuntu systemd[1565]: Starting Start gnome-keyring as SSH agent...
+Apr 21 14:58:24 ubuntu systemd[1565]: Starting Start gnome-keyring for the Secrets Service, and PKCS #11...
+Apr 21 14:58:24 ubuntu systemd[1565]: Starting Monitor Session leader for GNOME Session...
+Apr 21 14:58:24 ubuntu systemd[1565]: Starting Session Migration...
+Apr 21 14:58:24 ubuntu systemd[1565]: Finished Start gnome-keyring as SSH agent.
+Apr 21 14:58:24 ubuntu systemd[1565]: Started OpenSSH Agent.
+Apr 21 14:58:24 ubuntu gnome-session-c[1764]: Error creating FIFO: File exists
+Apr 21 14:58:24 ubuntu systemd[1565]: Started Monitor Session leader for GNOME Session.
+Apr 21 14:58:24 ubuntu systemd[1565]: session-migration.service: Succeeded.
+Apr 21 14:58:24 ubuntu systemd[1565]: Finished Session Migration.
+Apr 21 14:58:24 ubuntu systemd[1565]: ssh-agent.service: Succeeded.
+Apr 21 14:58:24 ubuntu systemd[1565]: gnome-keyring.service: Succeeded.
+Apr 21 14:58:24 ubuntu systemd[1565]: Finished Start gnome-keyring for the Secrets Service, and PKCS #11.
+Apr 21 14:58:24 ubuntu systemd[1565]: Reached target Session services which should run early before the graphical session is brought up.
+Apr 21 14:58:24 ubuntu systemd[1565]: Reached target Tasks to be run before GNOME Session starts.
+Apr 21 14:58:24 ubuntu systemd[1565]: Starting GNOME Session Manager (session: ubuntu)...
+Apr 21 14:58:24 ubuntu gnome-keyring-ssh.desktop[1785]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Apr 21 14:58:24 ubuntu systemd[1565]: Started GNOME Session Manager (session: ubuntu).
+Apr 21 14:58:24 ubuntu systemd[1565]: Reached target GNOME Session Manager is ready.
+Apr 21 14:58:24 ubuntu systemd[1565]: Starting GNOME Shell on X11...
+Apr 21 14:58:25 ubuntu gnome-shell[1788]: Some code accessed the property 'CredentialManager' on the module 'credentialManager'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Apr 21 14:58:25 ubuntu gnome-shell[1788]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+Apr 21 14:58:25 ubuntu gnome-shell[1788]: Will monitor session 2
+Apr 21 14:58:25 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating service name='org.freedesktop.portal.IBus' requested by ':1.38' (uid=1000 pid=1807 comm="ibus-daemon --panel disable --xim " label="unconfined")
+Apr 21 14:58:25 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.portal.IBus'
+Apr 21 14:58:25 ubuntu at-spi-bus-launcher[1757]: dbus-daemon[1757]: Activating service name='org.a11y.atspi.Registry' requested by ':1.2' (uid=1000 pid=1816 comm="/usr/libexec/ibus-x11 --kill-daemon " label="unconfined")
+Apr 21 14:58:25 ubuntu at-spi-bus-launcher[1757]: dbus-daemon[1757]: Successfully activated service 'org.a11y.atspi.Registry'
+Apr 21 14:58:25 ubuntu at-spi-bus-launcher[1829]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Apr 21 14:58:25 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.37' (uid=1000 pid=1788 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 21 14:58:25 ubuntu systemd[1565]: Starting sandboxed app permission store...
+Apr 21 14:58:25 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Apr 21 14:58:25 ubuntu systemd[1565]: Started sandboxed app permission store.
+Apr 21 14:58:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating service name='org.gnome.Shell.CalendarServer' requested by ':1.37' (uid=1000 pid=1788 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 21 14:58:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.45' (uid=1000 pid=1838 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting Evolution source registry...
+Apr 21 14:58:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+Apr 21 14:58:26 ubuntu systemd[1565]: Started Evolution source registry.
+Apr 21 14:58:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.gnome.Shell.CalendarServer'
+Apr 21 14:58:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar8' unit='evolution-calendar-factory.service' requested by ':1.45' (uid=1000 pid=1838 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting Evolution calendar service...
+Apr 21 14:58:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating service name='ca.desrt.dconf' requested by ':1.37' (uid=1000 pid=1788 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 21 14:58:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'ca.desrt.dconf'
+Apr 21 14:58:26 ubuntu gnome-shell[1788]: Telepathy is not available, chat integration will be disabled.
+Apr 21 14:58:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+Apr 21 14:58:26 ubuntu systemd[1565]: Started Evolution calendar service.
+Apr 21 14:58:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.47' (uid=1000 pid=1853 comm="/usr/libexec/evolution-calendar-factory " label="unconfined")
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting Evolution address book service...
+Apr 21 14:58:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+Apr 21 14:58:26 ubuntu systemd[1565]: Started Evolution address book service.
+Apr 21 14:58:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating service name='org.freedesktop.FileManager1' requested by ':1.37' (uid=1000 pid=1788 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 21 14:58:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating service name='org.gnome.Shell.Notifications' requested by ':1.37' (uid=1000 pid=1788 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 21 14:58:26 ubuntu systemd[1565]: Started GNOME Shell on X11.
+Apr 21 14:58:26 ubuntu systemd[1565]: Reached target GNOME Shell on X11.
+Apr 21 14:58:26 ubuntu systemd[1565]: Reached target GNOME Session is initialized.
+Apr 21 14:58:26 ubuntu systemd[1565]: Reached target GNOME session X11 services.
+Apr 21 14:58:26 ubuntu systemd[1565]: Reached target GNOME X11 Session.
+Apr 21 14:58:26 ubuntu systemd[1565]: Reached target GNOME Session (session: ubuntu).
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting Signal initialization done to GNOME Session Manager...
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting GNOME Accessibility settings...
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting GNOME Color management...
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting GNOME Date & Time handling...
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting GNOME Maintenance of expirable data...
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting GNOME Keyboard handling...
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting GNOME Media keys handling...
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting GNOME Power management handling...
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting GNOME Printer notifications...
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting GNOME RFKill handling...
+Apr 21 14:58:26 ubuntu systemd[1]: Created slice system-clean\x2dmount\x2dpoint.slice.
+Apr 21 14:58:26 ubuntu systemd[1]: Finished Clean the /media/ree/CDROM mount point.
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting GNOME Freedesktop screensaver handling...
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting GNOME Sharing handling...
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting GNOME Smartcard handling...
+Apr 21 14:58:26 ubuntu systemd[1565]: Starting GNOME Sound sample caching handling...
+Apr 21 14:58:27 ubuntu systemd[1565]: Starting GNOME USB protection handling...
+Apr 21 14:58:27 ubuntu systemd[1565]: Starting GNOME Wacom handling...
+Apr 21 14:58:27 ubuntu systemd[1565]: Starting GNOME WWan management...
+Apr 21 14:58:27 ubuntu systemd[1565]: Starting GNOME XSettings...
+Apr 21 14:58:27 ubuntu systemd[1565]: gnome-session-signal-init.service: Succeeded.
+Apr 21 14:58:27 ubuntu systemd[1565]: Finished Signal initialization done to GNOME Session Manager.
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME Accessibility settings.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME Accessibility settings.
+Apr 21 14:58:27 ubuntu udisksd[885]: Mounted /dev/sr0 at /media/ree/CDROM on behalf of uid 1000
+Apr 21 14:58:27 ubuntu systemd[1]: Finished Clean the /media/ree/CDROM1 mount point.
+Apr 21 14:58:27 ubuntu udisksd[885]: Mounted /dev/sr1 at /media/ree/CDROM1 on behalf of uid 1000
+Apr 21 14:58:27 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.gnome.Shell.Notifications'
+Apr 21 14:58:27 ubuntu gnome-session-binary[1771]: Entering running state
+Apr 21 14:58:27 ubuntu vmtoolsd[1930]: gtk_disable_setlocale() must be called before gtk_init()
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME Freedesktop screensaver handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME Date & Time handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME Sharing handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME Date & Time handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME Freedesktop screensaver handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME Sharing handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME Smartcard handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME Smartcard handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME USB protection handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME USB protection handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME Wacom handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME Wacom handling.
+Apr 21 14:58:27 ubuntu kernel: [   27.198924] rfkill: input handler disabled
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME Keyboard handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME Keyboard handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME Color management.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME Color management.
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME WWan management.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME WWan management.
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME RFKill handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME Power management handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME Media keys handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME Sound sample caching handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME Maintenance of expirable data.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME Maintenance of expirable data.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME Media keys handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME Power management handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME RFKill handling.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME Sound sample caching handling.
+Apr 21 14:58:27 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.73' (uid=1000 pid=1991 comm="/snap/bin/snap-store.ubuntu-software --gapplicatio" label="unconfined")
+Apr 21 14:58:27 ubuntu systemd[1565]: Starting flatpak document portal service...
+Apr 21 14:58:27 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.portal.Documents'
+Apr 21 14:58:27 ubuntu systemd[1565]: Started flatpak document portal service.
+Apr 21 14:58:27 ubuntu systemd[1565]: Started snap.snap-store.ubuntu-software.ddd24527-e962-480c-b986-05a8c74f10f6.scope.
+Apr 21 14:58:27 ubuntu kernel: [   27.416930] kauditd_printk_skb: 33 callbacks suppressed
+Apr 21 14:58:27 ubuntu kernel: [   27.416933] audit: type=1400 audit(1682060307.448:45): apparmor="DENIED" operation="capable" profile="/snap/snapd/18596/usr/lib/snapd/snap-confine" pid=1991 comm="snap-confine" capability=4  capname="fsetid"
+Apr 21 14:58:27 ubuntu systemd[1565]: Started GNOME Printer notifications.
+Apr 21 14:58:27 ubuntu systemd[1565]: Reached target GNOME Printer notifications.
+Apr 21 14:58:27 ubuntu systemd[1080]: tmp-snap.rootfs_E8N6iM.mount: Succeeded.
+Apr 21 14:58:27 ubuntu systemd[1565]: tmp-snap.rootfs_E8N6iM.mount: Succeeded.
+Apr 21 14:58:27 ubuntu systemd[1]: tmp-snap.rootfs_E8N6iM.mount: Succeeded.
+Apr 21 14:58:27 ubuntu NetworkManager[844]: <info>  [1682060307.6183] agent-manager: agent[17442e4978828b25,:1.77/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Apr 21 14:58:27 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.FileManager1'
+Apr 21 14:58:27 ubuntu gsd-media-keys[1927]: Failed to grab accelerator for keybinding settings:rfkill
+Apr 21 14:58:27 ubuntu gsd-media-keys[1927]: Failed to grab accelerator for keybinding settings:playback-random
+Apr 21 14:58:27 ubuntu gsd-media-keys[1927]: Failed to grab accelerator for keybinding settings:hibernate
+Apr 21 14:58:27 ubuntu gsd-media-keys[1927]: Failed to grab accelerator for keybinding settings:playback-repeat
+Apr 21 14:58:28 ubuntu gnome-shell[1788]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Apr 21 14:58:28 ubuntu gsd-color[1904]: failed to get edid: unable to get EDID for output
+Apr 21 14:58:28 ubuntu colord[1521]: failed to get session [pid 1904]: 没有可用的数据
+Apr 21 14:58:28 ubuntu gsd-color[1904]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Apr 21 14:58:28 ubuntu gsd-color[1417]: no xrandr-Virtual1 device found: Failed to find output xrandr-Virtual1
+Apr 21 14:58:28 ubuntu systemd[1565]: Started GNOME XSettings.
+Apr 21 14:58:28 ubuntu systemd[1565]: Reached target GNOME XSettings.
+Apr 21 14:58:28 ubuntu systemd[1565]: Reached target GNOME Session.
+Apr 21 14:58:28 ubuntu systemd[1565]: Reached target GNOME X11 Session (session: ubuntu).
+Apr 21 14:58:28 ubuntu systemd[1565]: Reached target Current graphical user session.
+Apr 21 14:58:28 ubuntu systemd[1565]: Condition check resulted in GNOME Initial Setup being skipped.
+Apr 21 14:58:28 ubuntu systemd[1565]: Condition check resulted in GNOME Welcome Tour being skipped.
+Apr 21 14:58:29 ubuntu gnome-shell[1788]: STACK_OP_ADD: window 0x1a00001 already in stack
+Apr 21 14:58:29 ubuntu gnome-shell[1788]: STACK_OP_ADD: window 0x1a00001 already in stack
+Apr 21 14:58:29 ubuntu gnome-shell[1788]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Apr 21 14:58:29 ubuntu gnome-shell[1788]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Apr 21 14:58:29 ubuntu gnome-shell[1788]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Apr 21 14:58:29 ubuntu gnome-shell[1788]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Apr 21 14:58:29 ubuntu gnome-shell[1788]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Apr 21 14:58:29 ubuntu gnome-shell[1788]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Apr 21 14:58:29 ubuntu gnome-shell[1788]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Apr 21 14:58:29 ubuntu gnome-shell[1788]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Apr 21 14:58:29 ubuntu gnome-shell[1788]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Apr 21 14:58:30 ubuntu gnome-shell[1788]: GNOME Shell started at Fri Apr 21 2023 14:58:26 GMT+0800 (CST)
+Apr 21 14:58:30 ubuntu gnome-shell[1788]: Registering session with GDM
+Apr 21 14:58:30 ubuntu gnome-session[1108]: gnome-session-binary[1108]: WARNING: Lost name on bus: org.gnome.SessionManager
+Apr 21 14:58:30 ubuntu /usr/lib/gdm3/gdm-wayland-session[1304]: Failed to launch bus: Bus exited with code 0
+Apr 21 14:58:30 ubuntu systemd[1]: session-c1.scope: Succeeded.
+Apr 21 14:58:30 ubuntu systemd[1080]: pulseaudio.service: Succeeded.
+Apr 21 14:58:30 ubuntu kernel: [   30.556906] audit: type=1326 audit(1682060310.592:46): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1991 comm="snap-store" exe="/snap/snap-store/638/usr/bin/snap-store" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7fc73ecc373d code=0x50000
+Apr 21 14:58:30 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.79' (uid=1000 pid=1991 comm="/snap/snap-store/638/usr/bin/snap-store --gapplica" label="snap.snap-store.ubuntu-software (enforce)")
+Apr 21 14:58:30 ubuntu systemd[1565]: Starting Portal service...
+Apr 21 14:58:30 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.80' (uid=1000 pid=2195 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+Apr 21 14:58:30 ubuntu systemd[1565]: Starting Portal service (GTK+/GNOME implementation)...
+Apr 21 14:58:30 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+Apr 21 14:58:30 ubuntu systemd[1565]: Started Portal service (GTK+/GNOME implementation).
+Apr 21 14:58:30 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.portal.Desktop'
+Apr 21 14:58:30 ubuntu systemd[1565]: Started Portal service.
+Apr 21 14:58:31 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.95' (uid=1000 pid=1991 comm="/snap/snap-store/638/usr/bin/snap-store --gapplica" label="snap.snap-store.ubuntu-software (enforce)")
+Apr 21 14:58:31 ubuntu systemd[1]: Starting Firmware update daemon...
+Apr 21 14:58:31 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Apr 21 14:58:31 ubuntu systemd[1]: Started Firmware update daemon.
+Apr 21 14:58:31 ubuntu kernel: [   31.637298] audit: type=1107 audit(1682060311.672:47): pid=843 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.4" pid=1991 label="snap.snap-store.ubuntu-software" peer_pid=866 peer_label="unconfined"
+Apr 21 14:58:31 ubuntu kernel: [   31.637298]  exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+Apr 21 14:58:31 ubuntu kernel: [   31.637783] audit: type=1107 audit(1682060311.672:48): pid=843 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.4" pid=1991 label="snap.snap-store.ubuntu-software" peer_pid=866 peer_label="unconfined"
+Apr 21 14:58:31 ubuntu kernel: [   31.637783]  exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+Apr 21 14:58:31 ubuntu snap-store[1991]: enabled plugins: fwupd, os-release, packagekit-refine-repos, packagekit-refresh, appstream, hardcoded-blocklist, hardcoded-popular, modalias, packagekit, rewrite-resource, provenance, snap, systemd-updates, generic-updates, provenance-license, icons
+Apr 21 14:58:31 ubuntu snap-store[1991]: disabled plugins: dpkg, dummy, fedora-langpacks, fedora-pkgdb-collections, repos
+Apr 21 14:58:31 ubuntu kernel: [   31.641353] audit: type=1107 audit(1682060311.676:49): pid=843 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.4" pid=1991 label="snap.snap-store.ubuntu-software" peer_pid=866 peer_label="unconfined"
+Apr 21 14:58:31 ubuntu kernel: [   31.641353]  exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+Apr 21 14:58:31 ubuntu kernel: [   31.641932] audit: type=1107 audit(1682060311.676:50): pid=843 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.4" pid=1991 label="snap.snap-store.ubuntu-software" peer_pid=866 peer_label="unconfined"
+Apr 21 14:58:31 ubuntu kernel: [   31.641932]  exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+Apr 21 14:58:32 ubuntu systemd[1565]: tracker-extract.service: Succeeded.
+Apr 21 14:58:32 ubuntu snap-store[1991]: /etc/PackageKit/Vendor.conf file not found
+Apr 21 14:58:32 ubuntu kernel: [   32.031663] audit: type=1400 audit(1682060312.064:51): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/etc/PackageKit/Vendor.conf" pid=1991 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 21 14:58:32 ubuntu kernel: [   32.532775] audit: type=1400 audit(1682060312.568:52): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/etc/appstream.conf" pid=1991 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 21 14:58:32 ubuntu systemd[1565]: Started Application launched by gsd-media-keys.
+Apr 21 14:58:33 ubuntu PackageKit: refresh-cache transaction /452_bcaeaeda from uid 1000 finished with failed after 520ms
+Apr 21 14:58:33 ubuntu snap-store[1991]: not handling error no-network for action refresh: Cannot refresh cache whilst offline
+Apr 21 14:58:33 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.82' (uid=1000 pid=2246 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Apr 21 14:58:33 ubuntu systemd[1565]: Created slice apps.slice.
+Apr 21 14:58:33 ubuntu systemd[1565]: Created slice apps-org.gnome.Terminal.slice.
+Apr 21 14:58:33 ubuntu systemd[1565]: Starting GNOME Terminal Server...
+Apr 21 14:58:33 ubuntu snap-store[1991]: adding wildcard app */*/*/org.gnome.Builder.desktop/* to plugin cache
+Apr 21 14:58:33 ubuntu snap-store[1991]: adding wildcard app */*/*/org.gnome.Calculator.desktop/* to plugin cache
+Apr 21 14:58:33 ubuntu snap-store[1991]: adding wildcard app */*/*/org.gnome.clocks.desktop/* to plugin cache
+Apr 21 14:58:33 ubuntu snap-store[1991]: adding wildcard app */*/*/org.gnome.Dictionary.desktop/* to plugin cache
+Apr 21 14:58:33 ubuntu snap-store[1991]: adding wildcard app */*/*/org.gnome.Documents.desktop/* to plugin cache
+Apr 21 14:58:33 ubuntu snap-store[1991]: adding wildcard app */*/*/org.gnome.Evince/* to plugin cache
+Apr 21 14:58:33 ubuntu snap-store[1991]: adding wildcard app */*/*/org.gnome.gedit.desktop/* to plugin cache
+Apr 21 14:58:33 ubuntu snap-store[1991]: adding wildcard app */*/*/org.gnome.Maps.desktop/* to plugin cache
+Apr 21 14:58:33 ubuntu snap-store[1991]: adding wildcard app */*/*/org.gnome.Weather/* to plugin cache
+Apr 21 14:58:33 ubuntu snap-store[1991]: Only 0 apps for recent list, hiding
+Apr 21 14:58:33 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.gnome.Terminal'
+Apr 21 14:58:33 ubuntu systemd[1565]: Started GNOME Terminal Server.
+Apr 21 14:58:33 ubuntu systemd[1565]: Started VTE child process 2262 launched by gnome-terminal-server process 2249.
+Apr 21 14:58:33 ubuntu systemd[1565]: gnome-launched-x-terminal-emulator-2244.scope: Succeeded.
+Apr 21 14:58:34 ubuntu pulseaudio[1571]: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Apr 21 14:58:36 ubuntu systemd[1]: systemd-fsckd.service: Succeeded.
+Apr 21 14:58:37 ubuntu systemd[1]: NetworkManager-wait-online.service: Main process exited, code=exited, status=1/FAILURE
+Apr 21 14:58:37 ubuntu systemd[1]: NetworkManager-wait-online.service: Failed with result 'exit-code'.
+Apr 21 14:58:37 ubuntu systemd[1]: Failed to start Network Manager Wait Online.
+Apr 21 14:58:37 ubuntu systemd[1]: Reached target Network is Online.
+Apr 21 14:58:37 ubuntu systemd[1]: Starting Tool to automatically collect and submit kernel crash signatures...
+Apr 21 14:58:37 ubuntu systemd[1]: Condition check resulted in Ubuntu Pro Background Auto Attach being skipped.
+Apr 21 14:58:37 ubuntu systemd[1]: Started crash report submission daemon.
+Apr 21 14:58:37 ubuntu systemd[1]: kerneloops.service: Found left-over process 2276 (kerneloops) in control group while starting unit. Ignoring.
+Apr 21 14:58:37 ubuntu systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Apr 21 14:58:37 ubuntu whoopsie[2275]: [14:58:37] Using lock path: /var/lock/whoopsie/lock
+Apr 21 14:58:37 ubuntu whoopsie[2275]: [14:58:37] offline
+Apr 21 14:58:37 ubuntu systemd[1]: Started Tool to automatically collect and submit kernel crash signatures.
+Apr 21 14:58:37 ubuntu systemd[1]: Reached target Multi-User System.
+Apr 21 14:58:37 ubuntu systemd[1]: Reached target Graphical Interface.
+Apr 21 14:58:37 ubuntu systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Apr 21 14:58:37 ubuntu systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Apr 21 14:58:37 ubuntu systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Apr 21 14:58:37 ubuntu systemd[1]: Startup finished in 3.207s (kernel) + 34.185s (userspace) = 37.392s.
+Apr 21 14:58:40 ubuntu systemd[1]: Stopping User Manager for UID 125...
+Apr 21 14:58:40 ubuntu systemd[1]: systemd-timedated.service: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopped target Main User Target.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopping D-Bus User Message Bus...
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopping Virtual filesystem service - Apple File Conduit monitor...
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopping Virtual filesystem service...
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopping Virtual filesystem service - GNOME Online Accounts monitor...
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopping Virtual filesystem service - digital camera monitor...
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopping Virtual filesystem service - Media Transfer Protocol monitor...
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopping Virtual filesystem service - disk device monitor...
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopping Tracker file system data miner...
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopping Tracker metadata database store and lookup manager...
+Apr 21 14:58:40 ubuntu tracker-miner-f[1090]: Owner of volume monitor org.gtk.vfs.MTPVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+Apr 21 14:58:40 ubuntu tracker-miner-fs[1090]: Received signal:15->'已终止'
+Apr 21 14:58:40 ubuntu tracker-miner-f[1090]: Error while sending AddMatch() message: 连接已关闭
+Apr 21 14:58:40 ubuntu tracker-miner-f[1090]: message repeated 2 times: [ Error while sending AddMatch() message: 连接已关闭]
+Apr 21 14:58:40 ubuntu systemd[1565]: run-user-125-gvfs.mount: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1]: run-user-125-gvfs.mount: Succeeded.
+Apr 21 14:58:40 ubuntu tracker-miner-fs[1090]: OK
+Apr 21 14:58:40 ubuntu tracker-store[1275]: Received signal:15->'已终止'
+Apr 21 14:58:40 ubuntu tracker-store[1275]: OK
+Apr 21 14:58:40 ubuntu systemd[1080]: run-user-125-gvfs.mount: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: dbus.service: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopped D-Bus User Message Bus.
+Apr 21 14:58:40 ubuntu systemd[1080]: gvfs-daemon.service: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopped Virtual filesystem service.
+Apr 21 14:58:40 ubuntu systemd[1080]: gvfs-udisks2-volume-monitor.service: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopped Virtual filesystem service - disk device monitor.
+Apr 21 14:58:40 ubuntu systemd[1080]: gvfs-goa-volume-monitor.service: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopped Virtual filesystem service - GNOME Online Accounts monitor.
+Apr 21 14:58:40 ubuntu systemd[1080]: gvfs-afc-volume-monitor.service: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopped Virtual filesystem service - Apple File Conduit monitor.
+Apr 21 14:58:40 ubuntu systemd[1080]: gvfs-mtp-volume-monitor.service: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopped Virtual filesystem service - Media Transfer Protocol monitor.
+Apr 21 14:58:40 ubuntu systemd[1080]: gvfs-gphoto2-volume-monitor.service: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopped Virtual filesystem service - digital camera monitor.
+Apr 21 14:58:40 ubuntu systemd[1080]: tracker-store.service: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopped Tracker metadata database store and lookup manager.
+Apr 21 14:58:40 ubuntu systemd[1080]: tracker-miner-fs.service: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopped Tracker file system data miner.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopped target Basic System.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopped target Paths.
+Apr 21 14:58:40 ubuntu systemd[1080]: ubuntu-report.path: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopped Pending report trigger for Ubuntu Report.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopped target Sockets.
+Apr 21 14:58:40 ubuntu systemd[1080]: Stopped target Timers.
+Apr 21 14:58:40 ubuntu systemd[1080]: dbus.socket: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Closed D-Bus User Message Bus Socket.
+Apr 21 14:58:40 ubuntu systemd[1080]: dirmngr.socket: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Closed GnuPG network certificate management daemon.
+Apr 21 14:58:40 ubuntu systemd[1080]: gpg-agent-browser.socket: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 21 14:58:40 ubuntu systemd[1080]: gpg-agent-extra.socket: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 21 14:58:40 ubuntu systemd[1080]: gpg-agent-ssh.socket: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Apr 21 14:58:40 ubuntu systemd[1080]: gpg-agent.socket: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Closed GnuPG cryptographic agent and passphrase cache.
+Apr 21 14:58:40 ubuntu systemd[1080]: pk-debconf-helper.socket: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Closed debconf communication socket.
+Apr 21 14:58:40 ubuntu systemd[1080]: pulseaudio.socket: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Closed Sound System.
+Apr 21 14:58:40 ubuntu systemd[1080]: snapd.session-agent.socket: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Closed REST API socket for snapd user session agent.
+Apr 21 14:58:40 ubuntu systemd[1080]: Reached target Shutdown.
+Apr 21 14:58:40 ubuntu systemd[1080]: systemd-exit.service: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1080]: Finished Exit the Session.
+Apr 21 14:58:40 ubuntu systemd[1080]: Reached target Exit the Session.
+Apr 21 14:58:40 ubuntu systemd[1]: user@125.service: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1]: Stopped User Manager for UID 125.
+Apr 21 14:58:40 ubuntu systemd[1]: Stopping User Runtime Directory /run/user/125...
+Apr 21 14:58:40 ubuntu systemd[1565]: run-user-125.mount: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1]: run-user-125.mount: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1]: user-runtime-dir@125.service: Succeeded.
+Apr 21 14:58:40 ubuntu systemd[1]: Stopped User Runtime Directory /run/user/125.
+Apr 21 14:58:40 ubuntu systemd[1]: Removed slice User Slice of UID 125.
+Apr 21 14:58:43 ubuntu snapd[881]: stateengine.go:149: state ensure error: persistent network error: Get https://api.snapcraft.io/api/v1/snaps/sections: dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+Apr 21 14:58:43 ubuntu systemd[1]: fprintd.service: Succeeded.
+Apr 21 14:58:43 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.39' (uid=0 pid=881 comm="/usr/lib/snapd/snapd " label="unconfined")
+Apr 21 14:58:43 ubuntu systemd[1]: Starting Time & Date Service...
+Apr 21 14:58:43 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Apr 21 14:58:43 ubuntu systemd[1]: Started Time & Date Service.
+Apr 21 14:58:55 ubuntu NetworkManager[844]: <warn>  [1682060335.0517] dhcp4 (ens33): request timed out
+Apr 21 14:58:55 ubuntu NetworkManager[844]: <info>  [1682060335.0519] dhcp4 (ens33): state changed unknown -> timeout
+Apr 21 14:58:55 ubuntu NetworkManager[844]: <info>  [1682060335.0520] device (ens33): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 21 14:58:55 ubuntu NetworkManager[844]: <info>  [1682060335.0529] manager: NetworkManager state is now DISCONNECTED
+Apr 21 14:58:55 ubuntu NetworkManager[844]: <warn>  [1682060335.0608] device (ens33): Activation: failed for connection '有线连接 1'
+Apr 21 14:58:55 ubuntu NetworkManager[844]: <info>  [1682060335.0609] device (ens33): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 21 14:58:55 ubuntu avahi-daemon[838]: Withdrawing address record for fe80::2d9b:47a:efdd:f122 on ens33.
+Apr 21 14:58:55 ubuntu avahi-daemon[838]: Leaving mDNS multicast group on interface ens33.IPv6 with address fe80::2d9b:47a:efdd:f122.
+Apr 21 14:58:55 ubuntu avahi-daemon[838]: Interface ens33.IPv6 no longer relevant for mDNS.
+Apr 21 14:58:55 ubuntu NetworkManager[844]: <info>  [1682060335.0893] dhcp4 (ens33): canceled DHCP transaction
+Apr 21 14:58:55 ubuntu NetworkManager[844]: <info>  [1682060335.0894] dhcp4 (ens33): state changed timeout -> done
+Apr 21 14:58:55 ubuntu NetworkManager[844]: <info>  [1682060335.0961] policy: auto-activating connection '有线连接 1' (e5ceb4d5-b79a-3432-a0a6-a20910373427)
+Apr 21 14:58:55 ubuntu NetworkManager[844]: <info>  [1682060335.0972] device (ens33): Activation: starting connection '有线连接 1' (e5ceb4d5-b79a-3432-a0a6-a20910373427)
+Apr 21 14:58:55 ubuntu NetworkManager[844]: <info>  [1682060335.1034] device (ens33): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Apr 21 14:58:55 ubuntu NetworkManager[844]: <info>  [1682060335.1038] manager: NetworkManager state is now CONNECTING
+Apr 21 14:58:55 ubuntu NetworkManager[844]: <info>  [1682060335.1040] device (ens33): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Apr 21 14:58:55 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=844 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 21 14:58:55 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 21 14:58:55 ubuntu NetworkManager[844]: <info>  [1682060335.1182] device (ens33): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Apr 21 14:58:55 ubuntu NetworkManager[844]: <info>  [1682060335.1184] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+Apr 21 14:58:55 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 21 14:58:55 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 21 14:58:55 ubuntu avahi-daemon[838]: Joining mDNS multicast group on interface ens33.IPv6 with address fe80::2d9b:47a:efdd:f122.
+Apr 21 14:58:55 ubuntu avahi-daemon[838]: New relevant interface ens33.IPv6 for mDNS.
+Apr 21 14:58:55 ubuntu avahi-daemon[838]: Registering new address record for fe80::2d9b:47a:efdd:f122 on ens33.*.
+Apr 21 14:58:56 ubuntu tracker-store[1656]: OK
+Apr 21 14:58:57 ubuntu systemd[1565]: tracker-store.service: Succeeded.
+Apr 21 14:58:57 ubuntu systemd[1]: systemd-hostnamed.service: Succeeded.
+Apr 21 14:58:57 ubuntu systemd[1]: systemd-localed.service: Succeeded.
+Apr 21 14:59:00 ubuntu systemd[1565]: Started Application launched by gnome-shell.
+Apr 21 14:59:00 ubuntu jetbrains-pycharm.desktop[2340]: CompileCommand: exclude com/intellij/openapi/vfs/impl/FilePartNodeRoot.trieDescend bool exclude = true
+Apr 21 14:59:05 ubuntu snap-store[1991]: not handling error failed for action get-popular: persistent network error: Get https://api.snapcraft.io/v2/snaps/find?architecture=amd64&category=featured&confinement=strict%2Cclassic&fields=base%2Cconfinement%2Clinks%2Ccontact%2Cdescription%2Cdownload%2Clicense%2Cprices%2Cprivate%2Cpublisher%2Crevision%2Csummary%2Ctitle%2Ctype%2Cversion%2Cwebsite%2Cstore-url%2Cmedia%2Ccommon-ids%2Cchannel: dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+Apr 21 14:59:05 ubuntu snap-store[1991]: not GsPlugin error snapd-error-quark:10: status-code=500 kind=(null) message=persistent network error: Get https://api.snapcraft.io/api/v1/snaps/sections: dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+Apr 21 14:59:05 ubuntu snap-store[1991]: failed to get categories: no categories to show
+Apr 21 14:59:05 ubuntu snap-store[1991]: not handling error failed for action get-featured: persistent network error: Get https://api.snapcraft.io/v2/snaps/find?architecture=amd64&category=featured&confinement=strict%2Cclassic&fields=base%2Cconfinement%2Clinks%2Ccontact%2Cdescription%2Cdownload%2Clicense%2Cprices%2Cprivate%2Cpublisher%2Crevision%2Csummary%2Ctitle%2Ctype%2Cversion%2Cwebsite%2Cstore-url%2Cmedia%2Ccommon-ids%2Cchannel: dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+Apr 21 14:59:06 ubuntu PackageKit: resolve transaction /453_ebdbddab from uid 1000 finished with success after 800ms
+Apr 21 14:59:06 ubuntu snap-store[1991]: Only 9 apps for popular list, hiding
+Apr 21 14:59:06 ubuntu PackageKit: resolve transaction /454_dbecaeac from uid 1000 finished with success after 546ms
+Apr 21 14:59:07 ubuntu systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Apr 21 14:59:07 ubuntu PackageKit: resolve transaction /455_bcbcbabc from uid 1000 finished with success after 528ms
+Apr 21 14:59:09 ubuntu PackageKit: search-file transaction /456_ebdeedde from uid 1000 finished with success after 1200ms
+Apr 21 14:59:09 ubuntu PackageKit: search-file transaction /457_aecabecb from uid 1000 finished with success after 632ms
+Apr 21 14:59:10 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:10,102 [   8162]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=~/applications/pycharm-2022.3.3/lib, version=223.8836.43, package=com.intellij.structuralsearch, isBundled=true)
+Apr 21 14:59:10 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:10,134 [   8194]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=~/applications/pycharm-2022.3.3/lib, version=223.8836.43, package=com.intellij.structuralsearch, isBundled=true)
+Apr 21 14:59:10 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:10,139 [   8199]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "NetBeans 6.5" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=~/applications/pycharm-2022.3.3/lib, version=223.8836.43, package=com.intellij.structuralsearch, isBundled=true)
+Apr 21 14:59:10 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:10,140 [   8200]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=IDEA CORE, id=com.intellij, descriptorPath=plugin.xml, path=~/applications/pycharm-2022.3.3/lib, version=223.8836.43, package=com.intellij.structuralsearch, isBundled=true)
+Apr 21 14:59:10 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:10,224 [   8284]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=HTML Tools, id=HtmlTools, descriptorPath=plugin.xml, path=~/applications/pycharm-2022.3.3/plugins/html-tools, version=223.8836.43, package=null, isBundled=true)
+Apr 21 14:59:10 ubuntu PackageKit: get-details transaction /458_ddcaeddc from uid 1000 finished with success after 493ms
+Apr 21 14:59:10 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:10,365 [   8425]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=GitHub, id=org.jetbrains.plugins.github, descriptorPath=plugin.xml, path=~/applications/pycharm-2022.3.3/plugins/vcs-github, version=223.8836.43, package=org.jetbrains.plugins.github, isBundled=true)
+Apr 21 14:59:10 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:10,382 [   8442]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=JavaScript and TypeScript, id=JavaScript, descriptorPath=plugin.xml, path=~/applications/pycharm-2022.3.3/plugins/javascript-impl, version=223.8836.43, package=null, isBundled=true)
+Apr 21 14:59:10 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:10,389 [   8449]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=JavaScript and TypeScript, id=JavaScript, descriptorPath=plugin.xml, path=~/applications/pycharm-2022.3.3/plugins/javascript-impl, version=223.8836.43, package=null, isBundled=true)
+Apr 21 14:59:10 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:10,392 [   8452]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=Space, id=com.jetbrains.space, moduleName=intellij.space.vcs, descriptorPath=intellij.space.vcs.xml, path=~/applications/pycharm-2022.3.3/plugins/space, version=223.8836.43, package=com.intellij.space.vcs, isBundled=true)
+Apr 21 14:59:10 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:10,411 [   8471]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=Python, id=Pythonid, descriptorPath=plugin.xml, path=~/applications/pycharm-2022.3.3/plugins/python, version=223.8836.43, package=null, isBundled=true)
+Apr 21 14:59:10 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:10,412 [   8472]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "NetBeans 6.5" not found PluginDescriptor(name=Python, id=Pythonid, descriptorPath=plugin.xml, path=~/applications/pycharm-2022.3.3/plugins/python, version=223.8836.43, package=null, isBundled=true)
+Apr 21 14:59:10 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:10,420 [   8480]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "Visual Studio" not found PluginDescriptor(name=Python, id=Pythonid, descriptorPath=plugin.xml, path=~/applications/pycharm-2022.3.3/plugins/python, version=223.8836.43, package=null, isBundled=true)
+Apr 21 14:59:10 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:10,421 [   8481]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "Eclipse" not found PluginDescriptor(name=Python, id=Pythonid, descriptorPath=plugin.xml, path=~/applications/pycharm-2022.3.3/plugins/python, version=223.8836.43, package=null, isBundled=true)
+Apr 21 14:59:13 ubuntu geoclue[1398]: Service not used for 60 seconds. Shutting down..
+Apr 21 14:59:13 ubuntu systemd[1]: geoclue.service: Succeeded.
+Apr 21 14:59:13 ubuntu systemd[1]: systemd-timedated.service: Succeeded.
+Apr 21 14:59:15 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:15,151 [  13211]   WARN - #c.i.e.RunManager - Must be not called before project components initialized
+Apr 21 14:59:17 ubuntu jetbrains-pycharm.desktop[2340]: Info  | RdCoroutineScope          | 16:DefaultDispatcher-worker-5 | RdCoroutineHost overridden
+Apr 21 14:59:17 ubuntu gnome-shell[1788]: ../clutter/clutter/clutter-actor.c:10558: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+Apr 21 14:59:20 ubuntu systemd[1565]: Started Application launched by gnome-shell.
+Apr 21 14:59:23 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:23,832 [  21892]   WARN - #c.i.o.a.i.ActionUpdater - 407 ms to grab EDT for CWMTelephonyGroup#update@NavBarToolbar (com.jetbrains.rd.platform.codeWithMe.telephony.CWMTelephonyGroup)
+Apr 21 14:59:23 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:23,832 [  21892]   WARN - #c.i.o.a.i.ActionUpdater - 420 ms to grab EDT for ToolWindowHeader$2#update@ToolwindowTitle (com.intellij.toolWindow.ToolWindowHeader$2)
+Apr 21 14:59:24 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:24,271 [  22331]   WARN - #c.i.o.a.i.ActionUpdater - 374 ms to grab EDT for ToolWindowHeader$2#update@ToolwindowTitle (com.intellij.toolWindow.ToolWindowHeader$2)
+Apr 21 14:59:24 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:24,274 [  22334]   WARN - #c.i.o.a.i.ActionUpdater - 366 ms to grab EDT for CWMTelephonyGroup#update@NavBarToolbar (com.jetbrains.rd.platform.codeWithMe.telephony.CWMTelephonyGroup)
+Apr 21 14:59:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.37' (uid=1000 pid=1788 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 21 14:59:26 ubuntu systemd[1565]: Starting Virtual filesystem metadata service...
+Apr 21 14:59:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.gtk.vfs.Metadata'
+Apr 21 14:59:26 ubuntu systemd[1565]: Started Virtual filesystem metadata service.
+Apr 21 14:59:30 ubuntu systemd[1565]: gnome-launched-gnome-control-center.desktop-2677.scope: Succeeded.
+Apr 21 14:59:33 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:33,984 [  32044]   WARN - #c.i.u.x.Binding - no accessors for com.intellij.openapi.projectRoots.Sdk
+Apr 21 14:59:36 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 14:59:36,715 [  34775]   WARN - #c.i.u.x.Binding - no accessors for com.intellij.ide.util.TipsUsageManager$State
+Apr 21 14:59:39 ubuntu snap-store[1991]: Failed to find refreshable snaps: status-code=500 kind=(null) message=cannot list updates: persistent network error: Post https://api.snapcraft.io/v2/snaps/refresh: dial tcp: lookup api.snapcraft.io: Temporary failure in name resolution
+Apr 21 14:59:40 ubuntu NetworkManager[844]: <warn>  [1682060380.0506] dhcp4 (ens33): request timed out
+Apr 21 14:59:40 ubuntu NetworkManager[844]: <info>  [1682060380.0508] dhcp4 (ens33): state changed unknown -> timeout
+Apr 21 14:59:40 ubuntu NetworkManager[844]: <info>  [1682060380.0509] device (ens33): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 21 14:59:40 ubuntu NetworkManager[844]: <info>  [1682060380.0527] manager: NetworkManager state is now DISCONNECTED
+Apr 21 14:59:40 ubuntu NetworkManager[844]: <warn>  [1682060380.0562] device (ens33): Activation: failed for connection '有线连接 1'
+Apr 21 14:59:40 ubuntu NetworkManager[844]: <info>  [1682060380.0570] device (ens33): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 21 14:59:40 ubuntu avahi-daemon[838]: Withdrawing address record for fe80::2d9b:47a:efdd:f122 on ens33.
+Apr 21 14:59:40 ubuntu avahi-daemon[838]: Leaving mDNS multicast group on interface ens33.IPv6 with address fe80::2d9b:47a:efdd:f122.
+Apr 21 14:59:40 ubuntu avahi-daemon[838]: Interface ens33.IPv6 no longer relevant for mDNS.
+Apr 21 14:59:40 ubuntu NetworkManager[844]: <info>  [1682060380.0854] dhcp4 (ens33): canceled DHCP transaction
+Apr 21 14:59:40 ubuntu NetworkManager[844]: <info>  [1682060380.0855] dhcp4 (ens33): state changed timeout -> done
+Apr 21 14:59:40 ubuntu NetworkManager[844]: <info>  [1682060380.0918] policy: auto-activating connection '有线连接 1' (e5ceb4d5-b79a-3432-a0a6-a20910373427)
+Apr 21 14:59:40 ubuntu NetworkManager[844]: <info>  [1682060380.0928] device (ens33): Activation: starting connection '有线连接 1' (e5ceb4d5-b79a-3432-a0a6-a20910373427)
+Apr 21 14:59:40 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=844 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 21 14:59:40 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 21 14:59:40 ubuntu NetworkManager[844]: <info>  [1682060380.0985] device (ens33): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Apr 21 14:59:40 ubuntu NetworkManager[844]: <info>  [1682060380.0988] manager: NetworkManager state is now CONNECTING
+Apr 21 14:59:40 ubuntu NetworkManager[844]: <info>  [1682060380.0989] device (ens33): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Apr 21 14:59:40 ubuntu NetworkManager[844]: <info>  [1682060380.1003] device (ens33): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Apr 21 14:59:40 ubuntu NetworkManager[844]: <info>  [1682060380.1004] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+Apr 21 14:59:40 ubuntu avahi-daemon[838]: Joining mDNS multicast group on interface ens33.IPv6 with address fe80::2d9b:47a:efdd:f122.
+Apr 21 14:59:40 ubuntu avahi-daemon[838]: New relevant interface ens33.IPv6 for mDNS.
+Apr 21 14:59:40 ubuntu avahi-daemon[838]: Registering new address record for fe80::2d9b:47a:efdd:f122 on ens33.*.
+Apr 21 14:59:40 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 21 14:59:40 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 21 14:59:52 ubuntu systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Apr 21 14:59:55 ubuntu kernel: [  115.211693] e1000: ens33 NIC Link is Down
+Apr 21 14:59:55 ubuntu kernel: [  115.211967] e1000 0000:02:01.0 ens33: Reset adapter
+Apr 21 15:00:01 ubuntu NetworkManager[844]: <info>  [1682060401.2543] device (ens33): state change: ip-config -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Apr 21 15:00:01 ubuntu NetworkManager[844]: <info>  [1682060401.2698] dhcp4 (ens33): canceled DHCP transaction
+Apr 21 15:00:01 ubuntu NetworkManager[844]: <info>  [1682060401.2699] dhcp4 (ens33): state changed unknown -> done
+Apr 21 15:00:01 ubuntu avahi-daemon[838]: Withdrawing address record for fe80::2d9b:47a:efdd:f122 on ens33.
+Apr 21 15:00:01 ubuntu avahi-daemon[838]: Leaving mDNS multicast group on interface ens33.IPv6 with address fe80::2d9b:47a:efdd:f122.
+Apr 21 15:00:01 ubuntu avahi-daemon[838]: Interface ens33.IPv6 no longer relevant for mDNS.
+Apr 21 15:00:01 ubuntu NetworkManager[844]: <info>  [1682060401.2769] manager: NetworkManager state is now DISCONNECTED
+Apr 21 15:00:01 ubuntu NetworkManager[844]: <info>  [1682060401.2773] manager: startup complete
+Apr 21 15:00:03 ubuntu kernel: [  123.381083] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Apr 21 15:00:03 ubuntu NetworkManager[844]: <info>  [1682060403.4199] device (ens33): carrier: link connected
+Apr 21 15:00:03 ubuntu NetworkManager[844]: <info>  [1682060403.4203] device (ens33): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Apr 21 15:00:03 ubuntu NetworkManager[844]: <info>  [1682060403.4266] policy: auto-activating connection '有线连接 1' (e5ceb4d5-b79a-3432-a0a6-a20910373427)
+Apr 21 15:00:03 ubuntu NetworkManager[844]: <info>  [1682060403.4274] device (ens33): Activation: starting connection '有线连接 1' (e5ceb4d5-b79a-3432-a0a6-a20910373427)
+Apr 21 15:00:03 ubuntu NetworkManager[844]: <info>  [1682060403.4275] device (ens33): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Apr 21 15:00:03 ubuntu NetworkManager[844]: <info>  [1682060403.4280] manager: NetworkManager state is now CONNECTING
+Apr 21 15:00:03 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=844 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 21 15:00:03 ubuntu NetworkManager[844]: <info>  [1682060403.4282] device (ens33): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Apr 21 15:00:03 ubuntu NetworkManager[844]: <info>  [1682060403.4336] device (ens33): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Apr 21 15:00:03 ubuntu NetworkManager[844]: <info>  [1682060403.4340] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+Apr 21 15:00:03 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 21 15:00:03 ubuntu avahi-daemon[838]: Joining mDNS multicast group on interface ens33.IPv6 with address fe80::2d9b:47a:efdd:f122.
+Apr 21 15:00:03 ubuntu avahi-daemon[838]: New relevant interface ens33.IPv6 for mDNS.
+Apr 21 15:00:03 ubuntu avahi-daemon[838]: Registering new address record for fe80::2d9b:47a:efdd:f122 on ens33.*.
+Apr 21 15:00:03 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 21 15:00:03 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 21 15:00:03 ubuntu NetworkManager[844]: <info>  [1682060403.4486] dhcp4 (ens33): state changed unknown -> expire
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4954] dhcp4 (ens33): option dhcp_lease_time      => '1800'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4954] dhcp4 (ens33): option domain_name          => 'localdomain'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4955] dhcp4 (ens33): option domain_name_servers  => '192.168.177.2'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4955] dhcp4 (ens33): option expiry               => '1682062203'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4955] dhcp4 (ens33): option ip_address           => '192.168.177.130'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4955] dhcp4 (ens33): option next_server          => '192.168.177.254'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4955] dhcp4 (ens33): option requested_broadcast_address => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4955] dhcp4 (ens33): option requested_domain_name => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4955] dhcp4 (ens33): option requested_domain_name_servers => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4955] dhcp4 (ens33): option requested_domain_search => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4955] dhcp4 (ens33): option requested_host_name  => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4955] dhcp4 (ens33): option requested_interface_mtu => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4955] dhcp4 (ens33): option requested_ms_classless_static_routes => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4955] dhcp4 (ens33): option requested_nis_domain => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4955] dhcp4 (ens33): option requested_nis_servers => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4955] dhcp4 (ens33): option requested_ntp_servers => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4955] dhcp4 (ens33): option requested_rfc3442_classless_static_routes => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4956] dhcp4 (ens33): option requested_root_path  => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4956] dhcp4 (ens33): option requested_routers    => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4956] dhcp4 (ens33): option requested_static_routes => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4956] dhcp4 (ens33): option requested_subnet_mask => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4956] dhcp4 (ens33): option requested_time_offset => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4956] dhcp4 (ens33): option requested_wpad       => '1'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4956] dhcp4 (ens33): option routers              => '192.168.177.2'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4956] dhcp4 (ens33): option subnet_mask          => '255.255.255.0'
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4956] dhcp4 (ens33): state changed expire -> bound
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.4967] device (ens33): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Apr 21 15:00:04 ubuntu avahi-daemon[838]: Joining mDNS multicast group on interface ens33.IPv4 with address 192.168.177.130.
+Apr 21 15:00:04 ubuntu avahi-daemon[838]: New relevant interface ens33.IPv4 for mDNS.
+Apr 21 15:00:04 ubuntu avahi-daemon[838]: Registering new address record for 192.168.177.130 on ens33.IPv4.
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.5042] device (ens33): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.5043] device (ens33): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.5046] manager: NetworkManager state is now CONNECTED_LOCAL
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.5052] manager: NetworkManager state is now CONNECTED_SITE
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.5052] policy: set '有线连接 1' (ens33) as default for IPv4 routing and DNS
+Apr 21 15:00:04 ubuntu NetworkManager[844]: <info>  [1682060404.5055] device (ens33): Activation: successful, device activated.
+Apr 21 15:00:05 ubuntu NetworkManager[844]: <info>  [1682060405.2549] manager: NetworkManager state is now CONNECTED_GLOBAL
+Apr 21 15:00:05 ubuntu whoopsie[2275]: [15:00:05] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/4
+Apr 21 15:00:05 ubuntu whoopsie[2275]: [15:00:05] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/4
+Apr 21 15:00:05 ubuntu whoopsie[2275]: [15:00:05] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/4
+Apr 21 15:00:05 ubuntu whoopsie[2275]: [15:00:05] online
+Apr 21 15:00:06 ubuntu systemd-timesyncd[781]: Initial synchronization to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Apr 21 15:00:06 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 15:00:06,124 [  64184]   WARN - #c.i.i.IdeEventQueue - System clock's jumped back by ~1 sec
+Apr 21 15:00:12 ubuntu systemd-resolved[780]: Using degraded feature set (UDP) for DNS server 192.168.177.2.
+Apr 21 15:00:13 ubuntu systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Apr 21 15:00:45 ubuntu systemd[1]: Starting Update APT News...
+Apr 21 15:00:45 ubuntu systemd[1]: Starting Update the local ESM caches...
+Apr 21 15:00:47 ubuntu systemd[1]: apt-news.service: Succeeded.
+Apr 21 15:00:47 ubuntu systemd[1]: Finished Update APT News.
+Apr 21 15:00:48 ubuntu systemd[1]: esm-cache.service: Succeeded.
+Apr 21 15:00:48 ubuntu systemd[1]: Finished Update the local ESM caches.
+Apr 21 15:00:50 ubuntu systemd[1565]: Started Application launched by gnome-shell.
+Apr 21 15:00:51 ubuntu gnome-shell[3397]: [GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+Apr 21 15:00:51 ubuntu gnome-shell[3397]: ATTENTION: default value of option mesa_glthread overridden by environment.
+Apr 21 15:00:52 ubuntu rtkit-daemon[1117]: Supervising 3 threads of 1 processes of 1 users.
+Apr 21 15:00:52 ubuntu rtkit-daemon[1117]: message repeated 5 times: [ Supervising 3 threads of 1 processes of 1 users.]
+Apr 21 15:00:52 ubuntu rtkit-daemon[1117]: Successfully made thread 3508 of process 3397 owned by '1000' RT at priority 10.
+Apr 21 15:00:52 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:00:53 ubuntu rtkit-daemon[1117]: message repeated 2 times: [ Supervising 4 threads of 2 processes of 1 users.]
+Apr 21 15:00:54 ubuntu gnome-shell[3397]: [ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+Apr 21 15:00:54 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:00:56 ubuntu rtkit-daemon[1117]: message repeated 7 times: [ Supervising 4 threads of 2 processes of 1 users.]
+Apr 21 15:01:17 ubuntu gnome-shell[3397]: [ERROR viaduct::backend::ffi] Missing HTTP status
+Apr 21 15:01:17 ubuntu gnome-shell[3397]: [ERROR viaduct::backend::ffi] Missing HTTP status
+Apr 21 15:01:19 ubuntu systemd[1565]: gnome-launched-firefox.desktop-3397.scope: Succeeded.
+Apr 21 15:01:50 ubuntu PackageKit: refresh-cache transaction /459_aacbddab from uid 1000 finished with success after 65315ms
+Apr 21 15:01:53 ubuntu kernel: [  235.199651] audit: type=1400 audit(1682060513.318:53): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/gdm/greeter/applications/gnome-initial-setup.desktop" pid=1991 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 21 15:01:53 ubuntu kernel: [  235.246485] audit: type=1400 audit(1682060513.366:54): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/gdm/greeter/applications/gnome-initial-setup.desktop" pid=1991 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 21 15:01:53 ubuntu kernel: [  235.643844] audit: type=1326 audit(1682060513.762:55): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1991 comm="pool-org.gnome." exe="/snap/snap-store/638/usr/bin/snap-store" sig=0 arch=c000003e syscall=93 compat=0 ip=0x7fc73ecba39b code=0x50000
+Apr 21 15:02:18 ubuntu systemd[1]: Starting Update APT News...
+Apr 21 15:02:18 ubuntu systemd[1]: Starting Update the local ESM caches...
+Apr 21 15:02:19 ubuntu systemd[1]: apt-news.service: Succeeded.
+Apr 21 15:02:19 ubuntu systemd[1]: Finished Update APT News.
+Apr 21 15:02:20 ubuntu PackageKit: refresh-cache transaction /460_dbbdebca from uid 1000 finished with success after 6044ms
+Apr 21 15:02:21 ubuntu systemd[1]: esm-cache.service: Succeeded.
+Apr 21 15:02:21 ubuntu systemd[1]: Finished Update the local ESM caches.
+Apr 21 15:02:41 ubuntu snap-store[1991]: not handling error download-failed for action download: failed to download https://odrs.gnome.org/1.0/reviews/api/ratings: Connection terminated unexpectedly
+Apr 21 15:02:44 ubuntu snapd[881]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core", "core18", "core20", "gnome-3-34-1804", "gnome-3-38-2004", "gtk-common-themes", "snap-store"
+Apr 21 15:02:45 ubuntu PackageKit: get-updates transaction /461_cdcbeacd from uid 1000 finished with success after 1459ms
+Apr 21 15:02:51 ubuntu snap-store[1991]: not handling error download-failed for action download: failed to download https://odrs.gnome.org/1.0/reviews/api/ratings: Connection terminated unexpectedly
+Apr 21 15:02:53 ubuntu snapd[881]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core", "core18", "core20", "gnome-3-34-1804", "gnome-3-38-2004", "gtk-common-themes", "snap-store"
+Apr 21 15:02:54 ubuntu PackageKit: get-updates transaction /462_dedaaede from uid 1000 finished with success after 501ms
+Apr 21 15:03:04 ubuntu anacron[832]: Job `cron.daily' started
+Apr 21 15:03:04 ubuntu anacron[4440]: Updated timestamp for job `cron.daily' to 2023-04-21
+Apr 21 15:03:05 ubuntu cracklib: no dictionary update necessary.
+Apr 21 15:03:05 ubuntu anacron[832]: Job `cron.daily' terminated
+Apr 21 15:03:41 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.39' (uid=0 pid=881 comm="/usr/lib/snapd/snapd " label="unconfined")
+Apr 21 15:03:41 ubuntu systemd[1]: Starting Time & Date Service...
+Apr 21 15:03:42 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Apr 21 15:03:42 ubuntu systemd[1]: Started Time & Date Service.
+Apr 21 15:03:44 ubuntu snapd[881]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core", "core18", "core20", "gnome-3-34-1804", "gnome-3-38-2004", "gtk-common-themes", "snap-store", "snapd"
+Apr 21 15:03:44 ubuntu snapd[881]: autorefresh.go:551: auto-refresh: all snaps are up-to-date
+Apr 21 15:04:12 ubuntu systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+Apr 21 15:04:12 ubuntu systemd[1]: systemd-timedated.service: Succeeded.
+Apr 21 15:04:12 ubuntu systemd[1]: ua-timer.service: Succeeded.
+Apr 21 15:04:12 ubuntu systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Apr 21 15:04:34 ubuntu systemd[1]: Starting Update APT News...
+Apr 21 15:04:34 ubuntu systemd[1]: Starting Update the local ESM caches...
+Apr 21 15:04:35 ubuntu systemd[1]: apt-news.service: Succeeded.
+Apr 21 15:04:35 ubuntu systemd[1]: Finished Update APT News.
+Apr 21 15:04:36 ubuntu PackageKit: refresh-cache transaction /463_ecadcbdb from uid 1000 finished with success after 2950ms
+Apr 21 15:04:37 ubuntu systemd[1]: esm-cache.service: Succeeded.
+Apr 21 15:04:37 ubuntu systemd[1]: Finished Update the local ESM caches.
+Apr 21 15:04:50 ubuntu snap-store[1991]: not handling error download-failed for action download: failed to download https://odrs.gnome.org/1.0/reviews/api/ratings: Connection terminated unexpectedly
+Apr 21 15:04:51 ubuntu snapd[881]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core", "core18", "core20", "gnome-3-34-1804", "gnome-3-38-2004", "gtk-common-themes", "snap-store"
+Apr 21 15:04:56 ubuntu PackageKit: get-updates transaction /464_aeeeedbb from uid 1000 finished with success after 4605ms
+Apr 21 15:05:01 ubuntu systemd[1565]: Started Application launched by gnome-shell.
+Apr 21 15:05:02 ubuntu jetbrains-pycharm.desktop[2340]: 2023-04-21 15:05:02,012 [ 360072]   WARN - #c.i.u.x.Binding - no accessors for org.jetbrains.idea.perforce.perforce.ConnectionId
+Apr 21 15:05:02 ubuntu gnome-shell[5002]: [GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+Apr 21 15:05:02 ubuntu gnome-shell[5002]: ATTENTION: default value of option mesa_glthread overridden by environment.
+Apr 21 15:05:02 ubuntu rtkit-daemon[1117]: Supervising 3 threads of 1 processes of 1 users.
+Apr 21 15:05:02 ubuntu rtkit-daemon[1117]: message repeated 5 times: [ Supervising 3 threads of 1 processes of 1 users.]
+Apr 21 15:05:02 ubuntu rtkit-daemon[1117]: Successfully made thread 5087 of process 5002 owned by '1000' RT at priority 10.
+Apr 21 15:05:02 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:05:03 ubuntu rtkit-daemon[1117]: message repeated 2 times: [ Supervising 4 threads of 2 processes of 1 users.]
+Apr 21 15:05:04 ubuntu gnome-shell[5002]: [ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+Apr 21 15:05:04 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:05:10 ubuntu rtkit-daemon[1117]: message repeated 7 times: [ Supervising 4 threads of 2 processes of 1 users.]
+Apr 21 15:05:11 ubuntu systemd[1]: Starting Update APT News...
+Apr 21 15:05:11 ubuntu systemd[1]: Starting Update the local ESM caches...
+Apr 21 15:05:12 ubuntu systemd[1]: apt-news.service: Succeeded.
+Apr 21 15:05:12 ubuntu systemd[1]: Finished Update APT News.
+Apr 21 15:05:13 ubuntu systemd[1]: esm-cache.service: Succeeded.
+Apr 21 15:05:13 ubuntu systemd[1]: Finished Update the local ESM caches.
+Apr 21 15:05:14 ubuntu PackageKit: refresh-cache transaction /465_cccadcbb from uid 1000 finished with success after 3234ms
+Apr 21 15:05:26 ubuntu snap-store[1991]: not handling error download-failed for action download: failed to download https://odrs.gnome.org/1.0/reviews/api/ratings: Connection terminated unexpectedly
+Apr 21 15:05:27 ubuntu snapd[881]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core", "core18", "core20", "gnome-3-34-1804", "gnome-3-38-2004", "gtk-common-themes", "snap-store"
+Apr 21 15:05:30 ubuntu PackageKit: get-updates transaction /466_dbeabded from uid 1000 finished with success after 2226ms
+Apr 21 15:06:16 ubuntu systemd[1]: Starting Update APT News...
+Apr 21 15:06:16 ubuntu systemd[1]: Starting Update the local ESM caches...
+Apr 21 15:06:16 ubuntu systemd[1]: apt-news.service: Succeeded.
+Apr 21 15:06:16 ubuntu systemd[1]: Finished Update APT News.
+Apr 21 15:06:18 ubuntu PackageKit: refresh-cache transaction /467_cdcdeddb from uid 1000 finished with success after 3578ms
+Apr 21 15:06:18 ubuntu systemd[1]: esm-cache.service: Succeeded.
+Apr 21 15:06:18 ubuntu systemd[1]: Finished Update the local ESM caches.
+Apr 21 15:07:16 ubuntu systemd[1]: Created slice User Slice of UID 0.
+Apr 21 15:07:16 ubuntu systemd[1]: Starting User Runtime Directory /run/user/0...
+Apr 21 15:07:16 ubuntu systemd[1]: Finished User Runtime Directory /run/user/0.
+Apr 21 15:07:16 ubuntu systemd[1]: Starting User Manager for UID 0...
+Apr 21 15:07:17 ubuntu systemd[6299]: Started Pending report trigger for Ubuntu Report.
+Apr 21 15:07:17 ubuntu systemd[6299]: Reached target Paths.
+Apr 21 15:07:17 ubuntu systemd[6299]: Reached target Timers.
+Apr 21 15:07:17 ubuntu systemd[6299]: Starting D-Bus User Message Bus Socket.
+Apr 21 15:07:17 ubuntu systemd[6299]: Listening on GnuPG network certificate management daemon.
+Apr 21 15:07:17 ubuntu systemd[6299]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 21 15:07:17 ubuntu systemd[6299]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 21 15:07:17 ubuntu systemd[6299]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr 21 15:07:17 ubuntu systemd[6299]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr 21 15:07:17 ubuntu systemd[6299]: Listening on debconf communication socket.
+Apr 21 15:07:17 ubuntu systemd[6299]: Condition check resulted in Sound System being skipped.
+Apr 21 15:07:17 ubuntu systemd[6299]: Listening on REST API socket for snapd user session agent.
+Apr 21 15:07:17 ubuntu systemd[6299]: Listening on D-Bus User Message Bus Socket.
+Apr 21 15:07:17 ubuntu systemd[6299]: Reached target Sockets.
+Apr 21 15:07:17 ubuntu systemd[6299]: Reached target Basic System.
+Apr 21 15:07:17 ubuntu systemd[6299]: Condition check resulted in Sound Service being skipped.
+Apr 21 15:07:17 ubuntu systemd[1]: Started User Manager for UID 0.
+Apr 21 15:07:17 ubuntu systemd[6299]: Condition check resulted in Tracker metadata extractor being skipped.
+Apr 21 15:07:17 ubuntu systemd[6299]: Condition check resulted in Tracker file system data miner being skipped.
+Apr 21 15:07:17 ubuntu systemd[6299]: Reached target Main User Target.
+Apr 21 15:07:17 ubuntu systemd[6299]: Startup finished in 362ms.
+Apr 21 15:07:17 ubuntu systemd[1]: Started Session 4 of user root.
+Apr 21 15:07:18 ubuntu snap-store[1991]: not handling error download-failed for action download: failed to download https://odrs.gnome.org/1.0/reviews/api/ratings: Cannot connect to destination
+Apr 21 15:07:20 ubuntu snapd[881]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core", "core18", "core20", "gnome-3-34-1804", "gnome-3-38-2004", "gtk-common-themes", "snap-store"
+Apr 21 15:07:23 ubuntu PackageKit: get-updates transaction /468_bdaeceab from uid 1000 finished with success after 2983ms
+Apr 21 15:07:24 ubuntu systemd[1565]: Starting Notification regarding a new release of Ubuntu...
+Apr 21 15:07:36 ubuntu check-new-release-gtk[6410]: /usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+Apr 21 15:07:36 ubuntu check-new-release-gtk[6410]:   from gi.repository import Gtk
+Apr 21 15:07:36 ubuntu check-new-release-gtk[6410]: /usr/lib/ubuntu-release-upgrader/check-new-release-gtk:138: PyGIDeprecationWarning: Using positional arguments with the GObject constructor has been deprecated. Please specify keyword(s) for "schema" or use a class specific constructor. See: https://wiki.gnome.org/PyGObject/InitializerDeprecations
+Apr 21 15:07:36 ubuntu check-new-release-gtk[6410]:   client = Gio.Settings("com.ubuntu.update-notifier")
+Apr 21 15:07:36 ubuntu systemd[1565]: update-notifier-release.service: Succeeded.
+Apr 21 15:07:36 ubuntu systemd[1565]: Finished Notification regarding a new release of Ubuntu.
+Apr 21 15:07:40 ubuntu gnome-shell[1788]: ../clutter/clutter/clutter-actor.c:10558: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+Apr 21 15:07:41 ubuntu systemd[1565]: Started Application launched by gnome-shell.
+Apr 21 15:07:47 ubuntu kernel: [  589.485078] audit: type=1107 audit(1682060867.626:56): pid=843 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.4" pid=1991 label="snap.snap-store.ubuntu-software" peer_pid=866 peer_label="unconfined"
+Apr 21 15:07:47 ubuntu kernel: [  589.485078]  exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+Apr 21 15:07:47 ubuntu kernel: [  589.485467] audit: type=1107 audit(1682060867.626:57): pid=843 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.4" pid=1991 label="snap.snap-store.ubuntu-software" peer_pid=866 peer_label="unconfined"
+Apr 21 15:07:47 ubuntu kernel: [  589.485467]  exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+Apr 21 15:07:59 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:07:59 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:08:01 ubuntu gnome-shell[5002]: ATTENTION: default value of option mesa_glthread overridden by environment.
+Apr 21 15:08:01 ubuntu gnome-shell[5165]: [GFX1-]: Couldn't sanitize RENDERER device: SVGA3D; build: RELEASE;  LLVM;
+Apr 21 15:08:04 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:08:04 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:08:05 ubuntu gnome-shell[5168]: [GFX1-]: Couldn't sanitize RENDERER device: SVGA3D; build: RELEASE;  LLVM;
+Apr 21 15:08:06 ubuntu anacron[832]: Job `cron.weekly' started
+Apr 21 15:08:06 ubuntu anacron[6524]: Updated timestamp for job `cron.weekly' to 2023-04-21
+Apr 21 15:08:06 ubuntu anacron[832]: Job `cron.weekly' terminated
+Apr 21 15:08:06 ubuntu anacron[832]: Normal exit (2 jobs run)
+Apr 21 15:08:06 ubuntu systemd[1]: anacron.service: Killing process 6527 (update-notifier) with signal SIGKILL.
+Apr 21 15:08:06 ubuntu systemd[1]: anacron.service: Killing process 6528 (update-notifier) with signal SIGKILL.
+Apr 21 15:08:06 ubuntu systemd[1]: anacron.service: Killing process 6527 (update-notifier) with signal SIGKILL.
+Apr 21 15:08:06 ubuntu systemd[1]: anacron.service: Killing process 6528 (update-notifier) with signal SIGKILL.
+Apr 21 15:08:06 ubuntu systemd[1]: anacron.service: Succeeded.
+Apr 21 15:08:19 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:08:19 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:09:01 ubuntu CRON[6600]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Apr 21 15:09:02 ubuntu systemd[1]: Starting Clean php session files...
+Apr 21 15:09:02 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+Apr 21 15:09:02 ubuntu systemd[1]: Finished Clean php session files.
+Apr 21 15:09:28 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:09:28 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:12:27 ubuntu PackageKit: daemon quit
+Apr 21 15:12:27 ubuntu systemd[1]: packagekit.service: Succeeded.
+Apr 21 15:13:00 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Apr 21 15:13:00 ubuntu systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Apr 21 15:13:00 ubuntu systemd[1]: Finished Cleanup of Temporary Directories.
+Apr 21 15:14:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 15:14:26 ubuntu systemd[1565]: Starting Tracker metadata database store and lookup manager...
+Apr 21 15:14:26 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.Tracker1'
+Apr 21 15:14:26 ubuntu systemd[1565]: Started Tracker metadata database store and lookup manager.
+Apr 21 15:14:57 ubuntu tracker-store[6779]: OK
+Apr 21 15:14:57 ubuntu systemd[1565]: tracker-store.service: Succeeded.
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5201] dhcp4 (ens33): option dhcp_lease_time      => '1800'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5201] dhcp4 (ens33): option domain_name          => 'localdomain'
+Apr 21 15:15:01 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=844 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5201] dhcp4 (ens33): option domain_name_servers  => '192.168.177.2'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5201] dhcp4 (ens33): option expiry               => '1682063101'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5202] dhcp4 (ens33): option ip_address           => '192.168.177.130'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5202] dhcp4 (ens33): option next_server          => '192.168.177.254'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5202] dhcp4 (ens33): option requested_broadcast_address => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5202] dhcp4 (ens33): option requested_domain_name => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5202] dhcp4 (ens33): option requested_domain_name_servers => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5202] dhcp4 (ens33): option requested_domain_search => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5202] dhcp4 (ens33): option requested_host_name  => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5202] dhcp4 (ens33): option requested_interface_mtu => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5202] dhcp4 (ens33): option requested_ms_classless_static_routes => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5202] dhcp4 (ens33): option requested_nis_domain => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5202] dhcp4 (ens33): option requested_nis_servers => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5203] dhcp4 (ens33): option requested_ntp_servers => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5203] dhcp4 (ens33): option requested_rfc3442_classless_static_routes => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5203] dhcp4 (ens33): option requested_root_path  => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5203] dhcp4 (ens33): option requested_routers    => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5203] dhcp4 (ens33): option requested_static_routes => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5203] dhcp4 (ens33): option requested_subnet_mask => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5204] dhcp4 (ens33): option requested_time_offset => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5204] dhcp4 (ens33): option requested_wpad       => '1'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5204] dhcp4 (ens33): option routers              => '192.168.177.2'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5204] dhcp4 (ens33): option subnet_mask          => '255.255.255.0'
+Apr 21 15:15:01 ubuntu NetworkManager[844]: <info>  [1682061301.5204] dhcp4 (ens33): state changed bound -> extended
+Apr 21 15:15:01 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 21 15:15:01 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 21 15:15:01 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 21 15:15:05 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 15:15:05 ubuntu systemd[1565]: Starting Tracker metadata database store and lookup manager...
+Apr 21 15:15:05 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.Tracker1'
+Apr 21 15:15:05 ubuntu systemd[1565]: Started Tracker metadata database store and lookup manager.
+Apr 21 15:15:07 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating service name='org.freedesktop.FileManager1' requested by ':1.91' (uid=1000 pid=5002 comm="/usr/lib/firefox/firefox -new-window " label="unconfined")
+Apr 21 15:15:07 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.FileManager1'
+Apr 21 15:15:07 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.146' (uid=1000 pid=6819 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Apr 21 15:15:07 ubuntu systemd[1]: Starting Hostname Service...
+Apr 21 15:15:07 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 21 15:15:07 ubuntu systemd[1]: Started Hostname Service.
+Apr 21 15:15:12 ubuntu systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Apr 21 15:15:13 ubuntu systemd[1565]: Started VTE child process 6836 launched by gnome-terminal-server process 2249.
+Apr 21 15:15:36 ubuntu tracker-store[6808]: OK
+Apr 21 15:15:36 ubuntu systemd[1565]: tracker-store.service: Succeeded.
+Apr 21 15:15:38 ubuntu systemd[1]: systemd-hostnamed.service: Succeeded.
+Apr 21 15:15:54 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:15:54 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:15:56 ubuntu gnome-shell[5002]: ATTENTION: default value of option mesa_glthread overridden by environment.
+Apr 21 15:15:56 ubuntu gnome-shell[6499]: [GFX1-]: Couldn't sanitize RENDERER device: SVGA3D; build: RELEASE;  LLVM;
+Apr 21 15:16:00 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:16:00 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:16:00 ubuntu gnome-shell[6535]: [GFX1-]: Couldn't sanitize RENDERER device: SVGA3D; build: RELEASE;  LLVM;
+Apr 21 15:16:06 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:16:06 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:17:02 ubuntu CRON[6936]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 21 15:17:17 ubuntu kernel: [ 1158.965299] sched: RT throttling activated
+Apr 21 15:17:38 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 15:17:38 ubuntu systemd[1565]: Starting Tracker metadata database store and lookup manager...
+Apr 21 15:17:38 ubuntu nautilus[6819]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Apr 21 15:17:38 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.Tracker1'
+Apr 21 15:17:38 ubuntu systemd[1565]: Started Tracker metadata database store and lookup manager.
+Apr 21 15:18:11 ubuntu tracker-store[6966]: OK
+Apr 21 15:18:11 ubuntu systemd[1565]: tracker-store.service: Succeeded.
+Apr 21 15:18:32 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
+Apr 21 15:27:08 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.154' (uid=0 pid=17808 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Apr 21 15:27:08 ubuntu systemd[1]: Starting PackageKit Daemon...
+Apr 21 15:27:08 ubuntu PackageKit: daemon start
+Apr 21 15:27:08 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Apr 21 15:27:08 ubuntu systemd[1]: Started PackageKit Daemon.
+Apr 21 15:27:13 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 15:27:13 ubuntu systemd[1565]: Starting Tracker metadata database store and lookup manager...
+Apr 21 15:27:13 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.Tracker1'
+Apr 21 15:27:13 ubuntu systemd[1565]: Started Tracker metadata database store and lookup manager.
+Apr 21 15:27:13 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 15:27:13 ubuntu systemd[1565]: Starting Tracker metadata extractor...
+Apr 21 15:27:13 ubuntu tracker-extract[18048]: Set scheduler policy to SCHED_IDLE
+Apr 21 15:27:13 ubuntu tracker-extract[18048]: Setting priority nice level to 19
+Apr 21 15:27:13 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Apr 21 15:27:13 ubuntu systemd[1565]: Started Tracker metadata extractor.
+Apr 21 15:27:28 ubuntu systemd[1565]: tracker-extract.service: Succeeded.
+Apr 21 15:27:51 ubuntu dbus-daemon[843]: Unknown group "power" in message bus configuration file
+Apr 21 15:27:51 ubuntu dbus-daemon[843]: [system] Reloaded configuration
+Apr 21 15:27:51 ubuntu dbus-daemon[843]: Unknown group "power" in message bus configuration file
+Apr 21 15:27:51 ubuntu dbus-daemon[843]: [system] Reloaded configuration
+Apr 21 15:27:51 ubuntu dbus-daemon[843]: Unknown group "power" in message bus configuration file
+Apr 21 15:27:51 ubuntu dbus-daemon[843]: [system] Reloaded configuration
+Apr 21 15:27:51 ubuntu dbus-daemon[843]: Unknown group "power" in message bus configuration file
+Apr 21 15:27:51 ubuntu dbus-daemon[843]: [system] Reloaded configuration
+Apr 21 15:27:52 ubuntu tracker-store[18010]: OK
+Apr 21 15:27:52 ubuntu systemd[1565]: tracker-store.service: Succeeded.
+Apr 21 15:28:41 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 15:28:41 ubuntu systemd[1565]: Starting Tracker metadata database store and lookup manager...
+Apr 21 15:28:41 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.Tracker1'
+Apr 21 15:28:41 ubuntu systemd[1565]: Started Tracker metadata database store and lookup manager.
+Apr 21 15:28:41 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 15:28:41 ubuntu systemd[1565]: Starting Tracker metadata extractor...
+Apr 21 15:28:41 ubuntu tracker-extract[21432]: Set scheduler policy to SCHED_IDLE
+Apr 21 15:28:41 ubuntu tracker-extract[21432]: Setting priority nice level to 19
+Apr 21 15:28:41 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Apr 21 15:28:41 ubuntu systemd[1565]: Started Tracker metadata extractor.
+Apr 21 15:28:52 ubuntu systemd[1565]: tracker-extract.service: Succeeded.
+Apr 21 15:29:12 ubuntu tracker-store[21406]: OK
+Apr 21 15:29:12 ubuntu systemd[1565]: tracker-store.service: Succeeded.
+Apr 21 15:29:18 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 15:29:18 ubuntu systemd[1565]: Starting Tracker metadata database store and lookup manager...
+Apr 21 15:29:18 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.Tracker1'
+Apr 21 15:29:18 ubuntu systemd[1565]: Started Tracker metadata database store and lookup manager.
+Apr 21 15:29:18 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 15:29:18 ubuntu systemd[1565]: Starting Tracker metadata extractor...
+Apr 21 15:29:18 ubuntu tracker-extract[22770]: Set scheduler policy to SCHED_IDLE
+Apr 21 15:29:18 ubuntu tracker-extract[22770]: Setting priority nice level to 19
+Apr 21 15:29:18 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Apr 21 15:29:18 ubuntu systemd[1565]: Started Tracker metadata extractor.
+Apr 21 15:29:18 ubuntu kernel: [ 1880.606673] audit: type=1400 audit(1682062158.739:58): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="libreoffice-oopslash" pid=22824 comm="apparmor_parser"
+Apr 21 15:29:18 ubuntu kernel: [ 1880.628970] audit: type=1400 audit(1682062158.763:59): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="libreoffice-senddoc" pid=22827 comm="apparmor_parser"
+Apr 21 15:29:22 ubuntu kernel: [ 1884.611202] audit: type=1400 audit(1682062162.743:60): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="libreoffice-soffice" pid=22830 comm="apparmor_parser"
+Apr 21 15:29:22 ubuntu kernel: [ 1884.626677] audit: type=1400 audit(1682062162.763:61): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="libreoffice-soffice//gpg" pid=22830 comm="apparmor_parser"
+Apr 21 15:29:22 ubuntu kernel: [ 1884.654976] audit: type=1400 audit(1682062162.787:62): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="libreoffice-xpdfimport" pid=22850 comm="apparmor_parser"
+Apr 21 15:29:27 ubuntu update-notifier.desktop[23209]: /var/lib/dpkg/lock:
+Apr 21 15:29:29 ubuntu systemd[1565]: tracker-extract.service: Succeeded.
+Apr 21 15:29:53 ubuntu tracker-store[22763]: OK
+Apr 21 15:29:53 ubuntu systemd[1565]: tracker-store.service: Succeeded.
+Apr 21 15:30:01 ubuntu CRON[24248]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5048] dhcp4 (ens33): option dhcp_lease_time      => '1800'
+Apr 21 15:30:01 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=844 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option domain_name          => 'localdomain'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option domain_name_servers  => '192.168.177.2'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option expiry               => '1682064001'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option ip_address           => '192.168.177.130'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option next_server          => '192.168.177.254'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option requested_broadcast_address => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option requested_domain_name => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option requested_domain_name_servers => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option requested_domain_search => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option requested_host_name  => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option requested_interface_mtu => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option requested_ms_classless_static_routes => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option requested_nis_domain => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option requested_nis_servers => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option requested_ntp_servers => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option requested_rfc3442_classless_static_routes => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5049] dhcp4 (ens33): option requested_root_path  => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5050] dhcp4 (ens33): option requested_routers    => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5050] dhcp4 (ens33): option requested_static_routes => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5050] dhcp4 (ens33): option requested_subnet_mask => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5050] dhcp4 (ens33): option requested_time_offset => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5050] dhcp4 (ens33): option requested_wpad       => '1'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5050] dhcp4 (ens33): option routers              => '192.168.177.2'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5050] dhcp4 (ens33): option subnet_mask          => '255.255.255.0'
+Apr 21 15:30:01 ubuntu NetworkManager[844]: <info>  [1682062201.5050] dhcp4 (ens33): state changed extended -> extended
+Apr 21 15:30:01 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 21 15:30:01 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 21 15:30:01 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 21 15:30:12 ubuntu systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Apr 21 15:30:16 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 15:30:16 ubuntu systemd[1565]: Starting Tracker metadata database store and lookup manager...
+Apr 21 15:30:16 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 21 15:30:16 ubuntu anacron[24574]: Anacron 2.3 started on 2023-04-21
+Apr 21 15:30:16 ubuntu anacron[24574]: Normal exit (0 jobs run)
+Apr 21 15:30:16 ubuntu systemd[1]: anacron.service: Succeeded.
+Apr 21 15:30:16 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.Tracker1'
+Apr 21 15:30:16 ubuntu systemd[1565]: Started Tracker metadata database store and lookup manager.
+Apr 21 15:30:16 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.1' (uid=1000 pid=1573 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Apr 21 15:30:16 ubuntu systemd[1565]: Starting Tracker metadata extractor...
+Apr 21 15:30:16 ubuntu tracker-extract[24590]: Set scheduler policy to SCHED_IDLE
+Apr 21 15:30:16 ubuntu tracker-extract[24590]: Setting priority nice level to 19
+Apr 21 15:30:16 ubuntu dbus-daemon[1575]: [session uid=1000 pid=1575] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Apr 21 15:30:16 ubuntu systemd[1565]: Started Tracker metadata extractor.
+Apr 21 15:30:27 ubuntu systemd[1565]: tracker-extract.service: Succeeded.
+Apr 21 15:30:31 ubuntu systemd[1]: apt-daily-upgrade.service: Succeeded.
+Apr 21 15:30:31 ubuntu systemd[1]: Finished Daily apt upgrade and clean activities.
+Apr 21 15:30:47 ubuntu tracker-store[24573]: OK
+Apr 21 15:30:47 ubuntu systemd[1565]: tracker-store.service: Succeeded.
+Apr 21 15:31:20 ubuntu gnome-shell[5002]: ATTENTION: default value of option mesa_glthread overridden by environment.
+Apr 21 15:31:20 ubuntu gnome-shell[6855]: [GFX1-]: Couldn't sanitize RENDERER device: SVGA3D; build: RELEASE;  LLVM;
+Apr 21 15:31:27 ubuntu gnome-shell[5002]: ATTENTION: default value of option mesa_glthread overridden by environment.
+Apr 21 15:31:27 ubuntu gnome-shell[6883]: [GFX1-]: Couldn't sanitize RENDERER device: SVGA3D; build: RELEASE;  LLVM;
+Apr 21 15:37:24 ubuntu gnome-shell[25608]: [GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+Apr 21 15:37:24 ubuntu gnome-shell[25608]: ATTENTION: default value of option mesa_glthread overridden by environment.
+Apr 21 15:37:24 ubuntu rtkit-daemon[1117]: Supervising 3 threads of 1 processes of 1 users.
+Apr 21 15:37:24 ubuntu rtkit-daemon[1117]: message repeated 5 times: [ Supervising 3 threads of 1 processes of 1 users.]
+Apr 21 15:37:24 ubuntu rtkit-daemon[1117]: Successfully made thread 25686 of process 25608 owned by '1000' RT at priority 10.
+Apr 21 15:37:24 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:37:24 ubuntu rtkit-daemon[1117]: message repeated 2 times: [ Supervising 4 threads of 2 processes of 1 users.]
+Apr 21 15:37:27 ubuntu gnome-shell[25608]: [ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+Apr 21 15:37:28 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:37:30 ubuntu rtkit-daemon[1117]: message repeated 7 times: [ Supervising 4 threads of 2 processes of 1 users.]
+Apr 21 15:37:54 ubuntu PackageKit: daemon quit
+Apr 21 15:37:54 ubuntu systemd[1]: packagekit.service: Succeeded.
+Apr 21 15:39:01 ubuntu CRON[25856]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Apr 21 15:39:02 ubuntu systemd[1]: Starting Clean php session files...
+Apr 21 15:39:02 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+Apr 21 15:39:02 ubuntu systemd[1]: Finished Clean php session files.
+Apr 21 15:39:58 ubuntu systemd[1]: Starting Update APT News...
+Apr 21 15:39:58 ubuntu systemd[1]: Starting Update the local ESM caches...
+Apr 21 15:39:58 ubuntu systemd[1]: apt-news.service: Succeeded.
+Apr 21 15:39:58 ubuntu systemd[1]: Finished Update APT News.
+Apr 21 15:39:59 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.282' (uid=0 pid=26272 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Apr 21 15:39:59 ubuntu systemd[1]: Starting PackageKit Daemon...
+Apr 21 15:39:59 ubuntu PackageKit: daemon start
+Apr 21 15:39:59 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Apr 21 15:39:59 ubuntu systemd[1]: Started PackageKit Daemon.
+Apr 21 15:40:01 ubuntu systemd[1]: esm-cache.service: Succeeded.
+Apr 21 15:40:01 ubuntu systemd[1]: Finished Update the local ESM caches.
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5062] dhcp4 (ens33): option dhcp_lease_time      => '1800'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5062] dhcp4 (ens33): option domain_name          => 'localdomain'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5062] dhcp4 (ens33): option domain_name_servers  => '192.168.177.2'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5062] dhcp4 (ens33): option expiry               => '1682064901'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5062] dhcp4 (ens33): option ip_address           => '192.168.177.130'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5062] dhcp4 (ens33): option next_server          => '192.168.177.254'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5062] dhcp4 (ens33): option requested_broadcast_address => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5062] dhcp4 (ens33): option requested_domain_name => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5062] dhcp4 (ens33): option requested_domain_name_servers => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option requested_domain_search => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option requested_host_name  => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option requested_interface_mtu => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option requested_ms_classless_static_routes => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option requested_nis_domain => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option requested_nis_servers => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option requested_ntp_servers => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option requested_rfc3442_classless_static_routes => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option requested_root_path  => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option requested_routers    => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option requested_static_routes => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option requested_subnet_mask => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option requested_time_offset => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option requested_wpad       => '1'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option routers              => '192.168.177.2'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): option subnet_mask          => '255.255.255.0'
+Apr 21 15:45:01 ubuntu NetworkManager[844]: <info>  [1682063101.5063] dhcp4 (ens33): state changed extended -> extended
+Apr 21 15:45:01 ubuntu dbus-daemon[843]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=844 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 21 15:45:01 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 21 15:45:01 ubuntu dbus-daemon[843]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 21 15:45:01 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 21 15:45:12 ubuntu systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Apr 21 15:46:25 ubuntu PackageKit: daemon quit
+Apr 21 15:46:25 ubuntu systemd[1]: packagekit.service: Succeeded.
+Apr 21 15:49:48 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:49:48 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:49:51 ubuntu gnome-shell[25608]: ATTENTION: default value of option mesa_glthread overridden by environment.
+Apr 21 15:49:51 ubuntu gnome-shell[25755]: [GFX1-]: Couldn't sanitize RENDERER device: SVGA3D; build: RELEASE;  LLVM;
+Apr 21 15:49:55 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:49:55 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.
+Apr 21 15:49:57 ubuntu gnome-shell[25608]: ATTENTION: default value of option mesa_glthread overridden by environment.
+Apr 21 15:49:57 ubuntu gnome-shell[25769]: [GFX1-]: Couldn't sanitize RENDERER device: SVGA3D; build: RELEASE;  LLVM;
+Apr 21 15:50:02 ubuntu rtkit-daemon[1117]: Supervising 4 threads of 2 processes of 1 users.

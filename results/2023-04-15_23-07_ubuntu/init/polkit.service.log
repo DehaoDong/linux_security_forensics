@@ -1,0 +1,743 @@
+-- Logs begin at Sat 2022-01-08 18:32:32 CST, end at Sat 2023-04-15 23:07:25 CST. --
+1月 09 19:11:24 ubuntu polkitd(authority=local)[868]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.gnome.controlcenter.user-accounts.administration for unix-process:10170:680084 [gnome-control-center] (owned by unix-user:ree)
+1月 09 21:04:13 ubuntu polkitd(authority=local)[868]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.gnome.controlcenter.user-accounts.administration for unix-process:15000:1293430 [gnome-control-center] (owned by unix-user:ree)
+1月 09 21:32:59 ubuntu polkitd(authority=local)[868]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.80, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+1月 09 21:32:59 ubuntu systemd[1]: Stopping Authorization Manager...
+1月 09 21:32:59 ubuntu systemd[1]: polkit.service: Succeeded.
+1月 09 21:32:59 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+1月 09 21:33:15 ubuntu systemd[1]: Starting Authorization Manager...
+1月 09 21:33:15 ubuntu polkitd[883]: started daemon version 0.105 using authority implementation `local' version `0.105'
+1月 09 21:33:15 ubuntu systemd[1]: Started Authorization Manager.
+1月 09 21:33:17 ubuntu polkitd(authority=local)[883]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+1月 09 21:33:27 ubuntu polkitd(authority=local)[883]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+1月 09 21:33:30 ubuntu polkitd(authority=local)[883]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+3月 22 14:03:02 ubuntu systemd[1]: Starting Authorization Manager...
+3月 22 14:03:02 ubuntu polkitd[882]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 22 14:03:02 ubuntu systemd[1]: Started Authorization Manager.
+3月 22 14:03:05 ubuntu polkitd(authority=local)[882]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 22 14:03:19 ubuntu polkitd(authority=local)[882]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 22 14:03:21 ubuntu polkitd(authority=local)[882]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 22 14:04:46 ubuntu polkitd(authority=local)[882]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.115 [/usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map] (owned by unix-user:ree)
+3月 22 14:12:16 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 22 14:12:16 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 22 14:12:16 ubuntu systemd[1]: Stopped Authorization Manager.
+3月 22 14:12:16 ubuntu systemd[1]: Starting Authorization Manager...
+3月 22 14:12:16 ubuntu polkitd[23456]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 22 14:12:16 ubuntu systemd[1]: Started Authorization Manager.
+3月 22 14:12:16 ubuntu polkitd(authority=local)[23456]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 22 14:13:28 ubuntu polkitd(authority=local)[23456]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.82, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 22 14:13:28 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 22 14:13:28 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 22 14:13:28 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 22 14:13:42 ubuntu systemd[1]: Starting Authorization Manager...
+3月 22 14:13:42 ubuntu polkitd[894]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 22 14:13:42 ubuntu systemd[1]: Started Authorization Manager.
+3月 22 14:13:44 ubuntu polkitd(authority=local)[894]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 22 14:16:13 ubuntu polkitd(authority=local)[894]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 22 14:16:16 ubuntu polkitd(authority=local)[894]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 22 14:22:48 ubuntu polkitd(authority=local)[894]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.80, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 22 14:22:48 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 22 14:22:48 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 22 14:22:48 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 22 16:13:10 ubuntu systemd[1]: Starting Authorization Manager...
+3月 22 16:13:10 ubuntu polkitd[896]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 22 16:13:10 ubuntu systemd[1]: Started Authorization Manager.
+3月 22 16:13:13 ubuntu polkitd(authority=local)[896]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 22 16:13:48 ubuntu polkitd(authority=local)[896]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 22 16:13:57 ubuntu polkitd(authority=local)[896]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 22 17:37:59 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 22 17:37:59 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 22 17:37:59 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 25 10:18:04 ubuntu systemd[1]: Starting Authorization Manager...
+3月 25 10:18:05 ubuntu polkitd[924]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 25 10:18:05 ubuntu systemd[1]: Started Authorization Manager.
+3月 25 10:18:12 ubuntu polkitd(authority=local)[924]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 25 10:18:33 ubuntu polkitd(authority=local)[924]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 25 10:18:41 ubuntu polkitd(authority=local)[924]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 25 10:36:29 ubuntu polkitd(authority=local)[924]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.79, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 25 10:36:29 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 25 10:36:29 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 25 10:36:29 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 25 10:45:15 ubuntu systemd[1]: Starting Authorization Manager...
+3月 25 10:45:16 ubuntu polkitd[923]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 25 10:45:16 ubuntu systemd[1]: Started Authorization Manager.
+3月 25 10:45:22 ubuntu polkitd(authority=local)[923]: Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 25 10:45:40 ubuntu polkitd(authority=local)[923]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 25 10:45:49 ubuntu polkitd(authority=local)[923]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+3月 28 10:02:53 ubuntu systemd[1]: Starting Authorization Manager...
+3月 28 10:02:54 ubuntu polkitd[917]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 28 10:02:54 ubuntu systemd[1]: Started Authorization Manager.
+3月 28 10:03:01 ubuntu polkitd(authority=local)[917]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 28 10:03:20 ubuntu polkitd(authority=local)[917]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 28 10:03:25 ubuntu polkitd(authority=local)[917]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+3月 28 14:59:43 ubuntu systemd[1]: Starting Authorization Manager...
+3月 28 14:59:44 ubuntu polkitd[915]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 28 14:59:44 ubuntu systemd[1]: Started Authorization Manager.
+3月 28 14:59:53 ubuntu polkitd(authority=local)[915]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 28 15:00:10 ubuntu polkitd(authority=local)[915]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 28 15:00:15 ubuntu polkitd(authority=local)[915]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 28 15:53:54 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 28 15:53:54 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 28 15:53:54 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 28 16:17:45 ubuntu systemd[1]: Starting Authorization Manager...
+3月 28 16:17:46 ubuntu polkitd[815]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 28 16:17:46 ubuntu systemd[1]: Started Authorization Manager.
+3月 28 16:17:58 ubuntu polkitd(authority=local)[815]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 28 16:18:41 ubuntu polkitd(authority=local)[815]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+3月 28 16:18:54 ubuntu polkitd(authority=local)[815]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 28 17:29:20 ubuntu polkitd(authority=local)[815]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.80, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+3月 28 17:29:20 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 28 17:29:20 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 28 17:29:20 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 01 10:14:20 ubuntu systemd[1]: Starting Authorization Manager...
+4月 01 10:14:21 ubuntu polkitd[871]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 01 10:14:21 ubuntu systemd[1]: Started Authorization Manager.
+4月 01 10:14:34 ubuntu polkitd(authority=local)[871]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 01 10:14:54 ubuntu polkitd(authority=local)[871]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 01 10:15:06 ubuntu polkitd(authority=local)[871]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 01 10:17:36 ubuntu polkitd(authority=local)[871]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.111 [/usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map] (owned by unix-user:ree)
+4月 01 10:24:19 ubuntu polkitd(authority=local)[871]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.82, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 01 10:24:19 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 01 10:24:19 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 01 10:24:19 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 01 10:25:04 ubuntu systemd[1]: Starting Authorization Manager...
+4月 01 10:25:05 ubuntu polkitd[873]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 01 10:25:05 ubuntu systemd[1]: Started Authorization Manager.
+4月 01 10:25:11 ubuntu polkitd(authority=local)[873]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 01 10:25:31 ubuntu polkitd(authority=local)[873]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 01 10:25:38 ubuntu polkitd(authority=local)[873]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 01 12:03:43 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 01 12:03:43 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 01 12:03:43 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 02 08:51:51 ubuntu systemd[1]: Starting Authorization Manager...
+4月 02 08:51:51 ubuntu polkitd[873]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 02 08:51:51 ubuntu systemd[1]: Started Authorization Manager.
+4月 02 08:51:58 ubuntu polkitd(authority=local)[873]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 02 08:52:18 ubuntu polkitd(authority=local)[873]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 02 08:52:23 ubuntu polkitd(authority=local)[873]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+4月 02 09:04:36 ubuntu systemd[1]: Starting Authorization Manager...
+4月 02 09:04:36 ubuntu polkitd[873]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 02 09:04:37 ubuntu systemd[1]: Started Authorization Manager.
+4月 02 09:04:50 ubuntu polkitd(authority=local)[873]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+-- Reboot --
+4月 02 09:10:27 ubuntu systemd[1]: Starting Authorization Manager...
+4月 02 09:10:27 ubuntu polkitd[876]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 02 09:10:27 ubuntu systemd[1]: Started Authorization Manager.
+4月 02 09:10:35 ubuntu polkitd(authority=local)[876]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 02 09:11:26 ubuntu polkitd(authority=local)[876]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 02 09:11:30 ubuntu polkitd(authority=local)[876]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 02 09:29:37 ubuntu polkitd(authority=local)[876]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.82, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 02 09:29:37 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 02 09:29:37 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 02 09:29:37 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 02 17:22:59 ubuntu systemd[1]: Starting Authorization Manager...
+4月 02 17:22:59 ubuntu polkitd[791]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 02 17:22:59 ubuntu systemd[1]: Started Authorization Manager.
+4月 02 17:23:08 ubuntu polkitd(authority=local)[791]: Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 02 17:23:18 ubuntu polkitd(authority=local)[791]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 02 17:23:21 ubuntu polkitd(authority=local)[791]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 02 17:51:14 ubuntu polkitd(authority=local)[791]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.81, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 02 17:51:14 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 02 17:51:14 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 02 17:51:14 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 02 17:51:33 ubuntu systemd[1]: Starting Authorization Manager...
+4月 02 17:51:33 ubuntu polkitd[878]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 02 17:51:33 ubuntu systemd[1]: Started Authorization Manager.
+4月 02 17:51:35 ubuntu polkitd(authority=local)[878]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 02 17:51:45 ubuntu polkitd(authority=local)[878]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 02 17:51:48 ubuntu polkitd(authority=local)[878]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+4月 06 08:17:16 ubuntu systemd[1]: Starting Authorization Manager...
+4月 06 08:17:16 ubuntu polkitd[872]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 06 08:17:17 ubuntu systemd[1]: Started Authorization Manager.
+4月 06 08:17:30 ubuntu polkitd(authority=local)[872]: Registered Authentication Agent for unix-session:c1 (system bus name :1.43 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 06 08:18:05 ubuntu polkitd(authority=local)[872]: Registered Authentication Agent for unix-session:2 (system bus name :1.85 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 06 08:18:09 ubuntu polkitd(authority=local)[872]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.43, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 06 10:26:21 ubuntu polkitd(authority=local)[872]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.85, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 06 10:26:21 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 06 10:26:21 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 06 10:26:21 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 13 08:09:37 ubuntu systemd[1]: Starting Authorization Manager...
+4月 13 08:09:38 ubuntu polkitd[823]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 13 08:09:38 ubuntu systemd[1]: Started Authorization Manager.
+4月 13 08:09:52 ubuntu polkitd(authority=local)[823]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 13 08:10:09 ubuntu polkitd(authority=local)[823]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 13 08:10:14 ubuntu polkitd(authority=local)[823]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 13 08:14:43 ubuntu polkitd(authority=local)[823]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.109 [/usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map] (owned by unix-user:ree)
+4月 13 08:30:00 ubuntu polkitd(authority=local)[823]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.81, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 13 08:30:00 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 13 08:30:00 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 13 08:30:00 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 13 08:30:19 ubuntu systemd[1]: Starting Authorization Manager...
+4月 13 08:30:19 ubuntu polkitd[855]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 13 08:30:19 ubuntu systemd[1]: Started Authorization Manager.
+4月 13 08:30:22 ubuntu polkitd(authority=local)[855]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 13 08:30:34 ubuntu polkitd(authority=local)[855]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 13 08:30:38 ubuntu polkitd(authority=local)[855]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+4月 13 10:23:38 ubuntu systemd[1]: Starting Authorization Manager...
+4月 13 10:23:38 ubuntu polkitd[875]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 13 10:23:39 ubuntu systemd[1]: Started Authorization Manager.
+4月 13 10:23:53 ubuntu polkitd(authority=local)[875]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 13 10:24:21 ubuntu polkitd(authority=local)[875]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 13 10:24:26 ubuntu polkitd(authority=local)[875]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+4月 13 14:46:33 ubuntu systemd[1]: Starting Authorization Manager...
+4月 13 14:46:33 ubuntu polkitd[804]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 13 14:46:33 ubuntu systemd[1]: Started Authorization Manager.
+4月 13 14:46:37 ubuntu polkitd(authority=local)[804]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 13 14:47:22 ubuntu polkitd(authority=local)[804]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 13 14:47:25 ubuntu polkitd(authority=local)[804]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 13 15:21:57 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 13 15:21:57 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 13 15:21:57 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 15 10:16:59 ubuntu systemd[1]: Starting Authorization Manager...
+4月 15 10:17:00 ubuntu polkitd[823]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 15 10:17:00 ubuntu systemd[1]: Started Authorization Manager.
+4月 15 10:17:03 ubuntu polkitd(authority=local)[823]: Registered Authentication Agent for unix-session:c1 (system bus name :1.44 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 15 10:19:04 ubuntu polkitd(authority=local)[823]: Registered Authentication Agent for unix-session:3 (system bus name :1.87 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 15 10:19:08 ubuntu polkitd(authority=local)[823]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.44, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+4月 20 08:14:44 ubuntu systemd[1]: Starting Authorization Manager...
+4月 20 08:14:44 ubuntu polkitd[876]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 20 08:14:45 ubuntu systemd[1]: Started Authorization Manager.
+4月 20 08:14:54 ubuntu polkitd(authority=local)[876]: Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 20 08:15:52 ubuntu polkitd(authority=local)[876]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 20 08:16:03 ubuntu polkitd(authority=local)[876]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 20 08:20:47 ubuntu polkitd(authority=local)[876]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.114 [/usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map] (owned by unix-user:ree)
+4月 20 08:22:49 ubuntu polkitd(authority=local)[876]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.83, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 20 08:22:49 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 20 08:22:49 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 20 08:22:49 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 20 08:23:05 ubuntu systemd[1]: Starting Authorization Manager...
+4月 20 08:23:05 ubuntu polkitd[824]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 20 08:23:05 ubuntu systemd[1]: Started Authorization Manager.
+4月 20 08:23:08 ubuntu polkitd(authority=local)[824]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 20 08:23:20 ubuntu polkitd(authority=local)[824]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 20 08:23:30 ubuntu polkitd(authority=local)[824]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+4月 27 08:18:20 ubuntu systemd[1]: Starting Authorization Manager...
+4月 27 08:18:20 ubuntu polkitd[800]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 27 08:18:21 ubuntu systemd[1]: Started Authorization Manager.
+4月 27 08:18:30 ubuntu polkitd(authority=local)[800]: Registered Authentication Agent for unix-session:c1 (system bus name :1.43 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 27 08:18:53 ubuntu polkitd(authority=local)[800]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 27 08:18:56 ubuntu polkitd(authority=local)[800]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.43, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 27 09:46:22 ubuntu polkitd(authority=local)[800]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action io.snapcraft.snapd.manage for unix-process:1952:5176 [/snap/snap-store/558/usr/bin/snap-store --gapplication-service] (owned by unix-user:ree)
+4月 27 09:53:48 ubuntu polkitd(authority=local)[800]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action io.snapcraft.snapd.manage for unix-process:1952:5176 [/snap/snap-store/558/usr/bin/snap-store --gapplication-service] (owned by unix-user:ree)
+4月 27 10:50:16 ubuntu polkitd(authority=local)[800]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.82, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 27 10:50:16 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 27 10:50:16 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 27 10:50:16 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 27 11:07:08 ubuntu systemd[1]: Starting Authorization Manager...
+4月 27 11:07:08 ubuntu polkitd[871]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 27 11:07:09 ubuntu systemd[1]: Started Authorization Manager.
+4月 27 11:07:19 ubuntu polkitd(authority=local)[871]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 27 11:07:33 ubuntu polkitd(authority=local)[871]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 27 11:07:37 ubuntu polkitd(authority=local)[871]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 27 11:20:10 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 27 11:20:10 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 27 11:20:10 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 27 14:11:31 ubuntu systemd[1]: Starting Authorization Manager...
+4月 27 14:11:31 ubuntu polkitd[869]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 27 14:11:31 ubuntu systemd[1]: Started Authorization Manager.
+4月 27 14:11:35 ubuntu polkitd(authority=local)[869]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 27 14:11:47 ubuntu polkitd(authority=local)[869]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 27 14:11:51 ubuntu polkitd(authority=local)[869]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 27 15:04:59 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 27 15:04:59 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 27 15:04:59 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 27 15:05:19 ubuntu systemd[1]: Starting Authorization Manager...
+4月 27 15:05:19 ubuntu polkitd[829]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 27 15:05:19 ubuntu systemd[1]: Started Authorization Manager.
+4月 27 15:05:21 ubuntu polkitd(authority=local)[829]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 27 15:05:56 ubuntu polkitd(authority=local)[829]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 27 15:06:00 ubuntu polkitd(authority=local)[829]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 27 16:02:17 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 27 16:02:17 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 27 16:02:17 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 28 21:00:46 ubuntu systemd[1]: Starting Authorization Manager...
+4月 28 21:00:46 ubuntu polkitd[889]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 28 21:00:46 ubuntu systemd[1]: Started Authorization Manager.
+4月 28 21:00:58 ubuntu polkitd(authority=local)[889]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 28 21:01:17 ubuntu polkitd(authority=local)[889]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+4月 28 21:01:21 ubuntu polkitd(authority=local)[889]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 28 21:01:50 ubuntu polkitd(authority=local)[889]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.81, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+4月 28 21:01:50 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 28 21:01:50 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 28 21:01:50 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+5月 06 10:06:15 ubuntu systemd[1]: Starting Authorization Manager...
+5月 06 10:06:15 ubuntu polkitd[883]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 06 10:06:15 ubuntu systemd[1]: Started Authorization Manager.
+5月 06 10:06:21 ubuntu polkitd(authority=local)[883]: Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 06 10:06:34 ubuntu polkitd(authority=local)[883]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 06 10:06:46 ubuntu polkitd(authority=local)[883]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+5月 06 10:08:20 ubuntu polkitd(authority=local)[883]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.108 [/usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map] (owned by unix-user:ree)
+5月 06 10:17:23 ubuntu polkitd(authority=local)[883]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.81, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+5月 06 10:17:23 ubuntu systemd[1]: Stopping Authorization Manager...
+5月 06 10:17:23 ubuntu systemd[1]: polkit.service: Succeeded.
+5月 06 10:17:23 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+5月 06 10:17:46 ubuntu systemd[1]: Starting Authorization Manager...
+5月 06 10:17:46 ubuntu polkitd[817]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 06 10:17:46 ubuntu systemd[1]: Started Authorization Manager.
+5月 06 10:17:49 ubuntu polkitd(authority=local)[817]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 06 10:18:05 ubuntu polkitd(authority=local)[817]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 06 10:18:08 ubuntu polkitd(authority=local)[817]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+5月 06 11:20:32 ubuntu systemd[1]: Stopping Authorization Manager...
+5月 06 11:20:32 ubuntu systemd[1]: polkit.service: Succeeded.
+5月 06 11:20:32 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+5月 07 08:13:43 ubuntu systemd[1]: Starting Authorization Manager...
+5月 07 08:13:43 ubuntu polkitd[844]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 07 08:13:43 ubuntu systemd[1]: Started Authorization Manager.
+5月 07 08:13:54 ubuntu polkitd(authority=local)[844]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 07 08:14:06 ubuntu polkitd(authority=local)[844]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 07 08:14:10 ubuntu polkitd(authority=local)[844]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+5月 08 14:53:45 ubuntu systemd[1]: Starting Authorization Manager...
+5月 08 14:53:45 ubuntu polkitd[824]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 08 14:53:46 ubuntu systemd[1]: Started Authorization Manager.
+5月 08 14:53:58 ubuntu polkitd(authority=local)[824]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 08 14:54:10 ubuntu polkitd(authority=local)[824]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 08 14:54:13 ubuntu polkitd(authority=local)[824]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+5月 08 14:55:08 ubuntu polkitd(authority=local)[824]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.82, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+5月 08 14:55:08 ubuntu systemd[1]: Stopping Authorization Manager...
+5月 08 14:55:08 ubuntu systemd[1]: polkit.service: Succeeded.
+5月 08 14:55:08 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+5月 08 15:54:10 ubuntu systemd[1]: Starting Authorization Manager...
+5月 08 15:54:10 ubuntu polkitd[816]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 08 15:54:10 ubuntu systemd[1]: Started Authorization Manager.
+5月 08 15:54:30 ubuntu polkitd(authority=local)[816]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 08 15:54:48 ubuntu polkitd(authority=local)[816]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 08 15:54:55 ubuntu polkitd(authority=local)[816]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+5月 08 16:12:33 ubuntu polkitd(authority=local)[816]: Registered Authentication Agent for unix-process:4805:112003 (system bus name :1.132 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 08 16:12:36 ubuntu polkitd(authority=local)[816]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.133 [/bin/systemctl --no-pager start apache2.service] (owned by unix-user:ree)
+5月 08 16:12:36 ubuntu polkitd(authority=local)[816]: Unregistered Authentication Agent for unix-process:4805:112003 (system bus name :1.132, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+5月 08 16:26:55 ubuntu systemd[1]: Stopping Authorization Manager...
+5月 08 16:26:55 ubuntu systemd[1]: polkit.service: Succeeded.
+5月 08 16:26:55 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+5月 08 16:27:21 ubuntu systemd[1]: Starting Authorization Manager...
+5月 08 16:27:21 ubuntu polkitd[845]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 08 16:27:21 ubuntu systemd[1]: Started Authorization Manager.
+5月 08 16:27:24 ubuntu polkitd(authority=local)[845]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 08 16:27:34 ubuntu polkitd(authority=local)[845]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 08 16:27:37 ubuntu polkitd(authority=local)[845]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+5月 08 16:31:01 ubuntu polkitd(authority=local)[845]: Registered Authentication Agent for unix-process:2947:23374 (system bus name :1.117 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 08 16:31:05 ubuntu polkitd(authority=local)[845]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.118 [/bin/systemctl --no-pager start apache2.service] (owned by unix-user:ree)
+5月 08 16:31:05 ubuntu polkitd(authority=local)[845]: Unregistered Authentication Agent for unix-process:2947:23374 (system bus name :1.117, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+5月 08 17:02:55 ubuntu systemd[1]: Stopping Authorization Manager...
+5月 08 17:02:55 ubuntu systemd[1]: polkit.service: Succeeded.
+5月 08 17:02:55 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+5月 14 20:51:42 ubuntu systemd[1]: Starting Authorization Manager...
+5月 14 20:51:42 ubuntu polkitd[845]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 14 20:51:43 ubuntu systemd[1]: Started Authorization Manager.
+5月 14 20:51:57 ubuntu polkitd(authority=local)[845]: Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 14 20:52:10 ubuntu polkitd(authority=local)[845]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 14 20:52:14 ubuntu polkitd(authority=local)[845]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+5月 15 00:06:13 ubuntu systemd[1]: Starting Authorization Manager...
+5月 15 00:06:13 ubuntu polkitd[834]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 15 00:06:13 ubuntu systemd[1]: Started Authorization Manager.
+5月 15 00:06:20 ubuntu polkitd(authority=local)[834]: Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 15 00:06:57 ubuntu polkitd(authority=local)[834]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 15 00:07:01 ubuntu polkitd(authority=local)[834]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+5月 15 00:09:00 ubuntu polkitd(authority=local)[834]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.83, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+5月 15 00:09:00 ubuntu systemd[1]: Stopping Authorization Manager...
+5月 15 00:09:00 ubuntu systemd[1]: polkit.service: Succeeded.
+5月 15 00:09:00 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+5月 15 00:15:05 ubuntu systemd[1]: Starting Authorization Manager...
+5月 15 00:15:05 ubuntu polkitd[898]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 15 00:15:06 ubuntu systemd[1]: Started Authorization Manager.
+5月 15 00:15:12 ubuntu polkitd(authority=local)[898]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 15 00:15:28 ubuntu polkitd(authority=local)[898]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 15 00:15:32 ubuntu polkitd(authority=local)[898]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+5月 15 00:17:56 ubuntu systemd[1]: Stopping Authorization Manager...
+5月 15 00:17:56 ubuntu systemd[1]: polkit.service: Succeeded.
+5月 15 00:17:56 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+5月 15 10:43:39 ubuntu systemd[1]: Starting Authorization Manager...
+5月 15 10:43:39 ubuntu polkitd[890]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 15 10:43:39 ubuntu systemd[1]: Started Authorization Manager.
+5月 15 10:43:47 ubuntu polkitd(authority=local)[890]: Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 15 10:44:10 ubuntu polkitd(authority=local)[890]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 15 10:44:14 ubuntu polkitd(authority=local)[890]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+5月 15 13:21:32 ubuntu polkitd(authority=local)[890]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.80, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+5月 15 13:21:32 ubuntu systemd[1]: Stopping Authorization Manager...
+5月 15 13:21:32 ubuntu systemd[1]: polkit.service: Succeeded.
+5月 15 13:21:32 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+5月 15 15:15:40 ubuntu systemd[1]: Starting Authorization Manager...
+5月 15 15:15:40 ubuntu polkitd[847]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 15 15:15:41 ubuntu systemd[1]: Started Authorization Manager.
+5月 15 15:15:45 ubuntu polkitd(authority=local)[847]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 15 15:16:00 ubuntu polkitd(authority=local)[847]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 15 15:16:04 ubuntu polkitd(authority=local)[847]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+5月 15 15:16:43 ubuntu polkitd(authority=local)[847]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.81, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+5月 15 15:16:44 ubuntu systemd[1]: Stopping Authorization Manager...
+5月 15 15:16:44 ubuntu systemd[1]: polkit.service: Succeeded.
+5月 15 15:16:44 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+5月 15 16:28:26 ubuntu systemd[1]: Starting Authorization Manager...
+5月 15 16:28:26 ubuntu polkitd[851]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 15 16:28:27 ubuntu systemd[1]: Started Authorization Manager.
+5月 15 16:28:31 ubuntu polkitd(authority=local)[851]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 15 16:28:46 ubuntu polkitd(authority=local)[851]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 15 16:28:50 ubuntu polkitd(authority=local)[851]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+5月 15 17:59:27 ubuntu systemd[1]: Stopping Authorization Manager...
+5月 15 17:59:27 ubuntu systemd[1]: polkit.service: Succeeded.
+5月 15 17:59:27 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+5月 15 21:27:13 ubuntu systemd[1]: Starting Authorization Manager...
+5月 15 21:27:13 ubuntu polkitd[843]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 15 21:27:13 ubuntu systemd[1]: Started Authorization Manager.
+5月 15 21:27:18 ubuntu polkitd(authority=local)[843]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 15 21:27:43 ubuntu polkitd(authority=local)[843]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 15 21:27:47 ubuntu polkitd(authority=local)[843]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+5月 15 22:59:14 ubuntu systemd[1]: Stopping Authorization Manager...
+5月 15 22:59:14 ubuntu systemd[1]: polkit.service: Succeeded.
+5月 15 22:59:14 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+5月 31 15:28:44 ubuntu systemd[1]: Starting Authorization Manager...
+5月 31 15:28:44 ubuntu polkitd[836]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 31 15:28:45 ubuntu systemd[1]: Started Authorization Manager.
+5月 31 15:28:49 ubuntu polkitd(authority=local)[836]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 31 15:30:21 ubuntu polkitd(authority=local)[836]: Registered Authentication Agent for unix-session:3 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 31 15:30:25 ubuntu polkitd(authority=local)[836]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+5月 31 16:03:14 ubuntu polkitd(authority=local)[836]: Operator of unix-session:3 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.112 [/usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map] (owned by unix-user:ree)
+5月 31 16:19:25 ubuntu polkitd(authority=local)[836]: Operator of unix-session:3 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.112 [/usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map] (owned by unix-user:ree)
+5月 31 16:19:37 ubuntu polkitd(authority=local)[836]: Unregistered Authentication Agent for unix-session:3 (system bus name :1.82, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+5月 31 16:19:37 ubuntu systemd[1]: Stopping Authorization Manager...
+5月 31 16:19:37 ubuntu systemd[1]: polkit.service: Succeeded.
+5月 31 16:19:37 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+5月 31 16:19:54 ubuntu systemd[1]: Starting Authorization Manager...
+5月 31 16:19:54 ubuntu polkitd[890]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 31 16:19:54 ubuntu systemd[1]: Started Authorization Manager.
+5月 31 16:19:57 ubuntu polkitd(authority=local)[890]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 31 16:20:10 ubuntu polkitd(authority=local)[890]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 31 16:20:13 ubuntu polkitd(authority=local)[890]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+5月 31 21:00:56 ubuntu systemd[1]: Starting Authorization Manager...
+5月 31 21:00:56 ubuntu polkitd[868]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 31 21:00:56 ubuntu systemd[1]: Started Authorization Manager.
+5月 31 21:01:02 ubuntu polkitd(authority=local)[868]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+5月 31 21:01:23 ubuntu polkitd(authority=local)[868]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+5月 31 21:01:28 ubuntu polkitd(authority=local)[868]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+6月 01 23:20:20 ubuntu systemd[1]: Starting Authorization Manager...
+6月 01 23:20:20 ubuntu polkitd[881]: started daemon version 0.105 using authority implementation `local' version `0.105'
+6月 01 23:20:21 ubuntu systemd[1]: Started Authorization Manager.
+6月 01 23:20:42 ubuntu polkitd(authority=local)[881]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+6月 01 23:21:48 ubuntu polkitd(authority=local)[881]: Registered Authentication Agent for unix-session:2 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+6月 01 23:22:06 ubuntu polkitd(authority=local)[881]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+6月 02 00:27:49 ubuntu polkitd(authority=local)[881]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.84, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+6月 02 00:27:49 ubuntu systemd[1]: Stopping Authorization Manager...
+6月 02 00:27:50 ubuntu systemd[1]: polkit.service: Succeeded.
+6月 02 00:27:50 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+6月 06 14:12:34 ubuntu systemd[1]: Starting Authorization Manager...
+6月 06 14:12:35 ubuntu polkitd[889]: started daemon version 0.105 using authority implementation `local' version `0.105'
+6月 06 14:12:35 ubuntu systemd[1]: Started Authorization Manager.
+6月 06 14:12:42 ubuntu polkitd(authority=local)[889]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+6月 06 14:12:54 ubuntu polkitd(authority=local)[889]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+6月 06 14:12:59 ubuntu polkitd(authority=local)[889]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+6月 06 15:33:46 ubuntu polkitd(authority=local)[889]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.81, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+6月 06 15:33:46 ubuntu systemd[1]: Stopping Authorization Manager...
+6月 06 15:33:46 ubuntu systemd[1]: polkit.service: Succeeded.
+6月 06 15:33:46 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+6月 06 15:39:28 ubuntu systemd[1]: Starting Authorization Manager...
+6月 06 15:39:29 ubuntu polkitd[888]: started daemon version 0.105 using authority implementation `local' version `0.105'
+6月 06 15:39:29 ubuntu systemd[1]: Started Authorization Manager.
+6月 06 15:39:41 ubuntu polkitd(authority=local)[888]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+6月 06 15:39:55 ubuntu polkitd(authority=local)[888]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+6月 06 15:40:00 ubuntu polkitd(authority=local)[888]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+6月 06 15:42:24 ubuntu systemd[1]: Stopping Authorization Manager...
+6月 06 15:42:24 ubuntu systemd[1]: polkit.service: Succeeded.
+6月 06 15:42:24 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+6月 06 15:44:09 ubuntu systemd[1]: Starting Authorization Manager...
+6月 06 15:44:09 ubuntu polkitd[824]: started daemon version 0.105 using authority implementation `local' version `0.105'
+6月 06 15:44:10 ubuntu systemd[1]: Started Authorization Manager.
+6月 06 15:44:33 ubuntu polkitd(authority=local)[824]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+6月 06 15:44:57 ubuntu polkitd(authority=local)[824]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+6月 06 15:45:02 ubuntu polkitd(authority=local)[824]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+6月 15 14:08:49 ubuntu systemd[1]: Starting Authorization Manager...
+6月 15 14:08:49 ubuntu polkitd[887]: started daemon version 0.105 using authority implementation `local' version `0.105'
+6月 15 14:08:49 ubuntu systemd[1]: Started Authorization Manager.
+6月 15 14:09:07 ubuntu polkitd(authority=local)[887]: Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+6月 15 15:13:39 ubuntu polkitd(authority=local)[887]: Registered Authentication Agent for unix-session:7 (system bus name :1.100 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+6月 15 15:13:45 ubuntu polkitd(authority=local)[887]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+6月 15 16:32:38 ubuntu polkitd(authority=local)[887]: Unregistered Authentication Agent for unix-session:7 (system bus name :1.100, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+6月 15 16:32:38 ubuntu systemd[1]: Stopping Authorization Manager...
+6月 15 16:32:38 ubuntu systemd[1]: polkit.service: Succeeded.
+6月 15 16:32:38 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+6月 16 14:48:28 ubuntu systemd[1]: Starting Authorization Manager...
+6月 16 14:48:28 ubuntu polkitd[830]: started daemon version 0.105 using authority implementation `local' version `0.105'
+6月 16 14:48:28 ubuntu systemd[1]: Started Authorization Manager.
+6月 16 14:48:34 ubuntu polkitd(authority=local)[830]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+6月 16 14:48:50 ubuntu polkitd(authority=local)[830]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+6月 16 14:48:54 ubuntu polkitd(authority=local)[830]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+6月 16 15:20:47 ubuntu polkitd(authority=local)[830]: Operator of unix-session:2 FAILED to authenticate to gain authorization for action org.freedesktop.login1.power-off-ignore-inhibit for system-bus-name::1.81 [/usr/libexec/gnome-session-binary --systemd-service --session=ubuntu] (owned by unix-user:ree)
+6月 16 15:21:00 ubuntu polkitd(authority=local)[830]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.freedesktop.login1.power-off-ignore-inhibit for system-bus-name::1.81 [/usr/libexec/gnome-session-binary --systemd-service --session=ubuntu] (owned by unix-user:ree)
+6月 16 15:21:00 ubuntu polkitd(authority=local)[830]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.82, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+-- Reboot --
+2月 25 16:36:14 ubuntu systemd[1]: Starting Authorization Manager...
+2月 25 16:36:14 ubuntu polkitd[833]: started daemon version 0.105 using authority implementation `local' version `0.105'
+2月 25 16:36:14 ubuntu systemd[1]: Started Authorization Manager.
+2月 25 16:36:23 ubuntu polkitd(authority=local)[833]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 25 16:36:47 ubuntu polkitd(authority=local)[833]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+2月 25 16:36:51 ubuntu polkitd(authority=local)[833]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2月 25 16:37:49 ubuntu polkitd(authority=local)[833]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.82, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+2月 25 16:37:52 ubuntu polkitd(authority=local)[833]: Registered Authentication Agent for unix-session:c2 (system bus name :1.133 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 25 16:38:02 ubuntu polkitd(authority=local)[833]: Registered Authentication Agent for unix-session:5 (system bus name :1.159 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2月 25 16:38:07 ubuntu polkitd(authority=local)[833]: Unregistered Authentication Agent for unix-session:c2 (system bus name :1.133, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+3月 27 17:52:49 ubuntu systemd[1]: Starting Authorization Manager...
+3月 27 17:52:49 ubuntu polkitd[833]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 27 17:52:49 ubuntu systemd[1]: Started Authorization Manager.
+3月 27 17:52:54 ubuntu polkitd(authority=local)[833]: Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 27 17:53:11 ubuntu polkitd(authority=local)[833]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 27 17:53:15 ubuntu polkitd(authority=local)[833]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 27 18:08:12 ubuntu polkitd(authority=local)[833]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.79, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 27 18:08:16 ubuntu polkitd(authority=local)[833]: Registered Authentication Agent for unix-session:c2 (system bus name :1.188 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+-- Reboot --
+3月 30 14:05:42 ubuntu systemd[1]: Starting Authorization Manager...
+3月 30 14:05:42 ubuntu polkitd[826]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 14:05:43 ubuntu systemd[1]: Started Authorization Manager.
+3月 30 14:06:14 ubuntu polkitd(authority=local)[826]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 14:15:38 ubuntu polkitd(authority=local)[826]: Registered Authentication Agent for unix-session:3 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 14:15:42 ubuntu polkitd(authority=local)[826]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 14:43:55 ubuntu polkitd(authority=local)[826]: Operator of unix-session:3 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.freedesktop.login1.reboot-ignore-inhibit for system-bus-name::1.82 [/usr/libexec/gnome-session-binary --systemd-service --session=ubuntu] (owned by unix-user:ree)
+3月 30 14:43:55 ubuntu polkitd(authority=local)[826]: Unregistered Authentication Agent for unix-session:3 (system bus name :1.83, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 14:44:00 ubuntu polkitd(authority=local)[826]: Registered Authentication Agent for unix-session:c2 (system bus name :1.215 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 14:44:04 ubuntu polkitd(authority=local)[826]: Unregistered Authentication Agent for unix-session:c2 (system bus name :1.215, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 14:44:05 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 30 14:44:05 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 30 14:44:05 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 30 14:44:33 ubuntu systemd[1]: Starting Authorization Manager...
+3月 30 14:44:33 ubuntu polkitd[828]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 14:44:33 ubuntu systemd[1]: Started Authorization Manager.
+3月 30 14:44:37 ubuntu polkitd(authority=local)[828]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 14:44:49 ubuntu polkitd(authority=local)[828]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 14:44:59 ubuntu polkitd(authority=local)[828]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 14:51:17 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 30 14:51:17 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 30 14:51:17 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 30 15:12:19 ubuntu systemd[1]: Starting Authorization Manager...
+3月 30 15:12:19 ubuntu polkitd[831]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 15:12:19 ubuntu systemd[1]: Started Authorization Manager.
+3月 30 15:12:24 ubuntu polkitd(authority=local)[831]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 15:12:43 ubuntu polkitd(authority=local)[831]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 15:12:47 ubuntu polkitd(authority=local)[831]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 15:12:58 ubuntu polkitd(authority=local)[831]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.79, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 15:12:58 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 30 15:12:58 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 30 15:12:58 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 30 15:18:40 ubuntu systemd[1]: Starting Authorization Manager...
+3月 30 15:18:40 ubuntu polkitd[830]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 15:18:40 ubuntu systemd[1]: Started Authorization Manager.
+3月 30 15:18:45 ubuntu polkitd(authority=local)[830]: Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 15:19:00 ubuntu polkitd(authority=local)[830]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 15:19:04 ubuntu polkitd(authority=local)[830]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 15:19:58 ubuntu polkitd(authority=local)[830]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.79, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 15:19:58 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 30 15:19:59 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 30 15:19:59 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 30 22:57:13 ubuntu systemd[1]: Starting Authorization Manager...
+3月 30 22:57:14 ubuntu polkitd[886]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 22:57:14 ubuntu systemd[1]: Started Authorization Manager.
+3月 30 22:57:18 ubuntu polkitd(authority=local)[886]: Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 22:57:49 ubuntu polkitd(authority=local)[886]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 22:57:53 ubuntu polkitd(authority=local)[886]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 22:59:12 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 30 22:59:12 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 30 22:59:12 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 30 23:00:45 ubuntu systemd[1]: Starting Authorization Manager...
+3月 30 23:00:45 ubuntu polkitd[829]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 23:00:45 ubuntu systemd[1]: Started Authorization Manager.
+3月 30 23:00:49 ubuntu polkitd(authority=local)[829]: Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 23:01:12 ubuntu polkitd(authority=local)[829]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 23:01:16 ubuntu polkitd(authority=local)[829]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.33, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 23:02:23 ubuntu polkitd(authority=local)[829]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.79, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 23:02:23 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 30 23:02:23 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 30 23:02:23 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 30 23:05:26 ubuntu systemd[1]: Starting Authorization Manager...
+3月 30 23:05:26 ubuntu polkitd[860]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 30 23:05:26 ubuntu systemd[1]: Started Authorization Manager.
+3月 30 23:05:31 ubuntu polkitd(authority=local)[860]: Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 23:05:43 ubuntu polkitd(authority=local)[860]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 23:05:46 ubuntu polkitd(authority=local)[860]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.33, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 23:06:56 ubuntu polkitd(authority=local)[860]: Registered Authentication Agent for unix-process:2820:9466 (system bus name :1.105 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 23:06:59 ubuntu polkitd(authority=local)[860]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.106 [systemctl start ssh.service] (owned by unix-user:ree)
+3月 30 23:06:59 ubuntu polkitd(authority=local)[860]: Unregistered Authentication Agent for unix-process:2820:9466 (system bus name :1.105, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 23:07:36 ubuntu polkitd(authority=local)[860]: Registered Authentication Agent for unix-process:3895:13532 (system bus name :1.112 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 30 23:07:39 ubuntu polkitd(authority=local)[860]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.113 [systemctl start ssh.service] (owned by unix-user:ree)
+3月 30 23:07:39 ubuntu polkitd(authority=local)[860]: Unregistered Authentication Agent for unix-process:3895:13532 (system bus name :1.112, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 23:14:09 ubuntu polkitd(authority=local)[860]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.79, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 30 23:14:09 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 30 23:14:09 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 30 23:14:09 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 31 18:40:19 ubuntu systemd[1]: Starting Authorization Manager...
+3月 31 18:40:19 ubuntu polkitd[892]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 31 18:40:20 ubuntu systemd[1]: Started Authorization Manager.
+3月 31 18:40:25 ubuntu polkitd(authority=local)[892]: Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 18:40:35 ubuntu polkitd(authority=local)[892]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 18:40:39 ubuntu polkitd(authority=local)[892]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 31 18:53:25 ubuntu polkitd(authority=local)[892]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.freedesktop.login1.power-off-ignore-inhibit for system-bus-name::1.80 [/usr/libexec/gnome-session-binary --systemd-service --session=ubuntu] (owned by unix-user:ree)
+3月 31 18:53:26 ubuntu polkitd(authority=local)[892]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.81, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 31 18:53:30 ubuntu polkitd(authority=local)[892]: Registered Authentication Agent for unix-session:c2 (system bus name :1.194 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 18:53:35 ubuntu polkitd(authority=local)[892]: Unregistered Authentication Agent for unix-session:c2 (system bus name :1.194, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 31 18:53:35 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 31 18:53:35 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 31 18:53:35 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 31 18:54:16 ubuntu systemd[1]: Starting Authorization Manager...
+3月 31 18:54:17 ubuntu polkitd[885]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 31 18:54:17 ubuntu systemd[1]: Started Authorization Manager.
+3月 31 18:54:23 ubuntu polkitd(authority=local)[885]: Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 18:54:35 ubuntu polkitd(authority=local)[885]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 18:54:38 ubuntu polkitd(authority=local)[885]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 31 19:01:42 ubuntu polkitd(authority=local)[885]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.79, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 31 19:01:43 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 31 19:01:43 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 31 19:01:43 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 31 19:04:01 ubuntu systemd[1]: Starting Authorization Manager...
+3月 31 19:04:01 ubuntu polkitd[832]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 31 19:04:01 ubuntu systemd[1]: Started Authorization Manager.
+3月 31 19:04:06 ubuntu polkitd(authority=local)[832]: Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 19:04:20 ubuntu polkitd(authority=local)[832]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 19:04:25 ubuntu polkitd(authority=local)[832]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 31 19:26:10 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 31 19:26:10 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 31 19:26:10 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 31 19:27:35 ubuntu systemd[1]: Starting Authorization Manager...
+3月 31 19:27:35 ubuntu polkitd[884]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 31 19:27:36 ubuntu systemd[1]: Started Authorization Manager.
+3月 31 19:27:42 ubuntu polkitd(authority=local)[884]: Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 19:28:02 ubuntu polkitd(authority=local)[884]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 19:28:06 ubuntu polkitd(authority=local)[884]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 31 19:41:25 ubuntu polkitd(authority=local)[884]: Registered Authentication Agent for unix-process:3966:83437 (system bus name :1.132 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 19:41:27 ubuntu polkitd(authority=local)[884]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.133 [systemctl restart sshd.service] (owned by unix-user:ree)
+3月 31 19:41:27 ubuntu polkitd(authority=local)[884]: Unregistered Authentication Agent for unix-process:3966:83437 (system bus name :1.132, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+3月 31 19:43:30 ubuntu systemd[1]: Starting Authorization Manager...
+3月 31 19:43:31 ubuntu polkitd[827]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 31 19:43:31 ubuntu systemd[1]: Started Authorization Manager.
+3月 31 19:43:35 ubuntu polkitd(authority=local)[827]: Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 19:43:49 ubuntu polkitd(authority=local)[827]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 19:43:53 ubuntu polkitd(authority=local)[827]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 31 19:50:19 ubuntu polkitd(authority=local)[827]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.117 [/usr/bin/python3 /usr/bin/update-manager] (owned by unix-user:ree)
+3月 31 19:56:55 ubuntu polkitd(authority=local)[827]: Operator of unix-session:2 successfully authenticated as unix-user:ree to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.117 [/usr/bin/python3 /usr/bin/update-manager] (owned by unix-user:ree)
+3月 31 19:57:56 ubuntu polkitd(authority=local)[827]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.79, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 31 19:57:56 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 31 19:57:56 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 31 19:57:56 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 31 19:58:20 ubuntu systemd[1]: Starting Authorization Manager...
+3月 31 19:58:20 ubuntu polkitd[866]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 31 19:58:20 ubuntu systemd[1]: Started Authorization Manager.
+3月 31 19:58:23 ubuntu polkitd(authority=local)[866]: Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 20:02:38 ubuntu polkitd(authority=local)[866]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 20:02:42 ubuntu polkitd(authority=local)[866]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 31 20:03:15 ubuntu polkitd(authority=local)[866]: Operator of unix-session:2 FAILED to authenticate to gain authorization for action com.ubuntu.release-upgrader.release-upgrade for unix-process:1556:26222 [/lib/systemd/systemd --user] (owned by unix-user:ree)
+3月 31 20:09:57 ubuntu polkitd(authority=local)[866]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.80, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 31 20:09:57 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 31 20:09:57 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 31 20:09:57 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+3月 31 20:24:35 ubuntu systemd[1]: Starting Authorization Manager...
+3月 31 20:24:35 ubuntu polkitd[876]: started daemon version 0.105 using authority implementation `local' version `0.105'
+3月 31 20:24:35 ubuntu systemd[1]: Started Authorization Manager.
+3月 31 20:24:41 ubuntu polkitd(authority=local)[876]: Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 20:25:06 ubuntu polkitd(authority=local)[876]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+3月 31 20:25:10 ubuntu polkitd(authority=local)[876]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+3月 31 21:06:51 ubuntu systemd[1]: Stopping Authorization Manager...
+3月 31 21:06:52 ubuntu systemd[1]: polkit.service: Succeeded.
+3月 31 21:06:52 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 02 17:05:04 ubuntu systemd[1]: Starting Authorization Manager...
+4月 02 17:05:04 ubuntu polkitd[879]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 02 17:05:04 ubuntu systemd[1]: Started Authorization Manager.
+4月 02 17:05:09 ubuntu polkitd(authority=local)[879]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 02 17:05:20 ubuntu polkitd(authority=local)[879]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 02 17:05:24 ubuntu polkitd(authority=local)[879]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 02 17:13:52 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 02 17:13:52 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 02 17:13:52 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 14 20:21:36 ubuntu systemd[1]: Starting Authorization Manager...
+4月 14 20:21:37 ubuntu polkitd[816]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 14 20:21:37 ubuntu systemd[1]: Started Authorization Manager.
+4月 14 20:21:46 ubuntu polkitd(authority=local)[816]: Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 14 20:22:02 ubuntu polkitd(authority=local)[816]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 14 20:21:59 ubuntu polkitd(authority=local)[816]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 14 20:54:40 ubuntu polkitd(authority=local)[816]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.81, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 14 20:54:40 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 14 20:54:40 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 14 20:54:40 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 14 20:55:48 ubuntu systemd[1]: Starting Authorization Manager...
+4月 14 20:55:48 ubuntu polkitd[874]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 14 20:55:49 ubuntu systemd[1]: Started Authorization Manager.
+4月 14 20:55:57 ubuntu polkitd(authority=local)[874]: Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 14 20:56:35 ubuntu polkitd(authority=local)[874]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 14 20:56:38 ubuntu polkitd(authority=local)[874]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+-- Reboot --
+4月 15 22:30:52 ubuntu systemd[1]: Starting Authorization Manager...
+4月 15 22:31:07 ubuntu polkitd[892]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 15 22:31:07 ubuntu systemd[1]: Started Authorization Manager.
+4月 15 22:31:12 ubuntu polkitd(authority=local)[892]: Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 15 22:32:10 ubuntu polkitd(authority=local)[892]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 15 22:32:13 ubuntu polkitd(authority=local)[892]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+4月 15 22:43:25 ubuntu systemd[1]: Stopping Authorization Manager...
+4月 15 22:43:25 ubuntu systemd[1]: polkit.service: Succeeded.
+4月 15 22:43:25 ubuntu systemd[1]: Stopped Authorization Manager.
+-- Reboot --
+4月 15 22:43:42 ubuntu systemd[1]: Starting Authorization Manager...
+4月 15 22:43:42 ubuntu polkitd[879]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 15 22:43:42 ubuntu systemd[1]: Started Authorization Manager.
+4月 15 22:43:45 ubuntu polkitd(authority=local)[879]: Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 15 22:57:39 ubuntu polkitd(authority=local)[879]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+4月 15 22:57:42 ubuntu polkitd(authority=local)[879]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+
