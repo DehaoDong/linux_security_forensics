@@ -1,7 +1,6 @@
 import os
 import re
 import glob
-import subprocess
 
 from modules import log, output_result
 

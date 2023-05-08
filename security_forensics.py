@@ -2,9 +2,9 @@ import argparse
 import os
 import sys
 
-from modules import check_alias, check_process, check_connections, check_login, check_operations, \
-    check_webservers, check_files, check_startups, check_app_packages, check_backdoors, output_result, get_host_info, \
-    log, get_users_info, back_up_important_system_files, check_ssh
+from modules import alias_forensics, process_forensics, connection_forensics, login_forensics, operation_forensics, \
+    webserver_forensics, file_forensics, startup_forensics, app_package_forensics, backdoor_forensics, output_result, get_host_info, \
+    log, get_users_info, backup_sys_file, ssh_forensics
 
 if __name__ == "__main__":
     # running options
@@ -40,7 +40,8 @@ if __name__ == "__main__":
     if len(sys.argv) == 1:
         parser.print_help()
         print("\n*请使用root模式运行(Please run in root mode)\n")
-        print("*请使用'./python security_forensics.py'来避免被系统劫持影响(Please use '. /python security_forensics.py' to avoid being affected by system hijacking)\n")
+        print("*请使用'./python security_forensics.py'来避免被系统劫持影响(Please use '. /python security_forensics.py' "
+              "to avoid being affected by system hijacking)\n")
         sys.exit()
 
     # get host information
@@ -67,69 +68,69 @@ if __name__ == "__main__":
         log.print_and_log('执行所有检查(Running all checks)...\n')
         get_users_info.main()
         print()
-        back_up_important_system_files.main()
+        backup_sys_file.main()
         print()
-        check_alias.main()
+        alias_forensics.main()
         print()
-        check_backdoors.main()
+        backdoor_forensics.main()
         print()
-        check_ssh.main()
+        ssh_forensics.main()
         print()
-        check_login.main()
+        login_forensics.main()
         print()
-        check_connections.main()
+        connection_forensics.main()
         print()
-        check_process.main()
+        process_forensics.main()
         print()
-        check_startups.main()
+        startup_forensics.main()
         print()
-        check_operations.main()
+        operation_forensics.main()
         print()
-        check_webservers.main()
+        webserver_forensics.main()
         print()
-        check_files.main()
+        file_forensics.main()
         print()
-        check_app_packages.main()
+        app_package_forensics.main()
         print()
     else:
         if args.alias:
-            check_alias.main()
+            alias_forensics.main()
             print()
         if args.user:
             get_users_info.main()
             print()
         if args.sysfile:
-            back_up_important_system_files.main()
+            backup_sys_file.main()
             print()
         if args.backdoor:
-            check_backdoors.main()
+            backdoor_forensics.main()
             print()
         if args.ssh:
-            check_ssh.main()
+            ssh_forensics.main()
             print()
         if args.proc:
-            check_process.main()
+            process_forensics.main()
             print()
         if args.conn:
-            check_connections.main()
+            connection_forensics.main()
             print()
         if args.login:
-            check_login.main()
+            login_forensics.main()
             print()
         if args.oper:
-            check_operations.main()
+            operation_forensics.main()
             print()
         if args.server:
-            check_webservers.main()
+            webserver_forensics.main()
             print()
         if args.file:
-            check_files.main()
+            file_forensics.main()
             print()
         if args.startup:
-            check_startups.main()
+            startup_forensics.main()
             print()
         if args.pkg:
-            check_app_packages.main()
+            app_package_forensics.main()
             print()
 
     output_result.compress_results()

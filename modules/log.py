@@ -18,6 +18,6 @@ def creat_new_log():
 
     # 创建日志文件
     log_filename = f"{current_time}_log.txt"
-    log_file_path = os.path.join('./log', log_filename)
+    log_file_path = os.path.join('./logs', log_filename)
     open(log_file_path, "wb")
     return log_file_path
