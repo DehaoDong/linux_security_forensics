@@ -2,25 +2,39 @@ import subprocess
 from modules import log, output_result
 
 
-# 获取可用的包管理器以及已安装的软件包
 def get_installed_packages():
     pkg_managers = [
-        ("dpkg-query -W -f='${Package}\n'", "dpkg -V"),
-        ("rpm -qa", "rpm -V"),
-        ("pacman -Q", "pacman -Qkk")
+        ("dpkg-query -W -f='${Package}\n'", "dpkg -s", "dpkg -V"),
+        ("rpm -qa", "rpm -qi", "rpm -V"),
+        ("pacman -Q", "pacman -Qi", "pacman -Qkk")
     ]
 
-    for list_command, verify_command in pkg_managers:
+    for list_command, info_command, verify_command in pkg_managers:
         try:
             result = subprocess.run(list_command, capture_output=True, text=True, shell=True)
             if result.returncode == 0:
                 output = result.stdout
                 packages = output.splitlines()
-                return packages, verify_command
+                return packages, info_command, verify_command
         except FileNotFoundError:
             pass
 
     raise ValueError("No supported package manager found.")
+
+
+def get_package_info(package, info_command):
+    command = f"{info_command} {package}"
+    try:
+        result = subprocess.run(command, capture_output=True, text=True, shell=True)
+        output = result.stdout
+
+        if output:
+            return output
+        else:
+            return f"No information found for package {package}"
+    except Exception as e:
+        log.print_and_log(f"Error while retrieving package info for {package}: {e}")
+        return None
 
 
 def verify_packages(packages, verify_command):
@@ -40,9 +54,14 @@ def verify_packages(packages, verify_command):
 
 def main():
     log.print_and_log("Checking app packages...")
-    installed_packages, verify_command = get_installed_packages()
-    packages_string = "\n".join(installed_packages)
-    output_result.write_content("app_packages.txt", packages_string)
+    installed_packages, info_command, verify_command = get_installed_packages()
+
+    log.print_and_log("Backing up details of packages...")
+    for package in installed_packages:
+        package_info = get_package_info(package, info_command)
+        if package_info:
+            output_result.write_content("app_packages.txt", package_info)
+
     verify_packages(installed_packages, verify_command)
 
 

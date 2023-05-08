@@ -1,0 +1,91 @@
+
+Start-Date: 2023-05-04  19:13:59
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: ipp-usb:amd64 (0.9.20-1, 0.9.20-1ubuntu0.22.04.1)
+End-Date: 2023-05-04  19:13:59
+
+Start-Date: 2023-05-04  19:14:03
+Commandline: /usr/bin/unattended-upgrade
+Install: linux-image-5.19.0-41-generic:amd64 (5.19.0-41.42~22.04.1, automatic), linux-headers-5.19.0-41-generic:amd64 (5.19.0-41.42~22.04.1, automatic), linux-modules-5.19.0-41-generic:amd64 (5.19.0-41.42~22.04.1, automatic), linux-hwe-5.19-headers-5.19.0-41:amd64 (5.19.0-41.42~22.04.1, automatic), linux-modules-extra-5.19.0-41-generic:amd64 (5.19.0-41.42~22.04.1, automatic)
+Upgrade: linux-image-generic-hwe-22.04:amd64 (5.19.0.38.39~22.04.12, 5.19.0.41.42~22.04.14), linux-headers-generic-hwe-22.04:amd64 (5.19.0.38.39~22.04.12, 5.19.0.41.42~22.04.14), linux-generic-hwe-22.04:amd64 (5.19.0.38.39~22.04.12, 5.19.0.41.42~22.04.14)
+End-Date: 2023-05-04  19:14:32
+
+Start-Date: 2023-05-04  19:14:35
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: openssl:amd64 (3.0.2-0ubuntu1.8, 3.0.2-0ubuntu1.9)
+End-Date: 2023-05-04  19:14:35
+
+Start-Date: 2023-05-04  19:14:38
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: xxd:amd64 (2:8.2.3995-1ubuntu2.5, 2:8.2.3995-1ubuntu2.7)
+End-Date: 2023-05-04  19:14:39
+
+Start-Date: 2023-05-04  19:14:42
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libssl3:amd64 (3.0.2-0ubuntu1.8, 3.0.2-0ubuntu1.9)
+End-Date: 2023-05-04  19:14:42
+
+Start-Date: 2023-05-04  19:14:45
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: vim-common:amd64 (2:8.2.3995-1ubuntu2.5, 2:8.2.3995-1ubuntu2.7), vim-tiny:amd64 (2:8.2.3995-1ubuntu2.5, 2:8.2.3995-1ubuntu2.7)
+End-Date: 2023-05-04  19:14:46
+
+Start-Date: 2023-05-04  19:14:49
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: linux-firmware:amd64 (20220329.git681281e4-0ubuntu3.11, 20220329.git681281e4-0ubuntu3.12)
+End-Date: 2023-05-04  19:15:27
+
+Start-Date: 2023-05-04  19:15:30
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libxml2:amd64 (2.9.13+dfsg-1ubuntu0.2, 2.9.13+dfsg-1ubuntu0.3)
+End-Date: 2023-05-04  19:15:30
+
+Start-Date: 2023-05-04  19:15:33
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: dnsmasq-base:amd64 (2.86-1.1ubuntu0.2, 2.86-1.1ubuntu0.3)
+End-Date: 2023-05-04  19:15:33
+
+Start-Date: 2023-05-04  19:15:37
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: git:amd64 (1:2.34.1-1ubuntu1.8, 1:2.34.1-1ubuntu1.9)
+End-Date: 2023-05-04  19:15:37
+
+Start-Date: 2023-05-04  19:15:40
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: linux-libc-dev:amd64 (5.15.0-69.76, 5.15.0-71.78)
+End-Date: 2023-05-04  19:15:41
+
+Start-Date: 2023-05-04  19:15:44
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: git-man:amd64 (1:2.34.1-1ubuntu1.8, 1:2.34.1-1ubuntu1.9)
+End-Date: 2023-05-04  19:15:44
+
+Start-Date: 2023-05-04  19:15:48
+Commandline: /usr/bin/unattended-upgrade
+Remove: linux-headers-5.19.0-35-generic:amd64 (5.19.0-35.36~22.04.1), linux-hwe-5.19-headers-5.19.0-35:amd64 (5.19.0-35.36~22.04.1)
+End-Date: 2023-05-04  19:15:50
+
+Start-Date: 2023-05-04  19:15:53
+Commandline: /usr/bin/unattended-upgrade
+Remove: linux-image-5.19.0-35-generic:amd64 (5.19.0-35.36~22.04.1)
+End-Date: 2023-05-04  19:15:54
+
+Start-Date: 2023-05-04  19:15:58
+Commandline: /usr/bin/unattended-upgrade
+Remove: linux-modules-5.19.0-35-generic:amd64 (5.19.0-35.36~22.04.1), linux-modules-extra-5.19.0-35-generic:amd64 (5.19.0-35.36~22.04.1)
+End-Date: 2023-05-04  19:16:00
+
+Start-Date: 2023-05-07  16:40:19
+Commandline: apt-get install -y build-essential wget libssl-dev zlib1g-dev
+Install: libssl-dev:amd64 (3.0.2-0ubuntu1.9)
+End-Date: 2023-05-07  16:40:19
+
+Start-Date: 2023-05-07  16:43:14
+Commandline: apt-get install -y build-essential wget libssl-dev zlib1g-dev libbz2-dev libreadline-dev libncurses5-dev libgdbm-dev libnss3-dev libsqlite3-dev libffi-dev
+Install: libbz2-dev:amd64 (1.0.8-5build1), libreadline-dev:amd64 (8.1.2-1), libncurses5-dev:amd64 (6.3-2), libnspr4-dev:amd64 (2:4.32-3build1, automatic), libnss3-dev:amd64 (2:3.68.2-0ubuntu1.2), libffi-dev:amd64 (3.4.2-4), libsqlite3-dev:amd64 (3.37.2-2ubuntu0.1), libncurses-dev:amd64 (6.3-2, automatic), libgdbm-dev:amd64 (1.23-1), bzip2-doc:amd64 (1.0.8-5build1, automatic)
+End-Date: 2023-05-07  16:43:15
+
+Start-Date: 2023-05-08  13:39:27
+Commandline: apt install tree
+Install: tree:amd64 (2.0.2-1)
+End-Date: 2023-05-08  13:39:27

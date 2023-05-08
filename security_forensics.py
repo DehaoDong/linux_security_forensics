@@ -4,7 +4,7 @@ import sys
 
 from modules import alias_forensics, process_forensics, connection_forensics, login_forensics, operation_forensics, \
     webserver_forensics, file_forensics, startup_forensics, app_package_forensics, backdoor_forensics, output_result, get_host_info, \
-    log, get_users_info, backup_sys_file, ssh_forensics
+    log, get_users_info, backup_sys_file, ssh_forensics, disable_network
 
 if __name__ == "__main__":
     # running options
@@ -20,6 +20,8 @@ if __name__ == "__main__":
                         dest='output_dir',
                         help='指定取证结果存储目录(Specify directory for storing forensics result) <default is \'./results\'>'
                         )
+    parser.add_argument('-i', '--isolate', action='store_true', help='断开所有网络连接隔离本机(Disable all network '
+                                                                     'connections to isolate this machine)')
     parser.add_argument('-a', '--all', action='store_true', help='运行所有检查(Run all checks)')
     parser.add_argument('--user', action='store_true', help='备份用户信息(Back up users\' information)')
     parser.add_argument('--sysfile', action='store_true', help='备份重要系统文件(Back up important system files)')
@@ -63,6 +65,10 @@ if __name__ == "__main__":
         log.print_and_log(f"{key}: {value}")
         output_result.write_content("host_info.txt", f"{key}: {value}")
     print()
+
+    # 断网隔离
+    if args.isolate:
+        disable_network.main()
 
     if args.all:
         log.print_and_log('执行所有检查(Running all checks)...\n')

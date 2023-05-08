@@ -1,0 +1,144 @@
+fd: 12
+family: AF_INET
+type: SOCK_DGRAM
+local_address: 0.0.0.0:5353
+remote_address: -
+status: NONE
+pid: 901
+
+
+fd: 3
+family: AF_INET
+type: SOCK_STREAM
+local_address: 0.0.0.0:22
+remote_address: -
+status: LISTEN
+pid: 1029
+
+
+fd: 277
+family: AF_INET6
+type: SOCK_STREAM
+local_address: ::ffff:127.0.0.1:63342
+remote_address: ::ffff:127.0.0.1:49702
+status: ESTABLISHED
+pid: 8458
+
+
+fd: 25
+family: AF_INET6
+type: SOCK_STREAM
+local_address: ::ffff:127.0.0.1:6942
+remote_address: -
+status: LISTEN
+pid: 8458
+
+
+fd: 14
+family: AF_INET
+type: SOCK_STREAM
+local_address: 127.0.0.53:53
+remote_address: -
+status: LISTEN
+pid: 661
+
+
+fd: 13
+family: AF_INET
+type: SOCK_DGRAM
+local_address: 127.0.0.53:53
+remote_address: -
+status: NONE
+pid: 661
+
+
+fd: 6
+family: AF_INET6
+type: SOCK_STREAM
+local_address: ::1:631
+remote_address: -
+status: LISTEN
+pid: 13245
+
+
+fd: 7
+family: AF_INET
+type: SOCK_DGRAM
+local_address: 0.0.0.0:631
+remote_address: -
+status: NONE
+pid: 13247
+
+
+fd: 4
+family: AF_INET6
+type: SOCK_STREAM
+local_address: :::22
+remote_address: -
+status: LISTEN
+pid: 1029
+
+
+fd: 15
+family: AF_INET6
+type: SOCK_DGRAM
+local_address: :::39438
+remote_address: -
+status: NONE
+pid: 901
+
+
+fd: 25
+family: AF_INET
+type: SOCK_DGRAM
+local_address: 192.168.101.25:68
+remote_address: 192.168.101.1:67
+status: NONE
+pid: 907
+
+
+fd: 14
+family: AF_INET
+type: SOCK_DGRAM
+local_address: 0.0.0.0:54782
+remote_address: -
+status: NONE
+pid: 901
+
+
+fd: 13
+family: AF_INET6
+type: SOCK_DGRAM
+local_address: :::5353
+remote_address: -
+status: NONE
+pid: 901
+
+
+fd: 7
+family: AF_INET
+type: SOCK_STREAM
+local_address: 127.0.0.1:631
+remote_address: -
+status: LISTEN
+pid: 13245
+
+
+fd: 67
+family: AF_INET6
+type: SOCK_STREAM
+local_address: ::ffff:127.0.0.1:63342
+remote_address: -
+status: LISTEN
+pid: 8458
+
+
+fd: 24
+family: AF_INET
+type: SOCK_STREAM
+local_address: 127.0.0.1:49702
+remote_address: 127.0.0.1:63342
+status: ESTABLISHED
+pid: 9907
+
+
