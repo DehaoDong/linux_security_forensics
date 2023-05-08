@@ -55,6 +55,13 @@ def main():
 
     # 获取所有用户的.bash_history文件
     history_files = [os.path.join(user_dir, '.bash_history') for user_dir in user_dirs]
+    # 添加root用户的.bash_history文件
+    root_history_file = '/root/.bash_history'
+    if os.path.exists(root_history_file):
+        history_files.append(root_history_file)
+
+    for history_file in history_files:
+        output_result.write_content(f"operations/{history_file.replace('/', '_')}", history_file)
 
     # 检查境外IP操作
     geoip_db_path = './data/GeoLite2-Country.mmdb'

@@ -44,6 +44,7 @@ def check_wtmp():
         wtmp_infos = p1.stdout.read().decode().splitlines()
         for wtmp_info in wtmp_infos:
             if wtmp_info:
+                output_result.write_content("login/wtmp", wtmp_info)
                 user, *_ = re.split(r'\s+', wtmp_info)
                 ip = extract_ipv4_ipv6_address(wtmp_info)
                 if ip:
@@ -62,6 +63,7 @@ def check_utmp():
         utmp_infos = p1.stdout.read().decode().splitlines()
         for utmp_info in utmp_infos:
             if utmp_info:
+                output_result.write_content("login/utmp", utmp_info)
                 user, *_ = re.split(r'\s+', utmp_info)
                 ip = extract_ipv4_ipv6_address(utmp_info)
                 if ip:
@@ -83,6 +85,7 @@ def check_lastlog():
         lastlogs = p1.stdout.read().decode().splitlines()
         for lastlog in lastlogs:
             if lastlog:
+                output_result.write_content("login/lastlog", lastlog)
                 user, *_ = re.split(r'\s+', lastlog)
                 ip = extract_ipv4_ipv6_address(lastlog)
                 if ip:

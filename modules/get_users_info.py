@@ -28,25 +28,29 @@ def main():
     log.print_and_log("Storing information of users...")
     login_records = get_login_records()
 
+    users_info = ""
     for record in login_records:
         record_parts = record.split()
         username, tty, login_time = record_parts[0], record_parts[1], " ".join(record_parts[2:])
-
-        output_result.write_content("users_info.txt", f"Username: {username}")
-        output_result.write_content("users_info.txt", f"TTY: {tty}")
-        output_result.write_content("users_info.txt", f"Login time: {login_time}")
+        log.print_and_log(f"Storing record of {username}...")
 
         user_info = get_user_details(username)
-        output_result.write_content("users_info.txt", f"User ID: {user_info.pw_uid}")
-        output_result.write_content("users_info.txt", f"Full name: {user_info.pw_gecos}")
-        output_result.write_content("users_info.txt", f"Home directory: {user_info.pw_dir}")
-        output_result.write_content("users_info.txt", f"Shell: {user_info.pw_shell}")
-
-        output_result.write_content("users_info.txt", "Related processes:")
         user_processes = get_user_processes(username)
-        output_result.write_content("users_info.txt", user_processes)
 
-        output_result.write_content("users_info.txt", '')
+        user_info_text = f"""Username: {username}
+TTY: {tty}
+Login time: {login_time}
+User ID: {user_info.pw_uid}
+Full name: {user_info.pw_gecos}
+Home directory: {user_info.pw_dir}
+Shell: {user_info.pw_shell}
+Related processes:
+{user_processes}
+"""
+
+        users_info += user_info_text + "\n"
+
+    output_result.write_content("users_info.txt", users_info.strip())
 
     if not login_records:
         log.print_and_log("No login records found.")

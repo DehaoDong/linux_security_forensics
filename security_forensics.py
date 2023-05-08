@@ -29,7 +29,7 @@ if __name__ == "__main__":
     parser.add_argument('--proc', action='store_true', help='检查进程(Check processes)')
     parser.add_argument('--conn', action='store_true', help='检查网络连接(Check net connections)')
     parser.add_argument('--login', action='store_true', help='检查用户登录日志(Check user login logs)')
-    parser.add_argument('--op', action='store_true', help='检查用户历史操作(Check user history operations)')
+    parser.add_argument('--oper', action='store_true', help='检查用户历史操作(Check user history operations)')
     parser.add_argument('--server', action='store_true', help='检查web服务器(Check web servers)')
     parser.add_argument('--file', action='store_true', help='检查异常文件(Check files)')
     parser.add_argument('--startup', action='store_true', help='检查系统启动项(Check startups)')
@@ -116,7 +116,7 @@ if __name__ == "__main__":
         if args.login:
             check_login.main()
             print()
-        if args.op:
+        if args.oper:
             check_operations.main()
             print()
         if args.server:

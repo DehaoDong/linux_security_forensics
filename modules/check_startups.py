@@ -1,119 +1,61 @@
-import glob
 import os
-import subprocess
-from modules import log, output_result
+import stat
+import re
+
+from modules import output_result, log
 
 
-def get_init_system():
-    try:
-        output = subprocess.check_output(['ps', '-p', '1', '-o', 'comm='], text=True)
-    except subprocess.CalledProcessError:
-        log.print_and_log("Error: Unable to determine init system")
-        return None
-
-    output = output.strip()
-    if output == 'init':
-        return 'SysV'
-    elif output == 'systemd':
-        return 'Systemd'
-    elif output == 'upstart':
-        return 'Upstart'
-    else:
-        log.print_and_log(f"Unknown init system: {output}")
-        return None
+# 检测非标准或意外的目录
+def check_directory(path):
+    standard_directories = ['/etc/init.d', '/etc/rc.d', '/etc/systemd/system']
+    return path not in standard_directories
 
 
-def systemd_services():
-    output = subprocess.check_output(['systemctl', 'list-unit-files', '--type=service'], text=True)
-    services = []
-    for line in output.splitlines():
-        if line:
-            service_name = line.strip().split()[0]
-            services.append(service_name)
-    return services
+# 检测不寻常的权限设置
+def check_unusual_permissions(filepath):
+    file_stat = os.stat(filepath)
+    executable = bool(file_stat.st_mode & stat.S_IXUSR)
+    readable = bool(file_stat.st_mode & stat.S_IRUSR)
+    return executable and not readable
 
 
-def backup_systemd_logs(services):
-    for service in services:
-        log.print_and_log(f"Backing up {service}.log")
-        journalctl_output = subprocess.check_output(['journalctl', '-u', service], text=True, errors='ignore')
-        output_result.write_content(f"startup/{service}.log", journalctl_output)
+# 检测是否试图隐藏行为
+def check_hidden_behavior(filepath):
+    with open(filepath, 'r') as file:
+        content = file.read()
+        if re.search(r'>\s*/dev/null', content) and re.search(r'\bnohup\b', content) and re.search(r'\s&\s*$', content):
+            return True
+    return False
 
 
-def check_systemd_service_files(services):
-    for service in services:
-        service_file = f"/etc/systemd/system/{service}.conf"
-
-        log.print_and_log(f"Backing up service file for {service}:")
-
-        output_result.write_content(f"startup/{service}.conf", service_file)
-
-
-def sysv_services():
-    init_scripts = glob.glob('/etc/init.d/*')
-    services = [os.path.basename(script) for script in init_scripts]
-    return services
-
-
-def backup_sysv_logs(services):
-    for service in services:
-        log.print_and_log(f"Backing up {service}.log")
-        log_path = f"/var/log/{service}.log"
-        if os.path.exists(log_path):
-            output_result.write_content(f"startup/{service}.log", log_path)
-
-
-def check_sysv_service_files(services):
-    for service in services:
-        service_file = f"/etc/init.d/{service}.conf"
-
-        log.print_and_log(f"Backing up service file for {service}:")
-
-        output_result.write_content(f"startup/{service}.conf", service_file)
-
-
-def upstart_services():
-    conf_files = glob.glob('/etc/init/*.conf')
-    services = [os.path.splitext(os.path.basename(conf))[0] for conf in conf_files]
-    return services
-
-
-def backup_upstart_logs(services):
-    for service in services:
-        log.print_and_log(f"Backing up {service}.log")
-        log_path = f"/var/log/upstart/{service}.log"
-        if os.path.exists(log_path):
-            output_result.write_content(f"startup/{service}.log", log_path)
-
-
-def check_upstart_service_files(services):
-    for service in services:
-        service_file = f"/etc/init/{service}.conf"
-
-        log.print_and_log(f"Backing up service file for {service}")
-
-        output_result.write_content(f"startup/{service}.conf", service_file)
-
-
+# 主函数
 def main():
     log.print_and_log("Checking startups...")
-    init_system = get_init_system()
-    log.print_and_log(f"Init system: {init_system}")
+    directories_to_check = ['/etc/init.d', '/etc/rc.d', '/etc/systemd/system']
 
-    if init_system == 'Systemd':
-        services = systemd_services()
-        backup_systemd_logs(services)
-        # check_systemd_service_files(services)
-    elif init_system == 'SysV':
-        services = sysv_services()
-        backup_sysv_logs(services)
-        # check_sysv_service_files(services)
-    elif init_system == 'Upstart':
-        services = upstart_services()
-        backup_upstart_logs(services)
-        # check_upstart_service_files(services)
-    else:
-        log.print_and_log("Unsupported init system")
+    for directory in directories_to_check:
+        if not os.path.exists(directory):
+            continue
+
+        for filename in os.listdir(directory):
+            file_path = os.path.join(directory, filename)
+
+            log.print_and_log(f"Checking {file_path}")
+            # 备份
+            output_result.write_content(f"startups/{file_path.replace('/', '_')}", file_path)
+
+            if os.path.isfile(file_path):
+                if check_directory(directory):
+                    log.print_and_log(f"Non-standard directory: {file_path}: {directory}")
+                    output_result.write_content("suspicious.txt", f"Non-standard directory: {file_path}: {directory}")
+
+                if check_unusual_permissions(file_path):
+                    log.print_and_log(f"Unusual permissions: {file_path}")
+                    output_result.write_content("suspicious.txt", f"Unusual permissions: {file_path}")
+
+                if check_hidden_behavior(file_path):
+                    log.print_and_log(f"Hidden behavior: {file_path}")
+                    output_result.write_content("suspicious.txt", f"Hidden behavior: {file_path}")
 
 
 if __name__ == "__main__":

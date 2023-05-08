@@ -33,6 +33,8 @@ def check_tag(tag, mode='only'):
     for dir in os.listdir('/home/'):
         for home_file in home_files:
             file = os.path.join(f'/home/{dir}{home_file}')
+            # 备份
+            output_result.write_content(f"backdoor/env/{file.replace('/', '_')}", file)
             info = check_conf(tag, file, mode)
             if info:
                 suspicious = True
@@ -40,10 +42,14 @@ def check_tag(tag, mode='only'):
     for file in files:
         if os.path.isdir(file):
             for f in glob.glob(os.path.join(file, '*')):
+                # 备份
+                output_result.write_content(f"backdoor/env/{f.replace('/', '_')}", f)
                 info = check_conf(tag, f, mode)
                 if info:
                     suspicious = True
         else:
+            # 备份
+            output_result.write_content(f"backdoor/env/{file.replace('/', '_')}", file)
             info = check_conf(tag, file, mode)
             if info:
                 suspicious = True
@@ -54,6 +60,10 @@ def check_tag(tag, mode='only'):
 def check_environment_variable_backdoors():
     backdoor_variables = ['LD_PRELOAD', 'LD_AOUT_PRELOAD', 'LD_ELF_PRELOAD', 'LD_LIBRARY_PATH', 'PROMPT_COMMAND']
     found_backdoors = []
+
+    # 备份running env
+    for key, value in os.environ.items():
+        output_result.write_content("backdoor/env/running_env.txt", f"{key}={value}\n")
 
     for var in backdoor_variables:
         # 检查运行中的环境变量
@@ -74,6 +84,7 @@ def check_ld_so_preload_backdoors():
         with open(ld_so_preload_path) as f:
             content = f.read().strip()
             if content:
+                output_result.write_content("backdoor/ld.so.preload", ld_so_preload_path)
                 sopreload_backdoors.append(('ld.so.preload', content))
     return sopreload_backdoors
 
@@ -99,6 +110,7 @@ def check_cron():
     for cron_dir in cron_dirs:
         if os.path.isdir(cron_dir):
             for file in glob.glob(os.path.join(cron_dir, '*')):
+                output_result.write_content(f"backdoor/cron/{file.replace('/', '_')}", file)
                 if is_malicious_cron(file):
                     suspicious_files.append(file)
     return suspicious_files
@@ -117,6 +129,7 @@ def check_ssh():
 def check_ssh_wrapper():
     sshd_path = '/usr/sbin/sshd'
     if os.path.exists(sshd_path) and os.path.isfile(sshd_path):
+        output_result.write_content("backdoor/sshd", sshd_path)
         return not os.access(sshd_path, os.X_OK)
     return False
 
@@ -125,6 +138,7 @@ def check_inetd():
     suspicious_inetd = []
     inetd_conf = '/etc/inetd.conf'
     if os.path.exists(inetd_conf):
+        output_result.write_content(f"backdoor/{inetd_conf.replace('/', '_')}")
         with open(inetd_conf) as f:
             for line in f:
                 if line and line[0] != '#' and re.search(r'\b(?:echo|discard|chargen|daytime|time)\b', line):
@@ -137,6 +151,7 @@ def check_xinetd():
     xinetd_conf_dir = '/etc/xinetd.d'
     if os.path.exists(xinetd_conf_dir) and os.path.isdir(xinetd_conf_dir):
         for file in glob.glob(os.path.join(xinetd_conf_dir, '*')):
+            output_result.write_content(f"backdoor/{file.replace('/', '_')}", file)
             with open(file) as f:
                 for line in f:
                     if line and line[0] != '#' and 'disable' in line and 'no' in line:
@@ -148,6 +163,7 @@ def check_xinetd():
 def check_setuid():
     suspicious_setuid_files = []
     output = subprocess.check_output(['find', '/', '-perm', '-4000', '-type', 'f', '2>/dev/null'])
+    output_result.write_content("backdoor/setuid.txt", output)
     for line in output.splitlines():
         if b'/usr/bin/passwd' not in line and b'/usr/bin/chsh' not in line:
             suspicious_setuid_files.append(line)
