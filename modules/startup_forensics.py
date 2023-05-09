@@ -46,15 +46,15 @@ def main():
 
             if os.path.isfile(file_path):
                 if check_directory(directory):
-                    log.print_and_log(f"Non-standard directory: {file_path}: {directory}")
+                    log.print_and_log(f"*Non-standard directory: {file_path}: {directory}")
                     output_result.write_content("suspicious.txt", f"Non-standard directory: {file_path}: {directory}")
 
                 if check_unusual_permissions(file_path):
-                    log.print_and_log(f"Unusual permissions: {file_path}")
+                    log.print_and_log(f"*Unusual permissions: {file_path}")
                     output_result.write_content("suspicious.txt", f"Unusual permissions: {file_path}")
 
                 if check_hidden_behavior(file_path):
-                    log.print_and_log(f"Hidden behavior: {file_path}")
+                    log.print_and_log(f"*Hidden behavior: {file_path}")
                     output_result.write_content("suspicious.txt", f"Hidden behavior: {file_path}")
 
 

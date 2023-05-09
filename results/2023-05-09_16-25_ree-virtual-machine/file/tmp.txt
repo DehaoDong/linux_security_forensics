@@ -1,0 +1,255 @@
+/tmp/liblz4-java-6849496774223524979.so
+Type: regular file
+Mode: -rw-rw-r--
+Owner: ree
+Group: ree
+Size: 154886
+Blocks: 304
+Block Size: 4096
+Links: 1
+Inode: 2491345
+Creation Time: 2023-05-09 09:58:53
+Modification Time: 2023-05-09 09:58:53
+Access Time: 2023-05-09 09:58:53
+Symlink Target: 
+
+/tmp/sogoupinyinsogouimebs-qimpanel-watchdog-1000:0.pid
+Type: regular file
+Mode: -rw-r--r--
+Owner: ree
+Group: ree
+Size: 5
+Blocks: 8
+Block Size: 4096
+Links: 1
+Inode: 2491262
+Creation Time: 2023-05-09 09:46:14
+Modification Time: 2023-05-09 09:46:14
+Access Time: 2023-05-09 09:46:14
+Symlink Target: 
+
+/tmp/liblz4-java-6849496774223524979.so.lck
+Type: regular file
+Mode: -rw-rw-r--
+Owner: ree
+Group: ree
+Size: 0
+Blocks: 0
+Block Size: 4096
+Links: 1
+Inode: 2491331
+Creation Time: 2023-05-09 09:58:53
+Modification Time: 2023-05-09 09:58:53
+Access Time: 2023-05-09 09:58:53
+Symlink Target: 
+
+/tmp/.X1025-lock
+Type: regular file
+Mode: -r--r--r--
+Owner: gdm
+Group: gdm
+Size: 11
+Blocks: 8
+Block Size: 4096
+Links: 1
+Inode: 2491053
+Creation Time: 2023-05-09 09:45:36
+Modification Time: 2023-05-09 09:45:36
+Access Time: 2023-05-09 09:45:36
+Symlink Target: 
+
+/tmp/.java_pid3190
+Type: unknown
+Mode: srw-------
+Owner: ree
+Group: ree
+Size: 0
+Blocks: 0
+Block Size: 4096
+Links: 1
+Inode: 2491330
+Creation Time: 2023-05-09 09:58:52
+Modification Time: 2023-05-09 09:58:52
+Access Time: 2023-05-09 09:58:52
+Symlink Target: 
+
+/tmp/.X1-lock
+Type: regular file
+Mode: -r--r--r--
+Owner: ree
+Group: ree
+Size: 11
+Blocks: 8
+Block Size: 4096
+Links: 1
+Inode: 2491056
+Creation Time: 2023-05-09 09:46:09
+Modification Time: 2023-05-09 09:46:09
+Access Time: 2023-05-09 09:46:09
+Symlink Target: 
+
+/tmp/byteBuddyAgent4139441747393832056.jar
+Type: regular file
+Mode: -rw-rw-r--
+Owner: ree
+Group: ree
+Size: 1261
+Blocks: 8
+Block Size: 4096
+Links: 1
+Inode: 2491263
+Creation Time: 2023-05-09 09:58:52
+Modification Time: 2023-05-09 09:58:52
+Access Time: 2023-05-09 09:58:52
+Symlink Target: 
+
+/tmp/xxxtmp.log
+Type: regular file
+Mode: -rw-rw-r--
+Owner: ree
+Group: ree
+Size: 81039
+Blocks: 168
+Block Size: 4096
+Links: 1
+Inode: 2491172
+Creation Time: 2023-05-09 16:24:20
+Modification Time: 2023-05-09 16:24:20
+Access Time: 2023-05-09 09:46:12
+Symlink Target: 
+
+/tmp/.X1024-lock
+Type: regular file
+Mode: -r--r--r--
+Owner: gdm
+Group: gdm
+Size: 11
+Blocks: 8
+Block Size: 4096
+Links: 1
+Inode: 2491034
+Creation Time: 2023-05-09 09:45:36
+Modification Time: 2023-05-09 09:45:36
+Access Time: 2023-05-09 09:45:36
+Symlink Target: 
+
+/tmp/fcitx-socket-:0
+Type: unknown
+Mode: srw-------
+Owner: ree
+Group: ree
+Size: 0
+Blocks: 0
+Block Size: 4096
+Links: 1
+Inode: 2491171
+Creation Time: 2023-05-09 09:46:12
+Modification Time: 2023-05-09 09:46:12
+Access Time: 2023-05-09 09:46:12
+Symlink Target: 
+
+/tmp/.X0-lock
+Type: regular file
+Mode: -r--r--r--
+Owner: ree
+Group: ree
+Size: 11
+Blocks: 8
+Block Size: 4096
+Links: 1
+Inode: 2491033
+Creation Time: 2023-05-09 09:46:09
+Modification Time: 2023-05-09 09:46:09
+Access Time: 2023-05-09 09:46:09
+Symlink Target: 
+
+/tmp/.ICE-unix/1067
+Type: unknown
+Mode: srwxrwxrwx
+Owner: gdm
+Group: gdm
+Size: 0
+Blocks: 0
+Block Size: 4096
+Links: 1
+Inode: 2621812
+Creation Time: 2023-05-09 09:45:35
+Modification Time: 2023-05-09 09:45:35
+Access Time: 2023-05-09 09:45:35
+Symlink Target: 
+
+/tmp/.ICE-unix/1718
+Type: unknown
+Mode: srwxrwxrwx
+Owner: ree
+Group: ree
+Size: 0
+Blocks: 0
+Block Size: 4096
+Links: 1
+Inode: 2621832
+Creation Time: 2023-05-09 09:46:08
+Modification Time: 2023-05-09 09:46:08
+Access Time: 2023-05-09 09:46:08
+Symlink Target: 
+
+/tmp/.X11-unix/X1024
+Type: unknown
+Mode: srwxrwxr-x
+Owner: gdm
+Group: gdm
+Size: 0
+Blocks: 0
+Block Size: 4096
+Links: 1
+Inode: 2621838
+Creation Time: 2023-05-09 09:45:36
+Modification Time: 2023-05-09 09:45:36
+Access Time: 2023-05-09 09:45:36
+Symlink Target: 
+
+/tmp/.X11-unix/X1025
+Type: unknown
+Mode: srwxrwxr-x
+Owner: gdm
+Group: gdm
+Size: 0
+Blocks: 0
+Block Size: 4096
+Links: 1
+Inode: 2621840
+Creation Time: 2023-05-09 09:45:36
+Modification Time: 2023-05-09 09:45:36
+Access Time: 2023-05-09 09:45:36
+Symlink Target: 
+
+/tmp/.X11-unix/X0
+Type: unknown
+Mode: srwxrwxr-x
+Owner: ree
+Group: ree
+Size: 0
+Blocks: 0
+Block Size: 4096
+Links: 1
+Inode: 2621834
+Creation Time: 2023-05-09 09:46:09
+Modification Time: 2023-05-09 09:46:09
+Access Time: 2023-05-09 09:46:09
+Symlink Target: 
+
+/tmp/.X11-unix/X1
+Type: unknown
+Mode: srwxrwxr-x
+Owner: ree
+Group: ree
+Size: 0
+Blocks: 0
+Block Size: 4096
+Links: 1
+Inode: 2621852
+Creation Time: 2023-05-09 09:46:09
+Modification Time: 2023-05-09 09:46:09
+Access Time: 2023-05-09 09:46:09
+Symlink Target: 
+

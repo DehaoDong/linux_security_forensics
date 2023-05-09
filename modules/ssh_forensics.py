@@ -34,7 +34,7 @@ def analyze_log(log_lines):
     suspicious_logins = []
 
     # 超过这么多次登录判定为可疑
-    suspicious_login_times = 20
+    suspicious_login_times = 5
 
     for line in log_lines:
         if "sshd" in line:

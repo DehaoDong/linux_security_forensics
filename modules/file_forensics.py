@@ -6,38 +6,44 @@ import grp
 from modules import log, output_result
 
 
+# 备份文件详情
 def backup_file_details(path, output_file):
     for root, _, files in os.walk(path):
         for file in files:
             file_path = os.path.join(root, file)
-            file_stat = os.stat(file_path)
+            try:
+                file_stat = os.stat(file_path)
 
-            file_type = "unknown"
-            if stat.S_ISREG(file_stat.st_mode):
-                file_type = "regular file"
-            elif stat.S_ISDIR(file_stat.st_mode):
-                file_type = "directory"
-            elif stat.S_ISLNK(file_stat.st_mode):
-                file_type = "symbolic link"
+                file_type = "unknown"
+                if stat.S_ISREG(file_stat.st_mode):
+                    file_type = "regular file"
+                elif stat.S_ISDIR(file_stat.st_mode):
+                    file_type = "directory"
+                elif stat.S_ISLNK(file_stat.st_mode):
+                    file_type = "symbolic link"
 
-            file_mode = stat.filemode(file_stat.st_mode)
-            file_owner = pwd.getpwuid(file_stat.st_uid).pw_name
-            file_group = grp.getgrgid(file_stat.st_gid).gr_name
-            file_size = file_stat.st_size
-            file_blocks = file_stat.st_blocks
-            file_block_size = file_stat.st_blksize
-            file_links = file_stat.st_nlink
-            file_inode = file_stat.st_ino
-            file_ctime = datetime.datetime.fromtimestamp(file_stat.st_ctime).strftime('%Y-%m-%d %H:%M:%S')
-            file_mtime = datetime.datetime.fromtimestamp(file_stat.st_mtime).strftime('%Y-%m-%d %H:%M:%S')
-            file_atime = datetime.datetime.fromtimestamp(file_stat.st_atime).strftime('%Y-%m-%d %H:%M:%S')
+                file_mode = stat.filemode(file_stat.st_mode)
+                file_owner = pwd.getpwuid(file_stat.st_uid).pw_name
+                file_group = grp.getgrgid(file_stat.st_gid).gr_name
+                file_size = file_stat.st_size
+                file_blocks = file_stat.st_blocks
+                file_block_size = file_stat.st_blksize
+                file_links = file_stat.st_nlink
+                file_inode = file_stat.st_ino
+                file_ctime = datetime.datetime.fromtimestamp(file_stat.st_ctime).strftime('%Y-%m-%d %H:%M:%S')
+                file_mtime = datetime.datetime.fromtimestamp(file_stat.st_mtime).strftime('%Y-%m-%d %H:%M:%S')
+                file_atime = datetime.datetime.fromtimestamp(file_stat.st_atime).strftime('%Y-%m-%d %H:%M:%S')
 
-            symlink_target = ""
-            if file_type == "symbolic link":
-                symlink_target = os.readlink(file_path)
+                symlink_target = ""
+                if file_type == "symbolic link":
+                    symlink_target = os.readlink(file_path)
 
-            file_details = f"{file_path}\nType: {file_type}\nMode: {file_mode}\nOwner: {file_owner}\nGroup: {file_group}\nSize: {file_size}\nBlocks: {file_blocks}\nBlock Size: {file_block_size}\nLinks: {file_links}\nInode: {file_inode}\nCreation Time: {file_ctime}\nModification Time: {file_mtime}\nAccess Time: {file_atime}\nSymlink Target: {symlink_target}\n"
-            output_result.write_content(output_file, file_details)
+                file_details = f"{file_path}\nType: {file_type}\nMode: {file_mode}\nOwner: {file_owner}\nGroup: {file_group}\nSize: {file_size}\nBlocks: {file_blocks}\nBlock Size: {file_block_size}\nLinks: {file_links}\nInode: {file_inode}\nCreation Time: {file_ctime}\nModification Time: {file_mtime}\nAccess Time: {file_atime}\nSymlink Target: {symlink_target}\n"
+                output_result.write_content(output_file, file_details)
+
+            except PermissionError:
+                log.print_and_log(f"Permission denied for {file_path}")
+                output_result.write_content("suspicious.txt", f"Permission denied for {file_path}")
 
 
 # 系统文件可执行性扫描
