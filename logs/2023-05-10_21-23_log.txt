@@ -1,0 +1,41 @@
+2023-05-10 21:23:48,478
+取证结果存放目录(directory for storing forensics result)：./results/2023-05-10_21-23_ubuntu/
+
+2023-05-10 21:23:48,479
+系统信息(System information):
+2023-05-10 21:23:48,479
+Operating System: Linux
+2023-05-10 21:23:48,479
+Node Name: ubuntu
+2023-05-10 21:23:48,479
+Release: 5.15.0-71-generic
+2023-05-10 21:23:48,479
+Version: #78~20.04.1-Ubuntu SMP Wed Apr 19 11:26:48 UTC 2023
+2023-05-10 21:23:48,479
+Machine: x86_64
+2023-05-10 21:23:48,480
+Processor: x86_64
+2023-05-10 21:23:48,480
+IP Address: 192.168.177.130
+2023-05-10 21:23:48,480
+CPU Cores: 2
+2023-05-10 21:23:48,480
+Total Memory: 7.73 GB
+2023-05-10 21:23:48,480
+Total Disk Space: 23.94 GB
+2023-05-10 21:23:48,480
+Checking backdoors...
+2023-05-10 21:23:48,498
+*Found suspected environment variable backdoors:
+2023-05-10 21:23:48,498
+*LD_PRELOAD found in /home/ree/.bashrc
+2023-05-10 21:23:48,499
+No suspected ld.so.preload backdoors found
+2023-05-10 21:23:48,502
+No suspected cron backdoors found
+2023-05-10 21:23:48,523
+No suspected SSH backdoors found
+2023-05-10 21:23:48,524
+No suspected SSH wrapper backdoor found
+2023-05-10 21:23:48,524
+No suspected inetd backdoors found

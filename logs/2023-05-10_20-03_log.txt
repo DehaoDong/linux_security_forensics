@@ -1,0 +1,51 @@
+2023-05-10 20:03:08,471
+取证结果存放目录(directory for storing forensics result)：./results/2023-05-10_20-03_ubuntu/
+
+2023-05-10 20:03:08,471
+系统信息(System information):
+2023-05-10 20:03:08,471
+Operating System: Linux
+2023-05-10 20:03:08,471
+Node Name: ubuntu
+2023-05-10 20:03:08,471
+Release: 5.15.0-71-generic
+2023-05-10 20:03:08,472
+Version: #78~20.04.1-Ubuntu SMP Wed Apr 19 11:26:48 UTC 2023
+2023-05-10 20:03:08,472
+Machine: x86_64
+2023-05-10 20:03:08,472
+Processor: x86_64
+2023-05-10 20:03:08,472
+IP Address: 192.168.177.130
+2023-05-10 20:03:08,472
+CPU Cores: 2
+2023-05-10 20:03:08,472
+Total Memory: 7.73 GB
+2023-05-10 20:03:08,472
+Total Disk Space: 23.94 GB
+2023-05-10 20:03:08,472
+Checking backdoors...
+2023-05-10 20:03:08,481
+No environment variable backdoors found
+2023-05-10 20:03:08,481
+No ld.so.preload backdoors found
+2023-05-10 20:03:08,481
+Malicious key words detected in /etc/cron.d/php: nc
+2023-05-10 20:03:08,482
+Malicious key words detected in /etc/cron.daily/popularity-contest: rm -rf
+2023-05-10 20:03:08,482
+Malicious key words detected in /etc/cron.daily/bsdmainutils: nc
+2023-05-10 20:03:08,483
+*Found cron backdoors:
+2023-05-10 20:03:08,483
+*/etc/cron.d/php
+2023-05-10 20:03:08,484
+*/etc/cron.daily/popularity-contest
+2023-05-10 20:03:08,484
+*/etc/cron.daily/bsdmainutils
+2023-05-10 20:03:08,499
+No SSH backdoors found
+2023-05-10 20:03:08,508
+No SSH wrapper backdoor found
+2023-05-10 20:03:08,508
+No inetd backdoors found

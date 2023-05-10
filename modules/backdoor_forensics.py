@@ -6,23 +6,23 @@ import re
 from modules import log, output_result
 
 
-def check_conf(tag, file_path, mode='only'):
+def check_conf(tag, file_path):
     try:
         if not os.path.exists(file_path) or os.path.isdir(file_path):
-            return ""
+            return "", ""
 
         with open(file_path) as f:
             for line in f:
                 if len(line) < 3 or line[0] == '#':
                     continue
-                if mode == 'only' and f'export {tag}' in line:
-                    return line
-        return ""
+                if f'export {tag}' in line:
+                    return line, file_path
+        return "", ""
     except:
-        return ""
+        return "", ""
 
 
-def check_tag(tag, mode='only'):
+def check_tag(tag):
     suspicious = False
     files = [
         '/root/.bashrc', '/root/.tcshrc', '/root/.bash_profile', '/root/.cshrc', '/root/.tcshrc',
@@ -33,28 +33,31 @@ def check_tag(tag, mode='only'):
     for dir in os.listdir('/home/'):
         for home_file in home_files:
             file = os.path.join(f'/home/{dir}{home_file}')
-            # 备份
+            # Backup
             output_result.write_content(f"backdoor/env/{file.replace('/', '_')}", file)
-            info = check_conf(tag, file, mode)
+            info, path = check_conf(tag, file)
             if info:
                 suspicious = True
+                return suspicious, path
 
     for file in files:
         if os.path.isdir(file):
             for f in glob.glob(os.path.join(file, '*')):
-                # 备份
+                # Backup
                 output_result.write_content(f"backdoor/env/{f.replace('/', '_')}", f)
-                info = check_conf(tag, f, mode)
+                info, path = check_conf(tag, f)
                 if info:
                     suspicious = True
+                    return suspicious, path
         else:
-            # 备份
+            # Backup
             output_result.write_content(f"backdoor/env/{file.replace('/', '_')}", file)
-            info = check_conf(tag, file, mode)
+            info, path = check_conf(tag, file)
             if info:
                 suspicious = True
+                return suspicious, path
 
-    return suspicious
+    return suspicious, ""
 
 
 def check_environment_variable_backdoors():
@@ -68,10 +71,12 @@ def check_environment_variable_backdoors():
     for var in backdoor_variables:
         # 检查运行中的环境变量
         if var in os.environ:
-            found_backdoors.append((var, os.environ[var]))
+            found_backdoors.append((var, os.environ[var], 'Running environment'))
         # 检查配置文件中的环境变量
-        if (var not in os.environ or (var, os.environ[var]) not in found_backdoors) and check_tag(var):
-            found_backdoors.append(var)
+        if var not in os.environ or (var, os.environ[var], _) not in found_backdoors:
+            is_suspicious, path = check_tag(var)
+            if is_suspicious:
+                found_backdoors.append((var, path))
 
     return found_backdoors
 
@@ -91,12 +96,14 @@ def check_ld_so_preload_backdoors():
 
 def is_malicious_cron(file_path):
     # 这是一个包含已知恶意字符串的示例列表，您可以根据需要扩展此列表
-    malicious_strings = ['rm -rf', 'wget', 'curl', 'nc']
+    malicious_strings = ['wget', 'curl', 'nc']
 
     with open(file_path) as f:
         content = f.read()
+        words = content.split()  # 拆分文件内容为单词列表
         for malicious_string in malicious_strings:
-            if malicious_string in content:
+            if malicious_string in words:  # 检查单词列表是否包含恶意字符串
+                print(f"Malicious key words detected in {file_path}: {malicious_string}")
                 return True
     return False
 
@@ -174,62 +181,62 @@ def main():
     log.print_and_log("Checking backdoors...")
     environment_variable_backdoors = check_environment_variable_backdoors()
     if environment_variable_backdoors:
-        log.print_and_log("*Found environment variable backdoors:")
-        output_result.write_content("suspicious.txt", "Found environment variable backdoors:")
+        log.print_and_log("*Found suspected environment variable backdoors:")
+        output_result.write_content("suspicious.txt", "Found suspected environment variable backdoors:")
         for backdoor in environment_variable_backdoors:
-            log.print_and_log(f"*{backdoor}")
-            output_result.write_content("suspicious.txt", f"#{backdoor}")
+            log.print_and_log(f"*{backdoor[0]} found in {backdoor[1]}")
+            output_result.write_content("suspicious.txt", f"*{backdoor[0]} found in {backdoor[1]}")
     else:
-        log.print_and_log("No environment variable backdoors found")
+        log.print_and_log("No suspected environment variable backdoors found")
 
     sopreload_backdoors = check_ld_so_preload_backdoors()
     if sopreload_backdoors:
-        log.print_and_log("*Found ld.so.preload backdoors:")
-        output_result.write_content("suspicious.txt", "Found ld.so.preload backdoors:")
+        log.print_and_log("*Found suspected ld.so.preload backdoors:")
+        output_result.write_content("suspicious.txt", "Found suspected ld.so.preload backdoors:")
         for backdoor in sopreload_backdoors:
             log.print_and_log(f"*{backdoor}")
             output_result.write_content("suspicious.txt", f"#{backdoor}")
     else:
-        log.print_and_log("No ld.so.preload backdoors found")
+        log.print_and_log("No suspected ld.so.preload backdoors found")
 
     cron_backdoors = check_cron()
     if cron_backdoors:
-        log.print_and_log("*Found cron backdoors:")
-        output_result.write_content("suspicious.txt", "Found cron backdoors:")
+        log.print_and_log("*Found suspected cron backdoors:")
+        output_result.write_content("suspicious.txt", "Found suspected cron backdoors:")
         for backdoor in cron_backdoors:
             log.print_and_log(f"*{backdoor}")
             output_result.write_content("suspicious.txt", f"#{backdoor}")
     else:
-        log.print_and_log("No cron backdoors found")
+        log.print_and_log("No suspected cron backdoors found")
 
     ssh_backdoors = check_ssh()
     if ssh_backdoors:
-        log.print_and_log("*Found SSH backdoors:")
-        output_result.write_content("suspicious.txt", "Found SSH backdoors:")
+        log.print_and_log("*Found suspected SSH backdoors:")
+        output_result.write_content("suspicious.txt", "Found suspected SSH backdoors:")
         for backdoor in ssh_backdoors:
             log.print_and_log(f"*{backdoor}")
             output_result.write_content("suspicious.txt", f"#{backdoor}")
     else:
-        log.print_and_log("No SSH backdoors found")
+        log.print_and_log("No suspected SSH backdoors found")
 
     sshwrapper_backdoor = check_ssh_wrapper()
     if sshwrapper_backdoor:
-        log.print_and_log("*Found SSH wrapper backdoor:")
-        output_result.write_content("suspicious.txt", "Found SSH wrapper backdoor:")
+        log.print_and_log("*Found suspected SSH wrapper backdoor:")
+        output_result.write_content("suspicious.txt", "Found suspected SSH wrapper backdoor:")
         log.print_and_log(f"*{sshwrapper_backdoor}")
         output_result.write_content("suspicious.txt", f"#{sshwrapper_backdoor}")
     else:
-        log.print_and_log("No SSH wrapper backdoor found")
+        log.print_and_log("No suspected SSH wrapper backdoor found")
 
     inetd_backdoors = check_inetd()
     if inetd_backdoors:
-        log.print_and_log("*Found inetd backdoors:")
-        output_result.write_content("suspicious.txt", "Found inetd backdoors:")
+        log.print_and_log("*Found suspected inetd backdoors:")
+        output_result.write_content("suspicious.txt", "Found suspected inetd backdoors:")
         for backdoor in inetd_backdoors:
             log.print_and_log(f"*{backdoor}")
             output_result.write_content("suspicious.txt", f"#{backdoor}")
     else:
-        log.print_and_log("No inetd backdoors found")
+        log.print_and_log("No suspected inetd backdoors found")
 
 
 if __name__ == "__main__":

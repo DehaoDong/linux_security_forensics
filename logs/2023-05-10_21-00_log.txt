@@ -1,0 +1,27 @@
+2023-05-10 21:00:37,495
+取证结果存放目录(directory for storing forensics result)：./results/2023-05-10_21-00_ubuntu/
+
+2023-05-10 21:00:37,496
+系统信息(System information):
+2023-05-10 21:00:37,496
+Operating System: Linux
+2023-05-10 21:00:37,496
+Node Name: ubuntu
+2023-05-10 21:00:37,496
+Release: 5.15.0-71-generic
+2023-05-10 21:00:37,496
+Version: #78~20.04.1-Ubuntu SMP Wed Apr 19 11:26:48 UTC 2023
+2023-05-10 21:00:37,496
+Machine: x86_64
+2023-05-10 21:00:37,496
+Processor: x86_64
+2023-05-10 21:00:37,496
+IP Address: 192.168.177.130
+2023-05-10 21:00:37,496
+CPU Cores: 2
+2023-05-10 21:00:37,496
+Total Memory: 7.73 GB
+2023-05-10 21:00:37,497
+Total Disk Space: 23.94 GB
+2023-05-10 21:00:37,497
+Checking backdoors...
