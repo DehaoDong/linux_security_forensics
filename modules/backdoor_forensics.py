@@ -71,9 +71,9 @@ def check_environment_variable_backdoors():
     for var in backdoor_variables:
         # 检查运行中的环境变量
         if var in os.environ:
-            found_backdoors.append((var, os.environ[var], 'Running environment'))
+            found_backdoors.append((var, os.environ[var]))
         # 检查配置文件中的环境变量
-        if var not in os.environ or (var, os.environ[var], _) not in found_backdoors:
+        if var not in os.environ or (var, os.environ[var]) not in found_backdoors:
             is_suspicious, path = check_tag(var)
             if is_suspicious:
                 found_backdoors.append((var, path))
@@ -90,7 +90,7 @@ def check_ld_so_preload_backdoors():
             content = f.read().strip()
             if content:
                 output_result.write_content("backdoor/ld.so.preload", ld_so_preload_path)
-                sopreload_backdoors.append(('ld.so.preload', content))
+                sopreload_backdoors.append(content)
     return sopreload_backdoors
 
 
@@ -103,7 +103,7 @@ def is_malicious_cron(file_path):
         words = content.split()  # 拆分文件内容为单词列表
         for malicious_string in malicious_strings:
             if malicious_string in words:  # 检查单词列表是否包含恶意字符串
-                print(f"Malicious key words detected in {file_path}: {malicious_string}")
+                log.print_and_log(f"*Malicious key words detected in {file_path}: {malicious_string}")
                 return True
     return False
 
@@ -126,10 +126,11 @@ def check_cron():
 def check_ssh():
     suspicious_sshd = []
     output = subprocess.check_output(['ps', 'aux'])
+
     for line in output.splitlines():
         if b'sshd' in line:
             if not b'root' in line and not b'22' in line:
-                suspicious_sshd.append(line)
+                suspicious_sshd.append(line.decode())
     return suspicious_sshd
 
 
@@ -145,7 +146,7 @@ def check_inetd():
     suspicious_inetd = []
     inetd_conf = '/etc/inetd.conf'
     if os.path.exists(inetd_conf):
-        output_result.write_content(f"backdoor/{inetd_conf.replace('/', '_')}")
+        output_result.write_content(f"backdoor/{inetd_conf.replace('/', '_')}", inetd_conf)
         with open(inetd_conf) as f:
             for line in f:
                 if line and line[0] != '#' and re.search(r'\b(?:echo|discard|chargen|daytime|time)\b', line):
@@ -169,8 +170,12 @@ def check_xinetd():
 
 def check_setuid():
     suspicious_setuid_files = []
-    output = subprocess.check_output(['find', '/', '-perm', '-4000', '-type', 'f', '2>/dev/null'])
-    output_result.write_content("backdoor/setuid.txt", output)
+    try:
+        output = subprocess.check_output('find / -perm -4000 -type f 2>/dev/null', shell=True)
+    except subprocess.CalledProcessError as e:
+        output = e.output  # 使用产生异常的输出
+
+    output_result.write_content("backdoor/setuid.txt", output.decode())
     for line in output.splitlines():
         if b'/usr/bin/passwd' not in line and b'/usr/bin/chsh' not in line:
             suspicious_setuid_files.append(line)
@@ -194,8 +199,8 @@ def main():
         log.print_and_log("*Found suspected ld.so.preload backdoors:")
         output_result.write_content("suspicious.txt", "Found suspected ld.so.preload backdoors:")
         for backdoor in sopreload_backdoors:
-            log.print_and_log(f"*{backdoor}")
-            output_result.write_content("suspicious.txt", f"#{backdoor}")
+            log.print_and_log(f"*/etc/ld.so.preload: {backdoor}")
+            output_result.write_content("suspicious.txt", f"/etc/ld.so.preload: {backdoor}")
     else:
         log.print_and_log("No suspected ld.so.preload backdoors found")
 
@@ -215,7 +220,7 @@ def main():
         output_result.write_content("suspicious.txt", "Found suspected SSH backdoors:")
         for backdoor in ssh_backdoors:
             log.print_and_log(f"*{backdoor}")
-            output_result.write_content("suspicious.txt", f"#{backdoor}")
+            output_result.write_content("suspicious.txt", f"{backdoor}")
     else:
         log.print_and_log("No suspected SSH backdoors found")
 
@@ -237,6 +242,26 @@ def main():
             output_result.write_content("suspicious.txt", f"#{backdoor}")
     else:
         log.print_and_log("No suspected inetd backdoors found")
+
+    xinetd_backdoors = check_xinetd()
+    if xinetd_backdoors:
+        log.print_and_log("*Found suspected xinetd backdoors:")
+        output_result.write_content("suspicious.txt", "Found suspected xinetd backdoors:")
+        for backdoor in xinetd_backdoors:
+            log.print_and_log(f"*{backdoor}")
+            output_result.write_content("suspicious.txt", f"{backdoor}")
+    else:
+        log.print_and_log("No suspected xinetd backdoors found")
+
+    # setuid_backdoors = check_setuid()
+    # if setuid_backdoors:
+    #     log.print_and_log("*Found suspected setuid backdoors:")
+    #     output_result.write_content("suspicious.txt", "Found suspected setuid backdoors:")
+    #     for backdoor in setuid_backdoors:
+    #         log.print_and_log(f"*{backdoor.decode()}")
+    #         output_result.write_content("suspicious.txt", f"{backdoor.decode()}")
+    # else:
+    #     log.print_and_log("No suspected setuid backdoors found")
 
 
 if __name__ == "__main__":
