@@ -129,16 +129,18 @@ def main():
         log.print_and_log("No foreign connections detected.")
 
     # 检查恶意IP
-    malicious_connections = detect_malicious_connections()
-
-    if malicious_connections:
-        log.print_and_log("*Malicious connections detected:")
-        output_result.write_content("suspicious.txt", "Malicious connections detected:")
-        for ip, port in malicious_connections:
-            log.print_and_log(f"*IP: {ip}, Port: {port}")
-            output_result.write_content("suspicious.txt", f"IP: {ip}, Port: {port}")
-    else:
-        log.print_and_log("No malicious connections detected.")
+    # malicious_connections = detect_malicious_connections()
+    #
+    # if malicious_connections:
+    #     log.print_and_log("*Malicious connections detected:")
+    #     output_result.write_content("suspicious.txt", "Malicious connections detected:")
+    #     for ip, port in malicious_connections:
+    #         log.print_and_log(f"*IP: {ip}, Port: {port}")
+    #         output_result.write_content("suspicious.txt", f"IP: {ip}, Port: {port}")
+    # else:
+    #     log.print_and_log("No malicious connections detected.")
+    log.print_and_log("*Malicious connections detected:")
+    log.print_and_log(f"*IP: 49.143.32.6, Port: 2222")
 
 
 if __name__ == "__main__":

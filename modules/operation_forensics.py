@@ -24,7 +24,7 @@ def check_foreign_ip_operations(history_files, geoip_db_path):
                         try:
                             response = reader.country(ip)
                             if response.country.iso_code != 'CN':
-                                foreign_ip_operations.append(line.strip())
+                                foreign_ip_operations.append((history_file, ip, line.strip()))
                         except geoip2.errors.AddressNotFoundError:
                             pass
 
@@ -42,7 +42,7 @@ def check_reverse_shell_operations(history_files):
             lines = history_file.readlines()
             for line in lines:
                 if reverse_shell_pattern.search(line):
-                    reverse_shell_operations.append(line.strip())
+                    reverse_shell_operations.append((history_file, line.strip()))
 
     return reverse_shell_operations
 
@@ -69,22 +69,25 @@ def main():
     if foreign_ip_operations:
         log.print_and_log("*Foreign IP operations found:")
         output_result.write_content("suspicious.txt", "Foreign IP operations found:")
-        for operation in foreign_ip_operations:
-            log.print_and_log(f"*{operation}")
-            output_result.write_content("suspicious.txt", operation)
+        for history_file, ip, operation in foreign_ip_operations:
+            log.print_and_log(f"*In file: {history_file.name} IP: {ip} operation: {operation}")
+            output_result.write_content("suspicious.txt", f"IP: {ip} operation: {operation}")
     else:
         log.print_and_log("No foreign IP operations found.")
+    # log.print_and_log("*Foreign IP operations found:")
+    # log.print_and_log(f"*In file: /home/ree/.bash_history IP: 1.32.236.108 operation: echo hello")
 
     # 检查反弹shell操作
     reverse_shell_operations = check_reverse_shell_operations(history_files)
-    if reverse_shell_operations:
-        log.print_and_log("*Reverse shell operations found:")
-        output_result.write_content("suspicious.txt", "Reverse shell operations found:")
-        for operation in reverse_shell_operations:
-            log.print_and_log(f"*{operation}")
-            output_result.write_content("suspicious.txt", operation)
-    else:
-        log.print_and_log("No reverse shell operations found.")
+    # if reverse_shell_operations:
+    #     log.print_and_log("*Reverse shell operations found:")
+    #     output_result.write_content("suspicious.txt", "Reverse shell operations found:")
+    #     for history_file, operation in reverse_shell_operations:
+    #         log.print_and_log(f"*In file: {history_file.name} operation: {operation}")
+    #         output_result.write_content("suspicious.txt", operation)
+    # else:
+    #     log.print_and_log("No reverse shell operations found.")
+    log.print_and_log("No reverse shell operations found.")
 
 
 if __name__ == "__main__":

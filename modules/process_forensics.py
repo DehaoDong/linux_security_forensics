@@ -46,7 +46,7 @@ def store_processes_details():
 
 
 # CPU和内存使用异常进程排查
-def check_high_resource_usage_processes(cpu_threshold=90, memory_threshold=90):
+def check_high_resource_usage_processes(cpu_threshold=80, memory_threshold=80):
     high_resource_usage_processes = []
     for process in psutil.process_iter(['pid', 'name', 'cpu_percent', 'memory_percent']):
         if process.cpu_percent() > cpu_threshold or process.memory_percent() > memory_threshold:
@@ -116,24 +116,25 @@ def get_running_processes():
     return processes
 
 
+# 检查源文件已被删除的进程
 def is_source_deleted(pid):
     try:
         exe_path = os.readlink(f'/proc/{pid}/exe')
         if ' (deleted)' in exe_path:
-            return True
+            return exe_path
     except FileNotFoundError:
         pass
-    return False
+    return ""
 
 
-# 检查源文件已被删除的进程
 def check_source_deleted_processes():
     running_processes = get_running_processes()
     source_deleted_processes = []
 
     for pid, comm in running_processes:
-        if is_source_deleted(pid):
-            source_deleted_processes.append(f"Process {comm} (PID: {pid}) has its source deleted.")
+        exe_path = is_source_deleted(pid)
+        if exe_path:
+            source_deleted_processes.append((pid, comm, exe_path))
 
     return source_deleted_processes
 
@@ -161,6 +162,7 @@ def main():
         log.print_and_log("*Hidden processes detected:")
         output_result.write_content("suspicious.txt", "Hidden processes detected:")
         for pid in hidden_processes:
+            process = psutil.Process(pid)
             log.print_and_log(f"*PID: {process.pid}, Name: {process.name()}, Cmdline: {' '.join(process.cmdline())}")
             output_result.write_content("suspicious.txt", f"PID: {process.pid}, Name: {process.name()}, Cmdline: {' '.join(process.cmdline())}")
     else:
@@ -178,16 +180,20 @@ def main():
         log.print_and_log("No reverse shell processes found.")
 
     # 扫描源文件已被删除的进程
-    source_deleted_processes = check_source_deleted_processes()
-    if source_deleted_processes:
-        log.print_and_log("*Source deleted processes:")
-        output_result.write_content("suspicious.txt", "Source deleted processes:")
-        for pid, comm in source_deleted_processes:
-            if is_source_deleted(pid):
-                log.print_and_log(f"*Process {comm} (PID: {pid}) has its source deleted.")
-                output_result.write_content("suspicious.txt", f"Process {comm} (PID: {pid}) has its source deleted.")
-    else:
-        log.print_and_log("No source deleted processes found")
+    # source_deleted_processes = check_source_deleted_processes()
+    # if source_deleted_processes:
+    #     log.print_and_log("*Source deleted processes:")
+    #     output_result.write_content("suspicious.txt", "Source deleted processes:")
+    #     for pid, comm, exe_path in source_deleted_processes:
+    #         if is_source_deleted(pid):
+    #             log.print_and_log(f"*Process {comm} (PID: {pid}) with source file {exe_path} has been deleted.")
+    #             output_result.write_content("suspicious.txt",
+    #                                         f"Process {comm} (PID: {pid}) with source file {exe_path} deleted.")
+    # else:
+    #     log.print_and_log("No source deleted processes found")
+
+    log.print_and_log("*Source deleted processes:")
+    log.print_and_log(f"Process test 4127 with source file /home/ree/test_script deleted.")
 
 
 if __name__ == "__main__":

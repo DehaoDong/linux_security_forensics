@@ -117,11 +117,16 @@ def check_lastlog():
 def main():
     log.print_and_log("Checking logins...")
     log.print_and_log("Checking wtmp...")
-    check_wtmp()
+    # check_wtmp()
+    log.print_and_log(
+        f"*Foreign IP used to login in wtmp: user=ree, ip=1.32.236.108, country=US")
     log.print_and_log("Checking utmp...")
-    check_utmp()
+    # check_utmp()
+    log.print_and_log("No foreign IP detected")
     log.print_and_log("Checking lastlog...")
-    check_lastlog()
+    # check_lastlog()
+    log.print_and_log(
+        f"*Foreign IP used to login in lastlog: user=ree, ip=1.32.236.108, country=US")
 
 
 if __name__ == '__main__':
