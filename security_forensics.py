@@ -4,7 +4,7 @@ import sys
 
 from modules import alias_forensics, process_forensics, connection_forensics, login_forensics, operation_forensics, \
     webserver_forensics, file_forensics, startup_forensics, app_package_forensics, backdoor_forensics, output_result, get_host_info, \
-    log, get_users_info, backup_sys_file, ssh_forensics, disable_network
+    log, users_info_forensics, backup_sys_file, ssh_forensics, disable_network
 
 if __name__ == "__main__":
     # running options
@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
     if args.all:
         log.print_and_log('执行所有检查(Running all checks)...\n')
-        get_users_info.main()
+        users_info_forensics.main()
         print()
         backup_sys_file.main()
         print()
@@ -103,7 +103,7 @@ if __name__ == "__main__":
             alias_forensics.main()
             print()
         if args.user:
-            get_users_info.main()
+            users_info_forensics.main()
             print()
         if args.sysfile:
             backup_sys_file.main()
